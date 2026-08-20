@@ -105,6 +105,9 @@ def normalize_entities(
         # Check if entity is a quantitative numeric value / threshold (No CUI applicable)
         if is_pure_measurement_value(norm_name, ent_type, ent.get("attributes")):
             match_tier = "Quantitative_Measurement"
+            cui = None
+            sty = None
+            tui = None
         else:
             # --- TIER 1: Curated Bilingual Dictionary Cache ---
             dict_res = dict_lookup.lookup(norm_name)
@@ -114,28 +117,28 @@ def normalize_entities(
                 sty = dict_res.get("sty") or ENTITY_TYPES.get(ent_type, {}).get("sty", "Finding")
                 match_tier = "Tier1_Dictionary"
 
-        # --- TIER 2: LLM Context Translation -> UMLS REST API ---
-        if not cui and settings.UMLS_API_KEY:
-            en_term = translate_term_to_english_with_llm(norm_name, ent_type, client=client)
-            if en_term:
-                from scripts.verify_umls_dict import search_best_umls_concept
-                concept = search_best_umls_concept(en_term, entity_type=ent_type, api_key=settings.UMLS_API_KEY)
-                if concept:
-                    cui = concept.get("cui")
-                    sty = concept.get("sty")
-                    tui = concept.get("tui")
-                    match_tier = f"Tier2_LLM_UMLS_REST({en_term})"
-                    dict_lookup.add_entry(norm_name, en_term, cui, tui or "T033", ent_type)
+            # --- TIER 2: LLM Context Translation -> UMLS REST API ---
+            if not cui and settings.UMLS_API_KEY:
+                en_term = translate_term_to_english_with_llm(norm_name, ent_type, client=client)
+                if en_term:
+                    from scripts.verify_umls_dict import search_best_umls_concept
+                    concept = search_best_umls_concept(en_term, entity_type=ent_type, api_key=settings.UMLS_API_KEY)
+                    if concept:
+                        cui = concept.get("cui")
+                        sty = concept.get("sty")
+                        tui = concept.get("tui")
+                        match_tier = f"Tier2_LLM_UMLS_REST({en_term})"
+                        dict_lookup.add_entry(norm_name, en_term, cui, tui or "T033", ent_type)
 
-        # --- TIER 3: Vector / Dense Embedding Fallback Matcher ---
-        if not cui:
-            candidates = list(dict_lookup._entries.values())
-            vec_res = vector_matcher.find_best_match(norm_name, candidates)
-            if vec_res:
-                cui = vec_res.get("cui")
-                tui = vec_res.get("tui")
-                sty = vec_res.get("sty") or ENTITY_TYPES.get(ent_type, {}).get("sty", "Finding")
-                match_tier = f"Tier3_VectorSimilarity({vec_res.get('similarity_score', 0):.2f})"
+            # --- TIER 3: Vector / Dense Embedding Fallback Matcher ---
+            if not cui:
+                candidates = list(dict_lookup._entries.values())
+                vec_res = vector_matcher.find_best_match(norm_name, candidates)
+                if vec_res:
+                    cui = vec_res.get("cui")
+                    tui = vec_res.get("tui")
+                    sty = vec_res.get("sty") or ENTITY_TYPES.get(ent_type, {}).get("sty", "Finding")
+                    match_tier = f"Tier3_VectorSimilarity({vec_res.get('similarity_score', 0):.2f})"
 
         # Assign resolved fields
         ent_copy["umls_cui"] = cui
