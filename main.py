@@ -338,7 +338,7 @@ def main():
     elif args.command == "evaluate":
         from evaluation.pipeline import MultiAgentEvaluator
         evaluator = MultiAgentEvaluator()
-        scorecard, md_file, json_file = evaluator.evaluate_csv(
+        scorecard, md_file, json_file, verified_csv = evaluator.evaluate_csv(
             csv_path=args.input,
             output_dir=args.output_dir,
         )
@@ -352,6 +352,7 @@ def main():
         print(f"Graph Consistency:   {scorecard.graph_consistency_score}%")
         print(f"OVERALL QUALITY:     {scorecard.overall_quality_score} / 100")
         print(f"Grade:               {scorecard.grade}")
+        print(f"Verified CSV:        {verified_csv}")
         print(f"Scorecard Markdown:  {md_file}")
         print(f"Report JSON:         {json_file}")
         print("=" * 65 + "\n")

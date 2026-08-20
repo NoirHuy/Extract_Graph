@@ -68,7 +68,7 @@ class ChiefMedicalAdjudicator:
         healed_count = 0
         flagged_count = 0
 
-        # Collect suggested fixes by row index
+        # Collect issues by row index
         all_reviews: List[TripletReviewItem] = (
             clinical_report.reviews + ontology_report.reviews + graph_report.reviews
         )
@@ -78,34 +78,46 @@ class ChiefMedicalAdjudicator:
                 row_issues.setdefault(rev.row_index, []).append(rev)
 
         flagged_count = len(row_issues)
+        verified_rows: List[Dict[str, Any]] = []
 
         for idx, row in enumerate(raw_rows, 1):
             row_copy = dict(row)
             issues = row_issues.get(idx, [])
             healed = False
+            has_fatal_fail = False
 
             for issue in issues:
-                if issue.suggested_fix:
-                    for k, v in issue.suggested_fix.items():
-                        if k == "source_cui":
-                            row_copy["Mã CUI nguồn"] = v
-                            healed = True
-                        elif k == "target_cui":
-                            row_copy["Mã CUI đích"] = v
-                            healed = True
-                        elif k == "relation":
-                            row_copy["Quan hệ lâm sàng (Relation)"] = v
-                            healed = True
-                        elif k == "source":
-                            row_copy["Thực thể nguồn (Source)"] = v
-                            healed = True
-                        elif k == "target":
-                            row_copy["Thực thể đích (Target)"] = v
-                            healed = True
+                if issue.status == "FAIL":
+                    if issue.suggested_fix:
+                        for k, v in issue.suggested_fix.items():
+                            if k == "source_cui":
+                                row_copy["Mã CUI nguồn"] = v
+                                healed = True
+                            elif k == "target_cui":
+                                row_copy["Mã CUI đích"] = v
+                                healed = True
+                            elif k == "relation":
+                                row_copy["Quan hệ lâm sàng (Relation)"] = v
+                                healed = True
+                            elif k == "source":
+                                row_copy["Thực thể nguồn (Source)"] = v
+                                healed = True
+                            elif k == "target":
+                                row_copy["Thực thể đích (Target)"] = v
+                                healed = True
+                    else:
+                        has_fatal_fail = True
+
+            # If a row has a fatal fail that cannot be healed, exclude it from verified dataset
+            if has_fatal_fail:
+                continue
 
             if healed:
                 healed_count += 1
-            healed_rows.append(row_copy)
+
+            # Re-index STT sequentially
+            row_copy["STT"] = str(len(verified_rows) + 1)
+            verified_rows.append(row_copy)
 
         scorecard = EvaluationScorecard(
             document_name=doc_name,
@@ -125,7 +137,7 @@ class ChiefMedicalAdjudicator:
             auto_healed_rows_count=healed_count,
         )
 
-        return scorecard, healed_rows
+        return scorecard, verified_rows
 
     def export_scorecard_markdown(self, scorecard: EvaluationScorecard, output_file: Path):
         """Export comprehensive evaluation scorecard to Markdown."""

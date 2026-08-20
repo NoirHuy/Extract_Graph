@@ -73,15 +73,14 @@ class MultiAgentEvaluator:
         with open(json_file, "w", encoding="utf-8") as f:
             json.dump(scorecard.model_dump(), f, ensure_ascii=False, indent=2)
 
-        # 3. Export Healed CSV if any auto-heals were applied
-        if scorecard.auto_healed_rows_count > 0:
-            healed_csv = out_path / f"{stem}_healed.csv"
-            fieldnames = list(reader[0].keys()) if reader else []
-            with open(healed_csv, "w", encoding="utf-8-sig", newline="") as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(healed_rows)
-            logger.info(f"Exported auto-healed CSV to {healed_csv}")
+        # 3. Export Verified Triplet CSV (Exact format as original summary CSV, containing only verified triplets)
+        verified_csv = out_path / f"{stem}_verified.csv"
+        fieldnames = list(reader[0].keys()) if reader else []
+        with open(verified_csv, "w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(healed_rows)
+        logger.info(f"Successfully exported {len(healed_rows)} certified/verified triplets to {verified_csv}")
 
         logger.info(f"Evaluation complete for {csv_file.name}. Score: {scorecard.overall_quality_score}/100. Saved to {md_file}")
-        return scorecard, md_file, json_file
+        return scorecard, md_file, json_file, verified_csv

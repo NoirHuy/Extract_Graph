@@ -46,7 +46,7 @@ def sample_csv_data(tmp_path):
             "STT": "3",
             "Thực thể nguồn (Source)": "Huyết áp >= 140/90 mmHg",
             "Loại nguồn (Type)": "Measurement",
-            "Mã CUI nguồn": "C5962719",  # Invalid CUI for Measurement
+            "Mã CUI nguồn": "C0596271",  # Invalid CUI assigned to Measurement
             "Chỉ số nguồn (Attributes)": "Thông số: Huyết áp; Giá trị: >= 140/90 mmHg",
             "Quan hệ lâm sàng (Relation)": "Xác định ngưỡng chẩn đoán cho",
             "Thực thể đích (Target)": "Tăng huyết áp",
@@ -141,11 +141,12 @@ def test_end_to_end_multi_agent_pipeline(sample_csv_data, tmp_path):
     csv_path, _ = sample_csv_data
     evaluator = MultiAgentEvaluator()
 
-    scorecard, md_file, json_file = evaluator.evaluate_csv(
+    scorecard, md_file, json_file, verified_csv = evaluator.evaluate_csv(
         csv_path=csv_path,
         output_dir=str(tmp_path)
     )
 
     assert Path(md_file).exists()
     assert Path(json_file).exists()
+    assert Path(verified_csv).exists()
     assert scorecard.total_triplets == 4
