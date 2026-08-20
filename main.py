@@ -268,20 +268,22 @@ def main():
             apply_fixes=args.apply_fixes,
             api_key=args.api_key,
         )
-        print("\n" + "=" * 70)
-        print("  UMLS CUI DICTIONARY VERIFICATION REPORT")
-        print("=" * 70)
-        print(f"Total Dictionary Entries:  {report['total_entries']}")
-        print(f"Verified Exact Matches:    {report['verified_matches']} ({report['verified_matches']/report['total_entries']*100:.1f}%)")
-        print(f"Mismatched / Hallucinated: {report['mismatched_cui_count']}")
-        print(f"Not Found in UMLS:         {report['not_found_count']}")
-        print(f"Report File:               {args.report_path}")
-        print("=" * 70)
+        print("\n" + "=" * 75)
+        print("  UMLS CUI & SEMANTIC NETWORK (TUI/STY) INTEGRITY REPORT")
+        print("=" * 75)
+        print(f"Total Dictionary Entries:      {report['total_entries']}")
+        print(f"Verified Exact Matches:        {report['verified_matches']} ({report['verified_matches']/report['total_entries']*100:.1f}%)")
+        print(f"Healed / Synchronized Entries: {report['mismatched_or_healed_count']}")
+        print(f"Explicit Null / Not Found:     {report['not_found_count']}")
+        print(f"CUI Collisions (Duplicates):    {report['collision_count']}")
+        print(f"TUI <-> STY Mismatches:        {report['tui_sty_mismatch_count']}")
+        print(f"Report File:                   {args.report_path}")
+        print("=" * 75)
         if args.apply_fixes:
-            print("\n Applied verified official CUIs to dictionary successfully.")
+            print("\n Applied verified official CUIs & synchronized TUIs/STYs to dictionary successfully.")
         else:
-            print("\n Run with '--apply-fixes' to automatically update dictionary with official CUIs.")
-        print("=" * 70 + "\n")
+            print("\n Run with '--apply-fixes' to automatically synchronize dictionary with official UMLS Semantic Network.")
+        print("=" * 75 + "\n")
 
 
 if __name__ == "__main__":

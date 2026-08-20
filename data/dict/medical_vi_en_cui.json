@@ -26,7 +26,7 @@
   "tăng huyết áp giai đoạn 1": {
     "en": "Stage 1 hypertension",
     "cui": "C5231206",
-    "tui": "T047",
+    "tui": "T033",
     "entity_type": "DiseaseSubtype",
     "sty": "Finding",
     "umls_preferred_name": "Hypertension stage 1"
@@ -161,11 +161,11 @@
   },
   "mắt": {
     "en": "Eye",
-    "cui": "C4266572",
+    "cui": "C0015392",
     "tui": "T023",
     "entity_type": "Organ",
     "sty": "Body Part, Organ, or Organ Component",
-    "umls_preferred_name": "Head>Eye"
+    "umls_preferred_name": "Eye"
   },
   "acc/aha": {
     "en": "ACC-AHA",
@@ -194,7 +194,7 @@
   "hẹp động mạch thận": {
     "en": "Renal Artery Stenosis",
     "cui": "C0035067",
-    "tui": "T047",
+    "tui": "T046",
     "entity_type": "Cause",
     "sty": "Pathologic Function",
     "umls_preferred_name": "Renal Artery Stenosis"
@@ -258,7 +258,7 @@
   "tăng đường huyết": {
     "en": "Hyperglycemia",
     "cui": "C0020456",
-    "tui": "T033",
+    "tui": "T047",
     "entity_type": "Sign",
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Hyperglycemia"
@@ -276,23 +276,23 @@
     "cui": "C0025598",
     "tui": "T121",
     "entity_type": "Drug",
-    "sty": "Organic Chemical",
+    "sty": "Pharmacologic Substance",
     "umls_preferred_name": "metformin"
   },
   "insulin": {
     "en": "Insulin",
-    "cui": "C1533581",
+    "cui": "C0021641",
     "tui": "T121",
     "entity_type": "Drug",
-    "sty": "Amino Acid, Peptide, or Protein",
-    "umls_preferred_name": "Therapeutic Insulin"
+    "sty": "Pharmacologic Substance",
+    "umls_preferred_name": "Insulin"
   },
   "sulfonylurea": {
     "en": "Sulfonylureas",
     "cui": "C5691274",
     "tui": "T121",
     "entity_type": "DrugClass",
-    "sty": "Organic Chemical",
+    "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Hypoglycemic Sulfonylureas"
   },
   "sglt2 inhibitor": {
@@ -300,13 +300,13 @@
     "cui": "C3273807",
     "tui": "T121",
     "entity_type": "DrugClass",
-    "sty": "Organic Chemical",
+    "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Sodium-Glucose Transporter 2 Inhibitors"
   },
   "hba1c": {
     "en": "Hemoglobin A1c",
     "cui": "C0019018",
-    "tui": "T034",
+    "tui": "T116",
     "entity_type": "Test",
     "sty": "Amino Acid, Peptide, or Protein",
     "umls_preferred_name": "Glycosylated hemoglobin A"
@@ -364,7 +364,7 @@
     "cui": "C0001927",
     "tui": "T121",
     "entity_type": "Drug",
-    "sty": "Organic Chemical",
+    "sty": "Pharmacologic Substance",
     "umls_preferred_name": "albuterol"
   },
   "corticosteroid": {
@@ -372,7 +372,7 @@
     "cui": "C0001617",
     "tui": "T121",
     "entity_type": "DrugClass",
-    "sty": "Organic Chemical",
+    "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Adrenal Cortex Hormones"
   },
   "corticosteroid dạng hít": {
@@ -410,7 +410,7 @@
   "fev1": {
     "en": "Forced Expiratory Volume in 1 Second",
     "cui": "C0849974",
-    "tui": "T034",
+    "tui": "T060",
     "entity_type": "Measurement",
     "sty": "Diagnostic Procedure",
     "umls_preferred_name": "Pulmonary Function Test/Forced Expiratory Volume 1"
@@ -434,7 +434,7 @@
   "co thắt phế quản": {
     "en": "Bronchospasm",
     "cui": "C0006266",
-    "tui": "T046",
+    "tui": "T047",
     "entity_type": "Mechanism",
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Bronchospasm"
@@ -490,7 +490,7 @@
   "hút thuốc lá": {
     "en": "Tobacco smoking behavior",
     "cui": "C0453996",
-    "tui": "T033",
+    "tui": "T055",
     "entity_type": "RiskFactor",
     "sty": "Individual Behavior",
     "umls_preferred_name": "Tobacco smoking behavior"

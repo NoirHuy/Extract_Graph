@@ -1,12 +1,12 @@
 import json
 import pytest
 from unittest.mock import MagicMock, patch
-from scripts.verify_umls_dict import verify_and_heal_dictionary
+from scripts.verify_umls_dict import verify_and_heal_dictionary, audit_dictionary_integrity, UMLS_SEMANTIC_NETWORK
 
 def test_verify_and_heal_dictionary_flow(tmp_path):
     mock_dict = {
-        "tăng huyết áp": {"en": "Hypertension", "cui": "C0020538", "tui": "T047", "entity_type": "Disease"},
-        "thuốc giả": {"en": "Fake Drug Concept", "cui": "C9999999", "tui": "T121", "entity_type": "Drug"},
+        "tăng huyết áp": {"en": "Hypertension", "cui": "C0020538", "tui": "T047", "sty": "Disease or Syndrome", "entity_type": "Disease"},
+        "metformin": {"en": "Metformin", "cui": "C0025598", "tui": "T121", "sty": "Organic Chemical", "entity_type": "Drug"},
     }
     
     dict_file = tmp_path / "test_dict.json"
@@ -27,12 +27,12 @@ def test_verify_and_heal_dictionary_flow(tmp_path):
                     ]
                 }
             }
-        elif term == "Fake Drug Concept":
-            # Return true official CUI C0000001 (mismatch)
+        elif term == "Metformin":
+            # Multiple STYs: Organic Chemical and Pharmacologic Substance
             mock_resp.json.return_value = {
                 "result": {
                     "results": [
-                        {"ui": "C0000001", "name": "Real Drug", "semanticTypes": ["Pharmacologic Substance"]}
+                        {"ui": "C0025598", "name": "Metformin", "semanticTypes": ["Organic Chemical", "Pharmacologic Substance"]}
                     ]
                 }
             }
@@ -50,11 +50,13 @@ def test_verify_and_heal_dictionary_flow(tmp_path):
         
     assert report["total_entries"] == 2
     assert report["verified_matches"] == 1
-    assert report["mismatched_cui_count"] == 1
-    assert report["not_found_count"] == 0
+    assert report["mismatched_or_healed_count"] == 1
+    assert report["collision_count"] == 0
+    assert report["tui_sty_mismatch_count"] == 0
     
-    # Check updated dict content
+    # Check updated dict content: Drug Metformin priority picked Pharmacologic Substance -> T121
     with open(dict_file, "r", encoding="utf-8") as f:
         updated_dict = json.load(f)
-    assert updated_dict["tăng huyết áp"]["cui"] == "C0020538"
-    assert updated_dict["thuốc giả"]["cui"] == "C0000001"
+    assert updated_dict["metformin"]["cui"] == "C0025598"
+    assert updated_dict["metformin"]["sty"] == "Pharmacologic Substance"
+    assert updated_dict["metformin"]["tui"] == "T121"
