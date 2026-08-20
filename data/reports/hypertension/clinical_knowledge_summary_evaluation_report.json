@@ -1,21 +1,21 @@
 {
   "document_name": "clinical_knowledge_summary.csv",
   "total_triplets": 128,
-  "clinical_accuracy_score": 91.8,
+  "clinical_accuracy_score": 74.3,
   "ontology_integrity_score": 100.0,
   "graph_consistency_score": 100.0,
-  "overall_quality_score": 96.72,
-  "grade": "A+ (Xuất sắc / Chuẩn lâm sàng)",
+  "overall_quality_score": 89.72,
+  "grade": "B (Khá / Cần lưu ý vài điểm)",
   "summary_findings": [
-    "Tất cả các tiêu chuẩn lâm sàng, định danh UMLS và cấu trúc đồ thị đều đạt chuẩn xuất sắc!"
+    "Phát hiện 29 lỗi nghiêm trọng về logic lâm sàng / ngược chiều quan hệ."
   ],
   "agent_reports": {
     "Clinical_Doctor_Agent": {
       "agent_name": "Clinical_Doctor_Agent",
       "total_reviewed": 128,
-      "pass_count": 93,
-      "warning_count": 35,
-      "fail_count": 0,
+      "pass_count": 86,
+      "warning_count": 13,
+      "fail_count": 29,
       "reviews": [
         {
           "row_index": 1,
@@ -25,7 +25,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -36,7 +36,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -44,33 +44,45 @@
           "source_name": "Angiotensin II",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Não",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc chỉ nói ACE (enzym) có ở phổi, thận, não để chuyển hóa tiền chất thành Angiotensin II, không nói Angiotensin II gây tổn thương các cơ quan này.",
+          "suggested_fix": {
+            "source": "ACE (enzym)",
+            "relation": "Hiện diện tại",
+            "target": "Phổi, thận và não"
+          }
         },
         {
           "row_index": 4,
           "source_name": "Angiotensin II",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Phổi",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 3, đây là vị trí của enzym, không phải tổn thương do Angiotensin II.",
+          "suggested_fix": {
+            "source": "ACE (enzym)",
+            "relation": "Hiện diện tại",
+            "target": "Phổi"
+          }
         },
         {
           "row_index": 5,
           "source_name": "Angiotensin II",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Thận",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 3, đây là vị trí của enzym, không phải tổn thương do Angiotensin II.",
+          "suggested_fix": {
+            "source": "ACE (enzym)",
+            "relation": "Hiện diện tại",
+            "target": "Thận"
+          }
         },
         {
           "row_index": 6,
@@ -80,7 +92,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Phù hợp với ngữ cảnh y khoa về cơ chế tăng huyết áp do thận.",
           "suggested_fix": null
         },
         {
@@ -91,7 +103,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Phù hợp với ngữ cảnh y khoa.",
           "suggested_fix": null
         },
         {
@@ -101,9 +113,13 @@
           "target_name": "Tăng huyết áp",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Bảng xét nghiệm chuyển hóa đầy đủ' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"bảng xét nghiệm chuyển hóa đầy đủ (bao gồm creatinine hoặc cystatin C, kali và canxi)...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Bảng xét nghiệm chuyển hóa đầy đủ (BMP) dùng để đánh giá tổn thương cơ quan đích hoặc nguyên nhân thứ phát, không phải là công cụ chẩn đoán xác định tăng huyết áp (vốn dựa vào đo huyết áp).",
+          "suggested_fix": {
+            "source": "Bảng xét nghiệm chuyển hóa đầy đủ",
+            "relation": "Dùng để đánh giá",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 9,
@@ -113,7 +129,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -124,7 +140,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -132,11 +148,15 @@
           "source_name": "Bệnh nhu mô thận mạn tính",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Thận",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Bệnh nhu mô thận mạn tính là nguyên nhân gây tăng huyết áp, không phải là tác nhân gây tổn thương thận (bản thân nó đã là bệnh tại thận).",
+          "suggested_fix": {
+            "source": "Bệnh nhu mô thận mạn tính",
+            "relation": "Là nguyên nhân gây ra",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 12,
@@ -146,7 +166,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -157,7 +177,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -165,44 +185,60 @@
           "source_name": "Bệnh tim mạch",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp nguyên phát",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Văn bản gốc nói về các yếu tố nguy cơ của bệnh tim mạch, không phải bệnh tim mạch gây ra tăng huyết áp nguyên phát.",
+          "suggested_fix": {
+            "source": "Tăng huyết áp",
+            "relation": "Là yếu tố nguy cơ của",
+            "target": "Bệnh tim mạch"
+          }
         },
         {
           "row_index": 15,
           "source_name": "Bệnh tim mạch",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp tiên phát",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tương tự row 14, quan hệ bị đảo ngược.",
+          "suggested_fix": {
+            "source": "Tăng huyết áp",
+            "relation": "Là yếu tố nguy cơ của",
+            "target": "Bệnh tim mạch"
+          }
         },
         {
           "row_index": 16,
           "source_name": "Bệnh tim mạch do xơ vữa động mạch",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Mắt",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc mô tả bệnh lý 'Xơ cứng động mạch' (Arteriolosclerosis) gây tổn thương mắt/thận, không phải 'Bệnh tim mạch do xơ vữa động mạch' (Atherosclerosis). Đây là sự nhầm lẫn thuật ngữ y khoa nghiêm trọng.",
+          "suggested_fix": {
+            "source": "Xơ cứng động mạch (Arteriolosclerosis)",
+            "relation": "Gây tổn thương cơ quan",
+            "target": "Mắt"
+          }
         },
         {
           "row_index": 17,
           "source_name": "Bệnh tim mạch do xơ vữa động mạch",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Thận",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 16, thực thể nguồn bị nhầm lẫn giữa xơ cứng động mạch nhỏ và xơ vữa động mạch.",
+          "suggested_fix": {
+            "source": "Xơ cứng động mạch (Arteriolosclerosis)",
+            "relation": "Gây tổn thương cơ quan",
+            "target": "Thận"
+          }
         },
         {
           "row_index": 18,
@@ -212,7 +248,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chấp nhận được, cam thảo có chứa glycyrrhizin gây giữ muối nước, làm tăng huyết áp.",
           "suggested_fix": null
         },
         {
@@ -220,10 +256,10 @@
           "source_name": "Căng thẳng",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp nguyên phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Căng thẳng' hoặc 'Tăng huyết áp nguyên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở độ tuổi trẻ hơn, các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ản...\"",
+          "issue_type": null,
+          "critique": "Đúng với ngữ cảnh văn bản.",
           "suggested_fix": null
         },
         {
@@ -231,10 +267,10 @@
           "source_name": "Căng thẳng",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp tiên phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Căng thẳng' hoặc 'Tăng huyết áp tiên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở độ tuổi trẻ hơn, các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ản...\"",
+          "issue_type": null,
+          "critique": "Đúng với ngữ cảnh văn bản (tương tự row 19).",
           "suggested_fix": null
         },
         {
@@ -242,11 +278,15 @@
           "source_name": "Cường aldosteron nguyên phát",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Tăng huyết áp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc liệt kê cường aldosteron là nguyên nhân gây tăng huyết áp thứ phát, không phải tăng huyết áp nguyên phát.",
+          "suggested_fix": {
+            "source": "Cường aldosteron nguyên phát",
+            "relation": "Là nguyên nhân gây ra",
+            "target": "Tăng huyết áp thứ phát"
+          }
         },
         {
           "row_index": 22,
@@ -256,7 +296,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -264,10 +304,10 @@
           "source_name": "Di truyền",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp nguyên phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Di truyền' hoặc 'Tăng huyết áp nguyên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Di truyền là một yếu tố ảnh hưởng, nhưng cơ chế chính xác mà yếu tố di truyền đóng vai trò vẫn chưa ...\"",
+          "issue_type": null,
+          "critique": "Đúng với ngữ cảnh văn bản.",
           "suggested_fix": null
         },
         {
@@ -275,10 +315,10 @@
           "source_name": "Di truyền",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp tiên phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Di truyền' hoặc 'Tăng huyết áp tiên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Di truyền là một yếu tố ảnh hưởng, nhưng cơ chế chính xác mà yếu tố di truyền đóng vai trò vẫn chưa ...\"",
+          "issue_type": null,
+          "critique": "Đúng với ngữ cảnh văn bản.",
           "suggested_fix": null
         },
         {
@@ -286,10 +326,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Bệnh tim mạch do xơ vữa động mạch",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh tim mạch do xơ vữa động mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạ...\"",
+          "issue_type": null,
+          "critique": "Đúng với ngữ cảnh văn bản.",
           "suggested_fix": null
         },
         {
@@ -297,33 +337,45 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Hoa mắt chóng mặt",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Hoa mắt chóng mặt' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Đây là mối lo ngại đặc biệt đối với những bệnh nhân bị tiểu đường, những người có huyết áp tâm thu <...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Evidence span nói về nguy cơ biến cố bất lợi do huyết áp thấp ở bệnh nhân tiểu đường, không khẳng định tiểu đường trực tiếp gây ra hoa mắt chóng mặt.",
+          "suggested_fix": {
+            "source": "Huyết áp thấp",
+            "relation": "Gây ra",
+            "target": "Hoa mắt chóng mặt"
+          }
         },
         {
           "row_index": 27,
           "source_name": "Diabetes mellitus",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Suy giảm chức năng thận",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Suy giảm chức năng thận' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Đây là mối lo ngại đặc biệt đối với những bệnh nhân bị tiểu đường, những người có huyết áp tâm thu <...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 26, đoạn trích không hỗ trợ mối quan hệ nhân quả giữa tiểu đường và suy giảm chức năng thận trong ngữ cảnh này.",
+          "suggested_fix": {
+            "source": "Huyết áp thấp",
+            "relation": "Gây ra",
+            "target": "Suy giảm chức năng thận"
+          }
         },
         {
           "row_index": 28,
           "source_name": "Diabetes mellitus",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Suy thận",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Suy thận' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Đây là mối lo ngại đặc biệt đối với những bệnh nhân bị tiểu đường, những người có huyết áp tâm thu <...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 26, đoạn trích không hỗ trợ mối quan hệ nhân quả này.",
+          "suggested_fix": {
+            "source": "Huyết áp thấp",
+            "relation": "Gây ra",
+            "target": "Suy thận"
+          }
         },
         {
           "row_index": 29,
@@ -332,19 +384,23 @@
           "target_name": "Tăng huyết áp",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"mặc dù bệnh nhân mắc bệnh tiểu đường thường cũng bị tăng huyết áp....\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản chỉ nói 'thường bị kèm theo', không khẳng định tiểu đường là nguyên nhân gây tăng huyết áp.",
+          "suggested_fix": {
+            "source": "Diabetes mellitus",
+            "relation": "Thường đi kèm với",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 30,
           "source_name": "Diabetes mellitus",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp ẩn",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Tăng huyết áp ẩn' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Nhóm bệnh nhân này có thể chiếm từ 10% đến 30% dân số trưởng thành và phổ biến hơn ở nam giới, người...\"",
+          "issue_type": null,
+          "critique": "Đúng với ngữ cảnh văn bản.",
           "suggested_fix": null
         },
         {
@@ -352,11 +408,15 @@
           "source_name": "Fasting Plasma Glucose",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Tăng huyết áp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Fasting Plasma Glucose (Glucose huyết tương lúc đói) được dùng để chẩn đoán Đái tháo đường, không phải Tăng huyết áp.",
+          "suggested_fix": {
+            "source": "Fasting Plasma Glucose",
+            "relation": "Dùng để chẩn đoán",
+            "target": "Đái tháo đường"
+          }
         },
         {
           "row_index": 32,
@@ -365,19 +425,23 @@
           "target_name": "Động mạch cứng",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Già hóa' hoặc 'Động mạch cứng' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Giảm oxit nitric, do động mạch cứng, xảy ra khi lão hóa...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Câu trích dẫn gốc bị lỗi ngữ pháp/diễn đạt ('do động mạch cứng'), khiến mối quan hệ nhân quả bị đảo ngược hoặc mơ hồ.",
+          "suggested_fix": {
+            "source": "Lão hóa",
+            "relation": "Gây ra",
+            "target": "Động mạch cứng"
+          }
         },
         {
           "row_index": 33,
           "source_name": "Giáo dục bệnh nhân",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp kháng trị",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Giáo dục bệnh nhân' hoặc 'Tăng huyết áp kháng trị' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Giáo dục, với sự đồng cảm và hỗ trợ, là điều cần thiết để điều trị thành công....\"",
+          "issue_type": null,
+          "critique": "Hợp lý trong bối cảnh quản lý bệnh nhân tăng huyết áp kháng trị.",
           "suggested_fix": null
         },
         {
@@ -385,11 +449,15 @@
           "source_name": "Huyết áp tâm thu bình thường: < 120 mmHg",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Tăng huyết áp khẩn cấp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Ngưỡng < 120 mmHg là huyết áp bình thường, không phải ngưỡng chẩn đoán cho tăng huyết áp khẩn cấp (thường là >= 180/120 mmHg).",
+          "suggested_fix": {
+            "source": "Huyết áp >= 180/120 mmHg",
+            "relation": "Xác định ngưỡng chẩn đoán cho",
+            "target": "Tăng huyết áp khẩn cấp"
+          }
         },
         {
           "row_index": 35,
@@ -399,7 +467,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng theo tiêu chuẩn chẩn đoán hiện hành.",
           "suggested_fix": null
         },
         {
@@ -410,7 +478,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng theo tiêu chuẩn chẩn đoán hiện hành.",
           "suggested_fix": null
         },
         {
@@ -418,11 +486,15 @@
           "source_name": "Huyết áp tâm trương lúc nghỉ xác định THA: >= 80 mmHg",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Tăng huyết áp khẩn cấp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Ngưỡng >= 80 mmHg là ngưỡng chẩn đoán tăng huyết áp thông thường, không phải tăng huyết áp khẩn cấp.",
+          "suggested_fix": {
+            "source": "Huyết áp tâm trương >= 120 mmHg",
+            "relation": "Xác định ngưỡng chẩn đoán cho",
+            "target": "Tăng huyết áp khẩn cấp"
+          }
         },
         {
           "row_index": 38,
@@ -432,7 +504,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác về mặt y khoa.",
           "suggested_fix": null
         },
         {
@@ -443,7 +515,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác.",
           "suggested_fix": null
         },
         {
@@ -454,7 +526,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác (tương tự row 39).",
           "suggested_fix": null
         },
         {
@@ -465,7 +537,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Mối quan hệ giữa hệ thần kinh giao cảm và sự bài tiết renin là chính xác.",
           "suggested_fix": null
         },
         {
@@ -476,7 +548,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác, hở van động mạch chủ làm tăng thể tích nhát bóp gây tăng huyết áp tâm thu đơn độc.",
           "suggested_fix": null
         },
         {
@@ -487,7 +559,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác, không tuân thủ là yếu tố nguy cơ hàng đầu của tăng huyết áp kháng trị.",
           "suggested_fix": null
         },
         {
@@ -498,7 +570,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác.",
           "suggested_fix": null
         },
         {
@@ -509,7 +581,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác, đây là một phương pháp điều trị can thiệp cho THA kháng trị.",
           "suggested_fix": null
         },
         {
@@ -517,21 +589,25 @@
           "source_name": "Lưu lượng tim",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Huyết áp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Lưu lượng tim (CO) là một biến số trong công thức tính huyết áp (BP = CO x TPR), không phải là 'cơ chế sinh bệnh học' của huyết áp. Huyết áp là một chỉ số sinh lý, không phải là một bệnh lý.",
+          "suggested_fix": {
+            "source": "Lưu lượng tim",
+            "relation": "Là thành phần cấu thành của",
+            "target": "Huyết áp"
+          }
         },
         {
           "row_index": 47,
           "source_name": "Muối",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp nguyên phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Muối' hoặc 'Tăng huyết áp nguyên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"ở những bệnh nhân trên 65 tuổi, lượng natri cao có nhiều khả năng gây tăng huyết áp....\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -539,10 +615,10 @@
           "source_name": "Muối",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp tiên phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Muối' hoặc 'Tăng huyết áp tiên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"ở những bệnh nhân trên 65 tuổi, lượng natri cao có nhiều khả năng gây tăng huyết áp....\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn (tương đương row 47).",
           "suggested_fix": null
         },
         {
@@ -550,11 +626,15 @@
           "source_name": "Na+, K+-ATPase",
           "relation_type": "Là một phần của cơ chế",
           "target_name": "Norepinephrine",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Bơm Na+, K+-ATPase không phải là một phần của cơ chế Norepinephrine. Văn bản chỉ nói bơm này có chức năng tái hấp thu Norepinephrine.",
+          "suggested_fix": {
+            "source": "Bơm Na+, K+-ATPase",
+            "relation": "Tham gia vào quá trình tái hấp thu",
+            "target": "Norepinephrine"
+          }
         },
         {
           "row_index": 50,
@@ -564,7 +644,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -575,7 +655,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -583,10 +663,10 @@
           "source_name": "Nguyên nhân xác định",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Tăng huyết áp thứ phát",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Nguyên nhân xác định' hoặc 'Tăng huyết áp thứ phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Thứ phát (một nguyên nhân được xác định)...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -597,7 +677,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -608,7 +688,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -619,7 +699,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -630,7 +710,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -641,7 +721,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -652,7 +732,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -663,7 +743,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -674,7 +754,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -685,7 +765,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Mối quan hệ hợp lý về mặt sinh lý bệnh.",
           "suggested_fix": null
         },
         {
@@ -693,11 +773,15 @@
           "source_name": "Rối loạn hệ thần kinh trung ương",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Hệ thần kinh trung ương",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Evidence span chỉ nhắc đến thuật ngữ, không hề đề cập đến việc 'gây tổn thương cơ quan'. Đây là suy diễn sai lệch.",
+          "suggested_fix": {
+            "source": "Rối loạn hệ thần kinh trung ương",
+            "relation": "là một dạng",
+            "target": "bệnh lý thần kinh"
+          }
         },
         {
           "row_index": 63,
@@ -706,9 +790,13 @@
           "target_name": "Tăng huyết áp",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Siêu âm thận' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"nếu bất thường, cân nhắc siêu âm thận...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Siêu âm thận không dùng để chẩn đoán trực tiếp Tăng huyết áp, mà dùng để tìm nguyên nhân thứ phát (ví dụ: hẹp động mạch thận, bệnh thận mạn).",
+          "suggested_fix": {
+            "source": "Siêu âm thận",
+            "relation": "Dùng để tìm nguyên nhân thứ phát của",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 64,
@@ -718,7 +806,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Hợp lý trong bối cảnh chẩn đoán hình ảnh tim mạch.",
           "suggested_fix": null
         },
         {
@@ -726,21 +814,25 @@
           "source_name": "Số lượng thuốc điều trị THA kháng trị: >= 4 loại thuốc",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp kháng trị",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Source entity là một con số/tiêu chuẩn, không phải là một phương pháp điều trị. Cần điều chỉnh lại cho chính xác về mặt ngữ nghĩa.",
+          "suggested_fix": {
+            "source": "Phác đồ phối hợp >= 4 loại thuốc",
+            "relation": "Điều trị",
+            "target": "Tăng huyết áp kháng trị"
+          }
         },
         {
           "row_index": 66,
           "source_name": "Thay đổi chế độ ăn",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thay đổi chế độ ăn' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Sự thay đổi chế độ ăn cũng giúp kiểm soát đái tháo đường, béo phì và rối loạn lipid máu....\"",
+          "issue_type": null,
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -751,7 +843,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -762,7 +854,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -773,7 +865,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -784,7 +876,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -795,7 +887,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -806,7 +898,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với thực hành lâm sàng và văn bản.",
           "suggested_fix": null
         },
         {
@@ -814,10 +906,10 @@
           "source_name": "Thuốc chẹn kênh canxi",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc chẹn kênh canxi' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị bao gồm thay đổi lối sống và dùng thuốc, bao gồm thuốc lợi tiểu, thuốc ức chế men chuyển an...\"",
+          "issue_type": null,
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -828,7 +920,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -836,10 +928,10 @@
           "source_name": "Thuốc chẹn thụ thể angiotensin II",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc chẹn thụ thể angiotensin II' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị bao gồm thay đổi lối sống và dùng thuốc, bao gồm thuốc lợi tiểu, thuốc ức chế men chuyển an...\"",
+          "issue_type": null,
+          "critique": "Đúng với nội dung văn bản.",
           "suggested_fix": null
         },
         {
@@ -850,7 +942,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -858,10 +950,10 @@
           "source_name": "Thuốc lợi tiểu",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc lợi tiểu' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị bao gồm thay đổi lối sống và dùng thuốc, bao gồm thuốc lợi tiểu...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -872,7 +964,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -883,7 +975,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -894,7 +986,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -902,10 +994,10 @@
           "source_name": "Thuốc ức chế men chuyển",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc ức chế men chuyển' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị bao gồm thay đổi lối sống và dùng thuốc, bao gồm thuốc lợi tiểu, thuốc ức chế men chuyển an...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -913,33 +1005,45 @@
           "source_name": "Thuốc ức chế men chuyển",
           "relation_type": "Điều trị",
           "target_name": "tăng huyết áp cấp cứu",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc chỉ nói về 'thuốc hạ áp' nói chung cho tăng huyết áp cấp cứu, không chỉ định cụ thể thuốc ức chế men chuyển (ACEi) là lựa chọn điều trị cho tăng huyết áp cấp cứu (thực tế ACEi đường uống không phải là lựa chọn đầu tay trong cấp cứu tăng huyết áp).",
+          "suggested_fix": {
+            "source": "Thuốc hạ áp",
+            "relation": "Điều trị",
+            "target": "tăng huyết áp cấp cứu"
+          }
         },
         {
           "row_index": 83,
           "source_name": "Thể tích huyết tương",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Tăng huyết áp nguyên phát",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản chỉ liệt kê thể tích huyết tương là một thành phần sinh lý biến đổi trong tăng huyết áp, không khẳng định trực tiếp đó là 'cơ chế sinh bệnh học'.",
+          "suggested_fix": {
+            "source": "Thể tích huyết tương",
+            "relation": "Là thành phần sinh lý trong",
+            "target": "Tăng huyết áp nguyên phát"
+          }
         },
         {
           "row_index": 84,
           "source_name": "Thể tích huyết tương",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Tăng huyết áp tiên phát",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 83, cần điều chỉnh quan hệ cho chính xác với ngữ cảnh văn bản.",
+          "suggested_fix": {
+            "source": "Thể tích huyết tương",
+            "relation": "Là thành phần sinh lý trong",
+            "target": "Tăng huyết áp tiên phát"
+          }
         },
         {
           "row_index": 85,
@@ -949,7 +1053,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -957,11 +1061,15 @@
           "source_name": "Thụ thể áp suất",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Động mạch cảnh",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Sai lệch hoàn toàn. Văn bản nói về việc kích thích thụ thể áp suất để điều trị, không phải thụ thể áp suất gây tổn thương động mạch cảnh.",
+          "suggested_fix": {
+            "source": "Kích thích thụ thể áp suất",
+            "relation": "Điều trị",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 87,
@@ -970,19 +1078,23 @@
           "target_name": "Tăng huyết áp",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tiền sử gia đình tăng huyết áp' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Khiếm khuyết trong vận chuyển natri có thể xảy ra ở trẻ có huyết áp bình thường nhưng có cha mẹ bị t...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản chỉ đề cập đến khiếm khuyết vận chuyển natri ở trẻ có cha mẹ bị tăng huyết áp, không trực tiếp khẳng định tiền sử gia đình làm tăng nguy cơ mắc bệnh (dù đây là kiến thức y khoa đúng, nhưng chưa được grounding chặt chẽ trong đoạn trích).",
+          "suggested_fix": {
+            "source": "Tiền sử gia đình tăng huyết áp",
+            "relation": "Liên quan đến",
+            "target": "Khiếm khuyết vận chuyển natri"
+          }
         },
         {
           "row_index": 88,
           "source_name": "Triệt đốt thần kinh giao cảm động mạch thận",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp kháng trị",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Triệt đốt thần kinh giao cảm động mạch thận' hoặc 'Tăng huyết áp kháng trị' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Các thiết bị như vậy được sử dụng ở Châu Âu và Úc để điều trị tăng huyết áp kháng thuốc....\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -993,7 +1105,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -1004,7 +1116,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và được hỗ trợ bởi văn bản.",
           "suggested_fix": null
         },
         {
@@ -1012,11 +1124,15 @@
           "source_name": "Tăng cortisol cận lâm sàng",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Tăng huyết áp kháng trị",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Đoạn trích chỉ nêu sự đồng hiện (tỉ lệ 15-20%) chứ không khẳng định quan hệ nhân quả trực tiếp. Tuy nhiên, về mặt lâm sàng, đây là các nguyên nhân gây tăng huyết áp thứ phát.",
+          "suggested_fix": {
+            "source": "Tăng cortisol cận lâm sàng",
+            "relation": "Là nguyên nhân gây tăng huyết áp thứ phát",
+            "target": "Tăng huyết áp kháng trị"
+          }
         },
         {
           "row_index": 92,
@@ -1026,7 +1142,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1037,7 +1153,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1048,7 +1164,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1059,7 +1175,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1070,7 +1186,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1081,7 +1197,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1089,22 +1205,30 @@
           "source_name": "Tăng huyết áp",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Phình động mạch chủ bụng",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Đoạn trích chỉ nêu sự liên quan (hầu hết bệnh nhân phình ĐMC bụng có THA), chưa đủ bằng chứng khẳng định THA là nguyên nhân trực tiếp gây phình ĐMC bụng (thường là do xơ vữa).",
+          "suggested_fix": {
+            "source": "Tăng huyết áp",
+            "relation": "Có liên quan đến",
+            "target": "Phình động mạch chủ bụng"
+          }
         },
         {
           "row_index": 99,
           "source_name": "Tăng huyết áp",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "bệnh động mạch vành",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tăng huyết áp' hoặc 'bệnh động mạch vành' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh động mạch vành là nguyên nhân thường gặp nhất gây tử vong ở bệnh nhân được điều trị....\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Đoạn trích nói bệnh động mạch vành là nguyên nhân gây tử vong ở bệnh nhân THA, không khẳng định THA là nguyên nhân gây ra bệnh động mạch vành trong ngữ cảnh này.",
+          "suggested_fix": {
+            "source": "Tăng huyết áp",
+            "relation": "Là yếu tố nguy cơ của",
+            "target": "Bệnh động mạch vành"
+          }
         },
         {
           "row_index": 100,
@@ -1114,7 +1238,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1122,10 +1246,10 @@
           "source_name": "Tăng huyết áp áo choàng trắng",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Biến cố tim mạch",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tăng huyết áp áo choàng trắng' hoặc 'Biến cố tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tăng huyết áp áo choàng trắng không được điều trị dường như có liên quan đến kết quả tim mạch bất lợ...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1136,7 +1260,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1147,7 +1271,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1155,10 +1279,10 @@
           "source_name": "Tối ưu hóa tuân thủ phác đồ",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tối ưu hóa tuân thủ phác đồ' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Nếu bệnh nhân không đạt được huyết áp mục tiêu, bác sĩ lâm sàng nên cố gắng tối ưu hóa việc tuân thủ...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1169,7 +1293,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1177,21 +1301,25 @@
           "source_name": "Tỷ lệ albumin/creatinin niệu",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tỷ lệ albumin/creatinin niệu' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Các xét nghiệm có thể bao gồm Phân tích nước tiểu và tỷ lệ albumin/creatinin niệu; nếu bất thường, c...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tỷ lệ albumin/creatinin niệu là xét nghiệm tầm soát tổn thương cơ quan đích (thận) ở bệnh nhân đã hoặc nghi ngờ tăng huyết áp, không phải là xét nghiệm dùng để chẩn đoán bản thân bệnh tăng huyết áp.",
+          "suggested_fix": {
+            "source": "Tỷ lệ albumin/creatinin niệu",
+            "relation": "Dùng để đánh giá tổn thương cơ quan đích ở",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 107,
           "source_name": "U tế bào ưa crom",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'U tế bào ưa crom' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Dạng này là điển hình của tăng huyết áp nguyên phát và tăng huyết áp do cường aldosteron nguyên phát...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt y khoa, u tủy thượng thận (pheochromocytoma) là nguyên nhân gây tăng huyết áp thứ phát.",
           "suggested_fix": null
         },
         {
@@ -1199,22 +1327,30 @@
           "source_name": "Xét nghiệm lipid máu",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Tăng huyết áp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Xét nghiệm lipid máu dùng để đánh giá nguy cơ tim mạch tổng thể, không phải xét nghiệm chẩn đoán tăng huyết áp.",
+          "suggested_fix": {
+            "source": "Xét nghiệm lipid máu",
+            "relation": "Dùng để đánh giá nguy cơ tim mạch ở bệnh nhân",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 109,
           "source_name": "Xét nghiệm nước tiểu",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Tăng huyết áp",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Xét nghiệm nước tiểu' hoặc 'Tăng huyết áp' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Các xét nghiệm có thể bao gồm Phân tích nước tiểu và tỷ lệ albumin/creatinin niệu; nếu bất thường, c...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Phân tích nước tiểu dùng để tìm nguyên nhân thứ phát hoặc tổn thương thận, không dùng để chẩn đoán xác định tăng huyết áp.",
+          "suggested_fix": {
+            "source": "Xét nghiệm nước tiểu",
+            "relation": "Dùng để tìm nguyên nhân thứ phát của",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 110,
@@ -1224,7 +1360,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, xơ cứng động mạch làm giảm độ đàn hồi, tăng áp lực tâm thu.",
           "suggested_fix": null
         },
         {
@@ -1232,22 +1368,30 @@
           "source_name": "Yếu tố nguy cơ",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp nguyên phát",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Cụm từ 'Yếu tố nguy cơ' quá chung chung và không được định nghĩa rõ trong đoạn trích. Đoạn trích chỉ nói về việc điều trị phụ thuộc vào các yếu tố nguy cơ kèm theo.",
+          "suggested_fix": {
+            "source": "Bệnh tim mạch",
+            "relation": "Là yếu tố nguy cơ kèm theo của",
+            "target": "Tăng huyết áp nguyên phát"
+          }
         },
         {
           "row_index": 112,
           "source_name": "Yếu tố nguy cơ",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Tăng huyết áp tiên phát",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 111, cần chỉ rõ yếu tố nguy cơ cụ thể thay vì dùng từ khóa chung chung.",
+          "suggested_fix": {
+            "source": "Bệnh tim mạch",
+            "relation": "Là yếu tố nguy cơ kèm theo của",
+            "target": "Tăng huyết áp tiên phát"
+          }
         },
         {
           "row_index": 113,
@@ -1257,7 +1401,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, sự dư thừa chất co mạch như angiotensin là cơ chế bệnh sinh.",
           "suggested_fix": null
         },
         {
@@ -1265,22 +1409,30 @@
           "source_name": "bradykinin",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Tăng huyết áp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Thiếu hụt bradykinin mới là cơ chế bệnh sinh, không phải bản thân bradykinin (chất giãn mạch) là cơ chế gây tăng huyết áp.",
+          "suggested_fix": {
+            "source": "Thiếu hụt bradykinin",
+            "relation": "Là cơ chế sinh bệnh học của",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 115,
           "source_name": "oxit nitric",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Tăng huyết áp",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tương tự row 114, thiếu hụt oxit nitric mới là cơ chế bệnh sinh.",
+          "suggested_fix": {
+            "source": "Thiếu hụt oxit nitric",
+            "relation": "Là cơ chế sinh bệnh học của",
+            "target": "Tăng huyết áp"
+          }
         },
         {
           "row_index": 116,
@@ -1290,7 +1442,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, xuất huyết võng mạc là dấu hiệu thực thể của tổn thương cơ quan đích trong tăng huyết áp cấp cứu.",
           "suggested_fix": null
         },
         {
@@ -1301,7 +1453,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, buồn nôn/nôn là triệu chứng cơ năng thường gặp.",
           "suggested_fix": null
         },
         {
@@ -1312,7 +1464,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, co giật là triệu chứng thần kinh trong bệnh cảnh tăng huyết áp cấp cứu (bệnh não do tăng huyết áp).",
           "suggested_fix": null
         },
         {
@@ -1320,10 +1472,10 @@
           "source_name": "tăng huyết áp cấp cứu",
           "relation_type": "Có triệu chứng cơ năng",
           "target_name": "Khó thở",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'tăng huyết áp cấp cứu' hoặc 'Khó thở' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Khi có dấu hiệu của tăng huyết áp cấp cứu cần hạ huyết áp ngay lập tức với các thuốc hạ áp....\"",
+          "issue_type": null,
+          "critique": "Đúng, khó thở là triệu chứng cơ năng (thường do suy tim cấp hoặc phù phổi).",
           "suggested_fix": null
         },
         {
@@ -1334,7 +1486,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, triệu chứng thần kinh khu trú là dấu hiệu của tổn thương thần kinh trung ương.",
           "suggested_fix": null
         },
         {
@@ -1342,11 +1494,15 @@
           "source_name": "tăng huyết áp cấp cứu",
           "relation_type": "Có triệu chứng cơ năng",
           "target_name": "Đau ngực",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'tăng huyết áp cấp cứu' hoặc 'Đau ngực' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Khi có dấu hiệu của tăng huyết áp cấp cứu cần hạ huyết áp ngay lập tức với các thuốc hạ áp....\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Đoạn trích (evidence_span) chỉ đề cập đến việc hạ huyết áp khi có dấu hiệu tăng huyết áp cấp cứu, hoàn toàn không nhắc đến triệu chứng 'Đau ngực'. Đây là suy diễn không có căn cứ trong văn bản.",
+          "suggested_fix": {
+            "source": "tăng huyết áp cấp cứu",
+            "relation": "cần điều trị bằng",
+            "target": "thuốc hạ áp"
+          }
         },
         {
           "row_index": 122,
@@ -1355,9 +1511,13 @@
           "target_name": "Tăng huyết áp nguyên phát",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Ăn nhiều muối' hoặc 'Tăng huyết áp nguyên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở độ tuổi trẻ hơn, các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ản...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản gốc chỉ nói natri ảnh hưởng đến người có cơ địa dễ mắc bệnh, không khẳng định trực tiếp là 'tăng nguy cơ mắc tăng huyết áp nguyên phát' một cách tổng quát cho mọi đối tượng.",
+          "suggested_fix": {
+            "source": "Ăn nhiều muối",
+            "relation": "là yếu tố môi trường ảnh hưởng đến",
+            "target": "người có cơ địa dễ mắc tăng huyết áp"
+          }
         },
         {
           "row_index": 123,
@@ -1366,19 +1526,23 @@
           "target_name": "Tăng huyết áp tiên phát",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Ăn nhiều muối' hoặc 'Tăng huyết áp tiên phát' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở độ tuổi trẻ hơn, các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ản...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 122, thuật ngữ 'tăng huyết áp tiên phát' không xuất hiện trong văn bản gốc.",
+          "suggested_fix": {
+            "source": "Ăn nhiều muối",
+            "relation": "là yếu tố môi trường ảnh hưởng đến",
+            "target": "người có cơ địa dễ mắc bệnh"
+          }
         },
         {
           "row_index": 124,
           "source_name": "Điện tâm đồ",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Phì đại thất trái",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Điện tâm đồ' hoặc 'Phì đại thất trái' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Khi quan sát thấy phì đại thất trái trên ECG...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng và logic với văn bản.",
           "suggested_fix": null
         },
         {
@@ -1389,7 +1553,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và logic với văn bản.",
           "suggested_fix": null
         },
         {
@@ -1400,7 +1564,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và logic với văn bản.",
           "suggested_fix": null
         },
         {
@@ -1411,7 +1575,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt lâm sàng và logic với văn bản.",
           "suggested_fix": null
         },
         {
@@ -1419,11 +1583,15 @@
           "source_name": "Đánh giá lại thường xuyên",
           "relation_type": "Điều trị",
           "target_name": "Tăng huyết áp",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Quan hệ 'Điều trị' chưa chính xác. Đánh giá lại là một phần của 'Quản lý' (Management) chứ không phải là một phương pháp điều trị (Treatment) như thuốc hay thủ thuật.",
+          "suggested_fix": {
+            "source": "Đánh giá lại thường xuyên",
+            "relation": "là một phần trong quản lý",
+            "target": "Tăng huyết áp"
+          }
         }
       ]
     },
@@ -4262,6 +4430,6 @@
       ]
     }
   },
-  "flagged_rows_count": 35,
-  "auto_healed_rows_count": 0
+  "flagged_rows_count": 42,
+  "auto_healed_rows_count": 29
 }

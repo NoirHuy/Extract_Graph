@@ -1,21 +1,21 @@
 {
   "document_name": "clinical_knowledge_summary.csv",
   "total_triplets": 198,
-  "clinical_accuracy_score": 86.82,
+  "clinical_accuracy_score": 72.47,
   "ontology_integrity_score": 100.0,
   "graph_consistency_score": 100.0,
-  "overall_quality_score": 94.73,
-  "grade": "A (Rất tốt)",
+  "overall_quality_score": 88.99,
+  "grade": "B (Khá / Cần lưu ý vài điểm)",
   "summary_findings": [
-    "Tất cả các tiêu chuẩn lâm sàng, định danh UMLS và cấu trúc đồ thị đều đạt chuẩn xuất sắc!"
+    "Phát hiện 47 lỗi nghiêm trọng về logic lâm sàng / ngược chiều quan hệ."
   ],
   "agent_reports": {
     "Clinical_Doctor_Agent": {
       "agent_name": "Clinical_Doctor_Agent",
       "total_reviewed": 198,
-      "pass_count": 111,
-      "warning_count": 87,
-      "fail_count": 0,
+      "pass_count": 126,
+      "warning_count": 25,
+      "fail_count": 47,
       "reviews": [
         {
           "row_index": 1,
@@ -25,7 +25,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Dựa trên bằng chứng, Abatacept có tác dụng bảo tồn chức năng tế bào beta, hỗ trợ điều trị trong giai đoạn mới khởi phát.",
           "suggested_fix": null
         },
         {
@@ -36,7 +36,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa được trích dẫn.",
           "suggested_fix": null
         },
         {
@@ -47,7 +47,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa được trích dẫn.",
           "suggested_fix": null
         },
         {
@@ -55,22 +55,30 @@
           "source_name": "Biến chứng mạch máu",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Mạch máu lớn",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Biến chứng mạch máu không phải là tác nhân gây tổn thương cơ quan, mà chính là kết quả của việc kiểm soát đường huyết kém. Mạch máu lớn là đối tượng bị ảnh hưởng bởi biến chứng.",
+          "suggested_fix": {
+            "source": "Kiểm soát tăng đường huyết kém",
+            "relation": "Gây ra",
+            "target": "Biến chứng mạch máu lớn"
+          }
         },
         {
           "row_index": 5,
           "source_name": "Biến chứng mạch máu",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Mạch máu nhỏ",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tương tự row 4, biến chứng mạch máu là hệ quả, không phải nguyên nhân gây tổn thương.",
+          "suggested_fix": {
+            "source": "Kiểm soát tăng đường huyết kém",
+            "relation": "Gây ra",
+            "target": "Biến chứng mạch máu nhỏ"
+          }
         },
         {
           "row_index": 6,
@@ -80,7 +88,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -91,7 +99,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -102,7 +110,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -110,32 +118,40 @@
           "source_name": "Bơm insulin vòng kín",
           "relation_type": "Điều trị",
           "target_name": "Hạ đường huyết",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Bơm insulin vòng kín là công cụ hỗ trợ quản lý đường huyết, không phải là 'điều trị' trực tiếp cho hạ đường huyết (vốn là một biến chứng cần phòng tránh).",
+          "suggested_fix": {
+            "source": "Bơm insulin vòng kín",
+            "relation": "Hỗ trợ quản lý",
+            "target": "Dao động đường huyết"
+          }
         },
         {
           "row_index": 10,
           "source_name": "Bơm insulin vòng kín",
           "relation_type": "Điều trị",
           "target_name": "Tăng đường huyết",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 9, nó là công cụ quản lý sự dao động đường huyết.",
+          "suggested_fix": {
+            "source": "Bơm insulin vòng kín",
+            "relation": "Hỗ trợ quản lý",
+            "target": "Dao động đường huyết"
+          }
         },
         {
           "row_index": 11,
           "source_name": "Bệnh Addison",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường không ổn định",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Bệnh Addison' hoặc 'Đái tháo đường không ổn định' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Nguyên nhân khác khiến nồng độ glucose trong huyết tương không ổn định gồm nhiễm trùng, liệt dạ dày ...\"",
+          "issue_type": null,
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -146,7 +162,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -157,7 +173,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -168,7 +184,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -179,7 +195,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng y khoa.",
           "suggested_fix": null
         },
         {
@@ -187,10 +203,10 @@
           "source_name": "Can thiệp tâm lý xã hội",
           "relation_type": "Điều trị",
           "target_name": "Rối loạn ăn uống",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Can thiệp tâm lý xã hội' hoặc 'Rối loạn ăn uống' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị thường liên quan đến giám sát y tế chuyên sâu kết hợp với can thiệp tâm lý xã hội (ví dụ, c...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng, can thiệp tâm lý là một phần của phác đồ điều trị đa mô thức cho rối loạn ăn uống.",
           "suggested_fix": null
         },
         {
@@ -198,10 +214,10 @@
           "source_name": "Carbohydrate",
           "relation_type": "Điều trị",
           "target_name": "Hạ đường huyết",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Carbohydrate' hoặc 'Hạ đường huyết' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh nhân đã có tiền sử triệu chứng hạ đường huyết khi tập luyện nên được khuyên kiểm tra glucose má...\"",
+          "issue_type": null,
+          "critique": "Việc bổ sung carbohydrate là biện pháp xử trí cấp cứu/dự phòng hạ đường huyết đúng theo hướng dẫn lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -209,11 +225,15 @@
           "source_name": "Carbohydrate-to-insulin ratio",
           "relation_type": "Đo lường chỉ số",
           "target_name": "Tỷ lệ Carbohydrate-to-Insulin (CIR): 15g : 1 đơn vị",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Quan hệ 'Đo lường chỉ số' chưa chính xác. CIR là một thông số tính toán liều insulin, không phải là một chỉ số đo lường bệnh lý.",
+          "suggested_fix": {
+            "source": "Tỷ lệ Carbohydrate-to-Insulin (CIR)",
+            "relation": "Được sử dụng để tính toán",
+            "target": "Liều insulin tác dụng nhanh"
+          }
         },
         {
           "row_index": 19,
@@ -223,7 +243,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Giáo dục bệnh nhân là một phần thiết yếu trong quản lý Đái tháo đường.",
           "suggested_fix": null
         },
         {
@@ -231,10 +251,10 @@
           "source_name": "Chế độ ăn kiêng",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Chế độ ăn kiêng' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị bằng chế độ ăn kiêng, tập thể dục và dùng thuốc làm giảm lượng glucose, bao gồm insulin, th...\"",
+          "issue_type": null,
+          "critique": "Chế độ ăn kiêng là nền tảng trong điều trị Diabetes mellitus.",
           "suggested_fix": null
         },
         {
@@ -245,7 +265,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, thay đổi lối sống có thể giúp kiểm soát đường huyết ở bệnh nhân ĐTĐ loại 2 giai đoạn sớm.",
           "suggested_fix": null
         },
         {
@@ -253,21 +273,25 @@
           "source_name": "Chỉ số khối cơ thể (BMI) nguy cơ cao: >= 35 kg/m2",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Chỉ số khối cơ thể (BMI) nguy cơ cao: >= 35 kg/m2' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Thuốc này có thể được xem xét nếu chế độ ăn kiêng và lối sống không thành công, đặc biệt ở những bện...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc nói về 'nguy cơ mắc bệnh tiểu đường cao', không phải là 'ngưỡng chẩn đoán'. BMI >= 35 là yếu tố nguy cơ, không phải tiêu chuẩn chẩn đoán bệnh.",
+          "suggested_fix": {
+            "source": "Chỉ số khối cơ thể (BMI) >= 35 kg/m2",
+            "relation": "Là yếu tố nguy cơ của",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 23,
           "source_name": "Continuous Glucose Monitoring",
           "relation_type": "Đo lường chỉ số",
           "target_name": "Thời gian đường huyết trong khoảng mục tiêu (TIR 14 ngày): > 70%",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Continuous Glucose Monitoring' hoặc 'Thời gian đường huyết trong khoảng mục tiêu (TIR 14 ngày): > 70%' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Với theo dõi đường huyết liên tục (CGM), thời gian 14 ngày trong khoảng (TIR) > 70%...\"",
+          "issue_type": null,
+          "critique": "TIR (Time in Range) là chỉ số đo lường quan trọng trong CGM.",
           "suggested_fix": null
         },
         {
@@ -278,7 +302,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Các thuốc ức chế miễn dịch được nghiên cứu trong giai đoạn sớm của ĐTĐ loại 1 để bảo tồn chức năng tế bào beta.",
           "suggested_fix": null
         },
         {
@@ -286,11 +310,15 @@
           "source_name": "Coxsackievirus",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản dùng từ 'liên quan đến khởi phát' (associated with), không khẳng định chắc chắn là 'nguyên nhân gây ra' (causality).",
+          "suggested_fix": {
+            "source": "Coxsackievirus",
+            "relation": "Có liên quan đến khởi phát",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 26,
@@ -300,7 +328,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Tương tự row 24, đúng về mặt lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -308,11 +336,15 @@
           "source_name": "Cytomegalovirus",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 25, cần điều chỉnh quan hệ cho chính xác với văn bản.",
+          "suggested_fix": {
+            "source": "Cytomegalovirus",
+            "relation": "Có liên quan đến khởi phát",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 28,
@@ -322,7 +354,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Cắt lọc (debridement) là tiêu chuẩn vàng trong điều trị loét bàn chân đái tháo đường.",
           "suggested_fix": null
         },
         {
@@ -330,32 +362,40 @@
           "source_name": "Detemir",
           "relation_type": "Điều trị",
           "target_name": "Tăng đường huyết",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Detemir' hoặc 'Tăng đường huyết' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Hầu hết bệnh nhân nội trú có thể phù hợp điều trị với insulin nền kèm theo hoặc không bổ sung insuli...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Detemir là insulin nền, dùng để kiểm soát đường huyết, không phải để điều trị 'tăng đường huyết' cấp tính (thường dùng insulin tác dụng nhanh). Hơn nữa, văn bản gốc không nhắc đến Detemir.",
+          "suggested_fix": {
+            "source": "Insulin nền",
+            "relation": "Điều trị",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 30,
           "source_name": "Dextrose",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Dextrose' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Có thể bắt đầu truyền tĩnh mạch dung dịch dextrose trước khi phẫu thuật với tốc độ 75 đến 150 mL/giờ...\"",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Dextrose được truyền để duy trì đường huyết trong phẫu thuật, không phải để 'điều trị' bệnh tiểu đường (thực tế nó làm tăng đường huyết).",
+          "suggested_fix": {
+            "source": "Dextrose",
+            "relation": "Được sử dụng để duy trì đường huyết trong",
+            "target": "Phẫu thuật ở bệnh nhân tiểu đường"
+          }
         },
         {
           "row_index": 31,
           "source_name": "Di truyền",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Đái tháo đường loại 1",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Di truyền' hoặc 'Đái tháo đường loại 1' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"việc sản sinh ra insulin không được thực hiện do tình trạng phá hủy tế bào beta tuyến tụy tự miễn dị...\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác, phù hợp với cơ chế bệnh sinh của Đái tháo đường loại 1.",
           "suggested_fix": null
         },
         {
@@ -363,10 +403,10 @@
           "source_name": "Di truyền",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Di truyền' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Có những yếu tố quyết định di truyền rõ ràng, bằng chứng là tỷ lệ hiện mắc cao ở người thân của ngườ...\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng về tính di truyền của Đái tháo đường loại 2.",
           "suggested_fix": null
         },
         {
@@ -374,10 +414,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Albumin niệu",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Albumin niệu' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Yếu tố này có liên quan đến tăng nguy cơ mắc bệnh tim mạch, nhưng các biến chứng ở mạch máu nhỏ do t...\"",
+          "issue_type": null,
+          "critique": "Albumin niệu là một biến chứng vi mạch điển hình của đái tháo đường.",
           "suggested_fix": null
         },
         {
@@ -387,8 +427,8 @@
           "target_name": "Bệnh lý tim mạch",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh lý tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"bệnh lý tim mạch là nguyên nhân hàng đầu gây tử vong ở bệnh nhân đái tháo đường....\"",
+          "issue_type": "Weak_Grounding",
+          "critique": "Evidence span chỉ ra đây là nguyên nhân gây tử vong, không trực tiếp gọi là 'biến chứng', dù về mặt y khoa nó là hệ quả của bệnh.",
           "suggested_fix": null
         },
         {
@@ -396,10 +436,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh mạch máu",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh mạch máu' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Biến chứng muộn gồm bệnh mạch máu...\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -407,10 +447,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh thần kinh do đái tháo đường",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh thần kinh do đái tháo đường' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"biến chứng của đái tháo đường như bệnh thần kinh...\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -418,10 +458,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh thần kinh ngoại vi",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh thần kinh ngoại vi' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Biến chứng muộn gồm bệnh mạch máu, bệnh thần kinh ngoại vi, bệnh thận và dễ nhiễm khuẩn....\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -429,10 +469,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh thận",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh thận' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Biến chứng muộn gồm bệnh mạch máu, bệnh thần kinh ngoại vi, bệnh thận và dễ nhiễm khuẩn....\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -440,10 +480,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh tim mạch",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"bệnh lý tim mạch là nguyên nhân hàng đầu gây tử vong ở bệnh nhân đái tháo đường....\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -451,10 +491,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh võng mạc",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh võng mạc' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Yếu tố này có liên quan đến tăng nguy cơ mắc bệnh tim mạch, nhưng các biến chứng ở mạch máu nhỏ do t...\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -462,10 +502,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Bệnh võng mạc do đái tháo đường",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Bệnh võng mạc do đái tháo đường' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Mục tiêu hoạt động có thể cần phải được sửa đổi cho bệnh nhân có biến chứng của đái tháo đường như b...\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -473,10 +513,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Nhiễm trùng do nấm",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Nhiễm trùng do nấm' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh nhân đái tháo đường đặc biệt dễ bị nhiễm trùng do vi khuẩn và do nấm....\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc (tăng tính nhạy cảm với nhiễm trùng là một biến chứng/hệ quả).",
           "suggested_fix": null
         },
         {
@@ -484,10 +524,10 @@
           "source_name": "Diabetes mellitus",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Nhiễm trùng do vi khuẩn",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Diabetes mellitus' hoặc 'Nhiễm trùng do vi khuẩn' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh nhân đái tháo đường đặc biệt dễ bị nhiễm trùng do vi khuẩn và do nấm....\"",
+          "issue_type": null,
+          "critique": "Đúng với văn bản gốc.",
           "suggested_fix": null
         },
         {
@@ -495,10 +535,10 @@
           "source_name": "Fasting Plasma Glucose",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Fasting Plasma Glucose' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"sàng lọc bệnh tiểu đường với mức FPG...\"",
+          "issue_type": null,
+          "critique": "FPG (Fasting Plasma Glucose) là xét nghiệm tiêu chuẩn để chẩn đoán/sàng lọc đái tháo đường.",
           "suggested_fix": null
         },
         {
@@ -506,21 +546,25 @@
           "source_name": "Fructosamine",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Fructosamine' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Theo dõi Fructosamine có thể sủ dụng trong thời gian điều trị đái tháo đường tích cực...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Evidence span chỉ đề cập đến việc 'theo dõi' trong quá trình điều trị, không phải là công cụ 'chẩn đoán' bệnh.",
+          "suggested_fix": {
+            "source": "Fructosamine",
+            "relation": "Dùng để theo dõi",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 46,
           "source_name": "GLP-1 receptor agonist",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'GLP-1 receptor agonist' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Thuốc chủ vận thụ thể peptide-1 giống glucagon (GLP1) là liệu pháp bước hai hiệu quả sau metformin v...\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -531,7 +575,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -542,7 +586,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -550,10 +594,10 @@
           "source_name": "GLP-1 receptor agonists",
           "relation_type": "Điều trị",
           "target_name": "Type 2 diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'GLP-1 receptor agonists' hoặc 'Type 2 diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Thuốc chủ vận thụ thể peptide-1 giống glucagon (GLP1) là liệu pháp bước hai hiệu quả sau metformin v...\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -564,7 +608,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -575,7 +619,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -583,10 +627,10 @@
           "source_name": "GLP-1 receptor agonists",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'GLP-1 receptor agonists' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Thuốc chủ vận thụ thể peptide-1 giống glucagon (GLP1) là liệu pháp bước hai hiệu quả sau metformin v...\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -597,7 +641,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -608,7 +652,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -619,7 +663,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -627,10 +671,10 @@
           "source_name": "Giám sát y tế chuyên sâu",
           "relation_type": "Điều trị",
           "target_name": "Rối loạn ăn uống",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Giám sát y tế chuyên sâu' hoặc 'Rối loạn ăn uống' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị thường liên quan đến giám sát y tế chuyên sâu...\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -641,7 +685,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -652,7 +696,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -660,32 +704,40 @@
           "source_name": "Glucose",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Glucose' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Có thể bắt đầu truyền tĩnh mạch dung dịch dextrose trước khi phẫu thuật với tốc độ 75 đến 150 mL/giờ...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Việc truyền Glucose (dextrose) trong ngữ cảnh phẫu thuật là để duy trì đường huyết bình thường, không phải là phương pháp điều trị bệnh đái tháo đường (Diabetes mellitus). Đây là sự hiểu lầm nghiêm trọng về mục đích lâm sàng.",
+          "suggested_fix": {
+            "source": "Glucose (dextrose)",
+            "relation": "Duy trì đường huyết trong",
+            "target": "Phẫu thuật ở bệnh nhân đái tháo đường"
+          }
         },
         {
           "row_index": 60,
           "source_name": "Glucose huyết tương duy trì mục tiêu nội trú: 100 - 200 mg/dL (5.5 - 11.1 mmol/L)",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Glucose huyết tương duy trì mục tiêu nội trú: 100 - 200 mg/dL (5.5 - 11.1 mmol/L)' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"duy trì glucose huyết tương giữa 100 và 200 mg/dL (5,5 và 11,1 mmol/L) cho tới khi bệnh nhân có thể ...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Ngưỡng 100-200 mg/dL là mục tiêu kiểm soát đường huyết nội trú, không phải là tiêu chuẩn chẩn đoán bệnh đái tháo đường. Quan hệ này sai lệch hoàn toàn về mặt y khoa.",
+          "suggested_fix": {
+            "source": "Glucose huyết tương 100 - 200 mg/dL",
+            "relation": "Mục tiêu kiểm soát đường huyết cho",
+            "target": "Bệnh nhân đái tháo đường nội trú"
+          }
         },
         {
           "row_index": 61,
           "source_name": "Glucose huyết tương ngẫu nhiên chẩn đoán ĐTĐ: >= 200 mg/dL (11.1 mmol/L)",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Glucose huyết tương ngẫu nhiên chẩn đoán ĐTĐ: >= 200 mg/dL (11.1 mmol/L)' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Glucose ngẫu nhiên > 200 mg/dL (> 11,1 mmol/L) có thể chẩn đoán...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng và khớp với bằng chứng.",
           "suggested_fix": null
         },
         {
@@ -695,41 +747,53 @@
           "target_name": "Đái tháo đường loại 1",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Gluten và ngũ cốc' hoặc 'Đái tháo đường loại 1' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tiếp xúc sớm (< 4 tháng) hoặc muộn (> 7 tháng) với gluten và ngũ cốc tăng sản xuất tự kháng thể đảo ...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Bằng chứng chỉ nói đến việc tăng sản xuất tự kháng thể, không khẳng định trực tiếp là tăng nguy cơ mắc ĐTĐ loại 1 (dù đây là giả thuyết y khoa phổ biến).",
+          "suggested_fix": {
+            "source": "Tiếp xúc sớm hoặc muộn với gluten và ngũ cốc",
+            "relation": "Tăng sản xuất tự kháng thể đảo tụy liên quan đến",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 63,
           "source_name": "HLA-DR3,DQB1*0201",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "HLA-DR3,DQB1*0201 là yếu tố di truyền (gen nhạy cảm), không phải là 'cơ chế sinh bệnh học' (pathogenesis).",
+          "suggested_fix": {
+            "source": "HLA-DR3,DQB1*0201",
+            "relation": "Là yếu tố di truyền nhạy cảm với",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 64,
           "source_name": "HLA-DR4,DQB1*0302",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tương tự row 63, đây là yếu tố di truyền, không phải cơ chế sinh bệnh.",
+          "suggested_fix": {
+            "source": "HLA-DR4,DQB1*0302",
+            "relation": "Là yếu tố di truyền nhạy cảm với",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 65,
           "source_name": "HbA1c",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'HbA1c' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Những người >= 35 tuổi và tất cả người lớn có các yếu tố nguy cơ bổ sung được mô tả ở trên nên được ...\"",
+          "issue_type": null,
+          "critique": "Đúng, HbA1c là một trong các tiêu chuẩn chẩn đoán ĐTĐ.",
           "suggested_fix": null
         },
         {
@@ -737,32 +801,40 @@
           "source_name": "HbA1c",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Bằng chứng nói về việc 'đánh giá hàng quý' (theo dõi), không phải 'chẩn đoán'. HbA1c dùng để theo dõi kiểm soát đường huyết, không dùng để chẩn đoán ĐTĐ loại 1.",
+          "suggested_fix": {
+            "source": "HbA1c",
+            "relation": "Dùng để theo dõi kiểm soát đường huyết ở",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 67,
           "source_name": "HbA1c",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 2",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 66, bằng chứng nói về tần suất theo dõi, không phải chẩn đoán.",
+          "suggested_fix": {
+            "source": "HbA1c",
+            "relation": "Dùng để theo dõi kiểm soát đường huyết ở",
+            "target": "Đái tháo đường loại 2"
+          }
         },
         {
           "row_index": 68,
           "source_name": "HbA1c",
           "relation_type": "Đo lường chỉ số",
           "target_name": "Chỉ số nồng độ đường trong máu (Glucose máu)",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'HbA1c' hoặc 'Chỉ số nồng độ đường trong máu (Glucose máu)' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tuy nhiên, HbA1C là một biện pháp gián tiếp của lượng đường trong máu...\"",
+          "issue_type": null,
+          "critique": "Đúng, HbA1c phản ánh mức đường huyết trung bình trong 2-3 tháng.",
           "suggested_fix": null
         },
         {
@@ -770,22 +842,30 @@
           "source_name": "HbA1c",
           "relation_type": "Đo lường chỉ số",
           "target_name": "Tần suất theo dõi HbA1c định kỳ: 3 tháng một lần",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "HbA1c không đo lường 'tần suất theo dõi'. Tần suất là lịch trình quản lý bệnh.",
+          "suggested_fix": {
+            "source": "HbA1c",
+            "relation": "Cần được theo dõi định kỳ mỗi",
+            "target": "3 tháng"
+          }
         },
         {
           "row_index": 70,
           "source_name": "HbA1c mục tiêu kiểm soát chặt chẽ: < 6.5%",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Hạ đường huyết",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Sai hoàn toàn. HbA1c < 6.5% là mục tiêu điều trị, không phải ngưỡng chẩn đoán hạ đường huyết.",
+          "suggested_fix": {
+            "source": "HbA1c mục tiêu < 6.5%",
+            "relation": "Là mục tiêu kiểm soát đường huyết ở",
+            "target": "Bệnh nhân Đái tháo đường chọn lọc"
+          }
         },
         {
           "row_index": 71,
@@ -794,20 +874,28 @@
           "target_name": "Diabetes mellitus",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Hydrogel uống' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Một loại hydrogel uống có chứa cellulose và axit xitric khiến bệnh nhân cảm thấy no và ăn ít hơn có ...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Hydrogel hỗ trợ giảm cân, không phải là thuốc điều trị đặc hiệu cho ĐTĐ.",
+          "suggested_fix": {
+            "source": "Hydrogel uống",
+            "relation": "Hỗ trợ giảm cân ở bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 72,
           "source_name": "Hydrogel uống",
           "relation_type": "Điều trị",
           "target_name": "Tiền đái tháo đường",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 71.",
+          "suggested_fix": {
+            "source": "Hydrogel uống",
+            "relation": "Hỗ trợ giảm cân ở bệnh nhân",
+            "target": "Tiền đái tháo đường"
+          }
         },
         {
           "row_index": 73,
@@ -817,7 +905,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng.",
           "suggested_fix": null
         },
         {
@@ -825,10 +913,10 @@
           "source_name": "Hệ thống phân phối insulin tự động",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 1",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Hệ thống phân phối insulin tự động' hoặc 'Đái tháo đường loại 1' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Chúng đặc biệt hữu ích ở những bệnh nhân đái tháo đường loại 1 và đối với những người bị hạ đường hu...\"",
+          "issue_type": null,
+          "critique": "Đúng.",
           "suggested_fix": null
         },
         {
@@ -836,33 +924,45 @@
           "source_name": "Insulin",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Giai đoạn trăng mật",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Sự phục hồi tiết insulin là nguyên nhân dẫn đến giai đoạn trăng mật, không phải là cơ chế sinh bệnh (pathogenesis) của bệnh.",
+          "suggested_fix": {
+            "source": "Sự phục hồi tiết insulin",
+            "relation": "Dẫn đến",
+            "target": "Giai đoạn trăng mật"
+          }
         },
         {
           "row_index": 76,
           "source_name": "Insulin nội sinh",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Việc thiếu hụt insulin nội sinh là đặc điểm bệnh học, không phải bản thân insulin nội sinh là cơ chế gây bệnh. Quan hệ này bị ngược.",
+          "suggested_fix": {
+            "source": "Thiếu hụt insulin nội sinh",
+            "relation": "Là cơ chế sinh bệnh học của",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 77,
           "source_name": "Insulin thang điểm trượt",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản khẳng định đây không phải là chiến lược hiệu quả, nên dùng từ 'Điều trị' có thể gây hiểu lầm là phương pháp được khuyến cáo.",
+          "suggested_fix": {
+            "source": "Insulin thang điểm trượt",
+            "relation": "Không được khuyến cáo điều trị",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 78,
@@ -872,7 +972,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -880,10 +980,10 @@
           "source_name": "Kháng insulin ngoại vi",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Kháng insulin ngoại vi' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Đái tháo đường là suy giảm bài tiết insulin và nồng độ kháng insulin ngoại vi thay đổi dẫn đến tăng ...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -894,7 +994,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -905,7 +1005,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -916,7 +1016,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -924,10 +1024,10 @@
           "source_name": "Liệt dạ dày",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường không ổn định",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Liệt dạ dày' hoặc 'Đái tháo đường không ổn định' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Nguyên nhân khác khiến nồng độ glucose trong huyết tương không ổn định gồm nhiễm trùng, liệt dạ dày ...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -938,7 +1038,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -949,7 +1049,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -960,7 +1060,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -968,21 +1068,25 @@
           "source_name": "Loét",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Chi dưới",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc nói về loét sâu và nhiễm trùng ở chi dưới, không phải loét là tác nhân gây tổn thương cơ quan chi dưới.",
+          "suggested_fix": {
+            "source": "Loét chi dưới",
+            "relation": "Có nguy cơ cao bị",
+            "target": "Nhiễm trùng"
+          }
         },
         {
           "row_index": 88,
           "source_name": "Metformin",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Metformin' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Metformin an toàn, tiết kiệm chi phí và có bằng chứng mạnh mẽ nhất về việc ngăn ngừa bệnh tiểu đường...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -993,7 +1097,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1001,10 +1105,10 @@
           "source_name": "Mức HDL cholesterol: < 35 mg/dL (0.9 mmol/L)",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Rối loạn lipid máu",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Mức HDL cholesterol: < 35 mg/dL (0.9 mmol/L)' hoặc 'Rối loạn lipid máu' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Rối loạn lipid máu (cholesterol lipoprotein mật độ cao [HDL] < 35 mg / dL [0,9 mmol / L] hoặc mức ch...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1014,9 +1118,13 @@
           "target_name": "Bệnh lý tim mạch",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Nghiệm pháp gắng sức' hoặc 'Bệnh lý tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh nhân đã biết hoặc nghi ngờ bệnh tim mạch có thể có lợi ích từ bài tập kiểm tra stress trước khi...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản gốc nói về 'bài tập kiểm tra stress' (stress test) cho bệnh nhân đã biết/nghi ngờ bệnh tim mạch trước khi tập luyện, không khẳng định đây là công cụ chẩn đoán bệnh tim mạch (thường dùng để đánh giá khả năng gắng sức hoặc thiếu máu cục bộ).",
+          "suggested_fix": {
+            "source": "Nghiệm pháp gắng sức",
+            "relation": "Đánh giá khả năng gắng sức ở",
+            "target": "Bệnh nhân bệnh lý tim mạch"
+          }
         },
         {
           "row_index": 92,
@@ -1025,9 +1133,13 @@
           "target_name": "Bệnh tim mạch",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Nghiệm pháp gắng sức' hoặc 'Bệnh tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh nhân đã biết hoặc nghi ngờ bệnh tim mạch có thể có lợi ích từ bài tập kiểm tra stress trước khi...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 91, cần làm rõ mục đích là đánh giá an toàn trước khi tập luyện thay vì chẩn đoán bệnh.",
+          "suggested_fix": {
+            "source": "Nghiệm pháp gắng sức",
+            "relation": "Đánh giá an toàn trước tập luyện cho",
+            "target": "Bệnh nhân bệnh tim mạch"
+          }
         },
         {
           "row_index": 93,
@@ -1037,7 +1149,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1045,10 +1157,10 @@
           "source_name": "Nhiễm trùng",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường không ổn định",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Nhiễm trùng' hoặc 'Đái tháo đường không ổn định' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Nguyên nhân khác khiến nồng độ glucose trong huyết tương không ổn định gồm nhiễm trùng...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1059,7 +1171,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1070,7 +1182,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1078,10 +1190,10 @@
           "source_name": "OGTT",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'OGTT' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"OGTT là nhạy hơn cho chẩn đoán đái tháo đường và rối loạn dung nạp glucose...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1092,7 +1204,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1100,10 +1212,10 @@
           "source_name": "OGTT",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường thai kỳ",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'OGTT' hoặc 'Đái tháo đường thai kỳ' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Do đó hiếm khi sử dụng để theo dõi thường xuyên, trừ khi chẩn đoán đái tháo đường thai kì và mục đíc...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1111,10 +1223,10 @@
           "source_name": "OGTT 75g",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'OGTT 75g' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Những người >= 35 tuổi và tất cả người lớn có các yếu tố nguy cơ bổ sung được mô tả ở trên nên được ...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1124,9 +1236,13 @@
           "target_name": "Diabetes mellitus",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Orlistat' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Orlistat, thuốc ức chế lipase tại ruột, giảm hấp thu thức ăn chứa mỡ ; thuốc giảm nồng độ lipid huyế...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Orlistat là thuốc hỗ trợ giảm cân, không phải thuốc điều trị trực tiếp Diabetes mellitus (đái tháo đường). Nó chỉ gián tiếp hỗ trợ kiểm soát đường huyết thông qua giảm cân.",
+          "suggested_fix": {
+            "source": "Orlistat",
+            "relation": "Hỗ trợ giảm cân ở bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 102,
@@ -1135,19 +1251,23 @@
           "target_name": "Diabetes mellitus",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Phentermine/Topiramate' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Phentermine/topiramate là một loại thuốc phối hợp làm giảm cảm giác thèm ăn thông qua nhiều cơ chế t...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Phentermine/Topiramate là thuốc giảm cân, không phải thuốc điều trị đái tháo đường. Cần làm rõ vai trò hỗ trợ.",
+          "suggested_fix": {
+            "source": "Phentermine/Topiramate",
+            "relation": "Hỗ trợ giảm cân ở bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 103,
           "source_name": "Phẫu thuật bắc cầu dạ dày",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Phẫu thuật bắc cầu dạ dày' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị béo phì bằng phẫu thuật, chẳng hạn như cắt vạt dạ dày hoặc bắc cầu dạ dày, cũng dẫn đến giả...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn, văn bản xác nhận phẫu thuật cải thiện kiểm soát glucose.",
           "suggested_fix": null
         },
         {
@@ -1155,10 +1275,10 @@
           "source_name": "Phẫu thuật chuyển hóa",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Phẫu thuật chuyển hóa' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở những bệnh nhân béo phì, liệu pháp dược lý để giảm cân, thiết bị y tế và phẫu thuật giảm cân có th...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1166,10 +1286,10 @@
           "source_name": "Phẫu thuật cắt dạ dày hình ống",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Phẫu thuật cắt dạ dày hình ống' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị béo phì bằng phẫu thuật, chẳng hạn như cắt vạt dạ dày hoặc bắc cầu dạ dày, cũng dẫn đến giả...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1177,33 +1297,45 @@
           "source_name": "Point-of-care HbA1c test",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Point-of-care HbA1c test' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Không nên sử dụng các chỉ số đo HbA1C đầu ngón tại giường cho mục đích chẩn đoán, mặc dù các chỉ số ...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản gốc khẳng định rõ ràng 'Không nên sử dụng' cho mục đích chẩn đoán, trong khi bộ ba lại khẳng định 'Dùng để chẩn đoán'. Đây là sự sai lệch hoàn toàn về ý nghĩa lâm sàng.",
+          "suggested_fix": {
+            "source": "Point-of-care HbA1c test",
+            "relation": "Không được khuyến cáo dùng để chẩn đoán",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 107,
           "source_name": "Retrovirus",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản gốc dùng từ 'có liên quan đến khởi phát' (associated with), không khẳng định chắc chắn là 'nguyên nhân gây ra' (causative agent). Cần dùng từ ngữ thận trọng hơn trong y khoa.",
+          "suggested_fix": {
+            "source": "Retrovirus",
+            "relation": "Có liên quan đến khởi phát",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 108,
           "source_name": "SARS-CoV-2",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 107, văn bản chỉ nêu mối liên quan (association), không khẳng định quan hệ nhân quả trực tiếp.",
+          "suggested_fix": {
+            "source": "SARS-CoV-2",
+            "relation": "Có liên quan đến khởi phát",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 109,
@@ -1213,7 +1345,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1224,7 +1356,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn (trùng lặp nội dung với 109 nhưng đúng về mặt y khoa).",
           "suggested_fix": null
         },
         {
@@ -1235,7 +1367,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1246,7 +1378,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1254,21 +1386,25 @@
           "source_name": "SGLT2 inhibitors",
           "relation_type": "Điều trị",
           "target_name": "Xơ vữa động mạch",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản gốc nói về 'bệnh tim mạch do xơ vữa động mạch' (ASCVD), việc tách riêng 'xơ vữa động mạch' là chưa đủ chính xác về mặt bệnh học lâm sàng.",
+          "suggested_fix": {
+            "source": "SGLT2 inhibitors",
+            "relation": "Điều trị",
+            "target": "Bệnh tim mạch do xơ vữa động mạch"
+          }
         },
         {
           "row_index": 114,
           "source_name": "SGLT2 inhibitors",
           "relation_type": "Điều trị",
           "target_name": "heart failure",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'SGLT2 inhibitors' hoặc 'heart failure' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở những bệnh nhân mắc bệnh thận mạn tính (2, 3) hoặc suy tim không có chống chỉ định, thuốc ức chế S...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1278,9 +1414,13 @@
           "target_name": "Diabetes mellitus",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Suy giảm bài tiết insulin' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Đái tháo đường là suy giảm bài tiết insulin...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản gốc 'Đái tháo đường là suy giảm bài tiết insulin' là cách diễn đạt quá đơn giản hóa. Suy giảm bài tiết insulin là một đặc điểm/cơ chế, không phải là định nghĩa toàn diện của bệnh.",
+          "suggested_fix": {
+            "source": "Suy giảm bài tiết insulin",
+            "relation": "Là đặc điểm sinh bệnh học của",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 116,
@@ -1290,7 +1430,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1298,10 +1438,10 @@
           "source_name": "Suy giảm chức năng thận",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Nhiễm toan lactic",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Suy giảm chức năng thận' hoặc 'Nhiễm toan lactic' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Metformin có thể gây nhiễm toan lactic ở bệnh nhân suy thận...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1309,10 +1449,10 @@
           "source_name": "Suy giảm điều hòa glucose",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Bệnh lý tim mạch",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Suy giảm điều hòa glucose' hoặc 'Bệnh lý tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Yếu tố này có liên quan đến tăng nguy cơ mắc bệnh tim mạch...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1320,10 +1460,10 @@
           "source_name": "Suy giảm điều hòa glucose",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Bệnh tim mạch",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Suy giảm điều hòa glucose' hoặc 'Bệnh tim mạch' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Yếu tố này có liên quan đến tăng nguy cơ mắc bệnh tim mạch...\"",
+          "issue_type": null,
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1334,7 +1474,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đạt chuẩn.",
           "suggested_fix": null
         },
         {
@@ -1342,43 +1482,55 @@
           "source_name": "Sàng lọc biến chứng",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 2",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Sàng lọc biến chứng không dùng để 'chẩn đoán' bệnh, mà dùng để phát hiện sớm các tổn thương cơ quan đích ở người đã mắc bệnh.",
+          "suggested_fix": {
+            "source": "Sàng lọc biến chứng",
+            "relation": "Dùng để phát hiện sớm",
+            "target": "Biến chứng đái tháo đường"
+          }
         },
         {
           "row_index": 122,
           "source_name": "Sàng lọc biến chứng đái tháo đường",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 121, sàng lọc biến chứng không dùng để chẩn đoán bệnh đái tháo đường.",
+          "suggested_fix": {
+            "source": "Sàng lọc biến chứng",
+            "relation": "Dùng để phát hiện sớm",
+            "target": "Biến chứng đái tháo đường"
+          }
         },
         {
           "row_index": 123,
           "source_name": "Sàng lọc biến chứng đái tháo đường",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 2",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Sai lệch về mục đích lâm sàng. Sàng lọc biến chứng là quy trình quản lý bệnh nhân đã được chẩn đoán.",
+          "suggested_fix": {
+            "source": "Sàng lọc biến chứng",
+            "relation": "Dùng để phát hiện sớm",
+            "target": "Biến chứng đái tháo đường"
+          }
         },
         {
           "row_index": 124,
           "source_name": "Sàng lọc đái tháo đường",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Sàng lọc đái tháo đường' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Sàng lọc đái tháo đường nên được tiến hành cho người có tăng nguy cơ....\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt lâm sàng, sàng lọc là bước đầu để chẩn đoán xác định.",
           "suggested_fix": null
         },
         {
@@ -1389,7 +1541,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Phù hợp với bằng chứng y văn về các yếu tố nguy cơ môi trường.",
           "suggested_fix": null
         },
         {
@@ -1400,7 +1552,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Teplizumab được chỉ định để làm chậm tiến triển bệnh ở giai đoạn sớm.",
           "suggested_fix": null
         },
         {
@@ -1408,10 +1560,10 @@
           "source_name": "Thay đổi lối sống",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thay đổi lối sống' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều chỉnh chế độ ăn uống cho từng trường hợp có thể giúp bệnh nhân kiểm soát sự dao động của glucos...\"",
+          "issue_type": null,
+          "critique": "Thay đổi lối sống là nền tảng điều trị đái tháo đường loại 2.",
           "suggested_fix": null
         },
         {
@@ -1422,7 +1574,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thiết bị chỉnh hình (giày dép chuyên dụng, nẹp) là phương pháp điều trị bảo tồn chính cho khớp Charcot.",
           "suggested_fix": null
         },
         {
@@ -1432,9 +1584,13 @@
           "target_name": "Đái tháo đường không ổn định",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thiếu hụt giáo dục bệnh nhân' hoặc 'Đái tháo đường không ổn định' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Những yếu tố này bao gồm việc giáo dục hoặc hiểu biết của bệnh nhân không đầy đủ dẫn đến sai sót tro...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Thiếu giáo dục dẫn đến sai sót insulin, gây mất kiểm soát đường huyết (đái tháo đường không ổn định), chứ không trực tiếp gây ra bệnh đái tháo đường.",
+          "suggested_fix": {
+            "source": "Thiếu hụt giáo dục bệnh nhân",
+            "relation": "Gây ra",
+            "target": "Kiểm soát đường huyết kém"
+          }
         },
         {
           "row_index": 130,
@@ -1444,7 +1600,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Phù hợp với bằng chứng y văn.",
           "suggested_fix": null
         },
         {
@@ -1452,10 +1608,10 @@
           "source_name": "Thuốc chủ vận thụ thể GLP-1",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc chủ vận thụ thể GLP-1' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ở những người mắc bệnh tiểu đường và béo phì, bác sĩ nên kê đơn thuốc hạ đường huyết để thúc đẩy giả...\"",
+          "issue_type": null,
+          "critique": "Đúng chỉ định lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -1466,7 +1622,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng chỉ định lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -1474,11 +1630,15 @@
           "source_name": "Thuốc gây hạ đường huyết",
           "relation_type": "Điều trị",
           "target_name": "Hạ đường huyết",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Thuốc hạ đường huyết dùng để điều trị đái tháo đường, không phải điều trị 'hạ đường huyết'. Hạ đường huyết là tác dụng phụ cần tránh.",
+          "suggested_fix": {
+            "source": "Thuốc hạ đường huyết",
+            "relation": "Điều trị",
+            "target": "Đái tháo đường"
+          }
         },
         {
           "row_index": 134,
@@ -1488,7 +1648,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng chỉ định lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -1499,7 +1659,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng chỉ định lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -1507,10 +1667,10 @@
           "source_name": "Thuốc tâm thần",
           "relation_type": "Điều trị",
           "target_name": "Rối loạn ăn uống",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc tâm thần' hoặc 'Rối loạn ăn uống' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị thường liên quan đến giám sát y tế chuyên sâu kết hợp với can thiệp tâm lý xã hội (ví dụ, c...\"",
+          "issue_type": null,
+          "critique": "Phù hợp với ngữ cảnh điều trị hỗ trợ trong rối loạn ăn uống.",
           "suggested_fix": null
         },
         {
@@ -1521,7 +1681,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng với bằng chứng về bảo tồn tế bào beta trong giai đoạn mới khởi phát.",
           "suggested_fix": null
         },
         {
@@ -1529,10 +1689,10 @@
           "source_name": "Thuốc ức chế hệ RAAS",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thuốc ức chế hệ RAAS' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Để ngăn ngừa các biến chứng, thường dùng thuốc chẹn hệ thống renin-angiotensin-aldosterone (thuốc ức...\"",
+          "issue_type": null,
+          "critique": "Đúng với chỉ định bảo vệ thận/tim mạch trong ĐTĐ type 2.",
           "suggested_fix": null
         },
         {
@@ -1540,32 +1700,40 @@
           "source_name": "Thời gian sàng lọc biến chứng sau chẩn đoán ĐTĐ Type 1: 5 năm",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Source entity không phải là một thực thể y khoa mà là một khoảng thời gian. Quan hệ 'Xác định ngưỡng chẩn đoán' là sai lệch hoàn toàn so với nội dung 'sàng lọc biến chứng'.",
+          "suggested_fix": {
+            "source": "Đái tháo đường loại 1",
+            "relation": "Thời điểm bắt đầu sàng lọc biến chứng",
+            "target": "5 năm sau chẩn đoán"
+          }
         },
         {
           "row_index": 140,
           "source_name": "Thử glucose máu",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường không ổn định",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Thử glucose máu' hoặc 'Đái tháo đường không ổn định' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tiếp cận ban đầu là xem xét cẩn thận kĩ thuật tự chăm sóc, gồm bảo quản, tiêm insulin và thử glucose...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản nói về 'kỹ thuật tự chăm sóc' (quản lý bệnh), không phải là công cụ chẩn đoán bệnh 'Đái tháo đường không ổn định'.",
+          "suggested_fix": {
+            "source": "Thử glucose máu",
+            "relation": "Là một phần của",
+            "target": "Kỹ thuật tự chăm sóc bệnh đái tháo đường"
+          }
         },
         {
           "row_index": 141,
           "source_name": "Tirzepatide",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tirzepatide' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Bệnh nhân béo phì cũng có thể được hưởng lợi từ tác dụng giảm cân của liệu pháp thuốc chủ vận thụ th...\"",
+          "issue_type": null,
+          "critique": "Tirzepatide là thuốc điều trị ĐTĐ type 2 đã được phê duyệt.",
           "suggested_fix": null
         },
         {
@@ -1573,55 +1741,75 @@
           "source_name": "Tiêm chủng",
           "relation_type": "Điều trị",
           "target_name": "COVID-19",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tiêm chủng' hoặc 'COVID-19' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tất cả bệnh nhân mắc bệnh tiểu đường nên được tiêm vắc xin phòng ngừa Streptococcus pneumoniae, vi r...\"",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tiêm chủng là biện pháp 'Phòng ngừa', không phải 'Điều trị' bệnh đã mắc.",
+          "suggested_fix": {
+            "source": "Tiêm chủng",
+            "relation": "Phòng ngừa",
+            "target": "COVID-19"
+          }
         },
         {
           "row_index": 143,
           "source_name": "Tiêm chủng",
           "relation_type": "Điều trị",
           "target_name": "Cúm",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tiêm chủng là biện pháp 'Phòng ngừa', không phải 'Điều trị'.",
+          "suggested_fix": {
+            "source": "Tiêm chủng",
+            "relation": "Phòng ngừa",
+            "target": "Cúm"
+          }
         },
         {
           "row_index": 144,
           "source_name": "Tiêm chủng",
           "relation_type": "Điều trị",
           "target_name": "Streptococcus pneumoniae",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tiêm chủng phòng ngừa vi khuẩn, không phải điều trị vi khuẩn.",
+          "suggested_fix": {
+            "source": "Tiêm chủng",
+            "relation": "Phòng ngừa",
+            "target": "Nhiễm Streptococcus pneumoniae"
+          }
         },
         {
           "row_index": 145,
           "source_name": "Tiêm chủng",
           "relation_type": "Điều trị",
           "target_name": "Thủy đậu",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tiêm chủng là biện pháp 'Phòng ngừa', không phải 'Điều trị'.",
+          "suggested_fix": {
+            "source": "Tiêm chủng",
+            "relation": "Phòng ngừa",
+            "target": "Thủy đậu"
+          }
         },
         {
           "row_index": 146,
           "source_name": "Tiêm chủng",
           "relation_type": "Điều trị",
           "target_name": "Viêm gan B",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tiêm chủng là biện pháp 'Phòng ngừa', không phải 'Điều trị'.",
+          "suggested_fix": {
+            "source": "Tiêm chủng",
+            "relation": "Phòng ngừa",
+            "target": "Viêm gan B"
+          }
         },
         {
           "row_index": 147,
@@ -1631,7 +1819,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, sự phục hồi tiết insulin là cơ chế của giai đoạn trăng mật.",
           "suggested_fix": null
         },
         {
@@ -1639,21 +1827,25 @@
           "source_name": "Tiết insulin",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Tăng đường huyết",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Thiếu hụt tiết insulin mới là cơ chế gây tăng đường huyết, không phải bản thân việc 'tiết insulin'.",
+          "suggested_fix": {
+            "source": "Thiếu hụt tiết insulin",
+            "relation": "Là cơ chế sinh bệnh học của",
+            "target": "Tăng đường huyết"
+          }
         },
         {
           "row_index": 149,
           "source_name": "Tiền sử gia đình",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Đái tháo đường loại 1",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tiền sử gia đình' hoặc 'Đái tháo đường loại 1' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Những người có nguy cơ cao mắc bệnh tiểu đường loại 1 (ví dụ: anh chị em ruột và con cái của người m...\"",
+          "issue_type": null,
+          "critique": "Đúng về mặt dịch tễ học.",
           "suggested_fix": null
         },
         {
@@ -1661,11 +1853,15 @@
           "source_name": "Tăng nguy cơ",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tăng nguy cơ' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Sàng lọc đái tháo đường nên được tiến hành cho người có tăng nguy cơ....\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Source 'Tăng nguy cơ' không phải là một thực thể lâm sàng, đây là một lỗi logic trong trích xuất.",
+          "suggested_fix": {
+            "source": "Yếu tố nguy cơ",
+            "relation": "Làm tăng nguy cơ mắc",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 151,
@@ -1675,7 +1871,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Mối quan hệ hợp lý, phản ánh đúng cơ chế bệnh sinh trong văn bản.",
           "suggested_fix": null
         },
         {
@@ -1686,7 +1882,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1697,7 +1893,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1708,7 +1904,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1719,7 +1915,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1730,7 +1926,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1741,7 +1937,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1749,21 +1945,25 @@
           "source_name": "Tần suất tự kiểm tra đường huyết ở ĐTĐ Type 1: >= 4 lần/ngày",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Đái tháo đường loại 1",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tần suất tự kiểm tra đường huyết ở ĐTĐ Type 1: >= 4 lần/ngày' hoặc 'Đái tháo đường loại 1' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Hầu hết bệnh nhân tiểu đường loại 1 đều được hưởng lợi từ việc xét nghiệm ít nhất 4 lần một ngày....\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Việc kiểm tra đường huyết 4 lần/ngày là phương pháp theo dõi/quản lý, không phải là tiêu chuẩn hay ngưỡng để 'chẩn đoán' bệnh.",
+          "suggested_fix": {
+            "source": "Tần suất tự kiểm tra đường huyết ở ĐTĐ Type 1: >= 4 lần/ngày",
+            "relation": "Hỗ trợ quản lý",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 159,
           "source_name": "Tập thể dục",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tập thể dục' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Điều trị bằng chế độ ăn kiêng, tập thể dục và dùng thuốc làm giảm lượng glucose, bao gồm insulin, th...\"",
+          "issue_type": null,
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1771,32 +1971,40 @@
           "source_name": "Tế bào beta",
           "relation_type": "Gây tổn thương cơ quan",
           "target_name": "Tuyến tụy",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Tế bào beta là thành phần của tuyến tụy, không phải tác nhân gây tổn thương tuyến tụy. Văn bản nói về quá trình phá hủy tế bào beta (bệnh lý).",
+          "suggested_fix": {
+            "source": "Quá trình tự miễn",
+            "relation": "Gây tổn thương",
+            "target": "Tế bào beta tuyến tụy"
+          }
         },
         {
           "row_index": 161,
           "source_name": "Tế bào beta",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Insulin",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tế bào beta sản xuất insulin, không phải là 'cơ chế sinh bệnh học' của insulin.",
+          "suggested_fix": {
+            "source": "Tế bào beta",
+            "relation": "Sản xuất",
+            "target": "Insulin"
+          }
         },
         {
           "row_index": 162,
           "source_name": "Tự chăm sóc",
           "relation_type": "Điều trị",
           "target_name": "Đái tháo đường không ổn định",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tự chăm sóc' hoặc 'Đái tháo đường không ổn định' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tiếp cận ban đầu là xem xét cẩn thận kĩ thuật tự chăm sóc...\"",
+          "issue_type": null,
+          "critique": "Chính xác theo văn bản.",
           "suggested_fix": null
         },
         {
@@ -1804,44 +2012,60 @@
           "source_name": "Tỷ lệ mang gen nhạy cảm HLA ở ĐTĐ Type 1: > 90%",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Đái tháo đường loại 1",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Tỷ lệ mang gen nhạy cảm HLA ở ĐTĐ Type 1: > 90%' hoặc 'Đái tháo đường loại 1' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"chúng xuất hiện trong > 90% bệnh nhân đái tháo đường loại 1...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Gen nhạy cảm HLA là yếu tố nguy cơ/di truyền, không phải là ngưỡng chẩn đoán bệnh.",
+          "suggested_fix": {
+            "source": "Tỷ lệ mang gen nhạy cảm HLA",
+            "relation": "Là yếu tố nguy cơ của",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 164,
           "source_name": "Urine glucose test",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Urine glucose test' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Đo lượng glucose trong nước tiểu, không sử dụng để chẩn đoán và theo dõi vì không nhạy và không đặc ...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Văn bản khẳng định rõ ràng là 'không sử dụng để chẩn đoán'.",
+          "suggested_fix": {
+            "source": "Urine glucose test",
+            "relation": "Không được khuyến cáo để chẩn đoán",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 165,
           "source_name": "Vi rút Epstein-Barr",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản chỉ nói 'có liên quan đến khởi phát', không khẳng định chắc chắn là 'nguyên nhân gây ra'.",
+          "suggested_fix": {
+            "source": "Vi rút Epstein-Barr",
+            "relation": "Có liên quan đến khởi phát",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 166,
           "source_name": "Vi rút Rubella",
           "relation_type": "Là nguyên nhân gây ra",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản chỉ nêu vi rút 'có liên quan đến khởi phát', chưa khẳng định là 'nguyên nhân gây ra' (causality). Cần dùng từ ngữ thận trọng hơn.",
+          "suggested_fix": {
+            "source": "Vi rút Rubella",
+            "relation": "Có liên quan đến khởi phát",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 167,
@@ -1851,7 +2075,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt bệnh học, viêm tụy là tình trạng viêm gây tổn thương nhu mô tuyến tụy.",
           "suggested_fix": null
         },
         {
@@ -1859,66 +2083,90 @@
           "source_name": "Vắc xin SARS-CoV-2",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Vắc xin SARS-CoV-2' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tất cả bệnh nhân mắc bệnh tiểu đường nên được tiêm vắc xin phòng ngừa Streptococcus pneumoniae, vi r...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Vắc xin là biện pháp phòng ngừa (dự phòng), không phải là thuốc điều trị bệnh tiểu đường. Gán quan hệ 'Điều trị' là sai lệch y khoa nghiêm trọng.",
+          "suggested_fix": {
+            "source": "Vắc xin SARS-CoV-2",
+            "relation": "Được khuyến cáo tiêm phòng cho bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 169,
           "source_name": "Vắc xin cúm",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Vắc xin cúm' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tất cả bệnh nhân mắc bệnh tiểu đường nên được tiêm vắc xin phòng ngừa Streptococcus pneumoniae, vi r...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 168, vắc xin cúm là biện pháp dự phòng, không phải điều trị bệnh tiểu đường.",
+          "suggested_fix": {
+            "source": "Vắc xin cúm",
+            "relation": "Được khuyến cáo tiêm phòng cho bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 170,
           "source_name": "Vắc xin phế cầu",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Vắc xin phế cầu' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tất cả bệnh nhân mắc bệnh tiểu đường nên được tiêm vắc xin phòng ngừa Streptococcus pneumoniae, vi r...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 168, vắc xin phế cầu là biện pháp dự phòng.",
+          "suggested_fix": {
+            "source": "Vắc xin phế cầu",
+            "relation": "Được khuyến cáo tiêm phòng cho bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 171,
           "source_name": "Vắc xin thủy đậu",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Vắc xin thủy đậu' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tất cả bệnh nhân mắc bệnh tiểu đường nên được tiêm vắc xin phòng ngừa Streptococcus pneumoniae, vi r...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 168, vắc xin thủy đậu là biện pháp dự phòng.",
+          "suggested_fix": {
+            "source": "Vắc xin thủy đậu",
+            "relation": "Được khuyến cáo tiêm phòng cho bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 172,
           "source_name": "Vắc xin viêm gan B",
           "relation_type": "Điều trị",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Vắc xin viêm gan B' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Tất cả bệnh nhân mắc bệnh tiểu đường nên được tiêm vắc xin phòng ngừa Streptococcus pneumoniae, vi r...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 168, vắc xin viêm gan B là biện pháp dự phòng.",
+          "suggested_fix": {
+            "source": "Vắc xin viêm gan B",
+            "relation": "Được khuyến cáo tiêm phòng cho bệnh nhân",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 173,
           "source_name": "Xét nghiệm HbA1c tại giường",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Xét nghiệm HbA1c tại giường' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Xét nghiệm HbA1C đầu ngón tại giường không đủ chính xác để sử dụng cho chẩn đoán ban đầu về bệnh tiể...\"",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Văn bản gốc khẳng định xét nghiệm này 'không đủ chính xác để sử dụng cho chẩn đoán'. Quan hệ 'Dùng để chẩn đoán' là sai sự thật.",
+          "suggested_fix": {
+            "source": "Xét nghiệm HbA1c tại giường",
+            "relation": "Không được khuyến cáo để",
+            "target": "Chẩn đoán Diabetes mellitus"
+          }
         },
         {
           "row_index": 174,
@@ -1927,20 +2175,28 @@
           "target_name": "Diabetes mellitus",
           "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Xét nghiệm máu' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Kiểm soát đái tháo đường có thể theo dõi bởi định lượng nồng độ trong máu của:...\"",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Văn bản gốc nói về 'theo dõi' (monitoring), không phải 'chẩn đoán' (diagnosis).",
+          "suggested_fix": {
+            "source": "Xét nghiệm máu",
+            "relation": "Dùng để theo dõi",
+            "target": "Diabetes mellitus"
+          }
         },
         {
           "row_index": 175,
           "source_name": "Xét nghiệm thường xuyên",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 2",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Xét nghiệm thường xuyên là phương pháp phát hiện bệnh, không phải là công cụ chẩn đoán trực tiếp (chẩn đoán dựa trên tiêu chuẩn đường huyết).",
+          "suggested_fix": {
+            "source": "Xét nghiệm thường xuyên",
+            "relation": "Giúp phát hiện",
+            "target": "Đái tháo đường loại 2"
+          }
         },
         {
           "row_index": 176,
@@ -1950,7 +2206,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng về mặt bệnh học.",
           "suggested_fix": null
         },
         {
@@ -1958,10 +2214,10 @@
           "source_name": "adipocytokine",
           "relation_type": "Làm thay đổi / điều biến",
           "target_name": "Đề kháng insulin",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'adipocytokine' hoặc 'Đề kháng insulin' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Mô mỡ cũng có chức năng như một cơ quan nội tiết, giải phóng nhiều yếu tố (adipocytokine) có lợi (ad...\"",
+          "issue_type": null,
+          "critique": "Đúng, adipocytokine có vai trò điều biến độ nhạy insulin.",
           "suggested_fix": null
         },
         {
@@ -1972,7 +2228,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, axit béo tự do cao góp phần vào cơ chế đề kháng insulin.",
           "suggested_fix": null
         },
         {
@@ -1980,10 +2236,10 @@
           "source_name": "obesity",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Đái tháo đường loại 2",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'obesity' hoặc 'Đái tháo đường loại 2' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Hầu hết trẻ em mắc bệnh tiểu đường loại 2 đều bị béo phì, vì vậy việc điều chỉnh lối sống là nền tản...\"",
+          "issue_type": null,
+          "critique": "Đúng, béo phì là yếu tố nguy cơ chính của ĐTĐ loại 2.",
           "suggested_fix": null
         },
         {
@@ -1994,7 +2250,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Đúng, pioglitazone được chỉ định trong điều trị bệnh gan nhiễm mỡ không do rượu (MASLD/NAFLD).",
           "suggested_fix": null
         },
         {
@@ -2005,7 +2261,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác và phù hợp với bằng chứng lâm sàng.",
           "suggested_fix": null
         },
         {
@@ -2016,7 +2272,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phản ánh đúng tiềm năng bảo tồn tế bào beta của verapamil trong các nghiên cứu lâm sàng gần đây.",
           "suggested_fix": null
         },
         {
@@ -2027,7 +2283,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Phản ánh đúng tính chất đa gen (polygenic) của đái tháo đường loại 2.",
           "suggested_fix": null
         },
         {
@@ -2038,7 +2294,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác, phù hợp với hướng dẫn điều trị hiện hành.",
           "suggested_fix": null
         },
         {
@@ -2046,10 +2302,10 @@
           "source_name": "Đo glucose huyết tương",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Đo glucose huyết tương' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Chẩn đoán bằng định lượng glucose huyết tương....\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác.",
           "suggested_fix": null
         },
         {
@@ -2060,7 +2316,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác.",
           "suggested_fix": null
         },
         {
@@ -2071,7 +2327,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác.",
           "suggested_fix": null
         },
         {
@@ -2079,10 +2335,10 @@
           "source_name": "Đái tháo đường loại 2",
           "relation_type": "Dẫn đến biến chứng",
           "target_name": "Diabetes Complications",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Đái tháo đường loại 2' hoặc 'Diabetes Complications' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"triệu chứng ban đầu là biến chứng của đái tháo đường, gợi ý bệnh đã xuất hiện được một thời gian....\"",
+          "issue_type": null,
+          "critique": "Thông tin chính xác.",
           "suggested_fix": null
         },
         {
@@ -2090,10 +2346,10 @@
           "source_name": "Đái tháo đường thai kỳ",
           "relation_type": "Làm tăng nguy cơ mắc",
           "target_name": "Diabetes mellitus",
-          "status": "WARNING",
+          "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Đái tháo đường thai kỳ' hoặc 'Diabetes mellitus' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"đặc biệt ở những bệnh nhân có nguy cơ mắc bệnh tiểu đường cao nhất (chỉ số khối cơ thể >= 35 hoặc có...\"",
+          "issue_type": null,
+          "critique": "Tiền sử đái tháo đường thai kỳ là yếu tố nguy cơ đã được xác lập cho đái tháo đường thực thụ (Diabetes mellitus) trong tương lai.",
           "suggested_fix": null
         },
         {
@@ -2101,33 +2357,45 @@
           "source_name": "Đường huyết mao mạch",
           "relation_type": "Dùng để chẩn đoán",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Đo đường huyết mao mạch dùng để theo dõi và quản lý bệnh, không phải là tiêu chuẩn vàng để chẩn đoán đái tháo đường.",
+          "suggested_fix": {
+            "source": "Đường huyết mao mạch",
+            "relation": "Dùng để theo dõi",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 191,
           "source_name": "Đường huyết mục tiêu trước tập thể dục: 90 - 250 mg/dL (5 - 14 mmol/L)",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Đái tháo đường loại 1",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Ngưỡng đường huyết trước tập thể dục là mục tiêu quản lý, không phải là tiêu chuẩn chẩn đoán bệnh.",
+          "suggested_fix": {
+            "source": "Đường huyết mục tiêu trước tập thể dục",
+            "relation": "Là mục tiêu quản lý cho",
+            "target": "Đái tháo đường loại 1"
+          }
         },
         {
           "row_index": 192,
           "source_name": "Đề kháng insulin",
           "relation_type": "Là cơ chế sinh bệnh học của",
           "target_name": "Insulin",
-          "status": "PASS",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Inverted_Causality",
+          "critique": "Đề kháng insulin là cơ chế bệnh sinh của bệnh, không phải là cơ chế của bản thân hormone insulin.",
+          "suggested_fix": {
+            "source": "Đề kháng insulin",
+            "relation": "Là cơ chế sinh bệnh học của",
+            "target": "Đái tháo đường"
+          }
         },
         {
           "row_index": 193,
@@ -2137,7 +2405,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác.",
           "suggested_fix": null
         },
         {
@@ -2148,7 +2416,7 @@
           "status": "PASS",
           "agent_name": "Clinical_Doctor_Agent",
           "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
+          "critique": "Thông tin chính xác.",
           "suggested_fix": null
         },
         {
@@ -2156,44 +2424,60 @@
           "source_name": "Đỉnh glucose máu sau ăn (1 - 2 giờ): < 180 mg/dL (10.0 mmol/L)",
           "relation_type": "Điều trị",
           "target_name": "Suy giảm chức năng thận",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Đỉnh glucose máu sau ăn (1 - 2 giờ): < 180 mg/dL (10.0 mmol/L)' hoặc 'Suy giảm chức năng thận' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ức chế Dipeptidyl peptidase-4 tương đối an toàn, thậm chí trong bệnh nhân suy thận...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Đỉnh glucose máu sau ăn là chỉ số mục tiêu kiểm soát đường huyết, không phải là phương pháp điều trị suy giảm chức năng thận.",
+          "suggested_fix": {
+            "source": "Ức chế Dipeptidyl peptidase-4",
+            "relation": "Điều trị",
+            "target": "Đái tháo đường loại 2 (ở bệnh nhân suy thận)"
+          }
         },
         {
           "row_index": 196,
           "source_name": "Đỉnh glucose máu sau ăn (1 - 2 giờ): < 180 mg/dL (10.0 mmol/L)",
           "relation_type": "Điều trị",
           "target_name": "Suy thận",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Đỉnh glucose máu sau ăn (1 - 2 giờ): < 180 mg/dL (10.0 mmol/L)' hoặc 'Suy thận' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ức chế Dipeptidyl peptidase-4 tương đối an toàn, thậm chí trong bệnh nhân suy thận...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Bộ ba này hoàn toàn sai lệch về mặt logic và nội dung. 'Đỉnh glucose máu sau ăn' là một chỉ số mục tiêu điều trị, không phải là tác nhân điều trị. Hơn nữa, đoạn trích dẫn nói về thuốc ức chế DPP-4 an toàn cho bệnh nhân suy thận, không hề đề cập đến việc chỉ số glucose điều trị suy thận.",
+          "suggested_fix": {
+            "source": "Ức chế Dipeptidyl peptidase-4",
+            "relation": "An toàn cho bệnh nhân",
+            "target": "Suy thận"
+          }
         },
         {
           "row_index": 197,
           "source_name": "Đỉnh glucose máu sau ăn (1 - 2 giờ): < 180 mg/dL (10.0 mmol/L)",
           "relation_type": "Điều trị",
           "target_name": "Tăng đường huyết",
-          "status": "WARNING",
+          "status": "FAIL",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": "Weak_Evidence_Grounding",
-          "critique": "Thực thể 'Đỉnh glucose máu sau ăn (1 - 2 giờ): < 180 mg/dL (10.0 mmol/L)' hoặc 'Tăng đường huyết' có độ neo ngữ cảnh yếu so với bằng chứng gốc: \"Ức chế Dipeptidyl peptidase-4 tương đối an toàn, thậm chí trong bệnh nhân suy thận, và thuốc cũng đư...\"",
-          "suggested_fix": null
+          "issue_type": "Hallucination",
+          "critique": "Tương tự row 196, 'Đỉnh glucose máu sau ăn' không phải là thuốc hay phương pháp điều trị. Thuốc ức chế DPP-4 mới là tác nhân điều trị, và mục tiêu là kiểm soát tăng đường huyết chứ không phải 'điều trị' bằng chỉ số glucose.",
+          "suggested_fix": {
+            "source": "Ức chế Dipeptidyl peptidase-4",
+            "relation": "Giảm",
+            "target": "Glucose máu sau ăn"
+          }
         },
         {
           "row_index": 198,
           "source_name": "Độ tuổi có tỷ lệ suy giảm dung nạp glucose cao: > 65 tuổi",
           "relation_type": "Xác định ngưỡng chẩn đoán cho",
           "target_name": "Không dung nạp glucose",
-          "status": "PASS",
+          "status": "WARNING",
           "agent_name": "Clinical_Doctor_Agent",
-          "issue_type": null,
-          "critique": "Chuẩn xác về mặt lâm sàng và neo đúng bằng chứng văn bản gốc.",
-          "suggested_fix": null
+          "issue_type": "Weak_Grounding",
+          "critique": "Mối quan hệ 'Xác định ngưỡng chẩn đoán cho' không chính xác. Văn bản chỉ nêu dữ liệu dịch tễ học (tỷ lệ mắc) ở người trên 65 tuổi, không hề đề cập đến việc thiết lập ngưỡng chẩn đoán y khoa cho tình trạng này.",
+          "suggested_fix": {
+            "source": "> 65 tuổi",
+            "relation": "Có tỷ lệ mắc cao",
+            "target": "Suy giảm dung nạp glucose"
+          }
         }
       ]
     },
@@ -6572,6 +6856,6 @@
       ]
     }
   },
-  "flagged_rows_count": 87,
-  "auto_healed_rows_count": 0
+  "flagged_rows_count": 72,
+  "auto_healed_rows_count": 47
 }

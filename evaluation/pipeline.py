@@ -19,8 +19,9 @@ logger = logging.getLogger(__name__)
 class MultiAgentEvaluator:
     """Orchestrates the 4-agent clinical review board in parallel."""
 
-    def __init__(self):
-        self.clinical_agent = ClinicalFactCheckAgent()
+    def __init__(self, use_llm: bool = True):
+        self.use_llm = use_llm
+        self.clinical_agent = ClinicalFactCheckAgent(use_llm=use_llm)
         self.ontology_agent = OntologyAuditorAgent()
         self.graph_agent = GraphStructureAgent()
         self.adjudicator = ChiefMedicalAdjudicator()

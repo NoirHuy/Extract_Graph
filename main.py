@@ -237,6 +237,7 @@ def main():
     eval_p = subparsers.add_parser("evaluate", help="Audit and evaluate exported Knowledge Graph CSV using the Multi-Agent Review Board")
     eval_p.add_argument("--input", required=True, help="Path to clinical_knowledge_summary.csv")
     eval_p.add_argument("--output-dir", default="data/reports", help="Output directory for reports (default: data/reports)")
+    eval_p.add_argument("--no-llm", action="store_true", help="Disable real LLM doctor calls (use fast heuristic rules only)")
 
     args = parser.parse_args()
 
@@ -337,7 +338,7 @@ def main():
         print("Ready for sub-millisecond semantic vector normalization!\n")
     elif args.command == "evaluate":
         from evaluation.pipeline import MultiAgentEvaluator
-        evaluator = MultiAgentEvaluator()
+        evaluator = MultiAgentEvaluator(use_llm=not args.no_llm)
         scorecard, md_file, json_file, verified_csv = evaluator.evaluate_csv(
             csv_path=args.input,
             output_dir=args.output_dir,
