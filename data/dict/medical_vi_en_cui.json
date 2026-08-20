@@ -544,12 +544,12 @@
     "umls_preferred_name": "Obesity"
   },
   "thời gian ngủ ngắn": {
-    "en": "Short sleep duration",
-    "cui": "C4524458",
+    "en": "Sleep Deprivation",
+    "cui": "C0037316",
     "tui": "T033",
     "entity_type": "RiskFactor",
     "sty": "Finding",
-    "umls_preferred_name": "Short sleep duration"
+    "umls_preferred_name": "Sleep Deprivation"
   },
   "đau đầu": {
     "en": "Headache",
