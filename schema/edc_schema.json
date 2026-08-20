@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ClinicalKGExtraction",
+  "type": "object",
+  "properties": {
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "text": {"type": "string"},
+          "normalized_name": {"type": "string"},
+          "entity_type": {
+            "type": "string",
+            "enum": [
+              "Disease",
+              "DiseaseSubtype",
+              "Symptom",
+              "Sign",
+              "RiskFactor",
+              "Cause",
+              "Mechanism",
+              "Complication",
+              "Test",
+              "Measurement",
+              "Drug",
+              "DrugClass",
+              "Treatment",
+              "Organ",
+              "PatientGroup",
+              "Guideline"
+            ]
+          },
+          "umls_sty": {"type": ["string", "null"]},
+          "umls_cui": {"type": ["string", "null"]},
+          "attributes": {"type": "object", "additionalProperties": true},
+          "evidence_span": {"type": "string"}
+        },
+        "required": ["id", "text", "normalized_name", "entity_type", "evidence_span"]
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {"type": "string"},
+          "target_id": {"type": "string"},
+          "relation_type": {
+            "type": "string",
+            "enum": [
+              "IS_SUBTYPE_OF",
+              "CAUSES",
+              "INCREASES_RISK_OF",
+              "HAS_SYMPTOM",
+              "HAS_SIGN",
+              "UNDERLIES",
+              "PART_OF_MECHANISM",
+              "LEADS_TO",
+              "AFFECTS_ORGAN",
+              "DIAGNOSES",
+              "DETECTS",
+              "MEASURES",
+              "TREATS",
+              "CONTRAINDICATED_IN",
+              "PREFERRED_FOR",
+              "HAS_PREVALENCE",
+              "DEFINES_THRESHOLD_FOR",
+              "CLASSIFIES",
+              "MODIFIES"
+            ]
+          },
+          "relation_properties": {"type": "object", "additionalProperties": true},
+          "evidence_span": {"type": "string"},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        },
+        "required": ["source_id", "target_id", "relation_type", "evidence_span"]
+      }
+    }
+  },
+  "required": ["entities", "relations"]
+}
