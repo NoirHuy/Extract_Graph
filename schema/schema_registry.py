@@ -29,27 +29,27 @@ ENTITY_TYPES: Dict[str, Dict[str, str]] = {
     "Guideline": {"sty": "Intellectual Product", "tui": "T170", "group": "CONC"},
 }
 
-# Relation Types & Domain/Range constraints
+# Relation Types & Domain/Range constraints (Enhanced with clinical real-world flexibilities)
 RELATION_TYPES: List[Dict[str, Any]] = [
     {"name": "IS_SUBTYPE_OF", "domain": ["DiseaseSubtype"], "range": ["Disease"]},
-    {"name": "CAUSES", "domain": ["Cause"], "range": ["Disease", "DiseaseSubtype"]},
-    {"name": "INCREASES_RISK_OF", "domain": ["RiskFactor"], "range": ["Disease", "Complication"]},
+    {"name": "CAUSES", "domain": ["Cause", "Disease"], "range": ["Disease", "DiseaseSubtype", "Mechanism", "Complication"]},
+    {"name": "INCREASES_RISK_OF", "domain": ["RiskFactor", "Disease", "DiseaseSubtype"], "range": ["Disease", "Complication", "DiseaseSubtype"]},
     {"name": "HAS_SYMPTOM", "domain": ["Disease", "DiseaseSubtype"], "range": ["Symptom"]},
     {"name": "HAS_SIGN", "domain": ["Disease", "DiseaseSubtype"], "range": ["Sign"]},
-    {"name": "UNDERLIES", "domain": ["Mechanism"], "range": ["Disease", "DiseaseSubtype"]},
-    {"name": "PART_OF_MECHANISM", "domain": ["Mechanism"], "range": ["Mechanism"]},
-    {"name": "LEADS_TO", "domain": ["Disease", "DiseaseSubtype"], "range": ["Complication"]},
-    {"name": "AFFECTS_ORGAN", "domain": ["Complication", "Disease"], "range": ["Organ"]},
+    {"name": "UNDERLIES", "domain": ["Mechanism", "Cause"], "range": ["Disease", "DiseaseSubtype", "Mechanism"]},
+    {"name": "PART_OF_MECHANISM", "domain": ["Mechanism", "Cause"], "range": ["Mechanism"]},
+    {"name": "LEADS_TO", "domain": ["Disease", "DiseaseSubtype", "Cause"], "range": ["Complication", "Disease"]},
+    {"name": "AFFECTS_ORGAN", "domain": ["Complication", "Disease", "Mechanism", "Cause"], "range": ["Organ"]},
     {"name": "DIAGNOSES", "domain": ["Test"], "range": ["Disease", "DiseaseSubtype"]},
-    {"name": "DETECTS", "domain": ["Test"], "range": ["Sign", "Complication"]},
+    {"name": "DETECTS", "domain": ["Test"], "range": ["Sign", "Complication", "Measurement"]},
     {"name": "MEASURES", "domain": ["Test"], "range": ["Measurement"]},
     {"name": "TREATS", "domain": ["Drug", "DrugClass", "Treatment"], "range": ["Disease", "DiseaseSubtype"]},
     {"name": "CONTRAINDICATED_IN", "domain": ["Drug", "DrugClass"], "range": ["Disease", "PatientGroup"]},
     {"name": "PREFERRED_FOR", "domain": ["Drug", "DrugClass"], "range": ["Disease", "PatientGroup"]},
     {"name": "HAS_PREVALENCE", "domain": ["PatientGroup"], "range": ["Disease", "DiseaseSubtype"]},
-    {"name": "DEFINES_THRESHOLD_FOR", "domain": ["Measurement"], "range": ["DiseaseSubtype"]},
-    {"name": "CLASSIFIES", "domain": ["Guideline"], "range": ["DiseaseSubtype"]},
-    {"name": "MODIFIES", "domain": ["Mechanism", "Measurement"], "range": ["Mechanism", "Disease"]},
+    {"name": "DEFINES_THRESHOLD_FOR", "domain": ["Measurement"], "range": ["DiseaseSubtype", "Disease"]},
+    {"name": "CLASSIFIES", "domain": ["Guideline"], "range": ["DiseaseSubtype", "Disease"]},
+    {"name": "MODIFIES", "domain": ["Mechanism", "Measurement", "Drug", "DrugClass"], "range": ["Mechanism", "Disease", "Measurement"]},
 ]
 
 _RELATION_MAP: Dict[str, Dict[str, List[str]]] = {

@@ -1,9 +1,33 @@
-"""Multi-Pass Consensus and Entity/Relation Deduplication."""
+"""Multi-Pass Consensus, Entity Deduplication and Semantic Conflict Tie-Breaking."""
 
 import logging
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
+from schema.schema_registry import is_valid_relation
 
 logger = logging.getLogger(__name__)
+
+# Specificity hierarchy: higher number = more clinically specific
+_SPECIFICITY_RANK: Dict[str, int] = {
+    "UNDERLIES": 10,
+    "PART_OF_MECHANISM": 10,
+    "DEFINES_THRESHOLD_FOR": 10,
+    "DIAGNOSES": 9,
+    "TREATS": 9,
+    "CONTRAINDICATED_IN": 9,
+    "PREFERRED_FOR": 9,
+    "CAUSES": 8,
+    "LEADS_TO": 8,
+    "AFFECTS_ORGAN": 8,
+    "IS_SUBTYPE_OF": 8,
+    "INCREASES_RISK_OF": 7,
+    "HAS_SYMPTOM": 7,
+    "HAS_SIGN": 7,
+    "DETECTS": 7,
+    "MEASURES": 7,
+    "CLASSIFIES": 7,
+    "HAS_PREVALENCE": 6,
+    "MODIFIES": 4,
+}
 
 
 def merge_entities(entity_lists: List[List[Dict[str, Any]]]) -> Tuple[List[Dict[str, Any]], Dict[str, str]]:
@@ -52,14 +76,15 @@ def aggregate_relation_consensus(
     relation_lists: List[List[Dict[str, Any]]],
     id_mapping: Dict[str, str],
     total_passes: int = 2,
+    entities: Optional[List[Dict[str, Any]]] = None,
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    """Aggregate relations across multi-pass runs with statistical confidence and conflict detection.
+    """Aggregate relations across multi-pass runs with statistical confidence, conflict detection and smart tie-breaking.
 
     - Concordant relations: Computes confidence = 1 - product(1 - c_i), records agreement_count.
-    - Conflicting relations (same source & target, discordant relation_type): Flagged as 'conflict'.
+    - Conflicting relations (same source & target, discordant relation_type):
+      Applies Semantic Tie-Breaker by Specificity Rank if applicable, otherwise flags as 'conflict'.
     Returns (consensus_relations, conflict_relations).
     """
-    # Group relations by (source_canonical, target_canonical)
     pair_groups: Dict[Tuple[str, str], Dict[str, List[Dict[str, Any]]]] = {}
 
     for pass_rels in relation_lists:
@@ -87,23 +112,59 @@ def aggregate_relation_consensus(
 
     for (src, tgt), rel_types_dict in pair_groups.items():
         if len(rel_types_dict) > 1:
-            # Conflict detected across passes
-            variants = []
-            for r_type, occurrences in rel_types_dict.items():
-                variants.append({
-                    "relation_type": r_type,
-                    "count": len(occurrences),
-                    "mean_confidence": sum(o.get("confidence", 0.7) for o in occurrences) / len(occurrences),
-                    "evidence_spans": [o.get("evidence_span", "") for o in occurrences],
+            # Conflict detected across passes -> Check if tie-breaker can resolve
+            types_by_rank = sorted(
+                rel_types_dict.keys(),
+                key=lambda t: _SPECIFICITY_RANK.get(t, 5),
+                reverse=True,
+            )
+            top_type = types_by_rank[0]
+            second_type = types_by_rank[1]
+            top_rank = _SPECIFICITY_RANK.get(top_type, 5)
+            second_rank = _SPECIFICITY_RANK.get(second_type, 5)
+
+            # If top type is strictly more specific (e.g. UNDERLIES > MODIFIES)
+            if top_rank > second_rank:
+                chosen_occurrences = rel_types_dict[top_type]
+                best_span = max((o.get("evidence_span", "") for o in chosen_occurrences), key=len, default="")
+                
+                # Combine confidence from both passes
+                all_confs = [float(o.get("confidence", 0.8)) for occs in rel_types_dict.values() for o in occs]
+                conf_product = 1.0
+                for c in all_confs:
+                    conf_product *= (1.0 - min(0.99, max(0.01, c)))
+                stat_confidence = round(1.0 - conf_product, 4)
+
+                consensus_relations.append({
+                    "source_id": src,
+                    "target_id": tgt,
+                    "relation_type": top_type,
+                    "confidence": stat_confidence,
+                    "agreement_count": len(chosen_occurrences),
+                    "total_passes": total_passes,
+                    "agreement_ratio": round(len(chosen_occurrences) / total_passes, 2),
+                    "evidence_span": best_span,
+                    "relation_properties": {"resolved_alternate": second_type},
+                    "status": "resolved_by_specificity",
                 })
-            conflict_record = {
-                "source_id": src,
-                "target_id": tgt,
-                "status": "conflict",
-                "total_passes": total_passes,
-                "conflict_variants": variants,
-            }
-            conflict_relations.append(conflict_record)
+            else:
+                # True contradiction of equal rank (e.g. TREATS vs CAUSES)
+                variants = []
+                for r_type, occurrences in rel_types_dict.items():
+                    variants.append({
+                        "relation_type": r_type,
+                        "count": len(occurrences),
+                        "mean_confidence": sum(o.get("confidence", 0.7) for o in occurrences) / len(occurrences),
+                        "evidence_spans": [o.get("evidence_span", "") for o in occurrences],
+                    })
+                conflict_record = {
+                    "source_id": src,
+                    "target_id": tgt,
+                    "status": "conflict",
+                    "total_passes": total_passes,
+                    "conflict_variants": variants,
+                }
+                conflict_relations.append(conflict_record)
         else:
             # Single relation type for this source-target pair
             (r_type, occurrences) = next(iter(rel_types_dict.items()))
@@ -116,7 +177,6 @@ def aggregate_relation_consensus(
                 conf_product *= (1.0 - min(0.99, max(0.01, c)))
             stat_confidence = round(1.0 - conf_product, 4)
 
-            # Longest evidence span
             best_span = max((o.get("evidence_span", "") for o in occurrences), key=len, default="")
             relation_props = {}
             for occ in occurrences:

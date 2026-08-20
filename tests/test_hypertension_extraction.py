@@ -96,18 +96,18 @@ def test_hypertension_benchmark_triplets(tmp_path):
 
 
 def test_conflict_detection_and_exclusion():
-    """Verify that discordant relation types across passes are flagged as conflict and excluded from valid graph."""
+    """Verify that discordant relation types of equal rank across passes are flagged as conflict and excluded from valid graph."""
     pass1_entities = [
-        {"id": "p1_e1", "text": "Yếu tố A", "normalized_name": "Yếu tố A", "entity_type": "RiskFactor", "evidence_span": "..."},
+        {"id": "p1_e1", "text": "Thuốc X", "normalized_name": "Thuốc X", "entity_type": "Drug", "evidence_span": "..."},
         {"id": "p1_e2", "text": "Bệnh B", "normalized_name": "Bệnh B", "entity_type": "Disease", "evidence_span": "..."}
     ]
     pass2_entities = [
-        {"id": "p2_e1", "text": "Yếu tố A", "normalized_name": "Yếu tố A", "entity_type": "RiskFactor", "evidence_span": "..."},
+        {"id": "p2_e1", "text": "Thuốc X", "normalized_name": "Thuốc X", "entity_type": "Drug", "evidence_span": "..."},
         {"id": "p2_e2", "text": "Bệnh B", "normalized_name": "Bệnh B", "entity_type": "Disease", "evidence_span": "..."}
     ]
-    # Pass 1: INCREASES_RISK_OF, Pass 2: CAUSES
-    pass1_rel = [{"source_id": "p1_e1", "target_id": "p1_e2", "relation_type": "INCREASES_RISK_OF", "evidence_span": "...", "confidence": 0.8}]
-    pass2_rel = [{"source_id": "p2_e1", "target_id": "p2_e2", "relation_type": "CAUSES", "evidence_span": "...", "confidence": 0.8}]
+    # Pass 1: TREATS (rank 9), Pass 2: CONTRAINDICATED_IN (rank 9) -> True Contradiction
+    pass1_rel = [{"source_id": "p1_e1", "target_id": "p1_e2", "relation_type": "TREATS", "evidence_span": "...", "confidence": 0.8}]
+    pass2_rel = [{"source_id": "p2_e1", "target_id": "p2_e2", "relation_type": "CONTRAINDICATED_IN", "evidence_span": "...", "confidence": 0.8}]
 
     merged_entities, id_map = merge_entities([pass1_entities, pass2_entities])
     consensus, conflicts = aggregate_relation_consensus([pass1_rel, pass2_rel], id_mapping=id_map, total_passes=2)

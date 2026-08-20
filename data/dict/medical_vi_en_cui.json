@@ -1,21 +1,170 @@
 {
-  "tăng huyết áp": {"en": "Hypertension", "cui": "C0020538", "tui": "T047", "entity_type": "Disease"},
-  "tăng huyết áp nguyên phát": {"en": "Essential hypertension", "cui": "C0085580", "tui": "T047", "entity_type": "DiseaseSubtype"},
-  "tăng huyết áp thứ phát": {"en": "Secondary hypertension", "cui": "C0155615", "tui": "T047", "entity_type": "DiseaseSubtype"},
-  "tăng huyết áp giai đoạn 1": {"en": "Stage 1 hypertension", "cui": "C4073145", "tui": "T047", "entity_type": "DiseaseSubtype"},
-  "cường aldosteron nguyên phát": {"en": "Primary Hyperaldosteronism", "cui": "C0020438", "tui": "T047", "entity_type": "Cause"},
-  "đột quỵ": {"en": "Stroke", "cui": "C0038454", "tui": "T047", "entity_type": "Complication"},
-  "nhồi máu cơ tim": {"en": "Myocardial Infarction", "cui": "C0027051", "tui": "T047", "entity_type": "Complication"},
-  "suy tim": {"en": "Heart Failure", "cui": "C0018801", "tui": "T047", "entity_type": "Complication"},
-  "thuốc ức chế men chuyển": {"en": "Angiotensin-Converting Enzyme Inhibitors", "cui": "C0003015", "tui": "T121", "entity_type": "DrugClass"},
-  "ace inhibitor": {"en": "Angiotensin-Converting Enzyme Inhibitors", "cui": "C0003015", "tui": "T121", "entity_type": "DrugClass"},
-  "thuốc chẹn thụ thể angiotensin": {"en": "Angiotensin Receptor Antagonists", "cui": "C0139702", "tui": "T121", "entity_type": "DrugClass"},
-  "arb": {"en": "Angiotensin Receptor Antagonists", "cui": "C0139702", "tui": "T121", "entity_type": "DrugClass"},
-  "thuốc chẹn kênh canxi": {"en": "Calcium Channel Blockers", "cui": "C0006684", "tui": "T121", "entity_type": "DrugClass"},
-  "thuốc lợi tiểu thiazide": {"en": "Thiazide Diuretics", "cui": "C0039864", "tui": "T121", "entity_type": "DrugClass"},
-  "đau đầu": {"en": "Headache", "cui": "C0018681", "tui": "T184", "entity_type": "Symptom"},
-  "chóng mặt": {"en": "Dizziness", "cui": "C0012833", "tui": "T184", "entity_type": "Symptom"},
-  "tim": {"en": "Heart", "cui": "C0018787", "tui": "T023", "entity_type": "Organ"},
-  "thận": {"en": "Kidney", "cui": "C0022646", "tui": "T023", "entity_type": "Organ"},
-  "não": {"en": "Brain", "cui": "C0006104", "tui": "T023", "entity_type": "Organ"}
+  "tăng huyết áp": {
+    "en": "Hypertension",
+    "cui": "C0020538",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tăng huyết áp nguyên phát": {
+    "en": "Essential hypertension",
+    "cui": "C0085580",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tăng huyết áp thứ phát": {
+    "en": "Secondary hypertension",
+    "cui": "C0155615",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tăng huyết áp giai đoạn 1": {
+    "en": "Stage 1 hypertension",
+    "cui": "C4073145",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "cường aldosteron nguyên phát": {
+    "en": "Primary Hyperaldosteronism",
+    "cui": "C0020438",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "đột quỵ": {
+    "en": "Stroke",
+    "cui": "C0038454",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "nhồi máu cơ tim": {
+    "en": "Myocardial Infarction",
+    "cui": "C0027051",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "suy tim": {
+    "en": "Heart Failure",
+    "cui": "C0018801",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "suy tim mạn tính": {
+    "en": "Chronic Heart Failure",
+    "cui": "C0018802",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thuốc ức chế men chuyển": {
+    "en": "Angiotensin-Converting Enzyme Inhibitors",
+    "cui": "C0003015",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "ace inhibitor": {
+    "en": "Angiotensin-Converting Enzyme Inhibitors",
+    "cui": "C0003015",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chẹn thụ thể angiotensin": {
+    "en": "Angiotensin Receptor Antagonists",
+    "cui": "C0139702",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "arb": {
+    "en": "Angiotensin Receptor Antagonists",
+    "cui": "C0139702",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chẹn kênh canxi": {
+    "en": "Calcium Channel Blockers",
+    "cui": "C0006684",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc lợi tiểu thiazide": {
+    "en": "Thiazide Diuretics",
+    "cui": "C0039864",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "đau đầu": {
+    "en": "Headache",
+    "cui": "C0018681",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "chóng mặt": {
+    "en": "Dizziness",
+    "cui": "C0012833",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "tim": {
+    "en": "Heart",
+    "cui": "C0018787",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "thận": {
+    "en": "Kidney",
+    "cui": "C0022646",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "não": {
+    "en": "Brain",
+    "cui": "C0006104",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "mắt": {
+    "en": "Eye",
+    "cui": "C0015392",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "acc/aha": {
+    "en": "ACC/AHA Guidelines",
+    "cui": "C3839848",
+    "tui": "T170",
+    "entity_type": "Guideline"
+  },
+  "jnc 8": {
+    "en": "JNC 8 Guidelines",
+    "cui": "C4082329",
+    "tui": "T170",
+    "entity_type": "Guideline"
+  },
+  "bệnh nhu mô thận": {
+    "en": "Renal Parenchymal Disease",
+    "cui": "C0403447",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "hẹp động mạch thận": {
+    "en": "Renal Artery Stenosis",
+    "cui": "C0035067",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "đái tháo đường": {
+    "en": "Diabetes Mellitus",
+    "cui": "C0011849",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh nhân đái tháo đường": {
+    "en": "Diabetic Patients",
+    "cui": "C0011849",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "ống thận": {
+    "en": "Renal tubule",
+    "cui": "C0022674",
+    "tui": "T023",
+    "entity_type": "Organ"
+  }
 }

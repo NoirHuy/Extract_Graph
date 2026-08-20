@@ -59,14 +59,10 @@ class Neo4jLoader:
         return f"{ent_type}:{norm_name}"
 
     def setup_constraints(self, session):
-        """Create uniqueness constraints for Entity base label and specific entity types."""
+        """Create uniqueness constraint for Entity base label."""
         queries = [
             "CREATE CONSTRAINT IF NOT EXISTS FOR (n:Entity) REQUIRE n.resolved_key IS UNIQUE"
         ]
-        for ent_label in ENTITY_TYPES.keys():
-            queries.append(
-                f"CREATE CONSTRAINT IF NOT EXISTS FOR (n:`{ent_label}`) REQUIRE n.resolved_key IS UNIQUE"
-            )
         for q in queries:
             try:
                 session.run(q)
@@ -102,7 +98,7 @@ class Neo4jLoader:
             # 1. Setup constraints
             self.setup_constraints(session)
 
-            # 2. Ingest Nodes
+            # 2. Ingest Nodes (MERGE on base :Entity and dynamically SET specific label)
             for ent in entities:
                 resolved_key = self.compute_resolved_key(ent)
                 ent_id = ent.get("id", "")
@@ -113,8 +109,12 @@ class Neo4jLoader:
                 label = ent_type if ent_type in ENTITY_TYPES else "Entity"
 
                 node_query = f"""
-                MERGE (n:`{label}`:Entity {{resolved_key: $resolved_key}})
+                MERGE (n:Entity {{resolved_key: $resolved_key}})
                 ON CREATE SET
+                    n.created_at = datetime()
+                ON MATCH SET
+                    n.updated_at = datetime()
+                SET n:`{label}`,
                     n.name = $name,
                     n.normalized_name = $normalized_name,
                     n.entity_type = $entity_type,
@@ -123,12 +123,6 @@ class Neo4jLoader:
                     n.attributes = $attributes,
                     n.source_document = $source_doc,
                     n.schema_version = $schema_version,
-                    n.created_at = datetime(),
-                    n.updated_at = datetime()
-                ON MATCH SET
-                    n.name = $name,
-                    n.umls_cui = coalesce($umls_cui, n.umls_cui),
-                    n.umls_sty = coalesce($umls_sty, n.umls_sty),
                     n.updated_at = datetime()
                 """
 
