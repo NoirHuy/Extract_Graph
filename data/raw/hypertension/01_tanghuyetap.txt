@@ -424,5 +424,3 @@ Tài liệu tham khảo về tiên lượng
 2. Kannel WB, Gordon T, Schwartz MJ. Systolic versus diastolic blood pressure and risk of coronary heart disease. The Framingham study. Am J Cardiol 27(4):335-346, 1971 doi:10.1016/0002-9149(71)90428-0
 
 3. Dziedziak J, Zaleska-Żmijewska A, Szaflik JP, Cudnoch-Jędrzejewska A. Impact of Arterial Hypertension on the Eye: A Review of the Pathogenesis, Diagnostic Methods, and Treatment of Hypertensive Retinopathy. Med Sci Monit 28:e935135, 2022 doi:10.12659/MSM.935135
-
-Những điểm chính
