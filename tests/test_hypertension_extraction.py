@@ -52,10 +52,11 @@ def test_hypertension_benchmark_triplets(tmp_path):
 
     # 2. UMLS Normalization
     normalized_entities, unmapped = normalize_entities(merged_entities, doc_id="hypertension_bench", output_dir=str(tmp_path))
-    # All 5 clinical concept entities are mapped to CUI, 1 quantitative measurement is unmapped CUI (uses resolved_key fallback)
-    assert len(unmapped) == 1
-    assert unmapped[0]["entity_type"] == "Measurement"
-
+    # All 5 clinical concepts mapped to CUI, quantitative measurement (130/80 mmHg) cleanly bypasses CUI
+    assert len(unmapped) == 0
+    mapped_cuis = [e["umls_cui"] for e in normalized_entities if e["umls_cui"]]
+    assert len(mapped_cuis) == 5
+    
     cui_map = {e["normalized_name"]: e["umls_cui"] for e in normalized_entities}
     assert cui_map["Tăng huyết áp"] == "C0020538"
     assert cui_map["Cường aldosteron nguyên phát"] in ("C1384514", "C0020438")

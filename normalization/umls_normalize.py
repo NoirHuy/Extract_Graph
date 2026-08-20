@@ -38,6 +38,22 @@ def translate_term_to_english_with_llm(term_vi: str, entity_type: str, client: O
         return None
 
 
+import re
+
+def is_pure_measurement_value(text: str, ent_type: str, attributes: Optional[Dict[str, Any]] = None) -> bool:
+    """Detect if an entity is a numeric measurement/threshold value (e.g. '< 10%', '> 160 mm Hg', '130/80 mmHg')
+    rather than a controlled medical concept noun (e.g. 'Huyết áp tâm thu', 'Cung lượng tim')."""
+    if ent_type == "Measurement":
+        # Starts with numbers, comparison operators, or percentages
+        if re.match(r"^[\d<>=±\-\+]+", text.strip()):
+            return True
+        # Contains purely numerical values or drug counts
+        if re.search(r"\b\d+\s*(?:mmhg|mmol/l|mg/ngày|%|phút|giờ|loại thuốc)\b", text.strip().lower()):
+            if not any(noun in text.lower() for noun in ["huyết áp tâm thu", "huyết áp tâm trương", "cung lượng", "sức cản", "creatinine", "kali", "natri", "canxi", "glucose", "vòng eo", "chiều cao", "cân nặng"]):
+                return True
+    return False
+
+
 def normalize_entities(
     entities: List[Dict[str, Any]],
     doc_id: str = "document",
@@ -73,13 +89,17 @@ def normalize_entities(
         tui: Optional[str] = None
         match_tier: Optional[str] = None
 
-        # --- TIER 1: Curated Bilingual Dictionary Cache ---
-        dict_res = dict_lookup.lookup(norm_name)
-        if dict_res:
-            cui = dict_res.get("cui")
-            tui = dict_res.get("tui")
-            sty = dict_res.get("sty") or ENTITY_TYPES.get(ent_type, {}).get("sty", "Finding")
-            match_tier = "Tier1_Dictionary"
+        # Check if entity is a quantitative numeric value / threshold (No CUI applicable)
+        if is_pure_measurement_value(norm_name, ent_type, ent.get("attributes")):
+            match_tier = "Quantitative_Measurement"
+        else:
+            # --- TIER 1: Curated Bilingual Dictionary Cache ---
+            dict_res = dict_lookup.lookup(norm_name)
+            if dict_res:
+                cui = dict_res.get("cui")
+                tui = dict_res.get("tui")
+                sty = dict_res.get("sty") or ENTITY_TYPES.get(ent_type, {}).get("sty", "Finding")
+                match_tier = "Tier1_Dictionary"
 
         # --- TIER 2: LLM Context Translation -> UMLS REST API ---
         if not cui and settings.UMLS_API_KEY:
@@ -112,7 +132,7 @@ def normalize_entities(
 
         normalized_list.append(ent_copy)
 
-        if not cui:
+        if not cui and match_tier != "Quantitative_Measurement":
             unmapped_list.append({
                 "id": ent.get("id"),
                 "normalized_name": norm_name,

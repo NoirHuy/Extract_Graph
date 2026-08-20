@@ -1640,5 +1640,467 @@
     "cui": "C3266050",
     "tui": "T046",
     "entity_type": "Complication"
+  },
+  "đo huyết áp": {
+    "en": "Blood pressure measurement",
+    "cui": "C0005824",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "thuốc lợi tiểu": {
+    "en": "Diuretics",
+    "cui": "C0012798",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc ức chế thụ thể angiotensin ii": {
+    "en": "Angiotensin II receptor blockers",
+    "cui": "C0521942",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc điều trị tăng huyết áp": {
+    "en": "Antihypertensive agents",
+    "cui": "C0003364",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc điều trị huyết áp": {
+    "en": "Antihypertensive agents",
+    "cui": "C0003364",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "bệnh nhân trên 65 tuổi": {
+    "en": "Aged, 65 and over",
+    "cui": "C0001792",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "cường cận giáp nguyên phát": {
+    "en": "Primary hyperparathyroidism",
+    "cui": "C0221002",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "bệnh to đầu chi": {
+    "en": "Acromegaly",
+    "cui": "C0001206",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "huyết áp": {
+    "en": "Blood pressure",
+    "cui": "C1271104",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "lưu lượng tim": {
+    "en": "Cardiac output",
+    "cui": "C0007165",
+    "tui": "T201",
+    "entity_type": "Mechanism"
+  },
+  "tổng sức cản mạch ngoại vi": {
+    "en": "Total peripheral resistance",
+    "cui": "C1258192",
+    "tui": "T039",
+    "entity_type": "Mechanism"
+  },
+  "bệnh mạch thận": {
+    "en": "Renovascular disease",
+    "cui": "C0020545",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "rò động-tĩnh mạch": {
+    "en": "Arteriovenous fistula",
+    "cui": "C0003855",
+    "tui": "T190",
+    "entity_type": "Cause"
+  },
+  "hở van động mạch chủ": {
+    "en": "Aortic valve regurgitation",
+    "cui": "C0003504",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "tăng huyết áp tâm thu đơn độc": {
+    "en": "Isolated systolic hypertension",
+    "cui": "C0745133",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "xơ cứng động mạch chủ": {
+    "en": "Aortic sclerosis",
+    "cui": "C1331537",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "na+, k+-atpase": {
+    "en": "Sodium-potassium ATPase",
+    "cui": "C1149024",
+    "tui": "T044",
+    "entity_type": "Mechanism"
+  },
+  "tế bào cơ tim": {
+    "en": "Cardiac muscle cell",
+    "cui": "C0225828",
+    "tui": "T025",
+    "entity_type": "Organ"
+  },
+  "hệ renin-angiotensin-aldosterone": {
+    "en": "Renin-angiotensin-aldosterone system",
+    "cui": "C0086907",
+    "tui": "T022",
+    "entity_type": "Mechanism"
+  },
+  "aldosterone": {
+    "en": "Aldosterone",
+    "cui": "C0002006",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "vasopressin": {
+    "en": "Vasopressin",
+    "cui": "C1705480",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "angiotensin": {
+    "en": "Angiotensin",
+    "cui": "C4521302",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "động mạch cứng": {
+    "en": "Arteriosclerosis",
+    "cui": "C0003850",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "lão hóa": {
+    "en": "Aging",
+    "cui": "C0001811",
+    "tui": "T040",
+    "entity_type": "RiskFactor"
+  },
+  "rối loạn chức năng tế bào nội mô": {
+    "en": "Endothelial dysfunction",
+    "cui": "C0856169",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "hệ tim mạch": {
+    "en": "Cardiovascular system",
+    "cui": "C0007226",
+    "tui": "T022",
+    "entity_type": "Organ"
+  },
+  "bệnh động mạch vành do xơ vữa": {
+    "en": "Atherosclerotic coronary artery disease",
+    "cui": "C2882162",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "phình động mạch chủ bụng": {
+    "en": "Abdominal aortic aneurysm",
+    "cui": "C0162871",
+    "tui": "T190",
+    "entity_type": "Complication"
+  },
+  "tăng huyết áp kéo dài": {
+    "en": "Chronic hypertension",
+    "cui": "C3827254",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "tăng huyết áp ẩn": {
+    "en": "Masked hypertension",
+    "cui": "C3178811",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "10-30%": {
+    "en": "10-30%",
+    "cui": "C0428000",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "10% đến 30%": {
+    "en": "10% to 30%",
+    "cui": "C0428000",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "theo dõi huyết áp lưu động": {
+    "en": "Ambulatory blood pressure monitoring",
+    "cui": "C0242876",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "suy thận": {
+    "en": "Renal insufficiency",
+    "cui": "C1565489",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "rối loạn lipid máu": {
+    "en": "Dyslipidemia",
+    "cui": "C0242339",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tập thể dục": {
+    "en": "Exercise",
+    "cui": "C0015259",
+    "tui": "T056",
+    "entity_type": "Treatment"
+  },
+  "thuốc lá": {
+    "en": "Tobacco use",
+    "cui": "C0543414",
+    "tui": "T055",
+    "entity_type": "RiskFactor"
+  },
+  "rượu": {
+    "en": "Alcohol consumption",
+    "cui": "C0001948",
+    "tui": "T055",
+    "entity_type": "RiskFactor"
+  },
+  "bệnh võng mạc": {
+    "en": "Retinopathy",
+    "cui": "C0035309",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "nghe tim": {
+    "en": "Cardiac auscultation",
+    "cui": "C0018793",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "nghe bụng": {
+    "en": "Abdominal auscultation",
+    "cui": "C5238609",
+    "tui": "T033",
+    "entity_type": "Test"
+  },
+  "xét nghiệm": {
+    "en": "Laboratory test",
+    "cui": "C0022885",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "phân tích nước tiểu": {
+    "en": "Urinalysis",
+    "cui": "C0042014",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "canxi": {
+    "en": "Calcium",
+    "cui": "C0006675",
+    "tui": "T121",
+    "entity_type": "Test"
+  },
+  "glucose huyết tương lúc đói": {
+    "en": "Fasting plasma glucose",
+    "cui": "C0583513",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "metanephrine tự do trong huyết tương": {
+    "en": "Plasma free metanephrine",
+    "cui": "C1526495",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "tsh": {
+    "en": "Thyroid-stimulating hormone measurement",
+    "cui": "C0202230",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "rối loạn chuyển hóa porphyrin cấp tính": {
+    "en": "Acute porphyria",
+    "cui": "C0162565",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "phù niêm": {
+    "en": "Myxedema",
+    "cui": "C0027145",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hệ thần kinh trung ương": {
+    "en": "Central nervous system",
+    "cui": "C3714787",
+    "tui": "T022",
+    "entity_type": "Organ"
+  },
+  "tăng huyết áp tiên phát": {
+    "en": "Essential hypertension",
+    "cui": "C0085580",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh tim mạch": {
+    "en": "Cardiovascular disease",
+    "cui": "C0007222",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "biến chứng mạch máu": {
+    "en": "Vascular complication",
+    "cui": "C0920165",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "tăng cường hoạt động thể chất": {
+    "en": "Physical activity enhancement",
+    "cui": "C4722257",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "chế độ ăn uống lành mạnh": {
+    "en": "Healthy diet",
+    "cui": "C0452415",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "1000 mg/ngày": {
+    "en": "1000 mg/day",
+    "cui": "C1878397",
+    "tui": "T203",
+    "entity_type": "Measurement"
+  },
+  "<= 1 ly mỗi ngày": {
+    "en": "<= 1 drink per day",
+    "cui": "C4745092",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "tăng huyết áp không biến chứng": {
+    "en": "Uncomplicated hypertension",
+    "cui": "C0497248",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "mang thai": {
+    "en": "Pregnancy",
+    "cui": "C0549206",
+    "tui": "T033",
+    "entity_type": "PatientGroup"
+  },
+  "chống chỉ định": {
+    "en": "Contraindication",
+    "cui": "C1301624",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "đơn trị liệu": {
+    "en": "Monotherapy",
+    "cui": "C4763675",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "phối hợp thuốc": {
+    "en": "Drug combination",
+    "cui": "C0013162",
+    "tui": "T121",
+    "entity_type": "Measurement"
+  },
+  "triệu chứng thần kinh khu trú": {
+    "en": "Focal neurological deficit",
+    "cui": "C0746857",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "hẹp động mạch chủ nặng": {
+    "en": "Severe aortic stenosis",
+    "cui": "C5395033",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thay đổi điều trị bằng thuốc": {
+    "en": "Medication change",
+    "cui": "C0580105",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "giáo dục bệnh nhân": {
+    "en": "Patient education",
+    "cui": "C0030688",
+    "tui": "T065",
+    "entity_type": "Treatment"
+  },
+  "triệt đốt thần kinh giao cảm động mạch thận": {
+    "en": "Renal sympathetic denervation",
+    "cui": "C5923646",
+    "tui": "T060",
+    "entity_type": "Treatment"
+  },
+  "võng mạc": {
+    "en": "Retina",
+    "cui": "C0035298",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "bệnh võng mạc độ 3": {
+    "en": "Stage 3 retinopathy",
+    "cui": "C1443383",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh võng mạc độ 4": {
+    "en": "Retinopathy stage 4",
+    "cui": "C1443384",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tăng huyết áp tâm thu": {
+    "en": "Isolated systolic hypertension",
+    "cui": "C0745133",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "rối loạn chức năng nội mô": {
+    "en": "Endothelial dysfunction",
+    "cui": "C0856169",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  ">= 30 phút": {
+    "en": ">= 30 minutes",
+    "cui": "C3843611",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "10% - 20%": {
+    "en": "10% to 20%",
+    "cui": "C3841847",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "10% - 30%": {
+    "en": "10% to 30%",
+    "cui": "C0428000",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "nam giới": {
+    "en": "Male gender",
+    "cui": "C1706180",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "u tế bào ưa crom": {
+    "en": "Pheochromocytoma",
+    "cui": "C4551683",
+    "tui": "T191",
+    "entity_type": "Cause"
   }
 }
