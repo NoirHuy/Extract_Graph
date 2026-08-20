@@ -1,274 +1,428 @@
-Tăng huyết áp là tình trạng tăng liên tục của huyết áp tâm thu lúc nghỉ (≥ 130 mmHg) hoặc huyết áp tâm trương lúc nghỉ (≥ 80 mm Hg), hoặc cả hai.
-Tăng huyết áp không rõ nguyên nhân (tăng huyết áp nguyên phát) là phổ biến nhất.
-Tăng huyết áp đã xác định được nguyên nhân (tăng huyết áp thứ phát) thường là do cường aldosteron nguyên phát.
-Ngưng thở khi ngủ, bệnh thận mạn tính hoặc hẹp động mạch thận là những nguyên nhân khác gây tăng huyết áp thứ phát.
-Thông thường, bệnh sẽ không biểu hiện triệu chứng trừ khi tình trạng tăng huyết áp trở nặng hoặc kéo dài, gây tổn thương các cơ quan đích như não, tim hoặc thận.
-Chẩn đoán bằng đo huyết áp.
-Các xét nghiệm có thể được thực hiện để xác định nguyên nhân, đánh giá tổn thương cơ quan và xác định các yếu tố nguy cơ tim mạch khác. Điều trị bao gồm thay đổi lối sống và dùng thuốc, bao gồm thuốc lợi tiểu, thuốc ức chế men chuyển angiotensin (ACE), thuốc ức chế thụ thể angiotensin II và thuốc chẹn kênh canxi.
-Tăng huyết áp được định nghĩa là huyết áp tâm thu (HA) ≥ 130 mm Hg hoặc huyết áp tâm trương ≥ 80 mm Hg hoặc đang dùng thuốc điều trị tăng huyết áp. Định nghĩa này dựa trên mối quan hệ giữa huyết áp và các biến cố tim mạch ở các quần thể lớn.
-Gần một nửa số người trưởng thành ở Hoa Kỳ bị tăng huyết áp.
-Nhiều người mắc tăng huyết áp không biết rằng họ bị tăng huyết áp.
-Khoảng 80% số người lớn bị tăng huyết áp được khuyên nên bắt đầu điều trị bằng thuốc và thay đổi lối sống, nhưng chỉ có khoảng 50% số người bị tăng huyết áp thực sự được điều trị.
-Ngay cả khi dùng thuốc và thay đổi lối sống, BP chỉ đạt mục tiêu (trong tầm kiểm soát) ở 26% số bệnh nhân và trong số những người lớn được điều trị mà BP không đạt mục tiêu, gần 60% có BP ≥ 140/90 mm Hg..
-Huyết áp cao phổ biến hơn ở người lớn da đen không phải gốc Tây Ban Nha (58%) so với người lớn da trắng không phải gốc Tây Ban Nha (49%), người lớn châu Á không phải gốc Tây Ban Nha (45%) hoặc người lớn gốc Tây Ban Nha (39%).
-Trong số những người được khuyến nghị dùng thuốc điều trị huyết áp và thay đổi lối sống, khả năng kiểm soát huyết áp cao hơn ở người lớn da trắng không phải gốc Tây Ban Nha (31%) so với người lớn da đen không phải gốc Tây Ban Nha (20%), người lớn châu Á không phải gốc Tây Ban Nha (24%) hoặc người lớn gốc Tây Ban Nha (23%).
-Huyết áp tăng dần theo tuổi.
-Khoảng hai phần ba số người > 65 tuổi bị tăng huyết áp và những người có huyết áp bình thường ở tuổi 55 có 90% nguy cơ bị tăng huyết áp trong suốt cuộc đời.
-Mặc dù tăng huyết áp thường gặp ở người cao tuổi, việc điều trị vẫn quan trọng vì huyết áp cao làm tăng nguy cơ mắc bệnh và tử vong.
-Cần cân nhắc đặc biệt khi bị tăng huyết áp trong thời kỳ mang thai vì các biến chứng sẽ khác nhau.
-Tăng huyết áp phát sinh trong thời kỳ mang thai có thể thuyên giảm sau khi mang thai (xem phần Tăng huyết áp trong thai kỳ và Tiền sản giật và sản giật).
-Các loại BP ở người lớn, được định nghĩa bởi Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA), bao gồm BP bình thường, BP cao, tăng huyết áp giai đoạn 1 (nhẹ) hoặc giai đoạn 2 (xem bảng Phân loại huyết áp ở người lớn).
-Giá trị bình thường của huyết áp ở trẻ sơ sinh, trẻ em và thanh thiếu niên thấp hơn nhiều so với người lớn.
+Tăng huyết áp
+
+
+Đánh giá toàn diện: Thg 2 2025 TheoMatthew R. Weir, MD, University of Maryland School of Medicine | Được bình duyệt bởiJonathan G. Howlett, MD, Cumming School of Medicine, University of Calgary
+Cập nhật lần cuối: Thg 5 2025
+Tăng huyết áp là tình trạng tăng liên tục của huyết áp tâm thu lúc nghỉ (≥ 130 mmHg) hoặc huyết áp tâm trương lúc nghỉ (≥ 80 mm Hg), hoặc cả hai. Tăng huyết áp không rõ nguyên nhân (tăng huyết áp nguyên phát) là phổ biến nhất. Tăng huyết áp đã xác định được nguyên nhân (tăng huyết áp thứ phát) thường là do cường aldosteron nguyên phát. Ngưng thở khi ngủ, bệnh thận mạn tính hoặc hẹp động mạch thận là những nguyên nhân khác gây tăng huyết áp thứ phát. Thông thường, bệnh sẽ không biểu hiện triệu chứng trừ khi tình trạng tăng huyết áp trở nặng hoặc kéo dài, gây tổn thương các cơ quan đích như não, tim hoặc thận. Chẩn đoán bằng đo huyết áp. Các xét nghiệm có thể được thực hiện để xác định nguyên nhân, đánh giá tổn thương cơ quan và xác định các yếu tố nguy cơ tim mạch khác. Điều trị bao gồm thay đổi lối sống và dùng thuốc, bao gồm thuốc lợi tiểu, thuốc ức chế men chuyển angiotensin (ACE), thuốc ức chế thụ thể angiotensin II và thuốc chẹn kênh canxi.
+
+Căn nguyên
+|
+Sinh lý bệnh
+|
+Triệu chứng và Dấu hiệu
+|
+Chẩn đoán
+|
+Điều trị
+|
+Tiên lượng
+|
+Những điểm chính
+|
+	Đa phương tiện
+Tăng huyết áp được định nghĩa là huyết áp tâm thu (HA) ≥ 130 mm Hg hoặc huyết áp tâm trương ≥ 80 mm Hg hoặc đang dùng thuốc điều trị tăng huyết áp. Định nghĩa này dựa trên mối quan hệ giữa huyết áp và các biến cố tim mạch ở các quần thể lớn. Gần một nửa số người trưởng thành ở Hoa Kỳ bị tăng huyết áp. Nhiều người trong số này không biết rằng họ bị tăng huyết áp. Khoảng 80% số người lớn bị tăng huyết áp được khuyên nên bắt đầu điều trị bằng thuốc và thay đổi lối sống, nhưng chỉ có khoảng 50% số người bị tăng huyết áp thực sự được điều trị (1).
+
+Ngay cả khi dùng thuốc và thay đổi lối sống, BP chỉ đạt mục tiêu (trong tầm kiểm soát) ở 26% số bệnh nhân và trong số những người lớn được điều trị mà BP không đạt mục tiêu, gần 60% có BP ≥ 140/90 mm Hg. (1).
+
+Huyết áp cao phổ biến hơn ở người lớn da đen không phải gốc Tây Ban Nha (58%) so với người lớn da trắng không phải gốc Tây Ban Nha (49%), người lớn châu Á không phải gốc Tây Ban Nha (45%) hoặc người lớn gốc Tây Ban Nha (39%) (1). Trong số những người được khuyến nghị dùng thuốc điều trị huyết áp và thay đổi lối sống, khả năng kiểm soát huyết áp cao hơn ở người lớn da trắng không phải gốc Tây Ban Nha (31%) so với người lớn da đen không phải gốc Tây Ban Nha (20%), người lớn châu Á không phải gốc Tây Ban Nha (24%) hoặc người lớn gốc Tây Ban Nha (23%) (1).
+
+Huyết áp tăng dần theo tuổi. Khoảng hai phần ba số người > 65 tuổi bị tăng huyết áp và những người có huyết áp bình thường ở tuổi 55 có 90% nguy cơ bị tăng huyết áp trong suốt cuộc đời (2). Mặc dù tăng huyết áp thường gặp ở người cao tuổi, việc điều trị vẫn quan trọng vì huyết áp cao làm tăng nguy cơ mắc bệnh và tử vong.
+
+Cần cân nhắc đặc biệt khi bị tăng huyết áp trong thời kỳ mang thai vì các biến chứng sẽ khác nhau. Tăng huyết áp phát sinh trong thời kỳ mang thai có thể thuyên giảm sau khi mang thai (xem phần Tăng huyết áp trong thai kỳ và Tiền sản giật và sản giật).
+
+Các loại BP ở người lớn, được định nghĩa bởi Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA), bao gồm BP bình thường, BP cao, tăng huyết áp giai đoạn 1 (nhẹ) hoặc giai đoạn 2 (3) (xem bảng Phân loại huyết áp ở người lớn). Giá trị bình thường của huyết áp ở trẻ sơ sinh, trẻ em và thanh thiếu niên thấp hơn nhiều so với người lớn (4).
+
+Bảng
 Phân loại huyết áp ở người trưởng thành*
+Tài liệu tham khảo chung
+1. Million Hearts: Estimated Hypertension Prevalence, Treatment, and Control Among U.S. Adults. https://millionhearts.hhs.gov/data-reports/hypertension-prevalence.html 21 tháng 3 năm 2021. Truy cập ngày 19 tháng 11 năm 2024 https://millionhearts.hhs.gov/data-reports/hypertension-prevalence.html
+
+2. Vasan RS, Beiser A, Seshadri S, et al. Residual lifetime risk for developing hypertension in middle-aged women and men: The Framingham Heart Study. JAMA 287(8):1003-1010, 2002 doi:10.1001/jama.287.8.1003
+
+3. Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines [published correction appears in Hypertension. Tháng 6 năm 2018;71(6):e136-e139] [bản chỉnh sửa đã xuất bản xuất hiện trong mục Tăng huyết áp. Tháng 9 năm 2018;72(3):e33]. Hypertension 71(6):1269-1324, 2018. doi:10.1161/HYP.000000000000006
+
+4. Flynn J.T, Kaelber DC, Baker-Smith CM, et al; Subcommittee on Screening and Management of High Blood Pressure in Children: Clinical practice guideline for screening and management of high blood pressure in children and adolescents. Pediatrics 140(3):e20171904, 2017.
+
 Căn nguyên của tăng huyết áp
 Tăng huyết áp có thể do
+
 Nguyên phát (không có nguyên nhân cụ thể – 85% số trường hợp)
+
 Thứ phát (một nguyên nhân được xác định)
+
 Tăng huyết áp tiên phát
-trong tăng huyết áp tiên phát huyết động và các thành phần sinh lý (ví dụ: thể tích huyết tương, hoạt động của hệ renin-angiotensin) rất biến đổi, chỉ ra rằng tăng huyết áp tiên phát không phải chỉ có một nguyên nhân đơn lẻ.
-Ngay cả khi một yếu tố được xác định, vẫn có thể có nhiều yếu tố khác liên quan đến việc duy trì huyết áp cao (thuyết khảm).
-Di truyền là một yếu tố ảnh hưởng, nhưng cơ chế chính xác mà yếu tố di truyền đóng vai trò vẫn chưa rõ ràng. Ở độ tuổi trẻ hơn, các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ảnh hưởng đến những người có cơ địa dễ mắc bệnh; tuy nhiên, ở những bệnh nhân trên 65 tuổi, lượng natri cao có nhiều khả năng gây tăng huyết áp.
+trong tăng huyết áp tiên phát huyết động và các thành phần sinh lý (ví dụ: thể tích huyết tương, hoạt động của hệ renin-angiotensin) rất biến đổi, chỉ ra rằng tăng huyết áp tiên phát không phải chỉ có một nguyên nhân đơn lẻ. Ngay cả khi một yếu tố được xác định, vẫn có thể có nhiều yếu tố khác liên quan đến việc duy trì huyết áp cao (thuyết khảm). Di truyền là một yếu tố ảnh hưởng, nhưng cơ chế chính xác mà yếu tố di truyền đóng vai trò vẫn chưa rõ ràng. Ở độ tuổi trẻ hơn, các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ảnh hưởng đến những người có cơ địa dễ mắc bệnh; tuy nhiên, ở những bệnh nhân trên 65 tuổi, lượng natri cao có nhiều khả năng gây tăng huyết áp.
+
 Tăng huyết áp thứ phát
-Nguyên nhân phổ biến bao gồm
+Nguyên nhân phổ biến bao gồm (1)
+
 Ngưng thở tắc nghẽn khi ngủ
+
 Bệnh nhu mô thận: Viêm cầu thận mạn tính hoặc viêm bể thận, bệnh thận đa nang, viêm thận lupus, bệnh đường tiết niệu do tắc nghẽn
+
 Bệnh mạch máu thận
-Cường aldosterol nguyên phát
+
+Cường aldosterol nguyên phát(2)
+
 Các rối loạn nội tiết khác (ít phổ biến hơn): U tủy thượng thận, hội chứng Cushing, tăng sản tuyến thượng thận bẩm sinh, cường giáp, suy giáp (phù niêm), cường cận giáp nguyên phát, bệnh to đầu chi và các hội chứng thừa mineralocorticoid khác ngoài chứng tăng aldosteron nguyên phát
+
 Thuốc kê đơn hoặc thuốc không kê đơn: Thuốc cường giao cảm (thuốc thông mũi), thuốc chống viêm không steroid (NSAID), thuốc chống loạn thần, thuốc ức chế tyrosine kinase, thuốc ức chế sự hình thành mạch máu, thuốc kích thích, corticosteroid, cocaine
+
 Bất thường về mạch máu: Hẹp động mạch chủ
-Cam thảo có thể làm trầm trọng thêm khả năng kiểm soát huyết áp.
-Bệnh tiểu đường không được coi là nguyên nhân gây tăng huyết áp thứ phát, mặc dù bệnh nhân mắc bệnh tiểu đường thường cũng bị tăng huyết áp.
+
+Cam thảo có thể làm trầm trọng thêm khả năng kiểm soát huyết áp. Bệnh tiểu đường không được coi là nguyên nhân gây tăng huyết áp thứ phát, mặc dù bệnh nhân mắc bệnh tiểu đường thường cũng bị tăng huyết áp.
+
+Tài liệu tham khảo về căn nguyên
+1. Rimoldi SF, Scherrer U, Messerli FH: Secondary arterial hypertension: when, who, and how to screen? Eur Heart J 35(19):1245–1254, 2014. doi:10.1093/eurheartj/eht534
+
+2. Brown JM, Siddiqui M, Calhoun DA, et al: The unrecognized prevalence of primary aldosteronism: A cross-sectional study. Ann Intern Med 173(1):10–20, 2020 doi:10.7326/M20-0065
+
 Sinh lý bệnh của tăng huyết áp
 Bởi vì huyết áp bằng lưu lượng tim (CO) nhân với tổng sức cản mạch ngoại vi (TPR), cơ chế gây bệnh liên quan đến
+
 Tăng cung lượng tim
+
 Tăng sức cản mạch ngoại vi
+
 Cả hai
-Ở hầu hết bệnh nhân tăng huyết áp, CO bình thường hoặc tăng nhẹ, còn TPR tăng.
-Dạng này là điển hình của tăng huyết áp nguyên phát và tăng huyết áp do cường aldosteron nguyên phát, u tủy thượng thận, bệnh mạch thận và bệnh nhu mô thận.
-Ở những bệnh nhân khác, cung lượng tim tăng lên (có thể do co những tĩnh mạch lớn), và sức cản mạch ngoại vi không tương xứng với mức độ của cung lượng tim.
-Sau đó, sức cản mạch ngoại vi tăng và cung lượng tim trở lại bình thường, có thể là do các cơ chế tự điều hòa.
-Một số rối loạn làm tăng CO (ví dụ: nhiễm độc giáp, rò động-tĩnh mạch, hở van động mạch chủ), đặc biệt khi thể tích nhát bóp tăng lên, gây tăng huyết áp tâm thu đơn độc.
-Một số bệnh nhân cao tuổi có tăng huyết áp tâm thu đơn độc với cung lượng tim bình thường hoặc thấp, có thể là do sự xơ cứng động mạch chủ và các nhánh lớn của động mạch chủ.
-Những bệnh nhân có huyết áp tâm trương cao cố định thường có giảm cung lượng tim.
-Thể tích huyết tương có xu hướng giảm khi huyết áp tăng; hiếm khi thể tích huyết tương vẫn bình thường hoặc tăng.
-Thể tích huyết tương có xu hướng tăng trong tăng huyết áp do cường aldosteron tiên phát hoặc bệnh nhu mô thận và có thể giảm khá thấp trong tăng huyết áp do u tủy thượng thận.
+
+Ở hầu hết bệnh nhân tăng huyết áp, CO bình thường hoặc tăng nhẹ, còn TPR tăng. Dạng này là điển hình của tăng huyết áp nguyên phát và tăng huyết áp do cường aldosteron nguyên phát, u tủy thượng thận, bệnh mạch thận và bệnh nhu mô thận.
+
+Ở những bệnh nhân khác, cung lượng tim tăng lên (có thể do co những tĩnh mạch lớn), và sức cản mạch ngoại vi không tương xứng với mức độ của cung lượng tim. Sau đó, sức cản mạch ngoại vi tăng và cung lượng tim trở lại bình thường, có thể là do các cơ chế tự điều hòa.
+
+Một số rối loạn làm tăng CO (ví dụ: nhiễm độc giáp, rò động-tĩnh mạch, hở van động mạch chủ), đặc biệt khi thể tích nhát bóp tăng lên, gây tăng huyết áp tâm thu đơn độc. Một số bệnh nhân cao tuổi có tăng huyết áp tâm thu đơn độc với cung lượng tim bình thường hoặc thấp, có thể là do sự xơ cứng động mạch chủ và các nhánh lớn của nó. Những bệnh nhân có huyết áp tâm trương cao cố định thường có giảm cung lượng tim.
+
+Thể tích huyết tương có xu hướng giảm khi huyết áp tăng; hiếm khi thể tích huyết tương vẫn bình thường hoặc tăng. Thể tích huyết tương có xu hướng tăng trong tăng huyết áp do cường aldosteron tiên phát hoặc bệnh nhu mô thận và có thể giảm khá thấp trong tăng huyết áp do u tủy thượng thận.
+
 Bất thường trong vận chuyển natri
-Trong nhiều trường hợp tăng huyết áp, quá trình vận chuyển natri qua màng tế bào mạch máu trở nên bất thường vì bơm natri-kali (Na+, K+-ATPase) bị khiếm khuyết hoặc bị ức chế, hoặc vì tính thấm đối với các ion natri tăng lên.
-Kết quả là lượng natri và canxi nội bào tăng lên, khiến tế bào nhạy cảm hơn với kích thích thần kinh giao cảm.
-Bởi vì bơm Na+, K+-ATPase có thể bơm norepinephrine trở lại các tế bào thần kinh giao cảm (do đó bất hoạt chất dẫn truyền thần kinh này), sự ức chế cơ chế này cũng có thể làm tăng tác dụng của norepinephrine, gây tăng huyết áp.
-Khiếm khuyết trong vận chuyển natri có thể xảy ra ở trẻ có huyết áp bình thường nhưng có cha mẹ bị tăng huyết áp.
+Trong nhiều trường hợp tăng huyết áp, quá trình vận chuyển natri qua màng tế bào mạch máu trở nên bất thường vì bơm natri-kali (Na+, K+-ATPase) bị khiếm khuyết hoặc bị ức chế, hoặc vì tính thấm đối với các ion natri tăng lên. Kết quả là lượng natri và canxi nội bào tăng lên, khiến tế bào nhạy cảm hơn với kích thích thần kinh giao cảm. Bởi vì bơm Na+, K+-ATPase có thể bơm norepinephrine trở lại các tế bào thần kinh giao cảm (do đó bất hoạt chất dẫn truyền thần kinh này), sự ức chế cơ chế này cũng có thể làm tăng tác dụng của norepinephrine, gây tăng huyết áp. Khiếm khuyết trong vận chuyển natri có thể xảy ra ở trẻ có huyết áp bình thường nhưng có cha mẹ bị tăng huyết áp.
+
 Hệ thống thần kinh giao cảm
-Kích thích thần kinh giao cảm làm tăng huyết áp, thường nhiều hơn ở những bệnh nhân tăng huyết áp so với những bệnh nhân có huyết áp bình thường.
-Mặc dù chưa biết sự phản ứng quá mức này là do hệ giao cảm hay do tế bào cơ tim hoặc tế bào cơ trơn thành mạch.
+Kích thích thần kinh giao cảm làm tăng huyết áp, thường nhiều hơn ở những bệnh nhân tăng huyết áp so với những bệnh nhân có huyết áp bình thường. Mặc dù chưa biết sự phản ứng quá mức này là do hệ giao cảm hay do tế bào cơ tim hoặc tế bào cơ trơn thành mạch.
+
 Tần số mạch khi nghỉ cao, có thể do hậu quả của sự tăng hoạt động của hệ giao cảm, là một yếu tố dự báo của tăng huyết áp.
+
 Ở một số bệnh nhân tăng huyết áp, nồng độ catecholamine trong huyết tương khi nghỉ ngơi cao hơn bình thường.
+
 Hệ Renin-angiotensin-aldosterone
-Hệ renin-angiotensin-aldosterone giúp điều hòa thể tích tuần hoàn và do đó, điều chỉnh huyết áp.
-Renin, một enzym được hình thành trong phức hợp cận cầu thận, xúc tác quá trình chuyển đổi angiotensinogen thành angiotensin I.
-Sản phẩm không hoạt động này bị phân cắt bởi enzym chuyển đổi angiotensin (ACE), chủ yếu ở phổi nhưng cũng có ở thận và não, thành angiotensin II, chất co mạch mạnh, chất này cũng kích thích các trung tâm thần kinh thực vật trong não để tăng cường giải phóng giao cảm và kích thích giải phóng aldosterone và vasopressin.
-Aldosterone gây giữ natri và vasopressin gây giữ nước, làm tăng huyết áp.
-Aldosterone cũng làm tăng bài tiết kali; kali huyết tương thấp (< 3,5 mmol/L [ < 3,5 mmol/L]) làm tăng sự co mạch do sự đóng các kênh kali.
+Hệ renin-angiotensin-aldosterone giúp điều hòa thể tích tuần hoàn và do đó, điều chỉnh huyết áp. Renin, một enzym được hình thành trong phức hợp cận cầu thận, xúc tác quá trình chuyển đổi angiotensinogen thành angiotensin I. Sản phẩm không hoạt động này bị phân cắt bởi enzym chuyển đổi angiotensin (ACE), chủ yếu ở phổi nhưng cũng có ở thận và não, thành angiotensin II, chất co mạch mạnh, chất này cũng kích thích các trung tâm thần kinh thực vật trong não để tăng cường giải phóng giao cảm và kích thích giải phóng aldosterone và vasopressin. Aldosterone gây giữ natri và vasopressin gây giữ nước, làm tăng huyết áp. Aldosterone cũng làm tăng bài tiết kali; kali huyết tương thấp (< 3,5 mmol/L [ < 3,5 mmol/L]) làm tăng sự co mạch do sự đóng các kênh kali.
+
 Sự bài tiết Renin được kiểm soát bởi ít nhất 4 cơ chế có tác động qua lại lẫn nhau:
+
 Thụ thể ở mạch thận đáp ứng với các thay đổi áp lực ở thành tiểu động mạch đến
+
 Thụ thể vết đặc phát hiện những thay đổi về tốc độ phân phối hoặc nồng độ natri clorua ở ống lượn xa
+
 Angiotensin II trong hệ tuần hoàn có tác dụng phản hồi âm đến quá trình tiết renin
+
 Hệ thần kinh giao cảm kích thích sự bài tiết renin qua trung gian bởi kích thích các thụ thể beta (thông qua thần kinh thận)
-Nồng độ angiotensin II tăng cao thường được coi là nguyên nhân gây tăng huyết áp do thận, ít nhất là trong giai đoạn đầu, nhưng vai trò của hệ thống renin-angiotensin-aldosterone trong tăng huyết áp nguyên phát vẫn chưa được xác định.
-Tuy nhiên, ở những bệnh nhân có nguồn gốc châu Phi và những bệnh nhân cao tuổi bị tăng huyết áp, nồng độ renin có xu hướng thấp.
-Bệnh nhân cao tuổi cũng có xu hướng có nồng độ angiotensin II thấp, có thể liên quan đến dạng tăng huyết áp nhạy cảm với muối phụ thuộc vào thể tích.
-Tăng huyết áp do bệnh nhu mô thận mạn tính (cao huyết áp do thận) là kết quả của việc kết hợp cơ chế phụ thuộc renin và cơ chế phụ thuộc thể tích tuần hoàn.
-Trong hầu hết các trường hợp, hoạt động renin huyết tương tăng lên không rõ ràng.
-Tăng huyết áp do bệnh nhu mô thận điển hình là tăng huyết áp ở mức vừa phải và nhạy cảm với cân bằng muối nước.
+
+Nồng độ angiotensin II tăng cao thường được coi là nguyên nhân gây tăng huyết áp do thận, ít nhất là trong giai đoạn đầu, nhưng vai trò của hệ thống renin-angiotensin-aldosterone trong tăng huyết áp nguyên phát vẫn chưa được xác định. Tuy nhiên, ở những bệnh nhân có nguồn gốc châu Phi và những bệnh nhân cao tuổi bị tăng huyết áp, nồng độ renin có xu hướng thấp (1). Bệnh nhân cao tuổi cũng có xu hướng có nồng độ angiotensin II thấp, có thể liên quan đến dạng tăng huyết áp nhạy cảm với muối phụ thuộc vào thể tích.
+
+Tăng huyết áp do bệnh nhu mô thận mạn tính (cao huyết áp do thận) là kết quả của việc kết hợp cơ chế phụ thuộc renin và cơ chế phụ thuộc thể tích tuần hoàn. Trong hầu hết các trường hợp, hoạt động renin huyết tương tăng lên không rõ ràng. Tăng huyết áp do bệnh nhu mô thận điển hình là tăng huyết áp ở mức vừa phải và nhạy cảm với cân bằng muối nước.
+
 Sự thiếu hụt các chất gây giãn mạch
-Thiếu hụt chất giãn mạch (ví dụ: bradykinin, oxit nitric), thay vì sự dư thừa chất co mạch (ví dụ: angiotensin, norepinephrine), có thể gây tăng huyết áp.
-Giảm oxit nitric, do động mạch cứng, xảy ra khi lão hóa và tình trạng giảm này góp phần gây nhạy cảm với muối (tức là, lượng muối ăn vào ít hơn sẽ làm tăng huyết áp).
-Khi lượng oxit nitric giảm, lượng natri lớn (ví dụ: bữa ăn mặn) có thể làm tăng huyết áp tâm thu từ 10 đến 20 mm Hg.
+Thiếu hụt chất giãn mạch (ví dụ: bradykinin, oxit nitric), thay vì sự dư thừa chất co mạch (ví dụ: angiotensin, norepinephrine), có thể gây tăng huyết áp. Giảm oxit nitric, do động mạch cứng, xảy ra khi lão hóa và tình trạng giảm này góp phần gây nhạy cảm với muối (tức là, lượng muối ăn vào ít hơn sẽ làm tăng huyết áp) (2). Khi lượng oxit nitric giảm, lượng natri lớn (ví dụ: bữa ăn mặn) có thể làm tăng huyết áp tâm thu từ 10 đến 20 mm Hg.
+
 Nếu thận không sản sinh đủ lượng thuốc giãn mạch (do bệnh nhu mô thận), huyết áp có thể tăng.
-Các chất gây giãn mạch và co mạch (chủ yếu là endothelin) do các tế bào nội mô thành mạch sản xuất.
-Do đó, rối loạn chức năng tế bào nội mô ảnh hưởng lớn đến huyết áp.
+
+Các chất gây giãn mạch và co mạch (chủ yếu là endothelin) do các tế bào nội mô thành mạch sản xuất. Do đó, rối loạn chức năng tế bào nội mô ảnh hưởng lớn đến huyết áp.
+
 Bệnh lý và biến chứng
-Trong tăng huyết áp, những thay đổi bệnh lý không xuất hiện sớm.
-Tăng huyết áp nghiêm trọng hoặc kéo dài gây tổn thương các cơ quan đích (chủ yếu là hệ tim mạch, não và thận), tăng nguy cơ của
+Trong tăng huyết áp, những thay đổi bệnh lý không xuất hiện sớm. Tăng huyết áp nghiêm trọng hoặc kéo dài gây tổn thương các cơ quan đích (chủ yếu là hệ tim mạch, não và thận), tăng nguy cơ của
+
 Bệnh động mạch vành (CAD) và nhồi máu cơ tim (MI)
+
 Suy tim
+
 Đột quỵ (đặc biệt là xuất huyết não)
+
 Suy thận
+
 Tử vong
-Mức huyết áp tăng cao dẫn đến xơ vữa động mạch toàn thể và đẩy nhanh quá trình hình thành xơ vữa động mạch.
-Xơ vữa động mạch được đặc trưng bởi tình trạng phì đại, tăng sản và hyalin hóa ở lớp giữa của các động mạch nhỏ (tiểu động mạch), đặc biệt là ở mắt và thận. Ở thận, xơ vữa làm hẹp lòng tiểu động mạch, làm tăng tổng sức cản mạch ngoại vi, dẫn đến tăng huyết áp.
-Thêm vào đó, một khi các động mạch đã bị thu hẹp, chỉ một sự co thắt nhẹ của các cơ trơn thành mạch đã bị phì đại trước đó đều làm giảm đường kính lòng mạch đi hơn nhiều so với những động mạch bình thường.
-Những tác động này giải thích vì sao bệnh tăng huyết áp càng kéo dài thì các phương pháp điều trị các nguyên nhân thứ phát (ví dụ phẫu thuật mạch thận) để khôi phục lại huyết áp bình thường các kém hiệu quả.
-Do đó, chẩn đoán và điều trị sớm hơn ngay cả khi huyết áp tăng nhẹ (tức là huyết áp tâm thu từ 120 đến 129 mm Hg, ngay cả khi huyết áp tâm trương ở mức bình thường) có thể mang lại lợi ích, đặc biệt là ở những bệnh nhân trẻ có tiền sử gia đình bị tăng huyết áp.
-Do hậu tải tăng ở những bệnh nhân có huyết áp cao nên tâm thất trái dần phì đại, gây rối loạn chức năng tâm trương.
-Cuối cùng, tâm thất giãn ra, gây ra bệnh cơ tim giãn và suy tim, thường trở nên trầm trọng hơn do bệnh động mạch vành do xơ vữa.
-Bóc tách động mạch chủ ngực thường là hậu quả của tăng huyết áp; hầu hết bệnh nhân phình động mạch chủ bụng đều có tăng huyết áp.
+
+Mức huyết áp tăng cao dẫn đến xơ vữa động mạch toàn thể và đẩy nhanh quá trình hình thành xơ vữa động mạch. Xơ vữa động mạch được đặc trưng bởi tình trạng phì đại, tăng sản và hyalin hóa ở lớp giữa của các động mạch nhỏ (tiểu động mạch), đặc biệt là ở mắt và thận. Ở thận, xơ vữa làm hẹp lòng tiểu động mạch, làm tăng tổng sức cản mạch ngoại vi, dẫn đến tăng huyết áp. Thêm vào đó, một khi các động mạch đã bị thu hẹp, chỉ một sự co thắt nhẹ của các cơ trơn thành mạch đã bị phì đại trước đó đều làm giảm đường kính lòng mạch đi hơn nhiều so với những động mạch bình thường. Những tác động này giải thích vì sao bệnh tăng huyết áp càng kéo dài thì các phương pháp điều trị các nguyên nhân thứ phát (ví dụ phẫu thuật mạch thận) để khôi phục lại huyết áp bình thường các kém hiệu quả. Do đó, chẩn đoán và điều trị sớm hơn ngay cả khi huyết áp tăng nhẹ (tức là huyết áp tâm thu từ 120 đến 129 mm Hg, ngay cả khi huyết áp tâm trương ở mức bình thường) có thể mang lại lợi ích, đặc biệt là ở những bệnh nhân trẻ có tiền sử gia đình bị tăng huyết áp.
+
+Do hậu tải tăng ở những bệnh nhân có huyết áp cao nên tâm thất trái dần phì đại, gây rối loạn chức năng tâm trương. Cuối cùng, tâm thất giãn ra, gây ra bệnh cơ tim giãn và suy tim, thường trở nên trầm trọng hơn do bệnh động mạch vành do xơ vữa. Bóc tách động mạch chủ ngực thường là hậu quả của tăng huyết áp; hầu hết bệnh nhân phình động mạch chủ bụng đều có tăng huyết áp.
+
+Tài liệu tham khảo về sinh bệnh học
+1. Williams SF, Nicholas SB, Vaziri ND, Norris KC. African Americans, hypertension and the renin angiotensin system. World J Cardiol 6(9):878-889, 2014 doi:10.4330/wjc.v6.i9.878
+
+2. Fujiwara N, Osanai T, Kamada T, et al: Study on the relationship between plasma nitrite and nitrate level and salt sensitivity in human hypertension: modulation of nitric oxide synthesis by salt intake. Circulation 101:856–861, 2000.
+
 Các triệu chứng và dấu hiệu của tăng huyết áp
-Cao huyết áp thường không có triệu chứng cho đến khi có biến chứng ở các cơ quan đích.
-Ngay cả tăng huyết áp nặng (thường được định nghĩa là huyết áp tâm thu ≥ 180 mm Hg và/hoặc huyết áp tâm trương ≥ 120 mm Hg) cũng có thể không có triệu chứng (tăng huyết áp khẩn cấp).
-Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng về tim mạch, thần kinh, thận và võng mạc (ví dụ: xơ vữa động mạch vành có triệu chứng, suy tim, bệnh não tăng huyết áp, suy thận), thì được gọi là trường hợp cấp cứu tăng huyết áp.
-Những thay đổi ở võng mạc có thể bao gồm hẹp tiểu động mạch, xuất huyết, xuất tiết và ở những bệnh nhân bị bệnh não, phù gai thị (bệnh võng mạc do tăng huyết áp).
-Những thay đổi được phân loại (theo phân loại Keith-Wagener-Barker) thành 4 nhóm với tiên lượng ngày càng xấu hơn:
+Cao huyết áp thường không có triệu chứng cho đến khi có biến chứng ở các cơ quan đích. Ngay cả tăng huyết áp nặng (thường được định nghĩa là huyết áp tâm thu ≥ 180 mm Hg và/hoặc huyết áp tâm trương ≥ 120 mm Hg) cũng có thể không có triệu chứng (tăng huyết áp khẩn cấp). Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng về tim mạch, thần kinh, thận và võng mạc (ví dụ: xơ vữa động mạch vành có triệu chứng, suy tim, bệnh não tăng huyết áp, suy thận), thì được gọi là trường hợp cấp cứu tăng huyết áp.
+
+Những thay đổi ở võng mạc có thể bao gồm hẹp tiểu động mạch, xuất huyết, xuất tiết và ở những bệnh nhân bị bệnh não, phù gai thị (bệnh võng mạc do tăng huyết áp). Những thay đổi được phân loại (theo phân loại Keith-Wagener-Barker) thành 4 nhóm với tiên lượng ngày càng xấu hơn (1):
+
 Độ 1: Chỉ có sự co thắt tiểu động mạch
+
 Độ 2: Co thắt và xơ hóa tiểu động mạch
+
 Độ 3: Thay đổi về mạch máu như trên cùng với xuất huyết và xuất tiết
+
 Độ 4: Phù gai thị
+
+Tài liệu tham khảo về các triệu chứng và dấu hiệu
+1. Matsuoka S, Kaneko H, Okada A, et al. Association of retinal atherosclerosis assessed using Keith-Wagener-Barker system with incident heart failure and other atherosclerotic cardiovascular disease: Analysis of 319,501 individuals from the general population. Atherosclerosis 2022;348:68-74. doi:10.1016/j.atherosclerosis.2022.02.024
+
 Chẩn đoán tăng huyết áp
 Đo nhiều lần huyết áp
+
 Xét nghiệm chẩn đoán nguyên nhân và biến chứng
-Tăng huyết áp được chẩn đoán bằng cách đo huyết áp.
-Tiền sử, khám thực thể, và các xét nghiệm cận lâm sàng khác giúp xác định nguyên nhân và xác định xem đã có tổn thương các cơ quan đích hay chưa.
-Cần phải đo huyết áp nhiều lần để xác định tình trạng tăng huyết áp vì huyết áp có tính thay đổi tự nhiên.
-Huyết áp thường thay đổi theo thời gian trong ngày; trong sự thay đổi điển hình trong ngày, huyết áp cao hơn vào ban ngày (đặc biệt là vào buổi sáng) và thấp hơn vào ban đêm.
+
+Tăng huyết áp được chẩn đoán bằng cách đo huyết áp. Tiền sử, khám thực thể, và các xét nghiệm cận lâm sàng khác giúp xác định nguyên nhân và xác định xem đã có tổn thương các cơ quan đích hay chưa.
+
+Cần phải đo huyết áp nhiều lần để xác định tình trạng tăng huyết áp vì huyết áp có tính thay đổi tự nhiên. Huyết áp thường thay đổi theo thời gian trong ngày; trong sự thay đổi điển hình trong ngày, huyết áp cao hơn vào ban ngày (đặc biệt là vào buổi sáng) và thấp hơn vào ban đêm.
+
 Cách đo huyết áp
 Huyết áp dùng để chẩn đoán chính thức phải là huyết áp trung bình của 2 hoặc 3 lần đo tại phòng khám vào các thời điểm khác nhau trong các điều kiện sau:
+
 Bệnh nhân ngồi trên ghế (không phải trên bàn khám) trong > 5 phút, chân đặt trên sàn, tựa lưng
+
 Chi trên được đỡ ở mức ngang tim mà không có quần áo che phủ vùng đặt vòng bít
+
 Không tập thể dục, không sử dụng caffeine hoặc thuốc lá trong ít nhất 30 phút
+
 Ở lần khám đầu tiên, đo huyết áp ở cả hai tay; các phép đo tiếp theo cần phải sử dụng cánh tay có chỉ số đọc cao hơn.
-Một kích thước vòng quấn huyết áp được áp dụng cho chi trên.
-Vòng bít có kích thước phù hợp sẽ bao phủ hai phần ba cơ nhị đầu; bàng quang đủ dài để bao quanh > 80% cánh tay và chiều rộng của bàng quang bằng ít nhất 40% chu vi cánh tay.
-Vì vậy, bệnh nhân béo phì thường cần vòng bít lớn.
-Bác sĩ lâm sàng bơm hơi vòng bít lên trên mức huyết áp tâm thu dự kiến ​​và từ từ xả khí trong khi nghe bằng ống nghe đặt trên động mạch cánh tay.
-Khi áp suất giảm, áp suất tại thời điểm nhịp tim đầu tiên đập chính là huyết áp tâm thu. Áp lực mà tại đó không còn nghe thấy bất cứ tiếng đập nào nữa là huyết áp tâm trương.
-Nguyên tắc tương tự được áp dụng để đo huyết áp ở cẳng tay (động mạch quay) và đùi (động mạch khoeo).
-Các thiết bị cơ học cần được hiệu chuẩn định kỳ.
-Các thiết bị đo dao động hoàn toàn tự động có thể cung cấp các phép đo huyết áp chính xác và giảm thiểu lỗi của con người.
+
+Một kích thước vòng quấn huyết áp được áp dụng cho chi trên. Vòng bít có kích thước phù hợp sẽ bao phủ hai phần ba cơ nhị đầu; bàng quang đủ dài để bao quanh > 80% cánh tay và chiều rộng của bàng quang bằng ít nhất 40% chu vi cánh tay. Vì vậy, bệnh nhân béo phì thường cần vòng bít lớn. Bác sĩ lâm sàng bơm hơi vòng bít lên trên mức huyết áp tâm thu dự kiến ​​và từ từ xả khí trong khi nghe bằng ống nghe đặt trên động mạch cánh tay. Khi áp suất giảm, áp suất tại thời điểm nhịp tim đầu tiên đập chính là huyết áp tâm thu. Áp lực mà tại đó không còn nghe thấy bất cứ tiếng đập nào nữa là huyết áp tâm trương. Nguyên tắc tương tự được áp dụng để đo huyết áp ở cẳng tay (động mạch quay) và đùi (động mạch khoeo). Các thiết bị cơ học cần được hiệu chuẩn định kỳ. Các thiết bị đo dao động hoàn toàn tự động có thể cung cấp các phép đo huyết áp chính xác và giảm thiểu lỗi của con người (1).
+
 Huyết áp nên được đo ở cả hai cánh tay vì huyết áp hai tay có sự chênh lệch > 15mmHg đòi hỏi phải đánh giá các mạch lớn phía trên động mạch cánh tay.
+
 Huyết áp được đo ở đùi (với vòng bít lớn hơn nhiều) để loại trừ tình trạng hẹp eo động mạch chủ, đặc biệt là ở những bệnh nhân có mạch đập chậm hoặc yếu ở đùi; khi bị hẹp eo động mạch chủ, huyết áp ở chân thấp hơn đáng kể so với ở tay.
+
 Các số đo biến đổi và tăng huyết áp
-Tăng huyết áp áo choàng trắng được định nghĩa là huyết áp tăng cao khi khám bệnh nhưng không đáp ứng tiêu chuẩn tăng huyết áp dựa trên kết quả đo ngoài phòng khám ở những bệnh nhân không được điều trị.
-Tỷ lệ hiện mắc khoảng 10% đến 20% dân số và phổ biến hơn ở trẻ em, người lớn tuổi, nữ giới cũng như những người có huyết áp đo tại phòng khám gần ngưỡng chẩn đoán.
+Tăng huyết áp áo choàng trắng được định nghĩa là huyết áp tăng cao khi khám bệnh nhưng không đáp ứng tiêu chuẩn tăng huyết áp dựa trên kết quả đo ngoài phòng khám ở những bệnh nhân không được điều trị. Tỷ lệ hiện mắc khoảng 10% đến 20% dân số và phổ biến hơn ở trẻ em, người lớn tuổi, nữ giới cũng như những người có huyết áp đo tại phòng khám gần ngưỡng chẩn đoán.
+
 Hiệu ứng áo choàng trắng đề cập đến huyết áp tăng cao khi đo tại phòng khám nhưng lại bình thường khi đo ngoài phòng khám, ở những bệnh nhân đang điều trị tăng huyết áp.
-Dữ liệu về kết quả điều trị của bệnh nhân tăng huyết áp áo khoác trắng đang mâu thuẫn nhau.
-Tăng huyết áp áo choàng trắng không được điều trị dường như có liên quan đến kết quả tim mạch bất lợi hơn so với huyết áp bình thường.
-Bệnh nhân tăng huyết áp áo choàng trắng có nguy cơ tăng huyết áp kéo dài từ 3 đến 4 lần sau 7 năm đến 10 năm so với những người có huyết áp bình thường.
-Hiệu ứng áo khoác trắng dường như không liên quan đến kết quả tim mạch bất lợi.
-Tăng huyết áp ẩn được định nghĩa là huyết áp luôn tăng cao bên ngoài phòng khám, nhưng chỉ số đo được tại phòng khám không đáp ứng tiêu chuẩn của bệnh tăng huyết áp ở những người không được điều trị.
-Nhóm bệnh nhân này có thể chiếm từ 10% đến 30% dân số trưởng thành và phổ biến hơn ở nam giới, người da đen không phải gốc Tây Ban Nha và những người mắc bệnh tiểu đường.
-Tăng huyết áp ẩn và tăng huyết áp ẩn không kiểm soát được (ở những người đang được điều trị) có liên quan đến tăng nguy cơ tim mạch, với tỷ lệ tử vong tương tự như nguy cơ ở những bệnh nhân bị tăng huyết áp kéo dài.
+
+Dữ liệu về kết quả điều trị của bệnh nhân tăng huyết áp áo khoác trắng đang mâu thuẫn nhau. Tăng huyết áp áo choàng trắng không được điều trị dường như có liên quan đến kết quả tim mạch bất lợi hơn so với huyết áp bình thường. Bệnh nhân tăng huyết áp áo choàng trắng có nguy cơ tăng huyết áp kéo dài từ 3 đến 4 lần sau 7 năm đến 10 năm so với những người có huyết áp bình thường (2). Hiệu ứng áo khoác trắng dường như không liên quan đến kết quả tim mạch bất lợi.
+
+Tăng huyết áp ẩn được định nghĩa là huyết áp luôn tăng cao bên ngoài phòng khám, nhưng chỉ số đo được tại phòng khám không đáp ứng tiêu chuẩn của bệnh tăng huyết áp ở những người không được điều trị. Nhóm bệnh nhân này có thể chiếm từ 10% đến 30% dân số trưởng thành và phổ biến hơn ở nam giới, người da đen không phải gốc Tây Ban Nha và những người mắc bệnh tiểu đường (3).
+
+Tăng huyết áp ẩn và tăng huyết áp ẩn không kiểm soát được (ở những người đang được điều trị) có liên quan đến tăng nguy cơ tim mạch, với tỷ lệ tử vong tương tự như nguy cơ ở những bệnh nhân bị tăng huyết áp kéo dài (4).
+
 Theo dõi huyết áp tại nhà hoặc theo dõi huyết áp lưu động được chỉ định khi nghi ngờ bị tăng huyết áp áo choàng trắng hoặc tăng huyết áp ẩn.
+
 Tiền sử
 Tiền sử bao gồm
+
 Thời gian tăng huyết áp và mức huyết áp được ghi nhận trước đó
+
 Tiền sử hoặc triệu chứng của bệnh động mạch vành, suy tim hoặc ngưng thở khi ngủ do tắc nghẽn
+
 Các triệu chứng hoặc tiền sử cá nhân hoặc gia đình mắc các bệnh lý đồng mắc có liên quan khác (ví dụ: đột quỵ, suy thận, bệnh động mạch ngoại biên, rối loạn lipid máu, tiểu đường, bệnh gút)
+
 Sử dụng các loại thuốc có nguy cơ gây tăng huyết áp (ví dụ: NSAID, thuốc tránh thai có chứa estrogen)
+
 Thời lượng ngủ
+
 Tiền sử xã hội bao gồm mức độ tập thể dục và sử dụng thuốc lá, rượu và chất kích thích (bao gồm cả thuốc và ma túy bất hợp pháp).
+
 Tiền sử ăn kiêng tập trung vào lượng muối và các chất kích thích (ví dụ: trà, cà phê, nước ngọt có chứa caffeine, nước tăng lực) nạp vào cơ thể.
+
 Khám thực thể
-Khám thực thể bao gồm đo chiều cao, cân nặng và vòng eo; kiểm tra đáy mắt để phát hiện bệnh võng mạc; nghe tim và nghe bụng để phát hiện tiếng thổi; và kiểm tra toàn diện tim, hô hấp và thần kinh.
-Khám bụng để kiểm tra xem có thận to và các khối u khác ở ổ bụng. Đánh giá mạch ở động mạch ngoại biên; mạch đùi giảm hoặc chậm gợi ý hẹp eo động mạch chủ, đặc biệt là ở bệnh nhân < 30 tuổi.
-Có thể nghe thấy tiếng thổi động mạch thận một bên ở những bệnh nhân gầy có tăng huyết áp do mạch thận.
+Khám thực thể bao gồm đo chiều cao, cân nặng và vòng eo; kiểm tra đáy mắt để phát hiện bệnh võng mạc; nghe tim và nghe bụng để phát hiện tiếng thổi; và kiểm tra toàn diện tim, hô hấp và thần kinh. Khám bụng để kiểm tra xem có thận to và các khối u khác ở ổ bụng. Đánh giá mạch ở động mạch ngoại biên; mạch đùi giảm hoặc chậm gợi ý hẹp eo động mạch chủ, đặc biệt là ở bệnh nhân < 30 tuổi. Có thể nghe thấy tiếng thổi động mạch thận một bên ở những bệnh nhân gầy có tăng huyết áp do mạch thận.
+
 Xét nghiệm
 Sau khi chẩn đoán tăng huyết áp dựa trên các chỉ số huyết áp, cần làm xét nghiệm để
+
 Phát hiện các tổn thương cơ quan đích
+
 Xác định các yếu tố nguy cơ tim mạch
-Tăng huyết áp càng nặng và bệnh nhân càng trẻ thì càng đòi hỏi nhiều xét nghiệm đánh giá chuyên sâu hơn.
-Các xét nghiệm có thể bao gồm
+
+Tăng huyết áp càng nặng và bệnh nhân càng trẻ thì càng đòi hỏi nhiều xét nghiệm đánh giá chuyên sâu hơn. Các xét nghiệm có thể bao gồm
+
 Phân tích nước tiểu và tỷ lệ albumin/creatinin niệu; nếu bất thường, cân nhắc siêu âm thận
+
 Bảng xét nghiệm lipid, bảng xét nghiệm chuyển hóa đầy đủ (bao gồm creatinine hoặc cystatin C, kali và canxi), glucose huyết tương lúc đói
+
 ECG
+
 Đôi khi đo hormone kích thích tuyến giáp
+
 Đôi khi đo lượng metanephrine tự do trong huyết tương (để phát hiện u tế bào ưa crom)
+
 Đôi khi là nghiên cứu về giấc ngủ
+
 Tùy thuộc vào kết quả khám và các xét nghiệm ban đầu, có thể cần các xét nghiệm khác.
+
 Siêu âm thận để đánh giá kích thước thận có thể cung cấp thông tin hữu ích nếu xét nghiệm nước tiểu phát hiện albumin niệu (protein niệu), trụ niệu, hoặc tiểu máu vi thể, hoặc nếu creatinine huyết thanh hoặc cystatin C tăng cao.
-Bệnh nhân bị hạ kali máu không liên quan đến sử dụng thuốc lợi tiểu được đánh giá lượng muối ăn vào cao và chứng tăng aldosterone nguyên phát bằng cách đo nồng độ aldosterone trong huyết tương và hoạt động renin trong huyết tương.
-Tỷ lệ hiện mắc của cường aldosteron nguyên phát cao hơn so với trước đây, xảy ra ở khoảng 10% đến 20% số bệnh nhân tăng huyết áp kháng trị.
-Trên điện tâm đồ, một sóng P nhọn gợi ý tăng gánh nhĩ, mặc dù không đặc hiệu, nhưng có thể là triệu chứng sớm nhất của bệnh tim mạch do tăng huyết áp. Điện thế QRS tăng cao, có hoặc không có bằng chứng về thiếu máu cục bộ, có thể xảy ra sau đó và biểu hiện phì đại thất trái (LVH).
-Khi quan sát thấy phì đại thất trái trên ECG, siêu âm tim thường sẽ được thực hiện.
+
+Bệnh nhân bị hạ kali máu không liên quan đến sử dụng thuốc lợi tiểu được đánh giá lượng muối ăn vào cao và chứng tăng aldosterone nguyên phát bằng cách đo nồng độ aldosterone trong huyết tương và hoạt động renin trong huyết tương. Tỷ lệ hiện mắc của cường aldosteron nguyên phát cao hơn so với trước đây, xảy ra ở khoảng 10% đến 20% số bệnh nhân tăng huyết áp kháng trị (5, 6).
+
+Trên điện tâm đồ, một sóng P nhọn gợi ý tăng gánh nhĩ, mặc dù không đặc hiệu, nhưng có thể là triệu chứng sớm nhất của bệnh tim mạch do tăng huyết áp. Điện thế QRS tăng cao, có hoặc không có bằng chứng về thiếu máu cục bộ, có thể xảy ra sau đó và biểu hiện phì đại thất trái (LVH). Khi quan sát thấy phì đại thất trái trên ECG, siêu âm tim thường sẽ được thực hiện.
+
 Nếu nghi ngờ hẹp eo động mạch chủ, siêu âm tim, chụp CT hoặc chụp MRI ngực có thể xác nhận chẩn đoán.
+
 Những bệnh nhân có huyết áp không ổn định, huyết áp tăng cao đáng kể và các triệu chứng như nhức đầu, đánh trống ngực, nhịp tim nhanh, đổ mồ hôi quá nhiều, run và xanh xao được sàng lọc u tủy thượng thận bằng cách đo lượng metanephrine tự do trong huyết tương và cường giáp, trước tiên bằng cách đo hormone kích thích tuyến giáp (TSH).
+
 Nghiên cứu giấc ngủ nên được cân nhắc kỹ lưỡng ở những bệnh nhân có tiền sử ngưng thở khi ngủ.
+
 Phì đại tâm thất trái trên điện tâm đồ
+
+
+Hình ảnh
+© Springer Science+Business Media
+
 Bệnh nhân có các triệu chứng gợi ý hội chứng Cushing, bệnh thấp khớp toàn thân, sản giật, rối loạn chuyển hóa porphyrin cấp tính, cường giáp, phù niêm, bệnh to đầu chi hoặc rối loạn hệ thần kinh trung ương (CNS) cũng cần được đánh giá thêm.
+
+Tài liệu tham khảo về chẩn đoán
+1. Muntner P, Shimbo D, Carey RM, et al: Measurement of blood pressure in humans: A scientific statement from the American Heart Association. Hypertension 73:e35–e66, 2019.
+
+2. Cohen JB, Lotito MJ, Trivedi UK, Denker MG, Cohen DL, Townsend RR: Cardiovascular events and mortality in white coat hypertension: A systematic review and meta-analysis. Ann Intern Med 170(12):853–862, 2019. doi:10.7326/M19-0223
+
+3. Wang YC, Shimbo D, Muntner P, Moran AE, Krakoff LR, Schwartz JE: Prevalence of masked hypertension among US adults with nonelevated clinic blood pressure. Am J Epidemiol 185(3):194–202, 2017. doi:10.1093/aje/kww237
+
+4. Pierdomenico SD, Pierdomenico AM, Coccina F, et al: Prognostic value of masked uncontrolled hypertension. Hypertension 72(4):862–869, 2018. doi:10.1161/HYPERTENSIONAHA.118.11499
+
+5. Burrello J, Monticone S, Losano I, et al: Prevalence of Hypokalemia and Primary Aldosteronism in 5100 Patients Referred to a Tertiary Hypertension Unit. Hypertension 2020;75(4):1025-1033. doi:10.1161/HYPERTENSIONAHA.119.14063
+
+6. Mulatero P, Stowasser M, Loh KC, et al: Increased diagnosis of primary aldosteronism, including surgically correctable forms, in centers from five continents. J Clin Endocrinol Metab 2004;89(3):1045-1050. doi:10.1210/jc.2003-031337
+
 Điều trị tăng huyết áp
 Giảm cân và tập luyện thể dục
+
 Cai thuốc lá
+
 Thời gian ngủ đủ giấc (tối thiểu 6 tiếng/đêm)
+
 Chế độ ăn: Ăn nhiều rau quả, giảm muối, hạn chế rượu
+
 Thuốc: Phụ thuộc vào huyết áp và bệnh tim mạch hoặc các yếu tố nguy cơ kèm theo
-Tăng huyết áp tiên phát không chữa được, nhưng một số nguyên nhân gây tăng huyết áp thứ phát có thể được điều trị.
-Trong mọi trường hợp, kiểm soát huyết áp có thể làm giảm đáng kể những biến chứng có hại.
+
+Tăng huyết áp tiên phát không chữa được, nhưng một số nguyên nhân gây tăng huyết áp thứ phát có thể được điều trị. Trong mọi trường hợp, kiểm soát huyết áp có thể làm giảm đáng kể những biến chứng có hại.
+
 Huyết áp mục tiêu cho hầu hết bệnh nhân, bao gồm cả bệnh nhân bị bệnh lý ở thận hoặc tiểu đường, là
+
 Huyết áp < 130/80 mm Hg
-Duy trì huyết áp dưới 130/80 mm Hg tiếp tục làm giảm nguy cơ các biến chứng mạch máu.
-Ngay cả những bệnh nhân cao tuổi, bao gồm cả những bệnh nhân lớn tuổi yếu ớt, cũng có thể chịu đựng tốt mức huyết áp tâm trương thấp tới 60 đến 65 mm Hg và không làm tăng các biến cố tim mạch.
-Tuy nhiên, giảm huyết áp tâm thu hơn nữa cũng làm tăng nguy cơ bị các tác dụng bất lợi của thuốc.
-Do đó, lợi ích của việc hạ huyết áp tâm thu xuống đến gần 120 mmHg nên được cân nhắc giữa lợi ích và nguy cơ các tác dụng phụ như hoa mắt chóng mặt, và có thể làm giảm chức năng thận. Đây là mối lo ngại đặc biệt đối với những bệnh nhân bị tiểu đường, những người có huyết áp tâm thu < 120 mm Hg hoặc huyết áp tâm trương gần 60 mm Hg làm tăng nguy cơ bị các biến cố bất lợi này.
-Lý tưởng nhất là bệnh nhân tăng huyết áp hoặc người thân nên đo huyết áp tại nhà, miễn là bệnh nhân hoặc người thân đã được đào tạo để làm như vậy và máy đo huyết áp được hiệu chuẩn thường xuyên.
+
+Duy trì huyết áp dưới 130/80 mm Hg tiếp tục làm giảm nguy cơ các biến chứng mạch máu. Ngay cả những bệnh nhân cao tuổi, bao gồm cả những bệnh nhân lớn tuổi yếu ớt, cũng có thể chịu đựng tốt mức huyết áp tâm trương thấp tới 60 đến 65 mm Hg và không làm tăng các biến cố tim mạch (1, 2). Tuy nhiên, giảm huyết áp tâm thu hơn nữa cũng làm tăng nguy cơ bị các tác dụng bất lợi của thuốc. Do đó, lợi ích của việc hạ huyết áp tâm thu xuống đến gần 120 mmHg nên được cân nhắc giữa lợi ích và nguy cơ các tác dụng phụ như hoa mắt chóng mặt, và có thể làm giảm chức năng thận. Đây là mối lo ngại đặc biệt đối với những bệnh nhân bị tiểu đường, những người có huyết áp tâm thu < 120 mm Hg hoặc huyết áp tâm trương gần 60 mm Hg làm tăng nguy cơ bị các biến cố bất lợi này (3).
+
+Lý tưởng nhất là bệnh nhân hoặc người thân nên đo huyết áp tại nhà, miễn là họ đã được đào tạo để làm như vậy và máy đo huyết áp được hiệu chuẩn thường xuyên.
+
 Thay đổi lối sống
-Thay đổi lối sống được khuyến nghị cho tất cả bệnh nhân bị huyết áp cao hoặc bất kỳ giai đoạn tăng huyết áp nào.
-Các biện pháp điều trị không dùng thuốc tốt nhất đã được chứng minh để phòng ngừa và điều trị tăng huyết áp bao gồm:
+Thay đổi lối sống được khuyến nghị cho tất cả bệnh nhân bị huyết áp cao hoặc bất kỳ giai đoạn tăng huyết áp nào (4). Các biện pháp điều trị không dùng thuốc tốt nhất đã được chứng minh để phòng ngừa và điều trị tăng huyết áp bao gồm:
+
 Tăng cường hoạt động thể chất, lý tưởng nhất là với một chương trình tập luyện có cấu trúc
+
 Giảm cân, nếu thích hợp
+
 Chế độ ăn uống lành mạnh có nhiều trái cây, rau, ngũ cốc nguyên hạt, và các sản phẩm sữa ít béo, giảm hàm lượng chất béo no và tổng lượng chất béo
+
 Giảm lượng natri trong chế độ ăn, tối ưu là < 1500 mg/ngày (khoảng 3,75 g muối), nhưng ít nhất phải giảm 1000 mg/ngày
+
 Tăng lượng kali ăn vào trong chế độ ăn uống, trừ khi chống chỉ định do bệnh thận mạn tính hoặc sử dụng thuốc làm giảm bài tiết kali
+
 Uống rượu vừa phải ở những người uống rượu ≤ 2 ly mỗi ngày đối với nam và ≤ 1 ly mỗi ngày đối với nữ (một ly tương đương khoảng 12 oz bia, 5 oz rượu vang hoặc 1,5 oz rượu chưng cất)
+
 Cai thuốc lá
-Thời gian ngủ đủ giấc (tối thiểu 6 tiếng/đêm) cũng được khuyến nghị.
-Thời gian ngủ ngắn (thường được định nghĩa là < 5 giờ hoặc 6 giờ mỗi đêm ở người lớn, có liên quan đến tăng huyết áp.
-Ví dụ: các nghiên cứu cho thấy việc tối ưu hóa chất lượng và thời gian ngủ (> 6 giờ/đêm) giúp cải thiện khả năng kiểm soát huyết áp ở những bệnh nhân mắc bệnh thận mạn tính.
-Sự thay đổi chế độ ăn cũng giúp kiểm soát đái tháo đường, béo phì và rối loạn lipid máu.
-Bệnh nhân tăng huyết áp không biến chứng không cần phải hạn chế các hoạt động hằng ngày miễn là huyết áp được kiểm soát.
-Quyết định điều trị bằng thuốc hạ huyết áp dựa trên mức huyết áp và sự hiện diện của bệnh tim mạch do xơ vữa động mạch (ASCVD) hoặc các yếu tố nguy cơ của bệnh tim mạch do xơ vữa động mạch (xem bảng Phương pháp tiếp cận ban đầu trong xử trí huyết áp cao).
-Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạch.
-Một phần quan trọng trong quản lý bệnh nhân tăng huyết áp là đánh giá lại thường xuyên.
-Nếu bệnh nhân không đạt được huyết áp mục tiêu, bác sĩ lâm sàng nên cố gắng tối ưu hóa việc tuân thủ phác đồ hiện tại trước khi chuyển đổi hoặc thêm thuốc.
+
+Thời gian ngủ đủ giấc (tối thiểu 6 tiếng/đêm) cũng được khuyến nghị. Thời gian ngủ ngắn (thường được định nghĩa là < 5 giờ hoặc 6 giờ mỗi đêm ở người lớn, có liên quan đến tăng huyết áp (5). Ví dụ: các nghiên cứu cho thấy việc tối ưu hóa chất lượng và thời gian ngủ (> 6 giờ/đêm) giúp cải thiện khả năng kiểm soát huyết áp ở những bệnh nhân mắc bệnh thận mạn tính (6).
+
+Sự thay đổi chế độ ăn cũng giúp kiểm soát đái tháo đường, béo phì và rối loạn lipid máu. Bệnh nhân tăng huyết áp không biến chứng không cần phải hạn chế các hoạt động hằng ngày miễn là huyết áp được kiểm soát.
+
+Thuốc
+(Xem thêm Thuốc điều trị tăng huyết áp.)
+
+Quyết định điều trị bằng thuốc dựa trên mức huyết áp và sự hiện diện của bệnh tim mạch do xơ vữa động mạch (ASCVD) hoặc các yếu tố nguy cơ của bệnh này (xem bảng Phương pháp tiếp cận ban đầu trong xử trí huyết áp cao). Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạch.
+
+Một phần quan trọng trong quản lý bệnh nhân tăng huyết áp là đánh giá lại thường xuyên. Nếu bệnh nhân không đạt được huyết áp mục tiêu, bác sĩ lâm sàng nên cố gắng tối ưu hóa việc tuân thủ phác đồ hiện tại trước khi chuyển đổi hoặc thêm thuốc.
+
 Điều trị tăng huyết áp khi mang thai đòi hỏi phải lựa chọn thuốc cẩn thận vì một số loại thuốc hạ huyết áp có thể gây hại cho thai nhi.
+
+Bảng
 Tiếp cận ban đầu để kiểm soát tăng huyết áp
 Việc lựa chọn thuốc dựa trên một số yếu tố, bao gồm bệnh đi kèm, chống chỉ định và khả năng dung nạp. Đối với hầu hết bệnh nhân, khi lựa chọn một thuốc để điều trị đơn trị liệu, điều trị ban đầu có thể bằng bất kỳ nhóm thuốc nào sau đây:
+
 Thuốc ức chế men chuyển angiotensin (ACE)
+
 Thuốc ức chế thụ thể angiotensin II (ARB)
+
 Thuốc chẹn kênh canxi dihydropyridine
+
 Thuốc lợi tiểu thiazide (tốt nhất là thuốc lợi tiểu giống thiazide như chlorthalidone hoặc indapamide)
-Ngoài ra, một số chuyên gia khuyên rằng đối với những bệnh nhân tăng huyết áp có nguồn gốc châu Phi là ứng cử viên cho liệu pháp đơn trị, nên sử dụng thuốc chẹn kênh canxi hoặc thuốc lợi tiểu thiazide ban đầu vì thuốc chẹn kênh canxi và thuốc lợi tiểu thiazide hiệu quả hơn đối với những bệnh nhân bị tăng huyết áp do renin thấp nhạy cảm với muối.
-Tuy nhiên, có sự thay đổi đáng kể về đáp ứng của huyết áp giữa các nhóm chủng tộc và dữ liệu cho thấy rằng mặc dù sử dụng phương pháp tiếp cận dựa trên chủng tộc này, việc kiểm soát tăng huyết áp và sự chênh lệch về chủng tộc trong việc kiểm soát huyết áp vẫn chưa được cải thiện.
-Vì vậy, một số chuyên gia ủng hộ cách tiếp cận cá nhân hóa để lựa chọn phương pháp điều trị hơn là cách tiếp cận dựa trên chủng tộc.
-Hầu hết bệnh nhân cần ≥ 2 loại thuốc vì điều trị tăng huyết áp thường bắt đầu muộn trong quá trình điều trị.
-Khi chọn liệu pháp phối hợp với 2 thuốc hạ huyết áp, các phương án bao gồm thuốc ức chế ACE hoặc ARB phối hợp với thuốc lợi tiểu hoặc thuốc chẹn kênh canxi.
-Nhiều loại thuốc phối hợp có dạng thuốc viên đơn lẻ, có thể cải thiện khả năng tuân thủ của bệnh nhân.
-Khi có dấu hiệu của tăng huyết áp cấp cứu cần hạ huyết áp ngay lập tức với các thuốc hạ áp.
-Các dấu hiệu đó có thể bao gồm co giật hoặc các triệu chứng thần kinh khu trú, xuất huyết võng mạc, đau ngực, khó thở hoặc buồn nôn và nôn.
+
+Ngoài ra, một số chuyên gia khuyên rằng đối với những bệnh nhân có nguồn gốc châu Phi là ứng cử viên cho liệu pháp đơn trị, nên sử dụng thuốc chẹn kênh canxi hoặc thuốc lợi tiểu thiazide ban đầu vì những loại thuốc này hiệu quả hơn đối với những bệnh nhân bị tăng huyết áp do renin thấp nhạy cảm với muối (7, 8, 9, 10). Tuy nhiên, có sự thay đổi đáng kể về đáp ứng của huyết áp giữa các nhóm chủng tộc (11) và dữ liệu cho thấy rằng mặc dù sử dụng phương pháp tiếp cận dựa trên chủng tộc này, việc kiểm soát tăng huyết áp và sự chênh lệch về chủng tộc trong việc kiểm soát huyết áp vẫn chưa được cải thiện (12). Vì vậy, một số chuyên gia ủng hộ cách tiếp cận cá nhân hóa để lựa chọn phương pháp điều trị hơn là cách tiếp cận dựa trên chủng tộc.
+
+Hầu hết bệnh nhân cần ≥ 2 loại thuốc vì điều trị tăng huyết áp thường bắt đầu muộn trong quá trình điều trị. Khi chọn liệu pháp phối hợp với 2 thuốc hạ huyết áp, các phương án bao gồm thuốc ức chế ACE hoặc ARB phối hợp với thuốc lợi tiểu hoặc thuốc chẹn kênh canxi. Nhiều loại thuốc phối hợp có dạng thuốc viên đơn lẻ, có thể cải thiện khả năng tuân thủ của bệnh nhân (13, 14).
+
+Khi có dấu hiệu của tăng huyết áp cấp cứu cần hạ huyết áp ngay lập tức với các thuốc hạ áp. Các dấu hiệu đó có thể bao gồm co giật hoặc các triệu chứng thần kinh khu trú, xuất huyết võng mạc, đau ngực, khó thở hoặc buồn nôn và nôn.
+
 Một số thuốc chống tăng huyết áp được tránh dùng trong một số rối loạn nhất định (ví dụ, thuốc ức chế ACE trong hẹp động mạch chủ nặng) trong khi những thuốc khác được ưu tiên dùng cho một số bệnh lý nhất định (ví dụ: thuốc chẹn kênh canxi cho bệnh nhân đau thắt ngực, thuốc ức chế ACE hoặc ARB cho bệnh nhân tiểu đường và protein niệu – xem bảng Lựa chọn ban đầu về nhóm thuốc chống tăng huyết áp và Thuốc chống tăng huyết áp cho bệnh nhân có bệnh đi kèm).
-Nếu huyết áp mục tiêu không đạt được trong vòng 1 tháng, hãy đánh giá mức độ tuân thủ và khả năng dung nạp và nhấn mạnh tầm quan trọng của việc tiếp tục điều trị.
-Nếu bệnh nhân tuân thủ phác đồ điều trị, có thể tăng liều thuốc ban đầu hoặc thêm thuốc thứ hai (được chọn trong số các thuốc được khuyến nghị cho điều trị ban đầu).
-Lưu ý rằng không nên sử dụng thuốc ức chế ACE và ARB cùng nhau.
-Thuốc và liều dùng nên được đánh giá và điều chỉnh thường xuyên.
-Nếu không đạt được huyết áp mục tiêu bằng 2 loại thuốc, một loại thuốc thứ ba trong số các loại thuốc ban đầu sẽ được thêm vào.
-Nếu loại thuốc thứ ba đó không được dung nạp hoặc bị chống chỉ định, có thể sử dụng một loại thuốc khác (ví dụ: thuốc đối kháng aldosterone).
-Những bệnh nhân khó khăn trong kiểm soát huyết áp như vậy nên tham khảo ý kiến của các chuyên gia về tăng huyết áp.
+
+Nếu huyết áp mục tiêu không đạt được trong vòng 1 tháng, hãy đánh giá mức độ tuân thủ và khả năng dung nạp và nhấn mạnh tầm quan trọng của việc tiếp tục điều trị. Nếu bệnh nhân tuân thủ phác đồ điều trị, có thể tăng liều thuốc ban đầu hoặc thêm thuốc thứ hai (được chọn trong số các thuốc được khuyến nghị cho điều trị ban đầu). Lưu ý rằng không nên sử dụng thuốc ức chế ACE và ARB cùng nhau. Thuốc và liều dùng nên được đánh giá và điều chỉnh thường xuyên. Nếu không đạt được huyết áp mục tiêu bằng 2 loại thuốc, một loại thuốc thứ ba trong số các loại thuốc ban đầu sẽ được thêm vào. Nếu loại thuốc thứ ba đó không được dung nạp hoặc bị chống chỉ định, có thể sử dụng một loại thuốc khác (ví dụ: thuốc đối kháng aldosterone). Những bệnh nhân khó khăn trong kiểm soát huyết áp như vậy nên tham khảo ý kiến của các chuyên gia về tăng huyết áp.
+
+Bảng
 Lựa chọn ban đầu nhóm thuốc hạ huyết áp
-Nếu huyết áp tâm thu ban đầu > 160 mm Hg, nên bắt đầu dùng 2 loại thuốc bất kể nguy cơ mắc bệnh tim mạch.
-Một dạng phối hợp và liều lượng thích hợp được xác định. Đối với tăng huyết áp kháng trị (huyết áp vẫn cao hơn mục tiêu mặc dù sử dụng 3 loại thuốc hạ huyết áp khác nhau), thường cần từ 4 loại thuốc trở lên.
-Để đạt được mức kiểm soát huyết áp đầy đủ thường đòi hỏi phải đánh giá nhiều lần và thay đổi điều trị bằng thuốc.
-Phải khắc phục tình trạng miễn cưỡng chuẩn độ hoặc thêm thuốc để kiểm soát huyết áp.
-Việc không tuân thủ điều trị, đặc biệt vì cần phải điều trị suốt đời, có thể cản trở việc kiểm soát huyết áp thích hợp.
-Giáo dục, với sự đồng cảm và hỗ trợ, là điều cần thiết để điều trị thành công.
+Nếu huyết áp tâm thu ban đầu > 160 mm Hg, nên bắt đầu dùng 2 loại thuốc bất kể nguy cơ mắc bệnh tim mạch. Một dạng phối hợp và liều lượng thích hợp được xác định. Đối với tăng huyết áp kháng trị (huyết áp vẫn cao hơn mục tiêu mặc dù sử dụng 3 loại thuốc hạ huyết áp khác nhau), thường cần từ 4 loại thuốc trở lên.
+
+Để đạt được mức kiểm soát huyết áp đầy đủ thường đòi hỏi phải đánh giá nhiều lần và thay đổi điều trị bằng thuốc. Phải khắc phục tình trạng miễn cưỡng chuẩn độ hoặc thêm thuốc để kiểm soát huyết áp. Việc không tuân thủ điều trị, đặc biệt vì cần phải điều trị suốt đời, có thể cản trở việc kiểm soát huyết áp thích hợp. Giáo dục, với sự đồng cảm và hỗ trợ, là điều cần thiết để điều trị thành công.
+
+Bảng
 Thuốc hạ huyết áp cho bệnh nhân có bệnh đi kèm
 Thiết bị và các biện pháp can thiệp thể chất
-Việc triệt đốt dây thần kinh giao cảm ở động mạch thận bằng thiết bị tần số vô tuyến đặt trong ống thông qua da nên được coi là phương pháp thử nghiệm và chỉ được sử dụng ở những trung tâm có nhiều kinh nghiệm.
-Các thiết bị như vậy được sử dụng ở Châu Âu và Úc để điều trị tăng huyết áp kháng thuốc.
-Một số nghiên cứu giả dược được tài trợ bởi ngành công nghiệp với các nhóm bệnh nhân khác nhau (ví dụ: tăng huyết áp không được điều trị, tăng huyết áp được điều trị hoặc tăng huyết áp kháng trị) đã chứng minh được mức giảm đáng kể về mặt thống kê và/hoặc lâm sàng đối với huyết áp tâm thu.
-Tuy nhiên, liệu các thiết bị này có làm giảm các biến cố tim mạch lớn hay không vẫn chưa chắc chắn.
-Liệu pháp kích hoạt Baroreflex đã được đề xuất để kiểm soát tình trạng tăng huyết áp kháng thuốc, nhưng các nghiên cứu chưa cung cấp đủ bằng chứng để khuyến nghị sử dụng các thiết bị này.
-Liệu pháp này sử dụng một thiết bị chạy bằng pin được cấy ghép bằng phẫu thuật quanh thân động mạch cảnh để kích thích thụ thể áp suất và làm giảm huyết áp theo liều lượng.
-Trong một nghiên cứu theo dõi dài hạn đối với những bệnh nhân bị tăng huyết áp kháng thuốc đã được đưa vào các thử nghiệm quan trọng trước đó, liệu pháp kích hoạt phản xạ áp lực vẫn duy trì hiệu quả trong việc làm giảm liên tục huyết áp tại phòng khám mà không có vấn đề an toàn lớn.
+Việc triệt đốt dây thần kinh giao cảm ở động mạch thận bằng thiết bị tần số vô tuyến đặt trong ống thông qua da nên được coi là phương pháp thử nghiệm và chỉ được sử dụng ở những trung tâm có nhiều kinh nghiệm. Các thiết bị như vậy được sử dụng ở Châu Âu và Úc để điều trị tăng huyết áp kháng thuốc. Một số nghiên cứu giả dược được tài trợ bởi ngành công nghiệp với các nhóm bệnh nhân khác nhau (ví dụ: tăng huyết áp không được điều trị [15], tăng huyết áp được điều trị [16] hoặc tăng huyết áp kháng trị [17]) đã chứng minh được mức giảm đáng kể về mặt thống kê và/hoặc lâm sàng đối với huyết áp tâm thu. Tuy nhiên, liệu các thiết bị này có làm giảm các biến cố tim mạch lớn hay không vẫn chưa chắc chắn.
+
+Liệu pháp kích hoạt Baroreflex đã được đề xuất để kiểm soát tình trạng tăng huyết áp kháng thuốc, nhưng các nghiên cứu chưa cung cấp đủ bằng chứng để khuyến nghị sử dụng các thiết bị này (4). Liệu pháp này sử dụng một thiết bị chạy bằng pin được cấy ghép bằng phẫu thuật quanh thân động mạch cảnh để kích thích thụ thể áp suất và làm giảm huyết áp theo liều lượng. Trong một nghiên cứu theo dõi dài hạn đối với những bệnh nhân bị tăng huyết áp kháng thuốc đã được đưa vào các thử nghiệm quan trọng trước đó, liệu pháp kích hoạt phản xạ áp lực vẫn duy trì hiệu quả trong việc làm giảm liên tục huyết áp tại phòng khám mà không có vấn đề an toàn lớn (18).
+
 Tăng huyết áp kháng thuốc
-Tăng huyết áp kháng trị được định nghĩa là huyết áp không được kiểm soát đạt mục tiêu mặc dù đã tuân thủ 3 loại thuốc hạ huyết áp liều phù hợp thuộc các nhóm khác nhau (bao gồm thuốc lợi tiểu) và sau khi hiệu ứng áo choàng trắng đã được loại trừ.
-Huyết áp cần phải dùng 4 loại thuốc để kiểm soát cũng được coi là tăng huyết áp kháng thuốc có kiểm soát.
-Việc sử dụng thuốc đối kháng thụ thể mineralocorticoid có thể có lợi trong việc đạt được huyết áp mục tiêu.
-Nguyên nhân thứ phát gây tăng huyết áp phải được loại trừ khi đánh giá tình trạng tăng huyết áp kháng trị.
-Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.
-18 de Leeuw PW, Bisognano JD, Bakris GL, Nadim MK, Haller H, Kroon AA, DEBuT-T and Rheos Trial Investigators.
-Sustained reduction of blood pressure with baroreceptor activation therapy: Results of the 6-year open follow-up.
-Hypertension 69:836–843, 2017.
+Tăng huyết áp kháng trị được định nghĩa là huyết áp không được kiểm soát đạt mục tiêu mặc dù đã tuân thủ 3 loại thuốc hạ huyết áp liều phù hợp thuộc các nhóm khác nhau (bao gồm thuốc lợi tiểu) và sau khi hiệu ứng áo choàng trắng đã được loại trừ. Huyết áp cần phải dùng 4 loại thuốc để kiểm soát cũng được coi là tăng huyết áp kháng thuốc có kiểm soát. Việc sử dụng thuốc đối kháng thụ thể mineralocorticoid có thể có lợi trong việc đạt được huyết áp mục tiêu (19).
+
+Nguyên nhân thứ phát gây tăng huyết áp phải được loại trừ khi đánh giá tình trạng tăng huyết áp kháng trị. Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.
+
+Tài liệu tham khảo về điều trị
+1. Williamson JD, Supiano MA, Applegate WB, et al. Intensive vs Standard Blood Pressure Control and Cardiovascular Disease Outcomes in Adults Aged ≥75 Years: A Randomized Clinical Trial. JAMA 315(24):2673-2682, 2016 doi:10.1001/jama.2016.7050
+
+2. White WB, Wakefield DB, Moscufo N, et al. Effects of Intensive Versus Standard Ambulatory Blood Pressure Control on Cerebrovascular Outcomes in Older People (INFINITY). Circulation 140(20):1626-1635, 2019 doi:10.1161/CIRCULATIONAHA.119.041603
+
+3. Gomadam P, Shah A, Qureshi W, et al. Blood pressure indices and cardiovascular disease mortality in persons with or without diabetes mellitus. J Hypertens 36(1):85-92, 2018 doi:10.1097/HJH.0000000000001509
+
+4. Table 15. Can thiệp không dùng thuốc. In: Whelton PK, Carey RM, Aronow WS, et al: 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Hypertension 71(6):e13–e115, 2018. doi: 10.1161/HYP.0000000000000065
+
+5. Thomas SJ, Calhoun D. Sleep, insomnia, and hypertension: current findings and future directions. J Am Soc Hypertens 11(2):122-129, 2017 doi:10.1016/j.jash.2016.11.008
+
+6. Ali W, Gao G, Bakris GL. Improved Sleep Quality Improves Blood Pressure Control among Patients with Chronic Kidney Disease: A Pilot Study. Am J Nephrol 51(3):249-254, 2020 doi:10.1159/000505895
+
+7. Materson BJ, Reda DJ, Cushman WC, et al. Single-drug therapy for hypertension in men. A comparison of six antihypertensive agents with placebo. The Department of Veterans Affairs Cooperative Study Group on Antihypertensive Agents [published correction appears in N Engl J Med 1994 Jun 9;330(23):1689]. N Engl J Med 1993;328(13):914-921. doi:10.1056/NEJM199304013281303
+
+8. Yamal JM, Oparil S, Davis BR, et al. Stroke outcomes among participants randomized to chlorthalidone, amlodipine or lisinopril in ALLHAT. J Am Soc Hypertens 2014;8(11):808-819. doi:10.1016/j.jash.2014.08.003
+
+9. Wright JT Jr, Harris-Haywood S, Pressel S, et al. Clinical outcomes by race in hypertensive patients with and without the metabolic syndrome: Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT). Arch Intern Med 2008;168(2):207-217. doi:10.1001/archinternmed.2007.66
+
+10. Hall WD, Reed JW, Flack JM, Yunis C, Preisser J. Comparison of the efficacy of dihydropyridine calcium channel blockers in African American patients with hypertension. ISHIB Investigators Group. International Society on Hypertension in Blacks. Arch Intern Med 158(18):2029-2034, 1998 doi: 10.1001/archinte.158.18.2029
+
+11. Mokwe E, Ohmit SE, Nasser SA, et al. Determinants of blood pressure response to quinapril in black and white hypertensive patients: the Quinapril Titration Interval Management Evaluation trial. Hypertension 2004;43(6):1202-1207. doi:10.1161/01.HYP.0000127924.67353.86
+
+12. Egan BM, Li J, Sutherland SE, Rakotz MK, Wozniak GD. Hypertension Control in the United States 2009 to 2018: Factors Underlying Falling Control Rates During 2015 to 2018 Across Age- and Race-Ethnicity Groups. Hypertension 78(3):578-587, 2021 doi:10.1161/HYPERTENSIONAHA.120.16418
+
+13. Parati G, Kjeldsen S, Coca A, Cushman WC, Wang J. Adherence to Single-Pill Versus Free-Equivalent Combination Therapy in Hypertension: A Systematic Review and Meta-Analysis. Hypertension 77(2):692-705, 2021 doi:10.1161/HYPERTENSIONAHA.120.15781
+
+14. Williams B, Mancia G, Spiering W, et al. 2018 Practice Guidelines for the management of arterial hypertension of the European Society of Hypertension and the European Society of Cardiology: ESH/ESC Task Force for the Management of Arterial Hypertension [published correction appears in J Hypertens 2019 Feb;37(2):456]. J Hypertens 8;36(12):2284-2309, 2018 doi:10.1097/HJH.0000000000001961
+
+15. Böhm M, Kario K, Kandzari DE, et al. Efficacy of catheter-based renal denervation in the absence of antihypertensive medications (SPYRAL HTN-OFF MED Pivotal): a multicentre, randomised, sham-controlled trial. Lancet 395(10234):1444-1451, 2020 doi:10.1016/S0140-6736(20)30554-7
+
+16. Mahfoud F, Kandzari DE, Kario K, et al. Long-term efficacy and safety of renal denervation in the presence of antihypertensive drugs (SPYRAL HTN-ON MED): a randomised, sham-controlled trial. Lancet 399(10333):1401-1410, 2022 doi:10.1016/S0140-6736(22)00455-X
+
+17. Bhatt DL, Vaduganathan M, Kandzari DE, et al. Long-term outcomes after catheter-based renal artery denervation for resistant hypertension: final follow-up of the randomised SYMPLICITY HTN-3 Trial. Lancet 400(10361):1405-1416, 2022 doi:10.1016/S0140-6736(22)01787-1
+
+18 de Leeuw PW, Bisognano JD, Bakris GL, Nadim MK, Haller H, Kroon AA, DEBuT-T and Rheos Trial Investigators. Sustained reduction of blood pressure with baroreceptor activation therapy: Results of the 6-year open follow-up. Hypertension 69:836–843, 2017.
+
+19. Carey RM, Calhoun DA, Bakris GL, et al. Resistant hypertension: Detection, evaluation, and management: A Scientific Statement From the American Heart Association. Hypertension 72:e53–e90, 2018 doi: 10.1161/HYP.0000000000000084
+
 Tiên lượng về tăng huyết áp
-Huyết áp càng cao, những thay đổi ở võng mạc càng nặng và các bằng chứng khác về tình trạng liên quan đến cơ quan đích càng nhiều thì tiên lượng càng xấu.
-Huyết áp tâm thu dự đoán các biến cố tim mạch tử vong và không tử vong tốt hơn huyết áp tâm trương.
-Kiểm soát hiệu quả tình trạng tăng huyết áp có thể ngăn ngừa hầu hết các biến chứng và kéo dài tuổi thọ.
-Nếu không điều trị, tỷ lệ sống thêm sau 1 năm là < 10% ở những bệnh nhân bị xơ võng mạc, xuất tiết bông, hẹp tiểu động mạch và xuất huyết (bệnh võng mạc độ 3) và < 5% ở những bệnh nhân có những thay đổi tương tự cộng với phù gai thị (bệnh võng mạc độ 4)).
+Huyết áp càng cao, những thay đổi ở võng mạc càng nặng và các bằng chứng khác về tình trạng liên quan đến cơ quan đích càng nhiều thì tiên lượng càng xấu. Huyết áp tâm thu dự đoán các biến cố tim mạch tử vong và không tử vong tốt hơn huyết áp tâm trương (1, 2). Kiểm soát hiệu quả tình trạng tăng huyết áp có thể ngăn ngừa hầu hết các biến chứng và kéo dài tuổi thọ.
+
+Nếu không điều trị, tỷ lệ sống thêm sau 1 năm là < 10% ở những bệnh nhân bị xơ võng mạc, xuất tiết bông, hẹp tiểu động mạch và xuất huyết (bệnh võng mạc độ 3) và < 5% ở những bệnh nhân có những thay đổi tương tự cộng với phù gai thị (bệnh võng mạc độ 4) [3]).
+
 Bệnh động mạch vành là nguyên nhân thường gặp nhất gây tử vong ở bệnh nhân được điều trị. Ở những bệnh nhân được điều trị nhưng chưa thích hợp, nhồi máu não hoặc xuất huyết não là biến chứng phổ biến nhất.
+
+Tài liệu tham khảo về tiên lượng
+1. Bourdillon MT, Song RJ, Musa Yola I, Xanthakis V, Vasan RS. Prevalence, Predictors, Progression, and Prognosis of Hypertension Subtypes in the Framingham Heart Study. J Am Heart Assoc 11(6):e024202, 2022 doi:10.1161/JAHA.121.024202
+
+2. Kannel WB, Gordon T, Schwartz MJ. Systolic versus diastolic blood pressure and risk of coronary heart disease. The Framingham study. Am J Cardiol 27(4):335-346, 1971 doi:10.1016/0002-9149(71)90428-0
+
+3. Dziedziak J, Zaleska-Żmijewska A, Szaflik JP, Cudnoch-Jędrzejewska A. Impact of Arterial Hypertension on the Eye: A Review of the Pathogenesis, Diagnostic Methods, and Treatment of Hypertensive Retinopathy. Med Sci Monit 28:e935135, 2022 doi:10.12659/MSM.935135
+
+Những điểm chính
