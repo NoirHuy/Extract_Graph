@@ -1,399 +1,398 @@
 ﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
-CUI:C5203676,SARS-CoV-2,SARS-CoV-2,Cause,C5203676,Virus,,{},01_daithaoduong.txt,2026-08-20T15:25:04.378Z
-CUI:C0001403,bệnh Addison,Bệnh Addison,Cause,C0001403,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:56.996Z
-CUI:C0019045,bệnh huyết sắc tố,Bệnh huyết sắc tố,Cause,C0019045,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.7Z
-CUI:C0010674,bệnh xơ nang,Bệnh xơ nang,Cause,C0010674,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.562Z
-CUI:C0010247,coxsackievirus,Coxsackievirus,Cause,C0010247,Virus,,{},01_daithaoduong.txt,2026-08-20T15:24:40.962Z
-CUI:C0010825,cytomegalovirus,Cytomegalovirus,Cause,C0010825,Virus,,{},01_daithaoduong.txt,2026-08-20T15:25:04.254Z
-CUI:C0152020,liệt dạ dày,Liệt dạ dày,Cause,C0152020,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:56.923Z
-CUI:C3714514,nhiễm trùng,Nhiễm trùng,Cause,C3714514,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:24:39.292Z
-CUI:C0035366,retrovirus,Retrovirus,Cause,C0035366,Virus,,{},01_daithaoduong.txt,2026-08-20T15:25:04.46Z
-CUI:C0014644,vi rút Epstein-Barr,Vi rút Epstein-Barr,Cause,C0014644,Virus,,{},01_daithaoduong.txt,2026-08-20T15:25:04.315Z
-CUI:C0035924,vi rút rubella,Vi rút Rubella,Cause,C0035924,Virus,,{},01_daithaoduong.txt,2026-08-20T15:25:04.169Z
-CUI:C0030305,viêm tụy,Viêm tụy,Cause,C0030305,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.622Z
-CUI:C0015674,Rối loạn chức năng miễn dịch,Rối loạn chức năng miễn dịch,Complication,C0015674,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:39.689Z
-CUI:C0001925,albumin niệu,Albumin niệu,Complication,C0001925,Finding,prevalence: 6% đến 10%,"{""prevalence"": ""6% đến 10%""}",01_daithaoduong.txt,2026-08-20T15:24:38.793Z
-CUI:C0342257,biến chứng của bệnh tiểu đường,Diabetes Complications,Complication,C0342257,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:44.111Z
+CUI:C5203676,SARS-CoV-2,SARS-CoV-2,Cause,C5203676,Virus,,{},01_daithaoduong.txt,2026-08-20T15:47:13.554Z
+CUI:C0001403,bệnh Addison,Bệnh Addison,Cause,C0001403,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:06.232Z
+CUI:C0019045,bệnh huyết sắc tố,Bệnh huyết sắc tố,Cause,C0019045,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.679Z
+CUI:C0010674,bệnh xơ nang,Bệnh xơ nang,Cause,C0010674,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.537Z
+CUI:C0010247,coxsackievirus,Coxsackievirus,Cause,C0010247,Virus,,{},01_daithaoduong.txt,2026-08-20T15:46:50.96Z
+CUI:C0010825,cytomegalovirus,Cytomegalovirus,Cause,C0010825,Virus,,{},01_daithaoduong.txt,2026-08-20T15:47:13.432Z
+CUI:C0152020,liệt dạ dày,Liệt dạ dày,Cause,C0152020,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:06.168Z
+CUI:C3714514,nhiễm trùng,Nhiễm trùng,Cause,C3714514,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:46:49.371Z
+CUI:C0035366,retrovirus,Retrovirus,Cause,C0035366,Virus,,{},01_daithaoduong.txt,2026-08-20T15:47:13.631Z
+CUI:C0014644,vi rút Epstein-Barr,Vi rút Epstein-Barr,Cause,C0014644,Virus,,{},01_daithaoduong.txt,2026-08-20T15:47:13.495Z
+CUI:C0035924,vi rút rubella,Vi rút Rubella,Cause,C0035924,Virus,,{},01_daithaoduong.txt,2026-08-20T15:47:13.356Z
+CUI:C0030305,viêm tụy,Viêm tụy,Cause,C0030305,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.599Z
+CUI:C0015674,Rối loạn chức năng miễn dịch,Rối loạn chức năng miễn dịch,Complication,C0015674,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:49.745Z
+CUI:C0001925,albumin niệu,Albumin niệu,Complication,C0001925,Finding,prevalence: 6% đến 10%,"{""prevalence"": ""6% đến 10%""}",01_daithaoduong.txt,2026-08-20T15:46:48.884Z
+CUI:C0342257,biến chứng của bệnh tiểu đường,Diabetes Complications,Complication,C0342257,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:54.032Z
 CUI:C0920165,biến chứng mạch máu,Biến chứng mạch máu,Complication,C0920165,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:13.593Z
-CUI:C2673520,biến chứng vi mạch,Biến chứng vi mạch,Complication,C2673520,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:57.865Z
-CUI:C0007222,bệnh lý tim mạch,Bệnh lý tim mạch,Complication,C0007222,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:38.382Z
-CUI:C0042373,bệnh mạch máu,Bệnh mạch máu,Complication,C0042373,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:37.87Z
-CUI:C0011882,bệnh thần kinh,Bệnh thần kinh do đái tháo đường,Complication,C0011882,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:50.055Z
-CUI:C0031117,bệnh thần kinh ngoại vi,Bệnh thần kinh ngoại vi,Complication,C0031117,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:37.947Z
-CUI:C0022658,bệnh thận,Bệnh thận,Complication,C0022658,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:38.008Z
-CUI:C0011884,bệnh võng mạc,Bệnh võng mạc do đái tháo đường,Complication,C0011884,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:50.114Z
+CUI:C2673520,biến chứng vi mạch,Biến chứng vi mạch,Complication,C2673520,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:07.176Z
+CUI:C0007222,bệnh lý tim mạch,Bệnh lý tim mạch,Complication,C0007222,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:48.479Z
+CUI:C0042373,bệnh mạch máu,Bệnh mạch máu,Complication,C0042373,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:48.003Z
+CUI:C0011882,bệnh thần kinh,Bệnh thần kinh do đái tháo đường,Complication,C0011882,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:59.731Z
+CUI:C0031117,bệnh thần kinh ngoại vi,Bệnh thần kinh ngoại vi,Complication,C0031117,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:48.067Z
+CUI:C0022658,bệnh thận,Bệnh thận,Complication,C0022658,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:48.129Z
 CUI:C0035309,bệnh võng mạc,Bệnh võng mạc,Complication,C0035309,Disease or Syndrome,prevalence: 6% đến 10%,"{""prevalence"": ""6% đến 10%""}",01_daithaoduong.txt,2026-08-20T14:17:10.418Z
-CUI:C0017086,hoại thư,Hoại thư,Complication,C0017086,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:45.512Z
-CUI:C0020651,hạ huyết áp tư thế,Hạ huyết áp tư thế,Complication,C0020651,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:43.555Z
-CUI:C0342317,hạ đường huyết không nhận biết,Hạ đường huyết không nhận biết,Complication,C0342317,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:55.281Z
-CUI:C0342316,hạ đường huyết nặng,Severe Hypoglycemia,Complication,C0342316,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:24:55.098Z
-CUI:C0085119,loét,Loét bàn chân,Complication,C0085119,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:51.54Z
-CUI:C0041582,loét,Loét,Complication,C0041582,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:39.228Z
-CUI:C0011175,mất nước,Mất nước,Complication,C0011175,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:43.615Z
-CUI:C0001125,nhiễm toan lactic,Nhiễm toan lactic,Complication,C0001125,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:59.576Z
-CUI:C0026946,nhiễm trùng do nấm,Nhiễm trùng do nấm,Complication,C0026946,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:39.877Z
-CUI:C0004623,nhiễm trùng do vi khuẩn,Nhiễm trùng do vi khuẩn,Complication,C0004623,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:39.815Z
-CUI:C0027051,nhồi máu cơ tim,Nhồi máu cơ tim,Complication,C0027051,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:47.681Z
-CUI:C0011880,toan ceton,Toan ceton,Complication,C0011880,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:43.686Z
-CUI:C3888846,tăng đường huyết tăng áp lực thẩm thấu,Tăng áp lực thẩm thấu do tăng đường huyết,Complication,C3888846,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:04.92Z
-CUI:C1306577,tử vong,Tử vong,Complication,C1306577,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:59.911Z
-CUI:C0029443,viêm tủy xương,Viêm tủy xương,Complication,C0029443,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:52.111Z
-Complication:viêm đảo tụy,viêm đảo tụy,Viêm đảo tụy,Complication,,,,{},01_daithaoduong.txt,2026-08-20T15:24:40.708Z
+CUI:C0011884,bệnh võng mạc,Bệnh võng mạc do đái tháo đường,Complication,C0011884,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:59.796Z
+CUI:C0017086,hoại thư,Hoại thư,Complication,C0017086,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:55.356Z
+CUI:C0020651,hạ huyết áp tư thế,Hạ huyết áp tư thế,Complication,C0020651,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:53.51Z
+CUI:C0342317,hạ đường huyết không nhận biết,Hạ đường huyết không nhận biết,Complication,C0342317,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:04.859Z
+CUI:C0342316,hạ đường huyết nặng,Severe Hypoglycemia,Complication,C0342316,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:47:04.672Z
+CUI:C0085119,loét,Loét bàn chân,Complication,C0085119,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:01.203Z
+CUI:C0041582,loét,Loét,Complication,C0041582,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:49.31Z
+CUI:C0011175,mất nước,Mất nước,Complication,C0011175,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:53.573Z
+CUI:C0001125,nhiễm toan lactic,Nhiễm toan lactic,Complication,C0001125,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:08.842Z
+CUI:C0026946,nhiễm trùng do nấm,Nhiễm trùng do nấm,Complication,C0026946,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:49.931Z
+CUI:C0004623,nhiễm trùng do vi khuẩn,Nhiễm trùng do vi khuẩn,Complication,C0004623,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:49.87Z
+CUI:C0027051,nhồi máu cơ tim,Nhồi máu cơ tim,Complication,C0027051,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:57.44Z
+CUI:C0011880,toan ceton,Toan ceton,Complication,C0011880,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:53.636Z
+CUI:C3888846,tăng đường huyết tăng áp lực thẩm thấu,Tăng áp lực thẩm thấu do tăng đường huyết,Complication,C3888846,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:14.071Z
+CUI:C1306577,tử vong,Tử vong,Complication,C1306577,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:09.15Z
+CUI:C0029443,viêm tủy xương,Viêm tủy xương,Complication,C0029443,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:01.762Z
+Complication:viêm đảo tụy,viêm đảo tụy,Viêm đảo tụy,Complication,,,,{},01_daithaoduong.txt,2026-08-20T15:46:50.734Z
 CUI:C0038454,đột quỵ,Đột quỵ,Complication,C0038454,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:05.811Z
-Disease:bệnh mạch máu lớn,Bệnh mạch máu lớn,Bệnh mạch máu lớn,Disease,,,,{},01_daithaoduong.txt,2026-08-20T15:24:39.531Z
-CUI:C0013473,Rối loạn ăn uống,Rối loạn ăn uống,Disease,C0013473,Mental or Behavioral Dysfunction,,{},01_daithaoduong.txt,2026-08-20T15:24:58.693Z
-CUI:C5203670,SARS-CoV-2,COVID-19,Disease,C5203670,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:52.766Z
-CUI:C0038410,Streptococcus pneumoniae,Streptococcus pneumoniae,Disease,C0038410,Bacterium,,{},01_daithaoduong.txt,2026-08-20T15:24:52.488Z
-CUI:C0400966,bệnh gan nhiễm mỡ liên quan đến chuyển hóa,Bệnh gan nhiễm mỡ liên quan đến chuyển hóa,Disease,C0400966,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:48.015Z
-CUI:C0002878,bệnh thiếu máu do tan máu,Thiếu máu tan máu,Disease,C0002878,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:55.476Z
-CUI:C1561643,bệnh thận mạn tính,Bệnh thận mạn,Disease,C1561643,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:47.161Z
-CUI:C0018799,bệnh tim,Bệnh tim,Disease,C0018799,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:00.274Z
+Disease:bệnh mạch máu lớn,Bệnh mạch máu lớn,Bệnh mạch máu lớn,Disease,,,,{},01_daithaoduong.txt,2026-08-20T15:46:49.594Z
+CUI:C0013473,Rối loạn ăn uống,Rối loạn ăn uống,Disease,C0013473,Mental or Behavioral Dysfunction,,{},01_daithaoduong.txt,2026-08-20T15:47:08.027Z
+CUI:C5203670,SARS-CoV-2,COVID-19,Disease,C5203670,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:02.424Z
+CUI:C0038410,Streptococcus pneumoniae,Streptococcus pneumoniae,Disease,C0038410,Bacterium,,{},01_daithaoduong.txt,2026-08-20T15:47:02.156Z
+CUI:C0400966,bệnh gan nhiễm mỡ liên quan đến chuyển hóa,Bệnh gan nhiễm mỡ liên quan đến chuyển hóa,Disease,C0400966,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:57.763Z
+CUI:C0002878,bệnh thiếu máu do tan máu,Thiếu máu tan máu,Disease,C0002878,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:05.051Z
+CUI:C1561643,bệnh thận mạn tính,Bệnh thận mạn,Disease,C1561643,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:56.936Z
+CUI:C0018799,bệnh tim,Bệnh tim,Disease,C0018799,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:09.477Z
 CUI:C0007222,bệnh tim mạch,Bệnh tim mạch,Disease,C0007222,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:13.153Z
 CUI:C0004153,bệnh tim mạch do xơ vữa động mạch,Bệnh tim mạch do xơ vữa động mạch,Disease,C0004153,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:05.956Z
 CUI:C0011849,bệnh tiểu đường,Diabetes mellitus,Disease,C0011849,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:03.058Z
-CUI:C0011860,bệnh tiểu đường loại 2,Type 2 diabetes mellitus,Disease,C0011860,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:47.415Z
-CUI:C0003892,khớp thần kinh,Khớp thần kinh (Charcot),Disease,C0003892,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:52.291Z
+CUI:C0011860,bệnh tiểu đường loại 2,Type 2 diabetes mellitus,Disease,C0011860,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:57.189Z
+CUI:C0003892,khớp thần kinh,Khớp thần kinh (Charcot),Disease,C0003892,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:01.951Z
 CUI:C0242339,rối loạn lipid máu,Rối loạn lipid máu,Disease,C0242339,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:09.499Z
-Disease:rối loạn điều hòa glucose,rối loạn điều hòa glucose,Rối loạn điều hòa glucose,Disease,,,,{},01_daithaoduong.txt,2026-08-20T15:25:03.179Z
-CUI:C0497327,sa sút trí tuệ,Sa sút trí tuệ,Disease,C0497327,Mental or Behavioral Dysfunction,,{},01_daithaoduong.txt,2026-08-20T15:24:53.605Z
+Disease:rối loạn điều hòa glucose,rối loạn điều hòa glucose,Rối loạn điều hòa glucose,Disease,,,,{},01_daithaoduong.txt,2026-08-20T15:47:12.385Z
+CUI:C0497327,sa sút trí tuệ,Sa sút trí tuệ,Disease,C0497327,Mental or Behavioral Dysfunction,,{},01_daithaoduong.txt,2026-08-20T15:47:03.252Z
 CUI:C1565489,suy thận,Suy thận,Disease,C1565489,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:09.363Z
-CUI:C0018801,suy tim,heart failure,Disease,C0018801,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:47.081Z
-CUI:C0162316,thiếu máu do thiếu sắt,Thiếu máu thiếu sắt,Disease,C0162316,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:55.414Z
-CUI:C0008049,thủy đậu,Thủy đậu,Disease,C0008049,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:52.707Z
-CUI:C0362046,tiền tiểu đường,Tiền đái tháo đường,Disease,C0362046,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:50.86Z
+CUI:C0018801,suy tim,heart failure,Disease,C0018801,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:56.868Z
+CUI:C0162316,thiếu máu do thiếu sắt,Thiếu máu thiếu sắt,Disease,C0162316,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:04.991Z
+CUI:C0008049,thủy đậu,Thủy đậu,Disease,C0008049,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:02.355Z
+CUI:C0362046,tiền tiểu đường,Tiền đái tháo đường,Disease,C0362046,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:00.519Z
 CUI:C0020538,tăng huyết áp,Tăng huyết áp,Disease,C0020538,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:16:59.154Z
-CUI:C0021400,vi rút cúm,Cúm,Disease,C0021400,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:52.565Z
-CUI:C0019163,viêm gan B,Viêm gan B,Disease,C0019163,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:52.645Z
-CUI:C3241937,viêm gan nhiễm mỡ liên quan đến chuyển hóa,Viêm gan nhiễm mỡ liên quan đến chuyển hóa,Disease,C3241937,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:48.078Z
-CUI:C0023890,xơ gan,Xơ gan,Disease,C0023890,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:55.537Z
-CUI:C3888631,Bệnh tiểu đường đơn nguyên,Bệnh tiểu đường đơn nguyên,DiseaseSubtype,C3888631,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.31Z
-CUI:C0206064,Bệnh vi mạch,Bệnh vi mạch,DiseaseSubtype,C0206064,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:39.166Z
-CUI:C5847614,Giai đoạn 1,Đái tháo đường loại 1 giai đoạn 1,DiseaseSubtype,C5847614,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:04.789Z
-CUI:C5847615,Giai đoạn 2,Đái tháo đường loại 1 giai đoạn 2,DiseaseSubtype,C5847615,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:04.852Z
-CUI:C0271650,Không dung nạp glucose,Không dung nạp glucose,DiseaseSubtype,C0271650,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:38.51Z
-CUI:C0549206,Mang thai,Mang thai,DiseaseSubtype,C0549206,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:43.264Z
-CUI:C4302025,Suy giảm điều hòa glucose,Suy giảm điều hòa glucose,DiseaseSubtype,C4302025,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:38.444Z
-CUI:C0342303,Tăng đường huyết do căng thẳng,Tăng đường huyết do căng thẳng,DiseaseSubtype,C0342303,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:00.074Z
-DiseaseSubtype:bệnh thận mạn tính giai đoạn 4-5,bệnh thận mạn tính giai đoạn 4 và giai đoạn 5,Bệnh thận mạn tính giai đoạn 4-5,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:24:55.599Z
-CUI:C0342276,bệnh tiểu đường khởi phát ở tuổi trưởng thành ở thanh niên,MODY,DiseaseSubtype,C0342276,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.436Z
-CUI:C0011860,bệnh tiểu đường loại 2,Đái tháo đường loại 2,DiseaseSubtype,C0011860,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:40.3Z
-CUI:C0085207,bệnh tiểu đường thai kỳ,Đái tháo đường thai kỳ,DiseaseSubtype,C0085207,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:43.348Z
-CUI:C1739108,bệnh tiểu đường tự miễn tiềm ẩn ở tuổi trưởng thành (LADA),LADA,DiseaseSubtype,C1739108,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:40.215Z
-CUI:C0158981,bệnh tiểu đường ở trẻ sơ sinh,Bệnh tiểu đường ở trẻ sơ sinh,DiseaseSubtype,C0158981,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.498Z
-CUI:C0188602,cắt cụt ngón chân,Cắt cụt ngón chân,DiseaseSubtype,C0188602,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:51.625Z
-CUI:C0441771,giai đoạn 3,Giai đoạn 3,DiseaseSubtype,C0441771,Intellectual Product,,{},01_daithaoduong.txt,2026-08-20T15:24:43.888Z
-DiseaseSubtype:giai đoạn trăng mật,giai đoạn trăng mật,Giai đoạn trăng mật,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:24:43.969Z
-CUI:C0020615,hạ đường huyết,Hạ đường huyết,DiseaseSubtype,C0020615,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:48.733Z
-CUI:C0406526,loét chân do bệnh lý thần kinh,Loét chân do bệnh lý thần kinh,DiseaseSubtype,C0406526,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:51.825Z
-CUI:C1136179,ngón chân búa,Ngón chân búa,DiseaseSubtype,C1136179,Anatomical Abnormality,,{},01_daithaoduong.txt,2026-08-20T15:24:51.69Z
-CUI:C1272092,nồng độ đường huyết lúc đói bị suy giảm,Rối loạn đường huyết lúc đói,DiseaseSubtype,C1272092,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:38.574Z
-DiseaseSubtype:rối loạn chức năng tế bào beta,rối loạn chức năng tế bào beta,Rối loạn chức năng tế bào beta,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:24:41.865Z
-CUI:C0011880,toan ceton do đái tháo đường (DKA),Toan ceton do đái tháo đường,DiseaseSubtype,C0011880,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:48.203Z
-CUI:C3888846,trạng thái tăng đường huyết tăng áp lực thẩm thấu,Trạng thái tăng đường huyết tăng áp lực thẩm thấu,DiseaseSubtype,C3888846,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:44.174Z
-CUI:C0020456,tăng đường huyết,Tăng đường huyết,DiseaseSubtype,C0020456,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:37.476Z
-DiseaseSubtype:tắc động mạch lớn,tắc động mạch lớn,Tắc động mạch lớn,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:24:51.887Z
-DiseaseSubtype:viêm khớp biến dạng khớp bàn ngón chân cái,viêm khớp biến dạng khớp bàn ngón chân cái,Viêm khớp biến dạng khớp bàn ngón chân cái,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:24:51.752Z
-CUI:C0011854,đái tháo đường Loại 1,Đái tháo đường loại 1,DiseaseSubtype,C0011854,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:40.089Z
-CUI:C0342302,đái tháo đường không ổn định,Đái tháo đường không ổn định,DiseaseSubtype,C0342302,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:56.862Z
-CUI:C0032821,10 mEq (10 mmol) kali,Kali,Drug,C0032821,Pharmacologic Substance,amount: 10; dose: 10 mEq,"{""amount"": 10, ""unit"": ""mEq"", ""dose"": ""10 mEq""}",01_daithaoduong.txt,2026-08-20T15:25:01.226Z
-CUI:C3265914,10% dextrose,Dextrose 10%,Drug,C3265914,Clinical Drug,concentration: 10%,"{""concentration"": ""10%""}",01_daithaoduong.txt,2026-08-20T15:25:01.142Z
-CUI:C1725310,5% dextrose,Dextrose 5%,Drug,C1725310,Pharmacologic Substance,concentration: 5%,"{""concentration"": ""5%""}",01_daithaoduong.txt,2026-08-20T15:25:01.351Z
-CUI:C0003442,Antithymocyte globulin (ATG),Antithymocyte globulin,Drug,C0003442,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:02.917Z
-CUI:C2743673,Teplizumab,Teplizumab,Drug,C2743673,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:02.659Z
-CUI:C1619966,abatacept,Abatacept,Drug,C1619966,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:03.055Z
-CUI:C0004482,azathioprine,Azathioprine,Drug,C0004482,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:02.792Z
-CUI:C0010592,cyclosporine,Cyclosporine,Drug,C0010592,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:02.853Z
-CUI:C0537270,detemir,Detemir,Drug,C0537270,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:59.702Z
-CUI:C0017725,dung dịch dextrose,Dextrose,Drug,C0017725,Pharmacologic Substance,rate: 75-150 mL/giờ,"{""rate"": ""75-150 mL/giờ""}",01_daithaoduong.txt,2026-08-20T15:25:00.926Z
-CUI:C0907402,glargine,Glargine,Drug,C0907402,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:00.776Z
-CUI:C0017710,glucocorticoid,Glucocorticoid,Drug,C0017710,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:42.839Z
-CUI:C0356365,insulin tác dụng nhanh,Insulin tác dụng nhanh,Drug,C0356365,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:59.165Z
-CUI:C1456408,liraglutide,Liraglutide,Drug,C1456408,Pharmacologic Substance,dosage: 3 mg,"{""dosage"": ""3 mg""}",01_daithaoduong.txt,2026-08-20T15:24:50.522Z
-CUI:C0025598,metformin,Metformin,Drug,C0025598,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:46.862Z
-CUI:C3858054,naltrexone/bupropion,Naltrexone/Bupropion,Drug,C3858054,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:50.799Z
-CUI:C0076275,orlistat,Orlistat,Drug,C0076275,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:50.65Z
-CUI:C3475162,phentermine/topiramate,Phentermine/Topiramate,Drug,C3475162,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:50.732Z
-CUI:C0071097,pioglitazone,pioglitazone,Drug,C0071097,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:47.954Z
-CUI:C3885068,semaglutide,Semaglutide,Drug,C3885068,Pharmacologic Substance,"dosage: 2,4 mg","{""dosage"": ""2,4 mg""}",01_daithaoduong.txt,2026-08-20T15:24:50.375Z
-CUI:C5139934,tirzepatide,Tirzepatide,Drug,C5139934,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:47.285Z
-CUI:C0042523,verapamil,verapamil,Drug,C0042523,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:03.115Z
-CUI:C1562104,Thuốc chủ vận thụ thể peptide-1 giống glucagon (GLP1),GLP-1 receptor agonists,DrugClass,C1562104,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:46.17Z
-CUI:C0001617,corticosteroid,Corticosteroid,DrugClass,C0001617,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:44.236Z
-CUI:C0304870,insulin tác dụng kéo dài,Insulin tác dụng kéo dài,DrugClass,C0304870,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:00.711Z
-CUI:C3539974,insulin tác dụng trung gian,Insulin tác dụng trung gian,DrugClass,C3539974,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:00.646Z
-CUI:C0003232,kháng sinh,Kháng sinh,DrugClass,C0003232,Antibiotic,,{},01_daithaoduong.txt,2026-08-20T15:24:52.03Z
-CUI:C0360714,statin,Statin,DrugClass,C0360714,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:46.435Z
-CUI:C5691274,sulfonylureas,Sulfonylureas,DrugClass,C5691274,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:59.31Z
-CUI:C0001645,thuốc chẹn beta,Thuốc chẹn beta,DrugClass,C0001645,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:42.918Z
-DrugClass:thuốc ức chế hệ raas,thuốc chẹn hệ thống renin-angiotensin-aldosterone,Thuốc ức chế hệ RAAS,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:24:46.233Z
-DrugClass:thuốc chống loạn thần không điển hình,thuốc chống loạn thần không điển hình,Thuốc chống loạn thần không điển hình,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:24:43.057Z
-DrugClass:thuốc chủ vận incretin kép,thuốc chủ vận incretin kép,Thuốc chủ vận incretin kép,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:24:50.237Z
-CUI:C0020616,thuốc gây hạ đường huyết,Thuốc gây hạ đường huyết,DrugClass,C0020616,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:49.003Z
+CUI:C0021400,vi rút cúm,Cúm,Disease,C0021400,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:02.233Z
+CUI:C0019163,viêm gan B,Viêm gan B,Disease,C0019163,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:02.294Z
+CUI:C3241937,viêm gan nhiễm mỡ liên quan đến chuyển hóa,Viêm gan nhiễm mỡ liên quan đến chuyển hóa,Disease,C3241937,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:57.823Z
+CUI:C0023890,xơ gan,Xơ gan,Disease,C0023890,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:05.113Z
+CUI:C3888631,Bệnh tiểu đường đơn nguyên,Bệnh tiểu đường đơn nguyên,DiseaseSubtype,C3888631,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.276Z
+CUI:C0206064,Bệnh vi mạch,Bệnh vi mạch,DiseaseSubtype,C0206064,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:49.248Z
+CUI:C5847614,Giai đoạn 1,Đái tháo đường loại 1 giai đoạn 1,DiseaseSubtype,C5847614,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:13.945Z
+CUI:C5847615,Giai đoạn 2,Đái tháo đường loại 1 giai đoạn 2,DiseaseSubtype,C5847615,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:14.008Z
+CUI:C0271650,Không dung nạp glucose,Không dung nạp glucose,DiseaseSubtype,C0271650,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:48.602Z
+CUI:C0549206,Mang thai,Mang thai,DiseaseSubtype,C0549206,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:53.223Z
+CUI:C4302025,Suy giảm điều hòa glucose,Suy giảm điều hòa glucose,DiseaseSubtype,C4302025,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:48.54Z
+CUI:C0342303,Tăng đường huyết do căng thẳng,Tăng đường huyết do căng thẳng,DiseaseSubtype,C0342303,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:09.289Z
+DiseaseSubtype:bệnh thận mạn tính giai đoạn 4-5,bệnh thận mạn tính giai đoạn 4 và giai đoạn 5,Bệnh thận mạn tính giai đoạn 4-5,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:47:05.199Z
+CUI:C0342276,bệnh tiểu đường khởi phát ở tuổi trưởng thành ở thanh niên,MODY,DiseaseSubtype,C0342276,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.4Z
+CUI:C0011860,bệnh tiểu đường loại 2,Đái tháo đường loại 2,DiseaseSubtype,C0011860,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:50.336Z
+CUI:C0085207,bệnh tiểu đường thai kỳ,Đái tháo đường thai kỳ,DiseaseSubtype,C0085207,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:53.304Z
+CUI:C1739108,bệnh tiểu đường tự miễn tiềm ẩn ở tuổi trưởng thành (LADA),LADA,DiseaseSubtype,C1739108,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:50.26Z
+CUI:C0158981,bệnh tiểu đường ở trẻ sơ sinh,Bệnh tiểu đường ở trẻ sơ sinh,DiseaseSubtype,C0158981,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.462Z
+CUI:C0188602,cắt cụt ngón chân,Cắt cụt ngón chân,DiseaseSubtype,C0188602,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:01.285Z
+CUI:C0441771,giai đoạn 3,Giai đoạn 3,DiseaseSubtype,C0441771,Intellectual Product,,{},01_daithaoduong.txt,2026-08-20T15:46:53.847Z
+DiseaseSubtype:giai đoạn trăng mật,giai đoạn trăng mật,Giai đoạn trăng mật,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:46:53.91Z
+CUI:C0020615,hạ đường huyết,Hạ đường huyết,DiseaseSubtype,C0020615,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:58.457Z
+CUI:C0406526,loét chân do bệnh lý thần kinh,Loét chân do bệnh lý thần kinh,DiseaseSubtype,C0406526,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:01.486Z
+CUI:C1136179,ngón chân búa,Ngón chân búa,DiseaseSubtype,C1136179,Anatomical Abnormality,,{},01_daithaoduong.txt,2026-08-20T15:47:01.346Z
+CUI:C1272092,nồng độ đường huyết lúc đói bị suy giảm,Rối loạn đường huyết lúc đói,DiseaseSubtype,C1272092,Finding,,{},01_daithaoduong.txt,2026-08-20T15:46:48.661Z
+DiseaseSubtype:rối loạn chức năng tế bào beta,rối loạn chức năng tế bào beta,Rối loạn chức năng tế bào beta,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:46:51.873Z
+CUI:C0011880,toan ceton do đái tháo đường (DKA),Toan ceton do đái tháo đường,DiseaseSubtype,C0011880,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:57.956Z
+CUI:C3888846,trạng thái tăng đường huyết tăng áp lực thẩm thấu,Trạng thái tăng đường huyết tăng áp lực thẩm thấu,DiseaseSubtype,C3888846,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:54.095Z
+CUI:C0020456,tăng đường huyết,Tăng đường huyết,DiseaseSubtype,C0020456,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:47.66Z
+DiseaseSubtype:tắc động mạch lớn,tắc động mạch lớn,Tắc động mạch lớn,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:47:01.547Z
+DiseaseSubtype:viêm khớp biến dạng khớp bàn ngón chân cái,viêm khớp biến dạng khớp bàn ngón chân cái,Viêm khớp biến dạng khớp bàn ngón chân cái,DiseaseSubtype,,,,{},01_daithaoduong.txt,2026-08-20T15:47:01.407Z
+CUI:C0011854,đái tháo đường Loại 1,Đái tháo đường loại 1,DiseaseSubtype,C0011854,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:50.135Z
+CUI:C0342302,đái tháo đường không ổn định,Đái tháo đường không ổn định,DiseaseSubtype,C0342302,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:06.103Z
+CUI:C0032821,10 mEq (10 mmol) kali,Kali,Drug,C0032821,Pharmacologic Substance,amount: 10; dose: 10 mEq,"{""amount"": 10, ""unit"": ""mEq"", ""dose"": ""10 mEq""}",01_daithaoduong.txt,2026-08-20T15:47:10.4Z
+CUI:C3265914,10% dextrose,Dextrose 10%,Drug,C3265914,Clinical Drug,concentration: 10%,"{""concentration"": ""10%""}",01_daithaoduong.txt,2026-08-20T15:47:10.321Z
+CUI:C1725310,5% dextrose,Dextrose 5%,Drug,C1725310,Pharmacologic Substance,concentration: 5%,"{""concentration"": ""5%""}",01_daithaoduong.txt,2026-08-20T15:47:10.526Z
+CUI:C0003442,Antithymocyte globulin (ATG),Antithymocyte globulin,Drug,C0003442,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:12.072Z
+CUI:C2743673,Teplizumab,Teplizumab,Drug,C2743673,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:11.829Z
+CUI:C1619966,abatacept,Abatacept,Drug,C1619966,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:12.209Z
+CUI:C0004482,azathioprine,Azathioprine,Drug,C0004482,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:11.948Z
+CUI:C0010592,cyclosporine,Cyclosporine,Drug,C0010592,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:12.011Z
+CUI:C0537270,detemir,Detemir,Drug,C0537270,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:08.965Z
+CUI:C0017725,dung dịch dextrose,Dextrose,Drug,C0017725,Pharmacologic Substance,rate: 75-150 mL/giờ,"{""rate"": ""75-150 mL/giờ""}",01_daithaoduong.txt,2026-08-20T15:47:10.116Z
+CUI:C0907402,glargine,Glargine,Drug,C0907402,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:09.98Z
+CUI:C0017710,glucocorticoid,Glucocorticoid,Drug,C0017710,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:46:52.808Z
+CUI:C0356365,insulin tác dụng nhanh,Insulin tác dụng nhanh,Drug,C0356365,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:08.435Z
+CUI:C1456408,liraglutide,Liraglutide,Drug,C1456408,Pharmacologic Substance,dosage: 3 mg,"{""dosage"": ""3 mg""}",01_daithaoduong.txt,2026-08-20T15:47:00.202Z
+CUI:C0025598,metformin,Metformin,Drug,C0025598,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:56.647Z
+CUI:C3858054,naltrexone/bupropion,Naltrexone/Bupropion,Drug,C3858054,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:00.458Z
+CUI:C0076275,orlistat,Orlistat,Drug,C0076275,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:00.326Z
+CUI:C3475162,phentermine/topiramate,Phentermine/Topiramate,Drug,C3475162,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:00.396Z
+CUI:C0071097,pioglitazone,pioglitazone,Drug,C0071097,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:57.703Z
+CUI:C3885068,semaglutide,Semaglutide,Drug,C3885068,Pharmacologic Substance,"dosage: 2,4 mg","{""dosage"": ""2,4 mg""}",01_daithaoduong.txt,2026-08-20T15:47:00.058Z
+CUI:C5139934,tirzepatide,Tirzepatide,Drug,C5139934,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:57.06Z
+CUI:C0042523,verapamil,verapamil,Drug,C0042523,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:12.308Z
+CUI:C1562104,Thuốc chủ vận thụ thể peptide-1 giống glucagon (GLP1),GLP-1 receptor agonists,DrugClass,C1562104,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:55.938Z
+CUI:C0001617,corticosteroid,Corticosteroid,DrugClass,C0001617,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:54.157Z
+CUI:C0304870,insulin tác dụng kéo dài,Insulin tác dụng kéo dài,DrugClass,C0304870,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:09.912Z
+CUI:C3539974,insulin tác dụng trung gian,Insulin tác dụng trung gian,DrugClass,C3539974,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:09.851Z
+CUI:C0003232,kháng sinh,Kháng sinh,DrugClass,C0003232,Antibiotic,,{},01_daithaoduong.txt,2026-08-20T15:47:01.684Z
+CUI:C0360714,statin,Statin,DrugClass,C0360714,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:56.186Z
+CUI:C5691274,sulfonylureas,Sulfonylureas,DrugClass,C5691274,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:08.578Z
+CUI:C0001645,thuốc chẹn beta,Thuốc chẹn beta,DrugClass,C0001645,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:52.885Z
+DrugClass:thuốc ức chế hệ raas,thuốc chẹn hệ thống renin-angiotensin-aldosterone,Thuốc ức chế hệ RAAS,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:46:56Z
+DrugClass:thuốc chống loạn thần không điển hình,thuốc chống loạn thần không điển hình,Thuốc chống loạn thần không điển hình,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:46:53.021Z
+DrugClass:thuốc chủ vận incretin kép,thuốc chủ vận incretin kép,Thuốc chủ vận incretin kép,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:46:59.931Z
+CUI:C0020616,thuốc gây hạ đường huyết,Thuốc gây hạ đường huyết,DrugClass,C0020616,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:58.706Z
 CUI:C0003364,thuốc hạ huyết áp,Thuốc hạ huyết áp,DrugClass,C0003364,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T14:17:00.613Z
-CUI:C5676266,thuốc hạ đường huyết không insulin,Thuốc hạ đường huyết không insulin,DrugClass,C5676266,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:46.785Z
-CUI:C5817333,thuốc hạ đường huyết đường uống,Thuốc hạ đường huyết đường uống,DrugClass,C5817333,Finding,,{},01_daithaoduong.txt,2026-08-20T15:25:01.479Z
-CUI:C0033978,thuốc tâm thần,Thuốc tâm thần,DrugClass,C0033978,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:59.092Z
-CUI:C3838944,thuốc ức chế SGLT-2,Thuốc ức chế SGLT-2,DrugClass,C3838944,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:47.612Z
-DrugClass:thuốc ức chế tnf-alpha,thuốc ức chế TNF-alpha,Thuốc ức chế TNF-alpha,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:25:02.98Z
-CUI:C1562036,thuốc ức chế calcineurin,Thuốc ức chế calcineurin,DrugClass,C1562036,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:43.201Z
+CUI:C5676266,thuốc hạ đường huyết không insulin,Thuốc hạ đường huyết không insulin,DrugClass,C5676266,Finding,,{},01_daithaoduong.txt,2026-08-20T15:46:56.514Z
+CUI:C5817333,thuốc hạ đường huyết đường uống,Thuốc hạ đường huyết đường uống,DrugClass,C5817333,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:10.651Z
+CUI:C0033978,thuốc tâm thần,Thuốc tâm thần,DrugClass,C0033978,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:08.365Z
+CUI:C3838944,thuốc ức chế SGLT-2,Thuốc ức chế SGLT-2,DrugClass,C3838944,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:57.381Z
+DrugClass:thuốc ức chế tnf-alpha,thuốc ức chế TNF-alpha,Thuốc ức chế TNF-alpha,DrugClass,,,,{},01_daithaoduong.txt,2026-08-20T15:47:12.132Z
+CUI:C1562036,thuốc ức chế calcineurin,Thuốc ức chế calcineurin,DrugClass,C1562036,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:53.16Z
 CUI:C0003015,thuốc ức chế men chuyển angiotensin,Thuốc ức chế men chuyển,DrugClass,C0003015,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T14:17:00.291Z
-CUI:C0033607,thuốc ức chế protease,Thuốc ức chế protease,DrugClass,C0033607,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:42.996Z
-CUI:C0815017,thuốc ức chế thụ thể angiotensin II,Thuốc chẹn thụ thể angiotensin,DrugClass,C0815017,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T14:17:15.975Z
+CUI:C0033607,thuốc ức chế protease,Thuốc ức chế protease,DrugClass,C0033607,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:52.957Z
 CUI:C0521942,thuốc ức chế thụ thể angiotensin II,Thuốc chẹn thụ thể angiotensin II,DrugClass,C0521942,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T14:17:00.351Z
-CUI:C4684977,thuốc ức chế điểm kiểm soát miễn dịch,Thuốc ức chế điểm kiểm soát miễn dịch,DrugClass,C4684977,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:43.136Z
-CUI:C1827106,Ức chế Dipeptidyl peptidase-4,Ức chế DPP-4,DrugClass,C1827106,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:24:50.314Z
-Guideline:phương trình nhóm gộp đã sửa đổi 10 năm 2018,Phương trình nhóm gộp đã sửa đổi 10 năm 2018,Phương trình nhóm gộp đã sửa đổi 10 năm 2018,Guideline,,,,{},01_daithaoduong.txt,2026-08-20T15:24:46.086Z
-Measurement:1-2 đơn vị/giờ,1 đến 2 đơn vị/giờ,1-2 đơn vị/giờ,Measurement,,,Giá trị: 1-2 đơn vị/giờ,"{""value"": ""1-2"", ""unit"": ""đơn vị/giờ""}",01_daithaoduong.txt,2026-08-20T15:25:01.29Z
-Measurement:1-2 units/hour,1 đến 2 đơn vị/giờ,1-2 units/hour,Measurement,,,Giá trị: 1-2 đơn vị/giờ,"{""value"": ""1-2"", ""unit"": ""đơn vị/giờ""}",01_daithaoduong.txt,2026-08-20T15:25:07.658Z
-Measurement:1 đến >= 5 lần một ngày,1 đến >= 5 lần một ngày,1 đến >= 5 lần một ngày,Measurement,,,frequency_min: 1; frequency_max: 5,"{""frequency_min"": 1, ""frequency_max"": 5, ""unit"": ""lần/ngày""}",01_daithaoduong.txt,2026-08-20T15:24:53.867Z
-"Measurement:1,5-2,0%","1,5 đến 2,0%","1,5-2,0%",Measurement,,,threshold_value: 1.5-2.0%,"{""threshold_value"": ""1.5-2.0%"", ""unit"": ""percent""}",01_daithaoduong.txt,2026-08-20T15:25:05.137Z
-Measurement:1.5-2.0%,"1,5 đến 2,0%",1.5-2.0%,Measurement,,,value_range: 1.5-2.0,"{""value_range"": ""1.5-2.0"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:46.939Z
-Measurement:100-200 mg/dl,100 và 200 mg/dL,100-200 mg/dL,Measurement,,,min: 100; max: 200; range_mg_dL: 100-200; range_mmol_L: 5.5-11.1; min_value: 100; max_value: 200,"{""min"": 100, ""max"": 200, ""unit"": ""mg/dL"", ""range_mg_dL"": ""100-200"", ""range_mmol_L"": ""5.5-11.1"", ""min_value"": 100, ""max_value"": 200}",01_daithaoduong.txt,2026-08-20T15:25:01.009Z
-Measurement:140-180 mg/dl,140 đến 180 mg/dL,140-180 mg/dL,Measurement,,,min: 140; max: 180,"{""min"": 140, ""max"": 180, ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:25:00.136Z
-Measurement:15g/1u,15 gram:1 đơn vị,15g/1U,Measurement,,,carbohydrate_amount: 15; insulin_unit: 1,"{""carbohydrate_amount"": 15, ""unit"": ""g/U"", ""insulin_unit"": 1}",01_daithaoduong.txt,2026-08-20T15:24:49.211Z
-Measurement:150 phút/tuần,150 phút/tuần,150 phút/tuần,Measurement,,,Giá trị: 150 phút/tuần,"{""value"": 150, ""unit"": ""phút/tuần""}",01_daithaoduong.txt,2026-08-20T15:24:49.527Z
-Measurement:180 mg/dl (10 mmol/l),180 mg/dL (10 mmol/L),180 mg/dL (10 mmol/L),Measurement,,,Giá trị: 180 mg/dL; alternative_value: 10; alternative_unit: mmol/L,"{""value"": 180, ""unit"": ""mg/dL"", ""alternative_value"": 10, ""alternative_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:24:53.09Z
-Measurement:180 mg/dl,180 mg/dL (10 mmol/L),180 mg/dL,Measurement,,,Giá trị: 180 mg/dL; alternative_value: 10; alternative_unit: mmol/L,"{""value"": 180, ""unit"": ""mg/dL"", ""alternative_value"": 10, ""alternative_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:25:06.405Z
-"Measurement:2,4 mg","2,4 mg","2,4 mg",Measurement,,,Giá trị: 2.4 mg,"{""value"": 2.4, ""unit"": ""mg""}",01_daithaoduong.txt,2026-08-20T15:24:50.461Z
-Measurement:3 mg,3 mg,3 mg,Measurement,,,Giá trị: 3 mg,"{""value"": 3, ""unit"": ""mg""}",01_daithaoduong.txt,2026-08-20T15:24:50.583Z
-Measurement:3 tháng/lần,3 tháng một lần,3 tháng/lần,Measurement,,,frequency: 3,"{""frequency"": 3, ""unit"": ""tháng/lần""}",01_daithaoduong.txt,2026-08-20T15:24:53.995Z
-Measurement:48 giờ,48 tiếng,48 giờ,Measurement,,,Giá trị: 48 giờ,"{""value"": 48, ""unit"": ""giờ""}",01_daithaoduong.txt,2026-08-20T15:25:07.851Z
-Measurement:5-30 giây,5 giây đến 30 giây,5-30 giây,Measurement,,,min_time: 5; max_time: 30,"{""min_time"": 5, ""max_time"": 30, ""unit"": ""giây""}",01_daithaoduong.txt,2026-08-20T15:24:54.335Z
-Measurement:5-14 mmol/l,5 mmol/L đến 14 mmol/L,5-14 mmol/L,Measurement,,,min: 5; max: 14,"{""min"": 5, ""max"": 14, ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:24:49.652Z
-Measurement:5 năm,5 năm,5 năm,Measurement,,,Giá trị: 5 năm,"{""value"": 5, ""unit"": ""năm""}",01_daithaoduong.txt,2026-08-20T15:24:45.229Z
-Measurement:5-15 g,5 đến 15 g,5-15 g,Measurement,,,value_min: 5; value_max: 15,"{""value_min"": 5, ""value_max"": 15, ""unit"": ""g""}",01_daithaoduong.txt,2026-08-20T15:24:49.917Z
-Measurement:5-15 g sucrose,5 đến 15 g sucrose,5-15 g sucrose,Measurement,,,min: 5; max: 15,"{""min"": 5, ""max"": 15, ""unit"": ""g""}",01_daithaoduong.txt,2026-08-20T15:24:49.714Z
-Measurement:5-15g sucrose,5 đến 15 g sucrose,5-15g sucrose,Measurement,,,Giá trị: 5-15 g,"{""value"": ""5-15"", ""unit"": ""g""}",01_daithaoduong.txt,2026-08-20T15:25:05.747Z
-Measurement:5% dextrose,5% dextrose,5% Dextrose,Measurement,,,concentration: 5%; substance: dextrose,"{""concentration"": ""5%"", ""substance"": ""dextrose""}",01_daithaoduong.txt,2026-08-20T15:25:07.719Z
-Measurement:5.5-11.1 mmol/l,"5,5 và 11,1 mmol/L",5.5-11.1 mmol/L,Measurement,,,min_value: 5.5; max_value: 11.1,"{""min_value"": 5.5, ""max_value"": 11.1, ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:25:07.596Z
-Measurement:6 tháng/lần,6 tháng một lần,6 tháng/lần,Measurement,,,frequency: 6,"{""frequency"": 6, ""unit"": ""tháng/lần""}",01_daithaoduong.txt,2026-08-20T15:24:54.058Z
-Measurement:70-180 mg/dl,70 đến 180 mg/mL,70-180 mg/dL,Measurement,,,min: 70; max: 180,"{""min"": 70, ""max"": 180, ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:24:54.589Z
-Measurement:khoảng đường huyết mục tiêu,"70 đến 180 mg/mL [3,9 đến 9,9 mmol/L]",khoảng đường huyết mục tiêu,Measurement,,,min_mg_dL: 70; max_mg_dL: 180; min_mmol_L: 3.9; max_mmol_L: 9.9; range_min: 70; range_max: 180,"{""min_mg_dL"": 70, ""max_mg_dL"": 180, ""min_mmol_L"": 3.9, ""max_mmol_L"": 9.9, ""range_min"": 70, ""range_max"": 180, ""unit"": ""mg/mL""}",01_daithaoduong.txt,2026-08-20T15:24:53.314Z
-CUI:C3266158,"70 đến 180 mg/mL [3,9 đến 9,9 mmol/L]",TIR target range,Measurement,C3266158,Finding,min_mg_dL: 70; max_mg_dL: 180; min_mmol_L: 3.9; max_mmol_L: 9.9,"{""min_mg_dL"": 70, ""max_mg_dL"": 180, ""min_mmol_L"": 3.9, ""max_mmol_L"": 9.9}",01_daithaoduong.txt,2026-08-20T15:25:06.738Z
-Measurement:75-150 ml/giờ,75 đến 150 mL/giờ,75-150 mL/giờ,Measurement,,,Giá trị: 75-150 mL/giờ,"{""value"": ""75-150"", ""unit"": ""mL/giờ""}",01_daithaoduong.txt,2026-08-20T15:25:01.416Z
-Measurement:75-150 ml/hour,75 đến 150 mL/giờ,75-150 mL/hour,Measurement,,,Giá trị: 75-150 mL/giờ,"{""value"": ""75-150"", ""unit"": ""mL/giờ""}",01_daithaoduong.txt,2026-08-20T15:25:07.786Z
-Measurement:90-250 mg/dl,90 mg/dL đến 250 mg/dL,90-250 mg/dL,Measurement,,,min: 90; max: 250,"{""min"": 90, ""max"": 250, ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:24:49.59Z
-Measurement:< 1%,< 1%,< 1%,Measurement,,,Giá trị: <1 %,"{""value"": 1, ""operator"": ""<"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:54.907Z
-Measurement:< 130/80 mmhg,< 130/80 mm Hg,< 130/80 mmHg,Measurement,,,Huyết áp <130/<80 mmHg,"{""systolic"": ""<130"", ""diastolic"": ""<80"", ""unit"": ""mmHg""}",01_daithaoduong.txt,2026-08-20T15:25:03.98Z
-Measurement:< 3.0 mmol/l,"< 3,0 mmol/L",< 3.0 mmol/L,Measurement,,,Giá trị: < 3.0 mmol/L,"{""value"": ""< 3.0"", ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:25:07.114Z
-Measurement:< 4 tháng,< 4 tháng,< 4 tháng,Measurement,,,Giá trị: <4 tháng,"{""value"": 4, ""unit"": ""tháng"", ""operator"": ""<""}",01_daithaoduong.txt,2026-08-20T15:24:41.278Z
-CUI:C5940036,< 4%,Time below range limit,Measurement,C5940036,Finding,Giá trị: 4 %,"{""value"": 4, ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:53.237Z
-Measurement:< 4%,< 4%,< 4%,Measurement,,,Giá trị: <4 %,"{""value"": 4, ""operator"": ""<"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:54.778Z
-Measurement:< 54 mg/dl,< 54 mg/L,< 54 mg/dL,Measurement,,,Giá trị: <54 mg/dL,"{""value"": 54, ""operator"": ""<"", ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:24:54.842Z
-Measurement:< 7%,< 7%,< 7%,Measurement,,,Giá trị: <7 %,"{""value"": 7, ""operator"": ""<"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:55.342Z
-Measurement:< 70 mg/dl,< 70 mg/dL,< 70 mg/dL,Measurement,,,Giá trị: <70 mg/dL,"{""value"": 70, ""operator"": ""<"", ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:24:54.719Z
-Measurement:< 3.9 mmol/l,"< 70 mg/dL [< 3,9 mmol/L]",< 3.9 mmol/L,Measurement,,,Ngưỡng: < 3.9 mmol/L mmol/L; Giá trị: < 3.9 mmol/L,"{""threshold"": ""< 3.9 mmol/L"", ""value"": ""< 3.9"", ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:24:55.16Z
-Measurement:hypoglycemia threshold,"< 70 mg/dL [< 3,9 mmol/L]",Hypoglycemia threshold,Measurement,,,threshold_mg_dL: 70; threshold_mmol_L: 3.9,"{""threshold_mg_dL"": 70, ""threshold_mmol_L"": 3.9}",01_daithaoduong.txt,2026-08-20T15:25:06.91Z
-Measurement:> 200 mg/dl,"> 200 mg/dL (> 11,1 mmol/L)",> 200 mg/dL,Measurement,,,value_mg_dl: 200; value_mmol_l: 11.1,"{""value_mg_dl"": 200, ""value_mmol_l"": 11.1}",01_daithaoduong.txt,2026-08-20T15:24:44.671Z
-Measurement:> 250 đến 300 mg/dl,"> 250 đến 300 mg/dL [13,9 đến 16,7 mmol/L]",> 250 đến 300 mg/dL,Measurement,,,range_mg_dl: 250-300; range_mmol_l: 13.9-16.7,"{""range_mg_dl"": ""250-300"", ""range_mmol_l"": ""13.9-16.7""}",01_daithaoduong.txt,2026-08-20T15:25:07.24Z
-Measurement:> 250-300 mg/dl,"> 250 đến 300 mg/dL [13,9 đến 16,7 mmol/L]",> 250-300 mg/dL,Measurement,,,range_mg_dl: 250-300; range_mmol_l: 13.9-16.7,"{""range_mg_dl"": ""250-300"", ""range_mmol_l"": ""13.9-16.7""}",01_daithaoduong.txt,2026-08-20T15:24:56.726Z
-Measurement:> 5 ngày,> 5 ngày,> 5 ngày,Measurement,,,Giá trị: > 5 ngày,"{""value"": ""> 5"", ""unit"": ""ngày""}",01_daithaoduong.txt,2026-08-20T15:25:00.197Z
-Measurement:> 5 đến 10 đơn vị/giờ,> 5 đến 10 đơn vị/giờ,> 5 đến 10 đơn vị/giờ,Measurement,,,min_value: 5; max_value: 10; range: > 5-10,"{""min_value"": 5, ""max_value"": 10, ""unit"": ""đơn vị/giờ"", ""range"": ""> 5-10""}",01_daithaoduong.txt,2026-08-20T15:25:00.4Z
-Measurement:> 65 tuổi,> 65 tuổi,> 65 tuổi,Measurement,,,age_threshold: 65,"{""age_threshold"": 65, ""unit"": ""years""}",01_daithaoduong.txt,2026-08-20T14:17:18.881Z
-Measurement:> 7 tháng,> 7 tháng,> 7 tháng,Measurement,,,Giá trị: >7 tháng,"{""value"": 7, ""unit"": ""tháng"", ""operator"": "">""}",01_daithaoduong.txt,2026-08-20T15:24:41.36Z
-Measurement:tir threshold,> 70%,TIR threshold,Measurement,,,Giá trị: 70 %,"{""value"": 70, ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:25:06.821Z
-Measurement:> 70%,> 70%,> 70%,Measurement,,,Giá trị: >70 %,"{""value"": 70, ""operator"": "">"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:54.65Z
-Measurement:> 90%,> 90%,> 90%,Measurement,,,Giá trị: >90 %,"{""value"": 90, ""operator"": "">"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:25:04.106Z
-Measurement:>= 2 tự kháng thể,>= 2 tự kháng thể,>= 2 tự kháng thể,Measurement,,,Giá trị: >= 2 tự kháng thể,"{""value"": "">= 2"", ""unit"": ""tự kháng thể""}",01_daithaoduong.txt,2026-08-20T15:25:02.722Z
-Measurement:>= 35 tuổi,>= 35 tuổi,>= 35 tuổi,Measurement,,,age_threshold: >= 35,"{""age_threshold"": "">= 35"", ""unit"": ""tuổi""}",01_daithaoduong.txt,2026-08-20T15:25:02.431Z
-Measurement:>= 5 lần/ngày,>= 5 lần một ngày,>= 5 lần/ngày,Measurement,,,frequency: >= 5,"{""frequency"": "">= 5"", ""unit"": ""lần/ngày""}",01_daithaoduong.txt,2026-08-20T15:25:06.678Z
-"Measurement:hba1c < 6,5%","HbA1C < 6,5%","HbA1C < 6,5%",Measurement,,,Giá trị: <6.5 %,"{""value"": 6.5, ""operator"": ""<"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:53.674Z
-Measurement:hba1c <7%,HbA1C <7%,HbA1C <7%,Measurement,,,Giá trị: <7 %,"{""value"": ""<7"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:25:03.916Z
-Measurement:hba1c > 10%,HbA1C > 10%,HbA1c > 10%,Measurement,,,Giá trị: > 10 %,"{""value"": ""> 10"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:24:48.416Z
-Measurement:tir 14 ngày > 70%,TIR 14 ngày > 70%,TIR 14 ngày > 70%,Measurement,,,Giá trị: > 70%; duration: 14 ngày,"{""value"": ""> 70%"", ""duration"": ""14 ngày""}",01_daithaoduong.txt,2026-08-20T15:24:55.032Z
-CUI:C5962348,"cholesterol lipoprotein mật độ cao [HDL] < 35 mg / dL [0,9 mmol / L]",HDL cholesterol thấp,Measurement,C5962348,Laboratory Procedure,Giá trị: < 35 mg/dL; alternative_value: 0.9; alternative_unit: mmol/L; alt_value: < 0.9; alt_unit: mmol/L,"{""value"": ""< 35"", ""unit"": ""mg/dL"", ""alternative_value"": ""0.9"", ""alternative_unit"": ""mmol/L"", ""alt_value"": ""< 0.9"", ""alt_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:25:01.942Z
-CUI:C1305855,chỉ số khối cơ thể >= 35,Chỉ số khối cơ thể,Measurement,C1305855,Clinical Attribute,Ngưỡng: 35,"{""threshold"": 35, ""operator"": "">=""}",01_daithaoduong.txt,2026-08-20T15:25:03.424Z
-Measurement:bmi >= 35,chỉ số khối cơ thể >= 35,BMI >= 35,Measurement,,,Giá trị: >=35 kg/m2,"{""value"": 35, ""operator"": "">="", ""unit"": ""kg/m2""}",01_daithaoduong.txt,2026-08-20T15:25:03.569Z
-Measurement:chỉ số khối cơ thể >= 35,chỉ số khối cơ thể >= 35,Chỉ số khối cơ thể >= 35,Measurement,,,Giá trị: >=35,"{""value"": 35, ""operator"": "">=""}",01_daithaoduong.txt,2026-08-20T15:25:08.04Z
-CUI:C0202042,glucose huyết tương,Glucose huyết tương,Measurement,C0202042,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:39.452Z
-Measurement:blood glucose >= 300 mg/dl,lượng đường huyết >= 300 mg/dL,Blood glucose >= 300 mg/dL,Measurement,,,Giá trị: >= 300 mg/dL,"{""value"": "">= 300"", ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:24:48.478Z
-CUI:C0005802,lượng đường trong máu,Blood glucose,Measurement,C0005802,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:44.75Z
-CUI:C1522137,"mức chất béo trung tính > 250 mg / dL [2,8 mmol / L]",Tăng triglyceride,Measurement,C1522137,Finding,Giá trị: > 250 mg/dL; alternative_value: 2.8; alternative_unit: mmol/L; alt_value: > 2.8; alt_unit: mmol/L,"{""value"": ""> 250"", ""unit"": ""mg/dL"", ""alternative_value"": ""2.8"", ""alternative_unit"": ""mmol/L"", ""alt_value"": ""> 2.8"", ""alt_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:25:02.024Z
-Measurement:tir > 70%,thời gian 14 ngày trong khoảng (TIR) > 70%,TIR > 70%,Measurement,,,Ngưỡng: > 70%; duration: 14 ngày,"{""duration"": ""14 ngày"", ""threshold"": ""> 70%""}",01_daithaoduong.txt,2026-08-20T15:25:06.468Z
-CUI:C5230552,tỷ lệ carbohydrate-to-insulin (CIR) là 15 gram:1 đơn vị,Tỷ lệ carbohydrate-to-insulin,Measurement,C5230552,Quantitative Concept,carbohydrate_amount: 15; insulin_dose: 1; insulin_unit: đơn vị; unit_carbohydrate: gram; insulin_amount: 1; unit_insulin: đơn vị,"{""carbohydrate_amount"": 15, ""unit"": ""gram"", ""insulin_dose"": 1, ""insulin_unit"": ""đơn vị"", ""unit_carbohydrate"": ""gram"", ""insulin_amount"": 1, ""unit_insulin"": ""đơn vị""}",01_daithaoduong.txt,2026-08-20T15:24:49.068Z
-Measurement:>= 4 lần/ngày,ít nhất 4 lần một ngày,>= 4 lần/ngày,Measurement,,,frequency: 4,"{""frequency"": 4, ""operator"": "">="", ""unit"": ""lần/ngày""}",01_daithaoduong.txt,2026-08-20T15:24:53.933Z
-"Mechanism:hla-dr3,dqb1*0201","HLA-DR3,DQB1*0201","HLA-DR3,DQB1*0201",Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:24:40.445Z
-"Mechanism:hla-dr4,dqb1*0302","HLA-DR4,DQB1*0302","HLA-DR4,DQB1*0302",Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:24:40.506Z
-CUI:C1955907,adipocytokine,adipocytokine,Mechanism,C1955907,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:25:04.724Z
-CUI:C0015688,axit béo tự do,axit béo tự do,Mechanism,C0015688,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:42.095Z
-CUI:C0772088,glucagon,Glucagon,Mechanism,C0772088,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:24:40.795Z
-CUI:C0017725,glucose,Glucose,Mechanism,C0017725,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:48.919Z
-CUI:C0017785,glutamic acid decarboxylase,Glutamic acid decarboxylase,Mechanism,C0017785,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:24:40.566Z
-CUI:C0017853,glycosylated Hb,glycosylated hemoglobin,Mechanism,C0017853,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:24:44.38Z
-CUI:C1533581,insulin,Insulin,Mechanism,C1533581,Pharmacologic Substance,dose: 15 units,"{""dose"": ""15 units"", ""unit"": ""units""}",01_daithaoduong.txt,2026-08-20T15:24:38.306Z
-Mechanism:insulin nội sinh,insulin nội sinh,Insulin nội sinh,Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:25:07.367Z
-Mechanism:kháng insulin ngoại vi,kháng insulin ngoại vi,Kháng insulin ngoại vi,Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:24:37.405Z
-CUI:C0232823,lợi tiểu thẩm thấu,Lợi tiểu thẩm thấu,Mechanism,C0232823,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:43.494Z
-CUI:C0020966,miễn dịch tế bào,Miễn dịch tế bào,Mechanism,C0020966,Organism Function,,{},01_daithaoduong.txt,2026-08-20T15:24:39.752Z
-CUI:C4290091,phá hủy tế bào beta,Phá hủy tế bào beta,Mechanism,C4290091,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:07.98Z
-CUI:C0063684,polypeptit amyloid của đảo tụy,polypeptit amyloid của đảo tụy,Mechanism,C0063684,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:24:42.024Z
-CUI:C0033362,proinsulin,proinsulin,Mechanism,C0033362,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:24:41.943Z
-CUI:C0341293,rối loạn hấp thu carbonhydrate,Rối loạn hấp thu carbonhydrate,Mechanism,C0341293,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:24:57.06Z
-Mechanism:suy giảm bài tiết insulin,suy giảm bài tiết insulin,Suy giảm bài tiết insulin,Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:24:37.325Z
-CUI:C1837475,thiếu insulin,Thiếu insulin,Mechanism,C1837475,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:58.754Z
-CUI:C1256369,tiết insulin,Tiết insulin,Mechanism,C1256369,Cell Function,,{},01_daithaoduong.txt,2026-08-20T15:24:41.802Z
-CUI:C0039194,tế bào T,Tế bào T,Mechanism,C0039194,Cell,,{},01_daithaoduong.txt,2026-08-20T15:24:40.629Z
-CUI:C0030281,tế bào beta,Tế bào beta,Mechanism,C0030281,Cell,,{},01_daithaoduong.txt,2026-08-20T15:24:39.938Z
-CUI:C0004153,xơ vữa động mạch,Xơ vữa động mạch,Mechanism,C0004153,Pathologic Function / Physiologic Function,,{},01_daithaoduong.txt,2026-08-20T15:24:39.611Z
-CUI:C0021655,đề kháng insulin,Đề kháng insulin,Mechanism,C0021655,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:24:41.489Z
-CUI:C0001527,Mô mỡ,Mô mỡ,Organ,C0001527,Tissue,,{},01_daithaoduong.txt,2026-08-20T15:24:42.157Z
-CUI:C0030280,Tế bào alpha,Tế bào alpha,Organ,C0030280,Cell,,{},01_daithaoduong.txt,2026-08-20T15:24:40.874Z
-CUI:C0023216,chi dưới,Chi dưới,Organ,C0023216,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:24:39.374Z
-CUI:C0225991,mạch lớn (mạch máu lớn),Mạch máu lớn,Organ,C0225991,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:24:39.103Z
-CUI:C0225988,mạch máu nhỏ (vi mạch),Mạch máu nhỏ,Organ,C0225988,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:24:39.023Z
-CUI:C0030274,tuyến tụy,Tuyến tụy,Organ,C0030274,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:24:40.027Z
-CUI:C0030705,bệnh nhân,Bệnh nhân,PatientGroup,C0030705,Patient or Disabled Group,,{},01_daithaoduong.txt,2026-08-20T15:24:53.455Z
-PatientGroup:bệnh nhân không nên kiểm soát đường huyết chặt chẽ,bệnh nhân không nên kiểm soát đường huyết chặt chẽ,Bệnh nhân không nên kiểm soát đường huyết chặt chẽ,PatientGroup,,,,{},01_daithaoduong.txt,2026-08-20T15:25:06.536Z
-CUI:C5441846,gốc Tây Ban Nha,Gốc Tây Ban Nha,PatientGroup,C5441846,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:25:02.181Z
-CUI:C1515945,người Mỹ da đỏ,Người Mỹ da đỏ,PatientGroup,C1515945,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:25:02.308Z
-CUI:C1257891,người châu Phi,Người châu Phi,PatientGroup,C1257891,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:25:02.103Z
-CUI:C0078988,người châu Á,Người châu Á,PatientGroup,C0078988,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:25:02.244Z
-CUI:C0205653,thiếu niên,Thiếu niên,PatientGroup,C0205653,Age Group,,{},01_daithaoduong.txt,2026-08-20T15:24:58.141Z
-PatientGroup:trẻ em đái tháo đường,trẻ em đái tháo đường,Trẻ em đái tháo đường,PatientGroup,,,,{},01_daithaoduong.txt,2026-08-20T15:24:58.223Z
-CUI:C0033963,Các yếu tố tâm lý xã hội,Yếu tố tâm lý xã hội,RiskFactor,C0033963,Qualitative Concept,,{},01_daithaoduong.txt,2026-08-20T15:24:58.383Z
-CUI:C5546772,Căng thẳng sinh lý của phẫu thuật,Căng thẳng sinh lý của phẫu thuật,RiskFactor,C5546772,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:00.586Z
-CUI:C0241889,anh chị em ruột và con cái của người mắc bệnh tiểu đường loại 1,Tiền sử gia đình,RiskFactor,C0241889,Finding,,{},01_daithaoduong.txt,2026-08-20T15:25:01.751Z
+CUI:C0815017,thuốc ức chế thụ thể angiotensin II,Thuốc chẹn thụ thể angiotensin,DrugClass,C0815017,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T14:17:15.975Z
+CUI:C4684977,thuốc ức chế điểm kiểm soát miễn dịch,Thuốc ức chế điểm kiểm soát miễn dịch,DrugClass,C4684977,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:53.099Z
+CUI:C1827106,Ức chế Dipeptidyl peptidase-4,Ức chế DPP-4,DrugClass,C1827106,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:46:59.996Z
+Guideline:phương trình nhóm gộp đã sửa đổi 10 năm 2018,Phương trình nhóm gộp đã sửa đổi 10 năm 2018,Phương trình nhóm gộp đã sửa đổi 10 năm 2018,Guideline,,,,{},01_daithaoduong.txt,2026-08-20T15:46:55.854Z
+Measurement:1-2 đơn vị/giờ,1 đến 2 đơn vị/giờ,1-2 đơn vị/giờ,Measurement,,,Giá trị: 1-2 đơn vị/giờ,"{""value"": ""1-2"", ""unit"": ""đơn vị/giờ""}",01_daithaoduong.txt,2026-08-20T15:47:10.462Z
+Measurement:1-2 units/hour,1 đến 2 đơn vị/giờ,1-2 units/hour,Measurement,,,Giá trị: 1-2 đơn vị/giờ,"{""value"": ""1-2"", ""unit"": ""đơn vị/giờ""}",01_daithaoduong.txt,2026-08-20T15:47:16.577Z
+Measurement:1 đến >= 5 lần một ngày,1 đến >= 5 lần một ngày,1 đến >= 5 lần một ngày,Measurement,,,frequency_min: 1; frequency_max: 5,"{""frequency_min"": 1, ""frequency_max"": 5, ""unit"": ""lần/ngày""}",01_daithaoduong.txt,2026-08-20T15:47:03.533Z
+Measurement:1.5-2.0%,"1,5 đến 2,0%",1.5-2.0%,Measurement,,,value_range: 1.5-2.0,"{""value_range"": ""1.5-2.0"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:46:56.724Z
+"Measurement:1,5-2,0%","1,5 đến 2,0%","1,5-2,0%",Measurement,,,threshold_value: 1.5-2.0%,"{""threshold_value"": ""1.5-2.0%"", ""unit"": ""percent""}",01_daithaoduong.txt,2026-08-20T15:47:14.273Z
+Measurement:glucose huyết tương duy trì mục tiêu: 100 - 200 mg/dl,100 và 200 mg/dL,Glucose huyết tương duy trì mục tiêu: 100 - 200 mg/dL,Measurement,,,Thông số: Glucose huyết tương duy trì mục tiêu; min: 100; max: 200; range_mg_dL: 100-200; range_mmol_L: 5.5-11.1; min_value: 100; max_value: 200,"{""min"": 100, ""max"": 200, ""unit"": ""mg/dL"", ""range_mg_dL"": ""100-200"", ""range_mmol_L"": ""5.5-11.1"", ""min_value"": 100, ""max_value"": 200, ""parameter"": ""Glucose huyết tương duy trì mục tiêu""}",01_daithaoduong.txt,2026-08-20T15:47:10.198Z
+Measurement:140-180 mg/dl,140 đến 180 mg/dL,140-180 mg/dL,Measurement,,,min: 140; max: 180,"{""min"": 140, ""max"": 180, ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:47:09.349Z
+Measurement:15g/1u,15 gram:1 đơn vị,15g/1U,Measurement,,,carbohydrate_amount: 15; insulin_unit: 1,"{""carbohydrate_amount"": 15, ""unit"": ""g/U"", ""insulin_unit"": 1}",01_daithaoduong.txt,2026-08-20T15:46:58.904Z
+Measurement:150 phút/tuần,150 phút/tuần,150 phút/tuần,Measurement,,,Giá trị: 150 phút/tuần,"{""value"": 150, ""unit"": ""phút/tuần""}",01_daithaoduong.txt,2026-08-20T15:46:59.208Z
+Measurement:180 mg/dl (10 mmol/l),180 mg/dL (10 mmol/L),180 mg/dL (10 mmol/L),Measurement,,,Giá trị: 180 mg/dL; alternative_value: 10; alternative_unit: mmol/L,"{""value"": 180, ""unit"": ""mg/dL"", ""alternative_value"": 10, ""alternative_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:02.737Z
+Measurement:180 mg/dl,180 mg/dL (10 mmol/L),180 mg/dL,Measurement,,,Giá trị: 180 mg/dL; alternative_value: 10; alternative_unit: mmol/L,"{""value"": 180, ""unit"": ""mg/dL"", ""alternative_value"": 10, ""alternative_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:15.423Z
+"Measurement:2,4 mg","2,4 mg","2,4 mg",Measurement,,,Giá trị: 2.4 mg,"{""value"": 2.4, ""unit"": ""mg""}",01_daithaoduong.txt,2026-08-20T15:47:00.141Z
+Measurement:3 mg,3 mg,3 mg,Measurement,,,Giá trị: 3 mg,"{""value"": 3, ""unit"": ""mg""}",01_daithaoduong.txt,2026-08-20T15:47:00.264Z
+Measurement:tần suất theo dõi hba1c định kỳ: 3 tháng một lần,3 tháng một lần,Tần suất theo dõi HbA1c định kỳ: 3 tháng một lần,Measurement,,,Thông số: Tần suất theo dõi HbA1c; frequency: 3,"{""frequency"": 3, ""unit"": ""tháng/lần"", ""parameter"": ""Tần suất theo dõi HbA1c""}",01_daithaoduong.txt,2026-08-20T15:47:03.657Z
+Measurement:48 giờ,48 tiếng,48 giờ,Measurement,,,Giá trị: 48 giờ,"{""value"": 48, ""unit"": ""giờ""}",01_daithaoduong.txt,2026-08-20T15:47:16.837Z
+Measurement:5-30 giây,5 giây đến 30 giây,5-30 giây,Measurement,,,min_time: 5; max_time: 30,"{""min_time"": 5, ""max_time"": 30, ""unit"": ""giây""}",01_daithaoduong.txt,2026-08-20T15:47:03.962Z
+Measurement:5-14 mmol/l,5 mmol/L đến 14 mmol/L,5-14 mmol/L,Measurement,,,min: 5; max: 14,"{""min"": 5, ""max"": 14, ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:46:59.329Z
+Measurement:thời gian sàng lọc biến chứng sau chẩn đoán đtđ type 1: 5 năm,5 năm,Thời gian sàng lọc biến chứng sau chẩn đoán ĐTĐ Type 1: 5 năm,Measurement,,,Thông số: Thời gian sàng lọc biến chứng sau chẩn đoán; Giá trị: 5 năm,"{""value"": 5, ""unit"": ""năm"", ""parameter"": ""Thời gian sàng lọc biến chứng sau chẩn đoán""}",01_daithaoduong.txt,2026-08-20T15:46:55.082Z
+Measurement:5-15 g,5 đến 15 g,5-15 g,Measurement,,,value_min: 5; value_max: 15,"{""value_min"": 5, ""value_max"": 15, ""unit"": ""g""}",01_daithaoduong.txt,2026-08-20T15:46:59.572Z
+Measurement:5-15 g sucrose,5 đến 15 g sucrose,5-15 g sucrose,Measurement,,,min: 5; max: 15,"{""min"": 5, ""max"": 15, ""unit"": ""g""}",01_daithaoduong.txt,2026-08-20T15:46:59.388Z
+Measurement:5-15g sucrose,5 đến 15 g sucrose,5-15g sucrose,Measurement,,,Giá trị: 5-15 g,"{""value"": ""5-15"", ""unit"": ""g""}",01_daithaoduong.txt,2026-08-20T15:47:14.833Z
+Measurement:5% dextrose,5% dextrose,5% Dextrose,Measurement,,,concentration: 5%; substance: dextrose,"{""concentration"": ""5%"", ""substance"": ""dextrose""}",01_daithaoduong.txt,2026-08-20T15:47:16.638Z
+Measurement:5.5-11.1 mmol/l,"5,5 và 11,1 mmol/L",5.5-11.1 mmol/L,Measurement,,,min_value: 5.5; max_value: 11.1,"{""min_value"": 5.5, ""max_value"": 11.1, ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:16.514Z
+Measurement:tần suất theo dõi hba1c khi kiểm soát tốt: 6 tháng một lần,6 tháng một lần,Tần suất theo dõi HbA1c khi kiểm soát tốt: 6 tháng một lần,Measurement,,,Thông số: Tần suất theo dõi HbA1c khi kiểm soát tốt; frequency: 6,"{""frequency"": 6, ""unit"": ""tháng/lần"", ""parameter"": ""Tần suất theo dõi HbA1c khi kiểm soát tốt""}",01_daithaoduong.txt,2026-08-20T15:47:03.718Z
+Measurement:70-180 mg/dl,70 đến 180 mg/mL,70-180 mg/dL,Measurement,,,min: 70; max: 180,"{""min"": 70, ""max"": 180, ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:47:04.168Z
+Measurement:khoảng đường huyết mục tiêu,"70 đến 180 mg/mL [3,9 đến 9,9 mmol/L]",khoảng đường huyết mục tiêu,Measurement,,,min_mg_dL: 70; max_mg_dL: 180; min_mmol_L: 3.9; max_mmol_L: 9.9; range_min: 70; range_max: 180,"{""min_mg_dL"": 70, ""max_mg_dL"": 180, ""min_mmol_L"": 3.9, ""max_mmol_L"": 9.9, ""range_min"": 70, ""range_max"": 180, ""unit"": ""mg/mL""}",01_daithaoduong.txt,2026-08-20T15:47:02.961Z
+CUI:C3266158,"70 đến 180 mg/mL [3,9 đến 9,9 mmol/L]",TIR target range,Measurement,C3266158,Finding,min_mg_dL: 70; max_mg_dL: 180; min_mmol_L: 3.9; max_mmol_L: 9.9,"{""min_mg_dL"": 70, ""max_mg_dL"": 180, ""min_mmol_L"": 3.9, ""max_mmol_L"": 9.9}",01_daithaoduong.txt,2026-08-20T15:47:15.745Z
+Measurement:75-150 ml/giờ,75 đến 150 mL/giờ,75-150 mL/giờ,Measurement,,,Giá trị: 75-150 mL/giờ,"{""value"": ""75-150"", ""unit"": ""mL/giờ""}",01_daithaoduong.txt,2026-08-20T15:47:10.587Z
+Measurement:75-150 ml/hour,75 đến 150 mL/giờ,75-150 mL/hour,Measurement,,,Giá trị: 75-150 mL/giờ,"{""value"": ""75-150"", ""unit"": ""mL/giờ""}",01_daithaoduong.txt,2026-08-20T15:47:16.776Z
+Measurement:đường huyết mục tiêu trước tập thể dục: 90 - 250 mg/dl,90 mg/dL đến 250 mg/dL,Đường huyết mục tiêu trước tập thể dục: 90 - 250 mg/dL,Measurement,,,Thông số: Đường huyết mục tiêu trước tập thể dục; min: 90; max: 250,"{""min"": 90, ""max"": 250, ""unit"": ""mg/dL"", ""parameter"": ""Đường huyết mục tiêu trước tập thể dục""}",01_daithaoduong.txt,2026-08-20T15:46:59.268Z
+Measurement:< 1%,< 1%,< 1%,Measurement,,,Giá trị: <1 %,"{""value"": 1, ""operator"": ""<"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:47:04.481Z
+Measurement:huyết áp mục tiêu ở bệnh nhân đái tháo đường: < 130/80 mmhg,< 130/80 mm Hg,Huyết áp mục tiêu ở bệnh nhân đái tháo đường: < 130/80 mmHg,Measurement,,,Thông số: Huyết áp mục tiêu ở bệnh nhân đái tháo đường; Huyết áp <130/<80 mmHg,"{""systolic"": ""<130"", ""diastolic"": ""<80"", ""unit"": ""mmHg"", ""parameter"": ""Huyết áp mục tiêu ở bệnh nhân đái tháo đường""}",01_daithaoduong.txt,2026-08-20T15:47:13.164Z
+Measurement:< 3.0 mmol/l,"< 3,0 mmol/L",< 3.0 mmol/L,Measurement,,,Giá trị: < 3.0 mmol/L,"{""value"": ""< 3.0"", ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:16.079Z
+Measurement:< 4 tháng,< 4 tháng,< 4 tháng,Measurement,,,Giá trị: <4 tháng,"{""value"": 4, ""unit"": ""tháng"", ""operator"": ""<""}",01_daithaoduong.txt,2026-08-20T15:46:51.263Z
+Measurement:thời gian cgm dưới ngưỡng mục tiêu (tbr): < 4%,< 4%,Thời gian CGM dưới ngưỡng mục tiêu (TBR): < 4%,Measurement,,,Thông số: Thời gian CGM dưới ngưỡng mục tiêu (TBR); Giá trị: 4 %,"{""value"": 4, ""unit"": ""%"", ""parameter"": ""Thời gian CGM dưới ngưỡng mục tiêu (TBR)""}",01_daithaoduong.txt,2026-08-20T15:47:04.359Z
+Measurement:< 54 mg/dl,< 54 mg/L,< 54 mg/dL,Measurement,,,Giá trị: <54 mg/dL,"{""value"": 54, ""operator"": ""<"", ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:47:04.418Z
+Measurement:< 7%,< 7%,< 7%,Measurement,,,Giá trị: <7 %,"{""value"": 7, ""operator"": ""<"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:47:04.928Z
+Measurement:< 70 mg/dl,< 70 mg/dL,< 70 mg/dL,Measurement,,,Giá trị: <70 mg/dL,"{""value"": 70, ""operator"": ""<"", ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:47:04.293Z
+Measurement:< 3.9 mmol/l,"< 70 mg/dL [< 3,9 mmol/L]",< 3.9 mmol/L,Measurement,,,Ngưỡng: < 3.9 mmol/L mmol/L; Giá trị: < 3.9 mmol/L,"{""threshold"": ""< 3.9 mmol/L"", ""value"": ""< 3.9"", ""unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:04.734Z
+Measurement:hypoglycemia threshold,"< 70 mg/dL [< 3,9 mmol/L]",Hypoglycemia threshold,Measurement,,,threshold_mg_dL: 70; threshold_mmol_L: 3.9,"{""threshold_mg_dL"": 70, ""threshold_mmol_L"": 3.9}",01_daithaoduong.txt,2026-08-20T15:47:15.882Z
+Measurement:glucose huyết tương ngẫu nhiên chẩn đoán đtđ: > 200 mg/dl,"> 200 mg/dL (> 11,1 mmol/L)",Glucose huyết tương ngẫu nhiên chẩn đoán ĐTĐ: > 200 mg/dL,Measurement,,,Thông số: Glucose huyết tương ngẫu nhiên; value_mg_dl: 200; value_mmol_l: 11.1,"{""value_mg_dl"": 200, ""value_mmol_l"": 11.1, ""parameter"": ""Glucose huyết tương ngẫu nhiên""}",01_daithaoduong.txt,2026-08-20T15:46:54.581Z
+Measurement:ngưỡng tăng đường huyết không ổn định: > 250 - 300 mg/dl,"> 250 đến 300 mg/dL [13,9 đến 16,7 mmol/L]",Ngưỡng tăng đường huyết không ổn định: > 250 - 300 mg/dL,Measurement,,,Thông số: Ngưỡng tăng đường huyết không ổn định; range_mg_dl: 250-300; range_mmol_l: 13.9-16.7,"{""range_mg_dl"": ""250-300"", ""range_mmol_l"": ""13.9-16.7"", ""parameter"": ""Ngưỡng tăng đường huyết không ổn định""}",01_daithaoduong.txt,2026-08-20T15:47:05.966Z
+Measurement:> 5 ngày,> 5 ngày,> 5 ngày,Measurement,,,Giá trị: > 5 ngày,"{""value"": ""> 5"", ""unit"": ""ngày""}",01_daithaoduong.txt,2026-08-20T15:47:09.413Z
+Measurement:> 5 đến 10 đơn vị/giờ,> 5 đến 10 đơn vị/giờ,> 5 đến 10 đơn vị/giờ,Measurement,,,min_value: 5; max_value: 10; range: > 5-10,"{""min_value"": 5, ""max_value"": 10, ""unit"": ""đơn vị/giờ"", ""range"": ""> 5-10""}",01_daithaoduong.txt,2026-08-20T15:47:09.602Z
+Measurement:độ tuổi mắc suy giảm dung nạp glucose: > 65 tuổi,> 65 tuổi,Độ tuổi mắc suy giảm dung nạp glucose: > 65 tuổi,Measurement,,,Thông số: Độ tuổi mắc suy giảm dung nạp glucose; age_threshold: 65,"{""age_threshold"": 65, ""unit"": ""years"", ""parameter"": ""Độ tuổi mắc suy giảm dung nạp glucose""}",01_daithaoduong.txt,2026-08-20T15:46:51.61Z
+Measurement:> 7 tháng,> 7 tháng,> 7 tháng,Measurement,,,Giá trị: >7 tháng,"{""value"": 7, ""unit"": ""tháng"", ""operator"": "">""}",01_daithaoduong.txt,2026-08-20T15:46:51.35Z
+Measurement:tir threshold,> 70%,TIR threshold,Measurement,,,Giá trị: 70 %,"{""value"": 70, ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:47:15.821Z
+Measurement:> 70%,> 70%,> 70%,Measurement,,,Giá trị: >70 %,"{""value"": 70, ""operator"": "">"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:47:04.23Z
+Measurement:tỷ lệ mang gen nhạy cảm hla ở đtđ type 1: > 90%,> 90%,Tỷ lệ mang gen nhạy cảm HLA ở ĐTĐ Type 1: > 90%,Measurement,,,Thông số: Tỷ lệ mang gen nhạy cảm HLA; Giá trị: >90 %,"{""value"": 90, ""operator"": "">"", ""unit"": ""%"", ""parameter"": ""Tỷ lệ mang gen nhạy cảm HLA""}",01_daithaoduong.txt,2026-08-20T15:47:13.286Z
+Measurement:>= 2 tự kháng thể,>= 2 tự kháng thể,>= 2 tự kháng thể,Measurement,,,Giá trị: >= 2 tự kháng thể,"{""value"": "">= 2"", ""unit"": ""tự kháng thể""}",01_daithaoduong.txt,2026-08-20T15:47:11.888Z
+Measurement:>= 35 tuổi,>= 35 tuổi,>= 35 tuổi,Measurement,,,age_threshold: >= 35,"{""age_threshold"": "">= 35"", ""unit"": ""tuổi""}",01_daithaoduong.txt,2026-08-20T15:47:11.617Z
+Measurement:>= 5 lần/ngày,>= 5 lần một ngày,>= 5 lần/ngày,Measurement,,,frequency: >= 5,"{""frequency"": "">= 5"", ""unit"": ""lần/ngày""}",01_daithaoduong.txt,2026-08-20T15:47:15.684Z
+Measurement:hba1c mục tiêu kiểm soát chặt chẽ: < 6.5%,"HbA1C < 6,5%",HbA1c mục tiêu kiểm soát chặt chẽ: < 6.5%,Measurement,,,Thông số: HbA1c mục tiêu kiểm soát chặt chẽ; Giá trị: <6.5 %,"{""value"": 6.5, ""operator"": ""<"", ""unit"": ""%"", ""parameter"": ""HbA1c mục tiêu kiểm soát chặt chẽ""}",01_daithaoduong.txt,2026-08-20T15:47:03.313Z
+Measurement:hba1c <7%,HbA1C <7%,HbA1C <7%,Measurement,,,Giá trị: <7 %,"{""value"": ""<7"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:47:13.102Z
+Measurement:hba1c > 10%,HbA1C > 10%,HbA1c > 10%,Measurement,,,Giá trị: > 10 %,"{""value"": ""> 10"", ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:46:58.154Z
+CUI:C5940036,TIR,Time in Range,Measurement,C5940036,Finding,range: 70-180 mg/dL; duration: 14 days,"{""range"": ""70-180 mg/dL"", ""duration"": ""14 days""}",01_daithaoduong.txt,2026-08-20T15:47:02.881Z
+Measurement:tir 14 ngày > 70%,TIR 14 ngày > 70%,TIR 14 ngày > 70%,Measurement,,,Giá trị: > 70%; duration: 14 ngày,"{""value"": ""> 70%"", ""duration"": ""14 ngày""}",01_daithaoduong.txt,2026-08-20T15:47:04.607Z
+CUI:C5962348,"cholesterol lipoprotein mật độ cao [HDL] < 35 mg / dL [0,9 mmol / L]",HDL cholesterol thấp,Measurement,C5962348,Laboratory Procedure,Giá trị: < 35 mg/dL; alternative_value: 0.9; alternative_unit: mmol/L; alt_value: < 0.9; alt_unit: mmol/L,"{""value"": ""< 35"", ""unit"": ""mg/dL"", ""alternative_value"": ""0.9"", ""alternative_unit"": ""mmol/L"", ""alt_value"": ""< 0.9"", ""alt_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:11.096Z
+CUI:C1305855,chỉ số khối cơ thể >= 35,Chỉ số khối cơ thể,Measurement,C1305855,Clinical Attribute,Ngưỡng: 35,"{""threshold"": 35, ""operator"": "">=""}",01_daithaoduong.txt,2026-08-20T15:47:12.612Z
+Measurement:bmi >= 35,chỉ số khối cơ thể >= 35,BMI >= 35,Measurement,,,Giá trị: >=35 kg/m2,"{""value"": 35, ""operator"": "">="", ""unit"": ""kg/m2""}",01_daithaoduong.txt,2026-08-20T15:47:12.75Z
+Measurement:chỉ số khối cơ thể >= 35,chỉ số khối cơ thể >= 35,Chỉ số khối cơ thể >= 35,Measurement,,,Giá trị: >=35,"{""value"": 35, ""operator"": "">=""}",01_daithaoduong.txt,2026-08-20T15:47:17.042Z
+CUI:C0202042,glucose huyết tương,Glucose huyết tương,Measurement,C0202042,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:49.512Z
+Measurement:blood glucose >= 300 mg/dl,lượng đường huyết >= 300 mg/dL,Blood glucose >= 300 mg/dL,Measurement,,,Giá trị: >= 300 mg/dL,"{""value"": "">= 300"", ""unit"": ""mg/dL""}",01_daithaoduong.txt,2026-08-20T15:46:58.212Z
+Measurement:chỉ số lượng đường trong máu,lượng đường trong máu,Chỉ số lượng đường trong máu,Measurement,,,Thông số: Lượng đường trong máu,"{""parameter"": ""Lượng đường trong máu""}",01_daithaoduong.txt,2026-08-20T15:46:54.651Z
+CUI:C1522137,"mức chất béo trung tính > 250 mg / dL [2,8 mmol / L]",Tăng triglyceride,Measurement,C1522137,Finding,Giá trị: > 250 mg/dL; alternative_value: 2.8; alternative_unit: mmol/L; alt_value: > 2.8; alt_unit: mmol/L,"{""value"": ""> 250"", ""unit"": ""mg/dL"", ""alternative_value"": ""2.8"", ""alternative_unit"": ""mmol/L"", ""alt_value"": ""> 2.8"", ""alt_unit"": ""mmol/L""}",01_daithaoduong.txt,2026-08-20T15:47:11.176Z
+Measurement:tir > 70%,thời gian 14 ngày trong khoảng (TIR) > 70%,TIR > 70%,Measurement,,,Ngưỡng: > 70%; duration: 14 ngày,"{""duration"": ""14 ngày"", ""threshold"": ""> 70%""}",01_daithaoduong.txt,2026-08-20T15:47:15.483Z
+CUI:C5230552,tỷ lệ carbohydrate-to-insulin (CIR) là 15 gram:1 đơn vị,Tỷ lệ carbohydrate-to-insulin,Measurement,C5230552,Quantitative Concept,carbohydrate_amount: 15; insulin_dose: 1; insulin_unit: đơn vị; unit_carbohydrate: gram; insulin_amount: 1; unit_insulin: đơn vị,"{""carbohydrate_amount"": 15, ""unit"": ""gram"", ""insulin_dose"": 1, ""insulin_unit"": ""đơn vị"", ""unit_carbohydrate"": ""gram"", ""insulin_amount"": 1, ""unit_insulin"": ""đơn vị""}",01_daithaoduong.txt,2026-08-20T15:46:58.767Z
+Measurement:>= 4 lần/ngày,ít nhất 4 lần một ngày,>= 4 lần/ngày,Measurement,,,frequency: 4,"{""frequency"": 4, ""operator"": "">="", ""unit"": ""lần/ngày""}",01_daithaoduong.txt,2026-08-20T15:47:03.597Z
+"Mechanism:hla-dr3,dqb1*0201","HLA-DR3,DQB1*0201","HLA-DR3,DQB1*0201",Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:46:50.466Z
+"Mechanism:hla-dr4,dqb1*0302","HLA-DR4,DQB1*0302","HLA-DR4,DQB1*0302",Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:46:50.527Z
+CUI:C1955907,adipocytokine,adipocytokine,Mechanism,C1955907,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:47:13.885Z
+CUI:C0015688,axit béo tự do,axit béo tự do,Mechanism,C0015688,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:46:52.07Z
+CUI:C0772088,glucagon,Glucagon,Mechanism,C0772088,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:46:50.812Z
+CUI:C0017725,glucose,Glucose,Mechanism,C0017725,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:46:58.637Z
+CUI:C0017785,glutamic acid decarboxylase,Glutamic acid decarboxylase,Mechanism,C0017785,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:46:50.589Z
+CUI:C0017853,glycosylated Hb,glycosylated hemoglobin,Mechanism,C0017853,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:46:54.293Z
+CUI:C1533581,insulin,Insulin,Mechanism,C1533581,Pharmacologic Substance,dose: 15 units,"{""dose"": ""15 units"", ""unit"": ""units""}",01_daithaoduong.txt,2026-08-20T15:46:48.399Z
+Mechanism:insulin nội sinh,insulin nội sinh,Insulin nội sinh,Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:47:16.322Z
+Mechanism:kháng insulin ngoại vi,kháng insulin ngoại vi,Kháng insulin ngoại vi,Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:46:47.599Z
+CUI:C0232823,lợi tiểu thẩm thấu,Lợi tiểu thẩm thấu,Mechanism,C0232823,Finding,,{},01_daithaoduong.txt,2026-08-20T15:46:53.448Z
+CUI:C0020966,miễn dịch tế bào,Miễn dịch tế bào,Mechanism,C0020966,Organism Function,,{},01_daithaoduong.txt,2026-08-20T15:46:49.809Z
+CUI:C4290091,phá hủy tế bào beta,Phá hủy tế bào beta,Mechanism,C4290091,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:16.979Z
+CUI:C0063684,polypeptit amyloid của đảo tụy,polypeptit amyloid của đảo tụy,Mechanism,C0063684,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:46:52.007Z
+CUI:C0033362,proinsulin,proinsulin,Mechanism,C0033362,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:46:51.944Z
+CUI:C0341293,rối loạn hấp thu carbonhydrate,Rối loạn hấp thu carbonhydrate,Mechanism,C0341293,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:47:06.295Z
+Mechanism:suy giảm bài tiết insulin,suy giảm bài tiết insulin,Suy giảm bài tiết insulin,Mechanism,,,,{},01_daithaoduong.txt,2026-08-20T15:46:47.529Z
+CUI:C1837475,thiếu insulin,Thiếu insulin,Mechanism,C1837475,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:08.115Z
+CUI:C1256369,tiết insulin,Tiết insulin,Mechanism,C1256369,Cell Function,,{},01_daithaoduong.txt,2026-08-20T15:46:51.811Z
+CUI:C0039194,tế bào T,Tế bào T,Mechanism,C0039194,Cell,,{},01_daithaoduong.txt,2026-08-20T15:46:50.65Z
+CUI:C0030281,tế bào beta,Tế bào beta,Mechanism,C0030281,Cell,,{},01_daithaoduong.txt,2026-08-20T15:46:49.993Z
+CUI:C0004153,xơ vữa động mạch,Xơ vữa động mạch,Mechanism,C0004153,Pathologic Function / Physiologic Function,,{},01_daithaoduong.txt,2026-08-20T15:46:49.674Z
+CUI:C0021655,đề kháng insulin,Đề kháng insulin,Mechanism,C0021655,Pathologic Function,,{},01_daithaoduong.txt,2026-08-20T15:46:51.484Z
+CUI:C0001527,Mô mỡ,Mô mỡ,Organ,C0001527,Tissue,,{},01_daithaoduong.txt,2026-08-20T15:46:52.133Z
+CUI:C0030280,Tế bào alpha,Tế bào alpha,Organ,C0030280,Cell,,{},01_daithaoduong.txt,2026-08-20T15:46:50.883Z
+CUI:C0023216,chi dưới,Chi dưới,Organ,C0023216,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:46:49.443Z
+CUI:C0225991,mạch lớn (mạch máu lớn),Mạch máu lớn,Organ,C0225991,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:46:49.186Z
+CUI:C0225988,mạch máu nhỏ (vi mạch),Mạch máu nhỏ,Organ,C0225988,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:46:49.111Z
+CUI:C0030274,tuyến tụy,Tuyến tụy,Organ,C0030274,"Body Part, Organ, or Organ Component",,{},01_daithaoduong.txt,2026-08-20T15:46:50.074Z
+CUI:C0030705,bệnh nhân,Bệnh nhân,PatientGroup,C0030705,Patient or Disabled Group,,{},01_daithaoduong.txt,2026-08-20T15:47:03.106Z
+PatientGroup:bệnh nhân không nên kiểm soát đường huyết chặt chẽ,bệnh nhân không nên kiểm soát đường huyết chặt chẽ,Bệnh nhân không nên kiểm soát đường huyết chặt chẽ,PatientGroup,,,,{},01_daithaoduong.txt,2026-08-20T15:47:15.542Z
+CUI:C5441846,gốc Tây Ban Nha,Gốc Tây Ban Nha,PatientGroup,C5441846,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:47:11.335Z
+CUI:C1515945,người Mỹ da đỏ,Người Mỹ da đỏ,PatientGroup,C1515945,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:47:11.457Z
+CUI:C1257891,người châu Phi,Người châu Phi,PatientGroup,C1257891,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:47:11.254Z
+CUI:C0078988,người châu Á,Người châu Á,PatientGroup,C0078988,Population Group,,{},01_daithaoduong.txt,2026-08-20T15:47:11.395Z
+CUI:C0205653,thiếu niên,Thiếu niên,PatientGroup,C0205653,Age Group,,{},01_daithaoduong.txt,2026-08-20T15:47:07.452Z
+PatientGroup:trẻ em đái tháo đường,trẻ em đái tháo đường,Trẻ em đái tháo đường,PatientGroup,,,,{},01_daithaoduong.txt,2026-08-20T15:47:07.541Z
+CUI:C0033963,Các yếu tố tâm lý xã hội,Yếu tố tâm lý xã hội,RiskFactor,C0033963,Qualitative Concept,,{},01_daithaoduong.txt,2026-08-20T15:47:07.711Z
+CUI:C5546772,Căng thẳng sinh lý của phẫu thuật,Căng thẳng sinh lý của phẫu thuật,RiskFactor,C5546772,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:09.79Z
+CUI:C0241889,anh chị em ruột và con cái của người mắc bệnh tiểu đường loại 1,Tiền sử gia đình,RiskFactor,C0241889,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:10.913Z
 CUI:C0028754,béo phì,obesity,RiskFactor,C0028754,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T14:17:07.555Z
-RiskFactor:bữa ăn không đều đặn,bữa ăn không đều đặn,Bữa ăn không đều đặn,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:24:58.572Z
-CUI:C0024032,cân nặng sơ sinh thấp,cân nặng sơ sinh thấp,RiskFactor,C0024032,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:42.246Z
+RiskFactor:bữa ăn không đều đặn,bữa ăn không đều đặn,Bữa ăn không đều đặn,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:47:07.899Z
+CUI:C0024032,cân nặng sơ sinh thấp,cân nặng sơ sinh thấp,RiskFactor,C0024032,Finding,,{},01_daithaoduong.txt,2026-08-20T15:46:52.213Z
 CUI:C0017398,di truyền,Di truyền,RiskFactor,C0017398,Biomedical Occupation or Discipline,,{},01_daithaoduong.txt,2026-08-20T14:17:01.406Z
-CUI:C0919453,gen nhạy cảm,Gen nhạy cảm,RiskFactor,C0919453,Gene or Genome,,{},01_daithaoduong.txt,2026-08-20T15:24:40.362Z
+CUI:C0919453,gen nhạy cảm,Gen nhạy cảm,RiskFactor,C0919453,Gene or Genome,,{},01_daithaoduong.txt,2026-08-20T15:46:50.398Z
 CUI:C0001811,già hóa,Già hóa,RiskFactor,C0001811,Organism Function,,{},01_daithaoduong.txt,2026-08-20T14:17:05.436Z
-RiskFactor:thiếu hụt giáo dục bệnh nhân,giáo dục hoặc hiểu biết của bệnh nhân không đầy đủ,Thiếu hụt giáo dục bệnh nhân,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:24:57.121Z
-CUI:C0872084,giảm khối lượng cơ,Giảm khối lượng cơ,RiskFactor,C0872084,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:25:04.659Z
-RiskFactor:gluten và ngũ cốc,gluten và ngũ cốc,Gluten và ngũ cốc,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:24:41.423Z
-CUI:C5238705,khiếm khuyết di truyền,Khiếm khuyết di truyền,RiskFactor,C5238705,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:42.375Z
-RiskFactor:nitrat trong nước uống,lượng nitrat cao trong nước uống,Nitrat trong nước uống,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:24:41.133Z
-RiskFactor:nitrat cao trong nước uống,lượng nitrat cao trong nước uống,Nitrat cao trong nước uống,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:25:04.523Z
-RiskFactor:lịch trình bận rộn,lịch trình bận rộn,Lịch trình bận rộn,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:24:58.51Z
-CUI:C0023676,lối sống,Lối sống,RiskFactor,C0023676,Social Behavior,,{},01_daithaoduong.txt,2026-08-20T15:24:56.791Z
-CUI:C0042870,mức tiêu thụ vitamin D thấp,Thiếu hụt vitamin D,RiskFactor,C0042870,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:24:41.217Z
-CUI:C3839284,rối loạn tâm trạng và lo lắng,Rối loạn tâm trạng và lo lắng,RiskFactor,C3839284,Manufactured Object,,{},01_daithaoduong.txt,2026-08-20T15:24:58.446Z
-CUI:C0010947,sản phẩm từ sữa,Sản phẩm từ sữa,RiskFactor,C0010947,Food,,{},01_daithaoduong.txt,2026-08-20T15:24:41.046Z
-CUI:C1527405,số lượng hồng cầu cao,Số lượng hồng cầu cao,RiskFactor,C1527405,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:55.871Z
-CUI:C0349705,thay đổi Hb,Thay đổi hemoglobin,RiskFactor,C0349705,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:55.758Z
-CUI:C0001578,tuổi vị thành niên,Tuổi vị thành niên,RiskFactor,C0001578,Temporal Concept,,{},01_daithaoduong.txt,2026-08-20T15:24:58.304Z
-CUI:C4699158,tăng nguy cơ,Tăng nguy cơ,RiskFactor,C4699158,Finding,,{},01_daithaoduong.txt,2026-08-20T15:25:01.69Z
-RiskFactor:tăng tích lũy mỡ tạng,tăng tích lũy mỡ tạng và bụng,Tăng tích lũy mỡ tạng,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:25:04.596Z
-CUI:C0233542,xung đột gia đình,Xung đột gia đình,RiskFactor,C0233542,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:58.632Z
-CUI:C0032529,đa hình di truyền,Đa hình di truyền,RiskFactor,C0032529,Genetic Function,,{},01_daithaoduong.txt,2026-08-20T15:24:41.738Z
-CUI:C0017979,glucose nước tiểu,Glucose niệu,Sign,C0017979,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:43.412Z
-CUI:C0027497,buồn nôn,Buồn nôn,Symptom,C0027497,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:56.431Z
-CUI:C1971624,chán ăn,Chán ăn,Symptom,C1971624,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:59.497Z
-CUI:C0085602,khát nhiều,Khát nhiều,Symptom,C0085602,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:37.556Z
-CUI:C0278134,mất cảm giác,Mất cảm giác,Symptom,C0278134,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:51.383Z
-CUI:C0344232,nhìn mờ,Nhìn mờ,Symptom,C0344232,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:37.762Z
-CUI:C0042963,nôn,Nôn,Symptom,C0042963,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:56.516Z
-Symptom:suy giảm tưới máu bàn chân,suy giảm tưới máu bàn chân,Suy giảm tưới máu bàn chân,Symptom,,,,{},01_daithaoduong.txt,2026-08-20T15:24:51.46Z
-CUI:C0015967,sốt,Sốt,Symptom,C0015967,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:56.663Z
-CUI:C0011991,tiêu chảy,Tiêu chảy,Symptom,C0011991,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:59.437Z
-CUI:C0032617,tiểu nhiều,Tiểu nhiều,Symptom,C0032617,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:37.7Z
-Symptom:triệu chứng hạ đường huyết,triệu chứng hạ đường huyết,Triệu chứng hạ đường huyết,Symptom,,,,{},01_daithaoduong.txt,2026-08-20T15:24:53.538Z
-CUI:C0000737,đau bụng,Đau bụng,Symptom,C0000737,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:24:56.601Z
-Test:tự kháng thể đảo tụy,>= 2 tự kháng thể đảo tụy,Tự kháng thể đảo tụy,Test,,,Ngưỡng: >= 2; Giá trị: >= 2,"{""threshold"": "">= 2"", ""value"": "">= 2""}",01_daithaoduong.txt,2026-08-20T15:24:43.747Z
+RiskFactor:thiếu hụt giáo dục bệnh nhân,giáo dục hoặc hiểu biết của bệnh nhân không đầy đủ,Thiếu hụt giáo dục bệnh nhân,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:47:06.361Z
+CUI:C0872084,giảm khối lượng cơ,Giảm khối lượng cơ,RiskFactor,C0872084,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:47:13.823Z
+RiskFactor:gluten và ngũ cốc,gluten và ngũ cốc,Gluten và ngũ cốc,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:46:51.413Z
+CUI:C5238705,khiếm khuyết di truyền,Khiếm khuyết di truyền,RiskFactor,C5238705,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:52.339Z
+RiskFactor:nitrat trong nước uống,lượng nitrat cao trong nước uống,Nitrat trong nước uống,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:46:51.118Z
+RiskFactor:nitrat cao trong nước uống,lượng nitrat cao trong nước uống,Nitrat cao trong nước uống,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:47:13.692Z
+RiskFactor:lịch trình bận rộn,lịch trình bận rộn,Lịch trình bận rộn,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:47:07.835Z
+CUI:C0023676,lối sống,Lối sống,RiskFactor,C0023676,Social Behavior,,{},01_daithaoduong.txt,2026-08-20T15:47:06.033Z
+CUI:C0042870,mức tiêu thụ vitamin D thấp,Thiếu hụt vitamin D,RiskFactor,C0042870,Disease or Syndrome,,{},01_daithaoduong.txt,2026-08-20T15:46:51.202Z
+CUI:C3839284,rối loạn tâm trạng và lo lắng,Rối loạn tâm trạng và lo lắng,RiskFactor,C3839284,Manufactured Object,,{},01_daithaoduong.txt,2026-08-20T15:47:07.775Z
+CUI:C0010947,sản phẩm từ sữa,Sản phẩm từ sữa,RiskFactor,C0010947,Food,,{},01_daithaoduong.txt,2026-08-20T15:46:51.041Z
+CUI:C1527405,số lượng hồng cầu cao,Số lượng hồng cầu cao,RiskFactor,C1527405,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:05.419Z
+CUI:C0349705,thay đổi Hb,Thay đổi hemoglobin,RiskFactor,C0349705,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:05.341Z
+CUI:C0001578,tuổi vị thành niên,Tuổi vị thành niên,RiskFactor,C0001578,Temporal Concept,,{},01_daithaoduong.txt,2026-08-20T15:47:07.631Z
+CUI:C4699158,tăng nguy cơ,Tăng nguy cơ,RiskFactor,C4699158,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:10.852Z
+RiskFactor:tăng tích lũy mỡ tạng,tăng tích lũy mỡ tạng và bụng,Tăng tích lũy mỡ tạng,RiskFactor,,,,{},01_daithaoduong.txt,2026-08-20T15:47:13.762Z
+CUI:C0233542,xung đột gia đình,Xung đột gia đình,RiskFactor,C0233542,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:07.961Z
+CUI:C0032529,đa hình di truyền,Đa hình di truyền,RiskFactor,C0032529,Genetic Function,,{},01_daithaoduong.txt,2026-08-20T15:46:51.745Z
+CUI:C0017979,glucose nước tiểu,Glucose niệu,Sign,C0017979,Finding,,{},01_daithaoduong.txt,2026-08-20T15:46:53.368Z
+CUI:C0027497,buồn nôn,Buồn nôn,Symptom,C0027497,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:47:05.686Z
+CUI:C1971624,chán ăn,Chán ăn,Symptom,C1971624,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:08.762Z
+CUI:C0085602,khát nhiều,Khát nhiều,Symptom,C0085602,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:46:47.722Z
+CUI:C0278134,mất cảm giác,Mất cảm giác,Symptom,C0278134,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:47:01.029Z
+CUI:C0344232,nhìn mờ,Nhìn mờ,Symptom,C0344232,Finding,,{},01_daithaoduong.txt,2026-08-20T15:46:47.924Z
+CUI:C0042963,nôn,Nôn,Symptom,C0042963,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:47:05.781Z
+Symptom:suy giảm tưới máu bàn chân,suy giảm tưới máu bàn chân,Suy giảm tưới máu bàn chân,Symptom,,,,{},01_daithaoduong.txt,2026-08-20T15:47:01.109Z
+CUI:C0015967,sốt,Sốt,Symptom,C0015967,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:47:05.901Z
+CUI:C0011991,tiêu chảy,Tiêu chảy,Symptom,C0011991,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:47:08.701Z
+CUI:C0032617,tiểu nhiều,Tiểu nhiều,Symptom,C0032617,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:46:47.86Z
+Symptom:triệu chứng hạ đường huyết,triệu chứng hạ đường huyết,Triệu chứng hạ đường huyết,Symptom,,,,{},01_daithaoduong.txt,2026-08-20T15:47:03.185Z
+CUI:C0000737,đau bụng,Đau bụng,Symptom,C0000737,Sign or Symptom,,{},01_daithaoduong.txt,2026-08-20T15:47:05.841Z
+Test:tự kháng thể đảo tụy,>= 2 tự kháng thể đảo tụy,Tự kháng thể đảo tụy,Test,,,Ngưỡng: >= 2; Giá trị: >= 2,"{""threshold"": "">= 2"", ""value"": "">= 2""}",01_daithaoduong.txt,2026-08-20T15:46:53.709Z
 CUI:C1623258,ECG,Điện tâm đồ,Test,C1623258,Diagnostic Procedure / Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:12.235Z
 CUI:C0583513,FPG,Fasting Plasma Glucose,Test,C0583513,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:11.972Z
-CUI:C0060765,Fructosamine,Fructosamine,Test,C0060765,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:55.687Z
-CUI:C0004076,Glucose trong nước tiểu,Glucose trong nước tiểu,Test,C0004076,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:55.934Z
-CUI:C0019018,HbA1c,HbA1c,Test,C0019018,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:24:44.297Z
+CUI:C0060765,Fructosamine,Fructosamine,Test,C0060765,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:47:05.281Z
+CUI:C0004076,Glucose trong nước tiểu,Glucose trong nước tiểu,Test,C0004076,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:05.481Z
+CUI:C0019018,HbA1c,HbA1c,Test,C0019018,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:46:54.22Z
 CUI:C0005824,Huyết áp,Đo huyết áp,Test,C0005824,Diagnostic Procedure / Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:00.028Z
-CUI:C4523945,Hệ thống theo dõi đường huyết liên tục (CGM),Continuous Glucose Monitoring,Test,C4523945,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:24:48.669Z
-CUI:C0419882,Khám bàn chân,Khám bàn chân,Test,C0419882,Diagnostic Procedure,frequency: hàng năm,"{""frequency"": ""hàng năm""}",01_daithaoduong.txt,2026-08-20T15:24:45.302Z
-Test:khám đáy mắt,Khám đáy mắt,Khám đáy mắt,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:45.577Z
+CUI:C4523945,Hệ thống theo dõi đường huyết liên tục (CGM),Continuous Glucose Monitoring,Test,C4523945,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:46:58.396Z
+CUI:C0419882,Khám bàn chân,Khám bàn chân,Test,C0419882,Diagnostic Procedure,frequency: hàng năm,"{""frequency"": ""hàng năm""}",01_daithaoduong.txt,2026-08-20T15:46:55.153Z
+Test:khám đáy mắt,Khám đáy mắt,Khám đáy mắt,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:46:55.418Z
 CUI:C0200382,Lipid,Xét nghiệm lipid máu,Test,C0200382,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:11.583Z
-CUI:C3880576,Máy đo đường huyết đầu ngón tay,Máy đo đường huyết đầu ngón tay,Test,C3880576,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:24:54.14Z
-CUI:C0740213,Sàng lọc đái tháo đường,Sàng lọc đái tháo đường,Test,C0740213,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:25:01.628Z
-Test:tự đo ceton nước tiểu,Tự đo ceton nước tiểu,Tự đo ceton nước tiểu,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:56.299Z
-Test:xét nghiệm hba1c tại giường,Xét nghiệm HbA1C đầu ngón tại giường,Xét nghiệm HbA1c tại giường,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:45.102Z
+CUI:C3880576,Máy đo đường huyết đầu ngón tay,Máy đo đường huyết đầu ngón tay,Test,C3880576,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:03.777Z
+CUI:C0740213,Sàng lọc đái tháo đường,Sàng lọc đái tháo đường,Test,C0740213,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:47:10.79Z
+Test:tự đo ceton nước tiểu,Tự đo ceton nước tiểu,Tự đo ceton nước tiểu,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:47:05.543Z
+Test:xét nghiệm hba1c tại giường,Xét nghiệm HbA1C đầu ngón tại giường,Xét nghiệm HbA1c tại giường,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:46:54.961Z
 CUI:C0042014,Xét nghiệm nước tiểu,Xét nghiệm nước tiểu,Test,C0042014,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:11.363Z
-CUI:C0015260,bài tập kiểm tra stress,Nghiệm pháp gắng sức,Test,C0015260,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:49.993Z
-Test:point-of-care hba1c test,chỉ số đo HbA1C đầu ngón tại giường,Point-of-care HbA1c test,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:44.891Z
-CUI:C0428554,chỉ số đường huyết,Chỉ số đường huyết,Test,C0428554,Laboratory or Test Result,,{},01_daithaoduong.txt,2026-08-20T15:24:49.272Z
-CUI:C0022662,chức năng thận,Chức năng thận,Test,C0022662,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:25:01.56Z
-CUI:C0201976,creatinine huyết thanh,Creatinine huyết thanh,Test,C0201976,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:45.702Z
-Test:ogtt 75g,giá trị 2 giờ khi OGTT 75 g,OGTT 75g,Test,,,glucose_load: 75 g; time_point: 2 giờ; time: 2 giờ,"{""glucose_load"": ""75 g"", ""time_point"": ""2 giờ"", ""time"": ""2 giờ""}",01_daithaoduong.txt,2026-08-20T15:25:02.497Z
-CUI:C0005802,glucose máu,Glucose máu,Test,C0005802,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:49.776Z
+CUI:C0015260,bài tập kiểm tra stress,Nghiệm pháp gắng sức,Test,C0015260,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:59.665Z
+Test:point-of-care hba1c test,chỉ số đo HbA1C đầu ngón tại giường,Point-of-care HbA1c test,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:46:54.775Z
+CUI:C0428554,chỉ số đường huyết,Chỉ số đường huyết,Test,C0428554,Laboratory or Test Result,,{},01_daithaoduong.txt,2026-08-20T15:46:58.965Z
+CUI:C0022662,chức năng thận,Chức năng thận,Test,C0022662,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:10.731Z
+CUI:C0201976,creatinine huyết thanh,Creatinine huyết thanh,Test,C0201976,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:55.548Z
+Test:ogtt 75g,giá trị 2 giờ khi OGTT 75 g,OGTT 75g,Test,,,glucose_load: 75 g; time_point: 2 giờ; time: 2 giờ,"{""glucose_load"": ""75 g"", ""time_point"": ""2 giờ"", ""time"": ""2 giờ""}",01_daithaoduong.txt,2026-08-20T15:47:11.677Z
+CUI:C0005802,glucose máu,Glucose máu,Test,C0005802,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:46:59.45Z
 CUI:C0031809,khám lâm sàng,Khám lâm sàng,Test,C0031809,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T14:17:07.16Z
-Test:khám lâm sàng và xét nghiệm,khám lâm sàng và xét nghiệm,Khám lâm sàng và xét nghiệm,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:57.327Z
-CUI:C0443891,kháng thể decarboxylase kháng axit glutamic,Kháng thể GAD,Test,C0443891,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:25:01.876Z
-Test:kiểm tra đường huyết mao mạch,kiểm tra bằng ngón tay,Kiểm tra đường huyết mao mạch,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:48.604Z
-CUI:C1277175,máy đo thẩm mỹ sợi đơn,Monofilament test,Test,C1277175,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:45.387Z
-CUI:C0029161,nghiệm pháp dung nạp glucose đường uống [OGTT],OGTT,Test,C0029161,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:44.591Z
-Test:sàng lọc biến chứng,sàng lọc,Sàng lọc biến chứng,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:25:04.987Z
-Test:sàng lọc biến chứng đái tháo đường,sàng lọc biến chứng đái tháo đường,Sàng lọc biến chứng đái tháo đường,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:45.167Z
-CUI:C0017741,thử glucose,Thử glucose,Test,C0017741,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:57.803Z
-CUI:C0587359,thử glucose máu,Thử glucose máu,Test,C0587359,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:57.264Z
-CUI:C2183115,tiền sử tiểu đường thai kỳ,Tiền sử đái tháo đường thai kỳ,Test,C2183115,Finding,,{},01_daithaoduong.txt,2026-08-20T15:25:03.641Z
-CUI:C0063900,tế bào tiểu đảo,Kháng thể tế bào tiểu đảo,Test,C0063900,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:25:01.814Z
-CUI:C0005803,tự theo dõi đường huyết,Tự theo dõi đường huyết,Test,C0005803,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:25:07.302Z
-CUI:C5230552,tỷ lệ carbohydrate-to-insulin (CIR),Carbohydrate-to-insulin ratio,Test,C5230552,Quantitative Concept,,{},01_daithaoduong.txt,2026-08-20T15:24:49.148Z
+Test:khám lâm sàng và xét nghiệm,khám lâm sàng và xét nghiệm,Khám lâm sàng và xét nghiệm,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:47:06.57Z
+CUI:C0443891,kháng thể decarboxylase kháng axit glutamic,Kháng thể GAD,Test,C0443891,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:47:11.036Z
+Test:kiểm tra đường huyết mao mạch,kiểm tra bằng ngón tay,Kiểm tra đường huyết mao mạch,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:46:58.337Z
+CUI:C1277175,máy đo thẩm mỹ sợi đơn,Monofilament test,Test,C1277175,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:55.234Z
+CUI:C0029161,nghiệm pháp dung nạp glucose đường uống [OGTT],OGTT,Test,C0029161,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:54.503Z
+Test:sàng lọc biến chứng,sàng lọc,Sàng lọc biến chứng,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:47:14.132Z
+Test:sàng lọc biến chứng đái tháo đường,sàng lọc biến chứng đái tháo đường,Sàng lọc biến chứng đái tháo đường,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:46:55.022Z
+CUI:C0017741,thử glucose,Thử glucose,Test,C0017741,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:07.114Z
+CUI:C0587359,thử glucose máu,Thử glucose máu,Test,C0587359,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:06.507Z
+CUI:C2183115,tiền sử tiểu đường thai kỳ,Tiền sử đái tháo đường thai kỳ,Test,C2183115,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:12.831Z
+CUI:C0063900,tế bào tiểu đảo,Kháng thể tế bào tiểu đảo,Test,C0063900,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:47:10.976Z
+CUI:C0005803,tự theo dõi đường huyết,Tự theo dõi đường huyết,Test,C0005803,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:16.261Z
+CUI:C5230552,tỷ lệ carbohydrate-to-insulin (CIR),Carbohydrate-to-insulin ratio,Test,C5230552,Quantitative Concept,,{},01_daithaoduong.txt,2026-08-20T15:46:58.843Z
 CUI:C0022885,xét nghiệm,Xét nghiệm,Test,C0022885,Diagnostic Procedure / Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:11.286Z
-CUI:C0011930,xét nghiệm thường xuyên,Xét nghiệm thường xuyên,Test,C0011930,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:44.032Z
-Test:xét nghiệm đường huyết mao mạch,xét nghiệm đường huyết đầu ngón tay,Xét nghiệm đường huyết mao mạch,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:25:06.613Z
-CUI:C0427747,Đo lượng glucose trong nước tiểu,Urine glucose test,Test,C0427747,Laboratory or Test Result,,{},01_daithaoduong.txt,2026-08-20T15:24:45.041Z
-CUI:C4275194,Đánh giá nguy cơ tim mạch,Đánh giá nguy cơ tim mạch,Test,C4275194,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:46.021Z
-Test:đỉnh glucose máu sau ăn,Đỉnh glucose máu sau ăn,Đỉnh glucose máu sau ăn,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:24:53.014Z
-CUI:C0337438,đo glucose,Đo glucose,Test,C0337438,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:57.614Z
-CUI:C0202042,đo lượng glucose huyết tương,Đo glucose huyết tương,Test,C0202042,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:38.084Z
-CUI:C0457578,đường huyết mao mạch,Đường huyết mao mạch,Test,C0457578,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:53.803Z
-CUI:C0018941,định lượng nồng độ trong máu,Xét nghiệm máu,Test,C0018941,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:52.953Z
-CUI:C0150240,Chăm sóc bàn chân chuyên nghiệp,Chăm sóc bàn chân,Treatment,C0150240,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:24:51.32Z
-CUI:C0030275,Ghép tụy,Ghép tụy,Treatment,C0030275,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:52.831Z
-CUI:C5203233,Giảm cân ít nhất 7% trọng lượng cơ thể ban đầu,Giảm cân,Treatment,C5203233,Quantitative Concept,Giá trị: 7 %,"{""value"": 7, ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:25:03.263Z
-CUI:C0557977,Insulin thang điểm trượt,Insulin thang điểm trượt,Treatment,C0557977,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:46.644Z
-CUI:C1456587,Phẫu thuật chuyển hóa (phẫu thuật giảm béo),Phẫu thuật chuyển hóa,Treatment,C1456587,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:25:03.506Z
-CUI:C5387588,SARS-CoV-2,Vắc xin SARS-CoV-2,Treatment,C5387588,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:06.277Z
-CUI:C0588436,Tự theo dõi,Tự theo dõi,Treatment,C0588436,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:48.542Z
-CUI:C0872279,bài tập sức đề kháng,Bài tập sức đề kháng,Treatment,C0872279,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:49.458Z
-CUI:C0001701,bài tập thể dục nhịp điệu,Bài tập thể dục nhịp điệu,Treatment,C0001701,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:49.396Z
-CUI:C4763910,bóng dạ dày được cấy ghép,Bóng dạ dày,Treatment,C4763910,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:50.985Z
-CUI:C3504188,bơm insulin,Bơm insulin,Treatment,C3504188,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:24:57.739Z
-Treatment:bơm insulin vòng kín,bơm insulin vòng kín,Bơm insulin vòng kín,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:24:57.676Z
-CUI:C4273932,bơm tiêm điện insulin,Bơm tiêm insulin,Treatment,C4273932,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:25:07.175Z
-Treatment:phẫu thuật bắc cầu dạ dày,bắc cầu dạ dày,Phẫu thuật bắc cầu dạ dày,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:24:51.259Z
-CUI:C5392103,can thiệp tâm lý xã hội,Can thiệp tâm lý xã hội,Treatment,C5392103,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:58.943Z
-CUI:C0007004,carbonhydrate,Carbohydrate,Treatment,C0007004,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:24:49.852Z
-CUI:C1532353,chương trình giáo dục chính thức về bệnh tiểu đường,Chương trình giáo dục bệnh tiểu đường,Treatment,C1532353,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:24:48.858Z
-CUI:C0012159,chế độ ăn kiêng,Chế độ ăn kiêng,Treatment,C0012159,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:24:38.163Z
+CUI:C0011930,xét nghiệm thường xuyên,Xét nghiệm thường xuyên,Test,C0011930,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:53.971Z
+Test:xét nghiệm đường huyết mao mạch,xét nghiệm đường huyết đầu ngón tay,Xét nghiệm đường huyết mao mạch,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:47:15.613Z
+CUI:C0427747,Đo lượng glucose trong nước tiểu,Urine glucose test,Test,C0427747,Laboratory or Test Result,,{},01_daithaoduong.txt,2026-08-20T15:46:54.902Z
+CUI:C4275194,Đánh giá nguy cơ tim mạch,Đánh giá nguy cơ tim mạch,Test,C4275194,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:55.795Z
+Test:đỉnh glucose máu sau ăn,Đỉnh glucose máu sau ăn,Đỉnh glucose máu sau ăn,Test,,,,{},01_daithaoduong.txt,2026-08-20T15:47:02.674Z
+CUI:C0337438,đo glucose,Đo glucose,Test,C0337438,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:06.927Z
+CUI:C0202042,đo lượng glucose huyết tương,Đo glucose huyết tương,Test,C0202042,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:48.203Z
+CUI:C0457578,đường huyết mao mạch,Đường huyết mao mạch,Test,C0457578,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:03.438Z
+CUI:C0018941,định lượng nồng độ trong máu,Xét nghiệm máu,Test,C0018941,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:02.612Z
+CUI:C0150240,Chăm sóc bàn chân chuyên nghiệp,Chăm sóc bàn chân,Treatment,C0150240,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:47:00.968Z
+CUI:C0030275,Ghép tụy,Ghép tụy,Treatment,C0030275,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:02.486Z
+CUI:C5203233,Giảm cân ít nhất 7% trọng lượng cơ thể ban đầu,Giảm cân,Treatment,C5203233,Quantitative Concept,Giá trị: 7 %,"{""value"": 7, ""unit"": ""%""}",01_daithaoduong.txt,2026-08-20T15:47:12.455Z
+CUI:C0557977,Insulin thang điểm trượt,Insulin thang điểm trượt,Treatment,C0557977,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:56.394Z
+CUI:C1456587,Phẫu thuật chuyển hóa (phẫu thuật giảm béo),Phẫu thuật chuyển hóa,Treatment,C1456587,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:12.69Z
+CUI:C5387588,SARS-CoV-2,Vắc xin SARS-CoV-2,Treatment,C5387588,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:15.362Z
+CUI:C0588436,Tự theo dõi,Tự theo dõi,Treatment,C0588436,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:58.273Z
+CUI:C0872279,bài tập sức đề kháng,Bài tập sức đề kháng,Treatment,C0872279,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:59.147Z
+CUI:C0001701,bài tập thể dục nhịp điệu,Bài tập thể dục nhịp điệu,Treatment,C0001701,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:59.085Z
+CUI:C4763910,bóng dạ dày được cấy ghép,Bóng dạ dày,Treatment,C4763910,Diagnostic Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:00.643Z
+CUI:C3504188,bơm insulin,Bơm insulin,Treatment,C3504188,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:07.049Z
+Treatment:bơm insulin vòng kín,bơm insulin vòng kín,Bơm insulin vòng kín,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:06.987Z
+CUI:C4273932,bơm tiêm điện insulin,Bơm tiêm insulin,Treatment,C4273932,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:16.141Z
+Treatment:phẫu thuật bắc cầu dạ dày,bắc cầu dạ dày,Phẫu thuật bắc cầu dạ dày,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:00.906Z
+CUI:C5392103,can thiệp tâm lý xã hội,Can thiệp tâm lý xã hội,Treatment,C5392103,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:08.3Z
+CUI:C0007004,carbonhydrate,Carbohydrate,Treatment,C0007004,Organic Chemical,,{},01_daithaoduong.txt,2026-08-20T15:46:59.511Z
+CUI:C1532353,chương trình giáo dục chính thức về bệnh tiểu đường,Chương trình giáo dục bệnh tiểu đường,Treatment,C1532353,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:46:58.578Z
+CUI:C0012159,chế độ ăn kiêng,Chế độ ăn kiêng,Treatment,C0012159,Health Care Activity,,{},01_daithaoduong.txt,2026-08-20T15:46:48.265Z
 CUI:C0454378,chế độ ăn kiêng và tập thể dục,Thay đổi lối sống,Treatment,C0454378,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:00.121Z
-CUI:C2364379,chế độ ăn uống,Chế độ ăn uống,Treatment,C2364379,Finding,,{},01_daithaoduong.txt,2026-08-20T15:24:57.393Z
-CUI:C0040511,cắt bỏ toàn thân,Cắt bỏ tuyến tụy toàn bộ,Treatment,C0040511,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:42.762Z
-CUI:C0812427,cắt cụt xuyên xương bàn chân,Cắt cụt xuyên xương bàn chân,Treatment,C0812427,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:52.23Z
-CUI:C0011079,cắt lọc,Cắt lọc,Treatment,C0011079,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:51.953Z
-Treatment:phẫu thuật cắt vạt dạ dày,cắt vạt dạ dày,Phẫu thuật cắt vạt dạ dày,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:24:51.175Z
-CUI:C1960816,cắt vạt dạ dày,Phẫu thuật cắt dạ dày hình ống,Treatment,C1960816,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:25:05.937Z
-CUI:C0030548,dinh dưỡng toàn phần qua đường tĩnh mạch (TPN),Dinh dưỡng toàn phần qua đường tĩnh mạch,Treatment,C0030548,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:25:00.337Z
-CUI:C5784667,ghép tế bào đảo tụy,Ghép tế bào đảo tụy,Treatment,C5784667,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:52.891Z
-Treatment:giao thức truyền insulin,giao thức truyền insulin,Giao thức truyền insulin,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:00.464Z
-Treatment:giám sát y tế chuyên sâu,giám sát y tế chuyên sâu,Giám sát y tế chuyên sâu,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:24:58.878Z
+CUI:C2364379,chế độ ăn uống,Chế độ ăn uống,Treatment,C2364379,Finding,,{},01_daithaoduong.txt,2026-08-20T15:47:06.706Z
+CUI:C0040511,cắt bỏ toàn thân,Cắt bỏ tuyến tụy toàn bộ,Treatment,C0040511,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:52.74Z
+CUI:C0812427,cắt cụt xuyên xương bàn chân,Cắt cụt xuyên xương bàn chân,Treatment,C0812427,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:01.887Z
+CUI:C0011079,cắt lọc,Cắt lọc,Treatment,C0011079,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:01.608Z
+Treatment:phẫu thuật cắt vạt dạ dày,cắt vạt dạ dày,Phẫu thuật cắt vạt dạ dày,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:00.83Z
+CUI:C1960816,cắt vạt dạ dày,Phẫu thuật cắt dạ dày hình ống,Treatment,C1960816,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:15.04Z
+CUI:C0030548,dinh dưỡng toàn phần qua đường tĩnh mạch (TPN),Dinh dưỡng toàn phần qua đường tĩnh mạch,Treatment,C0030548,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:09.539Z
+CUI:C5784667,ghép tế bào đảo tụy,Ghép tế bào đảo tụy,Treatment,C5784667,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:02.55Z
+Treatment:giao thức truyền insulin,giao thức truyền insulin,Giao thức truyền insulin,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:09.666Z
+Treatment:giám sát y tế chuyên sâu,giám sát y tế chuyên sâu,Giám sát y tế chuyên sâu,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:08.238Z
 CUI:C0030688,giáo dục bệnh nhân,Giáo dục bệnh nhân,Treatment,C0030688,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:17.308Z
-CUI:C0026606,hoạt động thể chất cường độ vừa phải,Hoạt động thể chất,Treatment,C0026606,Daily or Recreational Activity,duration: 30 phút/ngày,"{""duration"": ""30 phút/ngày""}",01_daithaoduong.txt,2026-08-20T15:25:03.343Z
-CUI:C4288711,hydrogel uống,Hydrogel uống,Treatment,C4288711,Biomedical or Dental Material,,{},01_daithaoduong.txt,2026-08-20T15:24:50.922Z
-CUI:C0336563,hệ thống phân phối insulin tự động (AID),Hệ thống phân phối insulin tự động,Treatment,C0336563,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:24:55.22Z
-Treatment:không tuân thủ điều trị insulin,không tuân thủ việc sử dụng insulin,Không tuân thủ điều trị insulin,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:07.508Z
-CUI:C5392125,kiểm soát đường huyết,Kiểm soát đường huyết,Treatment,C5392125,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:53.394Z
-Treatment:liệu pháp bơm insulin vòng kín,liệu pháp bơm insulin vòng kín,Liệu pháp bơm insulin vòng kín,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:07.447Z
-CUI:C0013216,liệu pháp dược lý,Liệu pháp dược lý,Treatment,C0013216,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:25:08.114Z
-Treatment:liệu pháp dược lý giảm cân,liệu pháp dược lý để giảm cân,Liệu pháp dược lý giảm cân,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:03.725Z
-Treatment:liệu pháp hút dịch dạ dày,liệu pháp hút dịch dạ dày,Liệu pháp hút dịch dạ dày,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:05.874Z
-CUI:C0004052,liệu pháp hút dịch dạ dày,Hút dịch dạ dày,Treatment,C0004052,Injury or Poisoning,,{},01_daithaoduong.txt,2026-08-20T15:24:51.112Z
-CUI:C0021646,liệu pháp insulin,Liệu pháp insulin,Treatment,C0021646,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:46.583Z
-CUI:C2350432,máy kích thích dây thần kinh phế vị,Kích thích dây thần kinh phế vị,Treatment,C2350432,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:51.047Z
-CUI:C2959478,máy kích thích dây thần kinh phế vị,Máy kích thích dây thần kinh phế vị,Treatment,C2959478,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:25:05.809Z
-Treatment:phác đồ gik,phác đồ GIK,Phác đồ GIK,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:01.082Z
-CUI:C4684595,phòng thí nghiệm lâm sàng,Clinical laboratory,Treatment,C4684595,Manufactured Object,,{},01_daithaoduong.txt,2026-08-20T15:24:44.82Z
-Treatment:thiết bị lấy máu,phương tiện để chích da và lấy mẫu máu,Thiết bị lấy máu,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:24:54.263Z
-CUI:C1960574,phẫu thuật cắt bỏ đầu xương bàn chân,Phẫu thuật cắt bỏ đầu xương bàn chân,Treatment,C1960574,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:52.17Z
-CUI:C1553116,que thử,Que thử,Treatment,C1553116,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:54.2Z
-CUI:C0029365,thiết bị chỉnh hình,Thiết bị chỉnh hình,Treatment,C0029365,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:24:52.351Z
-CUI:C0025080,thiết bị y tế,Thiết bị y tế,Treatment,C0025080,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:25:03.788Z
-Treatment:thuật toán vi tính hóa,thuật toán vi tính hóa,Thuật toán vi tính hóa,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:25:00.525Z
-CUI:C3464497,thủy đậu,Vắc xin thủy đậu,Treatment,C3464497,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:25:06.215Z
-CUI:C0042196,tiêm vắc xin,Tiêm chủng,Treatment,C0042196,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:52.411Z
-CUI:C0582887,tư vấn dinh dưỡng,Tư vấn dinh dưỡng,Treatment,C0582887,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:24:49.334Z
+CUI:C0026606,hoạt động thể chất cường độ vừa phải,Hoạt động thể chất,Treatment,C0026606,Daily or Recreational Activity,duration: 30 phút/ngày,"{""duration"": ""30 phút/ngày""}",01_daithaoduong.txt,2026-08-20T15:47:12.533Z
+CUI:C4288711,hydrogel uống,Hydrogel uống,Treatment,C4288711,Biomedical or Dental Material,,{},01_daithaoduong.txt,2026-08-20T15:47:00.58Z
+CUI:C0336563,hệ thống phân phối insulin tự động (AID),Hệ thống phân phối insulin tự động,Treatment,C0336563,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:04.798Z
+Treatment:không tuân thủ điều trị insulin,không tuân thủ việc sử dụng insulin,Không tuân thủ điều trị insulin,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:16.452Z
+CUI:C5392125,kiểm soát đường huyết,Kiểm soát đường huyết,Treatment,C5392125,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:03.044Z
+Treatment:liệu pháp bơm insulin vòng kín,liệu pháp bơm insulin vòng kín,Liệu pháp bơm insulin vòng kín,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:16.392Z
+CUI:C0013216,liệu pháp dược lý,Liệu pháp dược lý,Treatment,C0013216,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:17.102Z
+Treatment:liệu pháp dược lý giảm cân,liệu pháp dược lý để giảm cân,Liệu pháp dược lý giảm cân,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:12.909Z
+Treatment:liệu pháp hút dịch dạ dày,liệu pháp hút dịch dạ dày,Liệu pháp hút dịch dạ dày,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:14.963Z
+CUI:C0004052,liệu pháp hút dịch dạ dày,Hút dịch dạ dày,Treatment,C0004052,Injury or Poisoning,,{},01_daithaoduong.txt,2026-08-20T15:47:00.769Z
+CUI:C0021646,liệu pháp insulin,Liệu pháp insulin,Treatment,C0021646,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:56.334Z
+CUI:C2350432,máy kích thích dây thần kinh phế vị,Kích thích dây thần kinh phế vị,Treatment,C2350432,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:00.707Z
+CUI:C2959478,máy kích thích dây thần kinh phế vị,Máy kích thích dây thần kinh phế vị,Treatment,C2959478,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:14.902Z
+Treatment:phác đồ gik,phác đồ GIK,Phác đồ GIK,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:10.26Z
+CUI:C4684595,phòng thí nghiệm lâm sàng,Clinical laboratory,Treatment,C4684595,Manufactured Object,,{},01_daithaoduong.txt,2026-08-20T15:46:54.714Z
+Treatment:thiết bị lấy máu,phương tiện để chích da và lấy mẫu máu,Thiết bị lấy máu,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:03.901Z
+CUI:C1960574,phẫu thuật cắt bỏ đầu xương bàn chân,Phẫu thuật cắt bỏ đầu xương bàn chân,Treatment,C1960574,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:01.824Z
+CUI:C1553116,que thử,Que thử,Treatment,C1553116,Laboratory Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:03.839Z
+CUI:C0029365,thiết bị chỉnh hình,Thiết bị chỉnh hình,Treatment,C0029365,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:02.016Z
+CUI:C0025080,thiết bị y tế,Thiết bị y tế,Treatment,C0025080,Medical Device,,{},01_daithaoduong.txt,2026-08-20T15:47:12.971Z
+Treatment:thuật toán vi tính hóa,thuật toán vi tính hóa,Thuật toán vi tính hóa,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:09.729Z
+CUI:C3464497,thủy đậu,Vắc xin thủy đậu,Treatment,C3464497,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:47:15.301Z
+CUI:C0042196,tiêm vắc xin,Tiêm chủng,Treatment,C0042196,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:47:02.078Z
+CUI:C0582887,tư vấn dinh dưỡng,Tư vấn dinh dưỡng,Treatment,C0582887,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T15:46:59.025Z
 CUI:C0015259,tập thể dục,Tập thể dục,Treatment,C0015259,Therapeutic or Preventive Procedure,,{},01_daithaoduong.txt,2026-08-20T14:17:09.879Z
-CUI:C0036592,tự chăm sóc,Tự chăm sóc,Treatment,C0036592,Daily or Recreational Activity,,{},01_daithaoduong.txt,2026-08-20T15:24:57.201Z
-CUI:C0021403,vi rút cúm,Vắc xin cúm,Treatment,C0021403,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:06.073Z
-CUI:C2240392,viêm gan B,Vắc xin viêm gan B,Treatment,C2240392,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:25:06.153Z
-CUI:C0358314,vắc xin phòng ngừa Streptococcus pneumoniae,Vắc xin phế cầu,Treatment,C0358314,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:25:06.006Z
-Treatment:điều chỉnh lối sống,điều chỉnh lối sống,Điều chỉnh lối sống,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:24:58.077Z
+CUI:C0036592,tự chăm sóc,Tự chăm sóc,Treatment,C0036592,Daily or Recreational Activity,,{},01_daithaoduong.txt,2026-08-20T15:47:06.441Z
+CUI:C0021403,vi rút cúm,Vắc xin cúm,Treatment,C0021403,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:15.162Z
+CUI:C2240392,viêm gan B,Vắc xin viêm gan B,Treatment,C2240392,"Amino Acid, Peptide, or Protein",,{},01_daithaoduong.txt,2026-08-20T15:47:15.241Z
+CUI:C0358314,vắc xin phòng ngừa Streptococcus pneumoniae,Vắc xin phế cầu,Treatment,C0358314,Pharmacologic Substance,,{},01_daithaoduong.txt,2026-08-20T15:47:15.101Z
+Treatment:điều chỉnh lối sống,điều chỉnh lối sống,Điều chỉnh lối sống,Treatment,,,,{},01_daithaoduong.txt,2026-08-20T15:47:07.383Z
