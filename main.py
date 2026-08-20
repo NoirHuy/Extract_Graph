@@ -9,7 +9,7 @@ Commands:
   ingest         Ingest normalized entities and validated relations into Neo4j.
   export         Export Knowledge Graph from Neo4j into intuitive CSV files with category subfolders.
   verify-dict    Verify and heal dictionary CUIs against live NLM UMLS UTS Search API (anti-hallucination).
-  run-all        Execute the entire pipeline end-to-end from input document to Neo4j with auto-classified subfolders.
+  run-all        Execute the entire pipeline end-to-end from input document to Neo4j AND auto-export to CSV.
 """
 
 import argparse
@@ -32,24 +32,24 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 
-def resolve_processed_dir(input_path: Path, output_dir: Optional[str] = None) -> Path:
-    """Auto-detect category subfolder from input path (e.g. data/raw/hypertension/doc.txt -> data/processed/hypertension)."""
-    if output_dir and output_dir != "data/processed":
-        target = Path(output_dir)
-    else:
-        raw_root = Path("data/raw").resolve()
-        try:
-            rel = input_path.resolve().relative_to(raw_root)
-            if len(rel.parts) > 1:
-                category = rel.parent
-                target = Path("data/processed") / category
-            else:
-                target = Path("data/processed")
-        except ValueError:
-            target = Path("data/processed")
+def resolve_category_and_dirs(input_path: Path, output_dir: Optional[str] = None):
+    """Auto-detect category subfolder from input path (e.g. data/raw/hypertension/doc.txt -> category: hypertension)."""
+    raw_root = Path("data/raw").resolve()
+    category = "general"
+    try:
+        rel = input_path.resolve().relative_to(raw_root)
+        if len(rel.parts) > 1:
+            category = rel.parent.as_posix()
+    except ValueError:
+        pass
 
-    target.mkdir(parents=True, exist_ok=True)
-    return target
+    if output_dir:
+        processed_dir = Path(output_dir)
+    else:
+        processed_dir = Path("data/processed") / category if category != "general" else Path("data/processed")
+
+    processed_dir.mkdir(parents=True, exist_ok=True)
+    return category, processed_dir
 
 
 def run_full_pipeline(
@@ -57,9 +57,10 @@ def run_full_pipeline(
     passes: int = 2,
     min_confidence: float = 0.7,
     output_dir: Optional[str] = None,
+    export_csv: bool = True,
     dry_run: bool = False,
 ):
-    """Execute end-to-end EDC Knowledge Graph Pipeline."""
+    """Execute end-to-end EDC Knowledge Graph Pipeline with automatic CSV export."""
     input_path = Path(input_file)
     if not input_path.exists():
         logger.error(f"Input file not found: {input_path}")
@@ -67,20 +68,18 @@ def run_full_pipeline(
 
     doc_name = input_path.name
     doc_stem = input_path.stem
-    out_dir = resolve_processed_dir(input_path, output_dir)
-
-    with open(input_path, "r", encoding="utf-8") as f:
-        raw_text = f.read()
+    category, out_dir = resolve_category_and_dirs(input_path, output_dir)
 
     print("\n" + "=" * 65)
     print(f"  STARTING EDC MEDICAL KG PIPELINE FOR: {doc_name}")
-    print(f"  Target Processed Folder: {out_dir}")
+    print(f"  Category: {category}")
+    print(f"  Processed Folder: {out_dir}")
     print("=" * 65)
 
     # 1. Extraction (Multi-Pass)
-    print("\n[Step 1/5] Running LLM Extraction...")
+    print("\n[Step 1/6] Running LLM Extraction...")
     extractions = run_extraction_pipeline(
-        text=raw_text,
+        text=open(input_path, "r", encoding="utf-8").read(),
         passes=passes,
         source_doc=doc_name,
         output_dir=str(out_dir),
@@ -90,7 +89,7 @@ def run_full_pipeline(
     pass_relations = [res.relations for res in extractions]
 
     # 2. Validation & Consensus Layer
-    print("\n[Step 2/5] Merging Entities & Aggregating Multi-Pass Consensus...")
+    print("\n[Step 2/6] Merging Entities & Aggregating Multi-Pass Consensus...")
     canonical_entities, id_mapping = merge_entities(pass_entities)
     consensus_relations, conflicts = aggregate_relation_consensus(
         pass_relations, id_mapping=id_mapping, total_passes=passes
@@ -103,7 +102,7 @@ def run_full_pipeline(
         logger.warning(f"Detected {len(conflicts)} conflicting relation(s). Saved to {conflict_file}")
 
     # 3. UMLS Normalization
-    print("\n[Step 3/5] Performing 3-Tier UMLS Normalization...")
+    print("\n[Step 3/6] Performing 3-Tier UMLS Normalization...")
     normalized_entities, unmapped_entities = normalize_entities(
         canonical_entities,
         doc_id=doc_name,
@@ -111,7 +110,7 @@ def run_full_pipeline(
     )
 
     # 4. Domain / Range & Confidence Validation
-    print("\n[Step 4/5] Enforcing Domain/Range Constraints & Confidence Filtering...")
+    print("\n[Step 4/6] Enforcing Domain/Range Constraints & Confidence Filtering...")
     valid_relations, invalid_relations = validate_and_filter_relations(
         consensus_relations,
         normalized_entities,
@@ -149,7 +148,7 @@ def run_full_pipeline(
     logger.info(f"Saved complete Knowledge Graph dataset to {final_file}")
 
     # 5. Neo4j Ingestion
-    print("\n[Step 5/5] Ingesting into Neo4j Graph Database...")
+    print("\n[Step 5/6] Ingesting into Neo4j Graph Database...")
     loader = Neo4jLoader()
     summary = loader.ingest_graph(
         entities=normalized_entities,
@@ -158,14 +157,28 @@ def run_full_pipeline(
         dry_run=dry_run,
     )
 
+    # 6. Auto CSV Export
+    csv_res = None
+    if export_csv and not dry_run:
+        print(f"\n[Step 6/6] Exporting Knowledge Graph to CSV (Category: {category})...")
+        exporter = Neo4jExporter()
+        csv_res = exporter.export_all_to_csv(
+            output_dir="data/exports",
+            source_doc=doc_name,
+            category=category if category != "general" else None,
+        )
+        exporter.close()
+
     print("\n" + "=" * 65)
     print("  EDC PIPELINE EXECUTION FINISHED SUCCESSFULLY")
     print("=" * 65)
     print(f"Document: {doc_name}")
-    print(f"Target Directory: {out_dir}")
+    print(f"Processed Directory: {out_dir}")
     print(f"Canonical Nodes: {len(normalized_entities)} (UMLS Mapped: {len(normalized_entities) - len(unmapped_entities)})")
     print(f"Valid Relationships: {len(valid_relations)} (Conflicts: {len(conflicts)})")
-    print(f"Ingestion Status: {summary.get('status')}")
+    print(f"Neo4j Ingestion Status: {summary.get('status')}")
+    if csv_res:
+        print(f"Clinical Summary CSV: {csv_res.get('clinical_summary_csv')}")
     print("=" * 65 + "\n")
 
 
@@ -177,11 +190,12 @@ def main():
     subparsers.add_parser("probe-llm", help="Probe LLM endpoint capabilities and list available models")
 
     # 2. run-all
-    run_all_p = subparsers.add_parser("run-all", help="Run full pipeline end-to-end from text into Neo4j")
+    run_all_p = subparsers.add_parser("run-all", help="Run full pipeline end-to-end from text into Neo4j AND auto-export to CSV")
     run_all_p.add_argument("--input", required=True, help="Input clinical text file (.txt, .md)")
     run_all_p.add_argument("--passes", type=int, default=2, help="Number of extraction passes (default: 2)")
     run_all_p.add_argument("--min-confidence", type=float, default=0.7, help="Minimum relation confidence (default: 0.7)")
     run_all_p.add_argument("--output-dir", default=None, help="Output directory (default: auto-detected from subfolder)")
+    run_all_p.add_argument("--no-export", action="store_true", help="Disable automatic CSV export")
     run_all_p.add_argument("--dry-run", action="store_true", help="Dry run without writing to Neo4j")
 
     # 3. extract
@@ -201,7 +215,7 @@ def main():
     export_p = subparsers.add_parser("export", help="Export Knowledge Graph from Neo4j into intuitive CSV files")
     export_p.add_argument("--output-dir", default="data/exports", help="Output directory for CSV files (default: data/exports)")
     export_p.add_argument("--category", default=None, help="Document category subfolder (e.g. hypertension, diabetes)")
-    export_p.add_argument("--source-doc", default=None, help="Filter export by specific source document (e.g. hypertension_sample.txt)")
+    export_p.add_argument("--source-doc", default=None, help="Filter export by specific source document (e.g. 01_tanghuyetap.txt)")
     export_p.add_argument("--clear-db", action="store_true", help="Clear all data in Neo4j database")
 
     # 6. verify-dict
@@ -222,6 +236,7 @@ def main():
             passes=args.passes,
             min_confidence=args.min_confidence,
             output_dir=args.output_dir,
+            export_csv=not args.no_export,
             dry_run=args.dry_run,
         )
     elif args.command == "extract":
