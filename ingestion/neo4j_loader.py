@@ -1,4 +1,4 @@
-"""Idempotent Neo4j Ingestion Module using Deterministic resolved_key Unique Constraints."""
+"""Idempotent Neo4j Ingestion Module using Specific Medical Entity Labels."""
 
 import argparse
 import json
@@ -59,11 +59,9 @@ class Neo4jLoader:
         return f"{ent_type}:{norm_name}"
 
     def setup_constraints(self, session):
-        """Create uniqueness constraint for Entity base label."""
-        queries = [
-            "CREATE CONSTRAINT IF NOT EXISTS FOR (n:Entity) REQUIRE n.resolved_key IS UNIQUE"
-        ]
-        for q in queries:
+        """Create uniqueness constraints for each specific entity label."""
+        for ent_label in ENTITY_TYPES.keys():
+            q = f"CREATE CONSTRAINT IF NOT EXISTS FOR (n:`{ent_label}`) REQUIRE n.resolved_key IS UNIQUE"
             try:
                 session.run(q)
             except Exception as e:
@@ -76,7 +74,7 @@ class Neo4jLoader:
         source_doc: str = "document.txt",
         dry_run: bool = False,
     ) -> Dict[str, Any]:
-        """Ingest entities and relations into Neo4j with idempotency and provenance tracking."""
+        """Ingest entities and relations into Neo4j with specific labels for rich visual coloring."""
         if dry_run:
             logger.info(f"[Dry-Run] Ingesting {len(entities)} nodes and {len(relations)} edges for '{source_doc}'")
             return {
@@ -89,33 +87,31 @@ class Neo4jLoader:
         driver = self._get_driver()
         entity_key_map: Dict[str, str] = {}
 
-        # Handle Aura and custom database names
         session_kwargs = {}
         if self.database and self.database not in ("neo4j", "default", ""):
             session_kwargs["database"] = self.database
 
         with driver.session(**session_kwargs) as session:
-            # 1. Setup constraints
+            # 1. Setup constraints on specific labels
             self.setup_constraints(session)
 
-            # 2. Ingest Nodes (MERGE on base :Entity and dynamically SET specific label)
+            # 2. Ingest Nodes (MERGE directly on specific label like :Disease, :DrugClass, :Organ)
             for ent in entities:
                 resolved_key = self.compute_resolved_key(ent)
                 ent_id = ent.get("id", "")
                 if ent_id:
                     entity_key_map[ent_id] = resolved_key
 
-                ent_type = ent.get("entity_type", "Entity")
-                label = ent_type if ent_type in ENTITY_TYPES else "Entity"
+                ent_type = ent.get("entity_type", "Disease")
+                label = ent_type if ent_type in ENTITY_TYPES else "Disease"
 
                 node_query = f"""
-                MERGE (n:Entity {{resolved_key: $resolved_key}})
+                MERGE (n:`{label}` {{resolved_key: $resolved_key}})
                 ON CREATE SET
                     n.created_at = datetime()
                 ON MATCH SET
                     n.updated_at = datetime()
-                SET n:`{label}`,
-                    n.name = $name,
+                SET n.name = $name,
                     n.normalized_name = $normalized_name,
                     n.entity_type = $entity_type,
                     n.umls_cui = $umls_cui,
@@ -152,8 +148,8 @@ class Neo4jLoader:
                     continue
 
                 rel_query = f"""
-                MATCH (s:Entity {{resolved_key: $src_key}})
-                MATCH (t:Entity {{resolved_key: $tgt_key}})
+                MATCH (s {{resolved_key: $src_key}})
+                MATCH (t {{resolved_key: $tgt_key}})
                 MERGE (s)-[r:`{rel_type}`]->(t)
                 ON CREATE SET
                     r.evidence_span = $evidence_span,
@@ -163,8 +159,7 @@ class Neo4jLoader:
                     r.relation_properties = $relation_properties,
                     r.source_document = $source_doc,
                     r.schema_version = $schema_version,
-                    r.created_at = datetime(),
-                    r.updated_at = datetime()
+                    r.created_at = datetime()
                 ON MATCH SET
                     r.confidence = $confidence,
                     r.agreement_count = $agreement_count,
