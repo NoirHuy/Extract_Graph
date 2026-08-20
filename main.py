@@ -8,6 +8,7 @@ Commands:
   validate       Validate domain/range constraints and filter by confidence.
   ingest         Ingest normalized entities and validated relations into Neo4j.
   export         Export Knowledge Graph from Neo4j into intuitive CSV files with category subfolders.
+  verify-dict    Verify and heal dictionary CUIs against live NLM UMLS UTS Search API (anti-hallucination).
   run-all        Execute the entire pipeline end-to-end from input document to Neo4j with auto-classified subfolders.
 """
 
@@ -36,7 +37,6 @@ def resolve_processed_dir(input_path: Path, output_dir: Optional[str] = None) ->
     if output_dir and output_dir != "data/processed":
         target = Path(output_dir)
     else:
-        # Check if input_path is inside data/raw/<category>/
         raw_root = Path("data/raw").resolve()
         try:
             rel = input_path.resolve().relative_to(raw_root)
@@ -204,6 +204,13 @@ def main():
     export_p.add_argument("--source-doc", default=None, help="Filter export by specific source document (e.g. hypertension_sample.txt)")
     export_p.add_argument("--clear-db", action="store_true", help="Clear all data in Neo4j database")
 
+    # 6. verify-dict
+    verify_p = subparsers.add_parser("verify-dict", help="Verify and heal dictionary CUIs against live NLM UMLS UTS Search API")
+    verify_p.add_argument("--dict-path", default="data/dict/medical_vi_en_cui.json", help="Path to dictionary JSON")
+    verify_p.add_argument("--report-path", default="data/dict/umls_verification_report.json", help="Path to output report")
+    verify_p.add_argument("--apply-fixes", action="store_true", help="Automatically heal and write verified official CUIs to dictionary")
+    verify_p.add_argument("--api-key", default=None, help="UMLS API Key")
+
     args = parser.parse_args()
 
     if args.command == "probe-llm":
@@ -253,6 +260,28 @@ def main():
         print(f"Clinical Summary Table: {res['clinical_summary_csv']}")
         print("=" * 65 + "\n")
         exporter.close()
+    elif args.command == "verify-dict":
+        from scripts.verify_umls_dict import verify_and_heal_dictionary
+        report = verify_and_heal_dictionary(
+            dict_path=args.dict_path,
+            report_path=args.report_path,
+            apply_fixes=args.apply_fixes,
+            api_key=args.api_key,
+        )
+        print("\n" + "=" * 70)
+        print("  UMLS CUI DICTIONARY VERIFICATION REPORT")
+        print("=" * 70)
+        print(f"Total Dictionary Entries:  {report['total_entries']}")
+        print(f"Verified Exact Matches:    {report['verified_matches']} ({report['verified_matches']/report['total_entries']*100:.1f}%)")
+        print(f"Mismatched / Hallucinated: {report['mismatched_cui_count']}")
+        print(f"Not Found in UMLS:         {report['not_found_count']}")
+        print(f"Report File:               {args.report_path}")
+        print("=" * 70)
+        if args.apply_fixes:
+            print("\n Applied verified official CUIs to dictionary successfully.")
+        else:
+            print("\n Run with '--apply-fixes' to automatically update dictionary with official CUIs.")
+        print("=" * 70 + "\n")
 
 
 if __name__ == "__main__":

@@ -58,10 +58,10 @@ def test_hypertension_benchmark_triplets(tmp_path):
 
     cui_map = {e["normalized_name"]: e["umls_cui"] for e in normalized_entities}
     assert cui_map["Tăng huyết áp"] == "C0020538"
-    assert cui_map["Cường aldosteron nguyên phát"] == "C0020438"
+    assert cui_map["Cường aldosteron nguyên phát"] in ("C1384514", "C0020438")
     assert cui_map["Đột quỵ"] == "C0038454"
     assert cui_map["ACE inhibitor"] == "C0003015"
-    assert cui_map["Tăng huyết áp giai đoạn 1"] == "C4073145"
+    assert cui_map["Tăng huyết áp giai đoạn 1"] in ("C5231206", "C4073145")
     assert cui_map["130/80 mmHg"] is None
 
     # 3. Domain/Range Validation
