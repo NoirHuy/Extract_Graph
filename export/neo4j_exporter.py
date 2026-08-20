@@ -162,9 +162,12 @@ class Neo4jExporter:
         self,
         output_dir: str = "data/exports",
         source_doc: Optional[str] = None,
+        category: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Export nodes, relationships, and human-readable clinical summary in Vietnamese to CSV files."""
         out_path = Path(output_dir)
+        if category and not output_dir.endswith(category):
+            out_path = out_path / category
         out_path.mkdir(parents=True, exist_ok=True)
 
         nodes = self.fetch_nodes(source_doc=source_doc)
@@ -248,8 +251,9 @@ class Neo4jExporter:
                     "Tài liệu nguồn": r.get("source_document"),
                 })
 
-        logger.info(f"Successfully exported {len(nodes)} nodes and {len(relationships)} relationships to {output_dir}")
+        logger.info(f"Successfully exported {len(nodes)} nodes and {len(relationships)} relationships to {out_path}")
         return {
+            "output_dir": str(out_path),
             "nodes_csv": str(nodes_csv_file),
             "relations_csv": str(relations_csv_file),
             "clinical_summary_csv": str(summary_csv_file),
@@ -261,6 +265,7 @@ class Neo4jExporter:
 def main():
     parser = argparse.ArgumentParser(description="Export Knowledge Graph from Neo4j to CSV files")
     parser.add_argument("--output-dir", default="data/exports", help="Output directory for CSV files (default: data/exports)")
+    parser.add_argument("--category", default=None, help="Document category subfolder (e.g. hypertension, diabetes)")
     parser.add_argument("--source-doc", default=None, help="Filter export by specific source document name")
     parser.add_argument("--clear-db", action="store_true", help="Clear all data from Neo4j database")
     args = parser.parse_args()
@@ -272,12 +277,13 @@ def main():
         exporter.close()
         return
 
-    res = exporter.export_all_to_csv(output_dir=args.output_dir, source_doc=args.source_doc)
+    res = exporter.export_all_to_csv(output_dir=args.output_dir, source_doc=args.source_doc, category=args.category)
     print("\n" + "=" * 65)
     print("  EXPORT COMPLETED SUCCESSFULLY")
     print("=" * 65)
     if args.source_doc:
         print(f"Filtered by Document: {args.source_doc}")
+    print(f"Target Directory: {res['output_dir']}")
     print(f"Exported Nodes ({res['nodes_count']}): {res['nodes_csv']}")
     print(f"Exported Triplets ({res['relations_count']}): {res['relations_csv']}")
     print(f"Clinical Summary Table: {res['clinical_summary_csv']}")
