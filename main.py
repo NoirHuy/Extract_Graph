@@ -7,6 +7,7 @@ Commands:
   normalize      Map normalized_name to UMLS CUI using 3-tier hybrid strategy.
   validate       Validate domain/range constraints and filter by confidence.
   ingest         Ingest normalized entities and validated relations into Neo4j.
+  export         Export Knowledge Graph from Neo4j into intuitive CSV files.
   run-all        Execute the entire pipeline end-to-end from input document to Neo4j.
 """
 
@@ -17,6 +18,7 @@ import sys
 from pathlib import Path
 
 from edc_config import get_settings
+from export.neo4j_exporter import Neo4jExporter
 from extraction.extract import run_extraction_pipeline
 from extraction.llm_client import LLMClient
 from ingestion.neo4j_loader import Neo4jLoader
@@ -172,6 +174,10 @@ def main():
     ingest_p.add_argument("--source-doc", default="document.txt", help="Source document name")
     ingest_p.add_argument("--dry-run", action="store_true", help="Dry run without writing to Neo4j")
 
+    # 5. export
+    export_p = subparsers.add_parser("export", help="Export Knowledge Graph from Neo4j into intuitive CSV files")
+    export_p.add_argument("--output-dir", default="data/exports", help="Output directory for CSV files (default: data/exports)")
+
     args = parser.parse_args()
 
     if args.command == "probe-llm":
@@ -197,6 +203,17 @@ def main():
         loader = Neo4jLoader()
         summary = loader.ingest_graph(ents, rels, source_doc=args.source_doc, dry_run=args.dry_run)
         print(json.dumps(summary, indent=2))
+    elif args.command == "export":
+        exporter = Neo4jExporter()
+        res = exporter.export_all_to_csv(output_dir=args.output_dir)
+        print("\n" + "=" * 65)
+        print("  EXPORT COMPLETED SUCCESSFULLY")
+        print("=" * 65)
+        print(f"Exported Nodes ({res['nodes_count']}): {res['nodes_csv']}")
+        print(f"Exported Triplets ({res['relations_count']}): {res['relations_csv']}")
+        print(f"Clinical Summary Table: {res['clinical_summary_csv']}")
+        print("=" * 65 + "\n")
+        exporter.close()
 
 
 if __name__ == "__main__":
