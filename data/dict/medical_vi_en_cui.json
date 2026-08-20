@@ -2132,5 +2132,1751 @@
     "cui": "C0020428",
     "tui": "T047",
     "entity_type": "Cause"
+  },
+  "uống nhiều": {
+    "en": "Polydipsia",
+    "cui": "C0085602",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "khát nhiều": {
+    "en": "Polydipsia",
+    "cui": "C0085602",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "tiểu nhiều": {
+    "en": "Polyuria",
+    "cui": "C0032617",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "nhìn mờ": {
+    "en": "Blurred vision",
+    "cui": "C0344232",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "bệnh mạch máu": {
+    "en": "Vascular disease",
+    "cui": "C0042373",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "bệnh thần kinh ngoại vi": {
+    "en": "Peripheral neuropathy",
+    "cui": "C0031117",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "định lượng glucose huyết tương": {
+    "en": "Plasma glucose measurement",
+    "cui": "C0202042",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "chế độ ăn kiêng": {
+    "en": "Diet therapy",
+    "cui": "C0012159",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "bệnh lý tim mạch": {
+    "en": "Cardiovascular disease",
+    "cui": "C0007222",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "suy giảm điều hòa glucose": {
+    "en": "Impaired glucose regulation",
+    "cui": "C4302025",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "rối loạn dung nạp glucose": {
+    "en": "Impaired glucose tolerance",
+    "cui": "C0271650",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "rối loạn glucose lúc đói": {
+    "en": "Impaired fasting glucose",
+    "cui": "C1272092",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "già hóa": {
+    "en": "Aging",
+    "cui": "C0001811",
+    "tui": "T040",
+    "entity_type": "RiskFactor"
+  },
+  "albumin niệu": {
+    "en": "Albuminuria",
+    "cui": "C0001925",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "mạch máu nhỏ": {
+    "en": "Small blood vessel",
+    "cui": "C0225988",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "mạch máu lớn": {
+    "en": "Great vessels",
+    "cui": "C0225991",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "bệnh vi mạch": {
+    "en": "Microvascular disease",
+    "cui": "C0206064",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "vết loét": {
+    "en": "Ulcer",
+    "cui": "C0041582",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "nhiễm trùng": {
+    "en": "Infection",
+    "cui": "C3714514",
+    "tui": "T046",
+    "entity_type": "Cause"
+  },
+  "chi dưới": {
+    "en": "Lower limb",
+    "cui": "C0023216",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "glucose huyết tương": {
+    "en": "Plasma glucose",
+    "cui": "C0202042",
+    "tui": "T059",
+    "entity_type": "Measurement"
+  },
+  "rối loạn chức năng miễn dịch": {
+    "en": "Immune dysfunction",
+    "cui": "C0015674",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "miễn dịch tế bào": {
+    "en": "Cell-mediated immunity",
+    "cui": "C0020966",
+    "tui": "T040",
+    "entity_type": "Mechanism"
+  },
+  "nhiễm trùng do vi khuẩn": {
+    "en": "Bacterial infection",
+    "cui": "C0004623",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "nhiễm trùng do nấm": {
+    "en": "Fungal infection",
+    "cui": "C0026946",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "tế bào beta": {
+    "en": "Beta cell",
+    "cui": "C0030281",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "tuyến tụy": {
+    "en": "Pancreas",
+    "cui": "C0030274",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "đái tháo đường loại 1": {
+    "en": "Type 1 diabetes mellitus",
+    "cui": "C0011854",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "lada": {
+    "en": "Latent autoimmune diabetes in adults",
+    "cui": "C1739108",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đái tháo đường loại 2": {
+    "en": "Type 2 diabetes mellitus",
+    "cui": "C0011860",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "gen nhạy cảm": {
+    "en": "Susceptibility gene",
+    "cui": "C0919453",
+    "tui": "T000",
+    "entity_type": "RiskFactor"
+  },
+  "glutamic acid decarboxylase": {
+    "en": "Glutamate decarboxylase",
+    "cui": "C0017785",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "tế bào t": {
+    "en": "T-lymphocyte",
+    "cui": "C0039194",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "glucagon": {
+    "en": "Glucagon",
+    "cui": "C0772088",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "tế bào alpha": {
+    "en": "Alpha cell",
+    "cui": "C0030280",
+    "tui": "T025",
+    "entity_type": "Organ"
+  },
+  "coxsackievirus": {
+    "en": "Coxsackievirus",
+    "cui": "C0010247",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "sản phẩm từ sữa": {
+    "en": "Dairy products",
+    "cui": "C0010947",
+    "tui": "T168",
+    "entity_type": "RiskFactor"
+  },
+  "thiếu hụt vitamin d": {
+    "en": "Vitamin D deficiency",
+    "cui": "C0042870",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "suy giảm khả năng dung nạp glucose": {
+    "en": "Impaired glucose tolerance",
+    "cui": "C0271650",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đa hình di truyền": {
+    "en": "Genetic polymorphism",
+    "cui": "C0032529",
+    "tui": "T045",
+    "entity_type": "RiskFactor"
+  },
+  "tiết insulin": {
+    "en": "Insulin secretion",
+    "cui": "C1256369",
+    "tui": "T043",
+    "entity_type": "Mechanism"
+  },
+  "proinsulin": {
+    "en": "Proinsulin",
+    "cui": "C0033362",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "polypeptit amyloid của đảo tụy": {
+    "en": "Islet amyloid polypeptide",
+    "cui": "C0063684",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "axit béo tự do": {
+    "en": "Free fatty acids",
+    "cui": "C0015688",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "mô mỡ": {
+    "en": "Adipose tissue",
+    "cui": "C0001527",
+    "tui": "T024",
+    "entity_type": "Organ"
+  },
+  "cân nặng sơ sinh thấp": {
+    "en": "Low birth weight",
+    "cui": "C0024032",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "bệnh tiểu đường đơn nguyên": {
+    "en": "Monogenic diabetes",
+    "cui": "C3888631",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "khiếm khuyết di truyền": {
+    "en": "Genetic defect",
+    "cui": "C5238705",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "mody": {
+    "en": "Maturity-onset diabetes of the young",
+    "cui": "C0342276",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh tiểu đường ở trẻ sơ sinh": {
+    "en": "Neonatal diabetes mellitus",
+    "cui": "C0158981",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh xơ nang": {
+    "en": "Cystic fibrosis",
+    "cui": "C0010674",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "viêm tụy": {
+    "en": "Pancreatitis",
+    "cui": "C0030305",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "bệnh huyết sắc tố": {
+    "en": "Hemoglobinopathy",
+    "cui": "C0019045",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "cắt bỏ tuyến tụy toàn bộ": {
+    "en": "Total pancreatectomy",
+    "cui": "C0040511",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "glucocorticoid": {
+    "en": "Glucocorticoids",
+    "cui": "C0017710",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "thuốc ức chế protease": {
+    "en": "Protease inhibitors",
+    "cui": "C0033607",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc ức chế điểm kiểm soát miễn dịch": {
+    "en": "Immune checkpoint inhibitor",
+    "cui": "C4684977",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc ức chế calcineurin": {
+    "en": "Calcineurin inhibitor",
+    "cui": "C1562036",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "đái tháo đường thai kỳ": {
+    "en": "Gestational diabetes mellitus",
+    "cui": "C0085207",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "glucose niệu": {
+    "en": "Glycosuria",
+    "cui": "C0017979",
+    "tui": "T033",
+    "entity_type": "Sign"
+  },
+  "lợi tiểu thẩm thấu": {
+    "en": "Osmotic diuresis",
+    "cui": "C0232823",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "hạ huyết áp tư thế": {
+    "en": "Orthostatic hypotension",
+    "cui": "C0020651",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "mất nước": {
+    "en": "Dehydration",
+    "cui": "C0011175",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "đái tháo đường toan ceton": {
+    "en": "Diabetic ketoacidosis",
+    "cui": "C0011880",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "không dung nạp glucose": {
+    "en": "Impaired glucose tolerance",
+    "cui": "C0271650",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "giai đoạn 3": {
+    "en": "Stage 3",
+    "cui": "C0441771",
+    "tui": "T170",
+    "entity_type": "DiseaseSubtype"
+  },
+  "xét nghiệm thường xuyên": {
+    "en": "Routine test",
+    "cui": "C0011930",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "biến chứng đái tháo đường": {
+    "en": "Diabetic complication",
+    "cui": "C0342257",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "tăng đường huyết tăng áp lực thẩm thấu": {
+    "en": "Hyperosmolar hyperglycemic state",
+    "cui": "C3888846",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "glycosylated hemoglobin": {
+    "en": "Glycated hemoglobin",
+    "cui": "C0017853",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "đo glucose huyết tương": {
+    "en": "Plasma glucose measurement",
+    "cui": "C0202042",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "fasting plasma glucose": {
+    "en": "Fasting plasma glucose",
+    "cui": "C0583513",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "ogtt": {
+    "en": "Oral glucose tolerance test",
+    "cui": "C0029161",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "blood glucose": {
+    "en": "Blood glucose",
+    "cui": "C0005802",
+    "tui": "T109",
+    "entity_type": "Measurement"
+  },
+  "clinical laboratory": {
+    "en": "Clinical laboratory",
+    "cui": "C4684595",
+    "tui": "T073",
+    "entity_type": "Treatment"
+  },
+  "diabetes mellitus": {
+    "en": "Diabetes mellitus",
+    "cui": "C0011849",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "urine glucose test": {
+    "en": "Urine glucose test",
+    "cui": "C0427747",
+    "tui": "T034",
+    "entity_type": "Test"
+  },
+  "khám bàn chân": {
+    "en": "Foot examination",
+    "cui": "C0419882",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "monofilament test": {
+    "en": "Monofilament test",
+    "cui": "C1277175",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "loét": {
+    "en": "Ulcer",
+    "cui": "C0041582",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "hoại thư": {
+    "en": "Gangrene",
+    "cui": "C0017086",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "xét nghiệm nước tiểu": {
+    "en": "Urinalysis",
+    "cui": "C0042014",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "creatinine huyết thanh": {
+    "en": "Serum creatinine",
+    "cui": "C0201976",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "xét nghiệm lipid máu": {
+    "en": "Lipid panel",
+    "cui": "C0200382",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "đánh giá nguy cơ tim mạch": {
+    "en": "Cardiovascular risk assessment",
+    "cui": "C4275194",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "thuốc chủ vận thụ thể glp-1": {
+    "en": "Glucagon-like peptide-1 receptor agonist",
+    "cui": "C1562104",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "statin": {
+    "en": "HMG-CoA reductase inhibitor",
+    "cui": "C0360714",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "liệu pháp insulin": {
+    "en": "Insulin therapy",
+    "cui": "C0021646",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "insulin theo thang trượt": {
+    "en": "Sliding scale insulin",
+    "cui": "C0557977",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc hạ đường huyết không insulin": {
+    "en": "Non-insulin antidiabetic drug",
+    "cui": "C5676266",
+    "tui": "T033",
+    "entity_type": "DrugClass"
+  },
+  "bệnh tim mạch do xơ vữa": {
+    "en": "Atherosclerotic cardiovascular disease",
+    "cui": "C0004153",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "glp-1 receptor agonist": {
+    "en": "Glucagon-like peptide-1 receptor agonist",
+    "cui": "C1562104",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tirzepatide": {
+    "en": "Tirzepatide",
+    "cui": "C5139934",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "glp-1 receptor agonists": {
+    "en": "Glucagon-like peptide-1 receptor agonists",
+    "cui": "C1562104",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "type 2 diabetes mellitus": {
+    "en": "Type 2 diabetes mellitus",
+    "cui": "C0011860",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "obesity": {
+    "en": "Obesity",
+    "cui": "C0028754",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "atherosclerotic cardiovascular disease": {
+    "en": "Atherosclerotic cardiovascular disease",
+    "cui": "C0004153",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "sglt2 inhibitors": {
+    "en": "Sodium-Glucose Cotransporter 2 Inhibitors",
+    "cui": "C3838944",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "myocardial infarction": {
+    "en": "Myocardial infarction",
+    "cui": "C0027051",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "stroke": {
+    "en": "Cerebrovascular accident",
+    "cui": "C0038454",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "chronic kidney disease": {
+    "en": "Chronic kidney disease",
+    "cui": "C1561643",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "heart failure": {
+    "en": "Heart failure",
+    "cui": "C0018801",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "pioglitazone": {
+    "en": "Pioglitazone",
+    "cui": "C0071097",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "metabolic dysfunction-associated steatotic liver disease": {
+    "en": "Metabolic dysfunction-associated steatotic liver disease",
+    "cui": "C0400966",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "metabolic dysfunction-associated steatohepatitis": {
+    "en": "Metabolic dysfunction-associated steatohepatitis",
+    "cui": "C3241937",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hyperosmolar hyperglycemic state": {
+    "en": "Hyperosmolar hyperglycemic state",
+    "cui": "C3888846",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "diabetic ketoacidosis": {
+    "en": "Diabetic ketoacidosis",
+    "cui": "C0011880",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "masld": {
+    "en": "Metabolic dysfunction-associated steatotic liver disease",
+    "cui": "C0400966",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "mash": {
+    "en": "Metabolic dysfunction-associated steatohepatitis",
+    "cui": "C3241937",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tự theo dõi": {
+    "en": "Self-monitoring",
+    "cui": "C0588436",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "theo dõi đường huyết liên tục": {
+    "en": "Continuous glucose monitoring",
+    "cui": "C4523945",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "biến chứng tiểu đường": {
+    "en": "Diabetic complication",
+    "cui": "C0342257",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "chương trình giáo dục bệnh tiểu đường": {
+    "en": "Diabetes education program",
+    "cui": "C1532353",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "glucose": {
+    "en": "Glucose",
+    "cui": "C0017725",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "thuốc hạ đường huyết": {
+    "en": "Hypoglycemic agents",
+    "cui": "C0020616",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tỷ lệ carbohydrate-to-insulin": {
+    "en": "Carbohydrate-to-insulin ratio",
+    "cui": "C5230552",
+    "tui": "T081",
+    "entity_type": "Measurement"
+  },
+  "carbohydrate-to-insulin ratio": {
+    "en": "Carbohydrate-to-insulin ratio",
+    "cui": "C5230552",
+    "tui": "T081",
+    "entity_type": "Test"
+  },
+  "chỉ số đường huyết": {
+    "en": "Blood glucose level",
+    "cui": "C0428554",
+    "tui": "T034",
+    "entity_type": "Test"
+  },
+  "tư vấn dinh dưỡng": {
+    "en": "Nutritional counseling",
+    "cui": "C0582887",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "bài tập thể dục nhịp điệu": {
+    "en": "Aerobic exercise",
+    "cui": "C0001701",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "bài tập sức đề kháng": {
+    "en": "Resistance training",
+    "cui": "C0872279",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "glucose máu": {
+    "en": "Blood glucose",
+    "cui": "C0005802",
+    "tui": "T109",
+    "entity_type": "Test"
+  },
+  "carbohydrate": {
+    "en": "Carbohydrates",
+    "cui": "C0007004",
+    "tui": "T109",
+    "entity_type": "Treatment"
+  },
+  "nghiệm pháp gắng sức": {
+    "en": "Exercise stress test",
+    "cui": "C0015260",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "bệnh thần kinh do đái tháo đường": {
+    "en": "Diabetic neuropathy",
+    "cui": "C0011882",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "bệnh võng mạc do đái tháo đường": {
+    "en": "Diabetic retinopathy",
+    "cui": "C0011884",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thuốc ức chế sglt-2": {
+    "en": "Sodium-glucose cotransporter 2 inhibitors",
+    "cui": "C3838944",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc ức chế dpp-4": {
+    "en": "Dipeptidyl-peptidase IV inhibitors",
+    "cui": "C1827106",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "semaglutide": {
+    "en": "Semaglutide",
+    "cui": "C3885068",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "liraglutide": {
+    "en": "Liraglutide",
+    "cui": "C1456408",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "orlistat": {
+    "en": "Orlistat",
+    "cui": "C0076275",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "phentermine/topiramate": {
+    "en": "Phentermine/Topiramate",
+    "cui": "C3475162",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "naltrexone/bupropion": {
+    "en": "Naltrexone and bupropion",
+    "cui": "C3858054",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tiền đái tháo đường": {
+    "en": "Prediabetes",
+    "cui": "C0362046",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hydrogel uống": {
+    "en": "Oral hydrogel",
+    "cui": "C4288711",
+    "tui": "T122",
+    "entity_type": "Treatment"
+  },
+  "bóng dạ dày": {
+    "en": "Intragastric balloon",
+    "cui": "C4763910",
+    "tui": "T060",
+    "entity_type": "Treatment"
+  },
+  "kích thích dây thần kinh phế vị": {
+    "en": "Vagus nerve stimulation",
+    "cui": "C2350432",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "hút dịch dạ dày": {
+    "en": "Gastric aspiration",
+    "cui": "C0004052",
+    "tui": "T037",
+    "entity_type": "Treatment"
+  },
+  "chăm sóc bàn chân": {
+    "en": "Foot care",
+    "cui": "C0150240",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "mất cảm giác": {
+    "en": "Anesthesia",
+    "cui": "C0278134",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "loét bàn chân": {
+    "en": "Foot ulcer",
+    "cui": "C0085119",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "cắt cụt ngón chân": {
+    "en": "Toe amputation",
+    "cui": "C0188602",
+    "tui": "T061",
+    "entity_type": "DiseaseSubtype"
+  },
+  "ngón chân búa": {
+    "en": "Hammer toe",
+    "cui": "C1136179",
+    "tui": "T190",
+    "entity_type": "DiseaseSubtype"
+  },
+  "loét chân do bệnh lý thần kinh": {
+    "en": "Diabetic neuropathic foot ulcer",
+    "cui": "C0406526",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "cắt lọc": {
+    "en": "Debridement",
+    "cui": "C0011079",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "kháng sinh": {
+    "en": "Antibiotics",
+    "cui": "C0003232",
+    "tui": "T195",
+    "entity_type": "DrugClass"
+  },
+  "viêm tủy xương": {
+    "en": "Osteomyelitis",
+    "cui": "C0029443",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "phẫu thuật cắt bỏ đầu xương bàn chân": {
+    "en": "Metatarsal head resection",
+    "cui": "C1960574",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "cắt cụt xuyên xương bàn chân": {
+    "en": "Transmetatarsal amputation",
+    "cui": "C0812427",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "khớp thần kinh (charcot)": {
+    "en": "Charcot joint",
+    "cui": "C0003892",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thiết bị chỉnh hình": {
+    "en": "Orthotic device",
+    "cui": "C0029365",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "tiêm chủng": {
+    "en": "Vaccination",
+    "cui": "C0042196",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "streptococcus pneumoniae": {
+    "en": "Streptococcus pneumoniae",
+    "cui": "C0038410",
+    "tui": "T007",
+    "entity_type": "Disease"
+  },
+  "cúm": {
+    "en": "Influenza",
+    "cui": "C0021400",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "viêm gan b": {
+    "en": "Hepatitis B",
+    "cui": "C0019163",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thủy đậu": {
+    "en": "Chickenpox",
+    "cui": "C0008049",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "covid-19": {
+    "en": "COVID-19",
+    "cui": "C5203670",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "ghép tụy": {
+    "en": "Pancreas transplantation",
+    "cui": "C0030275",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "ghép tế bào đảo tụy": {
+    "en": "Islet cell transplantation",
+    "cui": "C5784667",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "xét nghiệm máu": {
+    "en": "Blood test",
+    "cui": "C0018941",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "cgm": {
+    "en": "Continuous glucose monitoring",
+    "cui": "C4523945",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "tir": {
+    "en": "Time in Range",
+    "cui": "C5940036",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "kiểm soát đường huyết": {
+    "en": "Glycemic control",
+    "cui": "C5392125",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "bệnh nhân": {
+    "en": "Patient",
+    "cui": "C0030705",
+    "tui": "T101",
+    "entity_type": "PatientGroup"
+  },
+  "sa sút trí tuệ": {
+    "en": "Dementia",
+    "cui": "C0497327",
+    "tui": "T048",
+    "entity_type": "Disease"
+  },
+  "thuốc gây hạ đường huyết": {
+    "en": "Hypoglycemic agents",
+    "cui": "C0020616",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "đường huyết mao mạch": {
+    "en": "Capillary blood glucose",
+    "cui": "C0457578",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "máy đo đường huyết đầu ngón tay": {
+    "en": "Blood glucose monitoring system",
+    "cui": "C3880576",
+    "tui": "T074",
+    "entity_type": "Test"
+  },
+  "que thử": {
+    "en": "Test strip",
+    "cui": "C1553116",
+    "tui": "T059",
+    "entity_type": "Treatment"
+  },
+  "continuous glucose monitoring": {
+    "en": "Continuous glucose monitoring",
+    "cui": "C4523945",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "time in range": {
+    "en": "Time in range",
+    "cui": "C5940036",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "diabetes complications": {
+    "en": "Diabetes complications",
+    "cui": "C0342257",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "hạ đường huyết nặng": {
+    "en": "Severe hypoglycemia",
+    "cui": "C0342316",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "hệ thống phân phối insulin tự động": {
+    "en": "Automated insulin delivery system",
+    "cui": "C0336563",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "hạ đường huyết không nhận biết": {
+    "en": "Hypoglycemia unawareness",
+    "cui": "C0342317",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thiếu máu thiếu sắt": {
+    "en": "Iron-deficiency anemia",
+    "cui": "C0162316",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thiếu máu tan máu": {
+    "en": "Hemolytic anemia",
+    "cui": "C0002878",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "xơ gan": {
+    "en": "Liver cirrhosis",
+    "cui": "C0023890",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "fructosamine": {
+    "en": "Fructosamine",
+    "cui": "C0060765",
+    "tui": "T109",
+    "entity_type": "Test"
+  },
+  "thay đổi hemoglobin": {
+    "en": "Hemoglobin abnormality",
+    "cui": "C0349705",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "số lượng hồng cầu cao": {
+    "en": "Erythrocytosis",
+    "cui": "C1527405",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "glucose trong nước tiểu": {
+    "en": "Urine glucose",
+    "cui": "C0004076",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "toan ceton": {
+    "en": "Diabetic ketoacidosis",
+    "cui": "C0011880",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "nôn ói": {
+    "en": "Vomiting",
+    "cui": "C0042963",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "đau bụng": {
+    "en": "Abdominal pain",
+    "cui": "C0000737",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "sốt": {
+    "en": "Fever",
+    "cui": "C0015967",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "lối sống": {
+    "en": "Lifestyle",
+    "cui": "C0023676",
+    "tui": "T054",
+    "entity_type": "RiskFactor"
+  },
+  "đái tháo đường không ổn định": {
+    "en": "Brittle diabetes",
+    "cui": "C0342302",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "liệt dạ dày": {
+    "en": "Gastroparesis",
+    "cui": "C0152020",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "bệnh addison": {
+    "en": "Addison's disease",
+    "cui": "C0001403",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "rối loạn hấp thu carbonhydrate": {
+    "en": "Carbohydrate malabsorption",
+    "cui": "C0341293",
+    "tui": "T046",
+    "entity_type": "Mechanism"
+  },
+  "tự chăm sóc": {
+    "en": "Self-care",
+    "cui": "C0036592",
+    "tui": "T056",
+    "entity_type": "Treatment"
+  },
+  "thử glucose máu": {
+    "en": "Blood glucose test",
+    "cui": "C0587359",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "chế độ ăn uống": {
+    "en": "Dietary regimen",
+    "cui": "C2364379",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "khám lâm sàng": {
+    "en": "Physical examination",
+    "cui": "C0031809",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "đo glucose": {
+    "en": "Glucose measurement",
+    "cui": "C0337438",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "bơm insulin": {
+    "en": "Insulin infusion pump",
+    "cui": "C3504188",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "thử glucose": {
+    "en": "Glucose test",
+    "cui": "C0017741",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "biến chứng vi mạch": {
+    "en": "Microvascular complication",
+    "cui": "C2673520",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "thiếu niên": {
+    "en": "Adolescent",
+    "cui": "C0205653",
+    "tui": "T100",
+    "entity_type": "PatientGroup"
+  },
+  "tuổi vị thành niên": {
+    "en": "Adolescence",
+    "cui": "C0001578",
+    "tui": "T079",
+    "entity_type": "RiskFactor"
+  },
+  "yếu tố tâm lý xã hội": {
+    "en": "Psychosocial factor",
+    "cui": "C0033963",
+    "tui": "T080",
+    "entity_type": "RiskFactor"
+  },
+  "rối loạn tâm trạng và lo lắng": {
+    "en": "Mood and anxiety disorders",
+    "cui": "C3839284",
+    "tui": "T073",
+    "entity_type": "RiskFactor"
+  },
+  "xung đột gia đình": {
+    "en": "Family conflict",
+    "cui": "C0233542",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "rối loạn ăn uống": {
+    "en": "Eating disorders",
+    "cui": "C0013473",
+    "tui": "T048",
+    "entity_type": "Disease"
+  },
+  "thiếu insulin": {
+    "en": "Insulin deficiency",
+    "cui": "C1837475",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "nhiễm toan ceton do đái tháo đường": {
+    "en": "Diabetic ketoacidosis",
+    "cui": "C0011880",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "can thiệp tâm lý xã hội": {
+    "en": "Psychosocial intervention",
+    "cui": "C5392103",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc tâm thần": {
+    "en": "Psychotropic drugs",
+    "cui": "C0033978",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "insulin tác dụng nhanh": {
+    "en": "Rapid-acting insulin",
+    "cui": "C0356365",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tăng đường huyết tăng thẩm thấu": {
+    "en": "Hyperosmolar hyperglycemic state",
+    "cui": "C3888846",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "sulfonylureas": {
+    "en": "Sulfonylureas",
+    "cui": "C5691274",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "nôn": {
+    "en": "Vomiting",
+    "cui": "C0042963",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "tiêu chảy": {
+    "en": "Diarrhea",
+    "cui": "C0011991",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "chán ăn": {
+    "en": "Anorexia",
+    "cui": "C1971624",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "nhiễm toan lactic": {
+    "en": "Lactic acidosis",
+    "cui": "C0001125",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "insulin nền": {
+    "en": "Basal insulin",
+    "cui": "C0537270",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "ức chế dpp-4": {
+    "en": "DPP-4 inhibitor",
+    "cui": "C1827106",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "insulin thang điểm trượt": {
+    "en": "Sliding scale insulin",
+    "cui": "C0557977",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "tử vong": {
+    "en": "Death",
+    "cui": "C1306577",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "đề kháng insulin": {
+    "en": "Insulin resistance",
+    "cui": "C0021655",
+    "tui": "T046",
+    "entity_type": "Mechanism"
+  },
+  "tăng đường huyết do căng thẳng": {
+    "en": "Stress hyperglycemia",
+    "cui": "C0342303",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh tim": {
+    "en": "Heart disease",
+    "cui": "C0018799",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "dinh dưỡng toàn phần qua đường tĩnh mạch": {
+    "en": "Total parenteral nutrition",
+    "cui": "C0030548",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "căng thẳng sinh lý của phẫu thuật": {
+    "en": "Surgical stress",
+    "cui": "C5546772",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "insulin tác dụng trung gian": {
+    "en": "Intermediate-acting insulin",
+    "cui": "C3539974",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "insulin tác dụng kéo dài": {
+    "en": "Long-acting insulin",
+    "cui": "C0304870",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "glargine": {
+    "en": "Insulin glargine",
+    "cui": "C0907402",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "detemir": {
+    "en": "Insulin detemir",
+    "cui": "C0537270",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "dextrose": {
+    "en": "Dextrose",
+    "cui": "C0017725",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "dextrose 10%": {
+    "en": "Dextrose 10%",
+    "cui": "C3265914",
+    "tui": "T200",
+    "entity_type": "Drug"
+  },
+  "dextrose 5%": {
+    "en": "Dextrose 5%",
+    "cui": "C1725310",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thuốc hạ đường huyết đường uống": {
+    "en": "Oral hypoglycemic agents",
+    "cui": "C5817333",
+    "tui": "T033",
+    "entity_type": "DrugClass"
+  },
+  "chức năng thận": {
+    "en": "Renal function test",
+    "cui": "C0022662",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "sàng lọc đái tháo đường": {
+    "en": "Diabetes mellitus screening",
+    "cui": "C0740213",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "tăng nguy cơ": {
+    "en": "Increased risk",
+    "cui": "C4699158",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "tiền sử gia đình": {
+    "en": "Family history",
+    "cui": "C0241889",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "kháng thể tế bào tiểu đảo": {
+    "en": "Islet cell antibody",
+    "cui": "C0063900",
+    "tui": "T116",
+    "entity_type": "Test"
+  },
+  "kháng thể gad": {
+    "en": "Glutamic acid decarboxylase antibody",
+    "cui": "C0443891",
+    "tui": "T116",
+    "entity_type": "Test"
+  },
+  "hdl cholesterol thấp": {
+    "en": "Low high-density lipoprotein cholesterol",
+    "cui": "C5962348",
+    "tui": "T059",
+    "entity_type": "Measurement"
+  },
+  "tăng triglyceride": {
+    "en": "Hypertriglyceridemia",
+    "cui": "C1522137",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "người châu phi": {
+    "en": "African Continental Ancestry Group",
+    "cui": "C1257891",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "người gốc tây ban nha": {
+    "en": "Hispanic or Latino",
+    "cui": "C5441846",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "người châu á": {
+    "en": "Asian people",
+    "cui": "C0078988",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "người mỹ da đỏ": {
+    "en": "Native Americans",
+    "cui": "C1515945",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "bệnh gan nhiễm mỡ": {
+    "en": "Fatty liver disease",
+    "cui": "C0400966",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "rối loạn đường huyết lúc đói": {
+    "en": "Impaired fasting glucose",
+    "cui": "C1272092",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "teplizumab": {
+    "en": "Teplizumab",
+    "cui": "C2743673",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "azathioprine": {
+    "en": "Azathioprine",
+    "cui": "C0004482",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "cyclosporine": {
+    "en": "Cyclosporine",
+    "cui": "C0010592",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "antithymocyte globulin": {
+    "en": "Antithymocyte globulin",
+    "cui": "C0003442",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "abatacept": {
+    "en": "Abatacept",
+    "cui": "C1619966",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "verapamil": {
+    "en": "Verapamil",
+    "cui": "C0042523",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "giảm cân": {
+    "en": "Weight loss",
+    "cui": "C5203233",
+    "tui": "T081",
+    "entity_type": "Treatment"
+  },
+  "hoạt động thể chất": {
+    "en": "Physical activity",
+    "cui": "C0026606",
+    "tui": "T056",
+    "entity_type": "Treatment"
+  },
+  "chỉ số khối cơ thể": {
+    "en": "Body mass index",
+    "cui": "C1305855",
+    "tui": "T201",
+    "entity_type": "Measurement"
+  },
+  "phẫu thuật giảm cân": {
+    "en": "Bariatric surgery",
+    "cui": "C1456587",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "tiền sử đái tháo đường thai kỳ": {
+    "en": "History of gestational diabetes mellitus",
+    "cui": "C2183115",
+    "tui": "T033",
+    "entity_type": "Test"
+  },
+  "thiết bị y tế": {
+    "en": "Medical device",
+    "cui": "C0025080",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "phẫu thuật chuyển hóa": {
+    "en": "Metabolic surgery",
+    "cui": "C1456587",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "vi rút rubella": {
+    "en": "Rubella virus",
+    "cui": "C0035924",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "cytomegalovirus": {
+    "en": "Cytomegalovirus",
+    "cui": "C0010825",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "vi rút epstein-barr": {
+    "en": "Epstein-Barr virus",
+    "cui": "C0014644",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "sars-cov-2": {
+    "en": "SARS-CoV-2",
+    "cui": "C5203676",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "retrovirus": {
+    "en": "Retroviridae",
+    "cui": "C0035366",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "giảm khối lượng cơ": {
+    "en": "Sarcopenia",
+    "cui": "C0872084",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "adipocytokine": {
+    "en": "adipocytokine",
+    "cui": "C1955907",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "đái tháo đường loại 1 giai đoạn 1": {
+    "en": "Type 1 diabetes mellitus stage 1",
+    "cui": "C5847614",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đái tháo đường loại 1 giai đoạn 2": {
+    "en": "Type 1 diabetes mellitus stage 2",
+    "cui": "C5847615",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tăng áp lực thẩm thấu do tăng đường huyết": {
+    "en": "Hyperosmolar hyperglycemic state",
+    "cui": "C3888846",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thuốc chẹn thụ thể angiotensin ii": {
+    "en": "Angiotensin II receptor blockers",
+    "cui": "C0521942",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "bệnh thận mạn": {
+    "en": "Chronic kidney disease",
+    "cui": "C1561643",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh gan nhiễm mỡ liên quan đến chuyển hóa": {
+    "en": "Metabolic dysfunction-associated steatotic liver disease",
+    "cui": "C0400966",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "viêm gan nhiễm mỡ liên quan đến chuyển hóa": {
+    "en": "Metabolic dysfunction-associated steatohepatitis",
+    "cui": "C3241937",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "trạng thái tăng đường huyết tăng áp lực thẩm thấu": {
+    "en": "Hyperosmolar hyperglycemic state",
+    "cui": "C3888846",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "toan ceton do đái tháo đường": {
+    "en": "Diabetic ketoacidosis",
+    "cui": "C0011880",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "máy kích thích dây thần kinh phế vị": {
+    "en": "Vagus nerve stimulator",
+    "cui": "C2959478",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "phẫu thuật cắt dạ dày hình ống": {
+    "en": "Sleeve gastrectomy",
+    "cui": "C1960816",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "vắc xin phế cầu": {
+    "en": "Pneumococcal vaccine",
+    "cui": "C0358314",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "vắc xin cúm": {
+    "en": "Influenza vaccine",
+    "cui": "C0021403",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "vắc xin viêm gan b": {
+    "en": "Hepatitis B vaccine",
+    "cui": "C2240392",
+    "tui": "T116",
+    "entity_type": "Treatment"
+  },
+  "vắc xin thủy đậu": {
+    "en": "Varicella vaccine",
+    "cui": "C3464497",
+    "tui": "T116",
+    "entity_type": "Treatment"
+  },
+  "vắc xin sars-cov-2": {
+    "en": "SARS-CoV-2 vaccine",
+    "cui": "C5387588",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "tir target range": {
+    "en": "Time in range target range",
+    "cui": "C3266158",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "time below range limit": {
+    "en": "Time below range",
+    "cui": "C5940036",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "severe hypoglycemia": {
+    "en": "Severe hypoglycemia",
+    "cui": "C0342316",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "bơm tiêm insulin": {
+    "en": "Insulin syringe",
+    "cui": "C4273932",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "tự theo dõi đường huyết": {
+    "en": "Self-monitoring of blood glucose",
+    "cui": "C0005803",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "gốc tây ban nha": {
+    "en": "Hispanic or Latino",
+    "cui": "C5441846",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "phá hủy tế bào beta": {
+    "en": "Beta cell destruction",
+    "cui": "C4290091",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "liệu pháp dược lý": {
+    "en": "Pharmacotherapy",
+    "cui": "C0013216",
+    "tui": "T061",
+    "entity_type": "Treatment"
   }
 }

@@ -24,7 +24,11 @@ Nhiệm vụ của bạn là đọc kỹ đoạn văn bản y khoa được cung
    - `Drug`: Tên hoạt chất thuốc cụ thể (vd: Spironolactone, Captopril, Amlodipine, Metformin, Salbutamol).
    - `Treatment`: Biện pháp can thiệp, phẫu thuật, thay đổi hành vi/lối sống (vd: Thay đổi lối sống, Các biện pháp điều trị không dùng thuốc, Giáo dục bệnh nhân, Liệu pháp kích hoạt Baroreflex).
    - `Test`: Kỹ thuật xét nghiệm, thăm dò, đo đạc, tiền sử (vd: ECG, Đo huyết áp, Nghiên cứu giấc ngủ, Khám thực thể, Tiền sử, HbA1c, FEV1).
-   - `Measurement`: Chỉ số định lượng / Ngưỡng số đo cụ thể có kèm giá trị hoặc đơn vị (vd: 130/80 mmHg, >= 140/90 mmHg, 1500 mg/ngày, < 3.5 mmol/L). BẮT BUỘC trích xuất thuộc tính số đo vào trường `attributes`.
+   - `Measurement`: Chỉ số định lượng / Ngưỡng số đo lâm sàng cụ thể.
+     * QUY TẮC BẮT BUỘC VỀ TÊN THỰC THỂ MEASUREMENT: Tên thực thể (`normalized_name`) BẮT BUỘC PHẢI GẮN LIỀN VỚI TÊN THÔNG SỐ / XÉT NGHIỆM ĐO LƯỜNG, TUYỆT ĐỐI KHÔNG ĐƯỢC ĐỂ MỘT CON SỐ TRƠ TRỌI!
+       - SAI: `130/80 mmHg`, `> 200 mg/dL`, `5 năm`, `> 65 tuổi`, `100 và 200 mg/dL`, `< 3.5 mmol/L`
+       - ĐÚNG: `Huyết áp lúc nghỉ >= 130/80 mmHg`, `Glucose ngẫu nhiên > 200 mg/dL`, `Thời gian sàng lọc biến chứng sau chẩn đoán: 5 năm`, `Độ tuổi: > 65 tuổi`, `Glucose huyết tương duy trì: 100 - 200 mg/dL`, `Nồng độ kali huyết tương < 3.5 mmol/L`, `HbA1c mục tiêu < 6.5%`.
+     * Trong trường `attributes`, trích xuất chi tiết: `parameter` (tên thông số đo), `value`, `unit`, `operator`, `systolic`, `diastolic`, `min_value`, `max_value`.
    - `RiskFactor`: Yếu tố nguy cơ (vd: Di truyền, Hút thuốc lá, Béo phì, Thời gian ngủ ngắn, Cam thảo, Ăn nhiều muối).
    - `Organ`: Cơ quan cơ thể (vd: Tim, Thận, Não, Mắt, Phổi, Tuyến thượng thận).
    - `Guideline`: Văn bản hướng dẫn / thang điểm phân loại lâm sàng (vd: ACC/AHA, JNC 8, Keith-Wagener-Barker, GINA, GOLD).
@@ -85,12 +89,12 @@ def get_few_shot_examples() -> List[Dict[str, Any]]:
                         },
                         {
                             "id": "e3",
-                            "text": "130/80 mmHg",
-                            "normalized_name": "130/80 mmHg",
+                            "text": "huyết áp từ 130/80 mmHg",
+                            "normalized_name": "Huyết áp xác định chẩn đoán >= 130/80 mmHg",
                             "entity_type": "Measurement",
                             "evidence_span": "Theo hướng dẫn của ACC/AHA, Tăng huyết áp giai đoạn 1 được xác định khi huyết áp từ 130/80 mmHg.",
                             "umls_cui": None,
-                            "attributes": {"systolic": 130, "diastolic": 80, "unit": "mmHg"},
+                            "attributes": {"parameter": "Huyết áp xác định chẩn đoán", "systolic": 130, "diastolic": 80, "unit": "mmHg", "operator": ">="},
                         },
                         {
                             "id": "e4",

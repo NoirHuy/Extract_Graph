@@ -77,12 +77,12 @@ def format_attributes_vn(attr_data: Any) -> str:
     if "value" in attr_dict:
         op = attr_dict.get("operator", "")
         parts.append(f"Giá trị: {op}{attr_dict['value']} {unit}".strip())
-    if "optimal_threshold" in attr_dict:
-        parts.append(f"Ngưỡng tối ưu: {attr_dict['optimal_threshold']} {unit}".strip())
+    if "parameter" in attr_dict:
+        parts.insert(0, f"Thông số: {attr_dict['parameter']}")
 
     for k, v in attr_dict.items():
         if k not in (
-            "systolic", "diastolic", "systolic_min", "systolic_max",
+            "parameter", "systolic", "diastolic", "systolic_min", "systolic_max",
             "diastolic_min", "diastolic_max", "threshold", "value",
             "operator", "unit", "optimal_threshold"
         ):
