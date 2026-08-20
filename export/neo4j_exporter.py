@@ -55,7 +55,7 @@ class Neo4jExporter:
         MATCH (n)
         WHERE NOT (labels(n) = ['Entity'])
         RETURN
-            coalesce(n.resolved_key, id(n)) AS id,
+            coalesce(n.resolved_key, elementId(n)) AS id,
             coalesce(n.name, n.normalized_name, '') AS name,
             coalesce(n.normalized_name, n.name, '') AS normalized_name,
             coalesce(n.entity_type, [lbl IN labels(n) WHERE lbl <> 'Entity'][0], 'Entity') AS entity_type,
@@ -100,7 +100,16 @@ class Neo4jExporter:
             result = session.run(query)
             return [dict(record.data()) for record in result]
 
-    def export_all_to_csv(self, output_dir: str = "data/exports") -> Dict[str, str]:
+    def _safe_open_csv(self, file_path: Path):
+        """Safely open a file for writing, with fallback if currently locked by Excel."""
+        try:
+            return open(file_path, "w", encoding="utf-8-sig", newline=""), file_path
+        except PermissionError:
+            fallback_path = file_path.with_name(f"{file_path.stem}_new{file_path.suffix}")
+            logger.warning(f"File {file_path.name} is currently locked (e.g. open in Excel). Writing to {fallback_path.name} instead.")
+            return open(fallback_path, "w", encoding="utf-8-sig", newline=""), fallback_path
+
+    def export_all_to_csv(self, output_dir: str = "data/exports") -> Dict[str, Any]:
         """Export nodes, relationships, and human-readable clinical summary to CSV files."""
         out_path = Path(output_dir)
         out_path.mkdir(parents=True, exist_ok=True)
@@ -108,12 +117,13 @@ class Neo4jExporter:
         nodes = self.fetch_nodes()
         relationships = self.fetch_relationships()
 
-        nodes_csv_file = out_path / "nodes_entities.csv"
-        relations_csv_file = out_path / "relationships_triplets.csv"
-        summary_csv_file = out_path / "clinical_knowledge_summary.csv"
+        nodes_csv_target = out_path / "nodes_entities.csv"
+        relations_csv_target = out_path / "relationships_triplets.csv"
+        summary_csv_target = out_path / "clinical_knowledge_summary.csv"
 
         # 1. Export Nodes CSV
-        with open(nodes_csv_file, "w", encoding="utf-8-sig", newline="") as f:
+        f_nodes, nodes_csv_file = self._safe_open_csv(nodes_csv_target)
+        with f_nodes as f:
             fieldnames = [
                 "id",
                 "name",
@@ -131,7 +141,8 @@ class Neo4jExporter:
                 writer.writerow(n)
 
         # 2. Export Relationships CSV
-        with open(relations_csv_file, "w", encoding="utf-8-sig", newline="") as f:
+        f_rels, relations_csv_file = self._safe_open_csv(relations_csv_target)
+        with f_rels as f:
             fieldnames = [
                 "source_name",
                 "source_type",
@@ -151,8 +162,9 @@ class Neo4jExporter:
             for r in relationships:
                 writer.writerow(r)
 
-        # 3. Export Human-Friendly Clinical Knowledge Summary Table
-        with open(summary_csv_file, "w", encoding="utf-8-sig", newline="") as f:
+        # 3. Export Human-Friendly Clinical Knowledge Summary Table (Without Confidence Column)
+        f_sum, summary_csv_file = self._safe_open_csv(summary_csv_target)
+        with f_sum as f:
             fieldnames = [
                 "STT",
                 "Thực thể nguồn (Source)",
@@ -162,7 +174,6 @@ class Neo4jExporter:
                 "Thực thể đích (Target)",
                 "Loại đích (Type)",
                 "Mã CUI đích",
-                "Độ tin cậy (%)",
                 "Đồng thuận (Passes)",
                 "Bằng chứng văn bản gốc (Evidence Span)",
                 "Tài liệu nguồn",
@@ -170,7 +181,6 @@ class Neo4jExporter:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             for idx, r in enumerate(relationships, 1):
-                conf_pct = f"{float(r.get('confidence', 1.0)) * 100:.1f}%"
                 passes_str = f"{r.get('agreement_count', 1)}/{r.get('total_passes', 1)}"
                 writer.writerow({
                     "STT": idx,
@@ -181,7 +191,6 @@ class Neo4jExporter:
                     "Thực thể đích (Target)": r.get("target_name"),
                     "Loại đích (Type)": r.get("target_type"),
                     "Mã CUI đích": r.get("target_cui") or "Chưa có",
-                    "Độ tin cậy (%)": conf_pct,
                     "Đồng thuận (Passes)": passes_str,
                     "Bằng chứng văn bản gốc (Evidence Span)": r.get("evidence_span"),
                     "Tài liệu nguồn": r.get("source_document"),
