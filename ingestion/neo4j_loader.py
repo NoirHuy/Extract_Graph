@@ -93,7 +93,12 @@ class Neo4jLoader:
         driver = self._get_driver()
         entity_key_map: Dict[str, str] = {}
 
-        with driver.session(database=self.database) as session:
+        # Handle Aura and custom database names
+        session_kwargs = {}
+        if self.database and self.database not in ("neo4j", "default", ""):
+            session_kwargs["database"] = self.database
+
+        with driver.session(**session_kwargs) as session:
             # 1. Setup constraints
             self.setup_constraints(session)
 
@@ -105,7 +110,6 @@ class Neo4jLoader:
                     entity_key_map[ent_id] = resolved_key
 
                 ent_type = ent.get("entity_type", "Entity")
-                # Sanitize label
                 label = ent_type if ent_type in ENTITY_TYPES else "Entity"
 
                 node_query = f"""
@@ -186,7 +190,7 @@ class Neo4jLoader:
                 }
                 session.run(rel_query, rel_params)
 
-        logger.info(f"Ingestion finished: {len(entities)} nodes and {len(relations)} relationships merged.")
+        logger.info(f"Ingestion finished: {len(entities)} nodes and {len(relations)} relationships merged into Neo4j.")
         return {
             "nodes_count": len(entities),
             "relations_count": len(relations),
