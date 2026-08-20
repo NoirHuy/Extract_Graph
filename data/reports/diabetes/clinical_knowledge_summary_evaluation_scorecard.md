@@ -13,4 +13,4 @@
 - Phát hiện 47 lỗi nghiêm trọng về logic lâm sàng / ngược chiều quan hệ.
 
 - **Tổng số dòng có cảnh báo/nghi vấn:** `72 / 198`
-- **Tổng số dòng đã được tự động chữa lành:** `47`
+- **Tổng số dòng đã được tự động chữa lành:** `24`

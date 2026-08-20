@@ -131,10 +131,10 @@ def test_adjudicator_scorecard_and_auto_healing(sample_csv_data):
 
     assert scorecard.total_triplets == 4
     assert 0 <= scorecard.overall_quality_score <= 100
-    assert scorecard.auto_healed_rows_count >= 1
-
-    # Check that invalid measurement CUI in row 3 was healed to "Chưa có"
-    assert healed_rows[2]["Mã CUI nguồn"] == "Chưa có"
+    # Strict filtering dropped 3 failed rows (Row 2 inverted causality, Row 3 invalid CUI, Row 4 duplicate)
+    assert len(healed_rows) == 1
+    assert healed_rows[0]["STT"] == "1"
+    assert "Cường aldosteron" in healed_rows[0]["Thực thể nguồn (Source)"]
 
 
 def test_end_to_end_multi_agent_pipeline(sample_csv_data, tmp_path):

@@ -83,39 +83,30 @@ class ChiefMedicalAdjudicator:
         for idx, row in enumerate(raw_rows, 1):
             row_copy = dict(row)
             issues = row_issues.get(idx, [])
-            healed = False
-            has_fatal_fail = False
 
-            for issue in issues:
-                if issue.status == "FAIL":
-                    if issue.suggested_fix:
-                        for k, v in issue.suggested_fix.items():
-                            if k == "source_cui":
-                                row_copy["Mã CUI nguồn"] = v
-                                healed = True
-                            elif k == "target_cui":
-                                row_copy["Mã CUI đích"] = v
-                                healed = True
-                            elif k == "relation":
-                                row_copy["Quan hệ lâm sàng (Relation)"] = v
-                                healed = True
-                            elif k == "source":
-                                row_copy["Thực thể nguồn (Source)"] = v
-                                healed = True
-                            elif k == "target":
-                                row_copy["Thực thể đích (Target)"] = v
-                                healed = True
-                    else:
-                        has_fatal_fail = True
-
-            # If a row has a fatal fail that cannot be healed, exclude it from verified dataset
-            if has_fatal_fail:
+            # Strictly DROP any triplet that failed clinical, ontology or graph reviews
+            is_failed = any(issue.status == "FAIL" for issue in issues)
+            if is_failed:
                 continue
+
+            healed = False
+            for issue in issues:
+                if issue.suggested_fix:
+                    for k, v in issue.suggested_fix.items():
+                        if k == "source_cui":
+                            row_copy["Mã CUI nguồn"] = v
+                            healed = True
+                        elif k == "target_cui":
+                            row_copy["Mã CUI đích"] = v
+                            healed = True
+                        elif k == "relation":
+                            row_copy["Quan hệ lâm sàng (Relation)"] = v
+                            healed = True
 
             if healed:
                 healed_count += 1
 
-            # Re-index STT sequentially
+            # Re-index STT sequentially from 1 to N
             row_copy["STT"] = str(len(verified_rows) + 1)
             verified_rows.append(row_copy)
 
