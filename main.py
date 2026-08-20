@@ -177,6 +177,8 @@ def main():
     # 5. export
     export_p = subparsers.add_parser("export", help="Export Knowledge Graph from Neo4j into intuitive CSV files")
     export_p.add_argument("--output-dir", default="data/exports", help="Output directory for CSV files (default: data/exports)")
+    export_p.add_argument("--source-doc", default=None, help="Filter export by specific source document (e.g. hypertension_sample.txt)")
+    export_p.add_argument("--clear-db", action="store_true", help="Clear all data in Neo4j database")
 
     args = parser.parse_args()
 
@@ -205,10 +207,18 @@ def main():
         print(json.dumps(summary, indent=2))
     elif args.command == "export":
         exporter = Neo4jExporter()
-        res = exporter.export_all_to_csv(output_dir=args.output_dir)
+        if args.clear_db:
+            exporter.clear_database()
+            print("Neo4j database cleared successfully.")
+            exporter.close()
+            return
+
+        res = exporter.export_all_to_csv(output_dir=args.output_dir, source_doc=args.source_doc)
         print("\n" + "=" * 65)
         print("  EXPORT COMPLETED SUCCESSFULLY")
         print("=" * 65)
+        if args.source_doc:
+            print(f"Filtered by Document: {args.source_doc}")
         print(f"Exported Nodes ({res['nodes_count']}): {res['nodes_csv']}")
         print(f"Exported Triplets ({res['relations_count']}): {res['relations_csv']}")
         print(f"Clinical Summary Table: {res['clinical_summary_csv']}")

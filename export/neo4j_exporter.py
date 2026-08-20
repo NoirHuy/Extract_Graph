@@ -67,16 +67,35 @@ class Neo4jExporter:
             self._driver.close()
             self._driver = None
 
-    def fetch_nodes(self) -> List[Dict[str, Any]]:
-        """Query all entity nodes from Neo4j."""
+    def clear_database(self):
+        """Detach delete all nodes and relationships in Neo4j."""
         driver = self._get_driver()
         session_kwargs = {}
         if self.database and self.database not in ("neo4j", "default", ""):
             session_kwargs["database"] = self.database
 
-        query = """
+        with driver.session(**session_kwargs) as session:
+            session.run("MATCH (n) DETACH DELETE n")
+        logger.info("Successfully cleared all nodes and relationships from Neo4j database.")
+
+    def fetch_nodes(self, source_doc: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Query entity nodes from Neo4j, optionally filtered by source_document."""
+        driver = self._get_driver()
+        session_kwargs = {}
+        if self.database and self.database not in ("neo4j", "default", ""):
+            session_kwargs["database"] = self.database
+
+        where_clauses = ["NOT (labels(n) = ['Entity'])"]
+        params = {}
+        if source_doc:
+            where_clauses.append("n.source_document = $source_doc")
+            params["source_doc"] = source_doc
+
+        where_stmt = " WHERE " + " AND ".join(where_clauses)
+
+        query = f"""
         MATCH (n)
-        WHERE NOT (labels(n) = ['Entity'])
+        {where_stmt}
         RETURN
             coalesce(n.resolved_key, elementId(n)) AS id,
             coalesce(n.name, n.normalized_name, '') AS name,
@@ -85,24 +104,31 @@ class Neo4jExporter:
             [lbl IN labels(n) WHERE lbl <> 'Entity'] AS labels,
             coalesce(n.umls_cui, '') AS umls_cui,
             coalesce(n.umls_sty, '') AS umls_sty,
-            coalesce(n.attributes, '{}') AS attributes,
+            coalesce(n.attributes, '{{}}') AS attributes,
             coalesce(n.source_document, '') AS source_document,
             toString(n.created_at) AS created_at
         ORDER BY entity_type, name
         """
         with driver.session(**session_kwargs) as session:
-            result = session.run(query)
+            result = session.run(query, params)
             return [dict(record.data()) for record in result]
 
-    def fetch_relationships(self) -> List[Dict[str, Any]]:
-        """Query all relationships with source and target details from Neo4j."""
+    def fetch_relationships(self, source_doc: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Query relationships with source and target details from Neo4j, optionally filtered by source_doc."""
         driver = self._get_driver()
         session_kwargs = {}
         if self.database and self.database not in ("neo4j", "default", ""):
             session_kwargs["database"] = self.database
 
-        query = """
+        where_stmt = ""
+        params = {}
+        if source_doc:
+            where_stmt = "WHERE r.source_document = $source_doc"
+            params["source_doc"] = source_doc
+
+        query = f"""
         MATCH (s)-[r]->(t)
+        {where_stmt}
         RETURN
             coalesce(s.name, s.normalized_name, '') AS source_name,
             coalesce(s.entity_type, [lbl IN labels(s) WHERE lbl <> 'Entity'][0], 'Entity') AS source_type,
@@ -120,7 +146,7 @@ class Neo4jExporter:
         ORDER BY source_name, relation_type, target_name
         """
         with driver.session(**session_kwargs) as session:
-            result = session.run(query)
+            result = session.run(query, params)
             return [dict(record.data()) for record in result]
 
     def _safe_open_csv(self, file_path: Path):
@@ -132,13 +158,17 @@ class Neo4jExporter:
             logger.warning(f"File {file_path.name} is currently locked (e.g. open in Excel). Writing to {fallback_path.name} instead.")
             return open(fallback_path, "w", encoding="utf-8-sig", newline=""), fallback_path
 
-    def export_all_to_csv(self, output_dir: str = "data/exports") -> Dict[str, Any]:
+    def export_all_to_csv(
+        self,
+        output_dir: str = "data/exports",
+        source_doc: Optional[str] = None,
+    ) -> Dict[str, Any]:
         """Export nodes, relationships, and human-readable clinical summary in Vietnamese to CSV files."""
         out_path = Path(output_dir)
         out_path.mkdir(parents=True, exist_ok=True)
 
-        nodes = self.fetch_nodes()
-        relationships = self.fetch_relationships()
+        nodes = self.fetch_nodes(source_doc=source_doc)
+        relationships = self.fetch_relationships(source_doc=source_doc)
 
         nodes_csv_target = out_path / "nodes_entities.csv"
         relations_csv_target = out_path / "relationships_triplets.csv"
@@ -185,7 +215,7 @@ class Neo4jExporter:
             for r in relationships:
                 writer.writerow(r)
 
-        # 3. Export Human-Friendly Clinical Knowledge Summary Table (Vietnamese Relations & No Confidence/Passes columns)
+        # 3. Export Human-Friendly Clinical Knowledge Summary Table
         f_sum, summary_csv_file = self._safe_open_csv(summary_csv_target)
         with f_sum as f:
             fieldnames = [
@@ -231,13 +261,23 @@ class Neo4jExporter:
 def main():
     parser = argparse.ArgumentParser(description="Export Knowledge Graph from Neo4j to CSV files")
     parser.add_argument("--output-dir", default="data/exports", help="Output directory for CSV files (default: data/exports)")
+    parser.add_argument("--source-doc", default=None, help="Filter export by specific source document name")
+    parser.add_argument("--clear-db", action="store_true", help="Clear all data from Neo4j database")
     args = parser.parse_args()
 
     exporter = Neo4jExporter()
-    res = exporter.export_all_to_csv(output_dir=args.output_dir)
+    if args.clear_db:
+        exporter.clear_database()
+        print("Neo4j database cleared successfully.")
+        exporter.close()
+        return
+
+    res = exporter.export_all_to_csv(output_dir=args.output_dir, source_doc=args.source_doc)
     print("\n" + "=" * 65)
     print("  EXPORT COMPLETED SUCCESSFULLY")
     print("=" * 65)
+    if args.source_doc:
+        print(f"Filtered by Document: {args.source_doc}")
     print(f"Exported Nodes ({res['nodes_count']}): {res['nodes_csv']}")
     print(f"Exported Triplets ({res['relations_count']}): {res['relations_csv']}")
     print(f"Clinical Summary Table: {res['clinical_summary_csv']}")
