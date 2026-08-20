@@ -19,6 +19,9 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 from edc_config import get_settings
 from export.neo4j_exporter import Neo4jExporter
 from extraction.extract import run_extraction_pipeline
@@ -230,6 +233,11 @@ def main():
     build_emb_p.add_argument("--dict-path", default="data/dict/medical_vi_en_cui.json", help="Path to dictionary JSON")
     build_emb_p.add_argument("--api-key", default=None, help="OpenRouter / OpenAI API Key override")
 
+    # 8. evaluate
+    eval_p = subparsers.add_parser("evaluate", help="Audit and evaluate exported Knowledge Graph CSV using the Multi-Agent Review Board")
+    eval_p.add_argument("--input", required=True, help="Path to clinical_knowledge_summary.csv")
+    eval_p.add_argument("--output-dir", default="data/reports", help="Output directory for reports (default: data/reports)")
+
     args = parser.parse_args()
 
     if args.command == "probe-llm":
@@ -327,6 +335,26 @@ def main():
         print(f"Successfully cached {len(batch_res)} term embeddings to {client.cache_file}")
         print(f"Embedding Dimension: {client.dimensions}")
         print("Ready for sub-millisecond semantic vector normalization!\n")
+    elif args.command == "evaluate":
+        from evaluation.pipeline import MultiAgentEvaluator
+        evaluator = MultiAgentEvaluator()
+        scorecard, md_file, json_file = evaluator.evaluate_csv(
+            csv_path=args.input,
+            output_dir=args.output_dir,
+        )
+        print("\n" + "=" * 65)
+        print("       MULTI-AGENT CLINICAL EVALUATION FINISHED")
+        print("=" * 65)
+        print(f"Document:            {scorecard.document_name}")
+        print(f"Total Triples:       {scorecard.total_triplets}")
+        print(f"Clinical Accuracy:   {scorecard.clinical_accuracy_score}%")
+        print(f"Ontology Integrity:  {scorecard.ontology_integrity_score}%")
+        print(f"Graph Consistency:   {scorecard.graph_consistency_score}%")
+        print(f"OVERALL QUALITY:     {scorecard.overall_quality_score} / 100")
+        print(f"Grade:               {scorecard.grade}")
+        print(f"Scorecard Markdown:  {md_file}")
+        print(f"Report JSON:         {json_file}")
+        print("=" * 65 + "\n")
 
 
 if __name__ == "__main__":
