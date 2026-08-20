@@ -12,6 +12,7 @@ from edc_config import get_settings
 from extraction.llm_client import LLMClient
 from extraction.prompts import get_extraction_system_prompt, get_few_shot_examples
 from extraction.text_chunker import chunk_vietnamese_text
+from preprocessing.clean_text import clean_clinical_text
 from schema.schema_registry import get_edc_json_schema
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -33,12 +34,14 @@ def run_extraction_pipeline(
     output_dir: Optional[str] = None,
     client: Optional[LLMClient] = None,
 ) -> List[ExtractionResult]:
-    """Execute multi-pass extraction on the given clinical document text."""
+    """Execute multi-pass extraction on the given clinical document text with preprocessing."""
     if client is None:
         client = LLMClient()
 
-    chunks = chunk_vietnamese_text(text)
-    logger.info(f"Segmented document '{source_doc}' into {len(chunks)} chunk(s). Running {passes} pass(es)...")
+    # Preprocessing: Unicode NFC normalization, character & noise cleaning
+    cleaned_text = clean_clinical_text(text)
+    chunks = chunk_vietnamese_text(cleaned_text)
+    logger.info(f"Preprocessed and segmented '{source_doc}' ({len(cleaned_text)} chars) into {len(chunks)} chunk(s). Running {passes} pass(es)...")
 
     system_prompt = get_extraction_system_prompt()
     few_shots = get_few_shot_examples()
