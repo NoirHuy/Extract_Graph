@@ -41,16 +41,29 @@ def translate_term_to_english_with_llm(term_vi: str, entity_type: str, client: O
 import re
 
 def is_pure_measurement_value(text: str, ent_type: str, attributes: Optional[Dict[str, Any]] = None) -> bool:
-    """Detect if an entity is a numeric measurement/threshold value (e.g. '< 10%', '> 160 mm Hg', '130/80 mmHg')
-    rather than a controlled medical concept noun (e.g. 'Huyết áp tâm thu', 'Cung lượng tim')."""
-    if ent_type == "Measurement":
-        # Starts with numbers, comparison operators, or percentages
-        if re.match(r"^[\d<>=±\-\+]+", text.strip()):
+    """Detect if an entity is a numeric measurement, threshold value, or dosage count
+    (e.g. '< 10%', '> 160 mm Hg', '130/80 mmHg', '4 loại thuốc trở lên', '>= 2 loại thuốc')
+    rather than a controlled medical concept noun (e.g. 'Huyết áp tâm thu', 'Cung lượng tim', 'Thuốc ức chế men chuyển')."""
+    clean = text.strip()
+    clean_lower = clean.lower()
+
+    # 1. Any entity starting with comparison operators or numbers + units
+    if re.match(r"^[\d<>=±\-\+]+", clean):
+        # Exclude controlled named entities that start with numbers (e.g., "11-Beta-Hydroxylase")
+        if not re.search(r"[a-zA-Z]{4,}", clean) or any(u in clean_lower for u in ["mmhg", "mm hg", "mmol", "mg", "loại thuốc", "thuốc", "tuổi", "%"]):
             return True
-        # Contains purely numerical values or drug counts
-        if re.search(r"\b\d+\s*(?:mmhg|mmol/l|mg/ngày|%|phút|giờ|loại thuốc)\b", text.strip().lower()):
-            if not any(noun in text.lower() for noun in ["huyết áp tâm thu", "huyết áp tâm trương", "cung lượng", "sức cản", "creatinine", "kali", "natri", "canxi", "glucose", "vòng eo", "chiều cao", "cân nặng"]):
+
+    # 2. Threshold phrases or counts (e.g. "4 loại thuốc trở lên", "10 đến 20 mm hg", "từ 120 đến 129 mm hg")
+    if re.search(r"\b\d+\s*(?:loại thuốc|thuốc|mmhg|mm hg|mmol|mg|%|tuổi|phút|giờ)\b", clean_lower):
+        if not any(noun in clean_lower for noun in ["huyết áp tâm thu", "huyết áp tâm trương", "cung lượng", "sức cản", "creatinine", "kali", "natri", "canxi", "glucose", "vòng eo", "chiều cao", "cân nặng"]):
+            return True
+
+    # 3. Measurement type with numeric digits
+    if ent_type == "Measurement":
+        if re.search(r"\d", clean):
+            if not any(noun in clean_lower for noun in ["huyết áp tâm thu", "huyết áp tâm trương", "cung lượng", "sức cản", "creatinine", "kali", "natri", "canxi", "glucose"]):
                 return True
+
     return False
 
 

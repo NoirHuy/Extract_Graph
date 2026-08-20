@@ -2102,5 +2102,35 @@
     "cui": "C4551683",
     "tui": "T191",
     "entity_type": "Cause"
+  },
+  "nghiên cứu về giấc ngủ": {
+    "en": "Sleep study",
+    "cui": "C0162701",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "điện tâm đồ": {
+    "en": "Electrocardiogram",
+    "cui": "C1623258",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "hạn chế rượu": {
+    "en": "Alcohol restriction",
+    "cui": "C0452319",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc hạ huyết áp": {
+    "en": "Antihypertensive agents",
+    "cui": "C0003364",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "cường aldosteron": {
+    "en": "Hyperaldosteronism",
+    "cui": "C0020428",
+    "tui": "T047",
+    "entity_type": "Cause"
   }
 }

@@ -94,7 +94,10 @@ class Neo4jLoader:
             # 1. Setup constraints on specific labels
             self.setup_constraints(session)
 
-            # 2. Ingest Nodes (MERGE directly on specific label like :Disease, :DrugClass, :Organ)
+            # 2. Clean previous records for this source document to prevent stale data
+            session.run("MATCH (n {source_document: $source_doc}) DETACH DELETE n", {"source_doc": source_doc})
+
+            # 3. Ingest Nodes (MERGE directly on specific label like :Disease, :DrugClass, :Organ)
             for ent in entities:
                 resolved_key = self.compute_resolved_key(ent)
                 ent_id = ent.get("id", "")
