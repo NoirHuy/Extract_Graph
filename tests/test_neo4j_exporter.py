@@ -63,5 +63,7 @@ def test_export_to_csv_files(tmp_path):
         rows = list(reader)
         assert len(rows) == 1
         assert rows[0]["Thực thể nguồn (Source)"] == "Tăng huyết áp"
-        assert rows[0]["Quan hệ (Relation)"] == "LEADS_TO"
+        assert rows[0]["Quan hệ lâm sàng (Relation)"] == "Dẫn đến biến chứng"
         assert rows[0]["Thực thể đích (Target)"] == "Đột quỵ"
+        assert "Đồng thuận (Passes)" not in rows[0]
+        assert "Độ tin cậy (%)" not in rows[0]

@@ -166,5 +166,17 @@
     "cui": "C0022674",
     "tui": "T023",
     "entity_type": "Organ"
+  },
+  "ngưng thở khi ngủ": {
+    "en": "Sleep apnea",
+    "cui": "C0037315",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "bệnh thận mạn tính": {
+    "en": "Chronic kidney disease",
+    "cui": "C1561643",
+    "tui": "T047",
+    "entity_type": "Cause"
   }
 }

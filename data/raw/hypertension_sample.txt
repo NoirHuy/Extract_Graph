@@ -1,13 +1,4 @@
-TĂNG HUYẾT ÁP (HYPERTENSION)
-
-1. Định nghĩa và Phân loại
-Tăng huyết áp là tình trạng huyết áp động mạch tăng cao mạn tính. Theo hướng dẫn của ACC/AHA, Tăng huyết áp giai đoạn 1 được xác định khi huyết áp tâm thu từ 130 đến 139 mmHg hoặc huyết áp tâm trương từ 80 đến 89 mmHg (ngưỡng 130/80 mmHg). Tăng huyết áp gồm hai thể chính: Tăng huyết áp nguyên phát (vô căn) chiếm khoảng 90-95% các trường hợp và Tăng huyết áp thứ phát.
-
-2. Nguyên nhân và Sinh lý bệnh
-Nguyên nhân gây Tăng huyết áp thứ phát bao gồm bệnh nhu mô thận, hẹp động mạch thận, và Cường aldosteron nguyên phát. Cường aldosteron nguyên phát làm tăng tái hấp thu natri và giữ nước tại ống thận, là một nguyên nhân quan trọng dẫn đến Tăng huyết áp.
-
-3. Biến chứng
-Nếu không được kiểm soát tốt, Tăng huyết áp lâu ngày gây tổn thương các cơ quan đích như Tim, Não, Thận và Mắt. Tăng huyết áp là yếu tố nguy cơ chính dẫn đến Đột quỵ, Nhồi máu cơ tim và Suy tim mạn tính.
-
-4. Điều trị
-Mục tiêu điều trị là hạ huyết áp về mức an toàn. Các nhóm thuốc hạ áp hàng đầu bao gồm: Thuốc ức chế men chuyển (ACE inhibitor), Thuốc chẹn thụ thể angiotensin (ARB), Thuốc chẹn kênh canxi và Thuốc lợi tiểu thiazide. Thuốc ức chế men chuyển (ACE inhibitor) được chỉ định phổ biến để điều trị Tăng huyết áp và giúp bảo vệ chức năng thận ở bệnh nhân đái tháo đường.
+Tăng huyết áp là tình trạng tăng liên tục của huyết áp tâm thu lúc nghỉ (≥ 130 mmHg) hoặc huyết áp tâm trương lúc nghỉ (≥ 80 mm Hg), hoặc cả hai.
+Tăng huyết áp không rõ nguyên nhân (tăng huyết áp nguyên phát) là phổ biến nhất.
+Tăng huyết áp đã xác định được nguyên nhân (tăng huyết áp thứ phát) thường là do cường aldosteron nguyên phát.
+Ngưng thở khi ngủ, bệnh thận mạn tính hoặc hẹp động mạch thận là những nguyên nhân khác gây tăng huyết áp thứ phát.

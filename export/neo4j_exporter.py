@@ -11,6 +11,29 @@ from edc_config import get_settings
 
 logger = logging.getLogger(__name__)
 
+# Vietnamese translation map for clinical relations
+RELATION_VN_MAP: Dict[str, str] = {
+    "IS_SUBTYPE_OF": "Là phân loại / thể bệnh của",
+    "CAUSES": "Là nguyên nhân gây ra",
+    "INCREASES_RISK_OF": "Làm tăng nguy cơ mắc",
+    "HAS_SYMPTOM": "Có triệu chứng cơ năng",
+    "HAS_SIGN": "Có dấu hiệu thực thể",
+    "UNDERLIES": "Là cơ chế sinh bệnh học của",
+    "PART_OF_MECHANISM": "Là một phần của cơ chế",
+    "LEADS_TO": "Dẫn đến biến chứng",
+    "AFFECTS_ORGAN": "Gây tổn thương cơ quan",
+    "DIAGNOSES": "Dùng để chẩn đoán",
+    "DETECTS": "Giúp phát hiện",
+    "MEASURES": "Đo lường chỉ số",
+    "TREATS": "Điều trị",
+    "CONTRAINDICATED_IN": "Chống chỉ định cho",
+    "PREFERRED_FOR": "Ưu tiên chỉ định cho",
+    "HAS_PREVALENCE": "Tỷ lệ lưu hành ở nhóm",
+    "DEFINES_THRESHOLD_FOR": "Xác định ngưỡng chẩn đoán cho",
+    "CLASSIFIES": "Phân loại thể bệnh",
+    "MODIFIES": "Làm thay đổi / điều biến",
+}
+
 
 class Neo4jExporter:
     """Exports Knowledge Graph nodes and relationships from Neo4j into intuitive CSV files."""
@@ -110,7 +133,7 @@ class Neo4jExporter:
             return open(fallback_path, "w", encoding="utf-8-sig", newline=""), fallback_path
 
     def export_all_to_csv(self, output_dir: str = "data/exports") -> Dict[str, Any]:
-        """Export nodes, relationships, and human-readable clinical summary to CSV files."""
+        """Export nodes, relationships, and human-readable clinical summary in Vietnamese to CSV files."""
         out_path = Path(output_dir)
         out_path.mkdir(parents=True, exist_ok=True)
 
@@ -140,7 +163,7 @@ class Neo4jExporter:
             for n in nodes:
                 writer.writerow(n)
 
-        # 2. Export Relationships CSV
+        # 2. Export Relationships CSV (Triplets)
         f_rels, relations_csv_file = self._safe_open_csv(relations_csv_target)
         with f_rels as f:
             fieldnames = [
@@ -162,7 +185,7 @@ class Neo4jExporter:
             for r in relationships:
                 writer.writerow(r)
 
-        # 3. Export Human-Friendly Clinical Knowledge Summary Table (Without Confidence Column)
+        # 3. Export Human-Friendly Clinical Knowledge Summary Table (Vietnamese Relations & No Confidence/Passes columns)
         f_sum, summary_csv_file = self._safe_open_csv(summary_csv_target)
         with f_sum as f:
             fieldnames = [
@@ -170,28 +193,27 @@ class Neo4jExporter:
                 "Thực thể nguồn (Source)",
                 "Loại nguồn (Type)",
                 "Mã CUI nguồn",
-                "Quan hệ (Relation)",
+                "Quan hệ lâm sàng (Relation)",
                 "Thực thể đích (Target)",
                 "Loại đích (Type)",
                 "Mã CUI đích",
-                "Đồng thuận (Passes)",
                 "Bằng chứng văn bản gốc (Evidence Span)",
                 "Tài liệu nguồn",
             ]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             for idx, r in enumerate(relationships, 1):
-                passes_str = f"{r.get('agreement_count', 1)}/{r.get('total_passes', 1)}"
+                raw_rel = r.get("relation_type", "")
+                vn_rel = RELATION_VN_MAP.get(raw_rel, raw_rel)
                 writer.writerow({
                     "STT": idx,
                     "Thực thể nguồn (Source)": r.get("source_name"),
                     "Loại nguồn (Type)": r.get("source_type"),
                     "Mã CUI nguồn": r.get("source_cui") or "Chưa có",
-                    "Quan hệ (Relation)": r.get("relation_type"),
+                    "Quan hệ lâm sàng (Relation)": vn_rel,
                     "Thực thể đích (Target)": r.get("target_name"),
                     "Loại đích (Type)": r.get("target_type"),
                     "Mã CUI đích": r.get("target_cui") or "Chưa có",
-                    "Đồng thuận (Passes)": passes_str,
                     "Bằng chứng văn bản gốc (Evidence Span)": r.get("evidence_span"),
                     "Tài liệu nguồn": r.get("source_document"),
                 })
