@@ -189,12 +189,12 @@ class Neo4jExporter:
         MATCH (s)-[r]->(t)
         {where_stmt}
         RETURN
-            coalesce(s.name, s.normalized_name, '') AS source_name,
+            coalesce(s.normalized_name, s.name, '') AS source_name,
             coalesce(s.entity_type, [lbl IN labels(s) WHERE lbl <> 'Entity'][0], 'Entity') AS source_type,
             coalesce(s.umls_cui, '') AS source_cui,
             coalesce(s.attributes, '{{}}') AS source_attributes,
             type(r) AS relation_type,
-            coalesce(t.name, t.normalized_name, '') AS target_name,
+            coalesce(t.normalized_name, t.name, '') AS target_name,
             coalesce(t.entity_type, [lbl IN labels(t) WHERE lbl <> 'Entity'][0], 'Entity') AS target_type,
             coalesce(t.umls_cui, '') AS target_cui,
             coalesce(t.attributes, '{{}}') AS target_attributes,

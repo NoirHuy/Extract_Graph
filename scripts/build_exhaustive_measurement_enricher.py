@@ -200,6 +200,8 @@ def process_file(json_path: Path, doc_type: str):
                 doc_type
             )
             e["normalized_name"] = inferred["new_name"]
+            e["name"] = inferred["new_name"]
+            e["text"] = inferred["new_name"]
             e["entity_type"] = "Measurement"
             e["umls_cui"] = None
             e["umls_sty"] = None
