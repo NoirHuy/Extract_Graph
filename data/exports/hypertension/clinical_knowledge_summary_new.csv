@@ -1,0 +1,165 @@
+﻿STT,Thực thể nguồn (Source),Loại nguồn (Type),Mã CUI nguồn,Chỉ số nguồn (Attributes),Quan hệ lâm sàng (Relation),Thực thể đích (Target),Loại đích (Type),Mã CUI đích,Chỉ số đích (Attributes),Bằng chứng văn bản gốc (Evidence Span),Tài liệu nguồn
+1,4 loại thuốc trở lên,Treatment,C2922974,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Đối với tăng huyết áp kháng trị... thường cần từ 4 loại thuốc trở lên.,01_tanghuyetap.txt
+2,Bệnh nhu mô thận,Disease,C1841992,,Gây tổn thương cơ quan,thận,Organ,C0022646,,Nếu thận không sản sinh đủ lượng thuốc giãn mạch (do bệnh nhu mô thận),01_tanghuyetap.txt
+3,CO,Measurement,C0007165,,Là một phần của cơ chế,cơ chế gây bệnh,Mechanism,C0699748,,cơ chế gây bệnh liên quan đến lưu lượng tim (CO),01_tanghuyetap.txt
+4,Cam thảo,RiskFactor,C0697105,,Làm tăng nguy cơ mắc,Tăng huyết áp,Disease,C0020538,,Cam thảo có thể làm trầm trọng thêm khả năng kiểm soát huyết áp.,01_tanghuyetap.txt
+5,Các biện pháp điều trị không dùng thuốc,Treatment,Chưa có,,Điều trị,Tăng huyết áp,Disease,C0020538,,Các biện pháp điều trị không dùng thuốc tốt nhất đã được chứng minh để phòng ngừa và điều trị tăng huyết áp,01_tanghuyetap.txt
+6,Di truyền,RiskFactor,C1455997,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,Di truyền là một yếu tố ảnh hưởng,01_tanghuyetap.txt
+7,Di truyền,RiskFactor,C1455997,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,Disease,C0085580,,Di truyền là một yếu tố ảnh hưởng,01_tanghuyetap.txt
+8,ECG,Test,C0013798,,Giúp phát hiện,phì đại,Sign,C0149721,,Khi quan sát thấy phì đại thất trái trên ECG,01_tanghuyetap.txt
+9,ECG,Test,C0013798,,Giúp phát hiện,phì đại thất trái,DiseaseSubtype,C0149721,,Khi quan sát thấy phì đại thất trái trên ECG,01_tanghuyetap.txt
+10,Giáo dục,Treatment,C0030688,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Giáo dục... là điều cần thiết để điều trị thành công.,01_tanghuyetap.txt
+11,Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA),Guideline,C4072694,,Phân loại thể bệnh,giai đoạn 2,DiseaseSubtype,C5231205,,"Các loại BP ở người lớn, được định nghĩa bởi Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA), bao gồm... giai đoạn 2",01_tanghuyetap.txt
+12,Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA),Guideline,C4072694,,Phân loại thể bệnh,tăng huyết áp giai đoạn 1 (nhẹ),DiseaseSubtype,C5231206,,"Các loại BP ở người lớn, được định nghĩa bởi Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA), bao gồm... tăng huyết áp giai đoạn 1 (nhẹ)",01_tanghuyetap.txt
+13,Keith-Wagener-Barker,Guideline,Chưa có,,Phân loại thể bệnh,bệnh võng mạc do tăng huyết áp,Complication,C0152132,,Những thay đổi được phân loại (theo phân loại Keith-Wagener-Barker) thành 4 nhóm,01_tanghuyetap.txt
+14,Keith-Wagener-Barker,Guideline,Chưa có,,Phân loại thể bệnh,bệnh võng mạc do tăng huyết áp,DiseaseSubtype,C0152132,,Những thay đổi được phân loại (theo phân loại Keith-Wagener-Barker) thành 4 nhóm,01_tanghuyetap.txt
+15,Kích thích thần kinh giao cảm,Mechanism,Chưa có,,Là cơ chế sinh bệnh học của,Tăng huyết áp,Disease,C0020538,,Kích thích thần kinh giao cảm làm tăng huyết áp,01_tanghuyetap.txt
+16,Liệu pháp kích hoạt Baroreflex,Treatment,Chưa có,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Liệu pháp kích hoạt Baroreflex đã được đề xuất để kiểm soát tình trạng tăng huyết áp kháng thuốc,01_tanghuyetap.txt
+17,Nghiên cứu giấc ngủ,Test,C0162701,,Dùng để chẩn đoán,Ngưng thở khi ngủ,Cause,C0037315,,Nghiên cứu giấc ngủ nên được cân nhắc kỹ lưỡng ở những bệnh nhân có tiền sử ngưng thở khi ngủ.,01_tanghuyetap.txt
+18,Nghiên cứu giấc ngủ,Test,C0162701,,Dùng để chẩn đoán,ngưng thở khi ngủ,Disease,C0037315,,Nghiên cứu giấc ngủ nên được cân nhắc kỹ lưỡng ở những bệnh nhân có tiền sử ngưng thở khi ngủ.,01_tanghuyetap.txt
+19,Nguyên nhân thứ phát,Cause,Chưa có,,Là nguyên nhân gây ra,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Nguyên nhân thứ phát gây tăng huyết áp phải được loại trừ khi đánh giá tình trạng tăng huyết áp kháng trị.,01_tanghuyetap.txt
+20,Ngưng thở khi ngủ,Cause,C0037315,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,Ngưng thở khi ngủ... là những nguyên nhân khác gây tăng huyết áp thứ phát.,01_tanghuyetap.txt
+21,TPR,Measurement,C1258192,,Là một phần của cơ chế,cơ chế gây bệnh,Mechanism,C0699748,,cơ chế gây bệnh liên quan đến tổng sức cản mạch ngoại vi (TPR),01_tanghuyetap.txt
+22,Theo dõi huyết áp tại nhà,Test,C1449681,,Điều trị,Tăng huyết áp,Disease,C0020538,,Lý tưởng nhất là bệnh nhân tăng huyết áp hoặc người thân nên đo huyết áp tại nhà,01_tanghuyetap.txt
+23,Thuốc lợi tiểu thiazide,DrugClass,C0012802,,Điều trị,tăng huyết áp do renin thấp nhạy cảm với muối,DiseaseSubtype,Chưa có,,thuốc chẹn kênh canxi và thuốc lợi tiểu thiazide hiệu quả hơn đối với những bệnh nhân bị tăng huyết áp do renin thấp nhạy cảm với muối,01_tanghuyetap.txt
+24,Thời gian ngủ ngắn,RiskFactor,Chưa có,,Làm tăng nguy cơ mắc,Tăng huyết áp,Disease,C0020538,,Thời gian ngủ ngắn ... có liên quan đến tăng huyết áp.,01_tanghuyetap.txt
+25,Tiền sử,Test,Chưa có,,Giúp phát hiện,tổn thương các cơ quan đích,Complication,Chưa có,,Tiền sử... giúp xác định xem đã có tổn thương các cơ quan đích hay chưa.,01_tanghuyetap.txt
+26,Tăng aldosteron,Disease,C0020428,,Làm tăng nguy cơ mắc,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.,01_tanghuyetap.txt
+27,Tăng aldosteron,Cause,C0020428,,Làm tăng nguy cơ mắc,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.,01_tanghuyetap.txt
+28,Tăng aldosteron,Disease,C0020428,,Là cơ chế sinh bệnh học của,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.,01_tanghuyetap.txt
+29,Tăng aldosteron,Cause,C0020428,,Là cơ chế sinh bệnh học của,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.,01_tanghuyetap.txt
+30,Tăng cường hoạt động thể chất,Treatment,Chưa có,,Điều trị,Tăng huyết áp,Disease,C0020538,,Tăng cường hoạt động thể chất... để phòng ngừa và điều trị tăng huyết áp,01_tanghuyetap.txt
+31,Tăng huyết áp,Disease,C0020538,,Gây tổn thương cơ quan,"não, tim hoặc thận",Organ,Chưa có,,"gây tổn thương các cơ quan đích như não, tim hoặc thận.",01_tanghuyetap.txt
+32,Tăng huyết áp,Disease,C0020538,,Gây tổn thương cơ quan,võng mạc,Organ,C0035298,,"Huyết áp càng cao, những thay đổi ở võng mạc càng nặng",01_tanghuyetap.txt
+33,Tăng huyết áp,Disease,C0020538,,Làm tăng nguy cơ mắc,phình động mạch chủ bụng,Disease,C0162871,,hầu hết bệnh nhân phình động mạch chủ bụng đều có tăng huyết áp.,01_tanghuyetap.txt
+34,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,Bóc tách động mạch chủ ngực,Complication,C0729233,,Bóc tách động mạch chủ ngực thường là hậu quả của tăng huyết áp,01_tanghuyetap.txt
+35,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,nhồi máu não,Complication,C0007785,,"Ở những bệnh nhân được điều trị nhưng chưa thích hợp, nhồi máu não hoặc xuất huyết não là biến chứng phổ biến nhất.",01_tanghuyetap.txt
+36,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,tổn thương các cơ quan đích,Complication,Chưa có,,xác định xem đã có tổn thương các cơ quan đích hay chưa.,01_tanghuyetap.txt
+37,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,tử vong,Complication,C0011065,,huyết áp cao làm tăng nguy cơ mắc bệnh và tử vong.,01_tanghuyetap.txt
+38,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,xuất huyết não,DiseaseSubtype,C2937358,,"Ở những bệnh nhân được điều trị nhưng chưa thích hợp, nhồi máu não hoặc xuất huyết não là biến chứng phổ biến nhất.",01_tanghuyetap.txt
+39,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,xuất huyết não,Complication,C2937358,,"Ở những bệnh nhân được điều trị nhưng chưa thích hợp, nhồi máu não hoặc xuất huyết não là biến chứng phổ biến nhất.",01_tanghuyetap.txt
+40,Tăng huyết áp,Disease,C0020538,,Dẫn đến biến chứng,xơ vữa động mạch,Disease,C0004153,,Mức huyết áp tăng cao dẫn đến xơ vữa động mạch toàn thể,01_tanghuyetap.txt
+41,Tăng huyết áp nghiêm trọng hoặc kéo dài,DiseaseSubtype,Chưa có,,Dẫn đến biến chứng,tổn thương các cơ quan đích,Complication,Chưa có,,Tăng huyết áp nghiêm trọng hoặc kéo dài gây tổn thương các cơ quan đích,01_tanghuyetap.txt
+42,Tăng huyết áp áo choàng trắng,DiseaseSubtype,C0262534,,Làm tăng nguy cơ mắc,kết quả tim mạch bất lợi,Complication,C1320716,,Tăng huyết áp áo choàng trắng không được điều trị dường như có liên quan đến kết quả tim mạch bất lợi hơn so với huyết áp bình thường.,01_tanghuyetap.txt
+43,Tăng huyết áp áo choàng trắng,DiseaseSubtype,C0262534,,Làm tăng nguy cơ mắc,tăng huyết áp kéo dài,Disease,Chưa có,,Bệnh nhân tăng huyết áp áo choàng trắng có nguy cơ tăng huyết áp kéo dài từ 3 đến 4 lần sau 7 năm đến 10 năm so với những người có huyết áp bình thường.,01_tanghuyetap.txt
+44,Tăng huyết áp ẩn,DiseaseSubtype,C3178811,,Dẫn đến biến chứng,nguy cơ tim mạch,Complication,C4324389,,Tăng huyết áp ẩn ... có liên quan đến tăng nguy cơ tim mạch,01_tanghuyetap.txt
+45,Tăng huyết áp ẩn,DiseaseSubtype,C3178811,,Dẫn đến biến chứng,tăng nguy cơ tim mạch,Complication,Chưa có,,Tăng huyết áp ẩn... có liên quan đến tăng nguy cơ tim mạch,01_tanghuyetap.txt
+46,Viêm cầu thận mạn tính,DiseaseSubtype,C0152451,,Là phân loại / thể bệnh của,Bệnh nhu mô thận,Disease,C1841992,,Bệnh nhu mô thận: Viêm cầu thận mạn tính,01_tanghuyetap.txt
+47,angiotensin II,Mechanism,C0003009,,Là cơ chế sinh bệnh học của,tăng huyết áp do mạch thận,Disease,C0020545,,Nồng độ angiotensin II tăng cao thường được coi là nguyên nhân gây tăng huyết áp do thận,01_tanghuyetap.txt
+48,angiotensin II,Measurement,C0003009,,Là cơ chế sinh bệnh học của,tăng huyết áp do mạch thận,Disease,C0020545,,Nồng độ angiotensin II tăng cao thường được coi là nguyên nhân gây tăng huyết áp do thận,01_tanghuyetap.txt
+49,"bơm natri-kali (Na+, K+-ATPase)",Mechanism,Chưa có,,Là cơ chế sinh bệnh học của,vận chuyển natri qua màng tế bào mạch máu,Mechanism,Chưa có,,"quá trình vận chuyển natri qua màng tế bào mạch máu trở nên bất thường vì bơm natri-kali (Na+, K+-ATPase) bị khiếm khuyết hoặc bị ức chế",01_tanghuyetap.txt
+50,bảng xét nghiệm chuyển hóa đầy đủ,Test,C0519825,,Đo lường chỉ số,canxi,Measurement,C0006675,,"bảng xét nghiệm chuyển hóa đầy đủ (bao gồm creatinine hoặc cystatin C, kali và canxi)",01_tanghuyetap.txt
+51,bảng xét nghiệm chuyển hóa đầy đủ,Test,C0519825,,Đo lường chỉ số,creatinine,Measurement,C0010294,,"bảng xét nghiệm chuyển hóa đầy đủ (bao gồm creatinine hoặc cystatin C, kali và canxi)",01_tanghuyetap.txt
+52,bảng xét nghiệm chuyển hóa đầy đủ,Test,C0519825,,Đo lường chỉ số,cystatin C,Measurement,C0071744,,"bảng xét nghiệm chuyển hóa đầy đủ (bao gồm creatinine hoặc cystatin C, kali và canxi)",01_tanghuyetap.txt
+53,bảng xét nghiệm chuyển hóa đầy đủ,Test,C0519825,,Đo lường chỉ số,kali,Measurement,C0032821,,"bảng xét nghiệm chuyển hóa đầy đủ (bao gồm creatinine hoặc cystatin C, kali và canxi)",01_tanghuyetap.txt
+54,bệnh cơ tim giãn,Disease,C0007193,,Dẫn đến biến chứng,suy tim,Disease,C0018801,,gây ra bệnh cơ tim giãn và suy tim,01_tanghuyetap.txt
+55,bệnh cơ tim giãn,Disease,C0007193,,Dẫn đến biến chứng,suy tim,Complication,C0018801,,gây ra bệnh cơ tim giãn và suy tim,01_tanghuyetap.txt
+56,bệnh nhu mô thận mạn tính,Disease,Chưa có,,Gây tổn thương cơ quan,thận,Organ,C0022646,,Tăng huyết áp do bệnh nhu mô thận mạn tính,01_tanghuyetap.txt
+57,bệnh nhân bị bệnh lý ở thận,PatientGroup,C0022658,,Làm tăng nguy cơ mắc,bệnh tim mạch do xơ vữa động mạch (ASCVD),Disease,Chưa có,,Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạch.,01_tanghuyetap.txt
+58,bệnh thận,Disease,C0022658,,Làm tăng nguy cơ mắc,bệnh tim mạch do xơ vữa động mạch (ASCVD),Disease,Chưa có,,Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạch.,01_tanghuyetap.txt
+59,bệnh thận mạn tính,Disease,C1561643,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,bệnh thận mạn tính... là những nguyên nhân khác gây tăng huyết áp thứ phát.,01_tanghuyetap.txt
+60,bệnh thận mạn tính,Cause,C1561643,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,bệnh thận mạn tính... là những nguyên nhân khác gây tăng huyết áp thứ phát.,01_tanghuyetap.txt
+61,bệnh thận đa nang,DiseaseSubtype,C0022680,,Là phân loại / thể bệnh của,Bệnh nhu mô thận,Disease,C1841992,,Bệnh nhu mô thận: ... bệnh thận đa nang,01_tanghuyetap.txt
+62,bệnh tim mạch,Disease,C0007222,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,Phụ thuộc vào huyết áp và bệnh tim mạch hoặc các yếu tố nguy cơ kèm theo Tăng huyết áp tiên phát,01_tanghuyetap.txt
+63,bệnh tim mạch,Disease,C0007222,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,Disease,C0085580,,Phụ thuộc vào huyết áp và bệnh tim mạch hoặc các yếu tố nguy cơ kèm theo Tăng huyết áp tiên phát,01_tanghuyetap.txt
+64,bệnh tiểu đường,RiskFactor,C0011849,,Làm tăng nguy cơ mắc,Tăng huyết áp ẩn,DiseaseSubtype,C3178811,,Tăng huyết áp ẩn... phổ biến hơn ở... những người mắc bệnh tiểu đường.,01_tanghuyetap.txt
+65,bệnh tiểu đường,RiskFactor,C0011849,,Làm tăng nguy cơ mắc,bệnh tim mạch do xơ vữa động mạch (ASCVD),Disease,Chưa có,,Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạch.,01_tanghuyetap.txt
+66,bệnh tiểu đường,RiskFactor,C0011849,,Làm tăng nguy cơ mắc,tác dụng bất lợi của thuốc,Complication,C0041755,,bệnh nhân bị tiểu đường... làm tăng nguy cơ bị các biến cố bất lợi này.,01_tanghuyetap.txt
+67,bệnh đường tiết niệu do tắc nghẽn,DiseaseSubtype,C0178879,,Là phân loại / thể bệnh của,Bệnh nhu mô thận,Disease,C1841992,,Bệnh nhu mô thận: ... bệnh đường tiết niệu do tắc nghẽn,01_tanghuyetap.txt
+68,bệnh động mạch vành,Disease,C1956346,,Dẫn đến biến chứng,Tăng huyết áp,Disease,C0020538,,Bệnh động mạch vành là nguyên nhân thường gặp nhất gây tử vong ở bệnh nhân được điều trị.,01_tanghuyetap.txt
+69,chụp CT,Test,C0040405,,Dùng để chẩn đoán,hẹp eo động mạch chủ,Disease,C0003492,,Nếu nghi ngờ hẹp eo động mạch chủ... chụp CT... có thể xác nhận chẩn đoán.,01_tanghuyetap.txt
+70,chụp MRI ngực,Test,Chưa có,,Dùng để chẩn đoán,hẹp eo động mạch chủ,Disease,C0003492,,Nếu nghi ngờ hẹp eo động mạch chủ... chụp MRI ngực có thể xác nhận chẩn đoán.,01_tanghuyetap.txt
+71,căng thẳng,RiskFactor,C0038443,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,"các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ảnh hưởng đến những người có cơ địa dễ mắc bệnh",01_tanghuyetap.txt
+72,căng thẳng,RiskFactor,C0038443,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,Disease,C0085580,,"các yếu tố môi trường (ví dụ: natri trong chế độ ăn, căng thẳng) dường như chỉ ảnh hưởng đến những người có cơ địa dễ mắc bệnh",01_tanghuyetap.txt
+73,cường aldosteron nguyên phát,Cause,C1384514,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,Tăng huyết áp đã xác định được nguyên nhân (tăng huyết áp thứ phát) thường là do cường aldosteron nguyên phát.,01_tanghuyetap.txt
+74,cường aldosteron nguyên phát,Disease,C1384514,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,Tăng huyết áp đã xác định được nguyên nhân (tăng huyết áp thứ phát) thường là do cường aldosteron nguyên phát.,01_tanghuyetap.txt
+75,cấp cứu tăng huyết áp,DiseaseSubtype,C0745136,,Dẫn đến biến chứng,bệnh não tăng huyết áp,Complication,C0151620,,Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng... (ví dụ: ... bệnh não tăng huyết áp),01_tanghuyetap.txt
+76,cấp cứu tăng huyết áp,DiseaseSubtype,C0745136,,Dẫn đến biến chứng,giảm chức năng thận,Complication,C1565489,,Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng... (ví dụ: ... suy thận),01_tanghuyetap.txt
+77,cấp cứu tăng huyết áp,DiseaseSubtype,C0745136,,Dẫn đến biến chứng,suy thận,Disease,C1565489,,Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng... (ví dụ: ... suy thận),01_tanghuyetap.txt
+78,cấp cứu tăng huyết áp,DiseaseSubtype,C0745136,,Dẫn đến biến chứng,suy tim,Disease,C0018801,,Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng... (ví dụ: ... suy tim),01_tanghuyetap.txt
+79,cấp cứu tăng huyết áp,DiseaseSubtype,C0745136,,Dẫn đến biến chứng,suy tim,Complication,C0018801,,Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng... (ví dụ: ... suy tim),01_tanghuyetap.txt
+80,cấp cứu tăng huyết áp,DiseaseSubtype,C0745136,,Dẫn đến biến chứng,xơ vữa động mạch vành,Complication,C0010054,,Khi tình trạng tăng huyết áp nặng gây ra các triệu chứng... (ví dụ: xơ vữa động mạch vành có triệu chứng...),01_tanghuyetap.txt
+81,enzym chuyển đổi angiotensin (ACE),Mechanism,Chưa có,,Gây tổn thương cơ quan,não,Organ,C0006104,,enzym chuyển đổi angiotensin (ACE)... cũng có ở... não,01_tanghuyetap.txt
+82,enzym chuyển đổi angiotensin (ACE),Mechanism,Chưa có,,Gây tổn thương cơ quan,phổi,Organ,C0024109,,"enzym chuyển đổi angiotensin (ACE), chủ yếu ở phổi",01_tanghuyetap.txt
+83,enzym chuyển đổi angiotensin (ACE),Mechanism,Chưa có,,Gây tổn thương cơ quan,thận,Organ,C0022646,,enzym chuyển đổi angiotensin (ACE)... cũng có ở thận,01_tanghuyetap.txt
+84,hormone kích thích tuyến giáp (TSH),Test,Chưa có,,Dùng để chẩn đoán,cường giáp,Disease,C0020550,,"cường giáp, trước tiên bằng cách đo hormone kích thích tuyến giáp (TSH).",01_tanghuyetap.txt
+85,huyết áp tâm thu,Measurement,C0871470,Ngưỡng: 160 mmHg,Xác định ngưỡng chẩn đoán cho,Tăng huyết áp,Disease,C0020538,,Tăng huyết áp là tình trạng tăng liên tục của huyết áp tâm thu lúc nghỉ (>= 130 mmHg),01_tanghuyetap.txt
+86,huyết áp tâm thu >= 180 mm Hg và/hoặc huyết áp tâm trương >= 120 mm Hg,Measurement,Chưa có,Tâm thu: >=180 mmHg; Tâm trương: >=120 mmHg,Xác định ngưỡng chẩn đoán cho,tăng huyết áp nặng,DiseaseSubtype,Chưa có,,tăng huyết áp nặng (thường được định nghĩa là huyết áp tâm thu >= 180 mm Hg và/hoặc huyết áp tâm trương >= 120 mm Hg),01_tanghuyetap.txt
+87,huyết áp tâm trương,Measurement,C0428883,Ngưỡng: 80 mmHg,Xác định ngưỡng chẩn đoán cho,Tăng huyết áp,Disease,C0020538,,Tăng huyết áp là tình trạng tăng liên tục của huyết áp tâm trương lúc nghỉ (>= 80 mm Hg),01_tanghuyetap.txt
+88,hẹp động mạch thận,Cause,C0035067,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,hẹp động mạch thận là những nguyên nhân khác gây tăng huyết áp thứ phát.,01_tanghuyetap.txt
+89,khám thực thể,Test,C0031809,,Giúp phát hiện,tổn thương các cơ quan đích,Complication,Chưa có,,khám thực thể... giúp xác định xem đã có tổn thương các cơ quan đích hay chưa.,01_tanghuyetap.txt
+90,không tuân thủ điều trị,RiskFactor,C0746935,,Làm tăng nguy cơ mắc,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Việc không tuân thủ điều trị... có thể cản trở việc kiểm soát huyết áp thích hợp.,01_tanghuyetap.txt
+91,lưu lượng tim (CO),Mechanism,C0007165,,Là một phần của cơ chế,cơ chế gây bệnh,Mechanism,C0699748,,cơ chế gây bệnh liên quan đến lưu lượng tim (CO),01_tanghuyetap.txt
+92,mang thai,PatientGroup,C0032961,,Làm tăng nguy cơ mắc,Tăng huyết áp,Disease,C0020538,,Cần cân nhắc đặc biệt khi bị tăng huyết áp trong thời kỳ mang thai,01_tanghuyetap.txt
+93,mang thai,RiskFactor,C0032961,,Làm tăng nguy cơ mắc,Tăng huyết áp,Disease,C0020538,,Cần cân nhắc đặc biệt khi bị tăng huyết áp trong thời kỳ mang thai,01_tanghuyetap.txt
+94,metanephrine tự do trong huyết tương,Test,Chưa có,,Dùng để chẩn đoán,U tủy thượng thận,Disease,C0031511,,được sàng lọc u tủy thượng thận bằng cách đo lượng metanephrine tự do trong huyết tương,01_tanghuyetap.txt
+95,muối,RiskFactor,C0037570,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,"ở những bệnh nhân trên 65 tuổi, lượng natri cao có nhiều khả năng gây tăng huyết áp.",01_tanghuyetap.txt
+96,muối,RiskFactor,C0037570,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,Disease,C0085580,,"ở những bệnh nhân trên 65 tuổi, lượng natri cao có nhiều khả năng gây tăng huyết áp.",01_tanghuyetap.txt
+97,một nguyên nhân được xác định,Cause,Chưa có,,Là cơ chế sinh bệnh học của,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,Thứ phát (một nguyên nhân được xác định),01_tanghuyetap.txt
+98,ngưng thở khi ngủ,Disease,C0037315,,Là nguyên nhân gây ra,tăng huyết áp thứ phát,DiseaseSubtype,C0155616,,Ngưng thở khi ngủ... là những nguyên nhân khác gây tăng huyết áp thứ phát.,01_tanghuyetap.txt
+99,oxit nitric,Cause,C0028128,,Là cơ chế sinh bệnh học của,nhạy cảm với muối,Mechanism,Chưa có,,Giảm oxit nitric... góp phần gây nhạy cảm với muối,01_tanghuyetap.txt
+100,rối loạn chức năng tâm trương,DiseaseSubtype,C0520863,,Dẫn đến biến chứng,bệnh cơ tim giãn,Disease,C0007193,,"Cuối cùng, tâm thất giãn ra, gây ra bệnh cơ tim giãn",01_tanghuyetap.txt
+101,rối loạn hệ thần kinh trung ương,Disease,C0007682,,Gây tổn thương cơ quan,hệ thần kinh trung ương,Organ,C3714787,,rối loạn hệ thần kinh trung ương (CNS),01_tanghuyetap.txt
+102,siêu âm tim,Test,C0013516,,Dùng để chẩn đoán,hẹp eo động mạch chủ,Disease,C0003492,,"Nếu nghi ngờ hẹp eo động mạch chủ, siêu âm tim... có thể xác nhận chẩn đoán.",01_tanghuyetap.txt
+103,thay đổi lối sống,Treatment,Chưa có,,Điều trị,Tăng huyết áp,Disease,C0020538,,Thay đổi lối sống được khuyến nghị cho tất cả bệnh nhân bị huyết áp cao,01_tanghuyetap.txt
+104,thiết bị đo dao động hoàn toàn tự động,Test,Chưa có,,Đo lường chỉ số,chỉ số huyết áp,Measurement,C0005823,,Các thiết bị đo dao động hoàn toàn tự động có thể cung cấp các phép đo huyết áp chính xác,01_tanghuyetap.txt
+105,thiết bị đo dao động hoàn toàn tự động,Test,Chưa có,,Đo lường chỉ số,chỉ số huyết áp,Measurement,C0005823,,Các thiết bị đo dao động hoàn toàn tự động có thể cung cấp các phép đo huyết áp chính xác,01_tanghuyetap.txt
+106,thuốc,Drug,C0003364,,Điều trị,Tăng huyết áp,Disease,C0020538,,được khuyên nên bắt đầu điều trị bằng thuốc và thay đổi lối sống,01_tanghuyetap.txt
+107,thuốc,Drug,C0013227,,Điều trị,Tăng huyết áp,Disease,C0020538,,được khuyên nên bắt đầu điều trị bằng thuốc,01_tanghuyetap.txt
+108,thuốc,Drug,C0003364,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Đối với tăng huyết áp kháng trị (huyết áp vẫn cao hơn mục tiêu mặc dù sử dụng 3 loại thuốc hạ huyết áp khác nhau),01_tanghuyetap.txt
+109,thuốc chẹn kênh canxi,DrugClass,C0006684,,Ưu tiên chỉ định cho,đau thắt ngực,Disease,C0002962,,thuốc chẹn kênh canxi cho bệnh nhân đau thắt ngực,01_tanghuyetap.txt
+110,thuốc chẹn kênh canxi,DrugClass,C0006684,,Điều trị,Tăng huyết áp,Disease,C0020538,,Điều trị bao gồm... thuốc chẹn kênh canxi.,01_tanghuyetap.txt
+111,thuốc chẹn kênh canxi,DrugClass,C0006684,,Điều trị,tăng huyết áp do renin thấp nhạy cảm với muối,DiseaseSubtype,Chưa có,,thuốc chẹn kênh canxi và thuốc lợi tiểu thiazide hiệu quả hơn đối với những bệnh nhân bị tăng huyết áp do renin thấp nhạy cảm với muối,01_tanghuyetap.txt
+112,thuốc hạ huyết áp,DrugClass,C0003364,,Điều trị,Tăng huyết áp,Disease,C0020538,,được khuyên nên bắt đầu điều trị bằng thuốc và thay đổi lối sống,01_tanghuyetap.txt
+113,thuốc hạ huyết áp,DrugClass,C0003364,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Đối với tăng huyết áp kháng trị (huyết áp vẫn cao hơn mục tiêu mặc dù sử dụng 3 loại thuốc hạ huyết áp khác nhau),01_tanghuyetap.txt
+114,thuốc lợi tiểu,DrugClass,C0012798,,Điều trị,Tăng huyết áp,Disease,C0020538,,"Điều trị bao gồm... dùng thuốc, bao gồm thuốc lợi tiểu...",01_tanghuyetap.txt
+115,thuốc đối kháng thụ thể mineralocorticoid,DrugClass,C1579268,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Việc sử dụng thuốc đối kháng thụ thể mineralocorticoid có thể có lợi trong việc đạt được huyết áp mục tiêu.,01_tanghuyetap.txt
+116,thuốc ức chế men chuyển angiotensin (ACE),DrugClass,C0003015,,Chống chỉ định cho,hẹp động mạch chủ nặng,Disease,Chưa có,,thuốc ức chế ACE trong hẹp động mạch chủ nặng,01_tanghuyetap.txt
+117,thuốc ức chế men chuyển angiotensin (ACE),DrugClass,C0003015,,Ưu tiên chỉ định cho,bệnh tiểu đường,RiskFactor,C0011849,,thuốc ức chế ACE hoặc ARB cho bệnh nhân tiểu đường,01_tanghuyetap.txt
+118,thuốc ức chế men chuyển angiotensin (ACE),DrugClass,C0003015,,Ưu tiên chỉ định cho,tiểu đường,Disease,C0011849,,thuốc ức chế ACE hoặc ARB cho bệnh nhân tiểu đường,01_tanghuyetap.txt
+119,thuốc ức chế men chuyển angiotensin (ACE),DrugClass,C0003015,,Điều trị,Tăng huyết áp,Disease,C0020538,,Điều trị bao gồm... thuốc ức chế men chuyển angiotensin (ACE)...,01_tanghuyetap.txt
+120,thuốc ức chế thụ thể angiotensin II,DrugClass,C0815017,,Ưu tiên chỉ định cho,bệnh tiểu đường,RiskFactor,C0011849,,thuốc ức chế ACE hoặc ARB cho bệnh nhân tiểu đường,01_tanghuyetap.txt
+121,thuốc ức chế thụ thể angiotensin II,DrugClass,C0815017,,Ưu tiên chỉ định cho,tiểu đường,Disease,C0011849,,thuốc ức chế ACE hoặc ARB cho bệnh nhân tiểu đường,01_tanghuyetap.txt
+122,thuốc ức chế thụ thể angiotensin II,DrugClass,C0815017,,Điều trị,Tăng huyết áp,Disease,C0020538,,Điều trị bao gồm... thuốc ức chế thụ thể angiotensin II...,01_tanghuyetap.txt
+123,tiểu đường,Disease,C0011849,,Làm tăng nguy cơ mắc,Tăng huyết áp ẩn,DiseaseSubtype,C3178811,,Tăng huyết áp ẩn... phổ biến hơn ở... những người mắc bệnh tiểu đường.,01_tanghuyetap.txt
+124,tiểu đường,Disease,C0011849,,Làm tăng nguy cơ mắc,bệnh tim mạch do xơ vữa động mạch (ASCVD),Disease,Chưa có,,Bệnh đái tháo đường hoặc bệnh thận cũng là một phần trong các yếu tố nguy cơ của bệnh xơ vữa động mạch.,01_tanghuyetap.txt
+125,tiểu đường,Disease,C0011849,,Làm tăng nguy cơ mắc,tác dụng bất lợi của thuốc,Complication,C0041755,,bệnh nhân bị tiểu đường... làm tăng nguy cơ bị các biến cố bất lợi này.,01_tanghuyetap.txt
+126,triệt đốt dây thần kinh giao cảm ở động mạch thận,Treatment,Chưa có,,Điều trị,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Các thiết bị như vậy được sử dụng ở Châu Âu và Úc để điều trị tăng huyết áp kháng thuốc.,01_tanghuyetap.txt
+127,tăng cortisol cận lâm sàng,Disease,Chưa có,,Làm tăng nguy cơ mắc,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.,01_tanghuyetap.txt
+128,tăng cortisol cận lâm sàng,Cause,Chưa có,,Là cơ chế sinh bệnh học của,tăng huyết áp kháng thuốc,DiseaseSubtype,C1834155,,Tăng aldosteron hoặc tăng cortisol cận lâm sàng được xác định ở 15% đến 20% số trường hợp tăng huyết áp kháng trị.,01_tanghuyetap.txt
+129,tăng huyết áp cấp cứu,DiseaseSubtype,C0020546,,Có dấu hiệu thực thể,co giật,Sign,C0036572,,Các dấu hiệu đó có thể bao gồm co giật,01_tanghuyetap.txt
+130,tăng huyết áp cấp cứu,Disease,C0020546,,Có dấu hiệu thực thể,co giật,Sign,C0036572,,Các dấu hiệu đó có thể bao gồm co giật,01_tanghuyetap.txt
+131,tăng huyết áp cấp cứu,DiseaseSubtype,C0020546,,Có dấu hiệu thực thể,xuất huyết võng mạc,Sign,C0035317,,Các dấu hiệu đó có thể bao gồm... xuất huyết võng mạc,01_tanghuyetap.txt
+132,tăng huyết áp cấp cứu,Disease,C0020546,,Có dấu hiệu thực thể,xuất huyết võng mạc,Sign,C0035317,,Các dấu hiệu đó có thể bao gồm... xuất huyết võng mạc,01_tanghuyetap.txt
+133,tăng huyết áp cấp cứu,DiseaseSubtype,C0020546,,Có triệu chứng cơ năng,buồn nôn và nôn,Symptom,C0027498,,Các dấu hiệu đó có thể bao gồm buồn nôn và nôn,01_tanghuyetap.txt
+134,tăng huyết áp cấp cứu,Disease,C0020546,,Có triệu chứng cơ năng,buồn nôn và nôn,Symptom,C0027498,,Các dấu hiệu đó có thể bao gồm buồn nôn và nôn,01_tanghuyetap.txt
+135,tăng huyết áp cấp cứu,DiseaseSubtype,C0020546,,Có triệu chứng cơ năng,khó thở,Symptom,C0013404,,Các dấu hiệu đó có thể bao gồm... khó thở,01_tanghuyetap.txt
+136,tăng huyết áp cấp cứu,Disease,C0020546,,Có triệu chứng cơ năng,khó thở,Symptom,C0013404,,Các dấu hiệu đó có thể bao gồm... khó thở,01_tanghuyetap.txt
+137,tăng huyết áp cấp cứu,DiseaseSubtype,C0020546,,Có triệu chứng cơ năng,triệu chứng thần kinh khu trú,Symptom,Chưa có,,Các dấu hiệu đó có thể bao gồm... các triệu chứng thần kinh khu trú,01_tanghuyetap.txt
+138,tăng huyết áp cấp cứu,Disease,C0020546,,Có triệu chứng cơ năng,triệu chứng thần kinh khu trú,Symptom,Chưa có,,Các dấu hiệu đó có thể bao gồm... các triệu chứng thần kinh khu trú,01_tanghuyetap.txt
+139,tăng huyết áp cấp cứu,DiseaseSubtype,C0020546,,Có triệu chứng cơ năng,đau ngực,Symptom,C0008031,,Các dấu hiệu đó có thể bao gồm... đau ngực,01_tanghuyetap.txt
+140,tăng huyết áp cấp cứu,Disease,C0020546,,Có triệu chứng cơ năng,đau ngực,Symptom,C0008031,,Các dấu hiệu đó có thể bao gồm... đau ngực,01_tanghuyetap.txt
+141,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,Là phân loại / thể bệnh của,Tăng huyết áp,Disease,C0020538,,Dạng này là điển hình của tăng huyết áp nguyên phát,01_tanghuyetap.txt
+142,tăng huyết áp nguyên phát,Disease,C0085580,,Là phân loại / thể bệnh của,Tăng huyết áp,Disease,C0020538,,Dạng này là điển hình của tăng huyết áp nguyên phát,01_tanghuyetap.txt
+143,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,Dẫn đến biến chứng,biến chứng,Complication,C2362589,,kiểm soát huyết áp có thể làm giảm đáng kể những biến chứng có hại,01_tanghuyetap.txt
+144,tăng huyết áp nguyên phát,Disease,C0085580,,Dẫn đến biến chứng,biến chứng,Complication,C2362589,,kiểm soát huyết áp có thể làm giảm đáng kể những biến chứng có hại,01_tanghuyetap.txt
+145,tăng huyết áp ẩn không kiểm soát được,DiseaseSubtype,Chưa có,,Dẫn đến biến chứng,nguy cơ tim mạch,Complication,C4324389,,tăng huyết áp ẩn không kiểm soát được ... có liên quan đến tăng nguy cơ tim mạch,01_tanghuyetap.txt
+146,tăng huyết áp ẩn không kiểm soát được,DiseaseSubtype,Chưa có,,Dẫn đến biến chứng,tăng nguy cơ tim mạch,Complication,Chưa có,,tăng huyết áp ẩn không kiểm soát được... có liên quan đến tăng nguy cơ tim mạch,01_tanghuyetap.txt
+147,tổn thương các cơ quan đích,Complication,Chưa có,,Gây tổn thương cơ quan,hệ tim mạch,Organ,C0007226,,"tổn thương các cơ quan đích (chủ yếu là hệ tim mạch, não và thận)",01_tanghuyetap.txt
+148,tổn thương các cơ quan đích,Complication,Chưa có,,Gây tổn thương cơ quan,não,Organ,C0006104,,"tổn thương các cơ quan đích (chủ yếu là hệ tim mạch, não và thận)",01_tanghuyetap.txt
+149,tổn thương các cơ quan đích,Complication,Chưa có,,Gây tổn thương cơ quan,thận,Organ,C0022646,,"tổn thương các cơ quan đích (chủ yếu là hệ tim mạch, não và thận)",01_tanghuyetap.txt
+150,tổng sức cản mạch ngoại vi (TPR),Mechanism,C1258192,,Là một phần của cơ chế,cơ chế gây bệnh,Mechanism,C0699748,,cơ chế gây bệnh liên quan đến tổng sức cản mạch ngoại vi (TPR),01_tanghuyetap.txt
+151,viêm bể thận,DiseaseSubtype,C0034186,,Là phân loại / thể bệnh của,Bệnh nhu mô thận,Disease,C1841992,,Bệnh nhu mô thận: ... viêm bể thận,01_tanghuyetap.txt
+152,viêm thận lupus,DiseaseSubtype,C0024143,,Là phân loại / thể bệnh của,Bệnh nhu mô thận,Disease,C1841992,,Bệnh nhu mô thận: ... viêm thận lupus,01_tanghuyetap.txt
+153,vận chuyển natri qua màng tế bào mạch máu,Mechanism,Chưa có,,Gây tổn thương cơ quan,tế bào mạch máu,Organ,C0005847,,vận chuyển natri qua màng tế bào mạch máu,01_tanghuyetap.txt
+154,xuất huyết não,DiseaseSubtype,C2937358,,Là phân loại / thể bệnh của,Đột quỵ,Disease,C0038454,,Đột quỵ (đặc biệt là xuất huyết não),01_tanghuyetap.txt
+155,xuất huyết não,Complication,C2937358,,Là phân loại / thể bệnh của,Đột quỵ,Disease,C0038454,,Đột quỵ (đặc biệt là xuất huyết não),01_tanghuyetap.txt
+156,xét nghiệm cận lâm sàng,Test,C0086143,,Giúp phát hiện,tổn thương các cơ quan đích,Complication,Chưa có,,các xét nghiệm cận lâm sàng khác giúp xác định xem đã có tổn thương các cơ quan đích hay chưa.,01_tanghuyetap.txt
+157,xơ cứng động mạch chủ,Mechanism,C1331537,,Là cơ chế sinh bệnh học của,tăng huyết áp tâm thu đơn độc,DiseaseSubtype,C0745133,,Một số bệnh nhân cao tuổi có tăng huyết áp tâm thu đơn độc ... có thể là do sự xơ cứng động mạch chủ,01_tanghuyetap.txt
+158,xơ vữa động mạch,Disease,C0004153,,Gây tổn thương cơ quan,mắt,Organ,C0015392,,đặc biệt là ở mắt và thận.,01_tanghuyetap.txt
+159,xơ vữa động mạch,Disease,C0004153,,Gây tổn thương cơ quan,thận,Organ,C0022646,,đặc biệt là ở mắt và thận.,01_tanghuyetap.txt
+160,xơ vữa động mạch,Disease,C0004153,,Gây tổn thương cơ quan,tiểu động mạch,Organ,C0003847,,"Xơ vữa động mạch được đặc trưng bởi tình trạng phì đại, tăng sản và hyalin hóa ở lớp giữa của các động mạch nhỏ (tiểu động mạch)",01_tanghuyetap.txt
+161,yếu tố nguy cơ,RiskFactor,C0035648,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,,các yếu tố nguy cơ kèm theo Tăng huyết áp tiên phát,01_tanghuyetap.txt
+162,yếu tố nguy cơ,RiskFactor,C0035648,,Làm tăng nguy cơ mắc,tăng huyết áp nguyên phát,Disease,C0085580,,các yếu tố nguy cơ kèm theo Tăng huyết áp tiên phát,01_tanghuyetap.txt
+163,đo huyết áp,Test,Chưa có,,Dùng để chẩn đoán,Tăng huyết áp,Disease,C0020538,,Tăng huyết áp được chẩn đoán bằng cách đo huyết áp.,01_tanghuyetap.txt
+164,đo huyết áp tại nhà,Treatment,C1449681,,Điều trị,Tăng huyết áp,Disease,C0020538,,Lý tưởng nhất là bệnh nhân tăng huyết áp hoặc người thân nên đo huyết áp tại nhà,01_tanghuyetap.txt

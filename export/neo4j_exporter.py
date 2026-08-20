@@ -1,4 +1,4 @@
-"""Neo4j Knowledge Graph Exporter to Intuitive CSV Files."""
+"""Neo4j Knowledge Graph Exporter to Intuitive CSV Files with Formatted Medical Measurements."""
 
 import argparse
 import csv
@@ -33,6 +33,62 @@ RELATION_VN_MAP: Dict[str, str] = {
     "CLASSIFIES": "Phân loại thể bệnh",
     "MODIFIES": "Làm thay đổi / điều biến",
 }
+
+
+def format_attributes_vn(attr_data: Any) -> str:
+    """Convert raw attribute dict or JSON string into clean, readable Vietnamese clinical text."""
+    if not attr_data:
+        return ""
+
+    if isinstance(attr_data, str):
+        try:
+            attr_dict = json.loads(attr_data)
+        except Exception:
+            return attr_data
+    elif isinstance(attr_data, dict):
+        attr_dict = attr_data
+    else:
+        return ""
+
+    if not isinstance(attr_dict, dict) or not attr_dict:
+        return ""
+
+    unit = attr_dict.get("unit", "")
+    parts = []
+
+    # Blood pressure systolic / diastolic
+    if "systolic" in attr_dict and "diastolic" in attr_dict:
+        parts.append(f"Huyết áp {attr_dict['systolic']}/{attr_dict['diastolic']} {unit}".strip())
+    else:
+        if "systolic" in attr_dict:
+            parts.append(f"Tâm thu: {attr_dict['systolic']} {unit}".strip())
+        if "diastolic" in attr_dict:
+            parts.append(f"Tâm trương: {attr_dict['diastolic']} {unit}".strip())
+
+    if "systolic_min" in attr_dict:
+        max_str = f" - {attr_dict['systolic_max']}" if "systolic_max" in attr_dict else ""
+        parts.append(f"Tâm thu: >={attr_dict['systolic_min']}{max_str} {unit}".strip())
+    if "diastolic_min" in attr_dict:
+        max_str = f" - {attr_dict['diastolic_max']}" if "diastolic_max" in attr_dict else ""
+        parts.append(f"Tâm trương: >={attr_dict['diastolic_min']}{max_str} {unit}".strip())
+
+    if "threshold" in attr_dict:
+        parts.append(f"Ngưỡng: {attr_dict['threshold']} {unit}".strip())
+    if "value" in attr_dict:
+        op = attr_dict.get("operator", "")
+        parts.append(f"Giá trị: {op}{attr_dict['value']} {unit}".strip())
+    if "optimal_threshold" in attr_dict:
+        parts.append(f"Ngưỡng tối ưu: {attr_dict['optimal_threshold']} {unit}".strip())
+
+    for k, v in attr_dict.items():
+        if k not in (
+            "systolic", "diastolic", "systolic_min", "systolic_max",
+            "diastolic_min", "diastolic_max", "threshold", "value",
+            "operator", "unit", "optimal_threshold"
+        ):
+            parts.append(f"{k}: {v}")
+
+    return "; ".join(parts)
 
 
 class Neo4jExporter:
@@ -111,7 +167,10 @@ class Neo4jExporter:
         """
         with driver.session(**session_kwargs) as session:
             result = session.run(query, params)
-            return [dict(record.data()) for record in result]
+            nodes = [dict(record.data()) for record in result]
+            for n in nodes:
+                n["formatted_attributes"] = format_attributes_vn(n.get("attributes"))
+            return nodes
 
     def fetch_relationships(self, source_doc: Optional[str] = None) -> List[Dict[str, Any]]:
         """Query relationships with source and target details from Neo4j, optionally filtered by source_doc."""
@@ -133,10 +192,12 @@ class Neo4jExporter:
             coalesce(s.name, s.normalized_name, '') AS source_name,
             coalesce(s.entity_type, [lbl IN labels(s) WHERE lbl <> 'Entity'][0], 'Entity') AS source_type,
             coalesce(s.umls_cui, '') AS source_cui,
+            coalesce(s.attributes, '{{}}') AS source_attributes,
             type(r) AS relation_type,
             coalesce(t.name, t.normalized_name, '') AS target_name,
             coalesce(t.entity_type, [lbl IN labels(t) WHERE lbl <> 'Entity'][0], 'Entity') AS target_type,
             coalesce(t.umls_cui, '') AS target_cui,
+            coalesce(t.attributes, '{{}}') AS target_attributes,
             coalesce(r.confidence, 1.0) AS confidence,
             coalesce(r.agreement_count, 1) AS agreement_count,
             coalesce(r.total_passes, 1) AS total_passes,
@@ -147,7 +208,11 @@ class Neo4jExporter:
         """
         with driver.session(**session_kwargs) as session:
             result = session.run(query, params)
-            return [dict(record.data()) for record in result]
+            rels = [dict(record.data()) for record in result]
+            for r in rels:
+                r["source_formatted_attributes"] = format_attributes_vn(r.get("source_attributes"))
+                r["target_formatted_attributes"] = format_attributes_vn(r.get("target_attributes"))
+            return rels
 
     def _safe_open_csv(self, file_path: Path):
         """Safely open a file for writing, with fallback if currently locked by Excel."""
@@ -187,6 +252,7 @@ class Neo4jExporter:
                 "entity_type",
                 "umls_cui",
                 "umls_sty",
+                "formatted_attributes",
                 "attributes",
                 "source_document",
                 "created_at",
@@ -203,10 +269,12 @@ class Neo4jExporter:
                 "source_name",
                 "source_type",
                 "source_cui",
+                "source_formatted_attributes",
                 "relation_type",
                 "target_name",
                 "target_type",
                 "target_cui",
+                "target_formatted_attributes",
                 "confidence",
                 "agreement_count",
                 "total_passes",
@@ -226,10 +294,12 @@ class Neo4jExporter:
                 "Thực thể nguồn (Source)",
                 "Loại nguồn (Type)",
                 "Mã CUI nguồn",
+                "Chỉ số nguồn (Attributes)",
                 "Quan hệ lâm sàng (Relation)",
                 "Thực thể đích (Target)",
                 "Loại đích (Type)",
                 "Mã CUI đích",
+                "Chỉ số đích (Attributes)",
                 "Bằng chứng văn bản gốc (Evidence Span)",
                 "Tài liệu nguồn",
             ]
@@ -243,53 +313,25 @@ class Neo4jExporter:
                     "Thực thể nguồn (Source)": r.get("source_name"),
                     "Loại nguồn (Type)": r.get("source_type"),
                     "Mã CUI nguồn": r.get("source_cui") or "Chưa có",
+                    "Chỉ số nguồn (Attributes)": r.get("source_formatted_attributes") or "",
                     "Quan hệ lâm sàng (Relation)": vn_rel,
                     "Thực thể đích (Target)": r.get("target_name"),
                     "Loại đích (Type)": r.get("target_type"),
                     "Mã CUI đích": r.get("target_cui") or "Chưa có",
+                    "Chỉ số đích (Attributes)": r.get("target_formatted_attributes") or "",
                     "Bằng chứng văn bản gốc (Evidence Span)": r.get("evidence_span"),
                     "Tài liệu nguồn": r.get("source_document"),
                 })
 
-        logger.info(f"Successfully exported {len(nodes)} nodes and {len(relationships)} relationships to {out_path}")
+        logger.info(f"Successfully exported {len(nodes)} nodes to {nodes_csv_file}")
+        logger.info(f"Successfully exported {len(relationships)} relationships to {relations_csv_file}")
+        logger.info(f"Successfully exported clinical summary table to {summary_csv_file}")
+
         return {
             "output_dir": str(out_path),
+            "nodes_count": len(nodes),
+            "relations_count": len(relationships),
             "nodes_csv": str(nodes_csv_file),
             "relations_csv": str(relations_csv_file),
             "clinical_summary_csv": str(summary_csv_file),
-            "nodes_count": len(nodes),
-            "relations_count": len(relationships),
         }
-
-
-def main():
-    parser = argparse.ArgumentParser(description="Export Knowledge Graph from Neo4j to CSV files")
-    parser.add_argument("--output-dir", default="data/exports", help="Output directory for CSV files (default: data/exports)")
-    parser.add_argument("--category", default=None, help="Document category subfolder (e.g. hypertension, diabetes)")
-    parser.add_argument("--source-doc", default=None, help="Filter export by specific source document name")
-    parser.add_argument("--clear-db", action="store_true", help="Clear all data from Neo4j database")
-    args = parser.parse_args()
-
-    exporter = Neo4jExporter()
-    if args.clear_db:
-        exporter.clear_database()
-        print("Neo4j database cleared successfully.")
-        exporter.close()
-        return
-
-    res = exporter.export_all_to_csv(output_dir=args.output_dir, source_doc=args.source_doc, category=args.category)
-    print("\n" + "=" * 65)
-    print("  EXPORT COMPLETED SUCCESSFULLY")
-    print("=" * 65)
-    if args.source_doc:
-        print(f"Filtered by Document: {args.source_doc}")
-    print(f"Target Directory: {res['output_dir']}")
-    print(f"Exported Nodes ({res['nodes_count']}): {res['nodes_csv']}")
-    print(f"Exported Triplets ({res['relations_count']}): {res['relations_csv']}")
-    print(f"Clinical Summary Table: {res['clinical_summary_csv']}")
-    print("=" * 65 + "\n")
-    exporter.close()
-
-
-if __name__ == "__main__":
-    main()
