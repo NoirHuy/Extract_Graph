@@ -19,12 +19,46 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 
+import re
+
 @dataclass
 class ExtractionResult:
     pass_index: int
     entities: List[Dict[str, Any]]
     relations: List[Dict[str, Any]]
     source_doc: str
+
+
+def anchor_evidence_span(span: str, chunk_text: str) -> str:
+    """Ensure evidence span is a 100% verbatim substring of chunk_text."""
+    if not span or not chunk_text:
+        return span
+
+    clean_span = span.strip().replace("...", "").strip()
+    if not clean_span:
+        return span
+
+    # 1. Exact match
+    if clean_span in chunk_text:
+        return clean_span
+
+    # 2. Sentence-level search in chunk_text
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", chunk_text) if s.strip()]
+    span_words = set(re.findall(r"\w+", clean_span.lower()))
+    best_sent = clean_span
+    best_overlap = 0
+
+    for sent in sentences:
+        sent_words = set(re.findall(r"\w+", sent.lower()))
+        overlap = len(span_words.intersection(sent_words))
+        if overlap > best_overlap:
+            best_overlap = overlap
+            best_sent = sent
+
+    if best_overlap >= min(3, len(span_words)):
+        return best_sent
+
+    return clean_span
 
 
 def run_extraction_pipeline(
@@ -70,7 +104,7 @@ def run_extraction_pipeline(
                 chunk_prefix = f"p{p}_c{chunk.chunk_id}_"
                 id_map = {}
 
-                # Remap entity IDs to be globally unique within this pass
+                # Remap entity IDs to be globally unique within this pass & anchor evidence span
                 for ent in payload.get("entities", []):
                     old_id = ent.get("id", "")
                     new_id = f"{chunk_prefix}{old_id}"
@@ -79,14 +113,16 @@ def run_extraction_pipeline(
                     ent_copy["id"] = new_id
                     ent_copy["chunk_id"] = chunk.chunk_id
                     ent_copy["section_title"] = chunk.section_title
+                    ent_copy["evidence_span"] = anchor_evidence_span(ent.get("evidence_span", ""), chunk.text)
                     all_pass_entities.append(ent_copy)
 
-                # Remap relation IDs
+                # Remap relation IDs & anchor evidence span
                 for rel in payload.get("relations", []):
                     rel_copy = dict(rel)
                     rel_copy["source_id"] = id_map.get(rel.get("source_id"), rel.get("source_id"))
                     rel_copy["target_id"] = id_map.get(rel.get("target_id"), rel.get("target_id"))
                     rel_copy["chunk_id"] = chunk.chunk_id
+                    rel_copy["evidence_span"] = anchor_evidence_span(rel.get("evidence_span", ""), chunk.text)
                     all_pass_relations.append(rel_copy)
 
             except Exception as e:

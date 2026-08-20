@@ -236,7 +236,30 @@ class Neo4jExporter:
         out_path.mkdir(parents=True, exist_ok=True)
 
         nodes = self.fetch_nodes(source_doc=source_doc)
-        relationships = self.fetch_relationships(source_doc=source_doc)
+        raw_relationships = self.fetch_relationships(source_doc=source_doc)
+        
+        # Deduplicate relationships by (source, relation, target) to guarantee zero duplicate rows
+        seen_triplets: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
+        for r in raw_relationships:
+            s_name = str(r.get("source_name", "")).strip().lower()
+            rel_type = str(r.get("relation_type", "")).strip()
+            t_name = str(r.get("target_name", "")).strip().lower()
+            key = (s_name, rel_type, t_name)
+
+            if key not in seen_triplets:
+                seen_triplets[key] = dict(r)
+            else:
+                existing = seen_triplets[key]
+                if len(r.get("evidence_span", "")) > len(existing.get("evidence_span", "")):
+                    existing["evidence_span"] = r.get("evidence_span", "")
+                if r.get("confidence", 0) > existing.get("confidence", 0):
+                    existing["confidence"] = r.get("confidence", 0)
+                if not existing.get("source_cui") and r.get("source_cui"):
+                    existing["source_cui"] = r.get("source_cui")
+                if not existing.get("target_cui") and r.get("target_cui"):
+                    existing["target_cui"] = r.get("target_cui")
+
+        relationships = list(seen_triplets.values())
 
         nodes_csv_target = out_path / "nodes_entities.csv"
         relations_csv_target = out_path / "relationships_triplets.csv"

@@ -29,34 +29,65 @@ _SPECIFICITY_RANK: Dict[str, int] = {
     "MODIFIES": 4,
 }
 
+# Entity type specificity hierarchy to resolve type conflicts during deduplication
+_ENTITY_TYPE_SPECIFICITY: Dict[str, int] = {
+    "DiseaseSubtype": 10,
+    "DrugClass": 10,
+    "Measurement": 10,
+    "Cause": 9,
+    "Mechanism": 9,
+    "Complication": 8,
+    "Disease": 8,
+    "Drug": 8,
+    "Test": 8,
+    "Symptom": 8,
+    "Sign": 8,
+    "Treatment": 8,
+    "RiskFactor": 8,
+    "Organ": 8,
+    "PatientGroup": 8,
+    "Guideline": 8,
+    "Entity": 1,
+}
+
 
 def merge_entities(entity_lists: List[List[Dict[str, Any]]]) -> Tuple[List[Dict[str, Any]], Dict[str, str]]:
-    """Deduplicate entities across multiple extraction passes.
+    """Deduplicate entities across multiple extraction passes by canonical normalized_name.
 
-    Matches entities on (normalized_name.strip().lower(), entity_type).
+    Resolves type conflicts by prioritizing more specific entity types (e.g. DiseaseSubtype > Disease).
     Retains the longest evidence span, unions structured attributes,
     and returns canonical entities alongside an ID mapping (old_id -> canonical_id).
     """
-    canonical_entities: Dict[str, Dict[str, Any]] = {}
+    name_to_canonical: Dict[str, Dict[str, Any]] = {}
     id_mapping: Dict[str, str] = {}
     next_canonical_id = 1
 
     for pass_entities in entity_lists:
         for ent in pass_entities:
             old_id = ent.get("id", "")
-            norm_name = str(ent.get("normalized_name", "")).strip().lower()
-            ent_type = str(ent.get("entity_type", "")).strip()
-            key = f"{ent_type}:{norm_name}"
+            norm_name = str(ent.get("normalized_name") or ent.get("text", "")).strip().lower()
+            ent_type = str(ent.get("entity_type", "")).strip() or "Entity"
 
-            if key not in canonical_entities:
+            if not norm_name:
+                continue
+
+            if norm_name not in name_to_canonical:
                 canonical_id = f"ent_{next_canonical_id}"
                 next_canonical_id += 1
                 canonical_ent = dict(ent)
                 canonical_ent["id"] = canonical_id
+                canonical_ent["entity_type"] = ent_type
                 canonical_ent["attributes"] = dict(ent.get("attributes") or {})
-                canonical_entities[key] = canonical_ent
+                name_to_canonical[norm_name] = canonical_ent
             else:
-                canonical_ent = canonical_entities[key]
+                canonical_ent = name_to_canonical[norm_name]
+                # If current entity type is more specific, update canonical type
+                current_type = canonical_ent.get("entity_type", "Entity")
+                current_rank = _ENTITY_TYPE_SPECIFICITY.get(current_type, 5)
+                new_rank = _ENTITY_TYPE_SPECIFICITY.get(ent_type, 5)
+                if new_rank > current_rank:
+                    canonical_ent["entity_type"] = ent_type
+
                 # Keep longest evidence span
                 current_span = canonical_ent.get("evidence_span", "")
                 new_span = ent.get("evidence_span", "")
@@ -67,9 +98,9 @@ def merge_entities(entity_lists: List[List[Dict[str, Any]]]) -> Tuple[List[Dict[
                 new_attrs = ent.get("attributes") or {}
                 canonical_ent["attributes"].update(new_attrs)
 
-            id_mapping[old_id] = canonical_entities[key]["id"]
+            id_mapping[old_id] = name_to_canonical[norm_name]["id"]
 
-    return list(canonical_entities.values()), id_mapping
+    return list(name_to_canonical.values()), id_mapping
 
 
 def aggregate_relation_consensus(
@@ -110,90 +141,87 @@ def aggregate_relation_consensus(
     consensus_relations: List[Dict[str, Any]] = []
     conflict_relations: List[Dict[str, Any]] = []
 
-    for (src, tgt), rel_types_dict in pair_groups.items():
-        if len(rel_types_dict) > 1:
-            # Conflict detected across passes -> Check if tie-breaker can resolve
-            types_by_rank = sorted(
-                rel_types_dict.keys(),
-                key=lambda t: _SPECIFICITY_RANK.get(t, 5),
+    for (src_canon, tgt_canon), type_map in pair_groups.items():
+        if len(type_map) == 1:
+            # Full agreement on relation type
+            rel_type, instances = list(type_map.items())[0]
+            conf = _combine_confidences([inst.get("confidence", 0.8) for inst in instances])
+            longest_span = max(
+                (inst.get("evidence_span", "") for inst in instances),
+                key=len,
+                default="",
+            )
+            consensus_relations.append({
+                "source_id": src_canon,
+                "target_id": tgt_canon,
+                "relation_type": rel_type,
+                "confidence": conf,
+                "agreement_count": len(instances),
+                "total_passes": total_passes,
+                "evidence_span": longest_span,
+            })
+        else:
+            # Discordant relation types between same source and target
+            ranked_types = sorted(
+                type_map.keys(),
+                key=lambda t: (_SPECIFICITY_RANK.get(t, 0), len(type_map[t])),
                 reverse=True,
             )
-            top_type = types_by_rank[0]
-            second_type = types_by_rank[1]
-            top_rank = _SPECIFICITY_RANK.get(top_type, 5)
-            second_rank = _SPECIFICITY_RANK.get(second_type, 5)
+            best_type = ranked_types[0]
+            second_type = ranked_types[1]
+            best_rank = _SPECIFICITY_RANK.get(best_type, 0)
+            second_rank = _SPECIFICITY_RANK.get(second_type, 0)
 
-            # If top type is strictly more specific (e.g. UNDERLIES > MODIFIES)
-            if top_rank > second_rank:
-                chosen_occurrences = rel_types_dict[top_type]
-                best_span = max((o.get("evidence_span", "") for o in chosen_occurrences), key=len, default="")
-                
-                # Combine confidence from both passes
-                all_confs = [float(o.get("confidence", 0.8)) for occs in rel_types_dict.values() for o in occs]
-                conf_product = 1.0
-                for c in all_confs:
-                    conf_product *= (1.0 - min(0.99, max(0.01, c)))
-                stat_confidence = round(1.0 - conf_product, 4)
-
+            # Check if specificity tie-breaker can resolve it
+            if best_rank > second_rank:
+                instances = type_map[best_type]
+                conf = _combine_confidences([inst.get("confidence", 0.8) for inst in instances])
+                longest_span = max(
+                    (inst.get("evidence_span", "") for inst in instances),
+                    key=len,
+                    default="",
+                )
+                logger.info(
+                    f"Semantic Tie-Breaker resolved conflict for ({src_canon} -> {tgt_canon}): "
+                    f"Selected '{best_type}' (rank={best_rank}) over '{second_type}' (rank={second_rank})"
+                )
                 consensus_relations.append({
-                    "source_id": src,
-                    "target_id": tgt,
-                    "relation_type": top_type,
-                    "confidence": stat_confidence,
-                    "agreement_count": len(chosen_occurrences),
+                    "source_id": src_canon,
+                    "target_id": tgt_canon,
+                    "relation_type": best_type,
+                    "confidence": conf,
+                    "agreement_count": len(instances),
                     "total_passes": total_passes,
-                    "agreement_ratio": round(len(chosen_occurrences) / total_passes, 2),
-                    "evidence_span": best_span,
-                    "relation_properties": {"resolved_alternate": second_type},
+                    "evidence_span": longest_span,
                     "status": "resolved_by_specificity",
                 })
             else:
-                # True contradiction of equal rank (e.g. TREATS vs CAUSES)
-                variants = []
-                for r_type, occurrences in rel_types_dict.items():
-                    variants.append({
-                        "relation_type": r_type,
-                        "count": len(occurrences),
-                        "mean_confidence": sum(o.get("confidence", 0.7) for o in occurrences) / len(occurrences),
-                        "evidence_spans": [o.get("evidence_span", "") for o in occurrences],
-                    })
+                # True irresolvable conflict with equal support and equal specificity
                 conflict_record = {
-                    "source_id": src,
-                    "target_id": tgt,
+                    "source_id": src_canon,
+                    "target_id": tgt_canon,
+                    "conflict_variants": list(type_map.keys()),
+                    "competing_relations": {
+                        t: {
+                            "pass_count": len(insts),
+                            "avg_confidence": sum(i.get("confidence", 0.8) for i in insts) / len(insts),
+                            "evidence_spans": [i.get("evidence_span", "") for i in insts],
+                        }
+                        for t, insts in type_map.items()
+                    },
                     "status": "conflict",
-                    "total_passes": total_passes,
-                    "conflict_variants": variants,
                 }
                 conflict_relations.append(conflict_record)
-        else:
-            # Single relation type for this source-target pair
-            (r_type, occurrences) = next(iter(rel_types_dict.items()))
-            agreement_count = len(occurrences)
-
-            # Statistical independent probability calculation: conf = 1 - prod(1 - c_i)
-            conf_product = 1.0
-            for occ in occurrences:
-                c = float(occ.get("confidence", 0.7))
-                conf_product *= (1.0 - min(0.99, max(0.01, c)))
-            stat_confidence = round(1.0 - conf_product, 4)
-
-            best_span = max((o.get("evidence_span", "") for o in occurrences), key=len, default="")
-            relation_props = {}
-            for occ in occurrences:
-                if occ.get("relation_properties"):
-                    relation_props.update(occ["relation_properties"])
-
-            consensus_relations.append({
-                "source_id": src,
-                "target_id": tgt,
-                "relation_type": r_type,
-                "confidence": stat_confidence,
-                "agreement_count": agreement_count,
-                "total_passes": total_passes,
-                "agreement_ratio": round(agreement_count / total_passes, 2),
-                "evidence_span": best_span,
-                "relation_properties": relation_props,
-                "status": "agreed",
-            })
 
     return consensus_relations, conflict_relations
+
+
+def _combine_confidences(confidences: List[float]) -> float:
+    """Calculate multi-pass consolidated confidence: 1 - prod(1 - c_i), capped at 0.99."""
+    if not confidences:
+        return 0.5
+    prob_all_wrong = 1.0
+    for c in confidences:
+        prob_all_wrong *= (1.0 - min(0.99, max(0.01, c)))
+    combined = 1.0 - prob_all_wrong
+    return round(min(0.99, max(0.1, combined)), 4)

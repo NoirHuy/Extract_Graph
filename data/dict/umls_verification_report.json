@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-20T07:17:51Z",
+  "timestamp": "2026-08-20T08:53:48Z",
   "dictionary_path": "data\\dict\\medical_vi_en_cui.json",
-  "total_entries": 65,
-  "verified_matches": 60,
-  "mismatched_or_healed_count": 0,
-  "not_found_count": 5,
+  "total_entries": 116,
+  "verified_matches": 68,
+  "mismatched_or_healed_count": 34,
+  "not_found_count": 14,
   "collision_count": 0,
   "tui_sty_mismatch_count": 0,
   "cui_collisions": [],
@@ -79,6 +79,125 @@
       "status": "VERIFIED_MATCH"
     },
     {
+      "vi_term": "tăng huyết áp giai đoạn 1 (nhẹ)",
+      "en_term": "Stage 1 hypertension",
+      "existing_cui": "C5231206",
+      "existing_tui": "T033",
+      "existing_sty": "Finding",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C5231206",
+      "official_name": "Hypertension stage 1",
+      "official_sty": "Finding",
+      "official_tui": "T033",
+      "official_all_stys": [
+        "Finding"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tăng huyết áp giai đoạn 2",
+      "en_term": "Stage 2 hypertension",
+      "existing_cui": "C5231205",
+      "existing_tui": "T033",
+      "existing_sty": "Finding",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C5231205",
+      "official_name": "Hypertension stage 2",
+      "official_sty": "Finding",
+      "official_tui": "T033",
+      "official_all_stys": [
+        "Finding"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "giai đoạn 2",
+      "en_term": "Stage 2 hypertension",
+      "existing_cui": "C5231205",
+      "existing_tui": "T033",
+      "existing_sty": "Finding",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C5231205",
+      "official_name": "Hypertension stage 2",
+      "official_sty": "Finding",
+      "official_tui": "T033",
+      "official_all_stys": [
+        "Finding"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tăng huyết áp cấp cứu",
+      "en_term": "Hypertensive emergency",
+      "existing_cui": "C0262947",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C0745136",
+      "official_name": "Hypertensive emergency",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "tăng huyết áp khẩn cấp",
+      "en_term": "Hypertensive urgency",
+      "existing_cui": "C0877138",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C0745138",
+      "official_name": "Hypertensive Urgency",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "tăng huyết áp kháng thuốc",
+      "en_term": "Resistant hypertension",
+      "existing_cui": "C1834155",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C1834155",
+      "official_name": "Hypertension Resistant to Conventional Therapy",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tăng huyết áp kháng trị",
+      "en_term": "Resistant hypertension",
+      "existing_cui": "C1834155",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C1834155",
+      "official_name": "Hypertension Resistant to Conventional Therapy",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
       "vi_term": "cường aldosteron nguyên phát",
       "en_term": "Primary Hyperaldosteronism",
       "existing_cui": "C1384514",
@@ -94,6 +213,159 @@
       ],
       "match_strategy": "exact",
       "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tăng aldosteron",
+      "en_term": "Hyperaldosteronism",
+      "existing_cui": "C0020438",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Cause",
+      "official_cui": "C0020428",
+      "official_name": "Hyperaldosteronism",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "ngưng thở khi ngủ",
+      "en_term": "Sleep Apnea",
+      "existing_cui": "C0037315",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Cause",
+      "official_cui": "C0037315",
+      "official_name": "Sleep Apnea Syndromes",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "bệnh nhu mô thận",
+      "en_term": "Renal Parenchymal Disease",
+      "existing_cui": "C1841992",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Cause",
+      "official_cui": "C1841992",
+      "official_name": "Disorder of renal parenchyma",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "hẹp động mạch thận",
+      "en_term": "Renal Artery Stenosis",
+      "existing_cui": "C0035067",
+      "existing_tui": "T046",
+      "existing_sty": "Pathologic Function",
+      "entity_type": "Cause",
+      "official_cui": "C0035067",
+      "official_name": "Renal Artery Stenosis",
+      "official_sty": "Pathologic Function",
+      "official_tui": "T046",
+      "official_all_stys": [
+        "Pathologic Function"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "bệnh thận mạn tính",
+      "en_term": "Chronic Kidney Disease",
+      "existing_cui": "C1561643",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Cause",
+      "official_cui": "C1561643",
+      "official_name": "Chronic Kidney Diseases",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "u tủy thượng thận",
+      "en_term": "Pheochromocytoma",
+      "existing_cui": "C0031511",
+      "existing_tui": "T191",
+      "existing_sty": "Neoplastic Process",
+      "entity_type": "Cause",
+      "official_cui": "C4551683",
+      "official_name": "Adrenal Gland Pheochromocytoma",
+      "official_sty": "Neoplastic Process",
+      "official_tui": "T191",
+      "official_all_stys": [
+        "Neoplastic Process"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "hội chứng cushing",
+      "en_term": "Cushing Syndrome",
+      "existing_cui": "C0010481",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Cause",
+      "official_cui": "C0010481",
+      "official_name": "Cushing Syndrome",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "hẹp động mạch chủ",
+      "en_term": "Aortic Coarctation",
+      "existing_cui": "C0003492",
+      "existing_tui": "T190",
+      "existing_sty": "Anatomical Abnormality",
+      "entity_type": "Cause",
+      "official_cui": "C0003492",
+      "official_name": "Aortic coarctation",
+      "official_sty": "Congenital Abnormality",
+      "official_tui": "T000",
+      "official_all_stys": [
+        "Congenital Abnormality"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "nguyên nhân thứ phát",
+      "en_term": "Secondary cause",
+      "existing_cui": "C0155616",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Cause",
+      "official_cui": "C3262233",
+      "official_name": "Secondary Cause of Death",
+      "official_sty": "Finding",
+      "official_tui": "T033",
+      "official_all_stys": [
+        "Finding"
+      ],
+      "match_strategy": "words",
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "đột quỵ",
@@ -147,14 +419,14 @@
       "status": "VERIFIED_MATCH"
     },
     {
-      "vi_term": "suy tim mạn tính",
-      "en_term": "Chronic Heart Failure",
-      "existing_cui": "C0264716",
+      "vi_term": "bệnh võng mạc do tăng huyết áp",
+      "en_term": "Hypertensive Retinopathy",
+      "existing_cui": "C0152132",
       "existing_tui": "T047",
       "existing_sty": "Disease or Syndrome",
       "entity_type": "Complication",
-      "official_cui": "C0264716",
-      "official_name": "Chronic heart failure",
+      "official_cui": "C0152132",
+      "official_name": "Hypertensive Retinopathy",
       "official_sty": "Disease or Syndrome",
       "official_tui": "T047",
       "official_all_stys": [
@@ -162,6 +434,162 @@
       ],
       "match_strategy": "exact",
       "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "bệnh não tăng huyết áp",
+      "en_term": "Hypertensive Encephalopathy",
+      "existing_cui": "C0151620",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Complication",
+      "official_cui": "C0151620",
+      "official_name": "Hypertensive Encephalopathy",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "bóc tách động mạch chủ",
+      "en_term": "Aortic Dissection",
+      "existing_cui": "C0340643",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Complication",
+      "official_cui": "C0340643",
+      "official_name": "Dissection of aorta",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "bóc tách động mạch chủ ngực",
+      "en_term": "Thoracic Aortic Dissection",
+      "existing_cui": "C0729233",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Complication",
+      "official_cui": "C0729233",
+      "official_name": "Dissection, Thoracic Aorta",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "suy giảm chức năng thận",
+      "en_term": "Impaired renal function",
+      "existing_cui": "C1565489",
+      "existing_tui": "T046",
+      "existing_sty": "Pathologic Function",
+      "entity_type": "Complication",
+      "official_cui": "C1565489",
+      "official_name": "Renal Insufficiency",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "giảm chức năng thận",
+      "en_term": "Impaired renal function",
+      "existing_cui": "C1565489",
+      "existing_tui": "T046",
+      "existing_sty": "Pathologic Function",
+      "entity_type": "Complication",
+      "official_cui": "C1565489",
+      "official_name": "Renal Insufficiency",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "bệnh thận giai đoạn cuối",
+      "en_term": "End-Stage Renal Disease",
+      "existing_cui": "C0022661",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Complication",
+      "official_cui": "C2316810",
+      "official_name": "Chronic kidney disease stage 5",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "phì đại thất trái",
+      "en_term": "Left Ventricular Hypertrophy",
+      "existing_cui": "C0149721",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "DiseaseSubtype",
+      "official_cui": "C0149721",
+      "official_name": "Left Ventricular Hypertrophy",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "phì đại",
+      "en_term": "Hypertrophy",
+      "existing_cui": "C0020564",
+      "existing_tui": "T046",
+      "existing_sty": "Pathologic Function",
+      "entity_type": "Sign",
+      "official_cui": "C0020564",
+      "official_name": "Hypertrophy",
+      "official_sty": "Pathologic Function",
+      "official_tui": "T046",
+      "official_all_stys": [
+        "Pathologic Function"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tổn thương cơ quan đích",
+      "en_term": "Target organ damage",
+      "existing_cui": "C3887506",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Complication",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
+    },
+    {
+      "vi_term": "tổn thương các cơ quan đích",
+      "en_term": "Target organ damage",
+      "existing_cui": "C3887506",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "Complication",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
     },
     {
       "vi_term": "thuốc ức chế men chuyển",
@@ -266,6 +694,459 @@
       "status": "VERIFIED_MATCH"
     },
     {
+      "vi_term": "thuốc chẹn beta",
+      "en_term": "Adrenergic beta-Antagonists",
+      "existing_cui": "C0001645",
+      "existing_tui": "T121",
+      "existing_sty": "Pharmacologic Substance",
+      "entity_type": "DrugClass",
+      "official_cui": "C0001645",
+      "official_name": "Adrenergic beta-Antagonists",
+      "official_sty": "Pharmacologic Substance",
+      "official_tui": "T121",
+      "official_all_stys": [
+        "Pharmacologic Substance"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "thuốc đối kháng aldosterone",
+      "en_term": "Mineralocorticoid Receptor Antagonists",
+      "existing_cui": "C0026169",
+      "existing_tui": "T121",
+      "existing_sty": "Pharmacologic Substance",
+      "entity_type": "DrugClass",
+      "official_cui": "C1579268",
+      "official_name": "Mineralocorticoid Receptor Antagonists",
+      "official_sty": "Pharmacologic Substance",
+      "official_tui": "T121",
+      "official_all_stys": [
+        "Pharmacologic Substance"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "spironolactone",
+      "en_term": "Spironolactone",
+      "existing_cui": "C0037990",
+      "existing_tui": "T121",
+      "existing_sty": "Pharmacologic Substance",
+      "entity_type": "Drug",
+      "official_cui": "C0037982",
+      "official_name": "spironolactone",
+      "official_sty": "Pharmacologic Substance",
+      "official_tui": "T121",
+      "official_all_stys": [
+        "Organic Chemical",
+        "Pharmacologic Substance"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "angiotensin ii",
+      "en_term": "Angiotensin II",
+      "existing_cui": "C0003009",
+      "existing_tui": "T116",
+      "existing_sty": "Amino Acid, Peptide, or Protein",
+      "entity_type": "Mechanism",
+      "official_cui": "C3714928",
+      "official_name": "Angiotensin-2, Human",
+      "official_sty": "Amino Acid, Peptide, or Protein",
+      "official_tui": "T116",
+      "official_all_stys": [
+        "Amino Acid, Peptide, or Protein",
+        "Hormone"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "renin",
+      "en_term": "Renin",
+      "existing_cui": "C0035094",
+      "existing_tui": "T126",
+      "existing_sty": "Enzyme",
+      "entity_type": "Mechanism",
+      "official_cui": "C0035094",
+      "official_name": "Renin",
+      "official_sty": "Amino Acid, Peptide, or Protein",
+      "official_tui": "T116",
+      "official_all_stys": [
+        "Amino Acid, Peptide, or Protein",
+        "Pharmacologic Substance",
+        "Enzyme"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "aldosteron",
+      "en_term": "Aldosterone",
+      "existing_cui": "C0001989",
+      "existing_tui": "T125",
+      "existing_sty": "Hormone",
+      "entity_type": "Mechanism",
+      "official_cui": "C0002006",
+      "official_name": "aldosterone",
+      "official_sty": "Organic Chemical",
+      "official_tui": "T109",
+      "official_all_stys": [
+        "Organic Chemical",
+        "Pharmacologic Substance",
+        "Hormone"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "norepinephrine",
+      "en_term": "Norepinephrine",
+      "existing_cui": "C0028351",
+      "existing_tui": "T121",
+      "existing_sty": "Pharmacologic Substance",
+      "entity_type": "Mechanism",
+      "official_cui": "C0028351",
+      "official_name": "norepinephrine",
+      "official_sty": "Organic Chemical",
+      "official_tui": "T109",
+      "official_all_stys": [
+        "Organic Chemical",
+        "Pharmacologic Substance",
+        "Hormone"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "oxit nitric",
+      "en_term": "Nitric Oxide",
+      "existing_cui": "C0028128",
+      "existing_tui": "T197",
+      "existing_sty": "Inorganic Chemical",
+      "entity_type": "Mechanism",
+      "official_cui": "C0028128",
+      "official_name": "nitric oxide",
+      "official_sty": "Pharmacologic Substance",
+      "official_tui": "T121",
+      "official_all_stys": [
+        "Pharmacologic Substance",
+        "Inorganic Chemical"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "bradykinin",
+      "en_term": "Bradykinin",
+      "existing_cui": "C0006100",
+      "existing_tui": "T116",
+      "existing_sty": "Amino Acid, Peptide, or Protein",
+      "entity_type": "Mechanism",
+      "official_cui": "C0006100",
+      "official_name": "Bradykinin",
+      "official_sty": "Amino Acid, Peptide, or Protein",
+      "official_tui": "T116",
+      "official_all_stys": [
+        "Amino Acid, Peptide, or Protein",
+        "Hormone"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "kích thích thần kinh giao cảm",
+      "en_term": "Sympathetic Nervous System Stimulation",
+      "existing_cui": "C0038996",
+      "existing_tui": "T042",
+      "existing_sty": "Organ or Tissue Function",
+      "entity_type": "Mechanism",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
+    },
+    {
+      "vi_term": "co thắt phế quản",
+      "en_term": "Bronchospasm",
+      "existing_cui": "C0006266",
+      "existing_tui": "T046",
+      "existing_sty": "Pathologic Function",
+      "entity_type": "Mechanism",
+      "official_cui": "C0006266",
+      "official_name": "Bronchospasm",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "kháng insulin",
+      "en_term": "Insulin Resistance",
+      "existing_cui": "C0021655",
+      "existing_tui": "T046",
+      "existing_sty": "Pathologic Function",
+      "entity_type": "Mechanism",
+      "official_cui": "C0021655",
+      "official_name": "Insulin Resistance",
+      "official_sty": "Pathologic Function",
+      "official_tui": "T046",
+      "official_all_stys": [
+        "Pathologic Function"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "các biện pháp điều trị không dùng thuốc",
+      "en_term": "Lifestyle modifications",
+      "existing_cui": "C0454378",
+      "existing_tui": "T061",
+      "existing_sty": "Therapeutic or Preventive Procedure",
+      "entity_type": "Treatment",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
+    },
+    {
+      "vi_term": "thay đổi lối sống",
+      "en_term": "Lifestyle modifications",
+      "existing_cui": "C0454378",
+      "existing_tui": "T061",
+      "existing_sty": "Therapeutic or Preventive Procedure",
+      "entity_type": "Treatment",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
+    },
+    {
+      "vi_term": "giáo dục",
+      "en_term": "Patient Education",
+      "existing_cui": "C0030688",
+      "existing_tui": "T065",
+      "existing_sty": "Educational Activity",
+      "entity_type": "Treatment",
+      "official_cui": "C0030688",
+      "official_name": "Patient education (procedure)",
+      "official_sty": "Educational Activity",
+      "official_tui": "T065",
+      "official_all_stys": [
+        "Educational Activity"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "liệu pháp kích hoạt baroreflex",
+      "en_term": "Baroreflex activation therapy",
+      "existing_cui": "C3898150",
+      "existing_tui": "T061",
+      "existing_sty": "Therapeutic or Preventive Procedure",
+      "entity_type": "Treatment",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
+    },
+    {
+      "vi_term": "theo dõi huyết áp tại nhà",
+      "en_term": "Home blood pressure monitoring",
+      "existing_cui": "C1449681",
+      "existing_tui": "T060",
+      "existing_sty": "Diagnostic Procedure",
+      "entity_type": "Test",
+      "official_cui": "C1449681",
+      "official_name": "Blood Pressure Monitoring, Home",
+      "official_sty": "Diagnostic Procedure",
+      "official_tui": "T060",
+      "official_all_stys": [
+        "Diagnostic Procedure"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "nghiên cứu giấc ngủ",
+      "en_term": "Polysomnography",
+      "existing_cui": "C0032541",
+      "existing_tui": "T060",
+      "existing_sty": "Diagnostic Procedure",
+      "entity_type": "Test",
+      "official_cui": "C0162701",
+      "official_name": "Polysomnography",
+      "official_sty": "Diagnostic Procedure",
+      "official_tui": "T060",
+      "official_all_stys": [
+        "Diagnostic Procedure"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "ecg",
+      "en_term": "Electrocardiography",
+      "existing_cui": "C0013798",
+      "existing_tui": "T060",
+      "existing_sty": "Diagnostic Procedure",
+      "entity_type": "Test",
+      "official_cui": "C1623258",
+      "official_name": "Electrocardiography",
+      "official_sty": "Diagnostic Procedure",
+      "official_tui": "T060",
+      "official_all_stys": [
+        "Diagnostic Procedure"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "chỉ số huyết áp",
+      "en_term": "Blood pressure measurement",
+      "existing_cui": "C0005823",
+      "existing_tui": "T059",
+      "existing_sty": "Laboratory Procedure",
+      "entity_type": "Test",
+      "official_cui": "C0005824",
+      "official_name": "Blood pressure determination",
+      "official_sty": "Health Care Activity",
+      "official_tui": "T058",
+      "official_all_stys": [
+        "Health Care Activity"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "tiền sử",
+      "en_term": "Medical History",
+      "existing_cui": "C0262926",
+      "existing_tui": "T033",
+      "existing_sty": "Finding",
+      "entity_type": "Test",
+      "official_cui": "C0262926",
+      "official_name": "Medical History",
+      "official_sty": "Finding",
+      "official_tui": "T033",
+      "official_all_stys": [
+        "Finding"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "hba1c",
+      "en_term": "Hemoglobin A1c",
+      "existing_cui": "C0018684",
+      "existing_tui": "T034",
+      "existing_sty": "Laboratory or Test Result",
+      "entity_type": "Test",
+      "official_cui": "C0019018",
+      "official_name": "Glycosylated hemoglobin A",
+      "official_sty": "Amino Acid, Peptide, or Protein",
+      "official_tui": "T116",
+      "official_all_stys": [
+        "Amino Acid, Peptide, or Protein",
+        "Biologically Active Substance"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "fev1",
+      "en_term": "Forced Expiratory Volume in 1 Second",
+      "existing_cui": "C0016027",
+      "existing_tui": "T034",
+      "existing_sty": "Laboratory or Test Result",
+      "entity_type": "Measurement",
+      "official_cui": "C0849974",
+      "official_name": "Pulmonary Function Test/Forced Expiratory Volume 1",
+      "official_sty": "Diagnostic Procedure",
+      "official_tui": "T060",
+      "official_all_stys": [
+        "Diagnostic Procedure"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "di truyền",
+      "en_term": "Genetics",
+      "existing_cui": "C1455997",
+      "existing_tui": "T090",
+      "existing_sty": "Occupation or Discipline",
+      "entity_type": "RiskFactor",
+      "official_cui": "C0017398",
+      "official_name": "Science of genetics",
+      "official_sty": "Biomedical Occupation or Discipline",
+      "official_tui": "T091",
+      "official_all_stys": [
+        "Biomedical Occupation or Discipline"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "cam thảo",
+      "en_term": "Licorice",
+      "existing_cui": "C0697105",
+      "existing_tui": "T168",
+      "existing_sty": "Food",
+      "entity_type": "RiskFactor",
+      "official_cui": "C0086555",
+      "official_name": "licorice",
+      "official_sty": "Organic Chemical",
+      "official_tui": "T109",
+      "official_all_stys": [
+        "Organic Chemical",
+        "Pharmacologic Substance"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "hút thuốc lá",
+      "en_term": "Tobacco smoking behavior",
+      "existing_cui": "C0453996",
+      "existing_tui": "T055",
+      "existing_sty": "Individual Behavior",
+      "entity_type": "RiskFactor",
+      "official_cui": "C0453996",
+      "official_name": "Tobacco smoking behavior",
+      "official_sty": "Individual Behavior",
+      "official_tui": "T055",
+      "official_all_stys": [
+        "Individual Behavior"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "béo phì",
+      "en_term": "Obesity",
+      "existing_cui": "C0028754",
+      "existing_tui": "T047",
+      "existing_sty": "Disease or Syndrome",
+      "entity_type": "RiskFactor",
+      "official_cui": "C0028754",
+      "official_name": "Obesity",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "thời gian ngủ ngắn",
+      "en_term": "Short sleep duration",
+      "existing_cui": "C4524458",
+      "existing_tui": "T033",
+      "existing_sty": "Finding",
+      "entity_type": "RiskFactor",
+      "status": "NOT_FOUND_IN_UMLS",
+      "official_cui": null
+    },
+    {
       "vi_term": "đau đầu",
       "en_term": "Headache",
       "existing_cui": "C0018681",
@@ -298,6 +1179,108 @@
       ],
       "match_strategy": "exact",
       "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "khó thở",
+      "en_term": "Dyspnea",
+      "existing_cui": "C0013404",
+      "existing_tui": "T184",
+      "existing_sty": "Sign or Symptom",
+      "entity_type": "Symptom",
+      "official_cui": "C0013404",
+      "official_name": "Dyspnea",
+      "official_sty": "Sign or Symptom",
+      "official_tui": "T184",
+      "official_all_stys": [
+        "Sign or Symptom"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "khò khè",
+      "en_term": "Wheezing",
+      "existing_cui": "C0043144",
+      "existing_tui": "T184",
+      "existing_sty": "Sign or Symptom",
+      "entity_type": "Symptom",
+      "official_cui": "C0043144",
+      "official_name": "Wheezing",
+      "official_sty": "Sign or Symptom",
+      "official_tui": "T184",
+      "official_all_stys": [
+        "Sign or Symptom"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "buồn nôn",
+      "en_term": "Nausea",
+      "existing_cui": "C0028081",
+      "existing_tui": "T184",
+      "existing_sty": "Sign or Symptom",
+      "entity_type": "Symptom",
+      "official_cui": "C0027497",
+      "official_name": "Nausea",
+      "official_sty": "Sign or Symptom",
+      "official_tui": "T184",
+      "official_all_stys": [
+        "Sign or Symptom"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "đau ngực",
+      "en_term": "Chest Pain",
+      "existing_cui": "C0008031",
+      "existing_tui": "T184",
+      "existing_sty": "Sign or Symptom",
+      "entity_type": "Symptom",
+      "official_cui": "C0008031",
+      "official_name": "Chest Pain",
+      "official_sty": "Sign or Symptom",
+      "official_tui": "T184",
+      "official_all_stys": [
+        "Sign or Symptom"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "co giật",
+      "en_term": "Seizures",
+      "existing_cui": "C0036572",
+      "existing_tui": "T184",
+      "existing_sty": "Sign or Symptom",
+      "entity_type": "Sign",
+      "official_cui": "C0036572",
+      "official_name": "Seizures",
+      "official_sty": "Sign or Symptom",
+      "official_tui": "T184",
+      "official_all_stys": [
+        "Sign or Symptom"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tăng đường huyết",
+      "en_term": "Hyperglycemia",
+      "existing_cui": "C0020456",
+      "existing_tui": "T033",
+      "existing_sty": "Finding",
+      "entity_type": "Sign",
+      "official_cui": "C0020456",
+      "official_name": "Hyperglycemia",
+      "official_sty": "Disease or Syndrome",
+      "official_tui": "T047",
+      "official_all_stys": [
+        "Disease or Syndrome"
+      ],
+      "match_strategy": "exact_fallback",
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "tim",
@@ -353,12 +1336,63 @@
     {
       "vi_term": "mắt",
       "en_term": "Eye",
-      "existing_cui": "C4266572",
+      "existing_cui": "C0015392",
       "existing_tui": "T023",
       "existing_sty": "Body Part, Organ, or Organ Component",
       "entity_type": "Organ",
       "official_cui": "C4266572",
       "official_name": "Head>Eye",
+      "official_sty": "Body Part, Organ, or Organ Component",
+      "official_tui": "T023",
+      "official_all_stys": [
+        "Body Part, Organ, or Organ Component"
+      ],
+      "match_strategy": "exact",
+      "status": "HEALED_OR_UPDATED"
+    },
+    {
+      "vi_term": "phổi",
+      "en_term": "Lung",
+      "existing_cui": "C0024109",
+      "existing_tui": "T023",
+      "existing_sty": "Body Part, Organ, or Organ Component",
+      "entity_type": "Organ",
+      "official_cui": "C0024109",
+      "official_name": "Lung",
+      "official_sty": "Body Part, Organ, or Organ Component",
+      "official_tui": "T023",
+      "official_all_stys": [
+        "Body Part, Organ, or Organ Component"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "phế quản",
+      "en_term": "Bronchus",
+      "existing_cui": "C0006255",
+      "existing_tui": "T023",
+      "existing_sty": "Body Part, Organ, or Organ Component",
+      "entity_type": "Organ",
+      "official_cui": "C0006255",
+      "official_name": "Bronchi",
+      "official_sty": "Body Part, Organ, or Organ Component",
+      "official_tui": "T023",
+      "official_all_stys": [
+        "Body Part, Organ, or Organ Component"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
+      "vi_term": "tụy",
+      "en_term": "Pancreas",
+      "existing_cui": "C0030274",
+      "existing_tui": "T023",
+      "existing_sty": "Body Part, Organ, or Organ Component",
+      "entity_type": "Organ",
+      "official_cui": "C0030274",
+      "official_name": "Pancreas",
       "official_sty": "Body Part, Organ, or Organ Component",
       "official_tui": "T023",
       "official_all_stys": [
@@ -385,6 +1419,23 @@
       "status": "VERIFIED_MATCH"
     },
     {
+      "vi_term": "hội tim mạch hoa kỳ/hiệp hội tim mạch hoa kỳ (acc/aha)",
+      "en_term": "ACC-AHA",
+      "existing_cui": "C4072694",
+      "existing_tui": "T170",
+      "existing_sty": "Intellectual Product",
+      "entity_type": "Guideline",
+      "official_cui": "C4072694",
+      "official_name": "ACC-AHA",
+      "official_sty": "Intellectual Product",
+      "official_tui": "T170",
+      "official_all_stys": [
+        "Intellectual Product"
+      ],
+      "match_strategy": "exact",
+      "status": "VERIFIED_MATCH"
+    },
+    {
       "vi_term": "jnc 8",
       "en_term": "JNC 8 Report",
       "existing_cui": null,
@@ -395,72 +1446,44 @@
       "status": "EXPLICIT_NULL_CUI"
     },
     {
-      "vi_term": "bệnh nhu mô thận",
-      "en_term": "Renal Parenchymal Disease",
-      "existing_cui": "C1841992",
-      "existing_tui": "T047",
-      "existing_sty": "Disease or Syndrome",
-      "entity_type": "Cause",
-      "official_cui": "C1841992",
-      "official_name": "Disorder of renal parenchyma",
-      "official_sty": "Disease or Syndrome",
-      "official_tui": "T047",
-      "official_all_stys": [
-        "Disease or Syndrome"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "vi_term": "keith-wagener-barker",
+      "en_term": "Keith-Wagener-Barker Classification",
+      "existing_cui": null,
+      "official_cui": null,
+      "official_name": null,
+      "tui": "T170",
+      "sty": "Intellectual Product",
+      "status": "EXPLICIT_NULL_CUI"
     },
     {
-      "vi_term": "hẹp động mạch thận",
-      "en_term": "Renal Artery Stenosis",
-      "existing_cui": "C0035067",
-      "existing_tui": "T046",
-      "existing_sty": "Pathologic Function",
-      "entity_type": "Cause",
-      "official_cui": "C0035067",
-      "official_name": "Renal Artery Stenosis",
-      "official_sty": "Pathologic Function",
-      "official_tui": "T046",
-      "official_all_stys": [
-        "Pathologic Function"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "vi_term": "phân loại keith-wagener-barker",
+      "en_term": "Keith-Wagener-Barker Classification",
+      "existing_cui": null,
+      "official_cui": null,
+      "official_name": null,
+      "tui": "T170",
+      "sty": "Intellectual Product",
+      "status": "EXPLICIT_NULL_CUI"
     },
     {
-      "vi_term": "bệnh thận mạn tính",
-      "en_term": "Chronic Kidney Disease",
-      "existing_cui": "C1561643",
-      "existing_tui": "T047",
-      "existing_sty": "Disease or Syndrome",
-      "entity_type": "Cause",
-      "official_cui": "C1561643",
-      "official_name": "Chronic Kidney Diseases",
-      "official_sty": "Disease or Syndrome",
-      "official_tui": "T047",
-      "official_all_stys": [
-        "Disease or Syndrome"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "vi_term": "gina",
+      "en_term": "Global Initiative for Asthma",
+      "existing_cui": null,
+      "official_cui": null,
+      "official_name": null,
+      "tui": "T170",
+      "sty": "Intellectual Product",
+      "status": "EXPLICIT_NULL_CUI"
     },
     {
-      "vi_term": "ngưng thở khi ngủ",
-      "en_term": "Sleep Apnea",
-      "existing_cui": "C0037315",
-      "existing_tui": "T047",
-      "existing_sty": "Disease or Syndrome",
-      "entity_type": "Cause",
-      "official_cui": "C0037315",
-      "official_name": "Sleep Apnea Syndromes",
-      "official_sty": "Disease or Syndrome",
-      "official_tui": "T047",
-      "official_all_stys": [
-        "Disease or Syndrome"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "vi_term": "gold",
+      "en_term": "Global Initiative for Chronic Obstructive Lung Disease",
+      "existing_cui": null,
+      "official_cui": null,
+      "official_name": null,
+      "tui": "T170",
+      "sty": "Intellectual Product",
+      "status": "EXPLICIT_NULL_CUI"
     },
     {
       "vi_term": "đái tháo đường",
@@ -548,40 +1571,6 @@
       "status": "VERIFIED_MATCH"
     },
     {
-      "vi_term": "tăng đường huyết",
-      "en_term": "Hyperglycemia",
-      "existing_cui": "C0020456",
-      "existing_tui": "T047",
-      "existing_sty": "Disease or Syndrome",
-      "entity_type": "Sign",
-      "official_cui": "C0020456",
-      "official_name": "Hyperglycemia",
-      "official_sty": "Disease or Syndrome",
-      "official_tui": "T047",
-      "official_all_stys": [
-        "Disease or Syndrome"
-      ],
-      "match_strategy": "exact_fallback",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "kháng insulin",
-      "en_term": "Insulin Resistance",
-      "existing_cui": "C0021655",
-      "existing_tui": "T046",
-      "existing_sty": "Pathologic Function",
-      "entity_type": "Mechanism",
-      "official_cui": "C0021655",
-      "official_name": "Insulin Resistance",
-      "official_sty": "Pathologic Function",
-      "official_tui": "T046",
-      "official_all_stys": [
-        "Pathologic Function"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
       "vi_term": "metformin",
       "en_term": "Metformin",
       "existing_cui": "C0025598",
@@ -606,8 +1595,8 @@
       "existing_tui": "T121",
       "existing_sty": "Pharmacologic Substance",
       "entity_type": "Drug",
-      "official_cui": "C0021641",
-      "official_name": "Insulin",
+      "official_cui": "C1533581",
+      "official_name": "Therapeutic Insulin",
       "official_sty": "Pharmacologic Substance",
       "official_tui": "T121",
       "official_all_stys": [
@@ -616,12 +1605,12 @@
         "Hormone"
       ],
       "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "sulfonylurea",
       "en_term": "Sulfonylureas",
-      "existing_cui": "C5691274",
+      "existing_cui": "C0038753",
       "existing_tui": "T121",
       "existing_sty": "Pharmacologic Substance",
       "entity_type": "DrugClass",
@@ -634,12 +1623,12 @@
         "Pharmacologic Substance"
       ],
       "match_strategy": "words",
-      "status": "VERIFIED_MATCH"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "sglt2 inhibitor",
       "en_term": "Sodium-Glucose Transporter 2 Inhibitors",
-      "existing_cui": "C3273807",
+      "existing_cui": "C3899446",
       "existing_tui": "T121",
       "existing_sty": "Pharmacologic Substance",
       "entity_type": "DrugClass",
@@ -652,42 +1641,7 @@
         "Pharmacologic Substance"
       ],
       "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "hba1c",
-      "en_term": "Hemoglobin A1c",
-      "existing_cui": "C0019018",
-      "existing_tui": "T116",
-      "existing_sty": "Amino Acid, Peptide, or Protein",
-      "entity_type": "Test",
-      "official_cui": "C0019018",
-      "official_name": "Glycosylated hemoglobin A",
-      "official_sty": "Amino Acid, Peptide, or Protein",
-      "official_tui": "T116",
-      "official_all_stys": [
-        "Amino Acid, Peptide, or Protein",
-        "Biologically Active Substance"
-      ],
-      "match_strategy": "exact_fallback",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "tụy",
-      "en_term": "Pancreas",
-      "existing_cui": "C0030274",
-      "existing_tui": "T023",
-      "existing_sty": "Body Part, Organ, or Organ Component",
-      "entity_type": "Organ",
-      "official_cui": "C0030274",
-      "official_name": "Pancreas",
-      "official_sty": "Body Part, Organ, or Organ Component",
-      "official_tui": "T023",
-      "official_all_stys": [
-        "Body Part, Organ, or Organ Component"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "hen phế quản",
@@ -736,40 +1690,6 @@
       "official_tui": "T047",
       "official_all_stys": [
         "Disease or Syndrome"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "khò khè",
-      "en_term": "Wheezing",
-      "existing_cui": "C0043144",
-      "existing_tui": "T184",
-      "existing_sty": "Sign or Symptom",
-      "entity_type": "Symptom",
-      "official_cui": "C0043144",
-      "official_name": "Wheezing",
-      "official_sty": "Sign or Symptom",
-      "official_tui": "T184",
-      "official_all_stys": [
-        "Sign or Symptom"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "khó thở",
-      "en_term": "Dyspnea",
-      "existing_cui": "C0013404",
-      "existing_tui": "T184",
-      "existing_sty": "Sign or Symptom",
-      "entity_type": "Symptom",
-      "official_cui": "C0013404",
-      "official_name": "Dyspnea",
-      "official_sty": "Sign or Symptom",
-      "official_tui": "T184",
-      "official_all_stys": [
-        "Sign or Symptom"
       ],
       "match_strategy": "exact",
       "status": "VERIFIED_MATCH"
@@ -824,7 +1744,7 @@
     {
       "vi_term": "thuốc giãn phế quản",
       "en_term": "Bronchodilator Agents",
-      "existing_cui": "C0006280",
+      "existing_cui": "C0006277",
       "existing_tui": "T121",
       "existing_sty": "Pharmacologic Substance",
       "entity_type": "DrugClass",
@@ -836,7 +1756,7 @@
         "Pharmacologic Substance"
       ],
       "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "saba",
@@ -864,84 +1784,6 @@
       "entity_type": "DrugClass",
       "status": "NOT_FOUND_IN_UMLS",
       "official_cui": null
-    },
-    {
-      "vi_term": "fev1",
-      "en_term": "Forced Expiratory Volume in 1 Second",
-      "existing_cui": "C0849974",
-      "existing_tui": "T060",
-      "existing_sty": "Diagnostic Procedure",
-      "entity_type": "Measurement",
-      "official_cui": "C0849974",
-      "official_name": "Pulmonary Function Test/Forced Expiratory Volume 1",
-      "official_sty": "Diagnostic Procedure",
-      "official_tui": "T060",
-      "official_all_stys": [
-        "Diagnostic Procedure"
-      ],
-      "match_strategy": "exact_fallback",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "phổi",
-      "en_term": "Lung",
-      "existing_cui": "C0024109",
-      "existing_tui": "T023",
-      "existing_sty": "Body Part, Organ, or Organ Component",
-      "entity_type": "Organ",
-      "official_cui": "C0024109",
-      "official_name": "Lung",
-      "official_sty": "Body Part, Organ, or Organ Component",
-      "official_tui": "T023",
-      "official_all_stys": [
-        "Body Part, Organ, or Organ Component"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "phế quản",
-      "en_term": "Bronchus",
-      "existing_cui": "C0006255",
-      "existing_tui": "T023",
-      "existing_sty": "Body Part, Organ, or Organ Component",
-      "entity_type": "Organ",
-      "official_cui": "C0006255",
-      "official_name": "Bronchi",
-      "official_sty": "Body Part, Organ, or Organ Component",
-      "official_tui": "T023",
-      "official_all_stys": [
-        "Body Part, Organ, or Organ Component"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "co thắt phế quản",
-      "en_term": "Bronchospasm",
-      "existing_cui": "C0006266",
-      "existing_tui": "T047",
-      "existing_sty": "Disease or Syndrome",
-      "entity_type": "Mechanism",
-      "official_cui": "C0006266",
-      "official_name": "Bronchospasm",
-      "official_sty": "Disease or Syndrome",
-      "official_tui": "T047",
-      "official_all_stys": [
-        "Disease or Syndrome"
-      ],
-      "match_strategy": "exact_fallback",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "gina",
-      "en_term": "Global Initiative for Asthma",
-      "existing_cui": null,
-      "official_cui": null,
-      "official_name": null,
-      "tui": "T170",
-      "sty": "Intellectual Product",
-      "status": "EXPLICIT_NULL_CUI"
     },
     {
       "vi_term": "bệnh phổi tắc nghẽn mạn tính",
@@ -980,7 +1822,7 @@
     {
       "vi_term": "đợt cấp copd",
       "en_term": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease",
-      "existing_cui": "C0340044",
+      "existing_cui": "C1299586",
       "existing_tui": "T047",
       "existing_sty": "Disease or Syndrome",
       "entity_type": "DiseaseSubtype",
@@ -992,7 +1834,7 @@
         "Disease or Syndrome"
       ],
       "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "khí phế thũng",
@@ -1014,7 +1856,7 @@
     {
       "vi_term": "viêm phế quản mạn tính",
       "en_term": "Chronic Bronchitis",
-      "existing_cui": "C0008677",
+      "existing_cui": "C0006279",
       "existing_tui": "T047",
       "existing_sty": "Disease or Syndrome",
       "entity_type": "DiseaseSubtype",
@@ -1026,29 +1868,12 @@
         "Disease or Syndrome"
       ],
       "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "hút thuốc lá",
-      "en_term": "Tobacco smoking behavior",
-      "existing_cui": "C0453996",
-      "existing_tui": "T055",
-      "existing_sty": "Individual Behavior",
-      "entity_type": "RiskFactor",
-      "official_cui": "C0453996",
-      "official_name": "Tobacco smoking behavior",
-      "official_sty": "Individual Behavior",
-      "official_tui": "T055",
-      "official_all_stys": [
-        "Individual Behavior"
-      ],
-      "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "lama",
       "en_term": "Cholinergic Muscarinic Antagonist",
-      "existing_cui": "C0003385",
+      "existing_cui": "C3536931",
       "existing_tui": "T121",
       "existing_sty": "Pharmacologic Substance",
       "entity_type": "DrugClass",
@@ -1060,17 +1885,7 @@
         "Pharmacologic Substance"
       ],
       "match_strategy": "exact",
-      "status": "VERIFIED_MATCH"
-    },
-    {
-      "vi_term": "gold",
-      "en_term": "Global Initiative for Chronic Obstructive Lung Disease",
-      "existing_cui": null,
-      "official_cui": null,
-      "official_name": null,
-      "tui": "T170",
-      "sty": "Intellectual Product",
-      "status": "EXPLICIT_NULL_CUI"
+      "status": "HEALED_OR_UPDATED"
     },
     {
       "vi_term": "suy hô hấp",

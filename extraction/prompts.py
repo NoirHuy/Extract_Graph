@@ -14,30 +14,37 @@ def get_extraction_system_prompt() -> str:
 Nhiệm vụ của bạn là đọc kỹ đoạn văn bản y khoa được cung cấp, trích xuất chính xác các Thực thể (Entities) và Quan hệ (Relations) tuân thủ chặt chẽ Extraction Data Contract (EDC).
 
 ### QUY TẮC RÀNG BUỘC VÀ HƯỚNG DẪN QUAN HỆ:
-1. **Entity Types (16 loại):**
-   - Disease, DiseaseSubtype, Symptom, Sign, RiskFactor, Cause, Mechanism, Complication, Test, Measurement, Drug, DrugClass, Treatment, Organ, PatientGroup, Guideline.
-2. **Hướng dẫn phân biệt quan hệ chính xác (Tránh nhầm lẫn):**
-   - Dùng `LEADS_TO`: Khi một Bệnh (Disease/DiseaseSubtype) hoặc Nguyên nhân (Cause) gây ra hoặc dẫn đến một Biến chứng (Complication) (vd: Tăng huyết áp -> LEADS_TO -> Đột quỵ).
-   - Dùng `INCREASES_RISK_OF`: Khi một Yếu tố nguy cơ (RiskFactor) hoặc Bệnh lý nền làm gia tăng nguy cơ mắc Bệnh/Biến chứng.
-   - Dùng `UNDERLIES`: Khi một Cơ chế sinh lý bệnh (Mechanism) hoặc Nguyên nhân (Cause) là cơ sở sinh bệnh học của Bệnh (vd: Tăng tái hấp thu natri -> UNDERLIES -> Tăng huyết áp).
-   - Dùng `AFFECTS_ORGAN`: Khi Bệnh (Disease), Biến chứng (Complication) hoặc Cơ chế (Mechanism) gây tổn thương hoặc diễn ra tại một Cơ quan (Organ) (vd: Tổn thương -> AFFECTS_ORGAN -> Tim/Thận/Não).
-   - Dùng `DEFINES_THRESHOLD_FOR`: Khi một Số đo/Ngưỡng (Measurement) định nghĩa tiêu chuẩn chẩn đoán cho Thể bệnh (DiseaseSubtype) (vd: 130/80 mmHg -> DEFINES_THRESHOLD_FOR -> Tăng huyết áp giai đoạn 1).
-   - Dùng `TREATS`: Khi Thuốc (Drug), Nhóm thuốc (DrugClass) hoặc Biện pháp điều trị (Treatment) dùng để điều trị Bệnh.
-   - Dùng `CLASSIFIES`: Khi Hướng dẫn điều trị (Guideline) phân loại Thể bệnh (DiseaseSubtype).
-3. **Thuộc tính thực thể:**
-   - `id`: Định danh duy nhất trong đoạn trích (vd: "e1", "e2", ...)
-   - `text`: Từ/cụm từ nguyên văn xuất hiện trong văn bản
-   - `normalized_name`: Tên thực thể chuẩn hóa (bằng tiếng Việt có dấu, viết hoa chữ cái đầu hoặc thuật ngữ y khoa)
-   - `entity_type`: Thuộc 1 trong 16 loại trên
-   - `evidence_span`: Câu/cụm câu nguyên văn trong văn bản chứa thực thể này (DÙNG CHO TRUY VẾT, KHÔNG TỰ DIỄN GIẢI)
-   - `umls_cui`: Luôn để giá trị `null` (xử lý ở module riêng)
-   - `attributes`: Đối tượng chứa các thuộc tính bổ sung. Riêng `Measurement` cần trích xuất rõ các số đo nếu có (vd: {{"systolic": 130, "diastolic": 80, "unit": "mmHg"}})
-4. **Thuộc tính quan hệ:**
-   - `source_id`, `target_id`: ID của thực thể nguồn và đích
-   - `relation_type`: Thuộc 1 trong 19 quan hệ trên
-   - `confidence`: Điểm tin cậy (0.0 đến 1.0)
-   - `evidence_span`: Câu nguyên văn chứng minh quan hệ này
-5. **ĐỊNH DẠNG ĐẦU RA:**
+1. **Entity Types (16 loại) & Hướng dẫn phân loại chuẩn xác:**
+   - `Disease`: Bệnh lý chính (vd: Tăng huyết áp, Đái tháo đường).
+   - `DiseaseSubtype`: Thể bệnh, giai đoạn, phân loại bệnh (vd: Tăng huyết áp nguyên phát, Tăng huyết áp thứ phát, Tăng huyết áp giai đoạn 1, Tăng huyết áp cấp cứu, Tăng huyết áp kháng thuốc, Phì đại thất trái).
+   - `Complication`: Biến chứng do bệnh gây ra (vd: Đột quỵ, Nhồi máu cơ tim, Suy tim, Bệnh võng mạc do tăng huyết áp, Bệnh não tăng huyết áp, Bóc tách động mạch chủ).
+   - `Cause`: Nguyên nhân / Bệnh lý căn nguyên dẫn đến bệnh khác (vd: Cường aldosteron nguyên phát, Hẹp động mạch thận, Ngưng thở khi ngủ, U tủy thượng thận, Hội chứng Cushing, Hẹp động mạch chủ).
+   - `Mechanism`: Cơ chế sinh bệnh học, hoạt chất sinh học, hormone, enzym, peptide tham gia cơ chế (vd: Kích thích thần kinh giao cảm, Kháng insulin, Angiotensin II, Renin, Aldosteron, Norepinephrine, Oxit nitric, Bradykinin, Co thắt phế quản). TUYỆT ĐỐI KHÔNG gán Angiotensin II hay Renin là Measurement!
+   - `DrugClass`: Nhóm thuốc điều trị (vd: Thuốc ức chế men chuyển, Thuốc chẹn thụ thể angiotensin, Thuốc chẹn kênh canxi, Thuốc lợi tiểu thiazide, Thuốc chẹn beta, Thuốc đối kháng aldosterone).
+   - `Drug`: Tên hoạt chất thuốc cụ thể (vd: Spironolactone, Captopril, Amlodipine, Metformin, Salbutamol).
+   - `Treatment`: Biện pháp can thiệp, phẫu thuật, thay đổi hành vi/lối sống (vd: Thay đổi lối sống, Các biện pháp điều trị không dùng thuốc, Giáo dục bệnh nhân, Liệu pháp kích hoạt Baroreflex).
+   - `Test`: Kỹ thuật xét nghiệm, thăm dò, đo đạc, tiền sử (vd: ECG, Đo huyết áp, Nghiên cứu giấc ngủ, Khám thực thể, Tiền sử, HbA1c, FEV1).
+   - `Measurement`: Chỉ số định lượng / Ngưỡng số đo cụ thể có kèm giá trị hoặc đơn vị (vd: 130/80 mmHg, >= 140/90 mmHg, 1500 mg/ngày, < 3.5 mmol/L). BẮT BUỘC trích xuất thuộc tính số đo vào trường `attributes`.
+   - `RiskFactor`: Yếu tố nguy cơ (vd: Di truyền, Hút thuốc lá, Béo phì, Thời gian ngủ ngắn, Cam thảo, Ăn nhiều muối).
+   - `Organ`: Cơ quan cơ thể (vd: Tim, Thận, Não, Mắt, Phổi, Tuyến thượng thận).
+   - `Guideline`: Văn bản hướng dẫn / thang điểm phân loại lâm sàng (vd: ACC/AHA, JNC 8, Keith-Wagener-Barker, GINA, GOLD).
+
+2. **QUY TẮC BẮT BUỘC VỀ EVIDENCE_SPAN (NGUYÊN VĂN 100%):**
+   - `evidence_span` của cả Entity và Relation **BẮT BUỘC PHẢI LÀ MỘT CÂU HOẶC ĐOẠN TRÍCH NGUYÊN VĂN 100% CỦA VĂN BẢN ĐANG ĐỌC**.
+   - **CẤM TUYỆT ĐỐI**: KHÔNG ĐƯỢC tự ý chèn dấu ba chấm (`...`), KHÔNG ĐƯỢC tự tóm tắt, KHÔNG ĐƯỢC sửa chữ, KHÔNG ĐƯỢC nối dính tiêu đề với câu nội dung. Hãy trích dẫn chính xác nguyên vẹn cả câu chứa thực thể và quan hệ.
+
+3. **Hướng dẫn phân biệt quan hệ chính xác:**
+   - Dùng `LEADS_TO`: Khi Bệnh/Nguyên nhân gây ra Biến chứng (Complication) (vd: Tăng huyết áp -> LEADS_TO -> Đột quỵ / Bệnh não tăng huyết áp).
+   - Dùng `CAUSES`: Khi Nguyên nhân (Cause) gây ra Bệnh/Thể bệnh (vd: Cường aldosteron -> CAUSES -> Tăng huyết áp thứ phát).
+   - Dùng `INCREASES_RISK_OF`: Khi Yếu tố nguy cơ (RiskFactor) làm tăng nguy cơ mắc Bệnh.
+   - Dùng `UNDERLIES`: Khi Cơ chế (Mechanism) hoặc hoạt chất tham gia sinh bệnh học của Bệnh.
+   - Dùng `AFFECTS_ORGAN`: Khi Bệnh/Biến chứng/Cơ chế gây tổn thương Cơ quan (Organ).
+   - Dùng `DEFINES_THRESHOLD_FOR`: Khi Số đo/Ngưỡng (Measurement) định nghĩa tiêu chuẩn chẩn đoán cho Thể bệnh (DiseaseSubtype).
+   - Dùng `TREATS`: Khi Thuốc/Nhóm thuốc/Biện pháp can thiệp (Treatment) điều trị Bệnh.
+   - Dùng `DIAGNOSES`: Khi Kỹ thuật xét nghiệm (Test) dùng để chẩn đoán Bệnh/Nguyên nhân.
+   - Dùng `CLASSIFIES`: Khi Hướng dẫn điều trị (Guideline) phân loại Thể bệnh.
+
+4. **ĐỊNH DẠNG ĐẦU RA:**
    - Chỉ trả về duy nhất một chuỗi JSON hợp lệ tuân theo JSON Schema bên dưới.
    - KHÔNG bọc chuỗi trong markdown fence ```json hoặc giải thích thêm bất kỳ điều gì.
 

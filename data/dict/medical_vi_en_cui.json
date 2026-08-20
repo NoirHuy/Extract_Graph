@@ -31,6 +31,62 @@
     "sty": "Finding",
     "umls_preferred_name": "Hypertension stage 1"
   },
+  "tăng huyết áp giai đoạn 1 (nhẹ)": {
+    "en": "Stage 1 hypertension",
+    "cui": "C5231206",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Finding",
+    "umls_preferred_name": "Hypertension stage 1"
+  },
+  "tăng huyết áp giai đoạn 2": {
+    "en": "Stage 2 hypertension",
+    "cui": "C5231205",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Finding",
+    "umls_preferred_name": "Hypertension stage 2"
+  },
+  "giai đoạn 2": {
+    "en": "Stage 2 hypertension",
+    "cui": "C5231205",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Finding",
+    "umls_preferred_name": "Hypertension stage 2"
+  },
+  "tăng huyết áp cấp cứu": {
+    "en": "Hypertensive emergency",
+    "cui": "C0745136",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hypertensive emergency"
+  },
+  "tăng huyết áp khẩn cấp": {
+    "en": "Hypertensive urgency",
+    "cui": "C0745138",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hypertensive Urgency"
+  },
+  "tăng huyết áp kháng thuốc": {
+    "en": "Resistant hypertension",
+    "cui": "C1834155",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hypertension Resistant to Conventional Therapy"
+  },
+  "tăng huyết áp kháng trị": {
+    "en": "Resistant hypertension",
+    "cui": "C1834155",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hypertension Resistant to Conventional Therapy"
+  },
   "cường aldosteron nguyên phát": {
     "en": "Primary Hyperaldosteronism",
     "cui": "C1384514",
@@ -38,6 +94,78 @@
     "entity_type": "Cause",
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Conn Syndrome"
+  },
+  "tăng aldosteron": {
+    "en": "Hyperaldosteronism",
+    "cui": "C0020428",
+    "tui": "T047",
+    "entity_type": "Cause",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hyperaldosteronism"
+  },
+  "ngưng thở khi ngủ": {
+    "en": "Sleep Apnea",
+    "cui": "C0037315",
+    "tui": "T047",
+    "entity_type": "Cause",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Sleep Apnea Syndromes"
+  },
+  "bệnh nhu mô thận": {
+    "en": "Renal Parenchymal Disease",
+    "cui": "C1841992",
+    "tui": "T047",
+    "entity_type": "Cause",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Disorder of renal parenchyma"
+  },
+  "hẹp động mạch thận": {
+    "en": "Renal Artery Stenosis",
+    "cui": "C0035067",
+    "tui": "T046",
+    "entity_type": "Cause",
+    "sty": "Pathologic Function",
+    "umls_preferred_name": "Renal Artery Stenosis"
+  },
+  "bệnh thận mạn tính": {
+    "en": "Chronic Kidney Disease",
+    "cui": "C1561643",
+    "tui": "T047",
+    "entity_type": "Cause",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Chronic Kidney Diseases"
+  },
+  "u tủy thượng thận": {
+    "en": "Pheochromocytoma",
+    "cui": "C4551683",
+    "tui": "T191",
+    "entity_type": "Cause",
+    "sty": "Neoplastic Process",
+    "umls_preferred_name": "Adrenal Gland Pheochromocytoma"
+  },
+  "hội chứng cushing": {
+    "en": "Cushing Syndrome",
+    "cui": "C0010481",
+    "tui": "T047",
+    "entity_type": "Cause",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Cushing Syndrome"
+  },
+  "hẹp động mạch chủ": {
+    "en": "Aortic Coarctation",
+    "cui": "C0003492",
+    "tui": "T000",
+    "entity_type": "Cause",
+    "sty": "Congenital Abnormality",
+    "umls_preferred_name": "Aortic coarctation"
+  },
+  "nguyên nhân thứ phát": {
+    "en": "Secondary cause",
+    "cui": "C3262233",
+    "tui": "T033",
+    "entity_type": "Cause",
+    "sty": "Finding",
+    "umls_preferred_name": "Secondary Cause of Death"
   },
   "đột quỵ": {
     "en": "Stroke",
@@ -63,13 +191,93 @@
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Heart failure"
   },
-  "suy tim mạn tính": {
-    "en": "Chronic Heart Failure",
-    "cui": "C0264716",
+  "bệnh võng mạc do tăng huyết áp": {
+    "en": "Hypertensive Retinopathy",
+    "cui": "C0152132",
     "tui": "T047",
     "entity_type": "Complication",
     "sty": "Disease or Syndrome",
-    "umls_preferred_name": "Chronic heart failure"
+    "umls_preferred_name": "Hypertensive Retinopathy"
+  },
+  "bệnh não tăng huyết áp": {
+    "en": "Hypertensive Encephalopathy",
+    "cui": "C0151620",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hypertensive Encephalopathy"
+  },
+  "bóc tách động mạch chủ": {
+    "en": "Aortic Dissection",
+    "cui": "C0340643",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Dissection of aorta"
+  },
+  "bóc tách động mạch chủ ngực": {
+    "en": "Thoracic Aortic Dissection",
+    "cui": "C0729233",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Dissection, Thoracic Aorta"
+  },
+  "suy giảm chức năng thận": {
+    "en": "Impaired renal function",
+    "cui": "C1565489",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Renal Insufficiency"
+  },
+  "giảm chức năng thận": {
+    "en": "Impaired renal function",
+    "cui": "C1565489",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Renal Insufficiency"
+  },
+  "bệnh thận giai đoạn cuối": {
+    "en": "End-Stage Renal Disease",
+    "cui": "C2316810",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Chronic kidney disease stage 5"
+  },
+  "phì đại thất trái": {
+    "en": "Left Ventricular Hypertrophy",
+    "cui": "C0149721",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Left Ventricular Hypertrophy"
+  },
+  "phì đại": {
+    "en": "Hypertrophy",
+    "cui": "C0020564",
+    "tui": "T046",
+    "entity_type": "Sign",
+    "sty": "Pathologic Function",
+    "umls_preferred_name": "Hypertrophy"
+  },
+  "tổn thương cơ quan đích": {
+    "en": "Target organ damage",
+    "cui": "C3887506",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Target organ damage"
+  },
+  "tổn thương các cơ quan đích": {
+    "en": "Target organ damage",
+    "cui": "C3887506",
+    "tui": "T047",
+    "entity_type": "Complication",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Target organ damage"
   },
   "thuốc ức chế men chuyển": {
     "en": "Angiotensin-Converting Enzyme Inhibitors",
@@ -119,6 +327,230 @@
     "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Thiazide Diuretics"
   },
+  "thuốc chẹn beta": {
+    "en": "Adrenergic beta-Antagonists",
+    "cui": "C0001645",
+    "tui": "T121",
+    "entity_type": "DrugClass",
+    "sty": "Pharmacologic Substance",
+    "umls_preferred_name": "Adrenergic beta-Antagonists"
+  },
+  "thuốc đối kháng aldosterone": {
+    "en": "Mineralocorticoid Receptor Antagonists",
+    "cui": "C1579268",
+    "tui": "T121",
+    "entity_type": "DrugClass",
+    "sty": "Pharmacologic Substance",
+    "umls_preferred_name": "Mineralocorticoid Receptor Antagonists"
+  },
+  "spironolactone": {
+    "en": "Spironolactone",
+    "cui": "C0037982",
+    "tui": "T121",
+    "entity_type": "Drug",
+    "sty": "Pharmacologic Substance",
+    "umls_preferred_name": "spironolactone"
+  },
+  "angiotensin ii": {
+    "en": "Angiotensin II",
+    "cui": "C3714928",
+    "tui": "T116",
+    "entity_type": "Mechanism",
+    "sty": "Amino Acid, Peptide, or Protein",
+    "umls_preferred_name": "Angiotensin-2, Human"
+  },
+  "renin": {
+    "en": "Renin",
+    "cui": "C0035094",
+    "tui": "T116",
+    "entity_type": "Mechanism",
+    "sty": "Amino Acid, Peptide, or Protein",
+    "umls_preferred_name": "Renin"
+  },
+  "aldosteron": {
+    "en": "Aldosterone",
+    "cui": "C0002006",
+    "tui": "T109",
+    "entity_type": "Mechanism",
+    "sty": "Organic Chemical",
+    "umls_preferred_name": "aldosterone"
+  },
+  "norepinephrine": {
+    "en": "Norepinephrine",
+    "cui": "C0028351",
+    "tui": "T109",
+    "entity_type": "Mechanism",
+    "sty": "Organic Chemical",
+    "umls_preferred_name": "norepinephrine"
+  },
+  "oxit nitric": {
+    "en": "Nitric Oxide",
+    "cui": "C0028128",
+    "tui": "T121",
+    "entity_type": "Mechanism",
+    "sty": "Pharmacologic Substance",
+    "umls_preferred_name": "nitric oxide"
+  },
+  "bradykinin": {
+    "en": "Bradykinin",
+    "cui": "C0006100",
+    "tui": "T116",
+    "entity_type": "Mechanism",
+    "sty": "Amino Acid, Peptide, or Protein",
+    "umls_preferred_name": "Bradykinin"
+  },
+  "kích thích thần kinh giao cảm": {
+    "en": "Sympathetic Nervous System Stimulation",
+    "cui": "C0038996",
+    "tui": "T042",
+    "entity_type": "Mechanism",
+    "sty": "Organ or Tissue Function",
+    "umls_preferred_name": "Sympathetic Nervous System Stimulation"
+  },
+  "co thắt phế quản": {
+    "en": "Bronchospasm",
+    "cui": "C0006266",
+    "tui": "T047",
+    "entity_type": "Mechanism",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Bronchospasm"
+  },
+  "kháng insulin": {
+    "en": "Insulin Resistance",
+    "cui": "C0021655",
+    "tui": "T046",
+    "entity_type": "Mechanism",
+    "sty": "Pathologic Function",
+    "umls_preferred_name": "Insulin Resistance"
+  },
+  "các biện pháp điều trị không dùng thuốc": {
+    "en": "Lifestyle modifications",
+    "cui": "C0454378",
+    "tui": "T061",
+    "entity_type": "Treatment",
+    "sty": "Therapeutic or Preventive Procedure",
+    "umls_preferred_name": "Lifestyle modification"
+  },
+  "thay đổi lối sống": {
+    "en": "Lifestyle modifications",
+    "cui": "C0454378",
+    "tui": "T061",
+    "entity_type": "Treatment",
+    "sty": "Therapeutic or Preventive Procedure",
+    "umls_preferred_name": "Lifestyle modification"
+  },
+  "giáo dục": {
+    "en": "Patient Education",
+    "cui": "C0030688",
+    "tui": "T065",
+    "entity_type": "Treatment",
+    "sty": "Educational Activity",
+    "umls_preferred_name": "Patient education (procedure)"
+  },
+  "liệu pháp kích hoạt baroreflex": {
+    "en": "Baroreflex activation therapy",
+    "cui": "C3898150",
+    "tui": "T061",
+    "entity_type": "Treatment",
+    "sty": "Therapeutic or Preventive Procedure",
+    "umls_preferred_name": "Baroreflex activation therapy"
+  },
+  "theo dõi huyết áp tại nhà": {
+    "en": "Home blood pressure monitoring",
+    "cui": "C1449681",
+    "tui": "T060",
+    "entity_type": "Test",
+    "sty": "Diagnostic Procedure",
+    "umls_preferred_name": "Blood Pressure Monitoring, Home"
+  },
+  "nghiên cứu giấc ngủ": {
+    "en": "Polysomnography",
+    "cui": "C0162701",
+    "tui": "T060",
+    "entity_type": "Test",
+    "sty": "Diagnostic Procedure",
+    "umls_preferred_name": "Polysomnography"
+  },
+  "ecg": {
+    "en": "Electrocardiography",
+    "cui": "C1623258",
+    "tui": "T060",
+    "entity_type": "Test",
+    "sty": "Diagnostic Procedure",
+    "umls_preferred_name": "Electrocardiography"
+  },
+  "chỉ số huyết áp": {
+    "en": "Blood pressure measurement",
+    "cui": "C0005824",
+    "tui": "T058",
+    "entity_type": "Test",
+    "sty": "Health Care Activity",
+    "umls_preferred_name": "Blood pressure determination"
+  },
+  "tiền sử": {
+    "en": "Medical History",
+    "cui": "C0262926",
+    "tui": "T033",
+    "entity_type": "Test",
+    "sty": "Finding",
+    "umls_preferred_name": "Medical History"
+  },
+  "hba1c": {
+    "en": "Hemoglobin A1c",
+    "cui": "C0019018",
+    "tui": "T116",
+    "entity_type": "Test",
+    "sty": "Amino Acid, Peptide, or Protein",
+    "umls_preferred_name": "Glycosylated hemoglobin A"
+  },
+  "fev1": {
+    "en": "Forced Expiratory Volume in 1 Second",
+    "cui": "C0849974",
+    "tui": "T060",
+    "entity_type": "Measurement",
+    "sty": "Diagnostic Procedure",
+    "umls_preferred_name": "Pulmonary Function Test/Forced Expiratory Volume 1"
+  },
+  "di truyền": {
+    "en": "Genetics",
+    "cui": "C0017398",
+    "tui": "T091",
+    "entity_type": "RiskFactor",
+    "sty": "Biomedical Occupation or Discipline",
+    "umls_preferred_name": "Science of genetics"
+  },
+  "cam thảo": {
+    "en": "Licorice",
+    "cui": "C0086555",
+    "tui": "T109",
+    "entity_type": "RiskFactor",
+    "sty": "Organic Chemical",
+    "umls_preferred_name": "licorice"
+  },
+  "hút thuốc lá": {
+    "en": "Tobacco smoking behavior",
+    "cui": "C0453996",
+    "tui": "T055",
+    "entity_type": "RiskFactor",
+    "sty": "Individual Behavior",
+    "umls_preferred_name": "Tobacco smoking behavior"
+  },
+  "béo phì": {
+    "en": "Obesity",
+    "cui": "C0028754",
+    "tui": "T047",
+    "entity_type": "RiskFactor",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Obesity"
+  },
+  "thời gian ngủ ngắn": {
+    "en": "Short sleep duration",
+    "cui": "C4524458",
+    "tui": "T033",
+    "entity_type": "RiskFactor",
+    "sty": "Finding",
+    "umls_preferred_name": "Short sleep duration"
+  },
   "đau đầu": {
     "en": "Headache",
     "cui": "C0018681",
@@ -134,6 +566,54 @@
     "entity_type": "Symptom",
     "sty": "Sign or Symptom",
     "umls_preferred_name": "Dizziness"
+  },
+  "khó thở": {
+    "en": "Dyspnea",
+    "cui": "C0013404",
+    "tui": "T184",
+    "entity_type": "Symptom",
+    "sty": "Sign or Symptom",
+    "umls_preferred_name": "Dyspnea"
+  },
+  "khò khè": {
+    "en": "Wheezing",
+    "cui": "C0043144",
+    "tui": "T184",
+    "entity_type": "Symptom",
+    "sty": "Sign or Symptom",
+    "umls_preferred_name": "Wheezing"
+  },
+  "buồn nôn": {
+    "en": "Nausea",
+    "cui": "C0027497",
+    "tui": "T184",
+    "entity_type": "Symptom",
+    "sty": "Sign or Symptom",
+    "umls_preferred_name": "Nausea"
+  },
+  "đau ngực": {
+    "en": "Chest Pain",
+    "cui": "C0008031",
+    "tui": "T184",
+    "entity_type": "Symptom",
+    "sty": "Sign or Symptom",
+    "umls_preferred_name": "Chest Pain"
+  },
+  "co giật": {
+    "en": "Seizures",
+    "cui": "C0036572",
+    "tui": "T184",
+    "entity_type": "Sign",
+    "sty": "Sign or Symptom",
+    "umls_preferred_name": "Seizures"
+  },
+  "tăng đường huyết": {
+    "en": "Hyperglycemia",
+    "cui": "C0020456",
+    "tui": "T047",
+    "entity_type": "Sign",
+    "sty": "Disease or Syndrome",
+    "umls_preferred_name": "Hyperglycemia"
   },
   "tim": {
     "en": "Heart",
@@ -161,13 +641,45 @@
   },
   "mắt": {
     "en": "Eye",
-    "cui": "C0015392",
+    "cui": "C4266572",
     "tui": "T023",
     "entity_type": "Organ",
     "sty": "Body Part, Organ, or Organ Component",
-    "umls_preferred_name": "Eye"
+    "umls_preferred_name": "Head>Eye"
+  },
+  "phổi": {
+    "en": "Lung",
+    "cui": "C0024109",
+    "tui": "T023",
+    "entity_type": "Organ",
+    "sty": "Body Part, Organ, or Organ Component",
+    "umls_preferred_name": "Lung"
+  },
+  "phế quản": {
+    "en": "Bronchus",
+    "cui": "C0006255",
+    "tui": "T023",
+    "entity_type": "Organ",
+    "sty": "Body Part, Organ, or Organ Component",
+    "umls_preferred_name": "Bronchi"
+  },
+  "tụy": {
+    "en": "Pancreas",
+    "cui": "C0030274",
+    "tui": "T023",
+    "entity_type": "Organ",
+    "sty": "Body Part, Organ, or Organ Component",
+    "umls_preferred_name": "Pancreas"
   },
   "acc/aha": {
+    "en": "ACC-AHA",
+    "cui": "C4072694",
+    "tui": "T170",
+    "entity_type": "Guideline",
+    "sty": "Intellectual Product",
+    "umls_preferred_name": "ACC-AHA"
+  },
+  "hội tim mạch hoa kỳ/hiệp hội tim mạch hoa kỳ (acc/aha)": {
     "en": "ACC-AHA",
     "cui": "C4072694",
     "tui": "T170",
@@ -183,37 +695,37 @@
     "sty": "Intellectual Product",
     "umls_preferred_name": null
   },
-  "bệnh nhu mô thận": {
-    "en": "Renal Parenchymal Disease",
-    "cui": "C1841992",
-    "tui": "T047",
-    "entity_type": "Cause",
-    "sty": "Disease or Syndrome",
-    "umls_preferred_name": "Disorder of renal parenchyma"
+  "keith-wagener-barker": {
+    "en": "Keith-Wagener-Barker Classification",
+    "cui": null,
+    "tui": "T170",
+    "entity_type": "Guideline",
+    "sty": "Intellectual Product",
+    "umls_preferred_name": null
   },
-  "hẹp động mạch thận": {
-    "en": "Renal Artery Stenosis",
-    "cui": "C0035067",
-    "tui": "T046",
-    "entity_type": "Cause",
-    "sty": "Pathologic Function",
-    "umls_preferred_name": "Renal Artery Stenosis"
+  "phân loại keith-wagener-barker": {
+    "en": "Keith-Wagener-Barker Classification",
+    "cui": null,
+    "tui": "T170",
+    "entity_type": "Guideline",
+    "sty": "Intellectual Product",
+    "umls_preferred_name": null
   },
-  "bệnh thận mạn tính": {
-    "en": "Chronic Kidney Disease",
-    "cui": "C1561643",
-    "tui": "T047",
-    "entity_type": "Cause",
-    "sty": "Disease or Syndrome",
-    "umls_preferred_name": "Chronic Kidney Diseases"
+  "gina": {
+    "en": "Global Initiative for Asthma",
+    "cui": null,
+    "tui": "T170",
+    "entity_type": "Guideline",
+    "sty": "Intellectual Product",
+    "umls_preferred_name": null
   },
-  "ngưng thở khi ngủ": {
-    "en": "Sleep Apnea",
-    "cui": "C0037315",
-    "tui": "T047",
-    "entity_type": "Cause",
-    "sty": "Disease or Syndrome",
-    "umls_preferred_name": "Sleep Apnea Syndromes"
+  "gold": {
+    "en": "Global Initiative for Chronic Obstructive Lung Disease",
+    "cui": null,
+    "tui": "T170",
+    "entity_type": "Guideline",
+    "sty": "Intellectual Product",
+    "umls_preferred_name": null
   },
   "đái tháo đường": {
     "en": "Diabetes Mellitus",
@@ -255,22 +767,6 @@
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Hypoglycemia"
   },
-  "tăng đường huyết": {
-    "en": "Hyperglycemia",
-    "cui": "C0020456",
-    "tui": "T047",
-    "entity_type": "Sign",
-    "sty": "Disease or Syndrome",
-    "umls_preferred_name": "Hyperglycemia"
-  },
-  "kháng insulin": {
-    "en": "Insulin Resistance",
-    "cui": "C0021655",
-    "tui": "T046",
-    "entity_type": "Mechanism",
-    "sty": "Pathologic Function",
-    "umls_preferred_name": "Insulin Resistance"
-  },
   "metformin": {
     "en": "Metformin",
     "cui": "C0025598",
@@ -281,11 +777,11 @@
   },
   "insulin": {
     "en": "Insulin",
-    "cui": "C0021641",
+    "cui": "C1533581",
     "tui": "T121",
     "entity_type": "Drug",
     "sty": "Pharmacologic Substance",
-    "umls_preferred_name": "Insulin"
+    "umls_preferred_name": "Therapeutic Insulin"
   },
   "sulfonylurea": {
     "en": "Sulfonylureas",
@@ -302,22 +798,6 @@
     "entity_type": "DrugClass",
     "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Sodium-Glucose Transporter 2 Inhibitors"
-  },
-  "hba1c": {
-    "en": "Hemoglobin A1c",
-    "cui": "C0019018",
-    "tui": "T116",
-    "entity_type": "Test",
-    "sty": "Amino Acid, Peptide, or Protein",
-    "umls_preferred_name": "Glycosylated hemoglobin A"
-  },
-  "tụy": {
-    "en": "Pancreas",
-    "cui": "C0030274",
-    "tui": "T023",
-    "entity_type": "Organ",
-    "sty": "Body Part, Organ, or Organ Component",
-    "umls_preferred_name": "Pancreas"
   },
   "hen phế quản": {
     "en": "Asthma",
@@ -342,22 +822,6 @@
     "entity_type": "DiseaseSubtype",
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Asthma attack"
-  },
-  "khò khè": {
-    "en": "Wheezing",
-    "cui": "C0043144",
-    "tui": "T184",
-    "entity_type": "Symptom",
-    "sty": "Sign or Symptom",
-    "umls_preferred_name": "Wheezing"
-  },
-  "khó thở": {
-    "en": "Dyspnea",
-    "cui": "C0013404",
-    "tui": "T184",
-    "entity_type": "Symptom",
-    "sty": "Sign or Symptom",
-    "umls_preferred_name": "Dyspnea"
   },
   "salbutamol": {
     "en": "Albuterol",
@@ -407,46 +871,6 @@
     "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Long-acting beta-2 adrenergic receptor agonist"
   },
-  "fev1": {
-    "en": "Forced Expiratory Volume in 1 Second",
-    "cui": "C0849974",
-    "tui": "T060",
-    "entity_type": "Measurement",
-    "sty": "Diagnostic Procedure",
-    "umls_preferred_name": "Pulmonary Function Test/Forced Expiratory Volume 1"
-  },
-  "phổi": {
-    "en": "Lung",
-    "cui": "C0024109",
-    "tui": "T023",
-    "entity_type": "Organ",
-    "sty": "Body Part, Organ, or Organ Component",
-    "umls_preferred_name": "Lung"
-  },
-  "phế quản": {
-    "en": "Bronchus",
-    "cui": "C0006255",
-    "tui": "T023",
-    "entity_type": "Organ",
-    "sty": "Body Part, Organ, or Organ Component",
-    "umls_preferred_name": "Bronchi"
-  },
-  "co thắt phế quản": {
-    "en": "Bronchospasm",
-    "cui": "C0006266",
-    "tui": "T047",
-    "entity_type": "Mechanism",
-    "sty": "Disease or Syndrome",
-    "umls_preferred_name": "Bronchospasm"
-  },
-  "gina": {
-    "en": "Global Initiative for Asthma",
-    "cui": null,
-    "tui": "T170",
-    "entity_type": "Guideline",
-    "sty": "Intellectual Product",
-    "umls_preferred_name": null
-  },
   "bệnh phổi tắc nghẽn mạn tính": {
     "en": "Chronic Obstructive Airway Disease",
     "cui": "C0024117",
@@ -487,14 +911,6 @@
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Bronchitis, Chronic"
   },
-  "hút thuốc lá": {
-    "en": "Tobacco smoking behavior",
-    "cui": "C0453996",
-    "tui": "T055",
-    "entity_type": "RiskFactor",
-    "sty": "Individual Behavior",
-    "umls_preferred_name": "Tobacco smoking behavior"
-  },
   "lama": {
     "en": "Cholinergic Muscarinic Antagonist",
     "cui": "C0003385",
@@ -502,14 +918,6 @@
     "entity_type": "DrugClass",
     "sty": "Pharmacologic Substance",
     "umls_preferred_name": "Muscarinic Antagonists"
-  },
-  "gold": {
-    "en": "Global Initiative for Chronic Obstructive Lung Disease",
-    "cui": null,
-    "tui": "T170",
-    "entity_type": "Guideline",
-    "sty": "Intellectual Product",
-    "umls_preferred_name": null
   },
   "suy hô hấp": {
     "en": "Respiratory Failure",
@@ -519,29 +927,17 @@
     "sty": "Disease or Syndrome",
     "umls_preferred_name": "Respiratory Failure"
   },
-  "huyết áp tâm thu": {
-    "en": "Systolic blood pressure",
-    "cui": "C0871470",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "huyết áp tâm trương": {
-    "en": "Diastolic blood pressure",
-    "cui": "C0428883",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "thuốc lợi tiểu": {
-    "en": "Diuretics",
-    "cui": "C0012798",
+  "thuốc điều trị": {
+    "en": "Therapeutic agents",
+    "cui": "C5544404",
     "tui": "T121",
     "entity_type": "DrugClass"
   },
-  "thuốc điều trị tăng huyết áp": {
-    "en": "Antihypertensive agents",
-    "cui": "C0003364",
-    "tui": "T121",
-    "entity_type": "Drug"
+  "tuổi": {
+    "en": "Age",
+    "cui": "C0242383",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
   },
   "người cao tuổi": {
     "en": "Aged",
@@ -549,76 +945,34 @@
     "tui": "T098",
     "entity_type": "PatientGroup"
   },
-  "tử vong": {
-    "en": "Death",
-    "cui": "C0011065",
-    "tui": "T047",
-    "entity_type": "Complication"
-  },
   "tăng huyết áp thai kỳ": {
     "en": "Gestational hypertension",
     "cui": "C0852036",
     "tui": "T047",
     "entity_type": "DiseaseSubtype"
   },
-  "tăng huyết áp giai đoạn 2": {
-    "en": "Stage 2 hypertension",
-    "cui": "C5231205",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
-  "trẻ sơ sinh": {
-    "en": "Newborn infant",
-    "cui": "C0021289",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "trẻ em": {
-    "en": "Child",
-    "cui": "C0008059",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "thanh thiếu niên": {
-    "en": "Adolescent",
-    "cui": "C0205653",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "tăng huyết áp tiên phát": {
-    "en": "Essential hypertension",
-    "cui": "C0085580",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
   "thể tích huyết tương": {
     "en": "Plasma volume",
     "cui": "C0032127",
-    "tui": "T034",
-    "entity_type": "Measurement"
+    "tui": "T201",
+    "entity_type": "Mechanism"
   },
   "hệ renin-angiotensin": {
     "en": "Renin-angiotensin system",
     "cui": "C0035096",
-    "tui": "T046",
+    "tui": "T022",
     "entity_type": "Mechanism"
-  },
-  "di truyền": {
-    "en": "Genetic predisposition",
-    "cui": "C1455997",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
   },
   "natri trong chế độ ăn": {
     "en": "Dietary sodium",
     "cui": "C0037570",
-    "tui": "T033",
+    "tui": "T168",
     "entity_type": "RiskFactor"
   },
   "căng thẳng": {
     "en": "Psychological stress",
     "cui": "C0038443",
-    "tui": "T033",
+    "tui": "T048",
     "entity_type": "RiskFactor"
   },
   "viêm cầu thận mạn tính": {
@@ -651,53 +1005,23 @@
     "tui": "T047",
     "entity_type": "DiseaseSubtype"
   },
-  "u tủy thượng thận": {
-    "en": "Pheochromocytoma",
-    "cui": "C0031511",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "hội chứng cushing": {
-    "en": "Cushing syndrome",
-    "cui": "C0010481",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
   "tăng sản tuyến thượng thận bẩm sinh": {
     "en": "Congenital adrenal hyperplasia",
     "cui": "C0001627",
     "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "Cause"
   },
   "cường giáp": {
     "en": "Hyperthyroidism",
     "cui": "C0020550",
     "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "Cause"
   },
   "suy giáp": {
     "en": "Hypothyroidism",
     "cui": "C0020676",
     "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "cường cận giáp nguyên phát": {
-    "en": "Primary hyperparathyroidism",
-    "cui": "C0221002",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "bệnh to đầu chi": {
-    "en": "Acromegaly",
-    "cui": "C0001206",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "hội chứng thừa mineralocorticoid": {
-    "en": "Apparent mineralocorticoid excess syndrome",
-    "cui": "C0342488",
-    "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "Cause"
   },
   "thuốc cường giao cảm": {
     "en": "Sympathomimetic agents",
@@ -719,7 +1043,7 @@
   },
   "thuốc ức chế tyrosine kinase": {
     "en": "Tyrosine kinase inhibitor",
-    "cui": "C4521478",
+    "cui": "C1268567",
     "tui": "T121",
     "entity_type": "DrugClass"
   },
@@ -729,208 +1053,88 @@
     "tui": "T121",
     "entity_type": "DrugClass"
   },
-  "thuốc kích thích": {
-    "en": "Central nervous system stimulants",
-    "cui": "C0002763",
-    "tui": "T121",
-    "entity_type": "DrugClass"
-  },
   "cocaine": {
     "en": "Cocaine",
     "cui": "C0009170",
-    "tui": "T121",
-    "entity_type": "Drug"
-  },
-  "cam thảo": {
-    "en": "Glycyrrhiza glabra",
-    "cui": "C0697105",
-    "tui": "T033",
+    "tui": "T131",
     "entity_type": "RiskFactor"
-  },
-  "huyết áp": {
-    "en": "Blood pressure",
-    "cui": "C0005823",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "lưu lượng tim": {
-    "en": "Cardiac output",
-    "cui": "C0007165",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "tổng sức cản mạch ngoại vi": {
-    "en": "Total peripheral resistance",
-    "cui": "C1258192",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "cơ chế gây bệnh": {
-    "en": "Pathogenesis",
-    "cui": "C0699748",
-    "tui": "T046",
-    "entity_type": "Mechanism"
   },
   "cung lượng tim": {
     "en": "Cardiac output",
     "cui": "C0007165",
-    "tui": "T034",
-    "entity_type": "Measurement"
+    "tui": "T201",
+    "entity_type": "Mechanism"
   },
   "sức cản mạch ngoại vi": {
     "en": "Peripheral vascular resistance",
     "cui": "C1258192",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "bệnh mạch thận": {
-    "en": "Renal vascular disease",
-    "cui": "C0268790",
-    "tui": "T047",
-    "entity_type": "Disease"
+    "tui": "T039",
+    "entity_type": "Mechanism"
   },
   "nhiễm độc giáp": {
     "en": "Thyrotoxicosis",
     "cui": "C0040156",
     "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "rò động-tĩnh mạch": {
-    "en": "Arteriovenous fistula",
-    "cui": "C0003855",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "hở van động mạch chủ": {
-    "en": "Aortic valve regurgitation",
-    "cui": "C0003504",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "tăng huyết áp tâm thu đơn độc": {
-    "en": "Isolated systolic hypertension",
-    "cui": "C0745133",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
-  "xơ cứng động mạch chủ": {
-    "en": "Aortic sclerosis",
-    "cui": "C1331537",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "cơ chế tự điều hòa": {
-    "en": "Autoregulation",
-    "cui": "C0019868",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "norepinephrine": {
-    "en": "Norepinephrine",
-    "cui": "C0028351",
-    "tui": "T047",
     "entity_type": "Cause"
   },
-  "mạch máu": {
-    "en": "Blood vessel",
-    "cui": "C0005847",
-    "tui": "T023",
+  "tiền sử gia đình tăng huyết áp": {
+    "en": "Family history of hypertension",
+    "cui": "C0455405",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "tế bào cơ trơn thành mạch": {
+    "en": "Vascular smooth muscle cell",
+    "cui": "C1448047",
+    "tui": "T116",
     "entity_type": "Organ"
   },
-  "tế bào cơ tim": {
-    "en": "Cardiac muscle cell",
-    "cui": "C0225828",
-    "tui": "T023",
-    "entity_type": "Organ"
-  },
-  "hệ renin-angiotensin-aldosterone": {
-    "en": "Renin-angiotensin-aldosterone system",
-    "cui": "C0086907",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "renin": {
-    "en": "Renin",
-    "cui": "C0035094",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "angiotensin ii": {
-    "en": "Angiotensin II",
-    "cui": "C0003009",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "aldosterone": {
-    "en": "Aldosterone",
-    "cui": "C0002006",
-    "tui": "T046",
-    "entity_type": "Mechanism"
-  },
-  "vasopressin": {
-    "en": "Vasopressin",
-    "cui": "C1705480",
-    "tui": "T046",
-    "entity_type": "Mechanism"
+  "nồng độ catecholamine huyết tương": {
+    "en": "Plasma catecholamine concentration",
+    "cui": "C0364188",
+    "tui": "T201",
+    "entity_type": "Test"
   },
   "hạ kali máu": {
     "en": "Hypokalemia",
     "cui": "C0020621",
-    "tui": "T034",
-    "entity_type": "Measurement"
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
   },
   "tăng huyết áp do thận": {
     "en": "Renovascular hypertension",
     "cui": "C0020545",
     "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "DiseaseSubtype"
   },
   "hệ thần kinh giao cảm": {
     "en": "Sympathetic nervous system",
     "cui": "C0039044",
-    "tui": "T046",
+    "tui": "T022",
     "entity_type": "Mechanism"
   },
-  "bradykinin": {
-    "en": "Bradykinin",
-    "cui": "C0006100",
-    "tui": "T047",
-    "entity_type": "Cause"
-  },
-  "oxit nitric": {
+  "nitric oxide": {
     "en": "Nitric oxide",
     "cui": "C0028128",
-    "tui": "T047",
-    "entity_type": "Cause"
-  },
-  "lão hóa": {
-    "en": "Aging",
-    "cui": "C0001811",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
+    "tui": "T121",
+    "entity_type": "Mechanism"
   },
   "xơ cứng động mạch": {
     "en": "Arteriosclerosis",
     "cui": "C0003850",
     "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "DiseaseSubtype"
   },
-  "rối loạn chức năng tế bào nội mô": {
-    "en": "Endothelial dysfunction",
-    "cui": "C0856169",
-    "tui": "T046",
+  "endothelin": {
+    "en": "Endothelin",
+    "cui": "C1149114",
+    "tui": "T044",
     "entity_type": "Mechanism"
-  },
-  "hệ tim mạch": {
-    "en": "Cardiovascular system",
-    "cui": "C0007226",
-    "tui": "T023",
-    "entity_type": "Organ"
   },
   "xuất huyết não": {
     "en": "Intracerebral hemorrhage",
     "cui": "C2937358",
-    "tui": "T047",
+    "tui": "T046",
     "entity_type": "DiseaseSubtype"
   },
   "xơ vữa động mạch": {
@@ -939,47 +1143,11 @@
     "tui": "T047",
     "entity_type": "Disease"
   },
-  "tiểu động mạch": {
-    "en": "Arteriole",
-    "cui": "C0003847",
-    "tui": "T023",
-    "entity_type": "Organ"
-  },
-  "phì đại tâm thất trái": {
-    "en": "Left ventricular hypertrophy",
-    "cui": "C0149721",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
-  "rối loạn chức năng tâm trương": {
-    "en": "Diastolic dysfunction",
-    "cui": "C0520863",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
   "bệnh cơ tim giãn": {
     "en": "Dilated cardiomyopathy",
     "cui": "C0007193",
     "tui": "T047",
     "entity_type": "Disease"
-  },
-  "bóc tách động mạch chủ ngực": {
-    "en": "Thoracic aortic dissection",
-    "cui": "C0729233",
-    "tui": "T047",
-    "entity_type": "Complication"
-  },
-  "phình động mạch chủ bụng": {
-    "en": "Abdominal aortic aneurysm",
-    "cui": "C0162871",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "tăng huyết áp khẩn cấp": {
-    "en": "Hypertensive emergency",
-    "cui": "C0745136",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
   },
   "cấp cứu tăng huyết áp": {
     "en": "Hypertensive emergency",
@@ -993,28 +1161,10 @@
     "tui": "T047",
     "entity_type": "Complication"
   },
-  "bệnh não tăng huyết áp": {
-    "en": "Hypertensive encephalopathy",
-    "cui": "C0151620",
-    "tui": "T047",
-    "entity_type": "Complication"
-  },
-  "suy thận": {
-    "en": "Renal insufficiency",
-    "cui": "C1565489",
-    "tui": "T047",
-    "entity_type": "Complication"
-  },
-  "bệnh võng mạc do tăng huyết áp": {
-    "en": "Hypertensive retinopathy",
-    "cui": "C0152132",
-    "tui": "T047",
-    "entity_type": "Complication"
-  },
   "khám thực thể": {
     "en": "Physical examination",
     "cui": "C0031809",
-    "tui": "T060",
+    "tui": "T058",
     "entity_type": "Test"
   },
   "xét nghiệm cận lâm sàng": {
@@ -1023,11 +1173,23 @@
     "tui": "T060",
     "entity_type": "Test"
   },
-  "vòng bít huyết áp": {
-    "en": "Blood pressure cuff",
-    "cui": "C0180208",
-    "tui": "T060",
-    "entity_type": "Test"
+  "> 5 phút": {
+    "en": "> 5 minutes",
+    "cui": "C0426297",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "huyết áp tâm thu": {
+    "en": "Systolic blood pressure",
+    "cui": "C0871470",
+    "tui": "T201",
+    "entity_type": "Measurement"
+  },
+  "huyết áp tâm trương": {
+    "en": "Diastolic blood pressure",
+    "cui": "C0428883",
+    "tui": "T201",
+    "entity_type": "Measurement"
   },
   "động mạch cánh tay": {
     "en": "Brachial artery",
@@ -1049,9 +1211,9 @@
   },
   "hẹp eo động mạch chủ": {
     "en": "Coarctation of the aorta",
-    "cui": "C0003492",
+    "cui": "C2930803",
     "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "Cause"
   },
   "tăng huyết áp áo choàng trắng": {
     "en": "White coat hypertension",
@@ -1059,46 +1221,28 @@
     "tui": "T047",
     "entity_type": "DiseaseSubtype"
   },
-  "tăng huyết áp ẩn": {
-    "en": "Masked hypertension",
-    "cui": "C3178811",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
-  "người lớn tuổi": {
-    "en": "Aged",
-    "cui": "C0001792",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "nữ giới": {
-    "en": "Female",
-    "cui": "C0086287",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "nam giới": {
-    "en": "Male",
-    "cui": "C0086582",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
+  "10-20%": {
+    "en": "10-20%",
+    "cui": "C3841847",
+    "tui": "T033",
+    "entity_type": "Measurement"
   },
   "biến cố tim mạch": {
     "en": "Cardiovascular event",
     "cui": "C1320716",
-    "tui": "T047",
+    "tui": "T033",
     "entity_type": "Complication"
   },
-  "theo dõi huyết áp tại nhà": {
-    "en": "Home blood pressure monitoring",
-    "cui": "C1449681",
-    "tui": "T060",
-    "entity_type": "Test"
+  "nguy cơ tim mạch": {
+    "en": "Cardiovascular risk",
+    "cui": "C4324389",
+    "tui": "T033",
+    "entity_type": "Complication"
   },
-  "theo dõi huyết áp lưu động": {
-    "en": "Ambulatory blood pressure monitoring",
-    "cui": "C0242876",
-    "tui": "T060",
+  "mức huyết áp": {
+    "en": "Blood pressure level",
+    "cui": "C5818794",
+    "tui": "T033",
     "entity_type": "Test"
   },
   "bệnh động mạch vành": {
@@ -1111,7 +1255,7 @@
     "en": "Obstructive sleep apnea",
     "cui": "C0520679",
     "tui": "T047",
-    "entity_type": "Disease"
+    "entity_type": "Cause"
   },
   "bệnh động mạch ngoại biên": {
     "en": "Peripheral arterial disease",
@@ -1119,9 +1263,9 @@
     "tui": "T047",
     "entity_type": "Disease"
   },
-  "rối loạn lipid máu": {
-    "en": "Dyslipidemia",
-    "cui": "C0242339",
+  "tiểu đường": {
+    "en": "Diabetes mellitus",
+    "cui": "C0011849",
     "tui": "T047",
     "entity_type": "Disease"
   },
@@ -1131,71 +1275,35 @@
     "tui": "T047",
     "entity_type": "Disease"
   },
-  "thuốc lá": {
-    "en": "Tobacco use",
-    "cui": "C0543414",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
-  },
-  "rượu": {
-    "en": "Alcohol consumption",
-    "cui": "C0001948",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
+  "tiền sử xã hội": {
+    "en": "Social history",
+    "cui": "C0424975",
+    "tui": "T201",
+    "entity_type": "Test"
   },
   "chất kích thích": {
     "en": "Stimulant",
     "cui": "C0304402",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
-  },
-  "thuốc": {
-    "en": "Pharmaceutical preparation",
-    "cui": "C0013227",
     "tui": "T121",
-    "entity_type": "Drug"
-  },
-  "ma túy bất hợp pháp": {
-    "en": "Illicit drugs",
-    "cui": "C0086190",
-    "tui": "T033",
     "entity_type": "RiskFactor"
+  },
+  "tiền sử ăn kiêng": {
+    "en": "Dietary history",
+    "cui": "C0425401",
+    "tui": "T033",
+    "entity_type": "Test"
   },
   "muối": {
     "en": "Dietary sodium",
     "cui": "C0037570",
-    "tui": "T033",
+    "tui": "T168",
     "entity_type": "RiskFactor"
   },
-  "nước tăng lực": {
-    "en": "Energy drink",
-    "cui": "C3179078",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
-  },
-  "chiều cao": {
-    "en": "Body height",
-    "cui": "C0005890",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "cân nặng": {
-    "en": "Body weight",
-    "cui": "C0005910",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "vòng eo": {
-    "en": "Waist circumference",
-    "cui": "C0455829",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "bệnh võng mạc": {
-    "en": "Retinopathy",
-    "cui": "C0035309",
-    "tui": "T047",
-    "entity_type": "Disease"
+  "caffeine": {
+    "en": "Caffeine",
+    "cui": "C0006644",
+    "tui": "T109",
+    "entity_type": "Mechanism"
   },
   "tiếng thổi": {
     "en": "Heart murmur",
@@ -1203,118 +1311,82 @@
     "tui": "T033",
     "entity_type": "Sign"
   },
+  "khám bụng": {
+    "en": "Abdominal examination",
+    "cui": "C0562238",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
   "thận to": {
     "en": "Enlarged kidney",
     "cui": "C0542518",
     "tui": "T033",
     "entity_type": "Sign"
   },
-  "khối u ổ bụng": {
-    "en": "Abdominal mass",
-    "cui": "C0000734",
-    "tui": "T033",
-    "entity_type": "Sign"
+  "< 30 tuổi": {
+    "en": "age < 30 years",
+    "cui": "C2361290",
+    "tui": "T081",
+    "entity_type": "Measurement"
   },
   "tăng huyết áp do mạch thận": {
     "en": "Renovascular hypertension",
     "cui": "C0020545",
     "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "chỉ số huyết áp": {
-    "en": "Blood pressure",
-    "cui": "C0005823",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "xét nghiệm": {
-    "en": "Laboratory test",
-    "cui": "C0022885",
-    "tui": "T060",
-    "entity_type": "Test"
-  },
-  "phân tích nước tiểu": {
-    "en": "Urinalysis",
-    "cui": "C0042014",
-    "tui": "T060",
-    "entity_type": "Test"
+    "entity_type": "DiseaseSubtype"
   },
   "tỷ lệ albumin/creatinin niệu": {
     "en": "Urine albumin/creatinine ratio",
     "cui": "C0455271",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "siêu âm thận": {
+    "en": "Renal ultrasound",
+    "cui": "C0203408",
     "tui": "T060",
     "entity_type": "Test"
   },
   "bảng xét nghiệm lipid": {
     "en": "Lipid panel",
     "cui": "C0200382",
-    "tui": "T060",
+    "tui": "T059",
     "entity_type": "Test"
   },
   "bảng xét nghiệm chuyển hóa đầy đủ": {
     "en": "Comprehensive metabolic panel",
     "cui": "C0519825",
-    "tui": "T060",
+    "tui": "T059",
     "entity_type": "Test"
   },
   "creatinine": {
-    "en": "Creatinine",
-    "cui": "C0010294",
-    "tui": "T034",
-    "entity_type": "Measurement"
+    "en": "Creatinine measurement",
+    "cui": "C0201975",
+    "tui": "T059",
+    "entity_type": "Test"
   },
   "cystatin c": {
     "en": "Cystatin C",
     "cui": "C0071744",
-    "tui": "T034",
-    "entity_type": "Measurement"
+    "tui": "T116",
+    "entity_type": "Test"
   },
   "kali": {
     "en": "Potassium",
     "cui": "C0032821",
+    "tui": "T121",
+    "entity_type": "Test"
+  },
+  "metanephrine huyết tương": {
+    "en": "Plasma metanephrine",
+    "cui": "C5172564",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "hoạt động renin huyết tương": {
+    "en": "Plasma renin activity",
+    "cui": "C1881049",
     "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "canxi": {
-    "en": "Calcium",
-    "cui": "C0006675",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "u tế bào ưa crom": {
-    "en": "Pheochromocytoma",
-    "cui": "C4551683",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "albumin niệu": {
-    "en": "Albuminuria",
-    "cui": "C0001925",
-    "tui": "T033",
-    "entity_type": "Sign"
-  },
-  "creatinine huyết thanh": {
-    "en": "Serum creatinine",
-    "cui": "C0201976",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "tăng huyết áp kháng trị": {
-    "en": "Resistant hypertension",
-    "cui": "C1834155",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
-  "phì đại thất trái": {
-    "en": "Left ventricular hypertrophy",
-    "cui": "C0149721",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
-  "điện tâm đồ": {
-    "en": "Electrocardiogram",
-    "cui": "C0013798",
-    "tui": "T060",
     "entity_type": "Test"
   },
   "siêu âm tim": {
@@ -1323,51 +1395,15 @@
     "tui": "T060",
     "entity_type": "Test"
   },
-  "chụp cắt lớp vi tính": {
-    "en": "Computed Tomography",
+  "chụp ct": {
+    "en": "Computed tomography",
     "cui": "C0040405",
     "tui": "T060",
     "entity_type": "Test"
   },
-  "nhức đầu": {
-    "en": "Headache",
-    "cui": "C0018681",
-    "tui": "T184",
-    "entity_type": "Symptom"
-  },
-  "đánh trống ngực": {
-    "en": "Palpitations",
-    "cui": "C0030252",
-    "tui": "T184",
-    "entity_type": "Symptom"
-  },
-  "nhịp tim nhanh": {
-    "en": "Tachycardia",
-    "cui": "C0039231",
-    "tui": "T033",
-    "entity_type": "Sign"
-  },
-  "đổ mồ hôi quá nhiều": {
-    "en": "Hyperhidrosis",
-    "cui": "C0020458",
-    "tui": "T184",
-    "entity_type": "Symptom"
-  },
-  "run": {
-    "en": "Tremor",
-    "cui": "C0040822",
-    "tui": "T033",
-    "entity_type": "Sign"
-  },
-  "xanh xao": {
-    "en": "Pallor",
-    "cui": "C0241137",
-    "tui": "T033",
-    "entity_type": "Sign"
-  },
-  "nghiên cứu giấc ngủ": {
-    "en": "Polysomnography",
-    "cui": "C0162701",
+  "chụp mri ngực": {
+    "en": "Magnetic resonance imaging of thorax",
+    "cui": "C2316260",
     "tui": "T060",
     "entity_type": "Test"
   },
@@ -1377,33 +1413,9 @@
     "tui": "T047",
     "entity_type": "Disease"
   },
-  "rối loạn chuyển hóa porphyrin cấp tính": {
-    "en": "Acute porphyria",
-    "cui": "C0162565",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "phù niêm": {
-    "en": "Myxedema",
-    "cui": "C0027145",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
   "rối loạn hệ thần kinh trung ương": {
     "en": "Central nervous system disorder",
     "cui": "C0007682",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "hệ thần kinh trung ương": {
-    "en": "Central nervous system",
-    "cui": "C3714787",
-    "tui": "T023",
-    "entity_type": "Organ"
-  },
-  "bệnh tim mạch": {
-    "en": "Cardiovascular disease",
-    "cui": "C0007222",
     "tui": "T047",
     "entity_type": "Disease"
   },
@@ -1415,69 +1427,57 @@
   },
   "biến chứng": {
     "en": "Complication",
-    "cui": "C2362589",
-    "tui": "T047",
+    "cui": "C0009566",
+    "tui": "T046",
     "entity_type": "Complication"
   },
   "bệnh thận": {
     "en": "Kidney disease",
     "cui": "C0022658",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "tác dụng phụ của thuốc": {
-    "en": "Adverse drug reaction",
-    "cui": "C0041755",
     "tui": "T047",
-    "entity_type": "Complication"
+    "entity_type": "Disease"
+  },
+  "kiểm soát huyết áp": {
+    "en": "Blood pressure control",
+    "cui": "C0419171",
+    "tui": "T061",
+    "entity_type": "Treatment"
   },
   "hoa mắt chóng mặt": {
     "en": "Dizziness",
     "cui": "C0012833",
     "tui": "T184",
-    "entity_type": "Symptom"
-  },
-  "suy giảm chức năng thận": {
-    "en": "Renal impairment",
-    "cui": "C1565489",
-    "tui": "T047",
     "entity_type": "Complication"
   },
   "đo huyết áp tại nhà": {
     "en": "Home blood pressure monitoring",
     "cui": "C1449681",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "giảm lượng natri": {
+    "en": "Sodium restriction",
+    "cui": "C0430141",
+    "tui": "T059",
+    "entity_type": "Treatment"
+  },
+  "tăng lượng kali": {
+    "en": "Potassium supplementation",
+    "cui": "C0561938",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "thay đổi chế độ ăn": {
+    "en": "Dietary modification",
+    "cui": "C0086153",
     "tui": "T061",
     "entity_type": "Treatment"
   },
-  "chế độ ăn uống lành mạnh": {
-    "en": "Healthy diet",
-    "cui": "C0452415",
-    "tui": "T061",
-    "entity_type": "Treatment"
-  },
-  "natri": {
-    "en": "Sodium",
-    "cui": "C0037473",
-    "tui": "T034",
-    "entity_type": "Measurement"
-  },
-  "béo phì": {
-    "en": "Obesity",
-    "cui": "C0028754",
+  "bệnh tim mạch do xơ vữa động mạch": {
+    "en": "Atherosclerotic cardiovascular disease",
+    "cui": "C0004153",
     "tui": "T047",
     "entity_type": "Disease"
-  },
-  "thuốc hạ huyết áp": {
-    "en": "Antihypertensive agents",
-    "cui": "C0003364",
-    "tui": "T121",
-    "entity_type": "DrugClass"
-  },
-  "mang thai": {
-    "en": "Pregnancy",
-    "cui": "C0032961",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
   },
   "bệnh đi kèm": {
     "en": "Comorbidity",
@@ -1485,23 +1485,11 @@
     "tui": "T033",
     "entity_type": "RiskFactor"
   },
-  "chống chỉ định": {
-    "en": "Contraindication",
-    "cui": "C1301624",
-    "tui": "T033",
-    "entity_type": "RiskFactor"
-  },
   "khả năng dung nạp": {
     "en": "Tolerance",
-    "cui": "C0231197",
+    "cui": "C0013220",
     "tui": "T033",
     "entity_type": "RiskFactor"
-  },
-  "bệnh nhân": {
-    "en": "Patient",
-    "cui": "C0030705",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
   },
   "chlorthalidone": {
     "en": "Chlorthalidone",
@@ -1515,29 +1503,29 @@
     "tui": "T121",
     "entity_type": "Drug"
   },
-  "tăng huyết áp cấp cứu": {
-    "en": "Hypertensive emergency",
-    "cui": "C0020546",
+  "renin thấp": {
+    "en": "low renin",
+    "cui": "C0264638",
     "tui": "T047",
-    "entity_type": "DiseaseSubtype"
+    "entity_type": "Mechanism"
   },
-  "co giật": {
-    "en": "Seizure",
-    "cui": "C0036572",
-    "tui": "T033",
-    "entity_type": "Sign"
+  ">= 2 loại thuốc": {
+    "en": ">= 2 medications",
+    "cui": "C2598368",
+    "tui": "T201",
+    "entity_type": "Measurement"
+  },
+  "thuốc ức chế ace": {
+    "en": "Angiotensin-converting enzyme inhibitor",
+    "cui": "C0003015",
+    "tui": "T121",
+    "entity_type": "DrugClass"
   },
   "xuất huyết võng mạc": {
     "en": "Retinal hemorrhage",
     "cui": "C0035317",
-    "tui": "T033",
+    "tui": "T046",
     "entity_type": "Sign"
-  },
-  "đau ngực": {
-    "en": "Chest pain",
-    "cui": "C0008031",
-    "tui": "T184",
-    "entity_type": "Symptom"
   },
   "buồn nôn và nôn": {
     "en": "Nausea and vomiting",
@@ -1545,40 +1533,34 @@
     "tui": "T184",
     "entity_type": "Symptom"
   },
-  "calcium channel blocker": {
-    "en": "Calcium channel blocker",
-    "cui": "C0006684",
-    "tui": "T121",
-    "entity_type": "DrugClass"
-  },
   "đau thắt ngực": {
     "en": "Angina pectoris",
-    "cui": "C0002962",
+    "cui": "C0002963",
     "tui": "T047",
     "entity_type": "Disease"
   },
-  "tiểu đường": {
-    "en": "Diabetes mellitus",
-    "cui": "C0011849",
-    "tui": "T047",
-    "entity_type": "Disease"
+  "huyết áp mục tiêu": {
+    "en": "Target blood pressure",
+    "cui": "C1277633",
+    "tui": "T201",
+    "entity_type": "Measurement"
   },
-  "protein niệu": {
-    "en": "Proteinuria",
-    "cui": "C0033687",
-    "tui": "T033",
-    "entity_type": "Sign"
+  "> 160 mm hg": {
+    "en": "> 160 mmHg",
+    "cui": "C5962719",
+    "tui": "T170",
+    "entity_type": "Measurement"
   },
-  "aldosterone antagonist": {
-    "en": "Aldosterone antagonist",
-    "cui": "C0002007",
+  "3 loại thuốc hạ huyết áp": {
+    "en": "Antihypertensive agents",
+    "cui": "C0003364",
     "tui": "T121",
     "entity_type": "DrugClass"
   },
-  "thuốc đối kháng aldosterone": {
-    "en": "Aldosterone antagonists",
-    "cui": "C0002007",
-    "tui": "T121",
+  "4 loại thuốc trở lên": {
+    "en": "Polypharmacy",
+    "cui": "C2922974",
+    "tui": "T061",
     "entity_type": "DrugClass"
   },
   "không tuân thủ điều trị": {
@@ -1587,27 +1569,15 @@
     "tui": "T033",
     "entity_type": "RiskFactor"
   },
-  "giáo dục bệnh nhân": {
-    "en": "Patient education",
-    "cui": "C0030688",
-    "tui": "T061",
-    "entity_type": "Treatment"
-  },
-  "tăng huyết áp kháng thuốc": {
-    "en": "Resistant hypertension",
-    "cui": "C1834155",
-    "tui": "T047",
-    "entity_type": "DiseaseSubtype"
-  },
   "thụ thể áp suất": {
     "en": "Baroreceptor",
     "cui": "C0033093",
     "tui": "T023",
-    "entity_type": "Organ"
+    "entity_type": "Mechanism"
   },
   "động mạch cảnh": {
     "en": "Carotid artery",
-    "cui": "C0007272",
+    "cui": "C0162859",
     "tui": "T023",
     "entity_type": "Organ"
   },
@@ -1617,76 +1587,58 @@
     "tui": "T121",
     "entity_type": "DrugClass"
   },
-  "tăng aldosteron": {
-    "en": "Hyperaldosteronism",
-    "cui": "C0020428",
-    "tui": "T047",
-    "entity_type": "Disease"
-  },
-  "võng mạc": {
-    "en": "Retina",
-    "cui": "C0035298",
-    "tui": "T023",
-    "entity_type": "Organ"
-  },
   "nhồi máu não": {
     "en": "Cerebral infarction",
     "cui": "C0007785",
     "tui": "T047",
     "entity_type": "Complication"
   },
-  "người trưởng thành": {
-    "en": "Adult",
-    "cui": "C0001675",
-    "tui": "T098",
-    "entity_type": "PatientGroup"
-  },
-  "tâm thất trái": {
-    "en": "Left ventricle",
-    "cui": "C0225897",
-    "tui": "T023",
-    "entity_type": "Organ"
-  },
-  "nguy cơ tim mạch": {
-    "en": "Cardiovascular risk",
-    "cui": "C4324389",
-    "tui": "T047",
-    "entity_type": "Complication"
-  },
-  "tập thể dục": {
-    "en": "Physical exercise",
-    "cui": "C0015259",
+  "< 10%": {
+    "en": "less than 10%",
+    "cui": "C3840706",
     "tui": "T033",
-    "entity_type": "RiskFactor"
+    "entity_type": "Measurement"
   },
-  "khối u": {
-    "en": "Neoplasm",
-    "cui": "C1882062",
+  "< 5%": {
+    "en": "less than 5%",
+    "cui": "C3841849",
     "tui": "T033",
-    "entity_type": "Sign"
+    "entity_type": "Measurement"
   },
-  "metanephrine tự do": {
-    "en": "Free metanephrine",
-    "cui": "C1317529",
-    "tui": "T060",
-    "entity_type": "Test"
+  "thuốc ức chế men chuyển angiotensin": {
+    "en": "Angiotensin-converting enzyme inhibitor",
+    "cui": "C0003015",
+    "tui": "T121",
+    "entity_type": "DrugClass"
   },
-  "giảm chức năng thận": {
-    "en": "Decreased renal function",
-    "cui": "C0232807",
-    "tui": "T047",
+  "thuốc kích thích": {
+    "en": "Central nervous system stimulants",
+    "cui": "C0002763",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "> 80%": {
+    "en": "greater than 80%",
+    "cui": "C0428013",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  ">= 40%": {
+    "en": ">= 40%",
+    "cui": "C0439509",
+    "tui": "T081",
+    "entity_type": "Measurement"
+  },
+  "3-4 lần": {
+    "en": "3-4 times",
+    "cui": "C3844181",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "biến chứng tăng huyết áp": {
+    "en": "Hypertensive complication",
+    "cui": "C3266050",
+    "tui": "T046",
     "entity_type": "Complication"
-  },
-  "phối hợp 2 loại thuốc": {
-    "en": "Combination drug therapy",
-    "cui": "C0013218",
-    "tui": "T061",
-    "entity_type": "Treatment"
-  },
-  "phối hợp từ 4 loại thuốc trở lên": {
-    "en": "Polypharmacy",
-    "cui": "C2922974",
-    "tui": "T061",
-    "entity_type": "Treatment"
   }
 }
