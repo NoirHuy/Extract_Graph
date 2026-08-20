@@ -20,12 +20,39 @@ def test_vector_fallback_ngram_matcher():
     matcher = VectorFallbackMatcher()
     candidates = [
         {"name": "Essential hypertension", "cui": "C0085580", "sty": "Disease or Syndrome"},
-        {"name": "Secondary hypertension", "cui": "C0155615", "sty": "Disease or Syndrome"},
+        {"name": "Secondary hypertension", "cui": "C0155616", "sty": "Disease or Syndrome"},
         {"name": "Asthma", "cui": "C0004096", "sty": "Disease or Syndrome"},
     ]
     match = matcher.find_best_match("Essential hypertension stage 1", candidates, threshold=0.60)
     assert match is not None
     assert match["cui"] == "C0085580"
+
+def test_dense_embedding_matcher_with_mock():
+    from normalization.vector_fallback import _dense_cosine_similarity, VectorFallbackMatcher
+    
+    # 1. Cosine similarity math check
+    v1 = [1.0, 0.0, 0.0]
+    v2 = [1.0, 0.0, 0.0]
+    v3 = [0.0, 1.0, 0.0]
+    assert _dense_cosine_similarity(v1, v2) == 1.0
+    assert _dense_cosine_similarity(v1, v3) == 0.0
+
+    # 2. Test matcher with pre-populated cache
+    matcher = VectorFallbackMatcher()
+    matcher.embedding_client.cache["khó thở khi nằm"] = [0.8, 0.6, 0.0]
+    matcher.embedding_client.cache["Orthopnea"] = [0.79, 0.61, 0.0]
+    matcher.embedding_client.cache["Hypertension"] = [0.0, 0.1, 0.9]
+
+    candidates = [
+        {"name": "Orthopnea", "cui": "C0029353", "sty": "Sign or Symptom"},
+        {"name": "Hypertension", "cui": "C0020538", "sty": "Disease or Syndrome"},
+    ]
+
+    match = matcher.find_best_match("khó thở khi nằm", candidates, threshold=0.75)
+    assert match is not None
+    assert match["cui"] == "C0029353"
+    assert match["match_strategy"] == "dense_embedding"
+
 
 def test_normalize_entities_flow(tmp_path):
     entities = [

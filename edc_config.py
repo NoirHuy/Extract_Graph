@@ -16,7 +16,14 @@ class Settings:
     UMLS_API_KEY: str = os.getenv("UMLS_API_KEY", "")
     DEFAULT_PASSES: int = int(os.getenv("DEFAULT_PASSES", "2"))
     CONFIDENCE_THRESHOLD: float = float(os.getenv("CONFIDENCE_THRESHOLD", "0.7"))
-    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.85"))
+    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.80"))
+    # Dense Vector Embedding Configuration (OpenRouter / OpenAI)
+    EMBEDDING_API_BASE: str = os.getenv("EMBEDDING_API_BASE", "https://openrouter.ai/api/v1")
+    EMBEDDING_API_KEY: str = os.getenv("EMBEDDING_API_KEY") or os.getenv("OPENROUTER_API_KEY") or os.getenv("LLM_API_KEY", "")
+    EMBEDDING_MODEL_NAME: str = os.getenv("EMBEDDING_MODEL_NAME", "openai/text-embedding-3-large")
+    EMBEDDING_DIMENSIONS: int = int(os.getenv("EMBEDDING_DIMENSIONS", "1536"))
+    EMBEDDING_CACHE_FILE: str = os.getenv("EMBEDDING_CACHE_FILE", "data/dict/dictionary_embeddings.json")
+    DENSE_SIMILARITY_THRESHOLD: float = float(os.getenv("DENSE_SIMILARITY_THRESHOLD", "0.75"))
     SCHEMA_VERSION: str = "1.0.0"
 
 _settings = None

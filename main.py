@@ -225,6 +225,11 @@ def main():
     verify_p.add_argument("--apply-fixes", action="store_true", help="Automatically heal and write verified official CUIs to dictionary")
     verify_p.add_argument("--api-key", default=None, help="UMLS API Key")
 
+    # 7. build-embeddings
+    build_emb_p = subparsers.add_parser("build-embeddings", help="Precompute and cache vector embeddings for dictionary using openai/text-embedding-3-large")
+    build_emb_p.add_argument("--dict-path", default="data/dict/medical_vi_en_cui.json", help="Path to dictionary JSON")
+    build_emb_p.add_argument("--api-key", default=None, help="OpenRouter / OpenAI API Key override")
+
     args = parser.parse_args()
 
     if args.command == "probe-llm":
@@ -299,6 +304,29 @@ def main():
         else:
             print("\n Run with '--apply-fixes' to automatically synchronize dictionary with official UMLS Semantic Network.")
         print("=" * 75 + "\n")
+    elif args.command == "build-embeddings":
+        from normalization.vector_fallback import DenseEmbeddingClient
+        client = DenseEmbeddingClient(api_key=args.api_key)
+        if not client.is_available():
+            print("\n[!] OPENROUTER_API_KEY is not configured. Please set OPENROUTER_API_KEY in .env or pass --api-key.")
+            return
+
+        with open(args.dict_path, "r", encoding="utf-8") as f:
+            dictionary = json.load(f)
+
+        terms_to_embed = set()
+        for vi_term, data in dictionary.items():
+            terms_to_embed.add(vi_term)
+            if data.get("en"):
+                terms_to_embed.add(data["en"])
+            if data.get("umls_preferred_name"):
+                terms_to_embed.add(data["umls_preferred_name"])
+
+        print(f"\nPrecomputing embeddings for {len(terms_to_embed)} unique dictionary terms using {client.model}...")
+        batch_res = client.get_batch_embeddings(list(terms_to_embed))
+        print(f"Successfully cached {len(batch_res)} term embeddings to {client.cache_file}")
+        print(f"Embedding Dimension: {client.dimensions}")
+        print("Ready for sub-millisecond semantic vector normalization!\n")
 
 
 if __name__ == "__main__":
