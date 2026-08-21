@@ -4838,5 +4838,1235 @@
     "cui": "C0304490",
     "tui": "T121",
     "entity_type": "DrugClass"
+  },
+  "tức ngực": {
+    "en": "Chest pain",
+    "cui": "C0008031",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "ho": {
+    "en": "Cough",
+    "cui": "C0010200",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "thở khò khè": {
+    "en": "Wheezing",
+    "cui": "C0043144",
+    "tui": "T184",
+    "entity_type": "Sign"
+  },
+  "thuốc cường beta-2": {
+    "en": "Beta-2 adrenergic agonist",
+    "cui": "C2936789",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "trẻ sơ sinh và trẻ nhỏ": {
+    "en": "Infant and child",
+    "cui": "C3845752",
+    "tui": "T033",
+    "entity_type": "PatientGroup"
+  },
+  "leptin": {
+    "en": "Leptin",
+    "cui": "C0299583",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "adipokine": {
+    "en": "Adipokine",
+    "cui": "C1955907",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "tế bào t loại 2 (th2)": {
+    "en": "Th2 cell",
+    "cui": "C0242633",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "viêm": {
+    "en": "Inflammation",
+    "cui": "C0021368",
+    "tui": "T046",
+    "entity_type": "Mechanism"
+  },
+  "il-4": {
+    "en": "Interleukin-4",
+    "cui": "C0021758",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "il-13": {
+    "en": "Interleukin-13",
+    "cui": "C0214743",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "hla-drb1": {
+    "en": "HLA-DRB1 gene",
+    "cui": "C1415576",
+    "tui": "T000",
+    "entity_type": "Mechanism"
+  },
+  "tnf-α": {
+    "en": "Tumor Necrosis Factor-alpha",
+    "cui": "C1456820",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "gen adam33": {
+    "en": "ADAM33 gene",
+    "cui": "C1423517",
+    "tui": "T000",
+    "entity_type": "Mechanism"
+  },
+  "gen ormdl3": {
+    "en": "ORMDL3 gene",
+    "cui": "C1423930",
+    "tui": "T000",
+    "entity_type": "Mechanism"
+  },
+  "nhân tố môi trường": {
+    "en": "Environmental factor",
+    "cui": "C0686732",
+    "tui": "T080",
+    "entity_type": "Cause"
+  },
+  "tiếp xúc khói thuốc lá": {
+    "en": "Tobacco smoke exposure",
+    "cui": "C4300344",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "hen suyễn tăng bạch cầu ái toan": {
+    "en": "Eosinophilic asthma",
+    "cui": "C0340076",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "ige": {
+    "en": "Immunoglobulin E",
+    "cui": "C0020846",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "t hỗ trợ loại 1 (th1)": {
+    "en": "Th1 cell",
+    "cui": "C0242632",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "tế bào th2": {
+    "en": "Th2 cell",
+    "cui": "C0242633",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "hội chứng rối loạn chức năng đường thở phản ứng (rads)": {
+    "en": "Reactive airways dysfunction syndrome",
+    "cui": "C1299633",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tiếp xúc đơn độc": {
+    "en": "Social isolation",
+    "cui": "C0037421",
+    "tui": "T054",
+    "entity_type": "RiskFactor"
+  },
+  "khí clo": {
+    "en": "Chlorine gas",
+    "cui": "C0008209",
+    "tui": "T131",
+    "entity_type": "Cause"
+  },
+  "nitơ oxit": {
+    "en": "Nitrogen oxides",
+    "cui": "C0028167",
+    "tui": "T197",
+    "entity_type": "Cause"
+  },
+  "hợp chất hữu cơ dễ bay hơi": {
+    "en": "Volatile organic compounds",
+    "cui": "C2350439",
+    "tui": "T109",
+    "entity_type": "Cause"
+  },
+  "rads": {
+    "en": "Reactive airways dysfunction syndrome",
+    "cui": "C1299633",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hạn chế luồng khí": {
+    "en": "Airflow limitation",
+    "cui": "C0024117",
+    "tui": "T047",
+    "entity_type": "Sign"
+  },
+  "tăng đáp ứng phế quản": {
+    "en": "Bronchial hyperresponsiveness",
+    "cui": "C0085129",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "phì đại cơ trơn": {
+    "en": "Smooth muscle hypertrophy",
+    "cui": "C1299882",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "chất p": {
+    "en": "Substance P",
+    "cui": "C0038585",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "neurokinin a": {
+    "en": "Neurokinin A",
+    "cui": "C0038581",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "peptit liên quan đến gen calcitonin": {
+    "en": "Calcitonin gene-related peptide",
+    "cui": "C0006669",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "prostaglandin e2": {
+    "en": "Dinoprostone",
+    "cui": "C0012472",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "đường thở": {
+    "en": "Airway",
+    "cui": "C0458827",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "tăng bạch cầu ái toan trong máu ngoại biên": {
+    "en": "Peripheral blood eosinophilia",
+    "cui": "C1335386",
+    "tui": "T034",
+    "entity_type": "Sign"
+  },
+  "virus hợp bào hô hấp": {
+    "en": "Respiratory syncytial virus",
+    "cui": "C0035236",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "rhinovirus": {
+    "en": "Rhinovirus",
+    "cui": "C0276447",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "virus parainfluenza": {
+    "en": "Parainfluenza virus",
+    "cui": "C0030393",
+    "tui": "T005",
+    "entity_type": "Cause"
+  },
+  "nhiễm trùng đường hô hấp trên": {
+    "en": "Upper respiratory tract infection",
+    "cui": "C0041912",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "khói thuốc lá": {
+    "en": "Tobacco smoke",
+    "cui": "C0439994",
+    "tui": "T167",
+    "entity_type": "RiskFactor"
+  },
+  "aspirin": {
+    "en": "Aspirin",
+    "cui": "C0004057",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "hen nặng": {
+    "en": "Severe asthma",
+    "cui": "C0581126",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tam chứng samter": {
+    "en": "Samter's triad",
+    "cui": "C3853540",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "gerd": {
+    "en": "Gastroesophageal reflux disease",
+    "cui": "C0017168",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thuốc ức chế bơm proton": {
+    "en": "Proton pump inhibitor",
+    "cui": "C0358591",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "trào ngược dạ dày thực quản": {
+    "en": "Gastroesophageal reflux disease",
+    "cui": "C0017168",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "viêm mũi dị ứng": {
+    "en": "Allergic rhinitis",
+    "cui": "C2607914",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tăng carbonic máu": {
+    "en": "Hypercapnia",
+    "cui": "C0020440",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "prostaglandin": {
+    "en": "Prostaglandins",
+    "cui": "C0033554",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "nhiễm toan hô hấp": {
+    "en": "Respiratory acidosis",
+    "cui": "C0001127",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "toan chuyển hóa": {
+    "en": "Metabolic acidosis",
+    "cui": "C0220981",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "ngừng tuần hoàn": {
+    "en": "Cardiac arrest",
+    "cui": "C0018790",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "cơn hen phế quản": {
+    "en": "Asthma attack",
+    "cui": "C0347950",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "mức độ nặng của bệnh": {
+    "en": "Disease severity",
+    "cui": "C3494263",
+    "tui": "T201",
+    "entity_type": "DiseaseSubtype"
+  },
+  "điều trị hen suyễn": {
+    "en": "Asthma management",
+    "cui": "C1318955",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "triệu chứng hen suyễn": {
+    "en": "Asthma symptom",
+    "cui": "C1276804",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "hen suyễn nhẹ": {
+    "en": "Mild asthma",
+    "cui": "C0581124",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đợt cấp nặng": {
+    "en": "Severe exacerbation",
+    "cui": "C3872851",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "chức năng phổi": {
+    "en": "Pulmonary function test",
+    "cui": "C0024119",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "kiểm soát hen": {
+    "en": "Asthma control",
+    "cui": "C2733224",
+    "tui": "T201",
+    "entity_type": "Measurement"
+  },
+  "triệu chứng hen": {
+    "en": "Asthma symptom",
+    "cui": "C1276804",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "mức độ nặng của bệnh hen": {
+    "en": "Asthma severity",
+    "cui": "C0581126",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "mức độ nặng": {
+    "en": "Severity",
+    "cui": "C0439793",
+    "tui": "T080",
+    "entity_type": "DiseaseSubtype"
+  },
+  "mức độ kiểm soát": {
+    "en": "Control level",
+    "cui": "C5890742",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "sự suy giảm chức năng": {
+    "en": "Functional decline",
+    "cui": "C4304688",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "nguy cơ bệnh lý": {
+    "en": "Pathological risk",
+    "cui": "C6064359",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "đo phế dung kế": {
+    "en": "Spirometry",
+    "cui": "C0037981",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "giảm triệu chứng": {
+    "en": "Palliative treatment",
+    "cui": "C0030231",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "tần suất sử dụng thuốc": {
+    "en": "Medication frequency",
+    "cui": "C3476109",
+    "tui": "T079",
+    "entity_type": "Measurement"
+  },
+  "đợt cấp": {
+    "en": "Acute exacerbation",
+    "cui": "C2919376",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "tác dụng phụ": {
+    "en": "Adverse effect",
+    "cui": "C0559546",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "chức năng hô hấp": {
+    "en": "Respiratory function test",
+    "cui": "C0035227",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "hen suyễn thể ho": {
+    "en": "Cough variant asthma",
+    "cui": "C0694548",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "hen suyễn ban đêm": {
+    "en": "Nocturnal asthma",
+    "cui": "C1273489",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "nặng ngực": {
+    "en": "Chest heaviness",
+    "cui": "C3831496",
+    "tui": "T170",
+    "entity_type": "Symptom"
+  },
+  "mạch nghịch thường: giảm huyết áp tâm thu > 10 mm hg khi hít vào": {
+    "en": "Pulsus paradoxus",
+    "cui": "C0232118",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "chụp x-quang ngực": {
+    "en": "Chest X-ray",
+    "cui": "C0039985",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "tràn khí trung thất": {
+    "en": "Pneumomediastinum",
+    "cui": "C0025062",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "lồng ngực hình thùng": {
+    "en": "Barrel chest",
+    "cui": "C0264172",
+    "tui": "T033",
+    "entity_type": "Sign"
+  },
+  "yếu tố khởi phát": {
+    "en": "Precipitating factor",
+    "cui": "C0032930",
+    "tui": "T201",
+    "entity_type": "RiskFactor"
+  },
+  "kiểm tra chức năng hô hấp": {
+    "en": "Pulmonary function test",
+    "cui": "C0024119",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "oxit nitric thở ra (feno)": {
+    "en": "Fractional exhaled nitric oxide",
+    "cui": "C5445160",
+    "tui": "T201",
+    "entity_type": "Mechanism"
+  },
+  "bạch cầu ái toan trong máu": {
+    "en": "Blood eosinophilia",
+    "cui": "C1335386",
+    "tui": "T034",
+    "entity_type": "Mechanism"
+  },
+  "ige huyết thanh": {
+    "en": "Serum IgE",
+    "cui": "C5160476",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "interferon-gamma": {
+    "en": "Interferon-gamma",
+    "cui": "C3493224",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "yếu tố hoại tử khối u": {
+    "en": "Tumor necrosis factor",
+    "cui": "C0041368",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "chồng chéo hen suyễn-copd (aco)": {
+    "en": "Asthma-COPD overlap",
+    "cui": "C4038730",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tăng bạch cầu ái toan": {
+    "en": "Eosinophilia",
+    "cui": "C0014457",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "roflumilast": {
+    "en": "Roflumilast",
+    "cui": "C0965618",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "azithromycin": {
+    "en": "Azithromycin",
+    "cui": "C0052796",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "liệu pháp sinh học": {
+    "en": "Biological therapy",
+    "cui": "C0005527",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "bệnh do nấm aspergillus phế quản dị ứng": {
+    "en": "Allergic bronchopulmonary aspergillosis",
+    "cui": "C0004031",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "xơ nang": {
+    "en": "Cystic fibrosis",
+    "cui": "C0010674",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "rối loạn chức năng dây thanh âm": {
+    "en": "Vocal cord dysfunction",
+    "cui": "C0859897",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "albuterol": {
+    "en": "Salbutamol",
+    "cui": "C0001927",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "ipratropium": {
+    "en": "Ipratropium",
+    "cui": "C0027235",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "theophylline": {
+    "en": "Theophylline",
+    "cui": "C0039771",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "salmeterol": {
+    "en": "Salmeterol",
+    "cui": "C0073992",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "formoterol": {
+    "en": "Formoterol",
+    "cui": "C0060657",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tiotropium": {
+    "en": "Tiotropium",
+    "cui": "C0213771",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tắc nghẽn đường hô hấp trên": {
+    "en": "Upper airway obstruction",
+    "cui": "C0340101",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "nghiệm pháp kích thích phế quản": {
+    "en": "Bronchial provocation test",
+    "cui": "C0006265",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "metacholine": {
+    "en": "Methacholine",
+    "cui": "C0600370",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tăng huyết áp nặng": {
+    "en": "Severe hypertension",
+    "cui": "C5395247",
+    "tui": "T046",
+    "entity_type": "DiseaseSubtype"
+  },
+  "các nghiệm pháp chẩn đoán khác": {
+    "en": "Other diagnostic procedures",
+    "cui": "C0497104",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "xẹp phổi": {
+    "en": "Atelectasis",
+    "cui": "C0004144",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "bệnh do nấm aspergillus phế quản-phổi dị ứng": {
+    "en": "Allergic bronchopulmonary aspergillosis",
+    "cui": "C0004031",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "test dị ứng": {
+    "en": "Allergy testing",
+    "cui": "C0199747",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "liệu pháp miễn dịch": {
+    "en": "Immunotherapy",
+    "cui": "C0021083",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "kháng thể kháng ige": {
+    "en": "Anti-IgE antibody",
+    "cui": "C0910794",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "test da": {
+    "en": "Skin test",
+    "cui": "C0037296",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "kiểm tra chất hấp thụ radio (rast)": {
+    "en": "Radioallergosorbent test",
+    "cui": "C0034554",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "hen dị ứng": {
+    "en": "Allergic asthma",
+    "cui": "C0155877",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "feno": {
+    "en": "Fractional exhaled nitric oxide",
+    "cui": "C5445160",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "pef": {
+    "en": "Peak expiratory flow",
+    "cui": "C1518922",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "đợt cấp hen phế quản": {
+    "en": "Acute exacerbation of asthma",
+    "cui": "C0340061",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tiêu chí lâm sàng": {
+    "en": "Clinical criteria",
+    "cui": "C5549662",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "thuốc điều hòa miễn dịch": {
+    "en": "Immunomodulating agents",
+    "cui": "C5544470",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "giới nữ": {
+    "en": "Female gender",
+    "cui": "C0086287",
+    "tui": "T000",
+    "entity_type": "RiskFactor"
+  },
+  "hút thuốc": {
+    "en": "Tobacco smoking",
+    "cui": "C0453996",
+    "tui": "T055",
+    "entity_type": "RiskFactor"
+  },
+  "tuổi dậy thì sớm": {
+    "en": "Precocious puberty",
+    "cui": "C0034013",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "corticosteroid đường hít": {
+    "en": "Inhaled corticosteroids",
+    "cui": "C3540702",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tái cấu trúc đường thở": {
+    "en": "Airway remodeling",
+    "cui": "C2717792",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "tắc nghẽn đường thở không hồi phục": {
+    "en": "Irreversible airway obstruction",
+    "cui": "C3661951",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thuốc kháng viêm": {
+    "en": "Anti-inflammatory agents",
+    "cui": "C0003209",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "suy giảm chức năng hô hấp": {
+    "en": "Respiratory insufficiency",
+    "cui": "C0035229",
+    "tui": "T046",
+    "entity_type": "Disease"
+  },
+  "triệu chứng mạn tính": {
+    "en": "Chronic symptom",
+    "cui": "C4699979",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "thức tỉnh về đêm": {
+    "en": "Nocturnal awakening",
+    "cui": "C0393761",
+    "tui": "T048",
+    "entity_type": "Symptom"
+  },
+  "tác dụng phụ của thuốc": {
+    "en": "Adverse drug reaction",
+    "cui": "C0569970",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "nệm không thấm nước": {
+    "en": "Waterproof mattress",
+    "cui": "C5545376",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "máy hút ẩm": {
+    "en": "Dehumidifier",
+    "cui": "C1707658",
+    "tui": "T073",
+    "entity_type": "Treatment"
+  },
+  "nấm mốc": {
+    "en": "Mold",
+    "cui": "C0369241",
+    "tui": "T004",
+    "entity_type": "RiskFactor"
+  },
+  "dị nguyên bọ ve": {
+    "en": "House dust mite allergen",
+    "cui": "C1439995",
+    "tui": "T129",
+    "entity_type": "RiskFactor"
+  },
+  "bộ lọc không khí hepa": {
+    "en": "HEPA filter",
+    "cui": "C1881047",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "sulfite": {
+    "en": "Sulfites",
+    "cui": "C0038750",
+    "tui": "T197",
+    "entity_type": "RiskFactor"
+  },
+  "nhiễm trùng đường hô hấp trên do virus": {
+    "en": "Viral upper respiratory tract infection",
+    "cui": "C0339916",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "hen do tập luyện": {
+    "en": "Exercise-induced asthma",
+    "cui": "C0004099",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bảng các bước quản lý bệnh hen": {
+    "en": "Asthma management steps",
+    "cui": "C1272207",
+    "tui": "T061",
+    "entity_type": "Guideline"
+  },
+  "hen suyễn nhạy cảm với aspirin": {
+    "en": "Aspirin-exacerbated respiratory disease",
+    "cui": "C3853540",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "acetaminophen": {
+    "en": "Paracetamol",
+    "cui": "C0000970",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "choline magnesium salicylate": {
+    "en": "Choline magnesium salicylate",
+    "cui": "C2930097",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "celecoxib": {
+    "en": "Celecoxib",
+    "cui": "C0538927",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thuốc chẹn beta chọn lọc tim mạch": {
+    "en": "Cardioselective beta blockers",
+    "cui": "C0569629",
+    "tui": "T046",
+    "entity_type": "DrugClass"
+  },
+  "cơn hen kịch phát": {
+    "en": "Acute asthma exacerbation",
+    "cui": "C0340066",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thuốc cường thụ thể adrenergic beta": {
+    "en": "Beta-adrenergic agonist",
+    "cui": "C0001644",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc kháng cholinergic": {
+    "en": "Anticholinergic agents",
+    "cui": "C0242896",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc điều trị hen": {
+    "en": "Anti-asthmatic agents",
+    "cui": "C0282556",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc dạng hít": {
+    "en": "Inhalant",
+    "cui": "C0598322",
+    "tui": "T122",
+    "entity_type": "Treatment"
+  },
+  "đường hô hấp": {
+    "en": "Respiratory tract",
+    "cui": "C0282335",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "nhiễm khuẩn": {
+    "en": "Infection",
+    "cui": "C3714514",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "chỉnh hình phế quản bằng nhiệt": {
+    "en": "Bronchial thermoplasty",
+    "cui": "C3854686",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "hen nặng không kiểm soát": {
+    "en": "Uncontrolled severe asthma",
+    "cui": "C3862402",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đợt cấp hen": {
+    "en": "Acute exacerbation of asthma",
+    "cui": "C0340061",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "cơn hen": {
+    "en": "Asthma attack",
+    "cui": "C0347950",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "đo chức năng hô hấp (fev1, fev1/fvc, fvc)": {
+    "en": "Spirometry",
+    "cui": "C0037981",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "lưu lượng đỉnh thở ra (pef)": {
+    "en": "Peak expiratory flow",
+    "cui": "C1518922",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "kế hoạch hành động hen suyễn": {
+    "en": "Asthma action plan",
+    "cui": "C3481636",
+    "tui": "T201",
+    "entity_type": "Treatment"
+  },
+  "đợt cấp hen suyễn": {
+    "en": "Acute asthma exacerbation",
+    "cui": "C0340066",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "lưu lượng đỉnh cá nhân tốt nhất": {
+    "en": "Personal best peak expiratory flow",
+    "cui": "C4285560",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "dụng cụ hít định liều (mdi)": {
+    "en": "Metered-dose inhaler",
+    "cui": "C0993596",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "thuốc giãn phế quản dạng hít": {
+    "en": "Inhaled bronchodilator",
+    "cui": "C0578554",
+    "tui": "T061",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chủ vận beta": {
+    "en": "Beta-adrenergic agonist",
+    "cui": "C0001644",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "corticosteroid đường toàn thân": {
+    "en": "Systemic corticosteroid",
+    "cui": "C4053960",
+    "tui": "T061",
+    "entity_type": "Drug"
+  },
+  "cơn hen nguy kịch": {
+    "en": "Near-fatal asthma",
+    "cui": "C5192201",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh trào ngược dạ dày thực quản": {
+    "en": "Gastroesophageal reflux disease",
+    "cui": "C0017168",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tiếp xúc với chất kích thích": {
+    "en": "Exposure to irritant",
+    "cui": "C5768267",
+    "tui": "T047",
+    "entity_type": "RiskFactor"
+  },
+  "hen do gắng sức": {
+    "en": "Exercise-induced asthma",
+    "cui": "C0004099",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thuốc ổn định tế bào mast": {
+    "en": "Mast cell stabilizer",
+    "cui": "C1268905",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "hen nhạy cảm aspirin": {
+    "en": "Aspirin-exacerbated respiratory disease",
+    "cui": "C3853540",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "giải mẫn cảm": {
+    "en": "Desensitization",
+    "cui": "C1709852",
+    "tui": "T044",
+    "entity_type": "Treatment"
+  },
+  "interleukin 6": {
+    "en": "Interleukin-6",
+    "cui": "C0021760",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "thuốc chống viêm": {
+    "en": "Anti-inflammatory agents",
+    "cui": "C0003209",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc đối kháng thụ thể leukotriene": {
+    "en": "Leukotriene receptor antagonist",
+    "cui": "C0595726",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "cromolyn": {
+    "en": "Cromolyn sodium",
+    "cui": "C0012694",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "zileuton": {
+    "en": "Zileuton",
+    "cui": "C0081408",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "hoạt động thể chất và tập thể dục": {
+    "en": "Physical activity and exercise",
+    "cui": "C1319354",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "nedocromil": {
+    "en": "Nedocromil",
+    "cui": "C0068483",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thuốc tác dụng kéo dài": {
+    "en": "Extended-release preparation",
+    "cui": "C1135768",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tử vong trước sinh": {
+    "en": "Antepartum death",
+    "cui": "C0277604",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "sinh non": {
+    "en": "Preterm birth",
+    "cui": "C0151526",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "cân nặng khi sinh thấp": {
+    "en": "Low birth weight",
+    "cui": "C0024032",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "tăng carbon dioxide": {
+    "en": "Hypercapnia",
+    "cui": "C0020440",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "phụ nữ có thai": {
+    "en": "Pregnant women",
+    "cui": "C0033011",
+    "tui": "T098",
+    "entity_type": "PatientGroup"
+  },
+  "hen không kiểm soát được": {
+    "en": "Uncontrolled asthma",
+    "cui": "C5880014",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "rối loạn thông khí tắc nghẽn": {
+    "en": "Obstructive ventilatory defect",
+    "cui": "C0746984",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "corticosteroid hít": {
+    "en": "Inhaled corticosteroids",
+    "cui": "C3540702",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "canxi và vitamin d": {
+    "en": "Calcium and Vitamin D",
+    "cui": "C0006730",
+    "tui": "T116",
+    "entity_type": "Treatment"
+  },
+  "bisphosphonat": {
+    "en": "Bisphosphonates",
+    "cui": "C0012544",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "dị nguyên môi trường": {
+    "en": "Environmental allergen",
+    "cui": "C4304127",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "ho kéo dài": {
+    "en": "Chronic cough",
+    "cui": "C0010201",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "nghiệm pháp kích thích methacholine": {
+    "en": "Methacholine challenge test",
+    "cui": "C3174375",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "thuốc ức chế leukotriene": {
+    "en": "Leukotriene antagonists",
+    "cui": "C0595726",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "interleukins": {
+    "en": "Interleukins",
+    "cui": "C0021764",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "hen": {
+    "en": "Asthma",
+    "cui": "C0004096",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "trào ngược dạ dày thực quản (gerd)": {
+    "en": "Gastroesophageal Reflux Disease",
+    "cui": "C0017168",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "đợt cấp hen suyễn nặng": {
+    "en": "Severe acute asthma exacerbation",
+    "cui": "C3872851",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "chồng chéo hen suyễn-copd": {
+    "en": "Asthma-COPD overlap",
+    "cui": "C4038730",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "rast": {
+    "en": "Radioallergosorbent test",
+    "cui": "C0034554",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "bệnh hen do tập luyện": {
+    "en": "Exercise-induced asthma",
+    "cui": "C0004099",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "lưu lượng đỉnh (pef)": {
+    "en": "Peak expiratory flow",
+    "cui": "C1518922",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "hoạt động thể chất và thể thao": {
+    "en": "Physical activity and exercise",
+    "cui": "C1319354",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "kế hoạch quản lý bệnh hen": {
+    "en": "Asthma management plan",
+    "cui": "C1445942",
+    "tui": "T170",
+    "entity_type": "Treatment"
+  },
+  "thuốc cắt cơn": {
+    "en": "Rescue medication",
+    "cui": "C5237476",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "bệnh trào ngược dạ dày thực quản (gerd)": {
+    "en": "Gastroesophageal Reflux Disease",
+    "cui": "C0017168",
+    "tui": "T047",
+    "entity_type": "Disease"
   }
 }
