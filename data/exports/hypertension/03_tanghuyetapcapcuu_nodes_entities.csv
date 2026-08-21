@@ -1,0 +1,95 @@
+﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
+CUI:C2609414,Tổn thương thận,Tổn thương thận,Complication,C2609414,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.663Z
+Complication:bệnh võng mạc do tăng huyết áp độ 1-2,bệnh võng mạc độ 1 đến 2,Bệnh võng mạc do tăng huyết áp độ 1-2,Complication,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T15:00:10.684Z
+CUI:C0007785,nhồi máu não,Nhồi máu não,Complication,C0007785,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:36.454Z
+CUI:C0030353,phù gai thị,Phù gai thị,Complication,C0030353,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.619Z
+CUI:C0006114,phù não,Phù não,Complication,C0006114,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.552Z
+CUI:C1306063,suy thất tâm thất trái cấp tính có phù phổi,Suy thất trái cấp tính,Complication,C1306063,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:04.033Z
+CUI:C1565489,suy thận,Suy thận,Complication,C1565489,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:31.728Z
+CUI:C0151744,thiếu máu cơ tim,Thiếu máu cơ tim,Complication,C0151744,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.728Z
+CUI:C0746731,thiếu máu cục bộ cấp tính,Thiếu máu cục bộ cấp tính,Complication,C0746731,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.686Z
+CUI:C0917798,thiếu máu cục bộ mạch máu não,Thiếu máu cục bộ não,Complication,C0917798,Pathologic Function,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.795Z
+CUI:C5574918,tiền sản giật và sản giật,Tiền sản giật và sản giật,Complication,C5574918,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.967Z
+Complication:bóc tách động mạch chủ cấp,tách thành động mạch chủ cấp,Bóc tách động mạch chủ cấp,Complication,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:04.167Z
+CUI:C3887506,tổn thương các cơ quan đích,Tổn thương cơ quan đích,Complication,C3887506,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:25.418Z
+Complication:tụt huyết áp cấp tính,tụt huyết áp cấp tính,Tụt huyết áp cấp tính,Complication,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.661Z
+CUI:C0006111,bệnh não,Bệnh não,Disease,C0006111,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.995Z
+CUI:C0151620,bệnh não do tăng huyết áp,Bệnh não do tăng huyết áp,Disease,C0151620,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.353Z
+CUI:C1956346,bệnh động mạch vành nặng,Bệnh động mạch vành,Disease,C1956346,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:27.626Z
+CUI:C2937358,chảy máu nội sọ,Xuất huyết não,Disease,C2937358,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.686Z
+CUI:C0004096,hen suyễn,Hen suyễn,Disease,C0004096,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T03:24:19.276Z
+CUI:C0155626,nhồi máu cơ tim cấp,Nhồi máu cơ tim cấp,Disease,C0155626,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.437Z
+CUI:C0034063,phù phổi,Phù phổi,Disease,C0034063,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.199Z
+CUI:C0155919,phù phổi cấp,Phù phổi cấp,Disease,C0155919,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.573Z
+CUI:C0023212,suy thất trái,Suy thất trái,Disease,C0023212,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T15:00:09.085Z
+Disease:suy tim mất bù cấp tính,suy tim mất bù cấp tính,Suy tim mất bù cấp tính,Disease,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.082Z
+CUI:C0340643,tách thành động mạch chủ,Bóc tách động mạch chủ,Disease,C0340643,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.266Z
+CUI:C0020538,tăng huyết áp,Tăng huyết áp,Disease,C0020538,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-20T14:16:59.154Z
+CUI:C0002965,đau thắt ngực không ổn định,Đau thắt ngực không ổn định,Disease,C0002965,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.504Z
+CUI:C0038454,đột quỵ,Đột quỵ,Disease,C0038454,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T07:13:28.545Z
+CUI:C0035309,Bệnh võng mạc,Bệnh võng mạc,DiseaseSubtype,C0035309,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.062Z
+CUI:C0745136,Tăng huyết áp cấp cứu,Tăng huyết áp cấp cứu,DiseaseSubtype,C0745136,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:24.931Z
+CUI:C5395247,Tăng huyết áp nặng,Tăng huyết áp nặng,DiseaseSubtype,C5395247,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T07:13:28.612Z
+DiseaseSubtype:bệnh võng mạc tăng huyết áp độ 1-2,bệnh võng mạc độ 1 đến 2,Bệnh võng mạc tăng huyết áp độ 1-2,DiseaseSubtype,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.904Z
+CUI:C0919726,cao huyết áp sau mổ,Tăng huyết áp sau phẫu thuật,DiseaseSubtype,C0919726,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.838Z
+CUI:C4280933,suy tim cấp với phân suất tống máu giảm,Suy tim cấp phân suất tống máu giảm,DiseaseSubtype,C4280933,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.928Z
+CUI:C3661921,tăng huyết áp chu phẫu,Tăng huyết áp chu phẫu,DiseaseSubtype,C3661921,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.862Z
+CUI:C0745138,tăng huyết áp khẩn cấp,Tăng huyết áp khẩn cấp,DiseaseSubtype,C0745138,Disease or Syndrome,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:24.869Z
+CUI:C0017887,Nitroglycerin,Nitroglycerin,Drug,C0017887,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.46Z
+CUI:C0766108,clevidipine,Clevidipine,Drug,C0766108,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.896Z
+CUI:C0116569,esmolol,Esmolol,Drug,C0116569,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.964Z
+CUI:C0060180,fenoldopam,Fenoldopam,Drug,C0060180,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.1Z
+CUI:C0022860,labetalol,Labetalol,Drug,C0022860,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.826Z
+CUI:C0028005,nicardipine,Nicardipine,Drug,C0028005,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.179Z
+CUI:C0028066,nifedipine,Nifedipine,Drug,C0028066,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.772Z
+CUI:C0360163,nifedipine đường uống tác dụng ngắn,Nifedipine đường uống,Drug,C0360163,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.595Z
+CUI:C0028193,nitroprusside,Nitroprusside,Drug,C0028193,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.034Z
+CUI:C0040616,thuốc giảm lo âu,Thuốc giảm lo âu,Drug,C0040616,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.208Z
+Drug:thuốc hạ huyết áp đường tĩnh mạch,thuốc hạ huyết áp theo đường tĩnh mạch,Thuốc hạ huyết áp đường tĩnh mạch,Drug,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.22Z
+CUI:C0003364,Thuốc hạ áp,Thuốc hạ áp,DrugClass,C0003364,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-20T14:17:00.613Z
+CUI:C0001645,thuốc chẹn beta,Thuốc chẹn beta,DrugClass,C0001645,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-20T15:58:58.799Z
+CUI:C0006684,thuốc chẹn kênh canxi,Thuốc chẹn kênh canxi,DrugClass,C0006684,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:17.934Z
+Measurement:mục tiêu giảm map: 20% - 25% trong 1-2 giờ,giảm 20% đến 25% MAP trong khoảng một hoặc hai giờ,Mục tiêu giảm MAP: 20% - 25% trong 1-2 giờ,Measurement,,,Thông số: MAP; min_value: 20; max_value: 25; time_frame: 1-2 giờ,"{""parameter"": ""MAP"", ""min_value"": 20, ""max_value"": 25, ""unit"": ""%"", ""time_frame"": ""1-2 giờ""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.39Z
+Measurement:huyết áp chẩn đoán > 180 mmhg,huyết áp > 180 mm Hg,Huyết áp chẩn đoán > 180 mmHg,Measurement,,,Thông số: Huyết áp; Giá trị: >180 mmHg,"{""parameter"": ""Huyết áp"", ""operator"": "">"", ""value"": 180, ""unit"": ""mmHg""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.753Z
+Measurement:huyết áp tâm thu >= 180 mmhg,huyết áp tâm thu (HA) >= 180 mm Hg,Huyết áp tâm thu >= 180 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: >=180 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 180, ""unit"": ""mmHg"", ""operator"": "">=""}",03_tanghuyetapcapcuu.txt,2026-08-21T15:00:10.486Z
+Measurement:huyết áp tâm thu >= 180 mmhg hoặc huyết áp tâm trương >= 120 mmhg,huyết áp tâm thu (HA) >= 180 mm Hg và/hoặc huyết áp tâm trương >= 120 mm Hg,Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg,Measurement,,,Thông số: Huyết áp tâm thu và tâm trương; Huyết áp 180/120 mmHg,"{""parameter"": ""Huyết áp tâm thu và tâm trương"", ""systolic"": 180, ""diastolic"": 120, ""unit"": ""mmHg"", ""operator"": "">=""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:26:58.48Z
+Measurement:huyết áp tâm thu > 180 mmhg,huyết áp tâm thu > 180 mm Hg,Huyết áp tâm thu > 180 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: >180 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 180, ""unit"": ""mmHg"", ""operator"": "">""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.837Z
+Measurement:huyết áp chẩn đoán tăng huyết áp cấp cứu: tâm thu > 180 mmhg hoặc tâm trương >= 120 mmhg,huyết áp tâm thu > 180 mm Hg và/hoặc huyết áp tâm trương >= 120 mm Hg,Huyết áp chẩn đoán Tăng huyết áp cấp cứu: tâm thu > 180 mmHg hoặc tâm trương >= 120 mmHg,Measurement,,,Thông số: Huyết áp chẩn đoán Tăng huyết áp cấp cứu; Huyết áp 180/120 mmHg,"{""parameter"": ""Huyết áp chẩn đoán Tăng huyết áp cấp cứu"", ""systolic"": 180, ""diastolic"": 120, ""unit"": ""mmHg"", ""operator"": ""> 180 / >= 120""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.903Z
+Measurement:huyết áp tâm trương >= 120 mmhg,huyết áp tâm trương >= 120 mm Hg,Huyết áp tâm trương >= 120 mmHg,Measurement,,,Thông số: Huyết áp tâm trương; Giá trị: >=120 mmHg,"{""parameter"": ""Huyết áp tâm trương"", ""value"": 120, ""unit"": ""mmHg"", ""operator"": "">=""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.359Z
+Measurement:huyết áp động mạch trung bình (map) ngưỡng giãn mạch não: 160 mmhg,huyết áp động mạch trung bình (MAP) khoảng 160 mm Hg,Huyết áp động mạch trung bình (MAP) ngưỡng giãn mạch não: 160 mmHg,Measurement,,,Thông số: Huyết áp động mạch trung bình (MAP); Giá trị: >160 mmHg,"{""parameter"": ""Huyết áp động mạch trung bình (MAP)"", ""value"": 160, ""unit"": ""mmHg"", ""operator"": "">""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.486Z
+Measurement:huyết áp động mạch trung bình (map) >= 160 mmhg,huyết áp động mạch trung bình (MAP) khoảng 160 mm Hg,Huyết áp động mạch trung bình (MAP) >= 160 mmHg,Measurement,,,Thông số: Huyết áp động mạch trung bình (MAP); Giá trị: >=160 mmHg,"{""parameter"": ""Huyết áp động mạch trung bình (MAP)"", ""value"": 160, ""unit"": ""mmHg"", ""operator"": "">=""}",03_tanghuyetapcapcuu.txt,2026-08-21T15:00:10.547Z
+Measurement:liều tiêm tĩnh mạch > 2 mcg/kg/phút,liều > 2 mcg/kg/phút,Liều tiêm tĩnh mạch > 2 mcg/kg/phút,Measurement,,,Thông số: Liều tiêm tĩnh mạch; Giá trị: >2 mcg/kg/phút,"{""parameter"": ""Liều tiêm tĩnh mạch"", ""value"": 2, ""unit"": ""mcg/kg/phút"", ""operator"": "">""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.233Z
+Measurement:nồng độ thiocyanate trong huyết thanh > 12 mg/dl (> 2 mmol/l),nồng độ thiocyanate trong huyết thanh > 12 mg/dL (> 2 mmol/L),Nồng độ thiocyanate trong huyết thanh > 12 mg/dL (> 2 mmol/L),Measurement,,,Thông số: Nồng độ thiocyanate trong huyết thanh; Giá trị: >12 mg/dL; max_value: 12,"{""parameter"": ""Nồng độ thiocyanate trong huyết thanh"", ""max_value"": 12, ""unit"": ""mg/dL"", ""value"": 12, ""operator"": "">""}",03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.301Z
+Mechanism:chất chủ vận dopamine-1,chất chủ vận dopamine-1,Chất chủ vận dopamine-1,Mechanism,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.011Z
+CUI:C0028128,oxit nitric,Oxit nitric,Mechanism,C0028128,Pharmacologic Substance,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:23.077Z
+Mechanism:thất bại tự điều hòa lưu lượng máu não,thất bại trong quá trình tự điều hòa lưu lượng máu ở não,Thất bại tự điều hòa lưu lượng máu não,Mechanism,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.419Z
+CUI:C0807185,cơ quan đích,Cơ quan đích,Organ,C0807185,"Body Part, Organ, or Organ Component",,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.525Z
+CUI:C3714787,hệ thần kinh trung ương,Hệ thần kinh trung ương,Organ,C3714787,"Body Part, Organ, or Organ Component",,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:30.997Z
+CUI:C0007226,hệ tim mạch,Hệ tim mạch,Organ,C0007226,"Body Part, Organ, or Organ Component",,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:23.695Z
+CUI:C0006104,não,Não,Organ,C0006104,"Body Part, Organ, or Organ Component",,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:17.376Z
+CUI:C0022646,thận,Thận,Organ,C0022646,"Body Part, Organ, or Organ Component",,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:17.523Z
+CUI:C0003467,Lo lắng,Lo lắng,RiskFactor,C0003467,Finding / Individual Behavior,,{},03_tanghuyetapcapcuu.txt,2026-08-21T15:00:06.192Z
+CUI:C1821572,Giảm tri giác,Giảm tri giác,Symptom,C1821572,Sign or Symptom,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.914Z
+CUI:C0027497,buồn nôn,Buồn nôn,Symptom,C0027497,Sign or Symptom,,{},03_tanghuyetapcapcuu.txt,2026-08-20T15:59:11.12Z
+CUI:C0009421,hôn mê,Hôn mê,Symptom,C0009421,Sign or Symptom,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.758Z
+CUI:C0018681,nhức đầu,Nhức đầu,Symptom,C0018681,Sign or Symptom,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.706Z
+CUI:C0202691,CT đầu,CT đầu,Test,C0202691,Diagnostic Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.468Z
+CUI:C1623258,ECG,ECG,Test,C1623258,Diagnostic Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-20T14:17:12.235Z
+CUI:C0031809,Khám thực thể,Khám thực thể,Test,C0031809,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-20T14:17:07.16Z
+CUI:C0201975,creatinine,Creatinine,Test,C0201975,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:29.732Z
+CUI:C0201976,creatinine,Creatinine huyết thanh,Test,C0201976,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-20T15:59:01.367Z
+CUI:C3694999,creatinine trong huyết thanh,Xét nghiệm creatinine huyết thanh,Test,C3694999,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.153Z
+Test:khám thực thể cơ quan đích,"khám thần kinh, soi đáy mắt và khám tim mạch",Khám thực thể cơ quan đích,Test,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T15:00:10.748Z
+CUI:C0039985,phim chụp X-quang ngực,X-quang ngực,Test,C0039985,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T03:24:25.906Z
+CUI:C0042014,phân tích nước tiểu,Phân tích nước tiểu,Test,C0042014,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-20T14:17:11.363Z
+Test:soi đáy mắt,soi đáy mắt,Soi đáy mắt,Test,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T06:17:37.617Z
+CUI:C0587355,điện giải trong huyết thanh,Điện giải huyết thanh,Test,C0587355,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:01.334Z
+Test:điện giải đồ,điện giải trong huyết thanh,Điện giải đồ,Test,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:04.233Z
+CUI:C0005824,đo huyết áp,Đo huyết áp,Test,C0005824,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-20T14:17:00.028Z
+CUI:C0201992,đo điện giải,Đo điện giải,Test,C0201992,Diagnostic Procedure / Laboratory Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:26:59.087Z
+Treatment:hạ huyết áp nhanh,hạ huyết áp nhanh,Hạ huyết áp nhanh,Treatment,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:05.986Z
+CUI:C0562508,khoa cấp cứu,Khoa cấp cứu,Treatment,C0562508,Therapeutic or Preventive Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.253Z
+CUI:C0021708,khoa hồi sức tích cực (ICU),Khoa hồi sức tích cực (ICU),Treatment,C0021708,Therapeutic or Preventive Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:02.325Z
+Treatment:liệu pháp phối hợp 2 thuốc chống tăng huyết áp,liệu pháp phối hợp 2 thuốc chống tăng huyết áp đường uống,Liệu pháp phối hợp 2 thuốc chống tăng huyết áp,Treatment,,,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.275Z
+CUI:C0010055,phẫu thuật bắc cầu động mạch vành,Phẫu thuật bắc cầu động mạch vành,Treatment,C0010055,Therapeutic or Preventive Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:03.369Z
+CUI:C0474178,tư vấn,Tư vấn tâm lý,Treatment,C0474178,Therapeutic or Preventive Procedure,,{},03_tanghuyetapcapcuu.txt,2026-08-21T14:27:00.123Z

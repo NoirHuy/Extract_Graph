@@ -1,0 +1,375 @@
+{
+  "document_name": "03_tanghuyetapcapcuu_clinical_knowledge_summary.csv",
+  "total_triplets": 9,
+  "clinical_accuracy_score": 45.56,
+  "ontology_integrity_score": 66.67,
+  "graph_consistency_score": 100.0,
+  "overall_quality_score": 66.56,
+  "grade": "D (Cần kiểm tra lại)",
+  "summary_findings": [
+    "Phát hiện 4 lỗi nghiêm trọng về logic lâm sàng / ngược chiều quan hệ.",
+    "Phát hiện 3 lỗi sai lệch mã UMLS CUI / gán nhầm mã cho số đo."
+  ],
+  "agent_reports": {
+    "Clinical_Doctor_Agent": {
+      "agent_name": "Clinical_Doctor_Agent",
+      "total_reviewed": 9,
+      "pass_count": 2,
+      "warning_count": 3,
+      "fail_count": 4,
+      "reviews": [
+        {
+          "row_index": 1,
+          "source_name": "Bệnh não do tăng huyết áp",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": null,
+          "critique": "Mối quan hệ hợp lý. Bệnh não do tăng huyết áp là một tình trạng tổn thương cơ quan đích tại não.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 2,
+          "source_name": "Bệnh não tăng huyết áp",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": null,
+          "critique": "Tương tự row 1, chỉ khác cách viết tên bệnh, vẫn đảm bảo tính chính xác.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 3,
+          "source_name": "Huyết áp tâm thu > 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "WARNING",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Weak_Grounding",
+          "critique": "Chỉ số huyết áp đơn lẻ không đủ để chẩn đoán 'Tăng huyết áp cấp cứu'. Cần có thêm bằng chứng về tổn thương cơ quan đích (TOD).",
+          "suggested_fix": {
+            "source": "Huyết áp tâm thu > 180 mmHg và/hoặc tâm trương >= 120 mmHg",
+            "relation": "Là tiêu chuẩn cần cho",
+            "target": "Tăng huyết áp cấp cứu"
+          }
+        },
+        {
+          "row_index": 4,
+          "source_name": "Huyết áp tâm thu > 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "FAIL",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Hallucination",
+          "critique": "Target entity quá dài và mang tính mô tả, không phải là một thực thể lâm sàng chuẩn. Ngoài ra, huyết áp đơn lẻ không định nghĩa toàn bộ khái niệm tăng huyết áp cấp cứu.",
+          "suggested_fix": {
+            "source": "Huyết áp tâm thu > 180 mmHg",
+            "relation": "Là thành phần của",
+            "target": "Tăng huyết áp nặng"
+          }
+        },
+        {
+          "row_index": 5,
+          "source_name": "Huyết áp tâm thu >= 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "WARNING",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 3, thiếu điều kiện tổn thương cơ quan đích.",
+          "suggested_fix": {
+            "source": "Huyết áp tâm thu >= 180 mmHg và/hoặc tâm trương >= 120 mmHg",
+            "relation": "Là tiêu chuẩn cần cho",
+            "target": "Tăng huyết áp cấp cứu"
+          }
+        },
+        {
+          "row_index": 6,
+          "source_name": "Huyết áp tâm thu >= 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "FAIL",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Hallucination",
+          "critique": "Target entity không phải là một thực thể lâm sàng chuẩn, đây là một câu mô tả.",
+          "suggested_fix": {
+            "source": "Huyết áp tâm thu >= 180 mmHg",
+            "relation": "Là thành phần của",
+            "target": "Tăng huyết áp nặng"
+          }
+        },
+        {
+          "row_index": 7,
+          "source_name": "Huyết áp tâm trương >= 120 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "WARNING",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Weak_Grounding",
+          "critique": "Tương tự row 3 và 5, thiếu điều kiện tổn thương cơ quan đích.",
+          "suggested_fix": {
+            "source": "Huyết áp tâm trương >= 120 mmHg",
+            "relation": "Là thành phần của",
+            "target": "Tăng huyết áp cấp cứu"
+          }
+        },
+        {
+          "row_index": 8,
+          "source_name": "Huyết áp tâm trương >= 120 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "FAIL",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Hallucination",
+          "critique": "Target entity không phải là một thực thể lâm sàng chuẩn.",
+          "suggested_fix": {
+            "source": "Huyết áp tâm trương >= 120 mmHg",
+            "relation": "Là thành phần của",
+            "target": "Tăng huyết áp nặng"
+          }
+        },
+        {
+          "row_index": 9,
+          "source_name": "Đột quỵ",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "FAIL",
+          "agent_name": "Clinical_Doctor_Agent",
+          "issue_type": "Inverted_Causality",
+          "critique": "Đột quỵ là một dạng tổn thương cơ quan đích (não), không phải là tác nhân gây ra tổn thương não theo nghĩa bệnh học thông thường. Đột quỵ chính là tổn thương.",
+          "suggested_fix": {
+            "source": "Đột quỵ",
+            "relation": "Là một dạng",
+            "target": "Tổn thương cơ quan đích tại não"
+          }
+        }
+      ]
+    },
+    "UMLS_Ontology_Auditor_Agent": {
+      "agent_name": "UMLS_Ontology_Auditor_Agent",
+      "total_reviewed": 9,
+      "pass_count": 6,
+      "warning_count": 0,
+      "fail_count": 3,
+      "reviews": [
+        {
+          "row_index": 1,
+          "source_name": "Bệnh não do tăng huyết áp",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": null,
+          "critique": "Định danh y khoa UMLS, STY và phân loại thực thể hợp lệ.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 2,
+          "source_name": "Bệnh não tăng huyết áp",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": null,
+          "critique": "Định danh y khoa UMLS, STY và phân loại thực thể hợp lệ.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 3,
+          "source_name": "Huyết áp tâm thu > 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "PASS",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": null,
+          "critique": "Định danh y khoa UMLS, STY và phân loại thực thể hợp lệ.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 4,
+          "source_name": "Huyết áp tâm thu > 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "FAIL",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": "Invalid_Measurement_CUI",
+          "critique": "Thực thể số đo đích 'Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg' không được phép gán mã CUI 'C0745136'. Phải để 'Chưa có' / Định lượng.",
+          "suggested_fix": {
+            "target_cui": "Chưa có"
+          }
+        },
+        {
+          "row_index": 5,
+          "source_name": "Huyết áp tâm thu >= 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "PASS",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": null,
+          "critique": "Định danh y khoa UMLS, STY và phân loại thực thể hợp lệ.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 6,
+          "source_name": "Huyết áp tâm thu >= 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "FAIL",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": "Invalid_Measurement_CUI",
+          "critique": "Thực thể số đo đích 'Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg' không được phép gán mã CUI 'C0745136'. Phải để 'Chưa có' / Định lượng.",
+          "suggested_fix": {
+            "target_cui": "Chưa có"
+          }
+        },
+        {
+          "row_index": 7,
+          "source_name": "Huyết áp tâm trương >= 120 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "PASS",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": null,
+          "critique": "Định danh y khoa UMLS, STY và phân loại thực thể hợp lệ.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 8,
+          "source_name": "Huyết áp tâm trương >= 120 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "FAIL",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": "Invalid_Measurement_CUI",
+          "critique": "Thực thể số đo đích 'Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg' không được phép gán mã CUI 'C0745136'. Phải để 'Chưa có' / Định lượng.",
+          "suggested_fix": {
+            "target_cui": "Chưa có"
+          }
+        },
+        {
+          "row_index": 9,
+          "source_name": "Đột quỵ",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "UMLS_Ontology_Auditor_Agent",
+          "issue_type": null,
+          "critique": "Định danh y khoa UMLS, STY và phân loại thực thể hợp lệ.",
+          "suggested_fix": null
+        }
+      ]
+    },
+    "Graph_Structure_Inspector_Agent": {
+      "agent_name": "Graph_Structure_Inspector_Agent",
+      "total_reviewed": 9,
+      "pass_count": 9,
+      "warning_count": 0,
+      "fail_count": 0,
+      "reviews": [
+        {
+          "row_index": 1,
+          "source_name": "Bệnh não do tăng huyết áp",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 2,
+          "source_name": "Bệnh não tăng huyết áp",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 3,
+          "source_name": "Huyết áp tâm thu > 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 4,
+          "source_name": "Huyết áp tâm thu > 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 5,
+          "source_name": "Huyết áp tâm thu >= 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 6,
+          "source_name": "Huyết áp tâm thu >= 180 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 7,
+          "source_name": "Huyết áp tâm trương >= 120 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp cấp cứu",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 8,
+          "source_name": "Huyết áp tâm trương >= 120 mmHg",
+          "relation_type": "Xác định ngưỡng chẩn đoán cho",
+          "target_name": "Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        },
+        {
+          "row_index": 9,
+          "source_name": "Đột quỵ",
+          "relation_type": "Gây tổn thương cơ quan",
+          "target_name": "Não",
+          "status": "PASS",
+          "agent_name": "Graph_Structure_Inspector_Agent",
+          "issue_type": null,
+          "critique": "Cấu trúc topo đồ thị hợp lệ, không bị lặp cạnh hoặc tạo vòng lặp mâu thuẫn.",
+          "suggested_fix": null
+        }
+      ]
+    }
+  },
+  "flagged_rows_count": 7,
+  "auto_healed_rows_count": 3
+}

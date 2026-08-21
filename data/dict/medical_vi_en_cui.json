@@ -6824,5 +6824,287 @@
     "cui": "C1704436",
     "tui": "T047",
     "entity_type": "Disease"
+  },
+  "thiếu máu cục bộ não": {
+    "en": "Cerebral ischemia",
+    "cui": "C0917798",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "ct đầu": {
+    "en": "Head CT",
+    "cui": "C0202691",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "tắc nghẽn động mạch thận": {
+    "en": "Renal artery obstruction",
+    "cui": "C0035066",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "mạn tính": {
+    "en": "Chronic",
+    "cui": "C0205191",
+    "tui": "T079",
+    "entity_type": "DiseaseSubtype"
+  },
+  "siêu âm doppler": {
+    "en": "Doppler ultrasonography",
+    "cui": "C0162481",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp ct mạch máu": {
+    "en": "Computed Tomography Angiography",
+    "cui": "C1536105",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp cộng hưởng từ mạch máu": {
+    "en": "Magnetic resonance angiography",
+    "cui": "C0243032",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "điều trị nội khoa": {
+    "en": "Medical treatment",
+    "cui": "C0237726",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "nong mạch qua da": {
+    "en": "Percutaneous transluminal angioplasty",
+    "cui": "C5942440",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "phẫu thuật": {
+    "en": "Surgical procedure",
+    "cui": "C0543467",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "bệnh mạch máu thận": {
+    "en": "Renal vascular disease",
+    "cui": "C0268790",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "xơ vữa động mạch thận": {
+    "en": "Renal artery atherosclerosis",
+    "cui": "C0155734",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "loạn sản sợi cơ": {
+    "en": "Fibromuscular dysplasia",
+    "cui": "C0016052",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đái máu": {
+    "en": "Hematuria",
+    "cui": "C0018965",
+    "tui": "T184",
+    "entity_type": "Sign"
+  },
+  "tổn thương động mạch thận": {
+    "en": "Renal artery injury",
+    "cui": "C0160725",
+    "tui": "T037",
+    "entity_type": "Cause"
+  },
+  "thăm dò chẩn đoán hình ảnh": {
+    "en": "Diagnostic imaging",
+    "cui": "C0011923",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "suy tim cấp": {
+    "en": "Acute heart failure",
+    "cui": "C0264714",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "siêu âm": {
+    "en": "Ultrasonography",
+    "cui": "C0041618",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp cộng hưởng từ": {
+    "en": "Magnetic resonance imaging",
+    "cui": "C0024485",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp ct mạch": {
+    "en": "Computed tomography angiography",
+    "cui": "C1536105",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp động mạch thận": {
+    "en": "Renal angiography",
+    "cui": "C0202930",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "siêu âm doppler duplex": {
+    "en": "Duplex Doppler ultrasonography",
+    "cui": "C0242845",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp cộng hưởng từ mạch": {
+    "en": "Magnetic resonance angiography",
+    "cui": "C0243032",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "xơ hóa hệ thống do thận": {
+    "en": "Nephrogenic systemic fibrosis",
+    "cui": "C3888044",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thuốc cản quang phóng xạ": {
+    "en": "Radiopharmaceutical",
+    "cui": "C0182638",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "nong mạch": {
+    "en": "Angioplasty",
+    "cui": "C5980151",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "đặt stent": {
+    "en": "Stent placement",
+    "cui": "C2348535",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "chụp mạch số hóa xóa nền": {
+    "en": "Digital subtraction angiography",
+    "cui": "C0002979",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "chụp xạ hình": {
+    "en": "Scintigraphy",
+    "cui": "C0034606",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "captopril": {
+    "en": "Captopril",
+    "cui": "C0006938",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "renin huyết thanh": {
+    "en": "Serum renin",
+    "cui": "C0428352",
+    "tui": "T059",
+    "entity_type": "Mechanism"
+  },
+  "tái thông mạch máu": {
+    "en": "Revascularization",
+    "cui": "C0581603",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "hẹp động mạch thận do xơ vữa động mạch": {
+    "en": "Atherosclerotic renal artery stenosis",
+    "cui": "C0340557",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đặt stent động mạch thận": {
+    "en": "Renal artery stenting",
+    "cui": "C1322812",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "loạn sản xơ cơ động mạch thận": {
+    "en": "Fibromuscular dysplasia of renal artery",
+    "cui": "C0155761",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thuốc chống kết tập tiểu cầu": {
+    "en": "Antiplatelet agents",
+    "cui": "C0085826",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "clopidogrel": {
+    "en": "Clopidogrel",
+    "cui": "C0070166",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "ghép thận tự thân": {
+    "en": "Autotransplantation of kidney",
+    "cui": "C0194194",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "phẫu thuật cắt bỏ thận": {
+    "en": "Nephrectomy",
+    "cui": "C0027695",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "loạn sản xơ cơ": {
+    "en": "Fibromuscular dysplasia",
+    "cui": "C0016052",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "chụp mạch máu thận": {
+    "en": "Renal angiography",
+    "cui": "C0202930",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "phẫu thuật bắc cầu": {
+    "en": "Bypass surgery",
+    "cui": "C0010055",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "điều trị bằng thuốc": {
+    "en": "Pharmacotherapy",
+    "cui": "C0013216",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "tăng huyết áp mức độ nặng": {
+    "en": "Severe hypertension",
+    "cui": "C5395247",
+    "tui": "T046",
+    "entity_type": "DiseaseSubtype"
+  },
+  "chẩn đoán hình ảnh": {
+    "en": "Diagnostic imaging",
+    "cui": "C0011923",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "thuốc cản quang": {
+    "en": "Contrast media",
+    "cui": "C0009924",
+    "tui": "T130",
+    "entity_type": "Drug"
+  },
+  "chẩn đoán hình ảnh mạch thận": {
+    "en": "Renal angiography",
+    "cui": "C0202930",
+    "tui": "T060",
+    "entity_type": "Test"
   }
 }

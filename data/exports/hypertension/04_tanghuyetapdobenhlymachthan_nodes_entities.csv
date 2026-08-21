@@ -1,0 +1,85 @@
+﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
+Cause:hẹp hoặc tắc động mạch thận,"Hẹp động mạch hay tắc động mạch thận chính, động mạch thận phụ, hoặc bất kỳ nhánh nào của chúng",Hẹp hoặc tắc động mạch thận,Cause,,,stenosis_degree: > 70%,"{""stenosis_degree"": ""> 70%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.996Z
+CUI:C0016052,bệnh loạn sản xơ cơ,Loạn sản xơ cơ,Cause,C0016052,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.129Z
+CUI:C0035066,tắc nghẽn một phần hoặc toàn bộ một hoặc nhiều động mạch thận hoặc nhánh của nó,Tắc nghẽn động mạch thận,Cause,C0035066,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.108Z
+CUI:C0160725,tổn thương động mạch thận,Tổn thương động mạch thận,Cause,C0160725,Injury or Poisoning,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.78Z
+CUI:C0004153,xơ vữa động mạch,Xơ vữa động mạch,Cause,C0004153,Disease or Syndrome / Pathologic Function,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.802Z
+CUI:C0155734,xơ vữa động mạch thận,Xơ vữa động mạch thận,Cause,C0155734,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.2Z
+CUI:C0027051,nhồi máu cơ tim,Nhồi máu cơ tim,Complication,C0027051,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T15:59:03.212Z
+CUI:C0034063,phù phổi,Phù phổi,Complication,C0034063,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.957Z
+CUI:C1565489,suy giảm chức năng thận,Suy giảm chức năng thận,Complication,C1565489,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T06:17:31.728Z
+CUI:C0018801,suy tim,Suy tim,Complication,C0018801,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T06:17:24.528Z
+CUI:C0264714,suy tim cấp,Suy tim cấp,Complication,C0264714,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.023Z
+CUI:C3888044,xơ hóa hệ thống do thận,Xơ hóa hệ thống do thận,Complication,C3888044,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.603Z
+CUI:C0038454,đột quỵ,Đột quỵ,Complication,C0038454,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T14:17:05.811Z
+CUI:C0268790,Bệnh mạch máu thận,Bệnh mạch máu thận,Disease,C0268790,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.872Z
+CUI:C0155761,loạn sản xơ cơ động mạch thận,Loạn sản xơ cơ động mạch thận,Disease,C0155761,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.647Z
+CUI:C1565489,suy thận,Suy thận,Disease,C1565489,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T14:17:09.363Z
+CUI:C0011849,tiểu đường,Đái tháo đường,Disease,C0011849,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T14:17:03.058Z
+CUI:C0020538,tăng huyết áp,Tăng huyết áp,Disease,C0020538,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T14:16:59.154Z
+CUI:C5395247,Tăng huyết áp ban đầu ở mức độ nặng,Tăng huyết áp mức độ nặng,DiseaseSubtype,C5395247,Pathologic Function,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T07:13:28.612Z
+CUI:C0020545,Tăng huyết áp do mạch thận,Tăng huyết áp do mạch thận,DiseaseSubtype,C0020545,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T06:17:22.423Z
+DiseaseSubtype:hẹp động mạch thận 1 bên,hẹp động mạch thận 1 bên,Hẹp động mạch thận 1 bên,DiseaseSubtype,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.388Z
+CUI:C0340557,hẹp động mạch thận do xơ vữa động mạch,Hẹp động mạch thận do xơ vữa động mạch,DiseaseSubtype,C0340557,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.926Z
+CUI:C0016052,loạn sản sợi cơ,Loạn sản sợi cơ,DiseaseSubtype,C0016052,Disease or Syndrome,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.258Z
+CUI:C0205191,mạn tính,Mạn tính,DiseaseSubtype,C0205191,Temporal Concept,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.183Z
+CUI:C0004057,aspirin,Aspirin,Drug,C0004057,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T07:13:21.285Z
+CUI:C0006938,captopril,Captopril,Drug,C0006938,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.114Z
+CUI:C0070166,clopidogrel,Clopidogrel,Drug,C0070166,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.832Z
+CUI:C0360714,statin,Statin,Drug,C0360714,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.47Z
+CUI:C0182638,thuốc cản quang phóng xạ,Thuốc cản quang phóng xạ,Drug,C0182638,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.795Z
+CUI:C0009924,thuốc cản quang phóng xạ,Thuốc cản quang,Drug,C0009924,"Indicator, Reagent, or Diagnostic Aid",,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.684Z
+CUI:C0003015,Thuốc ức chế men chuyển (ACE),ACE inhibitor,DrugClass,C0003015,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T14:17:00.291Z
+CUI:C0085826,thuốc chống kết tập tiểu cầu,Thuốc chống kết tập tiểu cầu,DrugClass,C0085826,Pharmacologic Substance,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.713Z
+Guideline:coral,CORAL,CORAL,Guideline,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.009Z
+Measurement:độ nhạy và độ đặc hiệu của siêu âm doppler duplex: 85% - 90%,85% đến 90%,Độ nhạy và độ đặc hiệu của siêu âm Doppler Duplex: 85% - 90%,Measurement,,,Thông số: Độ nhạy và độ đặc hiệu; min_value: 85; max_value: 90,"{""parameter"": ""Độ nhạy và độ đặc hiệu"", ""min_value"": 85, ""max_value"": 90, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.48Z
+Measurement:tỷ lệ xuất hiện tiếng thổi động mạch thận < 50%,< 50% bệnh nhân,Tỷ lệ xuất hiện tiếng thổi động mạch thận < 50%,Measurement,,,Thông số: Tỷ lệ xuất hiện tiếng thổi động mạch thận; Giá trị: <50 %,"{""parameter"": ""Tỷ lệ xuất hiện tiếng thổi động mạch thận"", ""operator"": ""<"", ""value"": 50, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.342Z
+Measurement:ngưỡng hẹp động mạch thận đáng kể > 60%,> 60%,Ngưỡng hẹp động mạch thận đáng kể > 60%,Measurement,,,Thông số: Hẹp động mạch thận; Giá trị: >60 %,"{""parameter"": ""Hẹp động mạch thận"", ""operator"": "">"", ""value"": 60, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.402Z
+Measurement:diện tích lòng động mạch giảm >= 70%,Diện tích lòng động mạch phải giảm >= 70%,Diện tích lòng động mạch giảm >= 70%,Measurement,,,Thông số: Diện tích lòng động mạch; Giá trị: >=70 %,"{""parameter"": ""Diện tích lòng động mạch"", ""operator"": "">="", ""value"": 70, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.141Z
+Measurement:kích thước thận không đối xứng > 1cm,Kích thước thận không đối xứng (> 1cm),Kích thước thận không đối xứng > 1cm,Measurement,,,Thông số: Kích thước thận không đối xứng; Giá trị: >1 cm,"{""parameter"": ""Kích thước thận không đối xứng"", ""value"": 1, ""unit"": ""cm"", ""operator"": "">""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.838Z
+Measurement:creatinine huyết thanh tăng > 50%,creatinine huyết thanh tăng > 50%,Creatinine huyết thanh tăng > 50%,Measurement,,,Thông số: Creatinine huyết thanh; Giá trị: >50 %,"{""parameter"": ""Creatinine huyết thanh"", ""operator"": "">"", ""value"": 50, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.529Z
+Measurement:huyết áp tâm thu > 180 mmhg,huyết áp tâm thu > 180 mm Hg,Huyết áp tâm thu > 180 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: >180 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 180, ""unit"": ""mmHg"", ""operator"": "">""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T14:26:59.837Z
+Measurement:giảm huyết áp tâm thu: -2 mmhg,huyết áp tâm thu một lượng nhỏ (-2 mmHg),Giảm huyết áp tâm thu: -2 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: -2 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": -2, ""unit"": ""mmHg""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.151Z
+Measurement:hẹp động mạch thận > 70%,hẹp động mạch thận > 70%,Hẹp động mạch thận > 70%,Measurement,,,Thông số: Mức độ hẹp động mạch thận; Giá trị: >70 %,"{""parameter"": ""Mức độ hẹp động mạch thận"", ""operator"": "">"", ""value"": 70, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.588Z
+Measurement:độ tuổi nam giới: > 50 tuổi,nam giới > 50 tuổi,Độ tuổi nam giới: > 50 tuổi,Measurement,,,Thông số: Độ tuổi nam giới; Giá trị: >50 tuổi,"{""parameter"": ""Độ tuổi nam giới"", ""operator"": "">"", ""value"": 50, ""unit"": ""tuổi""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.316Z
+Measurement:tỷ lệ hoạt tính renin tĩnh mạch thận > 1.5,"tỷ lệ hoạt tính của renin ở tĩnh mạch thận > 1,5",Tỷ lệ hoạt tính renin tĩnh mạch thận > 1.5,Measurement,,,Thông số: Tỷ lệ hoạt tính renin tĩnh mạch thận; Giá trị: >1.5,"{""parameter"": ""Tỷ lệ hoạt tính renin tĩnh mạch thận"", ""value"": 1.5, ""operator"": "">""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.467Z
+Measurement:tỷ lệ tử vong do phẫu thuật < 1%,tỷ lệ tử vong do phẫu thuật là < 1%,Tỷ lệ tử vong do phẫu thuật < 1%,Measurement,,,Thông số: Tỷ lệ tử vong do phẫu thuật; Giá trị: <1 %,"{""parameter"": ""Tỷ lệ tử vong do phẫu thuật"", ""value"": 1, ""unit"": ""%"", ""operator"": ""<""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.012Z
+Measurement:độ nhạy và độ đặc hiệu của ct mạch: 95%,độ nhạy và độ đặc hiệu trong khoảng 95%,Độ nhạy và độ đặc hiệu của CT mạch: 95%,Measurement,,,Thông số: Độ nhạy và độ đặc hiệu; Giá trị: 95 %,"{""parameter"": ""Độ nhạy và độ đặc hiệu"", ""value"": 95, ""unit"": ""%""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.736Z
+Mechanism:kích thích giải phóng renin,kích thích giải phóng renin,Kích thích giải phóng renin,Mechanism,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.073Z
+CUI:C0035094,renin,Renin,Mechanism,C0035094,"Amino Acid, Peptide, or Protein",,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T06:17:22.005Z
+CUI:C0428352,renin huyết thanh,Renin huyết thanh,Mechanism,C0428352,Laboratory Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.247Z
+PatientGroup:bệnh nhân trẻ tuổi (nữ giới),bệnh nhân trẻ tuổi (thường là nữ giới),Bệnh nhân trẻ tuổi (nữ giới),PatientGroup,,,gender: female,"{""gender"": ""female""}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.507Z
+PatientGroup:nam giới > 50 tuổi,nam giới > 50 tuổi,Nam giới > 50 tuổi,PatientGroup,,,gender: male; age_operator: >; age_value: 50,"{""gender"": ""male"", ""age_operator"": "">"", ""age_value"": 50}",04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.431Z
+Sign:tiếng thổi hai thì ở vùng thượng vị,Tiếng thổi hai thì ở vùng thượng vị,Tiếng thổi hai thì ở vùng thượng vị,Sign,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.376Z
+Sign:tiếng thổi động mạch thận,Tiếng thổi động mạch thận,Tiếng thổi động mạch thận,Sign,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T06:17:29.212Z
+CUI:C0018965,đái máu,Đái máu,Sign,C0018965,Sign or Symptom,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.703Z
+Symptom:cơn đau cấp tính vùng lưng hoặc sườn,cơn đau cấp tính ở vùng này,Cơn đau cấp tính vùng lưng hoặc sườn,Symptom,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.627Z
+CUI:C0243032,Chụp cộng hưởng từ mạch,Chụp cộng hưởng từ mạch,Test,C0243032,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.6Z
+CUI:C0034606,Chụp xạ hình,Chụp xạ hình,Test,C0034606,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.053Z
+CUI:C0002979,Kỹ thuật chụp mạch số hóa xóa nền,Chụp mạch số hóa xóa nền,Test,C0002979,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.993Z
+CUI:C0242845,Siêu âm Doppler Duplex,Siêu âm Doppler Duplex,Test,C0242845,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.341Z
+CUI:C0202930,"Siêu âm, chụp cộng hưởng từ hoặc chụp CT mạch máu",Chẩn đoán hình ảnh mạch thận,Test,C0202930,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.282Z
+Test:tiền sử chấn thương vùng lưng hoặc sườn,Tiền sử chấn thương ở vùng lưng hoặc sườn,Tiền sử chấn thương vùng lưng hoặc sườn,Test,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.56Z
+CUI:C1536105,chụp CT mạch,Chụp CT mạch,Test,C1536105,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.54Z
+CUI:C0024485,chụp cộng hưởng từ,Chụp cộng hưởng từ,Test,C0024485,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.159Z
+Test:hoạt độ renin tĩnh mạch,hoạt độ của renin tĩnh mạch,Hoạt độ renin tĩnh mạch,Test,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.324Z
+CUI:C0031809,khám thực thể,Khám thực thể,Test,C0031809,Diagnostic Procedure / Laboratory Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T14:17:07.16Z
+CUI:C0041618,siêu âm,Siêu âm,Test,C0041618,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.091Z
+CUI:C0162481,siêu âm doppler,Siêu âm Doppler,Test,C0162481,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.481Z
+CUI:C0011923,thăm dò chẩn đoán hình ảnh,Chẩn đoán hình ảnh,Test,C0011923,Diagnostic Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:37.898Z
+Treatment:phẫu thuật bắc cầu bằng tĩnh mạch hiển,Phẫu thuật bắc cầu bằng tĩnh mạch hiển,Phẫu thuật bắc cầu bằng tĩnh mạch hiển,Treatment,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.894Z
+CUI:C0194194,ghép thận tự thân,Ghép thận tự thân,Treatment,C0194194,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.954Z
+CUI:C0419171,kiểm soát huyết áp,Kiểm soát huyết áp,Treatment,C0419171,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T06:17:31.332Z
+CUI:C5980151,nong mạch,Nong mạch,Treatment,C5980151,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.871Z
+CUI:C5942440,nong mạch qua da,Nong mạch qua da,Treatment,C5942440,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.733Z
+Treatment:can thiệp mạch thận,nong mạch qua da và/hoặc đặt stent hoặc phẫu thuật bắc cầu,Can thiệp mạch thận,Treatment,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.806Z
+CUI:C0543467,phẫu thuật,Phẫu thuật,Treatment,C0543467,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.798Z
+CUI:C0010055,phẫu thuật bắc cầu,Phẫu thuật bắc cầu,Treatment,C0010055,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T14:27:03.369Z
+CUI:C0027695,phẫu thuật cắt bỏ thận,Phẫu thuật cắt bỏ thận,Treatment,C0027695,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:41.07Z
+CUI:C0013216,thuốc,Điều trị bằng thuốc,Treatment,C0013216,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-20T15:59:22.204Z
+CUI:C0237726,thuốc,Điều trị nội khoa,Treatment,C0237726,Health Care Activity,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:36.658Z
+CUI:C0581603,tái thông mạch máu,Tái thông mạch máu,Treatment,C0581603,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.525Z
+Treatment:chế độ ăn nhạt hoàn toàn,ăn nhạt hoàn toàn,Chế độ ăn nhạt hoàn toàn,Treatment,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.584Z
+Treatment:điều trị nội khoa tích cực,Điều trị nội khoa tích cực,Điều trị nội khoa tích cực,Treatment,,,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:39.741Z
+CUI:C2348535,đặt stent,Đặt stent,Treatment,C2348535,Therapeutic or Preventive Procedure,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:38.933Z
+CUI:C1322812,đặt stent,Đặt stent động mạch thận,Treatment,C1322812,Medical Device,,{},04_tanghuyetapdobenhlymachthan.txt,2026-08-21T15:23:40.089Z
