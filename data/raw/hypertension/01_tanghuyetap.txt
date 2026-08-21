@@ -424,3 +424,18 @@ Tài liệu tham khảo về tiên lượng
 2. Kannel WB, Gordon T, Schwartz MJ. Systolic versus diastolic blood pressure and risk of coronary heart disease. The Framingham study. Am J Cardiol 27(4):335-346, 1971 doi:10.1016/0002-9149(71)90428-0
 
 3. Dziedziak J, Zaleska-Żmijewska A, Szaflik JP, Cudnoch-Jędrzejewska A. Impact of Arterial Hypertension on the Eye: A Review of the Pathogenesis, Diagnostic Methods, and Treatment of Hypertensive Retinopathy. Med Sci Monit 28:e935135, 2022 doi:10.12659/MSM.935135
+
+Những điểm chính
+Chỉ có khoảng 50% số bệnh nhân tăng huyết áp ở Hoa Kỳ được điều trị và khoảng một phần tư số bệnh nhân này có thể kiểm soát huyết áp (BP) đầy đủ.
+
+Hầu hết tăng huyết áp là nguyên phát; chỉ có 5% đến 15% là thứ phát do một bệnh lý khác (ví dụ: cường aldosteron nguyên phát, bệnh nhu mô thận).
+
+Tăng huyết áp nặng hoặc kéo dài gây tổn thương hệ tim mạch, não và thận, làm tăng nguy cơ nhồi máu cơ tim, đột quỵ, và bệnh thận mạn.
+
+Cao huyết áp thường không có triệu chứng cho đến khi có biến chứng ở các cơ quan đích.
+
+Khi mới có chẩn đoán tăng huyết áp, hãy làm xét nghiệm nước tiểu, tỷ lệ albumin:creatinine trong nước tiểu, xét nghiệm máu (creatinine, kali, natri, canxi, đường huyết lúc đói, bảng lipid và thường là hormone kích thích tuyến giáp) và ECG.
+
+Giảm huyết áp xuống thành < 130/80 mm Hg, bao gồm cả những người mắc bệnh thận hoặc tiểu đường. Mục tiêu cao hơn có thể phù hợp với những bệnh nhân cao tuổi, yếu ớt và có triệu chứng ở mức huyết áp thấp hơn.
+
+Điều trị bao gồm thay đổi lối sống, đặc biệt là chế độ ăn ít natri và nhiều kali, dùng thuốc (bao gồm thuốc lợi tiểu thiazid, thuốc ức chế men chuyển angiotensin, thuốc chẹn thụ thể angiotensin II và thuốc chẹn kênh canxi dihydropyridine) và kiểm soát các nguyên nhân thứ phát gây tăng huyết áp nếu có.

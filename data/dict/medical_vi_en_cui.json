@@ -4682,5 +4682,161 @@
     "cui": "C1621943",
     "tui": "T058",
     "entity_type": "Treatment"
+  },
+  "hội chứng thừa mineralocorticoid": {
+    "en": "Apparent mineralocorticoid excess syndrome",
+    "cui": "C0342488",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "ace": {
+    "en": "Angiotensin-converting enzyme",
+    "cui": "C1452534",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "nồng độ kali huyết tương < 3.5 mmol/l": {
+    "en": "Hypokalemia",
+    "cui": "C0020621",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "nhạy cảm với muối": {
+    "en": "Salt sensitivity",
+    "cui": "C0600534",
+    "tui": "T000",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tim mạch": {
+    "en": "Cardiovascular system",
+    "cui": "C0007226",
+    "tui": "T022",
+    "entity_type": "Organ"
+  },
+  "tiền sử gia đình bị tăng huyết áp": {
+    "en": "Family history of hypertension",
+    "cui": "C0455405",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "tăng huyết áp nặng: huyết áp tâm thu >= 180 mmhg hoặc huyết áp tâm trương >= 120 mmhg": {
+    "en": "Hypertensive emergency",
+    "cui": "C0745136",
+    "tui": "T047",
+    "entity_type": "Measurement"
+  },
+  "mức độ tập thể dục": {
+    "en": "Physical activity level",
+    "cui": "C5419730",
+    "tui": "T081",
+    "entity_type": "Test"
+  },
+  "sử dụng rượu": {
+    "en": "Alcohol use",
+    "cui": "C0001948",
+    "tui": "T055",
+    "entity_type": "RiskFactor"
+  },
+  "sử dụng chất kích thích": {
+    "en": "Substance use",
+    "cui": "C0237123",
+    "tui": "T048",
+    "entity_type": "RiskFactor"
+  },
+  "lượng muối nạp vào cơ thể": {
+    "en": "Sodium intake",
+    "cui": "C0489645",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "kiểm tra đáy mắt": {
+    "en": "Fundus examination",
+    "cui": "C1444586",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "đo metanephrine tự do huyết tương": {
+    "en": "Plasma free metanephrine measurement",
+    "cui": "C4036964",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "đo tsh": {
+    "en": "Thyroid-stimulating hormone measurement",
+    "cui": "C0202230",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "giảm lượng natri trong chế độ ăn": {
+    "en": "Sodium-restricted diet",
+    "cui": "C0012169",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "tăng huyết áp khi mang thai": {
+    "en": "Hypertension in pregnancy",
+    "cui": "C0852036",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "khả năng dung nạp thuốc": {
+    "en": "Drug tolerance",
+    "cui": "C0013220",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "protein niệu": {
+    "en": "Proteinuria",
+    "cui": "C0033687",
+    "tui": "T033",
+    "entity_type": "Sign"
+  },
+  "chuyên gia tăng huyết áp": {
+    "en": "Hypertension specialist",
+    "cui": "C5958903",
+    "tui": "T097",
+    "entity_type": "Treatment"
+  },
+  "triệt đốt thần kinh giao cảm động mạch thận bằng tần số vô tuyến": {
+    "en": "Radiofrequency renal sympathetic denervation",
+    "cui": "C5923646",
+    "tui": "T060",
+    "entity_type": "Treatment"
+  },
+  "nguyên nhân thứ phát gây tăng huyết áp": {
+    "en": "Secondary hypertension",
+    "cui": "C0155616",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "nhóm thuốc điều trị tăng huyết áp": {
+    "en": "Antihypertensive agents",
+    "cui": "C0003364",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tiêu thụ caffeine": {
+    "en": "Caffeine consumption",
+    "cui": "C5238898",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "đo lượng metanephrine tự do trong huyết tương": {
+    "en": "Plasma free metanephrine measurement",
+    "cui": "C4036964",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "thay đổi chế độ ăn uống": {
+    "en": "Dietary modification",
+    "cui": "C0086153",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc làm giảm bài tiết kali": {
+    "en": "Potassium-sparing diuretics",
+    "cui": "C0304490",
+    "tui": "T121",
+    "entity_type": "DrugClass"
   }
 }

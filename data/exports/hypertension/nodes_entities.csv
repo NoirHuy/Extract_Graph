@@ -1,238 +1,306 @@
 ﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
-CUI:C1841992,Bệnh nhu mô thận,Bệnh nhu mô thận,Cause,C1841992,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.583Z
-CUI:C3262233,Nguyên nhân thứ phát,Nguyên nhân thứ phát,Cause,C3262233,Finding,,{},01_tanghuyetap.txt,2026-08-20T15:58:41.265Z
-CUI:C0037315,Ngưng thở khi ngủ,Ngưng thở khi ngủ,Cause,C0037315,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:23.626Z
-CUI:C0020428,Tăng aldosteron,Tăng aldosteron,Cause,C0020428,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:41.421Z
-CUI:C0020545,bệnh mạch thận,Bệnh mạch thận,Cause,C0020545,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.203Z
-Cause:bệnh nhu mô thận mạn tính,bệnh nhu mô thận mạn tính,Bệnh nhu mô thận mạn tính,Cause,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.097Z
-CUI:C1561643,bệnh thận mạn tính,Bệnh thận mạn tính,Cause,C1561643,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:23.684Z
-CUI:C0001206,bệnh to đầu chi,Bệnh to đầu chi,Cause,C0001206,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.363Z
-CUI:C1384514,cường aldosteron nguyên phát,Cường aldosteron nguyên phát,Cause,C1384514,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:23.548Z
-CUI:C0221002,cường cận giáp nguyên phát,Cường cận giáp nguyên phát,Cause,C0221002,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.304Z
-CUI:C0020550,cường giáp,Cường giáp,Cause,C0020550,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.158Z
-CUI:C2930803,hẹp eo động mạch chủ,Hẹp eo động mạch chủ,Cause,C2930803,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.055Z
-CUI:C0035067,hẹp động mạch thận,Hẹp động mạch thận,Cause,C0035067,Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:23.751Z
-CUI:C0010481,hội chứng Cushing,Hội chứng Cushing,Cause,C0010481,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.02Z
-CUI:C0003504,hở van động mạch chủ,Hở van động mạch chủ,Cause,C0003504,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.378Z
-Cause:nguyên nhân xác định,một nguyên nhân được xác định,Nguyên nhân xác định,Cause,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.124Z
-CUI:C0520679,ngưng thở khi ngủ do tắc nghẽn,ngưng thở khi ngủ do tắc nghẽn,Cause,C0520679,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.253Z
-CUI:C0040156,nhiễm độc giáp,Nhiễm độc giáp,Cause,C0040156,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.261Z
-CUI:C0003855,rò động-tĩnh mạch,Rò động-tĩnh mạch,Cause,C0003855,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.319Z
-CUI:C0020676,suy giáp (phù niêm),Suy giáp,Cause,C0020676,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.229Z
-Cause:tăng cortisol cận lâm sàng,tăng cortisol cận lâm sàng,Tăng cortisol cận lâm sàng,Cause,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:41.551Z
-CUI:C0001627,tăng sản tuyến thượng thận bẩm sinh,Tăng sản tuyến thượng thận bẩm sinh,Cause,C0001627,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.09Z
-CUI:C4551683,u tế bào ưa crom,U tế bào ưa crom,Cause,C4551683,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.959Z
-CUI:C0729233,Bóc tách động mạch chủ ngực,Bóc tách động mạch chủ ngực,Complication,C0729233,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.373Z
-CUI:C0009566,biến chứng,Biến chứng,Complication,C0009566,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.931Z
-CUI:C3266050,biến chứng có hại,Biến chứng tăng huyết áp,Complication,C3266050,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:43.383Z
-Complication:biến cố tim mạch lớn,biến cố tim mạch lớn,Biến cố tim mạch lớn,Complication,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.651Z
-CUI:C0151620,bệnh não tăng huyết áp,Bệnh não tăng huyết áp,Complication,C0151620,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.819Z
-CUI:C0152132,bệnh võng mạc do tăng huyết áp,Bệnh võng mạc do tăng huyết áp,Complication,C0152132,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.876Z
-CUI:C1565489,giảm chức năng thận,Suy giảm chức năng thận,Complication,C1565489,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.422Z
-CUI:C0012833,hoa mắt chóng mặt,Hoa mắt chóng mặt,Complication,C0012833,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.363Z
-CUI:C1320716,kết quả tim mạch bất lợi,Biến cố tim mạch,Complication,C1320716,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.495Z
-CUI:C4324389,nguy cơ tim mạch,Nguy cơ tim mạch,Complication,C4324389,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.872Z
-CUI:C0007785,nhồi máu não,Nhồi máu não,Complication,C0007785,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:42.836Z
-CUI:C0162871,phình động mạch chủ bụng,Phình động mạch chủ bụng,Complication,C0162871,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.517Z
-CUI:C0018801,suy tim,Suy tim,Complication,C0018801,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.308Z
-CUI:C3887506,tổn thương các cơ quan đích,Tổn thương cơ quan đích,Complication,C3887506,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:31.213Z
-CUI:C0085580,Tăng huyết áp tiên phát,Tăng huyết áp tiên phát,Disease,C0085580,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.726Z
-CUI:C0007193,bệnh cơ tim giãn,Bệnh cơ tim giãn,Disease,C0007193,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.25Z
-CUI:C0018099,bệnh gút,bệnh gút,Disease,C0018099,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.542Z
-CUI:C0022658,bệnh lý ở thận,Bệnh thận,Disease,C0022658,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.986Z
-Disease:bệnh thấp khớp toàn thân,bệnh thấp khớp toàn thân,Bệnh thấp khớp toàn thân,Disease,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.305Z
-CUI:C1704436,bệnh động mạch ngoại biên,bệnh động mạch ngoại biên,Disease,C1704436,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.37Z
-CUI:C1956346,bệnh động mạch vành,bệnh động mạch vành,Disease,C1956346,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.193Z
-CUI:C2882162,bệnh động mạch vành do xơ vữa,Bệnh động mạch vành do xơ vữa,Disease,C2882162,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.457Z
-CUI:C1271104,huyết áp,Huyết áp,Disease,C1271104,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.014Z
-CUI:C0003492,hẹp eo động mạch chủ,Hẹp động mạch chủ,Disease,C0003492,Congenital Abnormality,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.077Z
-CUI:C0027145,phù niêm,Phù niêm,Disease,C0027145,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.496Z
-CUI:C0162565,rối loạn chuyển hóa porphyrin cấp tính,Rối loạn chuyển hóa porphyrin cấp tính,Disease,C0162565,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.437Z
-CUI:C0007682,rối loạn hệ thần kinh trung ương (CNS),Rối loạn hệ thần kinh trung ương,Disease,C0007682,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.56Z
-CUI:C0013537,sản giật,Sản giật,Disease,C0013537,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.377Z
-CUI:C0002963,đau thắt ngực,Đau thắt ngực,Disease,C0002963,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.968Z
-CUI:C0497248,Bệnh nhân tăng huyết áp không biến chứng,Tăng huyết áp không biến chứng,DiseaseSubtype,C0497248,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.402Z
-DiseaseSubtype:hiệu ứng áo choàng trắng,Hiệu ứng áo choàng trắng,Hiệu ứng áo choàng trắng,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.438Z
-DiseaseSubtype:tăng huyết áp nghiêm trọng hoặc kéo dài,Tăng huyết áp nghiêm trọng hoặc kéo dài,Tăng huyết áp nghiêm trọng hoặc kéo dài,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.68Z
-CUI:C0262534,Tăng huyết áp áo choàng trắng,Tăng huyết áp áo choàng trắng,DiseaseSubtype,C0262534,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.279Z
-CUI:C3178811,Tăng huyết áp ẩn,Tăng huyết áp ẩn,DiseaseSubtype,C3178811,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.61Z
-DiseaseSubtype:tăng huyết áp ẩn không kiểm soát được,Tăng huyết áp ẩn không kiểm soát được,Tăng huyết áp ẩn không kiểm soát được,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.814Z
-CUI:C0152451,Viêm cầu thận mạn tính,Viêm cầu thận mạn tính,DiseaseSubtype,C0152451,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.64Z
-CUI:C0022680,bệnh thận đa nang,Bệnh thận đa nang,DiseaseSubtype,C0022680,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.773Z
-CUI:C0178879,bệnh đường tiết niệu do tắc nghẽn,Bệnh đường tiết niệu do tắc nghẽn,DiseaseSubtype,C0178879,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.889Z
-CUI:C5395033,hẹp động mạch chủ nặng,Hẹp động mạch chủ nặng,DiseaseSubtype,C5395033,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.894Z
-CUI:C0020621,kali huyết tương thấp,Hạ kali máu,DiseaseSubtype,C0020621,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.775Z
-CUI:C0149721,phì đại,Phì đại thất trái,DiseaseSubtype,C0149721,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.173Z
-CUI:C0745136,tăng huyết áp cấp cứu,tăng huyết áp cấp cứu,DiseaseSubtype,C0745136,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.759Z
-CUI:C0020545,tăng huyết áp do mạch thận,Tăng huyết áp do mạch thận,DiseaseSubtype,C0020545,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.888Z
-DiseaseSubtype:tăng huyết áp do renin thấp nhạy cảm với muối,tăng huyết áp do renin thấp nhạy cảm với muối,tăng huyết áp do renin thấp nhạy cảm với muối,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.19Z
-CUI:C5231205,tăng huyết áp giai đoạn 2,Tăng huyết áp giai đoạn 2,DiseaseSubtype,C5231205,Finding,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.052Z
-DiseaseSubtype:tăng huyết áp kháng thuốc có kiểm soát,tăng huyết áp kháng thuốc có kiểm soát,Tăng huyết áp kháng thuốc có kiểm soát,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:41.062Z
-CUI:C1834155,tăng huyết áp kháng trị,Tăng huyết áp kháng trị,DiseaseSubtype,C1834155,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.882Z
-CUI:C0745138,tăng huyết áp khẩn cấp,Tăng huyết áp khẩn cấp,DiseaseSubtype,C0745138,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.7Z
-CUI:C3827254,tăng huyết áp kéo dài,Tăng huyết áp kéo dài,DiseaseSubtype,C3827254,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.553Z
-CUI:C0085580,tăng huyết áp nguyên phát,Tăng huyết áp nguyên phát,DiseaseSubtype,C0085580,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:23.42Z
-DiseaseSubtype:tăng huyết áp nhạy cảm với muối,tăng huyết áp nhạy cảm với muối,Tăng huyết áp nhạy cảm với muối,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.019Z
-CUI:C0155616,tăng huyết áp thứ phát,Tăng huyết áp thứ phát,DiseaseSubtype,C0155616,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:23.492Z
-CUI:C0852036,tăng huyết áp trong thời kỳ mang thai,Tăng huyết áp thai kỳ,DiseaseSubtype,C0852036,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:24.856Z
-CUI:C0745133,tăng huyết áp tâm thu đơn độc,Tăng huyết áp tâm thu đơn độc,DiseaseSubtype,C0745133,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.434Z
-CUI:C0034186,viêm bể thận,Viêm bể thận,DiseaseSubtype,C0034186,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.712Z
-CUI:C0024143,viêm thận lupus,Viêm thận lupus,DiseaseSubtype,C0024143,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.831Z
-CUI:C2937358,xuất huyết não,Xuất huyết não,DiseaseSubtype,C2937358,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.885Z
-CUI:C0003850,động mạch cứng,Động mạch cứng,DiseaseSubtype,C0003850,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.349Z
-CUI:C0008294,chlorthalidone,chlorthalidone,Drug,C0008294,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.044Z
-CUI:C0001617,corticosteroid,Corticosteroid,Drug,C0001617,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.758Z
-CUI:C0021186,indapamide,indapamide,Drug,C0021186,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.114Z
-Drug:thuốc tránh thai có chứa estrogen,thuốc tránh thai có chứa estrogen,thuốc tránh thai có chứa estrogen,Drug,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.599Z
-CUI:C0039052,Thuốc cường giao cảm (thuốc thông mũi),Thuốc cường giao cảm,DrugClass,C0039052,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.42Z
-CUI:C0012802,Thuốc lợi tiểu thiazide,Thuốc lợi tiểu thiazide,DrugClass,C0012802,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.967Z
-CUI:C0006684,thuốc chẹn kênh canxi,Thuốc chẹn kênh canxi,DrugClass,C0006684,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:24.413Z
-CUI:C0040615,thuốc chống loạn thần,Thuốc chống loạn thần,DrugClass,C0040615,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.553Z
-CUI:C0003211,thuốc chống viêm không steroid (NSAID),NSAID,DrugClass,C0003211,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.477Z
-CUI:C0012798,thuốc lợi tiểu,Thuốc lợi tiểu,DrugClass,C0012798,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:24.199Z
-CUI:C1579268,thuốc đối kháng thụ thể mineralocorticoid,Thuốc đối kháng thụ thể mineralocorticoid,DrugClass,C1579268,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.038Z
-CUI:C0596087,thuốc ức chế sự hình thành mạch máu,Thuốc ức chế sự hình thành mạch máu,DrugClass,C0596087,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.674Z
-CUI:C1268567,thuốc ức chế tyrosine kinase,Thuốc ức chế tyrosine kinase,DrugClass,C1268567,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.613Z
-CUI:C4072694,Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA),ACC/AHA,Guideline,C4072694,Intellectual Product,,{},01_tanghuyetap.txt,2026-08-20T15:58:24.914Z
-Guideline:keith-wagener-barker,Keith-Wagener-Barker,Keith-Wagener-Barker,Guideline,,Intellectual Product,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.936Z
-Measurement:10-30%,10-30%,10-30%,Measurement,,,Thông số: Chỉ số 10-30%; prevalence_range: 10-30%; prevalence: 10-30%,"{""prevalence_range"": ""10-30%"", ""prevalence"": ""10-30%"", ""parameter"": ""Chỉ số 10-30%""}",01_tanghuyetap.txt,2026-08-20T15:58:32.68Z
-Measurement:1000 mg/ngày,1000 mg/ngày,1000 mg/ngày,Measurement,,,Thông số: Chỉ số 1000 mg/ngày; Giá trị: 1000 mg/ngày,"{""value"": 1000, ""unit"": ""mg/ngày"", ""parameter"": ""Chỉ số 1000 mg/ngày""}",01_tanghuyetap.txt,2026-08-20T15:58:37.914Z
-Measurement:> 160 mm hg,> 160 mm Hg,> 160 mm Hg,Measurement,,,Thông số: Chỉ số 160 mm Hg; Giá trị: >160 mm Hg,"{""value"": 160, ""unit"": ""mm Hg"", ""operator"": "">"", ""parameter"": ""Chỉ số 160 mm Hg""}",01_tanghuyetap.txt,2026-08-20T15:58:40.165Z
-Measurement:số lượng thuốc điều trị ban đầu tha giai đoạn 2: >= 2 loại thuốc,>= 2 loại thuốc,Số lượng thuốc điều trị ban đầu THA giai đoạn 2: >= 2 loại thuốc,Measurement,,,Thông số: Số lượng thuốc điều trị ban đầu; Giá trị: >= 2 loại thuốc,"{""value"": "">= 2"", ""unit"": ""loại thuốc"", ""parameter"": ""Số lượng thuốc điều trị ban đầu""}",01_tanghuyetap.txt,2026-08-20T15:58:39.439Z
-Measurement:bệnh võng mạc độ 3,Bệnh võng mạc độ 3,Bệnh võng mạc độ 3,Measurement,,,Thông số: Chỉ số Bệnh võng mạc độ 3,"{""parameter"": ""Chỉ số Bệnh võng mạc độ 3""}",01_tanghuyetap.txt,2026-08-20T15:58:41.884Z
-Measurement:bệnh võng mạc độ 4,Bệnh võng mạc độ 4,Bệnh võng mạc độ 4,Measurement,,,Thông số: Chỉ số Bệnh võng mạc độ 4,"{""parameter"": ""Chỉ số Bệnh võng mạc độ 4""}",01_tanghuyetap.txt,2026-08-20T15:58:42.717Z
-Measurement:chiều rộng túi khí vòng bít so với chu vi cánh tay: >= 40%,Chiều rộng túi khí vòng bít so với chu vi cánh tay: >= 40%,Chiều rộng túi khí vòng bít so với chu vi cánh tay: >= 40%,Measurement,,,Thông số: Chiều rộng túi khí vòng bít; Giá trị: >=40 %,"{""value"": 40, ""unit"": ""%"", ""operator"": "">="", ""parameter"": ""Chiều rộng túi khí vòng bít""}",01_tanghuyetap.txt,2026-08-20T15:58:43.199Z
-Measurement:chênh lệch huyết áp giữa 2 tay: > 15 mmhg,Chênh lệch huyết áp giữa 2 tay: > 15 mmHg,Chênh lệch huyết áp giữa 2 tay: > 15 mmHg,Measurement,,,Thông số: Chỉ số Chênh lệch huyết áp giữa 2 tay  15 mmHg; Giá trị: >15 mmHg,"{""value"": 15, ""unit"": ""mmHg"", ""operator"": "">"", ""parameter"": ""Chỉ số Chênh lệch huyết áp giữa 2 tay  15 mmHg""}",01_tanghuyetap.txt,2026-08-20T15:58:31.997Z
-Measurement:huyết áp >= 140/90 mmhg,Huyết áp >= 140/90 mmHg,Huyết áp >= 140/90 mmHg,Measurement,,,Thông số: Chỉ số Huyết áp  140/90 mmHg; Huyết áp 140/90 mmHg,"{""systolic"": 140, ""diastolic"": 90, ""unit"": ""mmHg"", ""parameter"": ""Chỉ số Huyết áp  140/90 mmHg""}",01_tanghuyetap.txt,2026-08-20T15:58:24.653Z
-Measurement:huyết áp mục tiêu,Huyết áp mục tiêu,Huyết áp mục tiêu,Measurement,,,Thông số: Chỉ số Huyết áp mục tiêu; status: target,"{""status"": ""target"", ""parameter"": ""Chỉ số Huyết áp mục tiêu""}",01_tanghuyetap.txt,2026-08-20T15:58:40.101Z
-Measurement:huyết áp tâm thu,Huyết áp tâm thu,Huyết áp tâm thu,Measurement,,,Thông số: Chỉ số Huyết áp tâm thu,"{""parameter"": ""Chỉ số Huyết áp tâm thu""}",01_tanghuyetap.txt,2026-08-20T15:58:31.468Z
-Measurement:huyết áp tâm thu 120-129 mmhg,Huyết áp tâm thu 120-129 mmHg,Huyết áp tâm thu 120-129 mmHg,Measurement,,,Thông số: Chỉ số Huyết áp tâm thu 120-129 mmHg; Tâm thu: >=120 - 129 mmHg,"{""systolic_min"": 120, ""systolic_max"": 129, ""unit"": ""mmHg"", ""parameter"": ""Chỉ số Huyết áp tâm thu 120-129 mmHg""}",01_tanghuyetap.txt,2026-08-20T15:58:30.117Z
-Measurement:huyết áp tâm thu bình thường: < 120 mmhg,Huyết áp tâm thu bình thường: < 120 mmHg,Huyết áp tâm thu bình thường: < 120 mmHg,Measurement,,,Thông số: Huyết áp tâm thu bình thường; Tâm thu: 120 mmHg,"{""systolic"": 120, ""unit"": ""mmHg"", ""parameter"": ""Huyết áp tâm thu bình thường""}",01_tanghuyetap.txt,2026-08-20T15:58:30.635Z
-Measurement:huyết áp tâm trương,Huyết áp tâm trương,Huyết áp tâm trương,Measurement,,,Thông số: Chỉ số Huyết áp tâm trương,"{""parameter"": ""Chỉ số Huyết áp tâm trương""}",01_tanghuyetap.txt,2026-08-20T15:58:31.528Z
-Measurement:huyết áp tâm trương lúc nghỉ xác định tha: >= 80 mmhg,Huyết áp tâm trương lúc nghỉ xác định THA: >= 80 mmHg,Huyết áp tâm trương lúc nghỉ xác định THA: >= 80 mmHg,Measurement,,,Thông số: Huyết áp tâm trương lúc nghỉ; Giá trị: 180 mmHg; type: systolic,"{""value"": 180, ""unit"": ""mmHg"", ""type"": ""systolic"", ""parameter"": ""Huyết áp tâm trương lúc nghỉ""}",01_tanghuyetap.txt,2026-08-20T15:58:23.357Z
-Measurement:huyết áp tâm trương mục tiêu tối thiểu: 60 - 65 mmhg,Huyết áp tâm trương mục tiêu tối thiểu: 60 - 65 mmHg,Huyết áp tâm trương mục tiêu tối thiểu: 60 - 65 mmHg,Measurement,,,Thông số: Chỉ số Huyết áp tâm trương mục tiêu tối thiểu 60 - 65 mmHg; Tâm trương: 60-65 mmHg,"{""diastolic"": ""60-65"", ""unit"": ""mmHg"", ""parameter"": ""Chỉ số Huyết áp tâm trương mục tiêu tối thiểu 60 - 65 mmHg""}",01_tanghuyetap.txt,2026-08-20T15:58:37.239Z
-Measurement:kích thước túi khí vòng bít bao quanh cánh tay: > 80%,Kích thước túi khí vòng bít bao quanh cánh tay: > 80%,Kích thước túi khí vòng bít bao quanh cánh tay: > 80%,Measurement,,,Thông số: Kích thước túi khí vòng bít; Giá trị: >80 %,"{""value"": 80, ""unit"": ""%"", ""operator"": "">"", ""parameter"": ""Kích thước túi khí vòng bít""}",01_tanghuyetap.txt,2026-08-20T15:58:43.142Z
-Measurement:lượng cồn giới hạn ở nam giới: <= 2 ly/ngày,Lượng cồn giới hạn ở nam giới: <= 2 ly/ngày,Lượng cồn giới hạn ở nam giới: <= 2 ly/ngày,Measurement,,,Thông số: Lượng cồn giới hạn ở nam giới; Giá trị: <=2 ly/ngày,"{""value"": 2, ""unit"": ""ly/ngày"", ""operator"": ""<="", ""parameter"": ""Lượng cồn giới hạn ở nam giới""}",01_tanghuyetap.txt,2026-08-20T15:58:38.086Z
-Measurement:lượng cồn giới hạn ở nữ giới: <= 1 ly/ngày,Lượng cồn giới hạn ở nữ giới: <= 1 ly/ngày,Lượng cồn giới hạn ở nữ giới: <= 1 ly/ngày,Measurement,,,Thông số: Lượng cồn giới hạn ở nữ giới; Giá trị: <=1 ly/ngày,"{""value"": 1, ""unit"": ""ly/ngày"", ""operator"": ""<="", ""parameter"": ""Lượng cồn giới hạn ở nữ giới""}",01_tanghuyetap.txt,2026-08-20T15:58:38.146Z
-Measurement:lượng natri ăn vào mục tiêu: < 1500 mg/ngày,Lượng natri ăn vào mục tiêu: < 1500 mg/ngày,Lượng natri ăn vào mục tiêu: < 1500 mg/ngày,Measurement,,,Thông số: Lượng natri ăn vào mục tiêu; Giá trị: <1500 mg/ngày,"{""value"": 1500, ""unit"": ""mg/ngày"", ""operator"": ""<"", ""parameter"": ""Lượng natri ăn vào mục tiêu""}",01_tanghuyetap.txt,2026-08-20T15:58:37.853Z
-Measurement:mức giảm huyết áp tư thế: 10 - 20 mmhg,Mức giảm huyết áp tư thế: 10 - 20 mmHg,Mức giảm huyết áp tư thế: 10 - 20 mmHg,Measurement,,,Thông số: Chỉ số Mức giảm huyết áp tư thế 10 - 20 mmHg; prevalence_range: 10-20%; prevalence: 10-20%,"{""prevalence_range"": ""10-20%"", ""prevalence"": ""10-20%"", ""parameter"": ""Chỉ số Mức giảm huyết áp tư thế 10 - 20 mmHg""}",01_tanghuyetap.txt,2026-08-20T15:58:29.467Z
-Measurement:nguy cơ tim mạch 10 năm (ascvd): < 5%,Nguy cơ tim mạch 10 năm (ASCVD): < 5%,Nguy cơ tim mạch 10 năm (ASCVD): < 5%,Measurement,,,Thông số: Nguy cơ tim mạch 10 năm; Giá trị: <5 percent,"{""value"": 5, ""unit"": ""percent"", ""operator"": ""<"", ""parameter"": ""Nguy cơ tim mạch 10 năm""}",01_tanghuyetap.txt,2026-08-20T15:58:42.776Z
-Measurement:nồng độ kali huyết tương: < 3.5 mmol/l,Nồng độ kali huyết tương: < 3.5 mmol/L,Nồng độ kali huyết tương: < 3.5 mmol/L,Measurement,,,Thông số: Nồng độ kali huyết tương; Giá trị: <3.5 mmol/L,"{""value"": 3.5, ""unit"": ""mmol/L"", ""operator"": ""<"", ""parameter"": ""Nồng độ kali huyết tương""}",01_tanghuyetap.txt,2026-08-20T15:58:28.832Z
-Measurement:số lượng thuốc phối hợp điều trị tha: 3 loại thuốc,Số lượng thuốc phối hợp điều trị THA: 3 loại thuốc,Số lượng thuốc phối hợp điều trị THA: 3 loại thuốc,Measurement,,,Thông số: Số lượng thuốc phối hợp điều trị THA; count: 3,"{""count"": 3, ""parameter"": ""Số lượng thuốc phối hợp điều trị THA""}",01_tanghuyetap.txt,2026-08-20T15:58:40.285Z
-Measurement:số lượng thuốc điều trị tha kháng trị: >= 4 loại thuốc,Số lượng thuốc điều trị THA kháng trị: >= 4 loại thuốc,Số lượng thuốc điều trị THA kháng trị: >= 4 loại thuốc,Measurement,,,Thông số: Số lượng thuốc điều trị THA kháng trị; count: 4,"{""count"": 4, ""parameter"": ""Số lượng thuốc điều trị THA kháng trị""}",01_tanghuyetap.txt,2026-08-20T15:58:40.344Z
-Measurement:thời gian nghỉ trước khi đo huyết áp: > 5 phút,Thời gian nghỉ trước khi đo huyết áp: > 5 phút,Thời gian nghỉ trước khi đo huyết áp: > 5 phút,Measurement,,,Thông số: Thời gian nghỉ trước khi đo huyết áp; Giá trị: >5 phút; duration: > 5,"{""duration"": ""> 5"", ""unit"": ""phút"", ""value"": 5, ""operator"": "">"", ""parameter"": ""Thời gian nghỉ trước khi đo huyết áp""}",01_tanghuyetap.txt,2026-08-20T15:58:31.27Z
-Measurement:tăng huyết áp giai đoạn 1,Tăng huyết áp giai đoạn 1,Tăng huyết áp giai đoạn 1,Measurement,,,Thông số: Chỉ số Tăng huyết áp giai đoạn 1,"{""parameter"": ""Chỉ số Tăng huyết áp giai đoạn 1""}",01_tanghuyetap.txt,2026-08-20T15:58:24.992Z
-Measurement:độ tuổi nghi ngờ tha thứ phát: < 30 tuổi,Độ tuổi nghi ngờ THA thứ phát: < 30 tuổi,Độ tuổi nghi ngờ THA thứ phát: < 30 tuổi,Measurement,,,Thông số: Độ tuổi nghi ngờ THA thứ phát; age_threshold: 30,"{""age_threshold"": 30, ""operator"": ""<"", ""parameter"": ""Độ tuổi nghi ngờ THA thứ phát""}",01_tanghuyetap.txt,2026-08-20T15:58:34.862Z
-CUI:C0086907,Hệ renin-angiotensin-aldosterone,Hệ renin-angiotensin-aldosterone,Mechanism,C0086907,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.275Z
-CUI:C0039044,Hệ thần kinh giao cảm,Hệ thần kinh giao cảm,Mechanism,C0039044,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.951Z
-CUI:C0035094,Renin,Renin,Mechanism,C0035094,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-20T15:58:28.44Z
-CUI:C0002006,aldosterone,Aldosterone,Mechanism,C0002006,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.651Z
-CUI:C4521302,angiotensin,angiotensin,Mechanism,C4521302,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.29Z
-CUI:C3714928,angiotensin II,Angiotensin II,Mechanism,C3714928,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-20T15:58:28.53Z
-CUI:C0006100,bradykinin,bradykinin,Mechanism,C0006100,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-20T15:58:29.168Z
-CUI:C1149024,"bơm natri-kali (Na+, K+-ATPase)","Na+, K+-ATPase",Mechanism,C1149024,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.555Z
-CUI:C0006644,caffeine,Caffeine,Mechanism,C0006644,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.216Z
-CUI:C1149114,endothelin,endothelin,Mechanism,C1149114,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.549Z
-CUI:C0035096,hệ renin-angiotensin,Hệ renin-angiotensin,Mechanism,C0035096,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.27Z
-CUI:C0038996,kích thích thần kinh giao cảm,Kích thích thần kinh giao cảm,Mechanism,C0038996,Organ or Tissue Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.707Z
-CUI:C0007165,lưu lượng tim (CO),Lưu lượng tim,Mechanism,C0007165,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.088Z
-Mechanism:nồng độ natri và canxi nội bào,lượng natri và canxi nội bào,Nồng độ natri và canxi nội bào,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.632Z
-CUI:C0028351,norepinephrine,Norepinephrine,Mechanism,C0028351,Organic Chemical,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.794Z
-CUI:C0028128,oxit nitric,oxit nitric,Mechanism,C0028128,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.226Z
-CUI:C0020564,phì đại,Phì đại,Mechanism,C0020564,Pathologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:30.002Z
-Mechanism:phì đại mạch máu,phì đại,Phì đại mạch máu,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:43.057Z
-CUI:C0856169,rối loạn chức năng tế bào nội mô,Rối loạn chức năng tế bào nội mô,Mechanism,C0856169,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:29.606Z
-CUI:C0032127,thể tích huyết tương,Thể tích huyết tương,Mechanism,C0032127,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.197Z
-CUI:C0033093,thụ thể áp suất,Thụ thể áp suất,Mechanism,C0033093,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.788Z
-Mechanism:tăng hoạt động hệ giao cảm,tăng hoạt động của hệ giao cảm,Tăng hoạt động hệ giao cảm,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.157Z
-CUI:C1258192,tổng sức cản mạch ngoại vi (TPR),Tổng sức cản mạch ngoại vi,Mechanism,C1258192,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.145Z
-CUI:C1705480,vasopressin,Vasopressin,Mechanism,C1705480,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.715Z
-CUI:C1331537,xơ cứng động mạch chủ,Xơ cứng động mạch chủ,Mechanism,C1331537,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.494Z
-CUI:C3714787,hệ thần kinh trung ương (CNS),Hệ thần kinh trung ương,Organ,C3714787,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:36.634Z
-CUI:C0007226,hệ tim mạch,Hệ tim mạch,Organ,C0007226,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:29.75Z
-CUI:C4266572,mắt,Mắt,Organ,C4266572,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:30.059Z
-CUI:C0006104,não,Não,Organ,C0006104,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:23.809Z
+CUI:C1841992,Bệnh nhu mô thận,Bệnh nhu mô thận,Cause,C1841992,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.196Z
+CUI:C0155616,Nguyên nhân thứ phát,Nguyên nhân thứ phát gây tăng huyết áp,Cause,C0155616,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.056Z
+CUI:C3262233,Nguyên nhân thứ phát,Nguyên nhân thứ phát,Cause,C3262233,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:38.466Z
+CUI:C0037315,Ngưng thở khi ngủ,Ngưng thở khi ngủ,Cause,C0037315,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.196Z
+CUI:C4551683,U tủy thượng thận,U tủy thượng thận,Cause,C4551683,Neoplastic Process,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.566Z
+CUI:C0020545,bệnh mạch thận,Bệnh mạch thận,Cause,C0020545,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.984Z
+CUI:C1561643,bệnh thận mạn tính,Bệnh thận mạn tính,Cause,C1561643,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.257Z
+CUI:C0001206,bệnh to đầu chi,Bệnh to đầu chi,Cause,C0001206,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.969Z
+CUI:C1384514,cường aldosteron nguyên phát,Cường aldosteron nguyên phát,Cause,C1384514,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.116Z
+CUI:C0221002,cường cận giáp nguyên phát,Cường cận giáp nguyên phát,Cause,C0221002,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.907Z
+CUI:C0020550,cường giáp,Cường giáp,Cause,C0020550,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.749Z
+CUI:C2930803,hẹp eo động mạch chủ,Hẹp eo động mạch chủ,Cause,C2930803,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.386Z
+CUI:C0035067,hẹp động mạch thận,Hẹp động mạch thận,Cause,C0035067,Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.317Z
+CUI:C0010481,hội chứng Cushing,Hội chứng Cushing,Cause,C0010481,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.63Z
+CUI:C0342488,hội chứng thừa mineralocorticoid,Hội chứng thừa mineralocorticoid,Cause,C0342488,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.028Z
+CUI:C0003504,hở van động mạch chủ,Hở van động mạch chủ,Cause,C0003504,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.165Z
+Cause:nguyên nhân xác định,một nguyên nhân được xác định,Nguyên nhân xác định,Cause,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.706Z
+CUI:C0520679,ngưng thở khi ngủ do tắc nghẽn,Ngưng thở khi ngủ do tắc nghẽn,Cause,C0520679,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.687Z
+CUI:C0040156,nhiễm độc giáp,Nhiễm độc giáp,Cause,C0040156,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.045Z
+CUI:C0003855,rò động-tĩnh mạch,Rò động-tĩnh mạch,Cause,C0003855,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.106Z
+CUI:C0020676,suy giáp (phù niêm),Suy giáp,Cause,C0020676,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.828Z
+CUI:C0001627,tăng sản tuyến thượng thận bẩm sinh,Tăng sản tuyến thượng thận bẩm sinh,Cause,C0001627,Disease or Syndrome / Pathologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.69Z
+CUI:C0729233,Bóc tách động mạch chủ ngực,Bóc tách động mạch chủ ngực,Complication,C0729233,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.593Z
+CUI:C3266050,biến chứng có hại,Biến chứng tăng huyết áp,Complication,C3266050,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.191Z
+CUI:C0920165,biến chứng mạch máu,Biến chứng mạch máu,Complication,C0920165,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:13.593Z
+Complication:biến cố tim mạch lớn,biến cố tim mạch lớn,Biến cố tim mạch lớn,Complication,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.335Z
+CUI:C0151620,bệnh não tăng huyết áp,Bệnh não tăng huyết áp,Complication,C0151620,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.994Z
+CUI:C0035309,bệnh võng mạc,Bệnh võng mạc,Complication,C0035309,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:10.418Z
+CUI:C0152132,bệnh võng mạc do tăng huyết áp,Bệnh võng mạc do tăng huyết áp,Complication,C0152132,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:25.056Z
+CUI:C1565489,giảm chức năng thận,Suy giảm chức năng thận,Complication,C1565489,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.728Z
+CUI:C0012833,hoa mắt chóng mặt,Hoa mắt chóng mặt,Complication,C0012833,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.662Z
+CUI:C1320716,kết quả tim mạch bất lợi,Biến cố tim mạch,Complication,C1320716,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.92Z
+CUI:C4324389,nguy cơ tim mạch,Nguy cơ tim mạch,Complication,C4324389,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.312Z
+CUI:C0007785,nhồi máu não,Nhồi máu não,Complication,C0007785,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.454Z
+CUI:C0162871,phình động mạch chủ bụng,Phình động mạch chủ bụng,Complication,C0162871,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.668Z
+CUI:C0018801,suy tim,Suy tim,Complication,C0018801,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.528Z
+CUI:C3887506,tổn thương các cơ quan đích,Tổn thương cơ quan đích,Complication,C3887506,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:25.418Z
+CUI:C0038454,Đột quỵ,Đột quỵ,Complication,C0038454,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:05.811Z
+CUI:C0011849,Bệnh tiểu đường,Đái tháo đường,Disease,C0011849,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:03.058Z
+CUI:C0018099,bệnh gút,Bệnh gút,Disease,C0018099,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.944Z
+CUI:C0022658,bệnh lý ở thận,Bệnh thận,Disease,C0022658,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.254Z
+Disease:bệnh nhu mô thận mạn tính,bệnh nhu mô thận mạn tính,Bệnh nhu mô thận mạn tính,Disease,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.819Z
+Disease:bệnh thấp khớp toàn thân,bệnh thấp khớp toàn thân,Bệnh thấp khớp toàn thân,Disease,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.658Z
+CUI:C0007222,bệnh tim mạch,Bệnh tim mạch,Disease,C0007222,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:13.153Z
+CUI:C0004153,bệnh tim mạch do xơ vữa động mạch (ASCVD),Bệnh tim mạch do xơ vữa động mạch,Disease,C0004153,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:05.956Z
+CUI:C1704436,bệnh động mạch ngoại biên,Bệnh động mạch ngoại biên,Disease,C1704436,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.824Z
+CUI:C1956346,bệnh động mạch vành,Bệnh động mạch vành,Disease,C1956346,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.626Z
+CUI:C2882162,bệnh động mạch vành do xơ vữa,Bệnh động mạch vành do xơ vữa,Disease,C2882162,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.73Z
+CUI:C0027145,phù niêm,Phù niêm,Disease,C0027145,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.87Z
+CUI:C0162565,rối loạn chuyển hóa porphyrin cấp tính,Rối loạn chuyển hóa porphyrin cấp tính,Disease,C0162565,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.807Z
+CUI:C0007682,rối loạn hệ thần kinh trung ương (CNS),Rối loạn hệ thần kinh trung ương,Disease,C0007682,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.933Z
+CUI:C0242339,rối loạn lipid máu,Rối loạn lipid máu,Disease,C0242339,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:09.499Z
+CUI:C1565489,suy thận,Suy thận,Disease,C1565489,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:09.363Z
+CUI:C0013537,sản giật,Sản giật,Disease,C0013537,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.742Z
+CUI:C4551683,u tế bào ưa crom,U tế bào ưa crom,Disease,C4551683,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:37.746Z
+CUI:C0002963,đau thắt ngực,Đau thắt ngực,Disease,C0002963,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.464Z
+DiseaseSubtype:hiệu ứng áo choàng trắng,Hiệu ứng áo choàng trắng,Hiệu ứng áo choàng trắng,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.654Z
+CUI:C0020538,Tăng huyết áp,Tăng huyết áp,DiseaseSubtype,C0020538,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:16.764Z
+CUI:C0497248,Tăng huyết áp không biến chứng,Tăng huyết áp không biến chứng,DiseaseSubtype,C0497248,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.813Z
+DiseaseSubtype:tăng huyết áp nghiêm trọng hoặc kéo dài,Tăng huyết áp nghiêm trọng hoặc kéo dài,Tăng huyết áp nghiêm trọng hoặc kéo dài,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.633Z
+CUI:C0262534,Tăng huyết áp áo choàng trắng,Tăng huyết áp áo choàng trắng,DiseaseSubtype,C0262534,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.593Z
+CUI:C3178811,Tăng huyết áp ẩn,Tăng huyết áp ẩn,DiseaseSubtype,C3178811,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.717Z
+CUI:C0152451,Viêm cầu thận mạn tính,Viêm cầu thận mạn tính,DiseaseSubtype,C0152451,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.258Z
+CUI:C0007193,bệnh cơ tim giãn,Bệnh cơ tim giãn,DiseaseSubtype,C0007193,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.467Z
+CUI:C0022680,bệnh thận đa nang,Bệnh thận đa nang,DiseaseSubtype,C0022680,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.382Z
+CUI:C0178879,bệnh đường tiết niệu do tắc nghẽn,Bệnh đường tiết niệu do tắc nghẽn,DiseaseSubtype,C0178879,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.505Z
+CUI:C5231205,giai đoạn 2,Tăng huyết áp giai đoạn 2,DiseaseSubtype,C5231205,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.645Z
+CUI:C5395033,hẹp động mạch chủ nặng,Hẹp động mạch chủ nặng,DiseaseSubtype,C5395033,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.401Z
+CUI:C0600534,nhạy cảm với muối,Nhạy cảm với muối,DiseaseSubtype,C0600534,Mammal,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.321Z
+CUI:C0149721,phì đại,Phì đại thất trái,DiseaseSubtype,C0149721,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.389Z
+CUI:C1443384,phù gai thị,Bệnh võng mạc độ 4,DiseaseSubtype,C1443384,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.334Z
+CUI:C0745136,tăng huyết áp cấp cứu,Tăng huyết áp cấp cứu,DiseaseSubtype,C0745136,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.931Z
+CUI:C0020545,tăng huyết áp do mạch thận,Tăng huyết áp do mạch thận,DiseaseSubtype,C0020545,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.423Z
+DiseaseSubtype:tăng huyết áp do renin thấp nhạy cảm với muối,tăng huyết áp do renin thấp nhạy cảm với muối,Tăng huyết áp do renin thấp nhạy cảm với muối,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.652Z
+CUI:C5231206,tăng huyết áp giai đoạn 1 (nhẹ),Tăng huyết áp giai đoạn 1,DiseaseSubtype,C5231206,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.563Z
+DiseaseSubtype:tăng huyết áp kháng thuốc có kiểm soát,tăng huyết áp kháng thuốc có kiểm soát,Tăng huyết áp kháng thuốc có kiểm soát,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.933Z
+CUI:C1834155,tăng huyết áp kháng trị,Tăng huyết áp kháng trị,DiseaseSubtype,C1834155,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.258Z
+CUI:C0745138,tăng huyết áp khẩn cấp,Tăng huyết áp khẩn cấp,DiseaseSubtype,C0745138,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.869Z
+DiseaseSubtype:tăng huyết áp nhạy cảm với muối,tăng huyết áp nhạy cảm với muối,Tăng huyết áp nhạy cảm với muối,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.74Z
+CUI:C0155616,tăng huyết áp thứ phát,Tăng huyết áp thứ phát,DiseaseSubtype,C0155616,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.053Z
+CUI:C0085580,tăng huyết áp tiên phát,Tăng huyết áp tiên phát,DiseaseSubtype,C0085580,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:16.989Z
+CUI:C0745133,tăng huyết áp tâm thu đơn độc,Tăng huyết áp tâm thu đơn độc,DiseaseSubtype,C0745133,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.225Z
+DiseaseSubtype:tăng huyết áp ẩn không kiểm soát được,tăng huyết áp ẩn không kiểm soát được,Tăng huyết áp ẩn không kiểm soát được,DiseaseSubtype,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.251Z
+CUI:C0034186,viêm bể thận,Viêm bể thận,DiseaseSubtype,C0034186,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.321Z
+CUI:C0024143,viêm thận lupus,Viêm thận lupus,DiseaseSubtype,C0024143,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.444Z
+CUI:C2937358,xuất huyết não,Xuất huyết não,DiseaseSubtype,C2937358,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.853Z
+CUI:C1443383,"xơ võng mạc, xuất tiết bông, hẹp tiểu động mạch và xuất huyết",Bệnh võng mạc độ 3,DiseaseSubtype,C1443383,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.272Z
+CUI:C0852036,Điều trị tăng huyết áp khi mang thai,Tăng huyết áp khi mang thai,DiseaseSubtype,C0852036,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.416Z
+CUI:C0003850,động mạch cứng,Động mạch cứng,DiseaseSubtype,C0003850,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.199Z
+CUI:C0008294,chlorthalidone,Chlorthalidone,Drug,C0008294,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.48Z
+CUI:C0009170,cocaine,Cocaine,Drug,C0009170,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.566Z
+CUI:C0001617,corticosteroid,Corticosteroid,Drug,C0001617,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.48Z
+CUI:C0021186,indapamide,Indapamide,Drug,C0021186,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.566Z
+Drug:thuốc điều trị tăng huyết áp thứ ba,thuốc thứ ba,Thuốc điều trị tăng huyết áp thứ ba,Drug,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.734Z
+Drug:thuốc tránh thai có chứa estrogen,thuốc tránh thai có chứa estrogen,Thuốc tránh thai có chứa estrogen,Drug,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:37.49Z
+Drug:thuốc tránh thai chứa estrogen,thuốc tránh thai có chứa estrogen,Thuốc tránh thai chứa estrogen,Drug,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.009Z
+CUI:C0815017,ARB,Thuốc chẹn thụ thể angiotensin,DrugClass,C0815017,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T14:17:15.975Z
+CUI:C0039052,Thuốc cường giao cảm (thuốc thông mũi),Thuốc cường giao cảm,DrugClass,C0039052,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.097Z
+CUI:C0012802,Thuốc lợi tiểu thiazide,Thuốc lợi tiểu thiazide,DrugClass,C0012802,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.416Z
+CUI:C0006684,thuốc chẹn kênh canxi,Thuốc chẹn kênh canxi,DrugClass,C0006684,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.934Z
+CUI:C0040615,thuốc chống loạn thần,Thuốc chống loạn thần,DrugClass,C0040615,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.237Z
+CUI:C0003211,thuốc chống viêm không steroid (NSAID),NSAID,DrugClass,C0003211,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.157Z
+CUI:C0002763,thuốc kích thích,Thuốc kích thích,DrugClass,C0002763,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.419Z
+CUI:C0304490,thuốc làm giảm bài tiết kali,Thuốc làm giảm bài tiết kali,DrugClass,C0304490,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:38.065Z
+CUI:C0012798,thuốc lợi tiểu,Thuốc lợi tiểu,DrugClass,C0012798,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:17.737Z
+CUI:C0003364,"thuốc lợi tiểu thiazid, thuốc ức chế men chuyển angiotensin, thuốc chẹn thụ thể angiotensin II và thuốc chẹn kênh canxi dihydropyridine",Nhóm thuốc điều trị tăng huyết áp,DrugClass,C0003364,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T14:17:00.613Z
+CUI:C1579268,thuốc đối kháng thụ thể mineralocorticoid,Thuốc đối kháng thụ thể mineralocorticoid,DrugClass,C1579268,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.605Z
+CUI:C0003015,thuốc ức chế ACE,Thuốc ức chế men chuyển,DrugClass,C0003015,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T14:17:00.291Z
+CUI:C0596087,thuốc ức chế sự hình thành mạch máu,Thuốc ức chế sự hình thành mạch máu,DrugClass,C0596087,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.359Z
+CUI:C0521942,thuốc ức chế thụ thể angiotensin II,Thuốc ức chế thụ thể angiotensin II,DrugClass,C0521942,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-20T14:17:00.351Z
+CUI:C1268567,thuốc ức chế tyrosine kinase,Thuốc ức chế tyrosine kinase,DrugClass,C1268567,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.297Z
+CUI:C4072694,Hội Tim mạch Hoa Kỳ/Hiệp hội Tim mạch Hoa Kỳ (ACC/AHA),ACC/AHA,Guideline,C4072694,Intellectual Product,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.478Z
+Guideline:keith-wagener-barker,phân loại Keith-Wagener-Barker,Keith-Wagener-Barker,Guideline,,Intellectual Product,,{},01_tanghuyetap.txt,2026-08-21T06:17:25.116Z
+Measurement:tỷ lệ mắc tăng huyết áp ẩn trong dân số trưởng thành: 10% - 30%,10% đến 30%,Tỷ lệ mắc Tăng huyết áp ẩn trong dân số trưởng thành: 10% - 30%,Measurement,,,Thông số: Tỷ lệ mắc Tăng huyết áp ẩn trong dân số trưởng thành; min_value: 10; max_value: 30,"{""parameter"": ""Tỷ lệ mắc Tăng huyết áp ẩn trong dân số trưởng thành"", ""min_value"": 10, ""max_value"": 30, ""unit"": ""%""}",01_tanghuyetap.txt,2026-08-21T06:17:27.066Z
+Measurement:tỷ lệ hiện mắc tăng huyết áp ẩn: 10% - 30%,10% đến 30%,Tỷ lệ hiện mắc Tăng huyết áp ẩn: 10% - 30%,Measurement,,,Thông số: Tỷ lệ hiện mắc Tăng huyết áp ẩn; min_value: 10; max_value: 30,"{""parameter"": ""Tỷ lệ hiện mắc Tăng huyết áp ẩn"", ""min_value"": 10, ""max_value"": 30, ""unit"": ""%""}",01_tanghuyetap.txt,2026-08-21T06:17:37.363Z
+Measurement:lượng natri tối ưu < 1500 mg/ngày,< 1500 mg/ngày,Lượng natri tối ưu < 1500 mg/ngày,Measurement,,,Thông số: Lượng natri; Giá trị: <1500 mg/ngày,"{""parameter"": ""Lượng natri"", ""value"": 1500, ""unit"": ""mg/ngày"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:32.172Z
+Measurement:giới hạn uống rượu nữ <= 1 ly/ngày,<= 1 ly mỗi ngày đối với nữ,Giới hạn uống rượu nữ <= 1 ly/ngày,Measurement,,,Thông số: Giới hạn uống rượu nữ; Giá trị: <=1 ly/ngày,"{""parameter"": ""Giới hạn uống rượu nữ"", ""value"": 1, ""unit"": ""ly/ngày"", ""operator"": ""<=""}",01_tanghuyetap.txt,2026-08-21T06:17:32.491Z
+Measurement:lượng rượu tối đa nữ <= 1 ly/ngày,<= 1 ly mỗi ngày đối với nữ,Lượng rượu tối đa nữ <= 1 ly/ngày,Measurement,,,Thông số: Lượng rượu nữ; Giá trị: <=1 ly/ngày,"{""parameter"": ""Lượng rượu nữ"", ""value"": 1, ""unit"": ""ly/ngày"", ""operator"": ""<=""}",01_tanghuyetap.txt,2026-08-21T06:17:38.194Z
+Measurement:lượng rượu tối đa nam <= 2 ly/ngày,<= 2 ly mỗi ngày đối với nam,Lượng rượu tối đa nam <= 2 ly/ngày,Measurement,,,Thông số: Lượng rượu nam; Giá trị: <=2 ly/ngày,"{""parameter"": ""Lượng rượu nam"", ""value"": 2, ""unit"": ""ly/ngày"", ""operator"": ""<=""}",01_tanghuyetap.txt,2026-08-21T06:17:38.128Z
+Measurement:giới hạn uống rượu nam <= 2 ly/ngày,<= 2 ly mỗi ngày đối với nam,Giới hạn uống rượu nam <= 2 ly/ngày,Measurement,,,Thông số: Giới hạn uống rượu nam; Giá trị: <=2 ly/ngày,"{""parameter"": ""Giới hạn uống rượu nam"", ""value"": 2, ""unit"": ""ly/ngày"", ""operator"": ""<=""}",01_tanghuyetap.txt,2026-08-21T06:17:32.429Z
+Measurement:độ tuổi: > 65 tuổi,> 65 tuổi,Độ tuổi: > 65 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: >65,"{""parameter"": ""Độ tuổi"", ""value"": 65, ""operator"": "">""}",01_tanghuyetap.txt,2026-08-21T06:17:18.336Z
+Measurement:số lượng thuốc điều trị >= 2,>= 2 loại thuốc,Số lượng thuốc điều trị >= 2,Measurement,,,Thông số: Số lượng thuốc điều trị; Giá trị: >=2,"{""parameter"": ""Số lượng thuốc điều trị"", ""operator"": "">="", ""value"": 2}",01_tanghuyetap.txt,2026-08-21T06:17:33.931Z
+Measurement:huyết áp không kiểm soát >= 140/90 mmhg,BP >= 140/90 mm Hg,Huyết áp không kiểm soát >= 140/90 mmHg,Measurement,,,Thông số: Huyết áp không đạt mục tiêu; Huyết áp 140/90 mmHg,"{""parameter"": ""Huyết áp không đạt mục tiêu"", ""systolic"": 140, ""diastolic"": 90, ""unit"": ""mmHg"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:18.174Z
+Measurement:thời gian kiêng cử trước đo huyết áp: >= 30 phút,"Không tập thể dục, không sử dụng caffeine hoặc thuốc lá trong ít nhất 30 phút",Thời gian kiêng cử trước đo huyết áp: >= 30 phút,Measurement,,,Thông số: Thời gian kiêng cử; Giá trị: >=30 phút,"{""parameter"": ""Thời gian kiêng cử"", ""value"": 30, ""unit"": ""phút"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:37.302Z
+Measurement:thời gian ngủ ngắn < 5 - 6 giờ/đêm,Thời gian ngủ ngắn (thường được định nghĩa là < 5 giờ hoặc 6 giờ mỗi đêm ở người lớn,Thời gian ngủ ngắn < 5 - 6 giờ/đêm,Measurement,,,Thông số: Thời gian ngủ; max_value: 6,"{""parameter"": ""Thời gian ngủ"", ""max_value"": 6, ""unit"": ""giờ/đêm"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:38.258Z
+Measurement:thời gian ngủ ngắn < 5-6 giờ/đêm,Thời gian ngủ ngắn (thường được định nghĩa là < 5 giờ hoặc 6 giờ mỗi đêm ở người lớn,Thời gian ngủ ngắn < 5-6 giờ/đêm,Measurement,,,Thông số: Thời gian ngủ; max_value: 6,"{""parameter"": ""Thời gian ngủ"", ""max_value"": 6, ""unit"": ""giờ/đêm"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:32.62Z
+Measurement:thời gian ngủ đủ giấc >= 6 giờ/đêm,Thời gian ngủ đủ giấc (tối thiểu 6 tiếng/đêm),Thời gian ngủ đủ giấc >= 6 giờ/đêm,Measurement,,,Thông số: Thời gian ngủ; min_value: 6,"{""parameter"": ""Thời gian ngủ"", ""min_value"": 6, ""unit"": ""giờ/đêm"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:32.556Z
+Measurement:tần số mạch khi nghỉ cao,Tần số mạch khi nghỉ cao,Tần số mạch khi nghỉ cao,Measurement,,,Thông số: Tần số mạch khi nghỉ; Giá trị: >bình thường,"{""parameter"": ""Tần số mạch khi nghỉ"", ""operator"": "">"", ""value"": ""bình thường""}",01_tanghuyetap.txt,2026-08-21T06:17:21.761Z
+Measurement:chiều dài bàng quang vòng bít: > 80% chu vi cánh tay,bàng quang đủ dài để bao quanh > 80% cánh tay,Chiều dài bàng quang vòng bít: > 80% chu vi cánh tay,Measurement,,,Thông số: Chiều dài bàng quang; Giá trị: >80 %,"{""parameter"": ""Chiều dài bàng quang"", ""value"": 80, ""unit"": ""%"", ""operator"": "">""}",01_tanghuyetap.txt,2026-08-21T06:17:25.758Z
+Measurement:độ tuổi: < 30 tuổi,bệnh nhân < 30 tuổi,Độ tuổi: < 30 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: <30 tuổi,"{""parameter"": ""Độ tuổi"", ""operator"": ""<"", ""value"": 30, ""unit"": ""tuổi""}",01_tanghuyetap.txt,2026-08-21T06:17:29.149Z
+Measurement:chiều rộng bàng quang vòng bít: >= 40% chu vi cánh tay,chiều rộng của bàng quang bằng ít nhất 40% chu vi cánh tay,Chiều rộng bàng quang vòng bít: >= 40% chu vi cánh tay,Measurement,,,Thông số: Chiều rộng bàng quang; Giá trị: >=40 %,"{""parameter"": ""Chiều rộng bàng quang"", ""value"": 40, ""unit"": ""%"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:25.82Z
+Measurement:creatinine huyết thanh hoặc cystatin c tăng cao,creatinine huyết thanh hoặc cystatin C tăng cao,Creatinine huyết thanh hoặc cystatin C tăng cao,Measurement,,,Thông số: Creatinine huyết thanh / Cystatin C; status: tăng cao,"{""parameter"": ""Creatinine huyết thanh / Cystatin C"", ""status"": ""tăng cao""}",01_tanghuyetap.txt,2026-08-21T06:17:37.809Z
+Measurement:lượng chất kích thích nạp vào cơ thể,các chất kích thích,Lượng chất kích thích nạp vào cơ thể,Measurement,,,Thông số: Lượng chất kích thích nạp vào cơ thể,"{""parameter"": ""Lượng chất kích thích nạp vào cơ thể""}",01_tanghuyetap.txt,2026-08-21T06:17:28.466Z
+Measurement:mức giảm natri tối thiểu 1000 mg/ngày,giảm 1000 mg/ngày,Mức giảm natri tối thiểu 1000 mg/ngày,Measurement,,,Thông số: Mức giảm natri; Giá trị: >=1000 mg/ngày,"{""parameter"": ""Mức giảm natri"", ""value"": 1000, ""unit"": ""mg/ngày"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:32.236Z
+Measurement:hoạt động renin huyết tương tăng,hoạt động renin huyết tương tăng lên,Hoạt động renin huyết tương tăng,Measurement,,,Thông số: Hoạt động renin huyết tương; Giá trị: tăng,"{""parameter"": ""Hoạt động renin huyết tương"", ""value"": ""tăng""}",01_tanghuyetap.txt,2026-08-21T06:17:36.981Z
+CUI:C1271104,huyết áp,Huyết áp,Measurement,C1271104,Laboratory or Test Result / Quantitative Concept,Thông số: Huyết áp,"{""parameter"": ""Huyết áp""}",01_tanghuyetap.txt,2026-08-21T06:17:20.789Z
+Measurement:huyết áp mục tiêu < 130/80 mmhg,huyết áp dưới 130/80 mm Hg,Huyết áp mục tiêu < 130/80 mmHg,Measurement,,,Thông số: Huyết áp mục tiêu; Huyết áp 130/80 mmHg,"{""parameter"": ""Huyết áp mục tiêu"", ""systolic"": 130, ""diastolic"": 80, ""unit"": ""mmHg"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:31.414Z
+Measurement:chênh lệch huyết áp hai tay > 15mmhg,huyết áp hai tay có sự chênh lệch > 15mmHg,Chênh lệch huyết áp hai tay > 15mmHg,Measurement,,,Thông số: Chênh lệch huyết áp hai tay; Giá trị: >15 mmHg,"{""parameter"": ""Chênh lệch huyết áp hai tay"", ""operator"": "">"", ""value"": 15, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:26.324Z
+CUI:C1277633,huyết áp mục tiêu,Huyết áp mục tiêu,Measurement,C1277633,Laboratory or Test Result / Quantitative Concept,Thông số: Huyết áp mục tiêu,"{""parameter"": ""Huyết áp mục tiêu""}",01_tanghuyetap.txt,2026-08-21T06:17:32.948Z
+CUI:C0871470,huyết áp tâm thu,Huyết áp tâm thu,Measurement,C0871470,Laboratory or Test Result / Quantitative Concept,Thông số: Huyết áp tâm thu,"{""parameter"": ""Huyết áp tâm thu""}",01_tanghuyetap.txt,2026-08-21T06:17:25.941Z
+Measurement:huyết áp tâm thu >= 130 mmhg,huyết áp tâm thu (HA) >= 130 mm Hg,Huyết áp tâm thu >= 130 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: >=130 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 130, ""unit"": ""mmHg"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:17.995Z
+Measurement:huyết áp tâm thu < 120 mmhg,huyết áp tâm thu < 120 mm Hg,Huyết áp tâm thu < 120 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: <120 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 120, ""unit"": ""mmHg"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:37.872Z
+CUI:C0745136,huyết áp tâm thu >= 180 mm Hg và/hoặc huyết áp tâm trương >= 120 mm Hg,Tăng huyết áp nặng: Huyết áp tâm thu >= 180 mmHg hoặc huyết áp tâm trương >= 120 mmHg,Measurement,C0745136,Disease or Syndrome,Thông số: Tăng huyết áp nặng; Huyết áp 180/120 mmHg,"{""parameter"": ""Tăng huyết áp nặng"", ""systolic"": 180, ""diastolic"": 120, ""unit"": ""mmHg"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:24.791Z
+Measurement:huyết áp tâm thu ban đầu > 160 mmhg,huyết áp tâm thu ban đầu > 160 mm Hg,Huyết áp tâm thu ban đầu > 160 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: >160 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 160, ""unit"": ""mmHg"", ""operator"": "">""}",01_tanghuyetap.txt,2026-08-21T06:17:34.869Z
+Measurement:huyết áp tâm thu lúc nghỉ >= 130 mmhg,huyết áp tâm thu lúc nghỉ (>= 130 mmHg),Huyết áp tâm thu lúc nghỉ >= 130 mmHg,Measurement,,,Thông số: Huyết áp tâm thu lúc nghỉ; Giá trị: >=130 mmHg,"{""parameter"": ""Huyết áp tâm thu lúc nghỉ"", ""value"": 130, ""unit"": ""mmHg"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:16.847Z
+Measurement:huyết áp tâm thu tăng nhẹ: 120 - 129 mmhg,huyết áp tâm thu từ 120 đến 129 mm Hg,Huyết áp tâm thu tăng nhẹ: 120 - 129 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; min_value: 120; max_value: 129,"{""parameter"": ""Huyết áp tâm thu"", ""min_value"": 120, ""max_value"": 129, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:37.155Z
+Measurement:huyết áp tâm thu: 120 - 129 mmhg,huyết áp tâm thu từ 120 đến 129 mm Hg,Huyết áp tâm thu: 120 - 129 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; min_value: 120; max_value: 129,"{""parameter"": ""Huyết áp tâm thu"", ""min_value"": 120, ""max_value"": 129, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:24.247Z
+Measurement:huyết áp tâm thu mục tiêu gần 120 mmhg,huyết áp tâm thu xuống đến gần 120 mmHg,Huyết áp tâm thu mục tiêu gần 120 mmHg,Measurement,,,Thông số: Huyết áp tâm thu; Giá trị: 120 mmHg,"{""parameter"": ""Huyết áp tâm thu"", ""value"": 120, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:31.6Z
+CUI:C0428883,huyết áp tâm trương,Huyết áp tâm trương,Measurement,C0428883,Laboratory or Test Result / Quantitative Concept,Thông số: Huyết áp tâm trương,"{""parameter"": ""Huyết áp tâm trương""}",01_tanghuyetap.txt,2026-08-21T06:17:26.018Z
+Measurement:huyết áp tâm trương >= 80 mmhg,huyết áp tâm trương >= 80 mm Hg,Huyết áp tâm trương >= 80 mmHg,Measurement,,,Thông số: Huyết áp tâm trương; Giá trị: >=80 mmHg,"{""parameter"": ""Huyết áp tâm trương"", ""value"": 80, ""unit"": ""mmHg"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:18.055Z
+Measurement:huyết áp tâm trương gần 60 mmhg,huyết áp tâm trương gần 60 mm Hg,Huyết áp tâm trương gần 60 mmHg,Measurement,,,Thông số: Huyết áp tâm trương; Giá trị: 60 mmHg,"{""parameter"": ""Huyết áp tâm trương"", ""value"": 60, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:37.937Z
+Measurement:huyết áp tâm trương lúc nghỉ >= 80 mmhg,huyết áp tâm trương lúc nghỉ (>= 80 mm Hg),Huyết áp tâm trương lúc nghỉ >= 80 mmHg,Measurement,,,Thông số: Huyết áp tâm trương lúc nghỉ; Giá trị: >=80 mmHg,"{""parameter"": ""Huyết áp tâm trương lúc nghỉ"", ""value"": 80, ""unit"": ""mmHg"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:16.926Z
+Measurement:huyết áp tâm trương dung nạp được: 60 - 65 mmhg,huyết áp tâm trương thấp tới 60 đến 65 mm Hg,Huyết áp tâm trương dung nạp được: 60 - 65 mmHg,Measurement,,,Thông số: Huyết áp tâm trương; min_value: 60; max_value: 65,"{""parameter"": ""Huyết áp tâm trương"", ""min_value"": 60, ""max_value"": 65, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:31.539Z
+Measurement:huyết áp tại phòng khám,huyết áp tại phòng khám,Huyết áp tại phòng khám,Measurement,,,Thông số: Huyết áp tại phòng khám,"{""parameter"": ""Huyết áp tại phòng khám""}",01_tanghuyetap.txt,2026-08-21T06:17:35.872Z
+Measurement:huyết áp không đạt mục tiêu,huyết áp vẫn cao hơn mục tiêu,Huyết áp không đạt mục tiêu,Measurement,,,Thông số: Huyết áp; status: không kiểm soát,"{""parameter"": ""Huyết áp"", ""operator"": "">"", ""status"": ""không kiểm soát""}",01_tanghuyetap.txt,2026-08-21T06:17:34.998Z
+Measurement:huyết áp chân thấp hơn tay,huyết áp ở chân thấp hơn đáng kể so với ở tay,Huyết áp chân thấp hơn tay,Measurement,,,Thông số: Chênh lệch huyết áp chân - tay; description: Huyết áp chân thấp hơn tay,"{""parameter"": ""Chênh lệch huyết áp chân - tay"", ""description"": ""Huyết áp chân thấp hơn tay""}",01_tanghuyetap.txt,2026-08-21T06:17:26.447Z
+CUI:C0020621,"kali huyết tương thấp (< 3,5 mmol/L [ < 3,5 mmol/L])",Nồng độ kali huyết tương < 3.5 mmol/L,Measurement,C0020621,Finding,Thông số: Nồng độ kali huyết tương; Giá trị: <3.5 mmol/L,"{""parameter"": ""Nồng độ kali huyết tương"", ""value"": 3.5, ""unit"": ""mmol/L"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:22.346Z
+Measurement:thời gian kiêng vận động/chất kích thích: >= 30 phút,"không tập thể dục, không sử dụng caffeine hoặc thuốc lá trong ít nhất 30 phút",Thời gian kiêng vận động/chất kích thích: >= 30 phút,Measurement,,,Thông số: Thời gian kiêng; Giá trị: >=30 phút,"{""parameter"": ""Thời gian kiêng"", ""value"": 30, ""unit"": ""phút"", ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:25.693Z
+CUI:C0489645,lượng muối,Lượng muối nạp vào cơ thể,Measurement,C0489645,Finding,Thông số: Lượng muối nạp vào cơ thể,"{""parameter"": ""Lượng muối nạp vào cơ thể""}",01_tanghuyetap.txt,2026-08-21T06:17:28.385Z
+Measurement:tăng huyết áp tâm thu do lượng natri lớn: 10 - 20 mmhg,lượng natri lớn (ví dụ: bữa ăn mặn) có thể làm tăng huyết áp tâm thu từ 10 đến 20 mm Hg,Tăng huyết áp tâm thu do lượng natri lớn: 10 - 20 mmHg,Measurement,,,Thông số: Tăng huyết áp tâm thu; min_value: 10; max_value: 20,"{""parameter"": ""Tăng huyết áp tâm thu"", ""min_value"": 10, ""max_value"": 20, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:37.095Z
+Measurement:nguy cơ tăng huyết áp kéo dài: 3-4 lần trong 7-10 năm,nguy cơ tăng huyết áp kéo dài từ 3 đến 4 lần sau 7 năm đến 10 năm,Nguy cơ tăng huyết áp kéo dài: 3-4 lần trong 7-10 năm,Measurement,,,Thông số: Nguy cơ tăng huyết áp kéo dài; min_value: 3; max_value: 4; time_frame: 7-10 năm,"{""parameter"": ""Nguy cơ tăng huyết áp kéo dài"", ""min_value"": 3, ""max_value"": 4, ""time_frame"": ""7-10 năm""}",01_tanghuyetap.txt,2026-08-21T06:17:26.984Z
+Measurement:thời gian nghỉ trước đo huyết áp: > 5 phút,ngồi trên ghế (không phải trên bàn khám) trong > 5 phút,Thời gian nghỉ trước đo huyết áp: > 5 phút,Measurement,,,Thông số: Thời gian nghỉ; Giá trị: >5 phút,"{""parameter"": ""Thời gian nghỉ"", ""value"": 5, ""unit"": ""phút"", ""operator"": "">""}",01_tanghuyetap.txt,2026-08-21T06:17:25.612Z
+Measurement:nồng độ angiotensin ii thấp,nồng độ angiotensin II thấp,Nồng độ angiotensin II thấp,Measurement,,,Thông số: Nồng độ angiotensin II; Giá trị: thấp,"{""parameter"": ""Nồng độ angiotensin II"", ""value"": ""thấp""}",01_tanghuyetap.txt,2026-08-21T06:17:22.681Z
+Measurement:nồng độ catecholamine huyết tương khi nghỉ ngơi cao hơn bình thường,nồng độ catecholamine trong huyết tương khi nghỉ ngơi cao hơn bình thường,Nồng độ catecholamine huyết tương khi nghỉ ngơi cao hơn bình thường,Measurement,,,Thông số: Nồng độ catecholamine huyết tương; Giá trị: >bình thường,"{""parameter"": ""Nồng độ catecholamine huyết tương"", ""operator"": "">"", ""value"": ""bình thường""}",01_tanghuyetap.txt,2026-08-21T06:17:21.881Z
+Measurement:nồng độ renin thấp,nồng độ renin có xu hướng thấp,Nồng độ renin thấp,Measurement,,,Thông số: Nồng độ renin; Giá trị: thấp,"{""parameter"": ""Nồng độ renin"", ""value"": ""thấp""}",01_tanghuyetap.txt,2026-08-21T06:17:22.62Z
+Measurement:tăng huyết áp tâm thu: 10 - 20 mmhg,tăng huyết áp tâm thu từ 10 đến 20 mm Hg,Tăng huyết áp tâm thu: 10 - 20 mmHg,Measurement,,,Thông số: Tăng huyết áp tâm thu; min_value: 10; max_value: 20,"{""parameter"": ""Tăng huyết áp tâm thu"", ""min_value"": 10, ""max_value"": 20, ""unit"": ""mmHg""}",01_tanghuyetap.txt,2026-08-21T06:17:23.444Z
+Measurement:tỷ lệ sống thêm sau 1 năm < 10%,tỷ lệ sống thêm sau 1 năm là < 10%,Tỷ lệ sống thêm sau 1 năm < 10%,Measurement,,,Thông số: Tỷ lệ sống thêm sau 1 năm; Giá trị: <10 %,"{""parameter"": ""Tỷ lệ sống thêm sau 1 năm"", ""value"": 10, ""unit"": ""%"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:36.394Z
+Measurement:tỷ lệ sống thêm sau 1 năm < 5%,tỷ lệ sống thêm sau 1 năm là < 5%,Tỷ lệ sống thêm sau 1 năm < 5%,Measurement,,,Thông số: Tỷ lệ sống thêm sau 1 năm; Giá trị: <5 %,"{""parameter"": ""Tỷ lệ sống thêm sau 1 năm"", ""value"": 5, ""unit"": ""%"", ""operator"": ""<""}",01_tanghuyetap.txt,2026-08-21T06:17:38.629Z
+CUI:C0002006,Aldosterone,Aldosterone,Mechanism,C0002006,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.22Z
+CUI:C0007165,CO,Cung lượng tim,Mechanism,C0007165,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.864Z
+CUI:C0086907,Hệ renin-angiotensin-aldosterone,Hệ renin-angiotensin-aldosterone,Mechanism,C0086907,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.944Z
+CUI:C0039044,Hệ thần kinh giao cảm,Hệ thần kinh giao cảm,Mechanism,C0039044,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.558Z
+CUI:C0035094,Renin,Renin,Mechanism,C0035094,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-21T06:17:22.005Z
+CUI:C1258192,TPR,Sức cản mạch ngoại vi,Mechanism,C1258192,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.925Z
+CUI:C0020428,Tăng aldosteron,Tăng aldosteron,Mechanism,C0020428,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.121Z
+CUI:C4521302,angiotensin,Angiotensin,Mechanism,C4521302,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.138Z
+CUI:C3714928,angiotensin II,Angiotensin II,Mechanism,C3714928,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-21T06:17:22.16Z
+CUI:C0006100,bradykinin,Bradykinin,Mechanism,C0006100,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-21T06:17:23.014Z
+CUI:C1149024,"bơm natri-kali (Na+, K+-ATPase)","Na+, K+-ATPase",Mechanism,C1149024,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.35Z
+Mechanism:cơ chế phụ thuộc renin,cơ chế phụ thuộc renin,Cơ chế phụ thuộc renin,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.895Z
+Mechanism:cơ chế phụ thuộc thể tích tuần hoàn,cơ chế phụ thuộc thể tích tuần hoàn,Cơ chế phụ thuộc thể tích tuần hoàn,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.955Z
+CUI:C1149114,endothelin,Endothelin,Mechanism,C1149114,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.506Z
+CUI:C1452534,enzym chuyển đổi angiotensin (ACE),ACE,Mechanism,C1452534,"Amino Acid, Peptide, or Protein",,{},01_tanghuyetap.txt,2026-08-21T06:17:22.081Z
+CUI:C0035096,hoạt động của hệ renin-angiotensin,Hệ renin-angiotensin,Mechanism,C0035096,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.926Z
+Mechanism:hẹp lòng tiểu động mạch,hẹp lòng tiểu động mạch,Hẹp lòng tiểu động mạch,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.102Z
+CUI:C0038996,kích thích thần kinh giao cảm,Kích thích thần kinh giao cảm,Mechanism,C0038996,Organ or Tissue Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.49Z
+Mechanism:nồng độ natri và canxi nội bào,lượng natri và canxi nội bào,Nồng độ natri và canxi nội bào,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.41Z
+CUI:C0028351,norepinephrine,Norepinephrine,Mechanism,C0028351,Organic Chemical,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.549Z
+CUI:C0028128,oxit nitric,Oxit nitric,Mechanism,C0028128,Pharmacologic Substance,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.077Z
+"Mechanism:phì đại, tăng sản và hyalin hóa lớp giữa tiểu động mạch","phì đại, tăng sản và hyalin hóa","Phì đại, tăng sản và hyalin hóa lớp giữa tiểu động mạch",Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.977Z
+CUI:C0856169,rối loạn chức năng tế bào nội mô,Rối loạn chức năng tế bào nội mô,Mechanism,C0856169,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.569Z
+CUI:C0032127,thể tích huyết tương,Thể tích huyết tương,Mechanism,C0032127,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.848Z
+CUI:C0033093,thụ thể áp suất,Thụ thể áp suất,Mechanism,C0033093,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.49Z
+Mechanism:tăng cortisol cận lâm sàng,tăng cortisol cận lâm sàng,Tăng cortisol cận lâm sàng,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.185Z
+Mechanism:tăng hoạt động hệ giao cảm,tăng hoạt động của hệ giao cảm,Tăng hoạt động hệ giao cảm,Mechanism,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.821Z
+CUI:C1705480,vasopressin,Vasopressin,Mechanism,C1705480,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:22.286Z
+CUI:C1331537,xơ cứng động mạch chủ,Xơ cứng động mạch chủ,Mechanism,C1331537,Pathologic Function / Physiologic Function,,{},01_tanghuyetap.txt,2026-08-21T06:17:21.29Z
+CUI:C3714787,hệ thần kinh trung ương (CNS),Hệ thần kinh trung ương,Organ,C3714787,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:30.997Z
+CUI:C0007226,hệ tim mạch,Tim mạch,Organ,C0007226,Body System,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.695Z
+"Organ:hệ tim mạch, não, thận","hệ tim mạch, não và thận","Hệ tim mạch, não, thận",Organ,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.517Z
+"Organ:cơ quan đích (tim mạch, não, thận)","hệ tim mạch, não và thận","Cơ quan đích (Tim mạch, Não, Thận)",Organ,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:38.694Z
+CUI:C4266572,mắt,Mắt,Organ,C4266572,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:24.041Z
+CUI:C0006104,não,Não,Organ,C0006104,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:17.376Z
 CUI:C0024109,phổi,Phổi,Organ,C0024109,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:28.587Z
-CUI:C0022646,thận,Thận,Organ,C0022646,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:23.979Z
-CUI:C0018787,tim,Tim,Organ,C0018787,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:23.917Z
-CUI:C0225828,tế bào cơ tim,Tế bào cơ tim,Organ,C0225828,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:27.93Z
-CUI:C1448047,tế bào cơ trơn thành mạch,Tế bào cơ trơn thành mạch,Organ,C1448047,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:28.009Z
-CUI:C0035298,võng mạc,Võng mạc,Organ,C0035298,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:41.661Z
-CUI:C0006087,động mạch cánh tay,Động mạch cánh tay,Organ,C0006087,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:31.6Z
-CUI:C0162859,động mạch cảnh,Động mạch cảnh,Organ,C0162859,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:40.863Z
-CUI:C0032649,động mạch khoeo,Động mạch khoeo,Organ,C0032649,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:31.877Z
-CUI:C0162857,động mạch quay,Động mạch quay,Organ,C0162857,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-20T15:58:31.718Z
-CUI:C0549206,mang thai,Mang thai,PatientGroup,C0549206,Population Group / Age Group,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.637Z
-CUI:C0086555,Cam thảo,Cam thảo,RiskFactor,C0086555,Organic Chemical,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.898Z
-CUI:C0037316,Thời gian ngủ ngắn,Thời gian ngủ ngắn,RiskFactor,C0037316,Finding,Ngưỡng: < 5 hoặc 6 giờ/đêm,"{""threshold"": ""< 5 hoặc 6 giờ/đêm""}",01_tanghuyetap.txt,2026-08-20T15:58:38.273Z
-CUI:C0009488,bệnh đi kèm,Bệnh đi kèm,RiskFactor,C0009488,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.719Z
-CUI:C0455405,cha mẹ bị tăng huyết áp,Tiền sử gia đình tăng huyết áp,RiskFactor,C0455405,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:27.868Z
-CUI:C0304402,chất kích thích,Chất kích thích,RiskFactor,C0304402,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.045Z
-CUI:C1301624,chống chỉ định,Chống chỉ định,RiskFactor,C1301624,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.776Z
-CUI:C0009170,cocaine,Cocaine,RiskFactor,C0009170,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:26.839Z
-CUI:C0038443,căng thẳng,Căng thẳng,RiskFactor,C0038443,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.469Z
-CUI:C0746935,không tuân thủ điều trị,Không tuân thủ điều trị,RiskFactor,C0746935,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.462Z
-CUI:C0013220,khả năng dung nạp,Khả năng dung nạp,RiskFactor,C0013220,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.843Z
-CUI:C0037570,muối,Muối,RiskFactor,C0037570,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:25.391Z
-RiskFactor:ăn nhiều muối,natri trong chế độ ăn,Ăn nhiều muối,RiskFactor,,,age_group: > 65 tuổi,"{""age_group"": ""> 65 tuổi""}",01_tanghuyetap.txt,2026-08-20T15:58:42.976Z
-CUI:C0001948,rượu,Rượu,RiskFactor,C0001948,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.963Z
+CUI:C0022646,thận,Thận,Organ,C0022646,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:17.523Z
+CUI:C0018787,tim,Tim,Organ,C0018787,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:17.461Z
+CUI:C0225828,tế bào cơ tim,Tế bào cơ tim,Organ,C0225828,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:21.61Z
+CUI:C1448047,tế bào cơ trơn thành mạch,Tế bào cơ trơn thành mạch,Organ,C1448047,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:21.698Z
+CUI:C0035298,võng mạc,Võng mạc,Organ,C0035298,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:38.545Z
+CUI:C0006087,động mạch cánh tay,Động mạch cánh tay,Organ,C0006087,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:26.078Z
+CUI:C0032649,động mạch khoeo,Động mạch khoeo,Organ,C0032649,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:26.199Z
+CUI:C0162857,động mạch quay,Động mạch quay,Organ,C0162857,"Body Part, Organ, or Organ Component",,{},01_tanghuyetap.txt,2026-08-21T06:17:26.138Z
+"PatientGroup:nhóm nguy cơ cao: nam giới, người da đen, bệnh nhân tiểu đường","nam giới, người da đen không phải gốc Tây Ban Nha và những người mắc bệnh tiểu đường","Nhóm nguy cơ cao: nam giới, người da đen, bệnh nhân tiểu đường",PatientGroup,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.857Z
+"PatientGroup:nhóm nguy cơ cao: trẻ em, người lớn tuổi, nữ giới","trẻ em, người lớn tuổi, nữ giới","Nhóm nguy cơ cao: trẻ em, người lớn tuổi, nữ giới",PatientGroup,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.777Z
+CUI:C0086555,Cam thảo,Cam thảo,RiskFactor,C0086555,Organic Chemical,,{},01_tanghuyetap.txt,2026-08-21T06:17:20.647Z
+CUI:C0017398,Di truyền,Di truyền,RiskFactor,C0017398,Biomedical Occupation or Discipline,,{},01_tanghuyetap.txt,2026-08-20T14:17:01.406Z
+CUI:C0746935,Việc không tuân thủ điều trị,Không tuân thủ điều trị,RiskFactor,C0746935,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.062Z
+CUI:C0028754,béo phì,Béo phì,RiskFactor,C0028754,Disease or Syndrome,,{},01_tanghuyetap.txt,2026-08-20T14:17:07.555Z
+CUI:C0009488,bệnh đi kèm,Bệnh đi kèm,RiskFactor,C0009488,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.155Z
+CUI:C0237123,chất kích thích,Sử dụng chất kích thích,RiskFactor,C0237123,Mental or Behavioral Dysfunction,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.306Z
+CUI:C1301624,chống chỉ định,Chống chỉ định,RiskFactor,C1301624,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.218Z
+CUI:C5238898,"các chất kích thích (ví dụ: trà, cà phê, nước ngọt có chứa caffeine, nước tăng lực)",Tiêu thụ caffeine,RiskFactor,C5238898,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:37.552Z
+CUI:C0038443,căng thẳng,Căng thẳng,RiskFactor,C0038443,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.133Z
+CUI:C0013220,khả năng dung nạp,Khả năng dung nạp thuốc,RiskFactor,C0013220,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.281Z
+CUI:C0001811,lão hóa,Lão hóa,RiskFactor,C0001811,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T14:17:05.436Z
+RiskFactor:lượng natri cao,lượng natri cao,Lượng natri cao,RiskFactor,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.76Z
+RiskFactor:lượng natri lớn,lượng natri lớn,Lượng natri lớn,RiskFactor,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:23.384Z
+CUI:C1706180,nam giới,Nam giới,RiskFactor,C1706180,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.128Z
+RiskFactor:ăn nhiều muối,natri trong chế độ ăn,Ăn nhiều muối,RiskFactor,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:19.053Z
+RiskFactor:người da đen không phải gốc tây ban nha,người da đen không phải gốc Tây Ban Nha,Người da đen không phải gốc Tây Ban Nha,RiskFactor,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.189Z
+CUI:C0001948,rượu,Sử dụng rượu,RiskFactor,C0001948,Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.242Z
 CUI:C0453996,thuốc lá,Hút thuốc lá,RiskFactor,C0453996,Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:31.328Z
-CUI:C0543414,thuốc lá,Thuốc lá,RiskFactor,C0543414,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.803Z
-CUI:C0242383,tuổi,Tuổi,RiskFactor,C0242383,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:24.72Z
-CUI:C0035648,yếu tố nguy cơ,Yếu tố nguy cơ,RiskFactor,C0035648,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.872Z
-Sign:huyết áp chân thấp hơn tay,huyết áp ở chân thấp hơn đáng kể so với ở tay,Huyết áp chân thấp hơn tay,Sign,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.149Z
-Sign:mạch đùi giảm hoặc chậm,mạch đùi giảm hoặc chậm,Mạch đùi giảm hoặc chậm,Sign,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.803Z
-CUI:C0542518,thận to,Thận to,Sign,C0542518,Finding,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.686Z
-CUI:C0018808,tiếng thổi,Tiếng thổi,Sign,C0018808,Finding,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.533Z
-Sign:tiếng thổi động mạch thận,tiếng thổi động mạch thận,Tiếng thổi động mạch thận,Sign,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.925Z
-CUI:C0035317,xuất huyết võng mạc,Xuất huyết võng mạc,Sign,C0035317,Finding,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.646Z
-CUI:C0027498,buồn nôn và nôn,Buồn nôn và nôn,Symptom,C0027498,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.838Z
-CUI:C0036572,co giật,Co giật,Symptom,C0036572,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.496Z
-CUI:C0013404,khó thở,Khó thở,Symptom,C0013404,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.781Z
-CUI:C0746857,triệu chứng thần kinh khu trú,Triệu chứng thần kinh khu trú,Symptom,C0746857,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.57Z
-CUI:C0008031,đau ngực,Đau ngực,Symptom,C0008031,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-20T15:58:39.723Z
-CUI:C0562238,Khám bụng,Khám bụng,Test,C0562238,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.619Z
-Test:thời gian tăng huyết áp,Thời gian tăng huyết áp,Thời gian tăng huyết áp,Test,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.073Z
+CUI:C0455405,tiền sử gia đình bị tăng huyết áp,Tiền sử gia đình bị tăng huyết áp,RiskFactor,C0455405,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.307Z
+CUI:C0242383,tuổi,Tuổi,RiskFactor,C0242383,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:18.25Z
+CUI:C0035648,yếu tố nguy cơ,Yếu tố nguy cơ,RiskFactor,C0035648,Finding / Individual Behavior,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.127Z
+CUI:C0027498,buồn nôn và nôn,Buồn nôn và nôn,Sign,C0027498,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.338Z
+CUI:C0036572,co giật,Co giật,Sign,C0036572,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.995Z
+CUI:C0020621,hạ kali máu,Hạ kali máu,Sign,C0020621,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.172Z
+CUI:C0013404,khó thở,Khó thở,Sign,C0013404,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.273Z
+Sign:mạch đùi giảm hoặc chậm,mạch đùi giảm hoặc chậm,Mạch đùi giảm hoặc chậm,Sign,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.085Z
+Sign:mạch đập chậm hoặc yếu ở đùi,mạch đập chậm hoặc yếu ở đùi,Mạch đập chậm hoặc yếu ở đùi,Sign,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.509Z
+CUI:C0033687,protein niệu,Protein niệu,Sign,C0033687,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.541Z
+CUI:C0542518,thận to,Thận to,Sign,C0542518,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.959Z
+CUI:C0018808,tiếng thổi,Tiếng thổi,Sign,C0018808,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.805Z
+Sign:tiếng thổi động mạch thận,tiếng thổi động mạch thận một bên,Tiếng thổi động mạch thận,Sign,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.212Z
+CUI:C0746857,triệu chứng thần kinh khu trú,Triệu chứng thần kinh khu trú,Sign,C0746857,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.082Z
+CUI:C0035317,xuất huyết võng mạc,Xuất huyết võng mạc,Sign,C0035317,Finding,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.145Z
+CUI:C0008031,đau ngực,Đau ngực,Sign,C0008031,Sign or Symptom,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.21Z
+CUI:C0200382,Bảng xét nghiệm lipid,Bảng xét nghiệm lipid,Test,C0200382,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:11.583Z
+CUI:C0562238,Khám bụng,Khám bụng,Test,C0562238,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.896Z
+CUI:C0042014,Phân tích nước tiểu,Phân tích nước tiểu,Test,C0042014,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:11.363Z
+Test:thời gian tăng huyết áp,Thời gian tăng huyết áp,Thời gian tăng huyết áp,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.5Z
 CUI:C0262926,Tiền sử,Tiền sử,Test,C0262926,Finding,,{},01_tanghuyetap.txt,2026-08-20T15:58:31.02Z
-CUI:C0424975,Tiền sử xã hội,Tiền sử xã hội,Test,C0424975,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.671Z
-CUI:C0425401,Tiền sử ăn kiêng,Tiền sử ăn kiêng,Test,C0425401,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.101Z
-Test:tần số mạch khi nghỉ cao,Tần số mạch khi nghỉ cao,Tần số mạch khi nghỉ cao,Test,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.074Z
-CUI:C0519825,bảng xét nghiệm chuyển hóa đầy đủ,Bảng xét nghiệm chuyển hóa đầy đủ,Test,C0519825,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.401Z
-CUI:C0006675,canxi,Canxi,Test,C0006675,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.634Z
-CUI:C0040405,chụp CT,Chụp CT,Test,C0040405,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.134Z
-CUI:C2316260,chụp MRI ngực,Chụp MRI ngực,Test,C2316260,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.191Z
-CUI:C0201975,creatinine,Creatinine,Test,C0201975,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.458Z
-CUI:C0071744,cystatin C,Cystatin C,Test,C0071744,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.517Z
-CUI:C0086143,các xét nghiệm cận lâm sàng,Xét nghiệm cận lâm sàng,Test,C0086143,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:31.154Z
-CUI:C0202230,hormone kích thích tuyến giáp (TSH),TSH,Test,C0202230,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.246Z
-CUI:C0032821,kali,Kali,Test,C0032821,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.576Z
-Test:soi đáy mắt,kiểm tra đáy mắt,Soi đáy mắt,Test,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.273Z
-CUI:C1526495,metanephrine tự do trong huyết tương,Metanephrine tự do trong huyết tương,Test,C1526495,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.76Z
-CUI:C5818794,mức huyết áp,mức huyết áp,Test,C5818794,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:33.133Z
-CUI:C5238609,nghe bụng,Nghe bụng,Test,C5238609,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.465Z
-CUI:C0018793,nghe tim,Nghe tim,Test,C0018793,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.392Z
-CUI:C0162701,nghiên cứu về giấc ngủ,Nghiên cứu giấc ngủ,Test,C0162701,Diagnostic Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.821Z
-CUI:C0364188,nồng độ catecholamine trong huyết tương,Nồng độ catecholamine huyết tương,Test,C0364188,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:28.216Z
-CUI:C0203408,siêu âm thận,Siêu âm thận,Test,C0203408,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.282Z
+CUI:C0519825,bảng xét nghiệm chuyển hóa đầy đủ,Bảng xét nghiệm chuyển hóa đầy đủ,Test,C0519825,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.67Z
+CUI:C0006675,canxi,Canxi,Test,C0006675,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.924Z
+CUI:C0040405,chụp CT,Chụp CT,Test,C0040405,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.464Z
+CUI:C2316260,chụp MRI ngực,Chụp MRI ngực,Test,C2316260,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.528Z
+CUI:C0201975,creatinine,Creatinine,Test,C0201975,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.732Z
+CUI:C0071744,cystatin C,Cystatin C,Test,C0071744,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.796Z
+CUI:C0005824,các chỉ số huyết áp,Chỉ số huyết áp,Test,C0005824,Health Care Activity,,{},01_tanghuyetap.txt,2026-08-20T14:17:00.028Z
+CUI:C0086143,các xét nghiệm cận lâm sàng,Xét nghiệm cận lâm sàng,Test,C0086143,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:25.359Z
+CUI:C0583513,glucose huyết tương lúc đói,Glucose huyết tương lúc đói,Test,C0583513,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:11.972Z
+Test:huyết áp trung bình của 2 hoặc 3 lần đo,huyết áp trung bình của 2 hoặc 3 lần đo,Huyết áp trung bình của 2 hoặc 3 lần đo,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:37.219Z
+Test:huyết áp trung bình (2-3 lần đo),huyết áp trung bình của 2 hoặc 3 lần đo,Huyết áp trung bình (2-3 lần đo),Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:25.533Z
+CUI:C0032821,kali,Kali,Test,C0032821,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.86Z
+CUI:C0031809,khám thực thể,Khám thực thể,Test,C0031809,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:07.16Z
+CUI:C1444586,kiểm tra đáy mắt,Kiểm tra đáy mắt,Test,C1444586,Diagnostic Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.531Z
+Test:soi đáy mắt,kiểm tra đáy mắt,Soi đáy mắt,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:37.617Z
+CUI:C5818794,mức huyết áp,Mức huyết áp,Test,C5818794,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.563Z
+Test:mức huyết áp ghi nhận trước đó,mức huyết áp được ghi nhận trước đó,Mức huyết áp ghi nhận trước đó,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:37.427Z
+CUI:C5419730,mức độ tập thể dục,Mức độ tập thể dục,Test,C5419730,Quantitative Concept,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.096Z
+CUI:C5238609,nghe bụng,Nghe bụng,Test,C5238609,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.742Z
+CUI:C0018793,nghe tim,Nghe tim,Test,C0018793,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:28.66Z
+CUI:C0162701,nghiên cứu về giấc ngủ,Nghiên cứu giấc ngủ,Test,C0162701,Diagnostic Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.111Z
+CUI:C0203408,siêu âm thận,Siêu âm thận,Test,C0203408,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.536Z
 CUI:C0013516,siêu âm tim,Siêu âm tim,Test,C0013516,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:36.02Z
-CUI:C0242876,theo dõi huyết áp lưu động,Theo dõi huyết áp lưu động,Test,C0242876,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.989Z
-Test:thiết bị đo dao động tự động,thiết bị đo dao động hoàn toàn tự động,Thiết bị đo dao động tự động,Test,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:31.935Z
-CUI:C0455271,tỷ lệ albumin/creatinin niệu,Tỷ lệ albumin/creatinin niệu,Test,C0455271,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:35.216Z
-Test:đánh giá mạch ngoại biên,Đánh giá mạch ở động mạch ngoại biên,Đánh giá mạch ngoại biên,Test,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:34.744Z
-CUI:C1449681,đo huyết áp tại nhà,Đo huyết áp tại nhà,Test,C1449681,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:32.932Z
-CUI:C0452415,Chế độ ăn uống lành mạnh,Chế độ ăn uống lành mạnh,Treatment,C0452415,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.736Z
-CUI:C0430141,Giảm lượng natri,Giảm lượng natri,Treatment,C0430141,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.795Z
-CUI:C3898150,Liệu pháp kích hoạt Baroreflex,Liệu pháp kích hoạt Baroreflex,Treatment,C3898150,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.728Z
-CUI:C0086153,Sự thay đổi chế độ ăn,Thay đổi chế độ ăn,Treatment,C0086153,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.345Z
-Treatment:thời gian ngủ đủ giấc,Thời gian ngủ đủ giấc,Thời gian ngủ đủ giấc,Treatment,,,duration: >= 6 giờ/đêm,"{""duration"": "">= 6 giờ/đêm""}",01_tanghuyetap.txt,2026-08-20T15:58:38.201Z
-CUI:C4722257,Tăng cường hoạt động thể chất,Tăng cường hoạt động thể chất,Treatment,C4722257,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.605Z
-CUI:C0561938,Tăng lượng kali,Tăng lượng kali,Treatment,C0561938,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.97Z
-Treatment:uống rượu vừa phải,Uống rượu vừa phải,Uống rượu vừa phải,Treatment,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.028Z
-CUI:C0452319,Uống rượu vừa phải,Hạn chế rượu,Treatment,C0452319,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:43.451Z
-Treatment:chương trình tập luyện có cấu trúc,chương trình tập luyện có cấu trúc,Chương trình tập luyện có cấu trúc,Treatment,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.663Z
-CUI:C0419171,kiểm soát huyết áp,Kiểm soát huyết áp,Treatment,C0419171,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:37.064Z
-CUI:C0580105,thay đổi điều trị bằng thuốc,Thay đổi điều trị bằng thuốc,Treatment,C0580105,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.403Z
-CUI:C5923646,triệt đốt dây thần kinh giao cảm ở động mạch thận,Triệt đốt thần kinh giao cảm động mạch thận,Treatment,C5923646,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:40.593Z
-Treatment:tối ưu hóa tuân thủ phác đồ,tối ưu hóa việc tuân thủ phác đồ,Tối ưu hóa tuân thủ phác đồ,Treatment,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.581Z
-Treatment:đánh giá lại thường xuyên,đánh giá lại thường xuyên,Đánh giá lại thường xuyên,Treatment,,,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.52Z
-CUI:C4763675,đơn trị liệu,Đơn trị liệu,Treatment,C4763675,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T15:58:38.902Z
+CUI:C0242876,theo dõi huyết áp lưu động,Theo dõi huyết áp lưu động,Test,C0242876,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.438Z
+Test:thiết bị đo dao động tự động,thiết bị đo dao động hoàn toàn tự động,Thiết bị đo dao động tự động,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:26.26Z
+CUI:C0455271,tỷ lệ albumin/creatinin niệu,Tỷ lệ albumin/creatinin niệu,Test,C0455271,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.469Z
+Test:xét nghiệm chẩn đoán tăng huyết áp,"xét nghiệm nước tiểu, tỷ lệ albumin:creatinine trong nước tiểu, xét nghiệm máu (creatinine, kali, natri, canxi, đường huyết lúc đói, bảng lipid và thường là hormone kích thích tuyến giáp) và ECG",Xét nghiệm chẩn đoán tăng huyết áp,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:36.599Z
+Test:đánh giá mạch ngoại biên,Đánh giá mạch ở động mạch ngoại biên,Đánh giá mạch ngoại biên,Test,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:29.022Z
+CUI:C1623258,điện tâm đồ,ECG,Test,C1623258,Diagnostic Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:12.235Z
+CUI:C0202230,đo hormone kích thích tuyến giáp (TSH),Đo TSH,Test,C0202230,Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.591Z
+CUI:C1449681,đo huyết áp tại nhà,Đo huyết áp tại nhà,Test,C1449681,Diagnostic Procedure / Laboratory Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:27.375Z
+CUI:C4036964,đo lượng metanephrine tự do trong huyết tương,Đo lượng metanephrine tự do trong huyết tương,Test,C4036964,Clinical Attribute,,{},01_tanghuyetap.txt,2026-08-21T06:17:30.05Z
+Treatment:phác đồ 2 loại thuốc,2 loại thuốc,Phác đồ 2 loại thuốc,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.668Z
+Treatment:phác đồ >= 4 loại thuốc hạ huyết áp,4 loại thuốc trở lên,Phác đồ >= 4 loại thuốc hạ huyết áp,Treatment,,,Thông số: Số lượng thuốc; min_value: 4,"{""parameter"": ""Số lượng thuốc"", ""min_value"": 4, ""operator"": "">=""}",01_tanghuyetap.txt,2026-08-21T06:17:38.384Z
+CUI:C0452415,Chế độ ăn uống lành mạnh,Chế độ ăn uống lành mạnh,Treatment,C0452415,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.043Z
+CUI:C0086153,Chế độ ăn uống lành mạnh,Thay đổi chế độ ăn uống,Treatment,C0086153,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.748Z
+CUI:C0454378,Các biện pháp điều trị không dùng thuốc,Các biện pháp điều trị không dùng thuốc,Treatment,C0454378,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:00.121Z
+CUI:C0030688,Giáo dục,Giáo dục bệnh nhân,Treatment,C0030688,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-20T14:17:17.308Z
+CUI:C0012169,Giảm lượng natri trong chế độ ăn,Giảm lượng natri trong chế độ ăn,Treatment,C0012169,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.108Z
+CUI:C3898150,Liệu pháp kích hoạt Baroreflex,Liệu pháp kích hoạt Baroreflex,Treatment,C3898150,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.416Z
+CUI:C4722257,Tăng cường hoạt động thể chất,Tăng cường hoạt động thể chất,Treatment,C4722257,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.908Z
+Treatment:tăng lượng kali ăn vào,Tăng lượng kali ăn vào,Tăng lượng kali ăn vào,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.301Z
+Treatment:uống rượu vừa phải,Uống rượu vừa phải,Uống rượu vừa phải,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.367Z
+CUI:C5958903,chuyên gia về tăng huyết áp,Chuyên gia tăng huyết áp,Treatment,C5958903,Professional or Occupational Group,,{},01_tanghuyetap.txt,2026-08-21T06:17:34.805Z
+Treatment:chương trình tập luyện có cấu trúc,chương trình tập luyện có cấu trúc,Chương trình tập luyện có cấu trúc,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.973Z
+CUI:C0419171,kiểm soát huyết áp,Kiểm soát huyết áp,Treatment,C0419171,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:31.332Z
+Treatment:phẫu thuật mạch thận,phẫu thuật mạch thận,Phẫu thuật mạch thận,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:24.163Z
+Treatment:phác đồ 3 loại thuốc hạ huyết áp,sử dụng 3 loại thuốc hạ huyết áp khác nhau,Phác đồ 3 loại thuốc hạ huyết áp,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:38.32Z
+CUI:C0580105,thay đổi điều trị bằng thuốc,Thay đổi điều trị bằng thuốc,Treatment,C0580105,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.208Z
+CUI:C5923646,triệt đốt dây thần kinh giao cảm ở động mạch thận bằng thiết bị tần số vô tuyến,Triệt đốt thần kinh giao cảm động mạch thận bằng tần số vô tuyến,Treatment,C5923646,Diagnostic Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:35.273Z
+Treatment:thời gian ngủ tối ưu > 6 giờ/đêm,tối ưu hóa chất lượng và thời gian ngủ (> 6 giờ/đêm),Thời gian ngủ tối ưu > 6 giờ/đêm,Treatment,,,,{},01_tanghuyetap.txt,2026-08-21T06:17:32.686Z
+CUI:C4763675,đơn trị liệu,Đơn trị liệu,Treatment,C4763675,Therapeutic or Preventive Procedure,,{},01_tanghuyetap.txt,2026-08-21T06:17:33.354Z
