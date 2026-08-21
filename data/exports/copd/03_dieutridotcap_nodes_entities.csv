@@ -1,0 +1,115 @@
+﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
+CUI:C0018483,Haemophilus influenzae,Haemophilus influenzae,Cause,C0018483,Disease or Syndrome / Pathologic Function,,{},03_dieutridotcap.txt,2026-08-21T03:24:22.321Z
+CUI:C0006132,Moraxella catarrhalis,Moraxella catarrhalis,Cause,C0006132,Disease or Syndrome / Pathologic Function,,{},03_dieutridotcap.txt,2026-08-21T03:24:30.416Z
+CUI:C0004623,nhiễm vi khuẩn,Nhiễm vi khuẩn,Cause,C0004623,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.401Z
+CUI:C0042769,vi rút,Nhiễm vi rút,Cause,C0042769,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.507Z
+CUI:C0003811,loạn nhịp tim mới,Loạn nhịp tim,Complication,C0003811,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.971Z
+Complication:loạn nhịp tim mới,loạn nhịp tim mới,Loạn nhịp tim mới,Complication,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.712Z
+CUI:C0268047,nhiễm toan hô hấp cấp tính,Nhiễm toan hô hấp cấp tính,Complication,C0268047,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.906Z
+CUI:C0151559,suy nhược hệ thần kinh trung ương,Suy nhược hệ thần kinh trung ương,Complication,C0151559,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:37.885Z
+CUI:C2911574,sự phụ thuộc của máy thở,Phụ thuộc máy thở,Complication,C2911574,Finding,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.287Z
+CUI:C0009806,táo bón,Táo bón,Complication,C0009806,Sign or Symptom,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.307Z
+CUI:C0024117,bệnh phổi tắc nghẽn mạn tính (COPD),Bệnh phổi tắc nghẽn mạn tính (COPD),Disease,C0024117,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T03:24:18.047Z
+CUI:C0700292,hạ oxy máu,Hạ oxy máu,Disease,C0700292,Finding,,{},03_dieutridotcap.txt,2026-08-21T16:00:37.298Z
+CUI:C0001127,nhiễm toan hô hấp,Nhiễm toan hô hấp,Disease,C0001127,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:37.548Z
+CUI:C0034063,phù phổi,Phù phổi,Disease,C0034063,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T14:27:01.199Z
+CUI:C0264490,suy hô hấp cấp,Suy hô hấp cấp,Disease,C0264490,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T03:24:29.329Z
+CUI:C0035222,suy hô hấp tiến triển,Suy hô hấp tiến triển,Disease,C0035222,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.416Z
+Disease:tăng co2 mạn tính nặng,tăng CO2 mạn tính nặng,Tăng CO2 mạn tính nặng,Disease,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:43.107Z
+CUI:C0032285,viêm phổi,Viêm phổi,Disease,C0032285,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T07:13:21.092Z
+Disease:đợt cấp bệnh phổi,đợt cấp,Đợt cấp bệnh phổi,Disease,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:43.55Z
+CUI:C0730607,COPD nặng,COPD nặng,DiseaseSubtype,C0730607,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.449Z
+DiseaseSubtype:copd giai đoạn ổn định,bệnh mạn tính ổn định,COPD giai đoạn ổn định,DiseaseSubtype,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:35.907Z
+DiseaseSubtype:co thắt phế quản nặng,co thắt phế quản nặng,Co thắt phế quản nặng,DiseaseSubtype,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.969Z
+CUI:C0006267,giãn phế quản,Giãn phế quản,DiseaseSubtype,C0006267,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.856Z
+DiseaseSubtype:kén khí phổi bội nhiễm,kén khí phổi bội nhiễm,Kén khí phổi bội nhiễm,DiseaseSubtype,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.633Z
+CUI:C0268046,nhiễm toan hô hấp đã được bù,Nhiễm toan hô hấp đã được bù,DiseaseSubtype,C0268046,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:37.679Z
+DiseaseSubtype:nhiễm toan máu nặng,nhiễm toan máu nặng,Nhiễm toan máu nặng,DiseaseSubtype,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:37.826Z
+DiseaseSubtype:tăng co2 máu mạn tính nặng,tăng CO2 mạn tính nặng,Tăng CO2 máu mạn tính nặng,DiseaseSubtype,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.826Z
+CUI:C0001883,tắc nghẽn đường thở,Tắc nghẽn đường thở,DiseaseSubtype,C0001883,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T03:24:22.472Z
+CUI:C2919376,đợt cấp,Đợt cấp,DiseaseSubtype,C2919376,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T03:24:29.262Z
+CUI:C0340044,đợt cấp,Đợt cấp COPD,DiseaseSubtype,C0340044,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T03:24:23.533Z
+DiseaseSubtype:đợt cấp của bệnh lý hô hấp,đợt cấp,Đợt cấp của bệnh lý hô hấp,DiseaseSubtype,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.019Z
+CUI:C4303980,đợt cấp,Đợt cấp của tăng CO2 mạn tính,DiseaseSubtype,C4303980,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:43.183Z
+CUI:C3872851,đợt cấp nặng,Đợt cấp nặng,DiseaseSubtype,C3872851,Disease or Syndrome,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.068Z
+CUI:C0027235,Ipratropium,Ipratropium,Drug,C0027235,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T07:13:27.626Z
+CUI:C0041044,Trimethoprim/sulfamethoxazole,Trimethoprim/sulfamethoxazole,Drug,C0041044,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.835Z
+CUI:C0001927,albuterol,Albuterol,Drug,C0001927,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T07:13:27.547Z
+CUI:C0002645,amoxicillin,Amoxicillin,Drug,C0002645,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.894Z
+CUI:C0054066,amoxicillin/clavulanate,Amoxicillin/clavulanate,Drug,C0054066,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.13Z
+CUI:C0052796,azithromycin,Azithromycin,Drug,C0052796,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T07:13:27.073Z
+CUI:C0053229,benzonatate,benzonatate,Drug,C0053229,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.865Z
+CUI:C0007537,cefaclor,Cefaclor,Drug,C0007537,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.506Z
+CUI:C0007562,cefuroxime,Cefuroxime,Drug,C0007562,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.45Z
+CUI:C0008809,ciprofloxacin,Ciprofloxacin,Drug,C0008809,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.248Z
+CUI:C0009214,codeine,codeine,Drug,C0009214,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.983Z
+CUI:C0011816,dextromethorphan,dextromethorphan,Drug,C0011816,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.808Z
+CUI:C0013090,doxycycline,Doxycycline,Drug,C0013090,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.952Z
+CUI:C0020264,hydrocodone,hydrocodone,Drug,C0020264,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.041Z
+CUI:C0282386,levofloxacin,Levofloxacin,Drug,C0282386,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.319Z
+CUI:C0025815,methylprednisolone,Methylprednisolone,Drug,C0025815,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.556Z
+CUI:C0030049,oxycodone,oxycodone,Drug,C0030049,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.1Z
+CUI:C0032952,prednisone,Prednisone,Drug,C0032952,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.439Z
+CUI:C0003232,Kháng sinh,Kháng sinh,DrugClass,C0003232,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-20T15:59:07.319Z
+CUI:C0066447,Methylxanthines,Methylxanthines,DrugClass,C0066447,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.598Z
+CUI:C0242402,Opioid,Opioid,DrugClass,C0242402,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.923Z
+CUI:C0003449,Thuốc chống ho,Thuốc chống ho,DrugClass,C0003449,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.748Z
+DrugClass:thuốc chủ vận beta tác dụng ngắn,Thuốc chủ vận beta tác dụng ngắn,Thuốc chủ vận beta tác dụng ngắn,DrugClass,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.655Z
+DrugClass:thuốc chủ vận beta tác dụng ngắn (saba),Thuốc chủ vận beta tác dụng ngắn,Thuốc chủ vận beta tác dụng ngắn (SABA),DrugClass,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:43.818Z
+CUI:C0304319,cephalosporin thế hệ thứ hai,Cephalosporin thế hệ thứ hai,DrugClass,C0304319,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.379Z
+CUI:C0001617,corticosteroid,Corticosteroid,DrugClass,C0001617,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-20T15:58:59.996Z
+CUI:C0949665,fluoroquinolones,Fluoroquinolones,DrugClass,C0949665,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.188Z
+CUI:C0003240,macrolide,Macrolide,DrugClass,C0003240,Organic Chemical,,{},03_dieutridotcap.txt,2026-08-21T16:00:41.692Z
+CUI:C2878220,thuốc an thần giảm nhẹ,Thuốc an thần giảm nhẹ,DrugClass,C2878220,Injury or Poisoning,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.509Z
+CUI:C0001644,thuốc chủ vận beta,Thuốc chủ vận beta,DrugClass,C0001644,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T07:13:33.089Z
+CUI:C0242896,thuốc kháng cholinergic,Thuốc kháng cholinergic,DrugClass,C0242896,Pharmacologic Substance,,{},03_dieutridotcap.txt,2026-08-21T07:13:33.153Z
+"Measurement:liều khí dung ipratropium: 0,25 - 0,5 mg","0,25 đến 0,5 mg khí dung","Liều khí dung Ipratropium: 0,25 - 0,5 mg",Measurement,,,Thông số: Liều khí dung Ipratropium; min_value: 0.25; max_value: 0.5,"{""parameter"": ""Liều khí dung Ipratropium"", ""min_value"": 0.25, ""max_value"": 0.5, ""unit"": ""mg""}",03_dieutridotcap.txt,2026-08-21T16:00:40.149Z
+Measurement:hàm lượng mỗi lần xịt: 17 - 18 mcg,17 đến 18 mcg thuốc cho mỗi lần xịt,Hàm lượng mỗi lần xịt: 17 - 18 mcg,Measurement,,,Thông số: Hàm lượng mỗi lần xịt; min_value: 17; max_value: 18,"{""parameter"": ""Hàm lượng mỗi lần xịt"", ""min_value"": 17, ""max_value"": 18, ""unit"": ""mcg""}",03_dieutridotcap.txt,2026-08-21T16:00:40.264Z
+Measurement:liều xịt ipratropium: 2 - 4 lần,2 đến 4 lần xịt,Liều xịt Ipratropium: 2 - 4 lần,Measurement,,,Thông số: Liều xịt Ipratropium; min_value: 2; max_value: 4,"{""parameter"": ""Liều xịt Ipratropium"", ""min_value"": 2, ""max_value"": 4, ""unit"": ""lần""}",03_dieutridotcap.txt,2026-08-21T16:00:40.207Z
+"Measurement:liều xịt ipratropium: 2 - 4 lần xịt, mỗi lần 17 - 18 mcg",2 đến 4 lần xịt (17 đến 18 mcg thuốc cho mỗi lần xịt),"Liều xịt Ipratropium: 2 - 4 lần xịt, mỗi lần 17 - 18 mcg",Measurement,,,Thông số: Liều xịt Ipratropium; min_value: 2; max_value: 4; dosage_per_puff: 17-18 mcg,"{""parameter"": ""Liều xịt Ipratropium"", ""min_value"": 2, ""max_value"": 4, ""unit"": ""lần xịt"", ""dosage_per_puff"": ""17-18 mcg""}",03_dieutridotcap.txt,2026-08-21T16:00:43.372Z
+Measurement:tần suất dùng thuốc: 4 - 6 giờ/lần,4 đến 6 giờ một lần,Tần suất dùng thuốc: 4 - 6 giờ/lần,Measurement,,,Thông số: Tần suất dùng thuốc; min_value: 4; max_value: 6,"{""parameter"": ""Tần suất dùng thuốc"", ""min_value"": 4, ""max_value"": 6, ""unit"": ""giờ""}",03_dieutridotcap.txt,2026-08-21T16:00:40.32Z
+Measurement:thời gian điều trị: 7 - 14 ngày,7 ngày đến 14 ngày,Thời gian điều trị: 7 - 14 ngày,Measurement,,,Thông số: Thời gian điều trị; min_value: 7; max_value: 14,"{""parameter"": ""Thời gian điều trị"", ""min_value"": 7, ""max_value"": 14, ""unit"": ""ngày""}",03_dieutridotcap.txt,2026-08-21T16:00:41.01Z
+Measurement:thời gian đặt nội khí quản kéo dài: > 2 tuần,> 2 tuần,Thời gian đặt nội khí quản kéo dài: > 2 tuần,Measurement,,,Thông số: Thời gian đặt nội khí quản; Giá trị: >2 tuần,"{""parameter"": ""Thời gian đặt nội khí quản"", ""value"": 2, ""unit"": ""tuần"", ""operator"": "">""}",03_dieutridotcap.txt,2026-08-21T16:00:38.65Z
+Measurement:bicarbonate huyết thanh tăng cao,bicarbonate huyết thanh tăng cao,Bicarbonate huyết thanh tăng cao,Measurement,,,Thông số: Bicarbonate huyết thanh,"{""parameter"": ""Bicarbonate huyết thanh"", ""operator"": "">""}",03_dieutridotcap.txt,2026-08-21T16:00:37.489Z
+Measurement:methylprednisolone liều 60-500 mg/ngày,methylprednisolone 60 đến 500 mg đường tĩnh mạch 1 lần/ngày trong 3 ngày,Methylprednisolone liều 60-500 mg/ngày,Measurement,,,Thông số: Liều dùng Methylprednisolone; min_value: 60; max_value: 500; route: đường tĩnh mạch; frequency: 1 lần/ngày; duration: 3 ngày,"{""parameter"": ""Liều dùng Methylprednisolone"", ""min_value"": 60, ""max_value"": 500, ""unit"": ""mg"", ""route"": ""đường tĩnh mạch"", ""frequency"": ""1 lần/ngày"", ""duration"": ""3 ngày""}",03_dieutridotcap.txt,2026-08-21T16:00:40.498Z
+Measurement:thời gian đánh giá lại nhu cầu oxy tại nhà: 60 - 90 ngày sau xuất viện,nhu cầu sử dụng oxy tại nhà cần được đánh giá lại từ 60 đến 90 ngày sau khi xuất viện,Thời gian đánh giá lại nhu cầu oxy tại nhà: 60 - 90 ngày sau xuất viện,Measurement,,,Thông số: Thời gian đánh giá lại nhu cầu oxy tại nhà; min_value: 60; max_value: 90,"{""parameter"": ""Thời gian đánh giá lại nhu cầu oxy tại nhà"", ""min_value"": 60, ""max_value"": 90, ""unit"": ""ngày""}",03_dieutridotcap.txt,2026-08-21T16:00:37.946Z
+"Measurement:ph máu động mạch < 7,30","pH < 7,30","pH máu động mạch < 7,30",Measurement,,,Thông số: pH máu động mạch; Giá trị: <7.3,"{""parameter"": ""pH máu động mạch"", ""value"": 7.3, ""operator"": ""<""}",03_dieutridotcap.txt,2026-08-21T16:00:38.127Z
+"Measurement:ph máu < 7,30","pH < 7,30","pH máu < 7,30",Measurement,,,Thông số: pH máu; Giá trị: <7.3,"{""parameter"": ""pH máu"", ""value"": 7.3, ""operator"": ""<""}",03_dieutridotcap.txt,2026-08-21T16:00:42.789Z
+Measurement:prednisone liều 30-60 mg/ngày,prednisone 30 đến 60 mg uống 1 lần/ngày trong 5 đến 7 ngày,Prednisone liều 30-60 mg/ngày,Measurement,,,Thông số: Liều dùng Prednisone; min_value: 30; max_value: 60; frequency: 1 lần/ngày; duration: 5 đến 7 ngày,"{""parameter"": ""Liều dùng Prednisone"", ""min_value"": 30, ""max_value"": 60, ""unit"": ""mg"", ""frequency"": ""1 lần/ngày"", ""duration"": ""5 đến 7 ngày""}",03_dieutridotcap.txt,2026-08-21T16:00:40.379Z
+Measurement:thiếu oxy cấp tính từ trung bình đến nặng,thiếu oxy cấp tính từ trung bình đến nặng,Thiếu oxy cấp tính từ trung bình đến nặng,Measurement,,,Thông số: Mức độ thiếu oxy; severity: trung bình đến nặng,"{""parameter"": ""Mức độ thiếu oxy"", ""severity"": ""trung bình đến nặng""}",03_dieutridotcap.txt,2026-08-21T16:00:36.842Z
+Measurement:paco2 > 85 mm hg,áp lực riêng phần của carbon dioxide động mạch (PaCO2) > 85 mm Hg,PaCO2 > 85 mm Hg,Measurement,,,Thông số: PaCO2; Giá trị: >85 mm Hg,"{""parameter"": ""PaCO2"", ""value"": 85, ""unit"": ""mm Hg"", ""operator"": "">""}",03_dieutridotcap.txt,2026-08-21T16:00:37.178Z
+Measurement:pao2 mục tiêu khoảng 60 mm hg,áp suất riêng phần của oxy động mạch (PaO2) là khoảng 60 mm Hg,PaO2 mục tiêu khoảng 60 mm Hg,Measurement,,,Thông số: PaO2; Giá trị: 60 mm Hg,"{""parameter"": ""PaO2"", ""value"": 60, ""unit"": ""mm Hg""}",03_dieutridotcap.txt,2026-08-21T16:00:37.238Z
+Measurement:thời gian điều trị kháng sinh: 10 - 14 ngày,đợt điều trị kháng sinh từ 10 đến 14 ngày,Thời gian điều trị kháng sinh: 10 - 14 ngày,Measurement,,,Thông số: Thời gian điều trị kháng sinh; min_value: 10; max_value: 14,"{""parameter"": ""Thời gian điều trị kháng sinh"", ""min_value"": 10, ""max_value"": 14, ""unit"": ""ngày""}",03_dieutridotcap.txt,2026-08-21T16:00:43.624Z
+CUI:C0020440,Tăng CO2 máu,Tăng CO2 máu,Mechanism,C0020440,Pathologic Function / Physiologic Function,,{},03_dieutridotcap.txt,2026-08-21T03:24:23.17Z
+PatientGroup:bệnh nhân được hỗ trợ tại nhà,bệnh nhân được hỗ trợ ở nhà đầy đủ,Bệnh nhân được hỗ trợ tại nhà,PatientGroup,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.967Z
+CUI:C0453996,Hút thuốc,Hút thuốc lá,RiskFactor,C0453996,Individual Behavior,,{},03_dieutridotcap.txt,2026-08-20T15:58:31.328Z
+CUI:C0001873,mức ô nhiễm không khí cao,Ô nhiễm không khí,RiskFactor,C0001873,Finding / Individual Behavior,,{},03_dieutridotcap.txt,2026-08-21T03:24:20.417Z
+CUI:C0239200,phơi nhiễm khói bụi,Phơi nhiễm khói bụi,RiskFactor,C0239200,Finding,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.654Z
+Sign:căng phồng phổi quá mức,căng phồng phổi quá mức,Căng phồng phổi quá mức,Sign,,,,{},03_dieutridotcap.txt,2026-08-21T07:13:25.645Z
+CUI:C0241235,đờm mủ,Đờm mủ,Sign,C0241235,Sign or Symptom,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.373Z
+CUI:C4086655,cơn bộc phát ho dữ dội,Cơn ho dữ dội,Symptom,C4086655,Intellectual Product,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.158Z
+CUI:C4760107,khó thở nặng,Khó thở nặng,Symptom,C4760107,Finding,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.264Z
+CUI:C0030193,đau,Đau,Symptom,C0030193,Sign or Symptom,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.234Z
+Test:nuôi cấy và nhuộm gram,Nuôi cấy và nhuộm Gram,Nuôi cấy và nhuộm Gram,Test,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.764Z
+CUI:C0201657,xét nghiệm nồng độ protein phản ứng C (CRP),Xét nghiệm CRP,Test,C0201657,Laboratory Procedure,,{},03_dieutridotcap.txt,2026-08-21T03:24:31.107Z
+CUI:C3164735,Thông khí áp lực dương không xâm lấn,Thông khí áp lực dương không xâm lấn,Treatment,C3164735,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.012Z
+CUI:C0993596,bình xịt định liều,Bình xịt định liều,Treatment,C0993596,Medical Device,,{},03_dieutridotcap.txt,2026-08-21T07:13:35.188Z
+CUI:C1512171,hướng dẫn các thành viên trong gia đình,Giáo dục người chăm sóc,Treatment,C1512171,Health Care Activity,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.888Z
+CUI:C4761117,liệu pháp oxy qua mũi với lưu lượng cao,Liệu pháp oxy lưu lượng cao qua mũi (HFNC),Treatment,C4761117,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.532Z
+CUI:C4039825,máy thở,Máy thở tại nhà,Treatment,C4039825,Finding,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.946Z
+CUI:C0087153,máy thở,Máy thở,Treatment,C0087153,Medical Device,,{},03_dieutridotcap.txt,2026-08-21T16:00:43.041Z
+CUI:C0040590,mở khí quản,Mở khí quản,Treatment,C0040590,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.709Z
+CUI:C5670081,phương pháp điều trị bằng khí dung liên tục,Khí dung liên tục,Treatment,C5670081,Functional Concept,,{},03_dieutridotcap.txt,2026-08-21T16:00:40.025Z
+CUI:C0199529,phục hồi chức năng hô hấp đa phương thức,Phục hồi chức năng hô hấp,Treatment,C0199529,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T03:24:31.747Z
+Treatment:phục hồi chức năng hô hấp đa phương thức,phục hồi chức năng hô hấp đa phương thức,Phục hồi chức năng hô hấp đa phương thức,Treatment,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:42.908Z
+CUI:C3179495,ra quyết định chung với bệnh nhân,Ra quyết định chung với bệnh nhân,Treatment,C3179495,Mental Process,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.094Z
+CUI:C3876407,thuốc khí dung,Thuốc khí dung,Treatment,C3876407,Medical Device,,{},03_dieutridotcap.txt,2026-08-21T16:00:39.912Z
+CUI:C2349740,thông khí bằng mặt nạ không xâm lấn,Thông khí không xâm lấn (NIV),Treatment,C2349740,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.23Z
+CUI:C0199470,thông khí cơ học,Thông khí cơ học,Treatment,C0199470,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T03:24:32.191Z
+Treatment:thông khí không xâm lấn về đêm,thông khí không xâm lấn về đêm,Thông khí không xâm lấn về đêm,Treatment,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:43.257Z
+CUI:C1868981,thở máy xâm nhập,Thở máy xâm nhập,Treatment,C1868981,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T16:00:38.204Z
+CUI:C3665674,thở oxy,Liệu pháp oxy,Treatment,C3665674,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T03:24:31.823Z
+Treatment:điều trị copd ổn định,điều trị bệnh mạn tính ổn định,Điều trị COPD ổn định,Treatment,,,,{},03_dieutridotcap.txt,2026-08-21T03:24:31.262Z
+Treatment:điều trị copd giai đoạn ổn định,điều trị bệnh mạn tính ổn định,Điều trị COPD giai đoạn ổn định,Treatment,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.06Z
+Treatment:điều trị đợt cấp copd,điều trị đợt cấp,Điều trị đợt cấp COPD,Treatment,,,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.174Z
+CUI:C0021932,đặt nội khí quản,Đặt nội khí quản,Treatment,C0021932,Therapeutic or Preventive Procedure,,{},03_dieutridotcap.txt,2026-08-21T16:00:36.288Z

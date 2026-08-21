@@ -7106,5 +7106,353 @@
     "cui": "C0202930",
     "tui": "T060",
     "entity_type": "Test"
+  },
+  "thông khí không xâm lấn": {
+    "en": "Non-invasive ventilation",
+    "cui": "C2349740",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "đặt nội khí quản": {
+    "en": "Endotracheal intubation",
+    "cui": "C0021932",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "nhiễm vi khuẩn": {
+    "en": "Bacterial infection",
+    "cui": "C0004623",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "nhiễm vi rút": {
+    "en": "Viral infection",
+    "cui": "C0042769",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "phơi nhiễm khói bụi": {
+    "en": "Dust exposure",
+    "cui": "C0239200",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "nhiễm toan hô hấp cấp tính": {
+    "en": "Acute respiratory acidosis",
+    "cui": "C0268047",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "loạn nhịp tim": {
+    "en": "Cardiac arrhythmia",
+    "cui": "C0003811",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "hạ oxy máu": {
+    "en": "Hypoxemia",
+    "cui": "C0700292",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "thở máy": {
+    "en": "Mechanical ventilation",
+    "cui": "C0199470",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "nhiễm toan hô hấp đã được bù": {
+    "en": "Compensated respiratory acidosis",
+    "cui": "C0268046",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "suy nhược hệ thần kinh trung ương": {
+    "en": "Central nervous system depression",
+    "cui": "C0151559",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thông khí áp lực dương không xâm lấn": {
+    "en": "Non-invasive positive pressure ventilation",
+    "cui": "C3164735",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thở máy xâm nhập": {
+    "en": "Invasive mechanical ventilation",
+    "cui": "C1868981",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "khó thở nặng": {
+    "en": "Severe dyspnea",
+    "cui": "C4760107",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "suy hô hấp tiến triển": {
+    "en": "Acute respiratory distress syndrome",
+    "cui": "C0035222",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "liệu pháp oxy dòng cao (hfnc)": {
+    "en": "High-flow nasal cannula oxygen therapy",
+    "cui": "C4761117",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thông khí không xâm lấn (niv)": {
+    "en": "Non-invasive ventilation",
+    "cui": "C2349740",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "mở khí quản": {
+    "en": "Tracheostomy",
+    "cui": "C0040590",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "giáo dục người chăm sóc": {
+    "en": "Caregiver education",
+    "cui": "C1512171",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "máy thở tại nhà": {
+    "en": "Home ventilator",
+    "cui": "C4039825",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "ra quyết định chung (shared decision making)": {
+    "en": "Shared decision making",
+    "cui": "C3179495",
+    "tui": "T041",
+    "entity_type": "Treatment"
+  },
+  "phụ thuộc máy thở": {
+    "en": "Ventilator dependence",
+    "cui": "C2911574",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "methylxanthines": {
+    "en": "Methylxanthines",
+    "cui": "C0066447",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "bình xịt định liều": {
+    "en": "Metered-dose inhaler",
+    "cui": "C0993596",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "thuốc khí dung": {
+    "en": "Inhalation aerosol",
+    "cui": "C3876407",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "khí dung liên tục": {
+    "en": "Continuous nebulization",
+    "cui": "C5670081",
+    "tui": "T169",
+    "entity_type": "Treatment"
+  },
+  "prednisone": {
+    "en": "Prednisone",
+    "cui": "C0032952",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "methylprednisolone": {
+    "en": "Methylprednisolone",
+    "cui": "C0025815",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "trimethoprim/sulfamethoxazole": {
+    "en": "Trimethoprim/sulfamethoxazole",
+    "cui": "C0041044",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "amoxicillin": {
+    "en": "Amoxicillin",
+    "cui": "C0002645",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "doxycycline": {
+    "en": "Doxycycline",
+    "cui": "C0013090",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "amoxicillin/clavulanate": {
+    "en": "Amoxicillin/clavulanate",
+    "cui": "C0054066",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "fluoroquinolones": {
+    "en": "Fluoroquinolones",
+    "cui": "C0949665",
+    "tui": "T109",
+    "entity_type": "DrugClass"
+  },
+  "ciprofloxacin": {
+    "en": "Ciprofloxacin",
+    "cui": "C0008809",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "levofloxacin": {
+    "en": "Levofloxacin",
+    "cui": "C0282386",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "cephalosporin thế hệ thứ hai": {
+    "en": "Second-generation cephalosporins",
+    "cui": "C0304319",
+    "tui": "T109",
+    "entity_type": "DrugClass"
+  },
+  "cefuroxime": {
+    "en": "Cefuroxime",
+    "cui": "C0007562",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "cefaclor": {
+    "en": "Cefaclor",
+    "cui": "C0007537",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "xét nghiệm crp": {
+    "en": "C-reactive protein measurement",
+    "cui": "C0201657",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "macrolide": {
+    "en": "Macrolides",
+    "cui": "C0003240",
+    "tui": "T109",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chống ho": {
+    "en": "Antitussive agents",
+    "cui": "C0003449",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "dextromethorphan": {
+    "en": "Dextromethorphan",
+    "cui": "C0011816",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "benzonatate": {
+    "en": "Benzonatate",
+    "cui": "C0053229",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "opioid": {
+    "en": "Opioids",
+    "cui": "C0242402",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "codeine": {
+    "en": "Codeine",
+    "cui": "C0009214",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "hydrocodone": {
+    "en": "Hydrocodone",
+    "cui": "C0020264",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "oxycodone": {
+    "en": "Oxycodone",
+    "cui": "C0030049",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "ho dữ dội": {
+    "en": "Severe cough",
+    "cui": "C4086655",
+    "tui": "T170",
+    "entity_type": "Symptom"
+  },
+  "đau": {
+    "en": "Pain",
+    "cui": "C0030193",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "táo bón": {
+    "en": "Constipation",
+    "cui": "C0009806",
+    "tui": "T184",
+    "entity_type": "Complication"
+  },
+  "đờm mủ": {
+    "en": "Purulent sputum",
+    "cui": "C0241235",
+    "tui": "T184",
+    "entity_type": "Sign"
+  },
+  "copd nặng": {
+    "en": "Severe chronic obstructive pulmonary disease",
+    "cui": "C0730607",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thuốc an thần giảm nhẹ": {
+    "en": "Sedative-hypnotic drug",
+    "cui": "C2878220",
+    "tui": "T037",
+    "entity_type": "DrugClass"
+  },
+  "liệu pháp oxy lưu lượng cao qua mũi (hfnc)": {
+    "en": "High-flow nasal cannula oxygen therapy",
+    "cui": "C4761117",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "máy thở": {
+    "en": "Ventilator",
+    "cui": "C0087153",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "đợt cấp của tăng co2 mạn tính": {
+    "en": "Acute-on-chronic hypercapnic respiratory failure",
+    "cui": "C4303980",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "ra quyết định chung với bệnh nhân": {
+    "en": "Shared decision-making",
+    "cui": "C3179495",
+    "tui": "T041",
+    "entity_type": "Treatment"
+  },
+  "cơn ho dữ dội": {
+    "en": "Severe cough",
+    "cui": "C4086655",
+    "tui": "T170",
+    "entity_type": "Symptom"
   }
 }
