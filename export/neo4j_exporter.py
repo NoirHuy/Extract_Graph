@@ -261,9 +261,10 @@ class Neo4jExporter:
 
         relationships = list(seen_triplets.values())
 
-        nodes_csv_target = out_path / "nodes_entities.csv"
-        relations_csv_target = out_path / "relationships_triplets.csv"
-        summary_csv_target = out_path / "clinical_knowledge_summary.csv"
+        prefix = f"{Path(source_doc).stem}_" if source_doc else ""
+        nodes_csv_target = out_path / f"{prefix}nodes_entities.csv"
+        relations_csv_target = out_path / f"{prefix}relationships_triplets.csv"
+        summary_csv_target = out_path / f"{prefix}clinical_knowledge_summary.csv"
 
         # 1. Export Nodes CSV
         f_nodes, nodes_csv_file = self._safe_open_csv(nodes_csv_target)

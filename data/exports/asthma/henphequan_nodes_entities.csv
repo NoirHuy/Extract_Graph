@@ -1,0 +1,306 @@
+﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
+CUI:C0686732,Nhân tố môi trường,Nhân tố môi trường,Cause,C0686732,Qualitative Concept,,{},henphequan.txt,2026-08-21T07:13:18.189Z
+CUI:C2350439,hợp chất hữu cơ dễ bay hơi,Hợp chất hữu cơ dễ bay hơi,Cause,C2350439,Organic Chemical,,{},henphequan.txt,2026-08-21T07:13:19.783Z
+CUI:C0008209,khí clo,Khí clo,Cause,C0008209,Hazardous or Poisonous Substance,,{},henphequan.txt,2026-08-21T07:13:19.636Z
+CUI:C0028167,nitơ oxit,Nitơ oxit,Cause,C0028167,Inorganic Chemical,,{},henphequan.txt,2026-08-21T07:13:19.716Z
+CUI:C0276447,rhinovirus,Rhinovirus,Cause,C0276447,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:20.895Z
+CUI:C0035236,virus hợp bào hô hấp,Virus hợp bào hô hấp,Cause,C0035236,Virus,,{},henphequan.txt,2026-08-21T07:13:20.813Z
+CUI:C0030393,virus parainfluenza,Virus parainfluenza,Cause,C0030393,Virus,,{},henphequan.txt,2026-08-21T07:13:20.96Z
+CUI:C0001127,Nhiễm toan hô hấp,Nhiễm toan hô hấp,Complication,C0001127,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:22.414Z
+CUI:C0024032,cân nặng khi sinh thấp,Cân nặng khi sinh thấp,Complication,C0024032,Finding,,{},henphequan.txt,2026-08-21T07:13:37.34Z
+CUI:C0347950,cơn hen,Cơn hen,Complication,C0347950,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:34.114Z
+Complication:cơn hen sau điều trị,cơn hen sau khi điều trị,Cơn hen sau điều trị,Complication,,,,{},henphequan.txt,2026-08-21T07:13:40.228Z
+CUI:C0018790,ngừng tuần hoàn,Ngừng tuần hoàn,Complication,C0018790,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:22.637Z
+CUI:C3714514,nhiễm khuẩn,Nhiễm khuẩn,Complication,C3714514,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:33.627Z
+CUI:C0151526,sinh non,Sinh non,Complication,C0151526,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:37.275Z
+CUI:C1145670,suy hô hấp,Suy hô hấp,Complication,C1145670,Disease or Syndrome,,{},henphequan.txt,2026-08-21T03:24:18.564Z
+CUI:C0220981,toan chuyển hóa,Toan chuyển hóa,Complication,C0220981,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:22.493Z
+CUI:C0032326,tràn khí màng phổi,Tràn khí màng phổi,Complication,C0032326,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:25.73Z
+CUI:C0025062,tràn khí trung thất,Tràn khí trung thất,Complication,C0025062,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:25.793Z
+CUI:C0559546,tác dụng phụ,Tác dụng phụ,Complication,C0559546,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:24.873Z
+CUI:C0569970,tác dụng điều trị bất lợi,Tác dụng phụ của thuốc,Complication,C0569970,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:31.536Z
+CUI:C2717792,tái cấu trúc,Tái cấu trúc đường thở,Complication,C2717792,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:31.091Z
+CUI:C1306577,tử vong,Tử vong,Complication,C1306577,Disease or Syndrome,,{},henphequan.txt,2026-08-20T15:59:14.653Z
+CUI:C0277604,tử vong trước sinh,Tử vong trước sinh,Complication,C0277604,Finding,,{},henphequan.txt,2026-08-21T07:13:37.196Z
+CUI:C0004144,xẹp phổi,Xẹp phổi,Complication,C0004144,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:29.138Z
+CUI:C0340061,đợt cấp,Đợt cấp hen,Complication,C0340061,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:34.03Z
+CUI:C2919376,đợt cấp,Đợt cấp,Complication,C2919376,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:24.733Z
+CUI:C3872851,đợt cấp nặng đe dọa đến tính mạng,Đợt cấp hen suyễn nặng,Complication,C3872851,Finding,,{},henphequan.txt,2026-08-21T07:13:23.396Z
+CUI:C0017168,Bệnh trào ngược dạ dày thực quản (GERD),Bệnh trào ngược dạ dày thực quản (GERD),Disease,C0017168,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:21.518Z
+CUI:C4038730,Chồng chéo Hen suyễn-COPD (ACO),Chồng chéo Hen suyễn-COPD,Disease,C4038730,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:26.776Z
+Disease:hen kích ứng,Hen kích ứng,Hen kích ứng,Disease,,,,{},henphequan.txt,2026-08-21T07:13:19.847Z
+CUI:C1299633,RADS,RADS,Disease,C1299633,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:19.345Z
+CUI:C2607914,Viêm mũi dị ứng,Viêm mũi dị ứng,Disease,C2607914,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:21.714Z
+CUI:C0004031,bệnh do nấm aspergillus phế quản-phổi dị ứng,Bệnh do nấm aspergillus phế quản-phổi dị ứng,Disease,C0004031,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:27.202Z
+CUI:C0004099,bệnh hen do tập luyện,Bệnh hen do tập luyện,Disease,C0004099,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:40.081Z
+CUI:C0006267,giãn phế quản,Giãn phế quản,Disease,C0006267,Disease or Syndrome,,{},henphequan.txt,2026-08-21T03:24:25.278Z
+CUI:C0155877,hen dị ứng,Hen dị ứng,Disease,C0155877,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:29.684Z
+CUI:C0029456,loãng xương,Loãng xương,Disease,C0029456,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:38.277Z
+CUI:C0520679,ngưng thở khi ngủ do tắc nghẽn,Ngưng thở khi ngủ do tắc nghẽn,Disease,C0520679,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:35.636Z
+CUI:C0041912,nhiễm trùng đường hô hấp trên,Nhiễm trùng đường hô hấp trên,Disease,C0041912,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:21.028Z
+CUI:C0859897,rối loạn chức năng dây thanh âm,Rối loạn chức năng dây thanh âm,Disease,C0859897,Finding,,{},henphequan.txt,2026-08-21T07:13:27.465Z
+CUI:C0746984,rối loạn thông khí tắc nghẽn,Rối loạn thông khí tắc nghẽn,Disease,C0746984,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:37.985Z
+CUI:C0035229,suy giảm chức năng hô hấp,Suy giảm chức năng hô hấp,Disease,C0035229,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:31.3Z
+CUI:C0221757,thiếu hụtalpha-1 antitrypsin,Thiếu hụt alpha-1 antitrypsin,Disease,C0221757,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:27.335Z
+CUI:C0020440,tăng carbon dioxide,Tăng carbon dioxide,Disease,C0020440,Finding,,{},henphequan.txt,2026-08-21T07:13:37.624Z
+CUI:C0032285,viêm phổi,Viêm phổi,Disease,C0032285,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:21.092Z
+CUI:C0010674,xơ nang,Xơ nang,Disease,C0010674,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:27.401Z
+CUI:C0038454,đột quỵ,Đột quỵ,Disease,C0038454,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:28.545Z
+CUI:C0004099,Hen do gắng sức,Hen do gắng sức,DiseaseSubtype,C0004099,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:32.318Z
+CUI:C3494263,Mức độ nặng,Mức độ nặng của bệnh,DiseaseSubtype,C3494263,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:22.985Z
+CUI:C0439793,Mức độ nặng,Mức độ nặng,DiseaseSubtype,C0439793,Qualitative Concept,,{},henphequan.txt,2026-08-21T07:13:23.849Z
+CUI:C1299882,Phì đại cơ trơn,Phì đại cơ trơn,DiseaseSubtype,C1299882,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:20.332Z
+DiseaseSubtype:miễn dịch qua trung gian tế bào t1,T1,Miễn dịch qua trung gian tế bào T1,DiseaseSubtype,,,,{},henphequan.txt,2026-08-21T07:13:26.521Z
+DiseaseSubtype:viêm do dị ứng (t2),T2,Viêm do dị ứng (T2),DiseaseSubtype,,,,{},henphequan.txt,2026-08-21T07:13:26.221Z
+DiseaseSubtype:cơn co thắt phế quản lan tỏa,cơn co thắt phế quản lan tỏa,Cơn co thắt phế quản lan tỏa,DiseaseSubtype,,,,{},henphequan.txt,2026-08-21T07:13:22.181Z
+CUI:C5192201,cơn hen nguy kịch,Cơn hen nguy kịch,DiseaseSubtype,C5192201,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:35.438Z
+CUI:C0347950,cơn hen phế quản,Cơn hen phế quản,DiseaseSubtype,C0347950,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:22.848Z
+CUI:C5880014,hen không kiểm soát được,Hen không kiểm soát được,DiseaseSubtype,C5880014,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:37.789Z
+CUI:C3853540,hen nhạy cảm aspirin,Hen nhạy cảm aspirin,DiseaseSubtype,C3853540,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:21.455Z
+CUI:C3862402,hen nặng không được kiểm soát,Hen nặng không kiểm soát,DiseaseSubtype,C3862402,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:33.839Z
+CUI:C1273489,hen suyễn ban đêm,Hen suyễn ban đêm,DiseaseSubtype,C1273489,Finding,,{},henphequan.txt,2026-08-21T07:13:25.077Z
+CUI:C0581124,hen suyễn nhẹ,Hen suyễn nhẹ,DiseaseSubtype,C0581124,Finding,,{},henphequan.txt,2026-08-21T07:13:23.313Z
+CUI:C0694548,hen suyễn thể ho,Hen suyễn thể ho,DiseaseSubtype,C0694548,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:25.011Z
+CUI:C0340076,hen suyễn tăng bạch cầu ái toan,Hen suyễn tăng bạch cầu ái toan,DiseaseSubtype,C0340076,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:18.781Z
+CUI:C0034067,khí phế thũng,Khí phế thũng,DiseaseSubtype,C0034067,Disease or Syndrome,,{},henphequan.txt,2026-08-21T03:24:18.238Z
+CUI:C5890742,mức độ kiểm soát,Mức độ kiểm soát,DiseaseSubtype,C5890742,Finding,,{},henphequan.txt,2026-08-21T07:13:23.913Z
+CUI:C0581126,mức độ nặng của bệnh,Mức độ nặng của bệnh hen,DiseaseSubtype,C0581126,Finding,,{},henphequan.txt,2026-08-21T07:13:21.374Z
+DiseaseSubtype:rối loạn thông khí tắc nghẽn có hồi phục,rối loạn thông khí tắc nghẽn có hồi phục,Rối loạn thông khí tắc nghẽn có hồi phục,DiseaseSubtype,,,,{},henphequan.txt,2026-08-21T07:13:28.159Z
+DiseaseSubtype:suy giảm chức năng phổi,suy giảm chức năng phổi,Suy giảm chức năng phổi,DiseaseSubtype,,,,{},henphequan.txt,2026-08-21T03:24:20.947Z
+DiseaseSubtype:không ổn định đường thở,sự không ổn định đường thở,Không ổn định đường thở,DiseaseSubtype,,,,{},henphequan.txt,2026-08-21T07:13:40.376Z
+CUI:C0340101,tắc nghẽn đường hô hấp trên,Tắc nghẽn đường hô hấp trên,DiseaseSubtype,C0340101,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:28.225Z
+CUI:C3661951,tắc nghẽn đường thở không hồi phục hoàn toàn,Tắc nghẽn đường thở không hồi phục,DiseaseSubtype,C3661951,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:31.155Z
+CUI:C0340066,đợt cấp,Đợt cấp hen suyễn,DiseaseSubtype,C0340066,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:33.023Z
+CUI:C0340061,đợt cấp,Đợt cấp hen phế quản,DiseaseSubtype,C0340061,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:30.091Z
+CUI:C0004057,Aspirin,Aspirin,Drug,C0004057,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:21.285Z
+CUI:C0000970,acetaminophen,Acetaminophen,Drug,C0000970,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:32.677Z
+CUI:C0001927,albuterol,Albuterol,Drug,C0001927,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:27.547Z
+CUI:C0052796,azithromycin,Azithromycin,Drug,C0052796,Organic Chemical,,{},henphequan.txt,2026-08-21T07:13:27.073Z
+CUI:C0012544,bisphosphonat,Bisphosphonat,Drug,C0012544,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:38.405Z
+CUI:C0538927,celecoxib,Celecoxib,Drug,C0538927,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:32.808Z
+CUI:C2930097,choline magnesium salicylate,Choline magnesium salicylate,Drug,C2930097,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:32.742Z
+CUI:C3540702,corticosteroid hít,Corticosteroid hít,Drug,C3540702,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:31.027Z
+CUI:C4053960,corticosteroid đường toàn thân,Corticosteroid đường toàn thân,Drug,C4053960,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:35.376Z
+CUI:C0012694,cromolyn,Cromolyn,Drug,C0012694,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:36.512Z
+CUI:C0060657,formoterol,Formoterol,Drug,C0060657,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:27.883Z
+CUI:C0027235,ipratropium,Ipratropium,Drug,C0027235,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:27.626Z
+CUI:C0910794,kháng thể kháng IgE,Kháng thể kháng IgE,Drug,C0910794,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:29.395Z
+CUI:C0600370,metacholine,Metacholine,Drug,C0600370,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:28.354Z
+CUI:C0068483,nedocromil,Nedocromil,Drug,C0068483,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:37.066Z
+CUI:C0965618,roflimulast,Roflumilast,Drug,C0965618,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:26.99Z
+CUI:C0073992,salmeterol,Salmeterol,Drug,C0073992,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:27.821Z
+CUI:C0039771,theophylline,Theophylline,Drug,C0039771,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:27.691Z
+CUI:C0213771,tiotropium,Tiotropium,Drug,C0213771,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:27.947Z
+CUI:C0081408,zileuton,Zileuton,Drug,C0081408,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:36.643Z
+CUI:C0003211,NSAID,NSAID,DrugClass,C0003211,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T06:17:20.157Z
+CUI:C0578554,Thuốc giãn phế quản dạng hít,Thuốc giãn phế quản dạng hít,DrugClass,C0578554,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:35.25Z
+CUI:C0282556,Thuốc trong nhóm này,Thuốc điều trị hen,DrugClass,C0282556,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:33.217Z
+CUI:C1135768,Thuốc tác dụng kéo dài,Thuốc tác dụng kéo dài,DrugClass,C1135768,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:37.131Z
+DrugClass:thuốc điều biến leukotriene,Thuốc điều biến leukotriene,Thuốc điều biến leukotriene,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:36.171Z
+CUI:C0001617,corticosteroid,Corticosteroid,DrugClass,C0001617,Pharmacologic Substance,,{},henphequan.txt,2026-08-20T15:58:59.996Z
+CUI:C4020618,corticosteroid dạng hít,Corticosteroid dạng hít,DrugClass,C4020618,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T03:24:29.037Z
+DrugClass:thuốc chẹn beta không chọn lọc,thuốc chẹn beta không chọn lọc,Thuốc chẹn beta không chọn lọc,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:32.873Z
+CUI:C0003209,thuốc chống viêm,Thuốc chống viêm,DrugClass,C0003209,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:31.235Z
+CUI:C0001644,thuốc chủ vận beta,Thuốc chủ vận beta,DrugClass,C0001644,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:33.089Z
+DrugClass:thuốc chủ vận beta tác dụng kéo dài,thuốc chủ vận beta tác dụng kéo dài,Thuốc chủ vận beta tác dụng kéo dài,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:33.902Z
+CUI:C2936789,thuốc cường beta-2,Thuốc cường beta-2,DrugClass,C2936789,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:16.797Z
+DrugClass:thuốc cường beta-2 tác dụng kéo dài,thuốc cường beta-2 tác dụng kéo dài,Thuốc cường beta-2 tác dụng kéo dài,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:27.758Z
+DrugClass:thuốc cường beta-2 tác dụng ngắn,thuốc cường beta-2 tác dụng ngắn,Thuốc cường beta-2 tác dụng ngắn,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:24.43Z
+CUI:C5237476,thuốc cắt cơn,Thuốc cắt cơn,DrugClass,C5237476,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:40.72Z
+CUI:C0006280,thuốc giãn phế quản,Thuốc giãn phế quản,DrugClass,C0006280,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T03:24:18.742Z
+DrugClass:thuốc giãn phế quản tác dụng dài,thuốc giãn phế quản tác dụng dài,Thuốc giãn phế quản tác dụng dài,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:38.701Z
+DrugClass:thuốc giãn phế quản tác dụng ngắn,thuốc giãn phế quản tác dụng ngắn,Thuốc giãn phế quản tác dụng ngắn,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:32.381Z
+CUI:C0242896,thuốc kháng cholinergic,Thuốc kháng cholinergic,DrugClass,C0242896,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:33.153Z
+CUI:C5544470,thuốc điều hòa miễn dịch,Thuốc điều hòa miễn dịch,DrugClass,C5544470,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:30.458Z
+DrugClass:thuốc đối kháng muscarinic tác dụng kéo dài,thuốc đối kháng muscarinic tác dụng kéo dài,Thuốc đối kháng muscarinic tác dụng kéo dài,DrugClass,,,,{},henphequan.txt,2026-08-21T07:13:36.579Z
+CUI:C1268905,thuốc ổn định tế bào mast,Thuốc ổn định tế bào mast,DrugClass,C1268905,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:35.959Z
+CUI:C0358591,thuốc ức chế bơm proton,Thuốc ức chế bơm proton,DrugClass,C0358591,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:21.583Z
+CUI:C0595726,thuốc ức chế leukotriene,Thuốc ức chế leukotriene,DrugClass,C0595726,Pharmacologic Substance,,{},henphequan.txt,2026-08-21T07:13:36.44Z
+CUI:C1272207,Bảng Các bước quản lý bệnh hen,Bảng Các bước quản lý bệnh hen,Guideline,C1272207,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:32.522Z
+Guideline:hướng dẫn naepp 2004,"Chương trình Giáo dục và Phòng ngừa Hen Quốc gia, Kiểm soát bệnh hen suyễn trong thời kỳ mang thai: Khuyến cáo về Điều trị bằng Dược lý - Cập nhật năm 2004",Hướng dẫn NAEPP 2004,Guideline,,,,{},henphequan.txt,2026-08-21T07:13:37.406Z
+Guideline:phân loại mức độ nghiêm trọng của bệnh hen suyễn,Phân loại mức độ nghiêm trọng của bệnh hen suyễn,Phân loại mức độ nghiêm trọng của bệnh hen suyễn,Guideline,,,,{},henphequan.txt,2026-08-21T07:13:23.049Z
+Measurement:ngưỡng pef cảnh báo: < 80% số liệu tốt nhất,< 80% số liệu tốt nhất của bệnh nhân,Ngưỡng PEF cảnh báo: < 80% số liệu tốt nhất,Measurement,,,Thông số: Ngưỡng PEF cảnh báo; Giá trị: <80 %,"{""parameter"": ""Ngưỡng PEF cảnh báo"", ""value"": 80, ""unit"": ""%"", ""operator"": ""<""}",henphequan.txt,2026-08-21T07:13:34.507Z
+Measurement:ngưỡng biến thiên pef trong ngày: > 20%,> 20%,Ngưỡng biến thiên PEF trong ngày: > 20%,Measurement,,,Thông số: Biến thiên PEF trong ngày; Giá trị: >20 %,"{""parameter"": ""Biến thiên PEF trong ngày"", ""value"": 20, ""unit"": ""%"", ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:34.85Z
+Measurement:tần suất đợt cấp: > 3 đợt/năm,> 3 đợt cấp/năm,Tần suất đợt cấp: > 3 đợt/năm,Measurement,,,Thông số: Tần suất đợt cấp; Giá trị: >3 đợt/năm,"{""parameter"": ""Tần suất đợt cấp"", ""value"": 3, ""unit"": ""đợt/năm"", ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:34.178Z
+Measurement:chống chỉ định fev1 < 1 l hoặc < 50% dự đoán,FEV1 < 1 L hoặc < 50% dự đoán,Chống chỉ định FEV1 < 1 L hoặc < 50% dự đoán,Measurement,,,Thông số: FEV1; Giá trị: <1 L hoặc 50%,"{""parameter"": ""FEV1"", ""operator"": ""<"", ""value"": ""1 L hoặc 50%""}",henphequan.txt,2026-08-21T07:13:39.596Z
+Measurement:chống chỉ định nghiệm pháp kích thích: fev1 < 1 l hoặc < 50% dự đoán,FEV1 < 1 L hoặc < 50% dự đoán,Chống chỉ định nghiệm pháp kích thích: FEV1 < 1 L hoặc < 50% dự đoán,Measurement,,,Thông số: FEV1; Giá trị: <1 L hoặc 50% dự đoán,"{""parameter"": ""FEV1"", ""operator"": ""<"", ""value"": ""1 L hoặc 50% dự đoán""}",henphequan.txt,2026-08-21T07:13:28.416Z
+Measurement:fev1 < 50% dự đoán,FEV1 < 50% dự đoán,FEV1 < 50% dự đoán,Measurement,,,Thông số: FEV1; Giá trị: <50 % dự đoán,"{""parameter"": ""FEV1"", ""value"": 50, ""unit"": ""% dự đoán"", ""operator"": ""<""}",henphequan.txt,2026-08-21T07:13:34.24Z
+Measurement:cải thiện fev1 > 12% hoặc >= 10% fev1 dự đoán,FEV1 > 12% hoặc tăng >= 10% so với FEV1 dự đoán,Cải thiện FEV1 > 12% hoặc >= 10% FEV1 dự đoán,Measurement,,,Thông số: Cải thiện FEV1,"{""parameter"": ""Cải thiện FEV1"", ""operator"": ""> 12% hoặc >= 10%"", ""unit"": ""%""}",henphequan.txt,2026-08-21T07:13:39.528Z
+Measurement:cải thiện fev1 sau thuốc giãn phế quản > 12% hoặc >= 10% dự đoán,FEV1 > 12% hoặc tăng >= 10% so với FEV1 dự đoán,Cải thiện FEV1 sau thuốc giãn phế quản > 12% hoặc >= 10% dự đoán,Measurement,,,Thông số: Cải thiện FEV1 sau thuốc giãn phế quản,"{""parameter"": ""Cải thiện FEV1 sau thuốc giãn phế quản"", ""operator"": ""> 12% hoặc >= 10%"", ""unit"": ""%""}",henphequan.txt,2026-08-21T07:13:28.075Z
+Measurement:fev1 >= 50% dự đoán,FEV1 >= 50% dự đoán,FEV1 >= 50% dự đoán,Measurement,,,Thông số: FEV1; Giá trị: >=50 % dự đoán,"{""parameter"": ""FEV1"", ""operator"": "">="", ""value"": 50, ""unit"": ""% dự đoán""}",henphequan.txt,2026-08-21T07:13:33.964Z
+Measurement:giảm pef 15 - 20% so với đường cơ sở,Giảm 15 đến 20% so với đường cơ sở,Giảm PEF 15 - 20% so với đường cơ sở,Measurement,,,Thông số: Giảm PEF so với đường cơ sở; min_value: 15; max_value: 20,"{""parameter"": ""Giảm PEF so với đường cơ sở"", ""min_value"": 15, ""max_value"": 20, ""unit"": ""%"", ""operator"": ""range""}",henphequan.txt,2026-08-21T07:13:30.306Z
+"Measurement:chống chỉ định tăng huyết áp nặng ha tâm thu > 200 mmhg, ha tâm trương > 100 mmhg",HA tâm thu > 200 mm Hg; HA tâm trương > 100 mm Hg,"Chống chỉ định tăng huyết áp nặng HA tâm thu > 200 mmHg, HA tâm trương > 100 mmHg",Measurement,,,Thông số: Huyết áp; Huyết áp 200/100,"{""parameter"": ""Huyết áp"", ""systolic"": 200, ""diastolic"": 100, ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:39.661Z
+"Measurement:ngưỡng tăng huyết áp nặng: ha tâm thu > 200 mmhg, ha tâm trương > 100 mmhg",HA tâm thu > 200 mm Hg; HA tâm trương > 100 mm Hg,"Ngưỡng tăng huyết áp nặng: HA tâm thu > 200 mmHg, HA tâm trương > 100 mmHg",Measurement,,,Thông số: Huyết áp; Huyết áp 200/100,"{""parameter"": ""Huyết áp"", ""systolic"": 200, ""diastolic"": 100, ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:28.675Z
+CUI:C2733224,Kiểm soát,Kiểm soát hen,Measurement,C2733224,Clinical Attribute,Thông số: Mức độ triệu chứng và nguy cơ,"{""parameter"": ""Mức độ triệu chứng và nguy cơ""}",henphequan.txt,2026-08-21T07:13:23.55Z
+Measurement:mức feno < 25 ppb,Mức < 25 ppb,Mức FeNO < 25 ppb,Measurement,,,Thông số: FeNO; Giá trị: <25 ppb,"{""parameter"": ""FeNO"", ""value"": 25, ""unit"": ""ppb"", ""operator"": ""<""}",henphequan.txt,2026-08-21T07:13:29.891Z
+Measurement:mức feno > 50 ppb,Mức FeNO > 50 ppb,Mức FeNO > 50 ppb,Measurement,,,Thông số: FeNO; Giá trị: >50 ppb,"{""parameter"": ""FeNO"", ""value"": 50, ""unit"": ""ppb"", ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:29.828Z
+CUI:C3476109,Mức độ thường xuyên mà bệnh nhân sử dụng,Tần suất sử dụng thuốc,Measurement,C3476109,Temporal Concept,Thông số: Tần suất sử dụng thuốc,"{""parameter"": ""Tần suất sử dụng thuốc""}",henphequan.txt,2026-08-21T07:13:24.666Z
+Measurement:mức feno 25 - 50 ppb,Mức độ từ 25 đến 50 ppb,Mức FeNO 25 - 50 ppb,Measurement,,,Thông số: FeNO; min_value: 25; max_value: 50,"{""parameter"": ""FeNO"", ""min_value"": 25, ""max_value"": 50, ""unit"": ""ppb""}",henphequan.txt,2026-08-21T07:13:29.955Z
+Measurement:pco2 máu bình thường trong thai kỳ: 32 mmhg,PCO2 trong máu bình thường ở mức khoảng 32 mmHg,PCO2 máu bình thường trong thai kỳ: 32 mmHg,Measurement,,,Thông số: PCO2 máu; Giá trị: 32 mmHg,"{""parameter"": ""PCO2 máu"", ""value"": 32, ""unit"": ""mmHg""}",henphequan.txt,2026-08-21T07:13:37.494Z
+Measurement:ngưỡng tăng carbon dioxide: 40 mmhg,PCO2 đạt tới 40 mmHg,Ngưỡng tăng carbon dioxide: 40 mmHg,Measurement,,,Thông số: PCO2 máu; Giá trị: 40 mmHg,"{""parameter"": ""PCO2 máu"", ""value"": 40, ""unit"": ""mmHg""}",henphequan.txt,2026-08-21T07:13:37.559Z
+Measurement:tăng carbon dioxide (pco2) >= 40 mmhg,PCO2 đạt tới 40 mmHg,Tăng carbon dioxide (PCO2) >= 40 mmHg,Measurement,,,Thông số: PCO2 máu; Giá trị: >=40 mmHg,"{""parameter"": ""PCO2 máu"", ""value"": 40, ""unit"": ""mmHg"", ""operator"": "">=""}",henphequan.txt,2026-08-21T07:13:40.848Z
+Measurement:pco2 gần 40 mm hg,PCO2 ở mức gần 40 mm Hg,PCO2 gần 40 mm Hg,Measurement,,,Thông số: PCO2; Giá trị: gần40 mm Hg,"{""parameter"": ""PCO2"", ""value"": 40, ""unit"": ""mm Hg"", ""operator"": ""gần""}",henphequan.txt,2026-08-21T07:13:37.853Z
+Measurement:paco2 > 45 mm hg,PaCO2 > 45 mm Hg,PaCO2 > 45 mm Hg,Measurement,,,Thông số: PaCO2; Giá trị: >45 mm Hg,"{""parameter"": ""PaCO2"", ""operator"": "">"", ""value"": 45, ""unit"": ""mm Hg""}",henphequan.txt,2026-08-21T07:13:25.518Z
+Measurement:tăng paco2,PaCO2 tăng,Tăng PaCO2,Measurement,,,Thông số: PaCO2,"{""parameter"": ""PaCO2"", ""operator"": ""tăng""}",henphequan.txt,2026-08-21T07:13:22.332Z
+Measurement:sự cải thiện fev1 > 12% hoặc tăng >= 10% so với fev1 dự đoán,Sự cải thiện FEV1 > 12% hoặc tăng >= 10% so với FEV1 dự đoán,Sự cải thiện FEV1 > 12% hoặc tăng >= 10% so với FEV1 dự đoán,Measurement,,,Thông số: Cải thiện FEV1; Giá trị: > hoặc >=12% hoặc 10% %,"{""parameter"": ""Cải thiện FEV1"", ""operator"": ""> hoặc >="", ""value"": ""12% hoặc 10%"", ""unit"": ""%""}",henphequan.txt,2026-08-21T07:13:28.01Z
+Measurement:suy giảm fev1 > 20%,Sự suy giảm FEV1 > 20%,Suy giảm FEV1 > 20%,Measurement,,,Thông số: Suy giảm FEV1,"{""parameter"": ""Suy giảm FEV1"", ""operator"": ""> 20%"", ""unit"": ""%""}",henphequan.txt,2026-08-21T07:13:39.725Z
+Measurement:suy giảm fev1 > 20% trong nghiệm pháp kích thích,Sự suy giảm FEV1 > 20%,Suy giảm FEV1 > 20% trong nghiệm pháp kích thích,Measurement,,,Thông số: Suy giảm FEV1; Giá trị: >20 %,"{""parameter"": ""Suy giảm FEV1"", ""operator"": "">"", ""value"": 20, ""unit"": ""%""}",henphequan.txt,2026-08-21T07:13:28.738Z
+Measurement:độ tuổi: < 5 tuổi,Trẻ em < 5 tuổi,Độ tuổi: < 5 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: <5,"{""parameter"": ""Độ tuổi"", ""value"": 5, ""operator"": ""<""}",henphequan.txt,2026-08-21T07:13:36.788Z
+Measurement:tần suất điều trị ở trẻ em < 5 tuổi: > 2 lần/tuần,Trẻ em < 5 tuổi cần điều trị > 2 lần/tuần,Tần suất điều trị ở trẻ em < 5 tuổi: > 2 lần/tuần,Measurement,,,Thông số: Tần suất điều trị; Giá trị: >2 lần/tuần,"{""parameter"": ""Tần suất điều trị"", ""value"": 2, ""operator"": "">"", ""unit"": ""lần/tuần""}",henphequan.txt,2026-08-21T07:13:40.524Z
+Measurement:độ tuổi: > 5 tuổi,Trẻ em> 5 tuổi,Độ tuổi: > 5 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: >5 tuổi,"{""parameter"": ""Độ tuổi"", ""value"": 5, ""operator"": "">"", ""unit"": ""tuổi""}",henphequan.txt,2026-08-21T07:13:36.917Z
+Measurement:tăng bạch cầu ái toan trong máu > 400 tế bào/mcl,"Tăng bạch cầu ái toan trong máu (f > 400 tế bào/mcL [> 0,4 × 109 /L])",Tăng bạch cầu ái toan trong máu > 400 tế bào/mcL,Measurement,,,Thông số: Bạch cầu ái toan trong máu; Giá trị: >400 tế bào/mcL,"{""parameter"": ""Bạch cầu ái toan trong máu"", ""value"": 400, ""unit"": ""tế bào/mcL"", ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:39.872Z
+Measurement:số lượng bạch cầu ái toan trong máu > 400 tế bào/mcl,"Tăng bạch cầu ái toan trong máu (f > 400 tế bào/mcL [> 0,4 × 109 /L])",Số lượng bạch cầu ái toan trong máu > 400 tế bào/mcL,Measurement,,,Thông số: Số lượng bạch cầu ái toan trong máu; Giá trị: >400 tế bào/mcL,"{""parameter"": ""Số lượng bạch cầu ái toan trong máu"", ""value"": 400, ""unit"": ""tế bào/mcL"", ""operator"": "">""}",henphequan.txt,2026-08-21T07:13:29.605Z
+CUI:C0005824,chỉ số [HA],Chỉ số huyết áp,Measurement,C0005824,Health Care Activity,Thông số: Huyết áp,"{""parameter"": ""Huyết áp""}",henphequan.txt,2026-08-21T07:13:22.766Z
+Measurement:giá trị lưu lượng đỉnh thở ra khi nhập viện thấp,giá trị lưu lượng đỉnh thở ra khi nhập viện thấp hơn,Giá trị lưu lượng đỉnh thở ra khi nhập viện thấp,Measurement,,,Thông số: Lưu lượng đỉnh thở ra,"{""parameter"": ""Lưu lượng đỉnh thở ra"", ""operator"": ""<""}",henphequan.txt,2026-08-21T07:13:30.963Z
+Measurement:thời gian kiểm soát hen suyễn tốt: >= 3 tháng,kiểm soát tốt trong ít nhất 3 tháng,Thời gian kiểm soát hen suyễn tốt: >= 3 tháng,Measurement,,,Thông số: Thời gian kiểm soát hen suyễn tốt; Giá trị: >=3 tháng; min_value: 3,"{""parameter"": ""Thời gian kiểm soát hen suyễn tốt"", ""min_value"": 3, ""unit"": ""tháng"", ""operator"": "">="", ""value"": 3}",henphequan.txt,2026-08-21T07:13:35.832Z
+CUI:C0232118,mạch nghịch thường (ví dụ: giảm huyết áp tâm thu [BP] > 10 mm Hg trong khi hít vào),Mạch nghịch thường: giảm huyết áp tâm thu > 10 mm Hg khi hít vào,Measurement,C0232118,Finding,Thông số: Giảm huyết áp tâm thu khi hít vào; Giá trị: >10 mm Hg,"{""parameter"": ""Giảm huyết áp tâm thu khi hít vào"", ""operator"": "">"", ""value"": 10, ""unit"": ""mm Hg""}",henphequan.txt,2026-08-21T07:13:25.234Z
+Measurement:mạch nghịch thường > 15 mm hg,mạch nghịch thường > 15 mm Hg,Mạch nghịch thường > 15 mm Hg,Measurement,,,Thông số: Mạch nghịch thường; Giá trị: >15 mm Hg,"{""parameter"": ""Mạch nghịch thường"", ""operator"": "">"", ""value"": 15, ""unit"": ""mm Hg""}",henphequan.txt,2026-08-21T07:13:25.388Z
+Measurement:độ tuổi: > 65 tuổi,người lớn trên 65 tuổi,Độ tuổi: > 65 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: >65 tuổi,"{""parameter"": ""Độ tuổi"", ""operator"": "">"", ""value"": 65, ""unit"": ""tuổi""}",henphequan.txt,2026-08-21T06:17:18.336Z
+Measurement:fev1,thể tích thở ra gắng sức trong 1 giây (FEV1),FEV1,Measurement,,,Thông số: FEV1,"{""parameter"": ""FEV1""}",henphequan.txt,2026-08-21T07:13:24.199Z
+Measurement:tần suất lặp lại đo chức năng hô hấp: 1 - 2 năm,từ 1 đến 2 năm,Tần suất lặp lại đo chức năng hô hấp: 1 - 2 năm,Measurement,,,Thông số: Tần suất lặp lại đo chức năng hô hấp; min_value: 1; max_value: 2,"{""parameter"": ""Tần suất lặp lại đo chức năng hô hấp"", ""min_value"": 1, ""max_value"": 2, ""unit"": ""năm""}",henphequan.txt,2026-08-21T07:13:34.375Z
+Measurement:tần suất đo chức năng hô hấp: 1 - 2 năm,từ 1 đến 2 năm,Tần suất đo chức năng hô hấp: 1 - 2 năm,Measurement,,,Thông số: Tần suất đo chức năng hô hấp; min_value: 1; max_value: 2,"{""parameter"": ""Tần suất đo chức năng hô hấp"", ""min_value"": 1, ""max_value"": 2, ""unit"": ""năm""}",henphequan.txt,2026-08-21T07:13:40.311Z
+Measurement:tỷ lệ fev1/fvc,tỷ lệ giữa FEV1 với dung tích sống gắng sức (FVC),Tỷ lệ FEV1/FVC,Measurement,,,Thông số: Tỷ lệ FEV1/FVC,"{""parameter"": ""Tỷ lệ FEV1/FVC""}",henphequan.txt,2026-08-21T07:13:24.285Z
+"Measurement:thời gian khởi phát rads: vài phút đến vài giờ, không quá 24 giờ","vài phút đến vài giờ, nhưng không phải > 24 giờ","Thời gian khởi phát RADS: vài phút đến vài giờ, không quá 24 giờ",Measurement,,,Thông số: Thời gian khởi phát; max_value: 24,"{""parameter"": ""Thời gian khởi phát"", ""max_value"": 24, ""unit"": ""giờ""}",henphequan.txt,2026-08-21T07:13:38.963Z
+Measurement:thời gian khởi phát rads: vài phút đến vài giờ,"vài phút đến vài giờ, nhưng không phải > 24 giờ",Thời gian khởi phát RADS: vài phút đến vài giờ,Measurement,,,Thông số: Thời gian khởi phát; max_value: 24,"{""parameter"": ""Thời gian khởi phát"", ""max_value"": 24, ""unit"": ""giờ""}",henphequan.txt,2026-08-21T07:13:19.428Z
+Measurement:độ tuổi sử dụng zileuton: >= 12 tuổi,zileuton chỉ nên được sử dụng cho trẻ em >= 12 tuổi,Độ tuổi sử dụng Zileuton: >= 12 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: >=12 tuổi,"{""parameter"": ""Độ tuổi"", ""value"": 12, ""operator"": "">="", ""unit"": ""tuổi""}",henphequan.txt,2026-08-21T07:13:36.854Z
+Measurement:độ bão hòa oxy < 90%,độ bão hòa oxy < 90%,Độ bão hòa oxy < 90%,Measurement,,,Thông số: Độ bão hòa oxy; Giá trị: <90 %,"{""parameter"": ""Độ bão hòa oxy"", ""operator"": ""<"", ""value"": 90, ""unit"": ""%""}",henphequan.txt,2026-08-21T07:13:25.451Z
+CUI:C1415576,HLA-DRB1,HLA-DRB1,Mechanism,C1415576,Gene or Genome,,{},henphequan.txt,2026-08-21T07:13:17.932Z
+CUI:C0214743,IL-13,IL-13,Mechanism,C0214743,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:17.869Z
+CUI:C0021758,IL-4,IL-4,Mechanism,C0021758,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:17.806Z
+CUI:C0020846,IgE,IgE,Mechanism,C0020846,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:19Z
+CUI:C5160476,IgE huyết thanh,IgE huyết thanh,Mechanism,C5160476,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:26.438Z
+Mechanism:il-6 huyết thanh,Il-6 huyết thanh,Il-6 huyết thanh,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:17.251Z
+CUI:C0242632,T hỗ trợ loại 1 (TH1),T hỗ trợ loại 1 (TH1),Mechanism,C0242632,Cell,,{},henphequan.txt,2026-08-21T07:13:19.129Z
+CUI:C1456820,TNF-α,TNF-α,Mechanism,C1456820,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T03:24:23.599Z
+CUI:C1955907,adipokine,Adipokine,Mechanism,C1955907,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-20T15:59:19.095Z
+CUI:C0027950,bạch cầu trung tính,Bạch cầu trung tính,Mechanism,C0027950,Pathologic Function / Physiologic Function,,{},henphequan.txt,2026-08-21T03:24:21.77Z
+CUI:C0014467,bạch cầu ái toan,Bạch cầu ái toan,Mechanism,C0014467,Pathologic Function / Physiologic Function,,{},henphequan.txt,2026-08-21T03:24:28.972Z
+CUI:C1335386,bạch cầu ái toan trong máu,Bạch cầu ái toan trong máu,Mechanism,C1335386,Laboratory or Test Result,,{},henphequan.txt,2026-08-21T07:13:26.375Z
+Mechanism:bạch cầu ái toan và ige,bạch cầu ái toan và IgE,Bạch cầu ái toan và IgE,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:18.718Z
+CUI:C0038585,chất P,Chất P,Mechanism,C0038585,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:20.398Z
+Mechanism:co mạch phổi bù trừ,co mạch phổi bù trừ,Co mạch phổi bù trừ,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:22.048Z
+CUI:C0006266,co thắt phế quản,Co thắt phế quản,Mechanism,C0006266,Disease or Syndrome,,{},henphequan.txt,2026-08-21T03:24:21.694Z
+Mechanism:co thắt phế quản nặng,co thắt phế quản nặng,Co thắt phế quản nặng,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:25.317Z
+Mechanism:cơ trơn tái cấu trúc,cơ trơn tái cấu trúc,Cơ trơn tái cấu trúc,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:33.755Z
+CUI:C1423517,gen ADAM33,Gen ADAM33,Mechanism,C1423517,Gene or Genome,,{},henphequan.txt,2026-08-21T07:13:18.063Z
+Mechanism:gen fcer1b,gen FCER1B,Gen FCER1B,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:17.722Z
+CUI:C1423930,gen ORMDL3,Gen ORMDL3,Mechanism,C1423930,Gene or Genome,,{},henphequan.txt,2026-08-21T07:13:18.126Z
+CUI:C3493224,interferon-gamma,Interferon-gamma,Mechanism,C3493224,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:26.584Z
+CUI:C0021760,interleukin 6 (IL-6),Interleukin 6,Mechanism,C0021760,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:36.304Z
+CUI:C0021764,interleukins (IL),Interleukins,Mechanism,C0021764,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:38.832Z
+CUI:C0299583,leptin,Leptin,Mechanism,C0299583,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:17.108Z
+CUI:C0038581,neurokinin A,Neurokinin A,Mechanism,C0038581,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:20.467Z
+CUI:C5445160,oxit nitric thở ra (FeNO),Oxit nitric thở ra (FeNO),Mechanism,C5445160,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:26.301Z
+CUI:C0006669,peptit liên quan đến gen calcitonin,Peptit liên quan đến gen calcitonin,Mechanism,C0006669,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:20.531Z
+Mechanism:đáp ứng miễn dịch t2,phản ứng miễn dịch tiền viêm và tiền dị ứng loại 2 (T2),Đáp ứng miễn dịch T2,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:18.651Z
+CUI:C0033554,prostaglandin,Prostaglandin,Mechanism,C0033554,Organic Chemical,,{},henphequan.txt,2026-08-21T07:13:22.116Z
+CUI:C0012472,prostaglandin E2,Prostaglandin E2,Mechanism,C0012472,Organic Chemical,,{},henphequan.txt,2026-08-21T07:13:20.598Z
+CUI:C4304688,sự suy giảm,Sự suy giảm chức năng,Mechanism,C4304688,Finding,,{},henphequan.txt,2026-08-21T07:13:23.979Z
+CUI:C0700292,thiếu oxy máu,Thiếu oxy máu,Mechanism,C0700292,Pathologic Function / Physiologic Function,,{},henphequan.txt,2026-08-21T07:13:22.27Z
+Mechanism:thiếu oxy vùng,thiếu oxy vùng,Thiếu oxy vùng,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:21.915Z
+CUI:C0014457,tăng bạch cầu ái toan trong máu hoặc trong đờm,Tăng bạch cầu ái toan,Mechanism,C0014457,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:26.925Z
+CUI:C0020440,tăng carbonic máu,Tăng carbonic máu,Mechanism,C0020440,Finding,,{},henphequan.txt,2026-08-21T03:24:23.17Z
+CUI:C0085129,tăng đáp ứng phế quản,Tăng đáp ứng phế quản,Mechanism,C0085129,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:20.141Z
+CUI:C0242633,tế bào Th2,Tế bào Th2,Mechanism,C0242633,Cell,,{},henphequan.txt,2026-08-21T07:13:17.577Z
+CUI:C0021368,viêm,Viêm,Mechanism,C0021368,Pathologic Function,,{},henphequan.txt,2026-08-21T07:13:17.66Z
+CUI:C0041368,yếu tố hoại tử khối u,Yếu tố hoại tử khối u,Mechanism,C0041368,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:26.648Z
+Mechanism:tăng áp lực carbon dioxide phế nang,áp lực carbon dioxide trong phế nang tăng lên,Tăng áp lực carbon dioxide phế nang,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:21.846Z
+Mechanism:giảm áp lực oxy phế nang,áp lực oxy trong phế nang giảm,Giảm áp lực oxy phế nang,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:21.78Z
+Mechanism:đáp ứng t2 tiền viêm,Đáp ứng T2 tiền viêm,Đáp ứng T2 tiền viêm,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:18.866Z
+Mechanism:ứ khí nghiêm trọng,ứ khí nghiêm trọng,Ứ khí nghiêm trọng,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:39.249Z
+Mechanism:ứ khí trong phổi,ứ khí trong phổi,Ứ khí trong phổi,Mechanism,,,,{},henphequan.txt,2026-08-21T07:13:25.857Z
+CUI:C0006255,phế quản,Phế quản,Organ,C0006255,"Body Part, Organ, or Organ Component",,{},henphequan.txt,2026-08-21T07:13:22.914Z
+CUI:C0024109,phổi,Phổi,Organ,C0024109,"Body Part, Organ, or Organ Component",,{},henphequan.txt,2026-08-20T15:58:28.587Z
+CUI:C0282335,đường hô hấp,Đường hô hấp,Organ,C0282335,"Body Part, Organ, or Organ Component",,{},henphequan.txt,2026-08-21T07:13:33.485Z
+CUI:C0458827,đường thở,Đường thở,Organ,C0458827,"Body Part, Organ, or Organ Component",,{},henphequan.txt,2026-08-21T07:13:20.665Z
+CUI:C0001792,Người cao tuổi,Người cao tuổi,PatientGroup,C0001792,Population Group / Age Group,,{},henphequan.txt,2026-08-21T07:13:37.918Z
+PatientGroup:bệnh nhân hen suyễn,bệnh nhân hen suyễn,Bệnh nhân hen suyễn,PatientGroup,,,,{},henphequan.txt,2026-08-21T07:13:23.701Z
+CUI:C3845752,trẻ sơ sinh và trẻ nhỏ,Trẻ sơ sinh và trẻ nhỏ,PatientGroup,C3845752,Finding,,{},henphequan.txt,2026-08-21T07:13:16.943Z
+"RiskFactor:chế độ ăn thiếu hụt vitamin c, e và axit béo omega-3","Chế độ ăn ít vitamin C, E và axit béo omega-3","Chế độ ăn thiếu hụt vitamin C, E và axit béo omega-3",RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:18.334Z
+CUI:C0086287,Giới nữ,Giới nữ,RiskFactor,C0086287,Organism Attribute,,{},henphequan.txt,2026-08-21T07:13:30.538Z
+CUI:C0015259,Tập thể dục,Tập thể dục,RiskFactor,C0015259,Finding / Individual Behavior,,{},henphequan.txt,2026-08-21T07:13:21.157Z
+RiskFactor:tuổi mẹ khi sinh quá trẻ,bà mẹ sinh con khi còn quá trẻ,Tuổi mẹ khi sinh quá trẻ,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:38.897Z
+RiskFactor:yếu tố chu sinh,"bà mẹ sinh con khi còn quá trẻ, dinh dưỡng kém của bà mẹ, trẻ sơ sinh non tháng, trẻ sơ sinh nhẹ cân và thiếu sữa mẹ",Yếu tố chu sinh,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:18.399Z
+CUI:C0028754,béo phì,Béo phì,RiskFactor,C0028754,Disease or Syndrome,,{},henphequan.txt,2026-08-20T14:17:07.555Z
+RiskFactor:chất gây dị ứng trong gia đình,"chất gây dị ứng trong gia đình (ví dụ: bụi, gián, vật nuôi)",Chất gây dị ứng trong gia đình,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:18.268Z
+RiskFactor:tiền sử nhập viện do đợt cấp,các đợt nhập viện trước đây do đợt cấp,Tiền sử nhập viện do đợt cấp,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:40.016Z
+CUI:C1439995,dị nguyên bọ ve,Dị nguyên bọ ve,RiskFactor,C1439995,Immunologic Factor,,{},henphequan.txt,2026-08-21T07:13:31.989Z
+CUI:C4304127,dị nguyên trong môi trường,Dị nguyên môi trường,RiskFactor,C4304127,Finding,,{},henphequan.txt,2026-08-21T07:13:38.47Z
+RiskFactor:gen nhạy cảm hen,gen nhạy cảm,Gen nhạy cảm hen,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:17.496Z
+RiskFactor:tiếp xúc khí hoặc hạt kích thích,hít phải với một lượng đáng kể khí hoặc hạt kích thích,Tiếp xúc khí hoặc hạt kích thích,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:39.027Z
+RiskFactor:hít phải khí hoặc hạt kích thích nồng độ cao,hít phải với một lượng đáng kể khí hoặc hạt kích thích,Hít phải khí hoặc hạt kích thích nồng độ cao,RiskFactor,,,Thông số: Nồng độ khí hoặc hạt kích thích; Giá trị: đáng kể,"{""parameter"": ""Nồng độ khí hoặc hạt kích thích"", ""value"": ""đáng kể""}",henphequan.txt,2026-08-21T07:13:19.554Z
+CUI:C4300344,khói thuốc lá,Tiếp xúc khói thuốc lá,RiskFactor,C4300344,Finding,,{},henphequan.txt,2026-08-21T07:13:18.571Z
+CUI:C0439994,khói thuốc lá,Khói thuốc lá,RiskFactor,C0439994,Substance,,{},henphequan.txt,2026-08-21T07:13:21.22Z
+CUI:C6064359,nguy cơ,Nguy cơ bệnh lý,RiskFactor,C6064359,Finding,,{},henphequan.txt,2026-08-21T07:13:24.047Z
+CUI:C0339916,nhiễm trùng đường hô hấp trên do virus,Nhiễm trùng đường hô hấp trên do virus,RiskFactor,C0339916,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:32.251Z
+RiskFactor:nhạy cảm với bọ ve trong nhà,nhạy cảm với bọ ve trong nhà,Nhạy cảm với bọ ve trong nhà,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:30.751Z
+CUI:C0369241,nấm mốc,Nấm mốc,RiskFactor,C0369241,Fungus,,{},henphequan.txt,2026-08-21T07:13:31.84Z
+CUI:C0038750,sulfite,Sulfite,RiskFactor,C0038750,Inorganic Chemical,,{},henphequan.txt,2026-08-21T07:13:32.187Z
+RiskFactor:sử dụng cocaine dạng hít,sử dụng cocaine dạng hít,Sử dụng cocaine dạng hít,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:35.701Z
+CUI:C5768267,tiếp xúc với chất kích thích,Tiếp xúc với chất kích thích,RiskFactor,C5768267,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:35.766Z
+CUI:C0037421,tiếp xúc đơn độc,Tiếp xúc đơn độc,RiskFactor,C0037421,Social Behavior,,{},henphequan.txt,2026-08-21T07:13:19.492Z
+CUI:C0034013,tuổi dậy thì sớm,Tuổi dậy thì sớm,RiskFactor,C0034013,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:30.683Z
+RiskFactor:tăng nhu cầu sử dụng corticosteroid đường uống,tăng nhu cầu sử dụng corticosteroid đường uống,Tăng nhu cầu sử dụng corticosteroid đường uống,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:30.896Z
+RiskFactor:tăng nhu cầu sử dụng corticosteroid đường uống trước khi nhập viện,tăng nhu cầu sử dụng corticosteroid đường uống trước khi nhập viện,Tăng nhu cầu sử dụng corticosteroid đường uống trước khi nhập viện,RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:39.938Z
+"RiskFactor:vi khuẩn, virus, nội độc tố","vi khuẩn, virus, nội độc tố","Vi khuẩn, virus, nội độc tố",RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:19.065Z
+"RiskFactor:vắc xin, kháng sinh","vắc xin, kháng sinh","Vắc xin, kháng sinh",RiskFactor,,,,{},henphequan.txt,2026-08-21T07:13:19.276Z
+CUI:C0032930,yếu tố khởi phát,Yếu tố khởi phát,RiskFactor,C0032930,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:26.003Z
+CUI:C0001873,Ô nhiễm không khí,Ô nhiễm không khí,RiskFactor,C0001873,Finding / Individual Behavior,,{},henphequan.txt,2026-08-21T03:24:20.417Z
+Sign:căng phồng phổi quá mức,căng phồng phổi quá mức,Căng phồng phổi quá mức,Sign,,,,{},henphequan.txt,2026-08-21T07:13:25.645Z
+CUI:C0024117,hạn chế luồng khí,Hạn chế luồng khí,Sign,C0024117,Disease or Syndrome,,{},henphequan.txt,2026-08-21T07:13:20.075Z
+CUI:C0264172,lồng ngực hình thùng,Lồng ngực hình thùng,Sign,C0264172,Finding,,{},henphequan.txt,2026-08-21T07:13:25.921Z
+CUI:C0043144,thở khò khè,Thở khò khè,Sign,C0043144,Sign or Symptom,,{},henphequan.txt,2026-08-21T07:13:16.37Z
+CUI:C1335386,tăng bạch cầu ái toan trong máu ngoại biên,Tăng bạch cầu ái toan trong máu ngoại biên,Sign,C1335386,Laboratory or Test Result,,{},henphequan.txt,2026-08-21T07:13:20.747Z
+Sign:tắc nghẽn đường thở cố định,tắc nghẽn đường thở cố định,Tắc nghẽn đường thở cố định,Sign,,,,{},henphequan.txt,2026-08-21T07:13:39.445Z
+CUI:C0010200,ho,Ho,Symptom,C0010200,Sign or Symptom,,{},henphequan.txt,2026-08-21T07:13:16.302Z
+CUI:C0010201,ho kéo dài,Ho kéo dài,Symptom,C0010201,Sign or Symptom,,{},henphequan.txt,2026-08-21T07:13:38.551Z
+CUI:C0013404,khó thở,Khó thở,Symptom,C0013404,Sign or Symptom,,{},henphequan.txt,2026-08-20T15:58:39.781Z
+CUI:C3831496,nặng ngực,Nặng ngực,Symptom,C3831496,Intellectual Product,,{},henphequan.txt,2026-08-21T07:13:25.142Z
+CUI:C0393761,thức tỉnh về đêm,Thức tỉnh về đêm,Symptom,C0393761,Mental or Behavioral Dysfunction,,{},henphequan.txt,2026-08-21T07:13:31.454Z
+CUI:C1276804,triệu chứng,Triệu chứng hen,Symptom,C1276804,Finding,,{},henphequan.txt,2026-08-21T07:13:23.225Z
+CUI:C4699979,triệu chứng mạn tính,Triệu chứng mạn tính,Symptom,C4699979,Finding,,{},henphequan.txt,2026-08-21T07:13:31.363Z
+CUI:C0008031,tức ngực,Tức ngực,Symptom,C0008031,Sign or Symptom,,{},henphequan.txt,2026-08-21T07:13:16.238Z
+CUI:C0497104,Các nghiệm pháp khác,Các nghiệm pháp chẩn đoán khác,Test,C0497104,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T07:13:28.803Z
+CUI:C1516251,DLCO,DLCO,Test,C1516251,Diagnostic Procedure / Laboratory Procedure,,{},henphequan.txt,2026-08-21T03:24:27.383Z
+Test:khí máu động mạch hoặc tĩnh mạch,Khí máu động mạch hoặc tĩnh mạch,Khí máu động mạch hoặc tĩnh mạch,Test,,,,{},henphequan.txt,2026-08-21T07:13:30.373Z
+CUI:C0006265,Nghiệm pháp kích thích,Nghiệm pháp kích thích phế quản,Test,C0006265,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T07:13:28.291Z
+CUI:C0034554,RAST,RAST,Test,C0034554,Laboratory Procedure,,{},henphequan.txt,2026-08-21T07:13:29.521Z
+CUI:C0037296,Test da,Test da,Test,C0037296,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T07:13:29.458Z
+CUI:C0199747,Test dị ứng,Test dị ứng,Test,C0199747,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T07:13:29.266Z
+CUI:C0035227,chức năng hô hấp,Chức năng hô hấp,Test,C0035227,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T07:13:24.939Z
+CUI:C0024119,kiểm tra chức năng hô hấp,Kiểm tra chức năng hô hấp,Test,C0024119,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T03:24:18.656Z
+CUI:C1518922,lưu lượng đỉnh,Lưu lượng đỉnh (PEF),Test,C1518922,Laboratory Procedure,,{},henphequan.txt,2026-08-21T07:13:30.026Z
+CUI:C4285560,lưu lượng đỉnh cá nhân tốt nhất,Lưu lượng đỉnh cá nhân tốt nhất,Test,C4285560,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:35.126Z
+CUI:C3174375,nghiệm pháp kích thích bằng methacholine,Nghiệm pháp kích thích methacholine,Test,C3174375,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:38.635Z
+CUI:C5445160,oxit nitric phân đoạn thở ra (FeNO),FeNO,Test,C5445160,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:29.748Z
+Test:nghiệm pháp giãn phế quản,thử nghiệm chức năng hô hấp với nghiệm pháp giãn phế quản,Nghiệm pháp giãn phế quản,Test,,,,{},henphequan.txt,2026-08-21T07:13:38.204Z
+CUI:C5549662,tiêu chí lâm sàng,Tiêu chí lâm sàng,Test,C5549662,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T07:13:30.175Z
+CUI:C0262926,tiền sử,Tiền sử,Test,C0262926,Finding,,{},henphequan.txt,2026-08-20T15:58:31.02Z
+CUI:C0086143,xét nghiệm,Xét nghiệm cận lâm sàng,Test,C0086143,Diagnostic Procedure / Laboratory Procedure,,{},henphequan.txt,2026-08-21T06:17:25.359Z
+CUI:C0037981,"đo chức năng hô hấp (FEV1, FEV1/FVC, FVC)","Đo chức năng hô hấp (FEV1, FEV1/FVC, FVC)",Test,C0037981,Diagnostic Procedure,,{},henphequan.txt,2026-08-21T03:24:26.867Z
+CUI:C1881047,Bộ lọc không khí hạt có hiệu suất cao (HEPA),Bộ lọc không khí HEPA,Treatment,C1881047,Health Care Activity,,{},henphequan.txt,2026-08-21T07:13:32.12Z
+CUI:C3854686,Chỉnh hình phế quản bằng nhiệt,Chỉnh hình phế quản bằng nhiệt,Treatment,C3854686,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:33.692Z
+CUI:C1707658,Máy hút ẩm,Máy hút ẩm,Treatment,C1707658,Manufactured Object,,{},henphequan.txt,2026-08-21T07:13:31.745Z
+Treatment:xử lý hơi nước,Xử lý hơi nước,Xử lý hơi nước,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:31.923Z
+Treatment:buồng đệm hoặc buồng giữ,buồng đệm hoặc buồng giữ,Buồng đệm hoặc buồng giữ,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:33.422Z
+CUI:C0006730,chất bổ sung canxi và vitamin D,Canxi và Vitamin D,Treatment,C0006730,"Amino Acid, Peptide, or Protein",,{},henphequan.txt,2026-08-21T07:13:38.342Z
+Treatment:thuốc dạng bột,dạng bột,Thuốc dạng bột,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:40.145Z
+CUI:C0993596,dụng cụ hít định liều (MDI),Dụng cụ hít định liều (MDI),Treatment,C0993596,Medical Device,,{},henphequan.txt,2026-08-21T07:13:35.188Z
+CUI:C0030688,giáo dục bệnh nhân,Giáo dục bệnh nhân,Treatment,C0030688,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-20T14:17:17.308Z
+CUI:C1709852,giải mẫn cảm,Giải mẫn cảm,Treatment,C1709852,Molecular Function,,{},henphequan.txt,2026-08-21T07:13:36.237Z
+CUI:C0030231,giảm triệu chứng,Giảm triệu chứng,Treatment,C0030231,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:24.573Z
+Treatment:gối sợi tổng hợp,gối sợi tổng hợp,Gối sợi tổng hợp,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:31.6Z
+CUI:C1319354,"hoạt động thể chất, tập thể dục và tham gia các môn thể thao",Hoạt động thể chất và thể thao,Treatment,C1319354,Finding,,{},henphequan.txt,2026-08-21T07:13:36.706Z
+CUI:C0026606,"hoạt động thể chất, tập thể dục và tham gia các môn thể thao",Hoạt động thể chất,Treatment,C0026606,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-20T15:59:17.753Z
+Treatment:kiểm soát các yếu tố khởi phát,kiểm soát các yếu tố khởi phát,Kiểm soát các yếu tố khởi phát,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:16.714Z
+CUI:C3481636,kế hoạch hành động của bệnh hen suyễn,Kế hoạch hành động hen suyễn,Treatment,C3481636,Clinical Attribute,,{},henphequan.txt,2026-08-21T07:13:34.932Z
+CUI:C1445942,kế hoạch quản lý bệnh hen,Kế hoạch quản lý bệnh hen,Treatment,C1445942,Intellectual Product,,{},henphequan.txt,2026-08-21T07:13:40.654Z
+Treatment:liệu pháp kiểm soát hen,liệu pháp kiểm soát,Liệu pháp kiểm soát hen,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:32.457Z
+CUI:C0021083,liệu pháp miễn dịch,Liệu pháp miễn dịch,Treatment,C0021083,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:29.329Z
+CUI:C0005527,liệu pháp sinh học,Liệu pháp sinh học,Treatment,C0005527,Therapeutic or Preventive Procedure,,{},henphequan.txt,2026-08-21T07:13:27.136Z
+CUI:C5545376,nệm không thấm nước,Nệm không thấm nước,Treatment,C5545376,Medical Device,,{},henphequan.txt,2026-08-21T07:13:31.68Z
+Treatment:vệ sinh buồng đệm,rửa và lau khô buồng đệm,Vệ sinh buồng đệm,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:33.564Z
+Treatment:thuốc dạng khí dung,thuốc dạng khí dung,Thuốc dạng khí dung,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:33.36Z
+CUI:C0598322,thuốc hít,Thuốc dạng hít,Treatment,C0598322,Biomedical or Dental Material,,{},henphequan.txt,2026-08-21T07:13:33.279Z
+Treatment:tiêu diệt gián,tiêu diệt gián,Tiêu diệt gián,Treatment,,,,{},henphequan.txt,2026-08-21T07:13:32.055Z
+CUI:C1318955,điều trị,Điều trị hen suyễn,Treatment,C1318955,Health Care Activity,,{},henphequan.txt,2026-08-21T07:13:23.14Z
