@@ -3878,5 +3878,809 @@
     "cui": "C0013216",
     "tui": "T061",
     "entity_type": "Treatment"
+  },
+  "viêm phế quản tắc nghẽn mạn tính": {
+    "en": "Chronic obstructive bronchitis",
+    "cui": "C0155874",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thiếu hụt alpha-1 antitrypsin": {
+    "en": "Alpha-1 antitrypsin deficiency",
+    "cui": "C0221757",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "suy tim phải": {
+    "en": "Right-sided heart failure",
+    "cui": "C0235527",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "kiểm tra chức năng phổi": {
+    "en": "Pulmonary function test",
+    "cui": "C0024119",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "phẫu thuật giảm thể tích phổi": {
+    "en": "Lung volume reduction surgery",
+    "cui": "C0524689",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "viêm phế quản mạn tính tắc nghẽn": {
+    "en": "Chronic obstructive bronchitis",
+    "cui": "C0155874",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "đo chức năng hô hấp": {
+    "en": "Pulmonary function test",
+    "cui": "C0024119",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "viêm phế quản mạn tính do hen": {
+    "en": "Asthmatic chronic bronchitis",
+    "cui": "C0264348",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh phổi tắc nghẽn mạn tính (copd)": {
+    "en": "Chronic obstructive pulmonary disease",
+    "cui": "C0024117",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "liều tích lũy hút thuốc (năm bao thuốc)": {
+    "en": "Pack-year",
+    "cui": "C5551741",
+    "tui": "T081",
+    "entity_type": "Measurement"
+  },
+  "methacholine": {
+    "en": "Methacholine",
+    "cui": "C0600370",
+    "tui": "T109",
+    "entity_type": "Test"
+  },
+  "khói thuốc lá thụ động": {
+    "en": "Secondhand smoke",
+    "cui": "C0037370",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "ô nhiễm không khí": {
+    "en": "Air pollution",
+    "cui": "C0001873",
+    "tui": "T069",
+    "entity_type": "RiskFactor"
+  },
+  "bụi nghề nghiệp": {
+    "en": "Occupational dust",
+    "cui": "C2919137",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "cadmium": {
+    "en": "Cadmium",
+    "cui": "C0006632",
+    "tui": "T131",
+    "entity_type": "RiskFactor"
+  },
+  "trọng lượng cơ thể thấp": {
+    "en": "Low body weight",
+    "cui": "C0041667",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "khí thũng": {
+    "en": "Emphysema",
+    "cui": "C0013990",
+    "tui": "T046",
+    "entity_type": "Disease"
+  },
+  "biến thể di truyền": {
+    "en": "Genetic variant",
+    "cui": "C4296572",
+    "tui": "T033",
+    "entity_type": "Cause"
+  },
+  "giới hạn luồng không khí": {
+    "en": "Airflow limitation",
+    "cui": "C0024117",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "protease": {
+    "en": "Protease",
+    "cui": "C5200997",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "antiproteinase": {
+    "en": "Antiproteinase",
+    "cui": "C6024768",
+    "tui": "T049",
+    "entity_type": "Mechanism"
+  },
+  "elastase của bạch cầu trung tính": {
+    "en": "Neutrophil elastase",
+    "cui": "C0064833",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "metalloproteinase của gian bào": {
+    "en": "Extracellular matrix metalloproteinase",
+    "cui": "C1505110",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "cathepsin": {
+    "en": "Cathepsins",
+    "cui": "C0007428",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "alpha-1 antitrypsin": {
+    "en": "Alpha 1-antitrypsin",
+    "cui": "C0002191",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "gốc tự do": {
+    "en": "Free radical",
+    "cui": "C0016693",
+    "tui": "T197",
+    "entity_type": "Mechanism"
+  },
+  "bạch cầu trung tính": {
+    "en": "Neutrophil",
+    "cui": "C0027950",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "bomesin": {
+    "en": "Bombesin",
+    "cui": "C0005919",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "vegf": {
+    "en": "Vascular Endothelial Growth Factor",
+    "cui": "C1171892",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "phế nang": {
+    "en": "Pulmonary alveolus",
+    "cui": "C0034051",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "nhiễm trùng đường hô hấp": {
+    "en": "Respiratory tract infection",
+    "cui": "C0035243",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "phá hủy phổi": {
+    "en": "Destruction of lung",
+    "cui": "C3472385",
+    "tui": "T061",
+    "entity_type": "Complication"
+  },
+  "haemophilus influenzae": {
+    "en": "Haemophilus influenzae",
+    "cui": "C0018483",
+    "tui": "T007",
+    "entity_type": "Cause"
+  },
+  "pseudomonas aeruginosa": {
+    "en": "Pseudomonas aeruginosa",
+    "cui": "C0854135",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "tắc nghẽn đường thở": {
+    "en": "Airway obstruction",
+    "cui": "C0001883",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "suy giảm làm sạch chất nhầy": {
+    "en": "Impaired mucociliary clearance",
+    "cui": "C5195409",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "đáp ứng viêm": {
+    "en": "Inflammatory response",
+    "cui": "C1155266",
+    "tui": "T046",
+    "entity_type": "Mechanism"
+  },
+  "hẹp đường dẫn khí": {
+    "en": "Airway obstruction",
+    "cui": "C0001883",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "kén khí": {
+    "en": "Pulmonary bulla",
+    "cui": "C0241982",
+    "tui": "T190",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thiếu oxy máu": {
+    "en": "Hypoxemia",
+    "cui": "C0700292",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "tăng co2 máu": {
+    "en": "Hypercapnia",
+    "cui": "C0020440",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "tăng áp động mạch phổi": {
+    "en": "Pulmonary arterial hypertension",
+    "cui": "C2973725",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh tâm phế": {
+    "en": "Cor pulmonale",
+    "cui": "C0034072",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tnf-alpha": {
+    "en": "Tumor necrosis factor-alpha",
+    "cui": "C1456820",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "loãng xương": {
+    "en": "Osteoporosis",
+    "cui": "C0029456",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "đau đầu buổi sáng": {
+    "en": "Morning headache",
+    "cui": "C0581880",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "tâm phế mạn": {
+    "en": "Chronic cor pulmonale",
+    "cui": "C0238074",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "tràn khí màng phổi tự phát": {
+    "en": "Spontaneous pneumothorax",
+    "cui": "C0149781",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "mmrc": {
+    "en": "Modified Medical Research Council dyspnea scale",
+    "cui": "C5396614",
+    "tui": "T170",
+    "entity_type": "Guideline"
+  },
+  "đo lường tình trạng khó thở": {
+    "en": "Dyspnea measurement",
+    "cui": "C3173578",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "khó thở khi gắng sức": {
+    "en": "Exertional dyspnea",
+    "cui": "C0231807",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "vi rút nhiễm trùng đường hô hấp trên": {
+    "en": "Upper respiratory tract infection virus",
+    "cui": "C4039754",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "viêm phế quản cấp do vi khuẩn": {
+    "en": "Acute bacterial bronchitis",
+    "cui": "C0339933",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "bệnh sử": {
+    "en": "Medical history",
+    "cui": "C0262926",
+    "tui": "T033",
+    "entity_type": "Test"
+  },
+  "chẩn đoán hình ảnh ngực": {
+    "en": "Thoracic imaging",
+    "cui": "C0412738",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "giãn phế quản": {
+    "en": "Bronchiectasis",
+    "cui": "C0006267",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "nhiễm hiv": {
+    "en": "HIV infection",
+    "cui": "C0019693",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "lạm dụng thuốc bất hợp pháp": {
+    "en": "Illicit drug use",
+    "cui": "C0281875",
+    "tui": "T048",
+    "entity_type": "RiskFactor"
+  },
+  "bệnh sarcoid": {
+    "en": "Sarcoidosis",
+    "cui": "C0036202",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hội chứng sjögren": {
+    "en": "Sjögren's syndrome",
+    "cui": "C1527336",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "viêm tiểu phế quản tắc nghẽn": {
+    "en": "Bronchiolitis obliterans",
+    "cui": "C0006272",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh u cơ trơn mạch bạch huyết": {
+    "en": "Lymphangioleiomyomatosis",
+    "cui": "C0751674",
+    "tui": "T191",
+    "entity_type": "Disease"
+  },
+  "u hạt do tăng bạch cầu ái toan": {
+    "en": "Eosinophilic granuloma",
+    "cui": "C0014461",
+    "tui": "T191",
+    "entity_type": "Disease"
+  },
+  "bệnh phổi kẽ": {
+    "en": "Interstitial lung disease",
+    "cui": "C0206062",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hình ảnh chụp ngực": {
+    "en": "Chest X-ray",
+    "cui": "C0039985",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "xét nghiệm chức năng phổi": {
+    "en": "Pulmonary function test",
+    "cui": "C0024119",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "hội chứng kết hợp xơ phổi và khí phế thũng (cpfe)": {
+    "en": "Combined pulmonary fibrosis and emphysema",
+    "cui": "C3872815",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "fvc": {
+    "en": "Forced vital capacity",
+    "cui": "C3714541",
+    "tui": "T034",
+    "entity_type": "Test"
+  },
+  "vòng lặp lưu lượng-thể tích": {
+    "en": "Flow-volume loop",
+    "cui": "C0428734",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "phép đo phế dung": {
+    "en": "Spirometry",
+    "cui": "C0037981",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "thủ thuật giảm thể tích phổi": {
+    "en": "Lung volume reduction surgery",
+    "cui": "C0524689",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "tăng dung tích cặn chức năng": {
+    "en": "Increased functional residual capacity",
+    "cui": "C0520833",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "bệnh phổi hạn chế": {
+    "en": "Restrictive lung disease",
+    "cui": "C0085581",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "dlco": {
+    "en": "Diffusing capacity of the lung for carbon monoxide",
+    "cui": "C1516251",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "x-quang ngực": {
+    "en": "Chest X-ray",
+    "cui": "C0039985",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "thiếu alpha-1 antitrypsin": {
+    "en": "Alpha-1-antitrypsin deficiency",
+    "cui": "C0221757",
+    "tui": "T047",
+    "entity_type": "Cause"
+  },
+  "phì đại thất phải": {
+    "en": "Right ventricular hypertrophy",
+    "cui": "C0162770",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "viêm phổi": {
+    "en": "Pneumonia",
+    "cui": "C0032285",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "bệnh bụi phổi": {
+    "en": "Pneumoconiosis",
+    "cui": "C0032273",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "ung thư phổi": {
+    "en": "Lung cancer",
+    "cui": "C0684249",
+    "tui": "T191",
+    "entity_type": "Disease"
+  },
+  "ct ngực": {
+    "en": "CT of thorax",
+    "cui": "C0202823",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "nồng độ alpha-1 antitrypsin": {
+    "en": "Alpha-1-antitrypsin measurement",
+    "cui": "C0201856",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "xét nghiệm di truyền": {
+    "en": "Genetic testing",
+    "cui": "C0679560",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "nhịp nhanh nhĩ đa ổ": {
+    "en": "Multifocal atrial tachycardia",
+    "cui": "C0221158",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh tâm thất trái": {
+    "en": "Left ventricular disease",
+    "cui": "C5686755",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh lý van tim": {
+    "en": "Valvular heart disease",
+    "cui": "C0018824",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thiếu máu": {
+    "en": "Anemia",
+    "cui": "C0002871",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bạch cầu ái toan": {
+    "en": "Eosinophil",
+    "cui": "C0014467",
+    "tui": "T025",
+    "entity_type": "Mechanism"
+  },
+  "khí máu tĩnh mạch": {
+    "en": "Venous blood gas",
+    "cui": "C5165470",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "đợt cấp tính": {
+    "en": "Acute exacerbation",
+    "cui": "C2919376",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "suy hô hấp cấp tính": {
+    "en": "Acute respiratory failure",
+    "cui": "C0264490",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "siêu âm tại giường (pocus)": {
+    "en": "Point-of-care ultrasound",
+    "cui": "C5396784",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "ct mạch ngực": {
+    "en": "CT angiography of the thorax",
+    "cui": "C2703057",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "tràn khí màng phổi": {
+    "en": "Pneumothorax",
+    "cui": "C0032326",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thuyên tắc mạch phổi": {
+    "en": "Pulmonary embolism",
+    "cui": "C0034065",
+    "tui": "T046",
+    "entity_type": "Disease"
+  },
+  "corticosteroid hệ thống": {
+    "en": "Systemic corticosteroids",
+    "cui": "C4053960",
+    "tui": "T061",
+    "entity_type": "DrugClass"
+  },
+  "viêm phổi do aspergillus": {
+    "en": "Aspergillosis pneumonia",
+    "cui": "C0155867",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "chụp ct mạch ngực": {
+    "en": "CT angiography of the thorax",
+    "cui": "C2703057",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "cấy đờm": {
+    "en": "Sputum culture",
+    "cui": "C0523174",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "nhuộm gram": {
+    "en": "Gram stain",
+    "cui": "C0200966",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "moraxella catarrhalis": {
+    "en": "Moraxella catarrhalis",
+    "cui": "C0006132",
+    "tui": "T007",
+    "entity_type": "Cause"
+  },
+  "pseudomonas": {
+    "en": "Pseudomonas",
+    "cui": "C0033808",
+    "tui": "T007",
+    "entity_type": "Cause"
+  },
+  "staphylococcus": {
+    "en": "Staphylococcus",
+    "cui": "C0038170",
+    "tui": "T007",
+    "entity_type": "Cause"
+  },
+  "xét nghiệm tìm covid-19": {
+    "en": "COVID-19 diagnostic test",
+    "cui": "C5244026",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "bảng xét nghiệm vi rút đường hô hấp": {
+    "en": "Respiratory virus panel",
+    "cui": "C1954767",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "protein phản ứng c (crp)": {
+    "en": "C-reactive protein measurement",
+    "cui": "C0201657",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "cai thuốc lá": {
+    "en": "Smoking cessation",
+    "cui": "C0085134",
+    "tui": "T055",
+    "entity_type": "Treatment"
+  },
+  "corticosteroid dạng hít (ics)": {
+    "en": "Inhaled corticosteroids",
+    "cui": "C3540702",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "phục hồi chức năng hô hấp": {
+    "en": "Pulmonary rehabilitation",
+    "cui": "C0199529",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "liệu pháp oxy": {
+    "en": "Oxygen therapy",
+    "cui": "C3665674",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "gắng sức": {
+    "en": "Exertion",
+    "cui": "C0015264",
+    "tui": "T040",
+    "entity_type": "Treatment"
+  },
+  "chăm sóc cuối đời": {
+    "en": "End-of-life care",
+    "cui": "C0039548",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "thông khí cơ học": {
+    "en": "Mechanical ventilation",
+    "cui": "C0199470",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc giảm nhẹ": {
+    "en": "Palliative agents",
+    "cui": "C5769259",
+    "tui": "T061",
+    "entity_type": "DrugClass"
+  },
+  "chỉ số bode": {
+    "en": "BODE index",
+    "cui": "C4053940",
+    "tui": "T170",
+    "entity_type": "Test"
+  },
+  "thang điểm mmrc": {
+    "en": "Modified Medical Research Council dyspnea scale",
+    "cui": "C5396614",
+    "tui": "T170",
+    "entity_type": "Guideline"
+  },
+  "tuổi già": {
+    "en": "Advanced age",
+    "cui": "C0001792",
+    "tui": "T098",
+    "entity_type": "RiskFactor"
+  },
+  "giảm cân không rõ nguyên nhân": {
+    "en": "Unintentional weight loss",
+    "cui": "C2363736",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "suy giảm chức năng nghiêm trọng": {
+    "en": "Severe functional impairment",
+    "cui": "C4489230",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "bệnh phổi tắc nghẽn mãn tính": {
+    "en": "Chronic obstructive pulmonary disease",
+    "cui": "C0024117",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "ung thư": {
+    "en": "Cancer",
+    "cui": "C0006826",
+    "tui": "T191",
+    "entity_type": "Disease"
+  },
+  "suy hô hấp cấp": {
+    "en": "Acute respiratory failure",
+    "cui": "C0264490",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "tắc mạch phổi": {
+    "en": "Pulmonary embolism",
+    "cui": "C0034065",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "x quang ngực": {
+    "en": "Chest X-ray",
+    "cui": "C0039985",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "tiêm chủng phòng ngừa": {
+    "en": "Vaccination",
+    "cui": "C0042196",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "ho đờm": {
+    "en": "Productive cough",
+    "cui": "C0239134",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "rì rào phế nang giảm": {
+    "en": "Decreased breath sounds",
+    "cui": "C0238844",
+    "tui": "T033",
+    "entity_type": "Sign"
+  },
+  "hóa chất hít vào": {
+    "en": "Inhaled chemical",
+    "cui": "C3841930",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "yếu tố tăng trưởng nội mô mạch máu (vegf)": {
+    "en": "Vascular Endothelial Growth Factor",
+    "cui": "C1171892",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "dyspnea": {
+    "en": "Dyspnea",
+    "cui": "C0013404",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "bệnh phổi tắc nghẽn mãn tính (copd)": {
+    "en": "Chronic obstructive pulmonary disease",
+    "cui": "C0024117",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "hạ oxy máu mạn tính": {
+    "en": "Chronic hypoxemia",
+    "cui": "C5425891",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "tăng co2 máu mạn tính": {
+    "en": "Chronic hypercapnia",
+    "cui": "C1997771",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "tiết kiệm năng lượng trong sinh hoạt": {
+    "en": "Energy conservation",
+    "cui": "C1621943",
+    "tui": "T058",
+    "entity_type": "Treatment"
   }
 }

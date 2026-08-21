@@ -1,0 +1,217 @@
+﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
+CUI:C4296572,30 biến thể di truyền,Biến thể di truyền,Cause,C4296572,Finding,,{},01_copd.txt,2026-08-21T03:24:20.858Z
+CUI:C0018483,Haemophilus influenzae,Haemophilus influenzae,Cause,C0018483,Bacterium,,{},01_copd.txt,2026-08-21T03:24:22.321Z
+CUI:C0006132,Moraxella catarrhalis,Moraxella catarrhalis,Cause,C0006132,Bacterium,,{},01_copd.txt,2026-08-21T03:24:30.416Z
+CUI:C0033808,Pseudomonas,Pseudomonas,Cause,C0033808,Bacterium,,{},01_copd.txt,2026-08-21T03:24:30.488Z
+CUI:C0854135,Pseudomonas aeruginosa,Pseudomonas aeruginosa,Cause,C0854135,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:22.388Z
+CUI:C0038170,Staphylococcus,Staphylococcus,Cause,C0038170,Bacterium,,{},01_copd.txt,2026-08-21T03:24:30.554Z
+CUI:C0038410,Streptococcus pneumoniae,Streptococcus pneumoniae,Cause,C0038410,Disease or Syndrome / Pathologic Function,,{},01_copd.txt,2026-08-21T03:24:30.351Z
+CUI:C0221757,thiếu alpha-1 antitrypsin,Thiếu alpha-1 antitrypsin,Cause,C0221757,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:27.663Z
+CUI:C4039754,vi rút gây các bệnh nhiễm trùng đường hô hấp trên,Vi rút nhiễm trùng đường hô hấp trên,Cause,C4039754,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:24.601Z
+CUI:C0339933,viêm phế quản cấp do vi khuẩn,Viêm phế quản cấp do vi khuẩn,Cause,C0339933,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:24.668Z
+CUI:C0009566,biến chứng,Biến chứng,Complication,C0009566,Disease or Syndrome,,{},01_copd.txt,2026-08-20T15:58:36.931Z
+Complication:biến chứng copd,các biến chứng,Biến chứng COPD,Complication,,,,{},01_copd.txt,2026-08-21T03:24:34.143Z
+CUI:C0029456,loãng xương,Loãng xương,Complication,C0029456,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:23.678Z
+CUI:C3472385,phá hủy phổi,Phá hủy phổi,Complication,C3472385,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:22.24Z
+CUI:C1145670,suy hô hấp,Suy hô hấp,Complication,C1145670,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.564Z
+CUI:C0264490,suy hô hấp cấp,Suy hô hấp cấp,Complication,C0264490,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:33.528Z
+CUI:C0235527,suy tim phải,Suy tim phải,Complication,C0235527,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.466Z
+CUI:C0700292,thiếu oxy,Thiếu oxy máu,Complication,C0700292,Finding,,{},01_copd.txt,2026-08-21T03:24:23.077Z
+CUI:C0149781,tràn khí màng phổi tự phát,Tràn khí màng phổi tự phát,Complication,C0149781,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:23.999Z
+CUI:C0238074,tâm phế,Tâm phế mạn,Complication,C0238074,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:23.904Z
+CUI:C0034065,tắc mạch phổi,Tắc mạch phổi,Complication,C0034065,Pathologic Function,,{},01_copd.txt,2026-08-21T03:24:33.602Z
+CUI:C0032285,viêm phổi,Viêm phổi,Complication,C0032285,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:27.887Z
+CUI:C0024117,COPD,Bệnh phổi tắc nghẽn mãn tính (COPD),Disease,C0024117,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.047Z
+CUI:C5203670,COVID-19,COVID-19,Disease,C5203670,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:19.725Z
+CUI:C0035243,Nhiễm trùng đường hô hấp,Nhiễm trùng đường hô hấp,Disease,C0035243,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:22.172Z
+CUI:C0008677,Viêm phế quản mạn tính,Viêm phế quản mạn tính,Disease,C0008677,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.987Z
+CUI:C0032273,bệnh bụi phổi,Bệnh bụi phổi,Disease,C0032273,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:27.963Z
+CUI:C5686755,bệnh của tâm thất trái,Bệnh tâm thất trái,Disease,C5686755,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:28.685Z
+CUI:C0018824,bệnh lý van tim,Bệnh lý van tim,Disease,C0018824,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:28.753Z
+CUI:C0085581,bệnh phổi hạn chế,Bệnh phổi hạn chế,Disease,C0085581,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:27.315Z
+CUI:C0206062,bệnh phổi kẽ,Bệnh phổi kẽ,Disease,C0206062,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:25.84Z
+CUI:C0036202,bệnh sarcoid,Bệnh sarcoid,Disease,C0036202,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:25.496Z
+CUI:C0018799,bệnh tim,Bệnh tim,Disease,C0018799,Disease or Syndrome,,{},01_copd.txt,2026-08-20T15:59:14.968Z
+CUI:C0007222,bệnh tim mạch,Bệnh tim mạch,Disease,C0007222,Disease or Syndrome,,{},01_copd.txt,2026-08-20T14:17:13.153Z
+CUI:C0034072,bệnh tâm phế,Bệnh tâm phế,Disease,C0034072,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:23.391Z
+CUI:C0751674,bệnh u cơ trơn mạch bạch huyết,Bệnh u cơ trơn mạch bạch huyết,Disease,C0751674,Neoplastic Process,,{},01_copd.txt,2026-08-21T03:24:25.708Z
+CUI:C0006267,giãn phế quản,Giãn phế quản,Disease,C0006267,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:25.278Z
+CUI:C0004096,hen,Hen phế quản,Disease,C0004096,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:19.276Z
+CUI:C5425891,hạ oxy máu mạn tính,Hạ oxy máu mạn tính,Disease,C5425891,Finding,,{},01_copd.txt,2026-08-21T03:24:34.781Z
+CUI:C1527336,hội chứng Sjögren,Hội chứng Sjögren,Disease,C1527336,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:25.576Z
+CUI:C0013990,khí thũng,Khí thũng,Disease,C0013990,Pathologic Function,,{},01_copd.txt,2026-08-21T03:24:20.791Z
+CUI:C0019693,nhiễm HIV,Nhiễm HIV,Disease,C0019693,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:25.354Z
+CUI:C0264490,suy hô hấp cấp tính,Suy hô hấp cấp tính,Disease,C0264490,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:29.329Z
+CUI:C0018801,suy tim,Suy tim,Disease,C0018801,Disease or Syndrome,,{},01_copd.txt,2026-08-20T15:59:02.596Z
+CUI:C0002871,thiếu máu,Thiếu máu,Disease,C0002871,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:28.899Z
+CUI:C0034065,thuyên tắc mạch phổi,Thuyên tắc mạch phổi,Disease,C0034065,Pathologic Function,,{},01_copd.txt,2026-08-21T03:24:29.939Z
+CUI:C0032326,tràn khí màng phổi,Tràn khí màng phổi,Disease,C0032326,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:29.871Z
+CUI:C1997771,tăng CO2 mạn tính,Tăng CO2 máu mạn tính,Disease,C1997771,Finding,,{},01_copd.txt,2026-08-21T03:24:34.945Z
+CUI:C0014461,u hạt do tăng bạch cầu ái toan,U hạt do tăng bạch cầu ái toan,Disease,C0014461,Neoplastic Process,,{},01_copd.txt,2026-08-21T03:24:25.775Z
+CUI:C0006826,ung thư,Ung thư,Disease,C0006826,Neoplastic Process,,{},01_copd.txt,2026-08-21T03:24:33.46Z
+CUI:C0684249,ung thư phổi,Ung thư phổi,Disease,C0684249,Neoplastic Process,,{},01_copd.txt,2026-08-21T03:24:28.031Z
+CUI:C0155867,viêm phổi do Aspergillus,Viêm phổi do Aspergillus,Disease,C0155867,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:30.074Z
+CUI:C0006272,viêm tiểu phế quản tắc nghẽn,Viêm tiểu phế quản tắc nghẽn,Disease,C0006272,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:25.641Z
+CUI:C0034067,Khí phế thũng,Khí phế thũng,DiseaseSubtype,C0034067,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.238Z
+CUI:C0221158,Nhịp nhanh nhĩ đa ổ,Nhịp nhanh nhĩ đa ổ,DiseaseSubtype,C0221158,Finding,,{},01_copd.txt,2026-08-21T03:24:28.527Z
+CUI:C0162770,Phì đại thất phải,Phì đại thất phải,DiseaseSubtype,C0162770,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:27.819Z
+CUI:C0221757,Thiếu hụt alpha-1 antitrypsin,Thiếu hụt alpha-1 antitrypsin,DiseaseSubtype,C0221757,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.392Z
+CUI:C0264348,Viêm phế quản mạn tính do hen,Viêm phế quản mạn tính do hen,DiseaseSubtype,C0264348,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:19.209Z
+CUI:C0155874,Viêm phế quản mạn tính tắc nghẽn,Viêm phế quản mạn tính tắc nghẽn,DiseaseSubtype,C0155874,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:18.148Z
+CUI:C0024117,giới hạn luồng không khí,Giới hạn luồng không khí,DiseaseSubtype,C0024117,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:21.036Z
+CUI:C0241982,kén khí,Kén khí,DiseaseSubtype,C0241982,Anatomical Abnormality,,{},01_copd.txt,2026-08-21T03:24:22.925Z
+CUI:C3872815,kết hợp xơ phổi và khí phế thũng [CPFE],Hội chứng kết hợp xơ phổi và khí phế thũng (CPFE),DiseaseSubtype,C3872815,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:26.044Z
+DiseaseSubtype:suy giảm chức năng phổi,suy giảm chức năng phổi,Suy giảm chức năng phổi,DiseaseSubtype,,,,{},01_copd.txt,2026-08-21T03:24:20.947Z
+CUI:C2973725,tăng áp động mạch phổi,Tăng áp động mạch phổi,DiseaseSubtype,C2973725,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:23.314Z
+CUI:C0001883,tắc nghẽn đường thở,Tắc nghẽn đường thở,DiseaseSubtype,C0001883,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:22.472Z
+CUI:C0340044,đợt cấp của bệnh,Đợt cấp COPD,DiseaseSubtype,C0340044,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:23.533Z
+CUI:C2919376,đợt cấp tính,Đợt cấp tính,DiseaseSubtype,C2919376,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:29.262Z
+Drug:corticosteroid đường uống,corticosteroid đường uống,Corticosteroid đường uống,Drug,,,,{},01_copd.txt,2026-08-21T03:24:33.066Z
+DrugClass:thuốc chủ vận beta-adrenergic tác dụng ngắn (saba),beta-adrenergic tác dụng ngắn,Thuốc chủ vận beta-adrenergic tác dụng ngắn (SABA),DrugClass,,,,{},01_copd.txt,2026-08-21T03:24:31.48Z
+CUI:C0001617,corticosteroid,Corticosteroid,DrugClass,C0001617,Pharmacologic Substance,,{},01_copd.txt,2026-08-20T15:58:59.996Z
+CUI:C4020618,corticosteroid dạng hít,Corticosteroid dạng hít,DrugClass,C4020618,Pharmacologic Substance,,{},01_copd.txt,2026-08-21T03:24:29.037Z
+CUI:C3540702,corticosteroid dạng hít,Corticosteroid dạng hít (ICS),DrugClass,C3540702,Pharmacologic Substance,,{},01_copd.txt,2026-08-21T03:24:31.547Z
+CUI:C4053960,corticosteroid hệ thống,Corticosteroid hệ thống,DrugClass,C4053960,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:30.005Z
+CUI:C0003232,kháng sinh,Kháng sinh,DrugClass,C0003232,Pharmacologic Substance,,{},01_copd.txt,2026-08-20T15:59:07.319Z
+DrugClass:thuốc chủ vận beta-adrenergic tác dụng kéo dài (laba),thuốc beta-adrenergic tác dụng kéo dài,Thuốc chủ vận beta-adrenergic tác dụng kéo dài (LABA),DrugClass,,,,{},01_copd.txt,2026-08-21T03:24:31.615Z
+DrugClass:thuốc chống cúm,thuốc chống cúm,Thuốc chống cúm,DrugClass,,,,{},01_copd.txt,2026-08-21T03:24:30.704Z
+CUI:C0006280,thuốc giãn phế quản,Thuốc giãn phế quản,DrugClass,C0006280,Pharmacologic Substance,,{},01_copd.txt,2026-08-21T03:24:18.742Z
+CUI:C5769259,thuốc giảm nhẹ,Thuốc giảm nhẹ,DrugClass,C5769259,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:32.26Z
+DrugClass:thuốc kháng cholinergic tác dụng kéo dài (lama),thuốc kháng cholinergic tác dụng kéo dài,Thuốc kháng cholinergic tác dụng kéo dài (LAMA),DrugClass,,,,{},01_copd.txt,2026-08-21T03:24:31.682Z
+"Guideline:mahler da, wells ck","Mahler DA, Wells CK","Mahler DA, Wells CK",Guideline,,,,{},01_copd.txt,2026-08-21T03:24:24.431Z
+CUI:C5396614,thang điểm của Hội đồng Nghiên cứu Y khoa Anh Quốc sửa đổi (mMRC),Thang điểm mMRC,Guideline,C5396614,Intellectual Product,,{},01_copd.txt,2026-08-21T03:24:24.066Z
+Measurement:tần suất đợt cấp copd: 1 - 3 đợt/năm,1 đợt đến 3 đợt/năm,Tần suất đợt cấp COPD: 1 - 3 đợt/năm,Measurement,,,Thông số: Tần suất đợt cấp COPD; min_value: 1; max_value: 3,"{""parameter"": ""Tần suất đợt cấp COPD"", ""min_value"": 1, ""max_value"": 3, ""unit"": ""đợt/năm""}",01_copd.txt,2026-08-21T03:24:24.815Z
+Measurement:tỷ lệ tử vong ở người không mắc copd: 4%,4% ở những người không mắc COPD,Tỷ lệ tử vong ở người không mắc COPD: 4%,Measurement,,,Thông số: Tỷ lệ tử vong ở người không mắc COPD; Giá trị: 4 %,"{""parameter"": ""Tỷ lệ tử vong ở người không mắc COPD"", ""value"": 4, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:19.875Z
+Measurement:nồng độ crp thấp,CRP thấp,Nồng độ CRP thấp,Measurement,,,Thông số: Nồng độ CRP; Giá trị: thấp,"{""parameter"": ""Nồng độ CRP"", ""value"": ""thấp""}",01_copd.txt,2026-08-21T03:24:31.183Z
+Measurement:fev1 dự đoán < 35%,FEV1 dưới 35%,FEV1 dự đoán < 35%,Measurement,,,Thông số: FEV1 dự đoán; Giá trị: <35 %,"{""parameter"": ""FEV1 dự đoán"", ""value"": 35, ""operator"": ""<"", ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:32.549Z
+Measurement:fev1 dự đoán: 35% - 55%,FEV1 dự đoán từ 35% đến 55%,FEV1 dự đoán: 35% - 55%,Measurement,,,Thông số: FEV1 dự đoán; min_value: 35; max_value: 55,"{""parameter"": ""FEV1 dự đoán"", ""min_value"": 35, ""max_value"": 55, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:32.403Z
+Measurement:tốc độ giảm fev1 >= 60 ml/năm,FEV1 giảm nhanh hơn (>= 60 mL/năm),Tốc độ giảm FEV1 >= 60 mL/năm,Measurement,,,Thông số: Tốc độ giảm FEV1; Giá trị: >=60 mL/năm,"{""parameter"": ""Tốc độ giảm FEV1"", ""value"": 60, ""unit"": ""mL/năm"", ""operator"": "">=""}",01_copd.txt,2026-08-21T03:24:26.356Z
+Measurement:fev1 < 0.8 l,"FEV1 giảm xuống dưới khoảng 0,8 L",FEV1 < 0.8 L,Measurement,,,Thông số: FEV1; Giá trị: <0.8 L,"{""parameter"": ""FEV1"", ""value"": 0.8, ""unit"": ""L"", ""operator"": ""<""}",01_copd.txt,2026-08-21T03:24:26.803Z
+Measurement:fev1 < 1 l,FEV1 giảm xuống dưới khoảng 1 L,FEV1 < 1 L,Measurement,,,Thông số: FEV1; Giá trị: <1 L,"{""parameter"": ""FEV1"", ""value"": 1, ""unit"": ""L"", ""operator"": ""<""}",01_copd.txt,2026-08-21T03:24:26.648Z
+Measurement:fev1/fvc < 0.70,"FEV1/FVC < 0,70",FEV1/FVC < 0.70,Measurement,,,Thông số: FEV1/FVC; Giá trị: <0.7,"{""parameter"": ""FEV1/FVC"", ""value"": 0.7, ""operator"": ""<""}",01_copd.txt,2026-08-21T03:24:26.93Z
+"Measurement:giảm fev1, fvc và tỷ lệ fev1/fvc sau thuốc giãn phế quản","Giảm FEV1, FVC và tỷ lệ FEV1/FVC sau thuốc giãn phế quản","Giảm FEV1, FVC và tỷ lệ FEV1/FVC sau thuốc giãn phế quản",Measurement,,,Thông số: Chỉ số chức năng hô hấp sau thuốc giãn phế quản,"{""parameter"": ""Chỉ số chức năng hô hấp sau thuốc giãn phế quản"", ""operator"": ""Giảm""}",01_copd.txt,2026-08-21T03:24:33.732Z
+Measurement:áp suất riêng phần carbon dioxide trong máu động mạch (paco2) > 50 mm hg,PaCO2 > 50 mm Hg,Áp suất riêng phần carbon dioxide trong máu động mạch (PaCO2) > 50 mm Hg,Measurement,,,Thông số: PaCO2; Giá trị: >50 mm Hg,"{""parameter"": ""PaCO2"", ""value"": 50, ""unit"": ""mm Hg"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:29.49Z
+Measurement:áp suất riêng phần oxy động mạch (pao2) < 50 mm hg,PaO2 < 50 mm Hg,Áp suất riêng phần oxy động mạch (PaO2) < 50 mm Hg,Measurement,,,Thông số: PaO2; Giá trị: <50 mm Hg,"{""parameter"": ""PaO2"", ""value"": 50, ""unit"": ""mm Hg"", ""operator"": ""<""}",01_copd.txt,2026-08-21T03:24:29.409Z
+Measurement:áp suất riêng phần carbon dioxide trong máu tĩnh mạch (pvco2) > 55 mm hg,PvCO2 > 55 mm Hg,Áp suất riêng phần carbon dioxide trong máu tĩnh mạch (PvCO2) > 55 mm Hg,Measurement,,,Thông số: PvCO2; Giá trị: >55 mm Hg,"{""parameter"": ""PvCO2"", ""value"": 55, ""unit"": ""mm Hg"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:29.557Z
+Measurement:tỷ lệ tử vong ở bệnh nhân mắc copd và covid-19: 15%,Tỷ lệ tử vong ở bệnh nhân mắc COPD và COVID-19 là 15%,Tỷ lệ tử vong ở bệnh nhân mắc COPD và COVID-19: 15%,Measurement,,,Thông số: Tỷ lệ tử vong ở bệnh nhân mắc COPD và COVID-19; Giá trị: 15 %,"{""parameter"": ""Tỷ lệ tử vong ở bệnh nhân mắc COPD và COVID-19"", ""value"": 15, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:19.792Z
+Measurement:độ tuổi bệnh nhân tiêm chủng rsv: >= 60 tuổi,bệnh nhân >= 60 tuổi,Độ tuổi bệnh nhân tiêm chủng RSV: >= 60 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: >=60,"{""parameter"": ""Độ tuổi"", ""operator"": "">="", ""value"": 60}",01_copd.txt,2026-08-21T03:24:35.453Z
+Measurement:độ tuổi: >= 60 tuổi,bệnh nhân từ 60 tuổi trở lên,Độ tuổi: >= 60 tuổi,Measurement,,,Thông số: Độ tuổi; min_value: 60,"{""parameter"": ""Độ tuổi"", ""min_value"": 60, ""unit"": ""tuổi"", ""operator"": "">=""}",01_copd.txt,2026-08-21T03:24:31.887Z
+CUI:C0520833,dung tích cặn chức năng,Tăng dung tích cặn chức năng,Measurement,C0520833,Finding,Thông số: Dung tích cặn chức năng,"{""parameter"": ""Dung tích cặn chức năng"", ""operator"": ""tăng""}",01_copd.txt,2026-08-21T03:24:27.153Z
+Measurement:tiêu chuẩn chẩn đoán viêm phế quản mạn tính: ho có đờm >= 3 tháng/năm trong 2 năm liên tiếp,ho có đờm trong hầu hết các ngày trong tuần ít nhất là 3 tháng trong 2 năm liên tiếp,Tiêu chuẩn chẩn đoán viêm phế quản mạn tính: ho có đờm >= 3 tháng/năm trong 2 năm liên tiếp,Measurement,,,Thông số: Thời gian ho có đờm; min_value: 3; duration: 2 năm liên tiếp,"{""parameter"": ""Thời gian ho có đờm"", ""min_value"": 3, ""unit"": ""tháng/năm"", ""duration"": ""2 năm liên tiếp""}",01_copd.txt,2026-08-21T03:24:19.055Z
+Measurement:đường kính kén khí >= 1 cm,khoảng khí có đường kính >= 1 cm,Đường kính kén khí >= 1 cm,Measurement,,,Thông số: Đường kính kén khí; min_value: 1,"{""parameter"": ""Đường kính kén khí"", ""min_value"": 1, ""unit"": ""cm"", ""operator"": "">=""}",01_copd.txt,2026-08-21T03:24:23.009Z
+Measurement:bóng khí > 1 cm,"khoảng thấu quang > 1 cm bao quanh bởi đường cong, viền mỏng",Bóng khí > 1 cm,Measurement,,,Thông số: Khoảng thấu quang bóng khí; Giá trị: >> 1 cm,"{""parameter"": ""Khoảng thấu quang bóng khí"", ""value"": ""> 1"", ""unit"": ""cm"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:27.598Z
+CUI:C5551741,liều tích lũy (năm bao thuốc),Liều tích lũy hút thuốc (năm bao thuốc),Measurement,C5551741,Quantitative Concept,Thông số: Liều tích lũy,"{""parameter"": ""Liều tích lũy"", ""unit"": ""năm bao thuốc""}",01_copd.txt,2026-08-21T03:24:20.019Z
+Measurement:nồng độ bicarbonate cao,nồng độ bicarbonate cao,Nồng độ bicarbonate cao,Measurement,,,Thông số: Bicarbonate,"{""parameter"": ""Bicarbonate"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:29.124Z
+"Measurement:ph máu < 7,35","pH < 7,35","pH máu < 7,35",Measurement,,,Thông số: pH; Giá trị: <7.35,"{""parameter"": ""pH"", ""value"": 7.35, ""operator"": ""<""}",01_copd.txt,2026-08-21T03:24:29.634Z
+Measurement:tốc độ giảm fev1 khoảng 30 ml/năm,suy giảm FEV1 bình thường theo tuổi tác (khoảng 30 mL/năm),Tốc độ giảm FEV1 khoảng 30 mL/năm,Measurement,,,Thông số: Tốc độ giảm FEV1; Giá trị: 30 mL/năm,"{""parameter"": ""Tốc độ giảm FEV1"", ""value"": 30, ""unit"": ""mL/năm""}",01_copd.txt,2026-08-21T03:24:26.433Z
+Measurement:tốc độ suy giảm fev1: 30 ml/năm,suy giảm FEV1 bình thường theo tuổi tác (khoảng 30 mL/năm),Tốc độ suy giảm FEV1: 30 mL/năm,Measurement,,,Thông số: Tốc độ suy giảm FEV1; Giá trị: 30 mL/năm,"{""parameter"": ""Tốc độ suy giảm FEV1"", ""value"": 30, ""unit"": ""mL/năm""}",01_copd.txt,2026-08-21T03:24:26.506Z
+Measurement:tăng thể tích khí cặn,thể tích khí cặn,Tăng thể tích khí cặn,Measurement,,,Thông số: Thể tích khí cặn,"{""parameter"": ""Thể tích khí cặn"", ""operator"": ""tăng""}",01_copd.txt,2026-08-21T03:24:27.236Z
+Measurement:thời gian hút thuốc (năm),thời gian (năm hút thuốc),Thời gian hút thuốc (năm),Measurement,,,Thông số: Thời gian hút thuốc,"{""parameter"": ""Thời gian hút thuốc"", ""unit"": ""năm""}",01_copd.txt,2026-08-21T03:24:19.952Z
+Measurement:trục lệch phải > 110°,trục lệch phải > 110°,Trục lệch phải > 110°,Measurement,,,Thông số: Trục điện tim; Giá trị: >110 độ,"{""parameter"": ""Trục điện tim"", ""value"": 110, ""unit"": ""độ"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:28.459Z
+Measurement:tăng dung tích toàn phổi,tăng dung tích toàn phổi,Tăng dung tích toàn phổi,Measurement,,,Thông số: Dung tích toàn phổi,"{""parameter"": ""Dung tích toàn phổi"", ""operator"": ""tăng""}",01_copd.txt,2026-08-21T03:24:27.081Z
+Measurement:góc xương ức - màng phổi > 90°,tăng góc được hình thành bởi xương ức và màng phổi phía trước trên phim chụp nghiêng từ giá trị bình thường là 45° đến > 90°,Góc xương ức - màng phổi > 90°,Measurement,,,Thông số: Góc xương ức - màng phổi; Giá trị: >> 90 độ,"{""parameter"": ""Góc xương ức - màng phổi"", ""value"": ""> 90"", ""unit"": ""độ"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:27.512Z
+Measurement:tỷ lệ tử vong 5 năm: 40%,tỷ lệ tử vong trong 5 năm là 40%,Tỷ lệ tử vong 5 năm: 40%,Measurement,,,Thông số: Tỷ lệ tử vong 5 năm; Giá trị: 40 %,"{""parameter"": ""Tỷ lệ tử vong 5 năm"", ""value"": 40, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:32.48Z
+Measurement:tỷ lệ tử vong trong 5 năm: 40%,tỷ lệ tử vong trong 5 năm là 40%,Tỷ lệ tử vong trong 5 năm: 40%,Measurement,,,Thông số: Tỷ lệ tử vong trong 5 năm; Giá trị: 40 %,"{""parameter"": ""Tỷ lệ tử vong trong 5 năm"", ""value"": 40, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:35.245Z
+Measurement:tỷ lệ tử vong 5 năm: 55%,tỷ lệ tử vong trong 5 năm là 55%,Tỷ lệ tử vong 5 năm: 55%,Measurement,,,Thông số: Tỷ lệ tử vong 5 năm; Giá trị: 55 %,"{""parameter"": ""Tỷ lệ tử vong 5 năm"", ""value"": 55, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:32.617Z
+Measurement:tỷ lệ tử vong trong 5 năm: 55%,tỷ lệ tử vong trong 5 năm là 55%,Tỷ lệ tử vong trong 5 năm: 55%,Measurement,,,Thông số: Tỷ lệ tử vong trong 5 năm; Giá trị: 55 %,"{""parameter"": ""Tỷ lệ tử vong trong 5 năm"", ""value"": 55, ""unit"": ""%""}",01_copd.txt,2026-08-21T03:24:35.316Z
+Measurement:thời gian đi bộ trên đường bằng gây khó thở: vài phút,vài phút trên đường bằng,Thời gian đi bộ trên đường bằng gây khó thở: vài phút,Measurement,,,Thông số: Thời gian đi bộ trên đường bằng gây khó thở; Giá trị: vài phút,"{""parameter"": ""Thời gian đi bộ trên đường bằng gây khó thở"", ""value"": ""vài"", ""unit"": ""phút""}",01_copd.txt,2026-08-21T03:24:24.363Z
+Measurement:tỷ lệ đường kính động mạch phổi/động mạch chủ lên > 1,Đường kính động mạch phổi mở rộng lớn hơn đường kính động mạch chủ lên,Tỷ lệ đường kính động mạch phổi/động mạch chủ lên > 1,Measurement,,,Thông số: Tỷ lệ đường kính động mạch phổi/động mạch chủ lên; Giá trị: >1,"{""parameter"": ""Tỷ lệ đường kính động mạch phổi/động mạch chủ lên"", ""operator"": "">"", ""value"": 1}",01_copd.txt,2026-08-21T03:24:28.174Z
+Measurement:đường kính động mạch phổi > đường kính động mạch chủ lên,Đường kính động mạch phổi mở rộng lớn hơn đường kính động mạch chủ lên,Đường kính động mạch phổi > Đường kính động mạch chủ lên,Measurement,,,Thông số: Tỷ lệ đường kính động mạch phổi/động mạch chủ lên,"{""parameter"": ""Tỷ lệ đường kính động mạch phổi/động mạch chủ lên"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:34.648Z
+Measurement:đa hồng cầu (hematocrit > 48%),đa hồng cầu (Hemtocrit > 48%),Đa hồng cầu (Hematocrit > 48%),Measurement,,,Thông số: Hematocrit; Giá trị: >48 %,"{""parameter"": ""Hematocrit"", ""value"": 48, ""unit"": ""%"", ""operator"": "">""}",01_copd.txt,2026-08-21T03:24:28.821Z
+Measurement:khoảng cách đi bộ gây khó thở: 100 mét,đi bộ khoảng 100 mét,Khoảng cách đi bộ gây khó thở: 100 mét,Measurement,,,Thông số: Khoảng cách đi bộ gây khó thở; Giá trị: 100 mét,"{""parameter"": ""Khoảng cách đi bộ gây khó thở"", ""value"": 100, ""unit"": ""mét""}",01_copd.txt,2026-08-21T03:24:24.288Z
+Measurement:độ tuổi khởi phát triệu chứng: 40 - 50 tuổi,độ tuổi 40 và 50,Độ tuổi khởi phát triệu chứng: 40 - 50 tuổi,Measurement,,,Thông số: Độ tuổi khởi phát; min_value: 40; max_value: 50,"{""parameter"": ""Độ tuổi khởi phát"", ""min_value"": 40, ""max_value"": 50, ""unit"": ""tuổi""}",01_copd.txt,2026-08-21T03:24:23.746Z
+CUI:C1171892,VEGF,Yếu tố tăng trưởng nội mô mạch máu (VEGF),Mechanism,C1171892,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.923Z
+Mechanism:phá hủy vách phế nang,Vách phế nang bị phá hủy,Phá hủy vách phế nang,Mechanism,,,,{},01_copd.txt,2026-08-21T03:24:22.831Z
+CUI:C0002191,alpha-1 antitrypsin,Alpha-1 antitrypsin,Mechanism,C0002191,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.554Z
+CUI:C6024768,antiproteinase,Antiproteinase,Mechanism,C6024768,Cell or Molecular Dysfunction,,{},01_copd.txt,2026-08-21T03:24:21.266Z
+CUI:C0005919,bomesin,Bomesin,Mechanism,C0005919,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.857Z
+CUI:C0027950,bạch cầu trung tính,Bạch cầu trung tính,Mechanism,C0027950,Cell,,{},01_copd.txt,2026-08-21T03:24:21.77Z
+CUI:C0014467,bạch cầu ái toan,Bạch cầu ái toan,Mechanism,C0014467,Cell,,{},01_copd.txt,2026-08-21T03:24:28.972Z
+CUI:C0007428,cathepsin,Cathepsin,Mechanism,C0007428,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.487Z
+CUI:C0006266,co thắt phế quản,Co thắt phế quản,Mechanism,C0006266,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:21.694Z
+Mechanism:căng phồng phổi quá mức,căng phồng phổi quá mức,Căng phồng phổi quá mức,Mechanism,,,,{},01_copd.txt,2026-08-21T03:24:26.732Z
+CUI:C0064833,elastase của bạch cầu trung tính,Elastase của bạch cầu trung tính,Mechanism,C0064833,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.352Z
+CUI:C0016693,gốc tự do,Gốc tự do,Mechanism,C0016693,Inorganic Chemical,,{},01_copd.txt,2026-08-21T03:24:21.626Z
+CUI:C0001883,hẹp đường dẫn khí,Hẹp đường dẫn khí,Mechanism,C0001883,Disease or Syndrome,,{},01_copd.txt,2026-08-21T03:24:22.76Z
+CUI:C1505110,metalloproteinase của gian bào,Metalloproteinase của gian bào,Mechanism,C1505110,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.418Z
+Mechanism:phá hủy giường mao mạch phổi,phá huỷ của giường mao mạch phổi,Phá hủy giường mao mạch phổi,Mechanism,,,,{},01_copd.txt,2026-08-21T03:24:23.46Z
+CUI:C5200997,protease,Protease,Mechanism,C5200997,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:21.175Z
+CUI:C5195409,suy giảm làm sạch chất nhầy,Suy giảm làm sạch chất nhầy,Mechanism,C5195409,Finding,,{},01_copd.txt,2026-08-21T03:24:22.541Z
+Mechanism:thiếu oxy máu ban đêm,thiếu oxy ban đêm,Thiếu oxy máu ban đêm,Mechanism,,,,{},01_copd.txt,2026-08-21T03:24:34.336Z
+Mechanism:thiếu oxy phế nang mạn tính,thiếu oxy phế nang mạn tính,Thiếu oxy phế nang mạn tính,Mechanism,,,,{},01_copd.txt,2026-08-21T03:24:23.235Z
+CUI:C0020440,tăng CO2 máu,Tăng CO2 máu,Mechanism,C0020440,Finding,,{},01_copd.txt,2026-08-21T03:24:23.17Z
+Mechanism:vỡ kén khí,vỡ kén khí,Vỡ kén khí,Mechanism,,,,{},01_copd.txt,2026-08-21T03:24:34.41Z
+CUI:C1456820,yếu tố hoại tử khối u (TNF)-alpha,TNF-alpha,Mechanism,C1456820,"Amino Acid, Peptide, or Protein",,{},01_copd.txt,2026-08-21T03:24:23.599Z
+CUI:C1155266,đáp ứng viêm,Đáp ứng viêm,Mechanism,C1155266,Pathologic Function,,{},01_copd.txt,2026-08-21T03:24:22.609Z
+CUI:C0034051,phế nang,Phế nang,Organ,C0034051,"Body Part, Organ, or Organ Component",,{},01_copd.txt,2026-08-21T03:24:22.092Z
+CUI:C0024109,phổi,Phổi,Organ,C0024109,"Body Part, Organ, or Organ Component",,{},01_copd.txt,2026-08-20T15:58:28.587Z
+PatientGroup:bệnh nhân bệnh nặng,bệnh nhân tình trạng bệnh rất nặng,Bệnh nhân bệnh nặng,PatientGroup,,,,{},01_copd.txt,2026-08-21T03:24:35.092Z
+RiskFactor:khói từ nấu ăn và sưởi ấm trong nhà,Khói từ nấu ăn và sưởi ấm trong nhà,Khói từ nấu ăn và sưởi ấm trong nhà,RiskFactor,,,,{},01_copd.txt,2026-08-21T03:24:20.244Z
+CUI:C0041667,Trọng lượng cơ thể thấp,Trọng lượng cơ thể thấp,RiskFactor,C0041667,Finding,,{},01_copd.txt,2026-08-21T03:24:20.645Z
+CUI:C2919137,bụi nghề nghiệp,Bụi nghề nghiệp,RiskFactor,C2919137,Finding,,{},01_copd.txt,2026-08-21T03:24:20.483Z
+CUI:C0006632,cadmium,Cadmium,RiskFactor,C0006632,Hazardous or Poisonous Substance,,{},01_copd.txt,2026-08-21T03:24:20.561Z
+CUI:C2363736,giảm cân rõ rệt không rõ nguyên nhân,Giảm cân không rõ nguyên nhân,RiskFactor,C2363736,Finding,,{},01_copd.txt,2026-08-21T03:24:33.165Z
+CUI:C3841930,hóa chất hít vào,Hóa chất hít vào,RiskFactor,C3841930,Finding,,{},01_copd.txt,2026-08-21T03:24:34.064Z
+CUI:C0453996,khói thuốc lá,Hút thuốc lá,RiskFactor,C0453996,Individual Behavior,,{},01_copd.txt,2026-08-20T15:58:31.328Z
+CUI:C0037370,khói thuốc lá thụ động,Khói thuốc lá thụ động,RiskFactor,C0037370,Finding,,{},01_copd.txt,2026-08-21T03:24:20.318Z
+CUI:C0281875,lạm dụng các loại thuốc bất hợp pháp,Lạm dụng thuốc bất hợp pháp,RiskFactor,C0281875,Mental or Behavioral Dysfunction,,{},01_copd.txt,2026-08-21T03:24:25.421Z
+RiskFactor:sử dụng nhiên liệu sinh khối,nhiên liệu sinh khối,Sử dụng nhiên liệu sinh khối,RiskFactor,,,,{},01_copd.txt,2026-08-21T03:24:19.626Z
+RiskFactor:phản ứng đường thở từ trước,phản ứng đường thở từ trước,Phản ứng đường thở từ trước,RiskFactor,,,,{},01_copd.txt,2026-08-21T03:24:20.105Z
+RiskFactor:rối loạn hô hấp ở trẻ em,rối loạn hô hấp ở trẻ em,Rối loạn hô hấp ở trẻ em,RiskFactor,,,,{},01_copd.txt,2026-08-21T03:24:20.711Z
+CUI:C4489230,suy giảm chức năng nghiêm trọng,Suy giảm chức năng nghiêm trọng,RiskFactor,C4489230,Finding,,{},01_copd.txt,2026-08-21T03:24:33.248Z
+RiskFactor:tiếp xúc chất kích thích hô hấp,tiếp xúc với các chất kích thích hô hấp,Tiếp xúc chất kích thích hô hấp,RiskFactor,,,,{},01_copd.txt,2026-08-21T03:24:24.747Z
+CUI:C0001792,tuổi già,Tuổi già,RiskFactor,C0001792,Population Group,,{},01_copd.txt,2026-08-21T03:24:32.913Z
+CUI:C0001873,ô nhiễm không khí,Ô nhiễm không khí,RiskFactor,C0001873,Environmental Effect of Humans,,{},01_copd.txt,2026-08-21T03:24:20.417Z
+CUI:C0238844,rì rào phế nang giảm,Rì rào phế nang giảm,Sign,C0238844,Finding,,{},01_copd.txt,2026-08-21T03:24:33.968Z
+Sign:phình động mạch phổi trung tâm,động mạch phổi ở trung tâm phình to,Phình động mạch phổi trung tâm,Sign,,,,{},01_copd.txt,2026-08-21T03:24:27.729Z
+CUI:C0231807,Phải ngừng lại để thở,Khó thở khi gắng sức,Symptom,C0231807,Sign or Symptom,,{},01_copd.txt,2026-08-21T03:24:24.224Z
+CUI:C0013404,dyspnea,Dyspnea,Symptom,C0013404,Sign or Symptom,,{},01_copd.txt,2026-08-20T15:58:39.781Z
+CUI:C0239134,ho đờm,Ho đờm,Symptom,C0239134,Finding,,{},01_copd.txt,2026-08-21T03:24:33.878Z
+CUI:C0581880,Đau đầu buổi sáng,Đau đầu buổi sáng,Symptom,C0581880,Sign or Symptom,,{},01_copd.txt,2026-08-21T03:24:23.815Z
+CUI:C0202823,CT ngực,CT ngực,Test,C0202823,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:28.105Z
+Test:xét nghiệm điện giải huyết thanh,Chất điện giải trong huyết thanh,Xét nghiệm điện giải huyết thanh,Test,,,,{},01_copd.txt,2026-08-21T03:24:34.871Z
+CUI:C0523174,Cấy đờm,Cấy đờm,Test,C0523174,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:30.211Z
+CUI:C1516251,DLCO,DLCO,Test,C1516251,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:27.383Z
+CUI:C3714541,Dung tích sống thở mạnh (FVC),FVC,Test,C3714541,Laboratory or Test Result,,{},01_copd.txt,2026-08-21T03:24:26.193Z
+CUI:C1623258,ECG,ECG,Test,C1623258,Diagnostic Procedure,,{},01_copd.txt,2026-08-20T14:17:12.235Z
+CUI:C0849974,FEV1,FEV1,Test,C0849974,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:26.11Z
+Test:xét nghiệm hemoglobin và hematocrit,Hemoglobin và hematocrit,Xét nghiệm Hemoglobin và Hematocrit,Test,,,,{},01_copd.txt,2026-08-21T03:24:34.715Z
+CUI:C5165470,Khí máu tĩnh mạch,Khí máu tĩnh mạch,Test,C5165470,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:29.19Z
+Test:xét nghiệm khí máu tĩnh mạch,Khí máu tĩnh mạch,Xét nghiệm khí máu tĩnh mạch,Test,,,,{},01_copd.txt,2026-08-21T03:24:35.015Z
+CUI:C0201657,Protein phản ứng C (CRP),Protein phản ứng C (CRP),Test,C0201657,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:31.107Z
+CUI:C0013516,Siêu âm tim,Siêu âm tim,Test,C0013516,Diagnostic Procedure / Laboratory Procedure,,{},01_copd.txt,2026-08-20T15:58:36.02Z
+CUI:C5396784,Siêu âm tại giường (POCUS),Siêu âm tại giường (POCUS),Test,C5396784,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:29.727Z
+CUI:C0428734,Vòng lặp lưu lượng-thể tích,Vòng lặp lưu lượng-thể tích,Test,C0428734,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:26.289Z
+CUI:C5244026,Xét nghiệm tìm COVID-19,Xét nghiệm tìm COVID-19,Test,C5244026,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:30.802Z
+CUI:C1954767,bảng xét nghiệm vi rút đường hô hấp,Bảng xét nghiệm vi rút đường hô hấp,Test,C1954767,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:30.87Z
+CUI:C0262926,bệnh sử,Bệnh sử,Test,C0262926,Finding,,{},01_copd.txt,2026-08-20T15:58:31.02Z
+CUI:C0412738,chẩn đoán hình ảnh ngực,Chẩn đoán hình ảnh ngực,Test,C0412738,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:25.041Z
+CUI:C4053940,chỉ số BODE,Chỉ số BODE,Test,C4053940,Intellectual Product,,{},01_copd.txt,2026-08-21T03:24:32.684Z
+CUI:C2703057,chụp CT mạch ngực,Chụp CT mạch ngực,Test,C2703057,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:29.796Z
+CUI:C0031809,khám thực thể,Khám thực thể,Test,C0031809,Diagnostic Procedure / Laboratory Procedure,,{},01_copd.txt,2026-08-20T14:17:07.16Z
+CUI:C0600370,methacholine dạng hít,Methacholine,Test,C0600370,Organic Chemical,,{},01_copd.txt,2026-08-21T03:24:20.173Z
+Test:nghiệm pháp đi bộ 6 phút,nghiệm pháp đi bộ 6 phút,Nghiệm pháp đi bộ 6 phút,Test,,,,{},01_copd.txt,2026-08-21T03:24:32.848Z
+CUI:C0200966,nhuộm Gram,Nhuộm Gram,Test,C0200966,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:30.286Z
+CUI:C0201856,nồng độ alpha-1 antitrypsin,Nồng độ alpha-1 antitrypsin,Test,C0201856,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:28.241Z
+CUI:C0039985,phim X quang ngực,X quang ngực,Test,C0039985,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:25.906Z
+CUI:C0037981,phép đo phế dung,Phép đo phế dung,Test,C0037981,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:26.867Z
+CUI:C0024119,xét nghiệm chức năng phổi,Xét nghiệm chức năng phổi,Test,C0024119,Diagnostic Procedure,,{},01_copd.txt,2026-08-21T03:24:18.656Z
+Test:xét nghiệm cúm nhanh,xét nghiệm cúm nhanh,Xét nghiệm cúm nhanh,Test,,,,{},01_copd.txt,2026-08-21T03:24:30.621Z
+CUI:C0679560,xét nghiệm di truyền,Xét nghiệm di truyền,Test,C0679560,Laboratory Procedure,,{},01_copd.txt,2026-08-21T03:24:28.311Z
+CUI:C3173578,Đo lường tình trạng khó thở,Đo lường tình trạng khó thở,Test,C3173578,Clinical Attribute,,{},01_copd.txt,2026-08-21T03:24:24.157Z
+CUI:C0085134,Cai thuốc lá,Cai thuốc lá,Treatment,C0085134,Individual Behavior,,{},01_copd.txt,2026-08-21T03:24:31.412Z
+CUI:C0039548,Chăm sóc cuối đời,Chăm sóc cuối đời,Treatment,C0039548,Health Care Activity,,{},01_copd.txt,2026-08-21T03:24:32.119Z
+CUI:C3665674,Liệu pháp oxy,Liệu pháp oxy,Treatment,C3665674,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:31.823Z
+CUI:C0199529,Phục hồi chức năng hô hấp,Phục hồi chức năng hô hấp,Treatment,C0199529,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:31.747Z
+"Treatment:tiêm chủng dự phòng (cúm, phế cầu, covid-19, rsv)","Tiêm chủng cúm, phế cầu, COVID-19 và vi rút hợp bào hô hấp ([RSV] ở bệnh nhân >= 60 tuổi)","Tiêm chủng dự phòng (Cúm, Phế cầu, COVID-19, RSV)",Treatment,,,,{},01_copd.txt,2026-08-21T03:24:35.383Z
+CUI:C0042196,"Tiêm chủng cúm, phế cầu, COVID-19 và vi rút hợp bào hô hấp ([RSV] ở bệnh nhân >= 60 tuổi)",Tiêm chủng phòng ngừa,Treatment,C0042196,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-20T15:59:07.688Z
+Treatment:chỉ định người ra quyết định y khoa thay thế,chỉ định một người ra quyết định y khoa thay thế,Chỉ định người ra quyết định y khoa thay thế,Treatment,,,,{},01_copd.txt,2026-08-21T03:24:32.334Z
+Treatment:điều chỉnh hoạt động sinh hoạt hàng ngày,các hoạt động sinh hoạt hàng ngày được sắp xếp để tiêu tốn năng lượng tối thiểu,Điều chỉnh hoạt động sinh hoạt hàng ngày,Treatment,,,,{},01_copd.txt,2026-08-21T03:24:32.051Z
+CUI:C1621943,các hoạt động sinh hoạt hàng ngày được sắp xếp để tiêu tốn năng lượng tối thiểu,Tiết kiệm năng lượng trong sinh hoạt,Treatment,C1621943,Health Care Activity,,{},01_copd.txt,2026-08-21T03:24:35.179Z
+CUI:C0015264,gắng sức,Gắng sức,Treatment,C0015264,Organism Function,,{},01_copd.txt,2026-08-21T03:24:31.955Z
+Treatment:liệu pháp kháng khuẩn,liệu pháp kháng khuẩn,Liệu pháp kháng khuẩn,Treatment,,,,{},01_copd.txt,2026-08-21T03:24:30.945Z
+Treatment:liệu pháp đặc hiệu với covid-19,liệu pháp đặc hiệu với COVID-19,Liệu pháp đặc hiệu với COVID-19,Treatment,,,,{},01_copd.txt,2026-08-21T03:24:31.031Z
+CUI:C0199470,thông khí cơ học,Thông khí cơ học,Treatment,C0199470,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:32.191Z
+CUI:C0524689,thủ thuật giảm thể tích phổi,Thủ thuật giảm thể tích phổi,Treatment,C0524689,Therapeutic or Preventive Procedure,,{},01_copd.txt,2026-08-21T03:24:18.832Z
+Treatment:điều trị copd ổn định,Điều trị COPD ổn định,Điều trị COPD ổn định,Treatment,,,,{},01_copd.txt,2026-08-21T03:24:31.262Z
+Treatment:điều trị đợt cấp của copd,Điều trị đợt cấp của COPD,Điều trị đợt cấp của COPD,Treatment,,,,{},01_copd.txt,2026-08-21T03:24:31.329Z
