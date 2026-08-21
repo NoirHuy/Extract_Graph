@@ -6068,5 +6068,761 @@
     "cui": "C0017168",
     "tui": "T047",
     "entity_type": "Disease"
+  },
+  "mức huyết áp (bp)": {
+    "en": "Blood pressure level",
+    "cui": "C5818794",
+    "tui": "T033",
+    "entity_type": "Test"
+  },
+  "bệnh tim mạch do xơ vữa động mạch (ascvd)": {
+    "en": "Atherosclerotic cardiovascular disease",
+    "cui": "C0004153",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "yếu tố nguy cơ tim mạch": {
+    "en": "Cardiovascular risk factor",
+    "cui": "C0850624",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "tăng huyết áp ổn định": {
+    "en": "Stable hypertension",
+    "cui": "C6008250",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thuốc tiêm truyền": {
+    "en": "Injectable drug",
+    "cui": "C4040199",
+    "tui": "T037",
+    "entity_type": "DrugClass"
+  },
+  "hydrochlorothiazide": {
+    "en": "Hydrochlorothiazide",
+    "cui": "C0020261",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "bệnh thận mạn tính giai đoạn 4": {
+    "en": "Chronic kidney disease stage 4",
+    "cui": "C2317473",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "cholesterol huyết thanh": {
+    "en": "Serum cholesterol",
+    "cui": "C0587184",
+    "tui": "T059",
+    "entity_type": "Mechanism"
+  },
+  "triglyceride": {
+    "en": "Triglyceride",
+    "cui": "C0041004",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "chế độ ăn ít chất béo": {
+    "en": "Low-fat diet",
+    "cui": "C0242970",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "ldl cholesterol": {
+    "en": "Low-density lipoprotein cholesterol",
+    "cui": "C0023826",
+    "tui": "T109",
+    "entity_type": "Mechanism"
+  },
+  "thuốc lợi tiểu giữ kali": {
+    "en": "Potassium-sparing diuretics",
+    "cui": "C0304490",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tăng acid uric máu": {
+    "en": "Hyperuricemia",
+    "cui": "C0740394",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thuốc lợi tiểu quai": {
+    "en": "Loop diuretics",
+    "cui": "C0354100",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "kali huyết thanh": {
+    "en": "Serum potassium",
+    "cui": "C0302353",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "torsemide": {
+    "en": "Torsemide",
+    "cui": "C0076840",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "kali máu < 3.5 mmol/l": {
+    "en": "Hypokalemia",
+    "cui": "C0020621",
+    "tui": "T033",
+    "entity_type": "Measurement"
+  },
+  "triamterene": {
+    "en": "Triamterene",
+    "cui": "C0040869",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "amiloride": {
+    "en": "Amiloride",
+    "cui": "C0002502",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "digoxin": {
+    "en": "Digoxin",
+    "cui": "C0012265",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thuốc lợi tiểu thiazid": {
+    "en": "Thiazide diuretics",
+    "cui": "C0012802",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "hội chứng chuyển hóa": {
+    "en": "Metabolic syndrome",
+    "cui": "C0524620",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh gout": {
+    "en": "Gout",
+    "cui": "C0018099",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "tăng axit uric máu": {
+    "en": "Hyperuricemia",
+    "cui": "C0740394",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "hạ natri máu": {
+    "en": "Hyponatremia",
+    "cui": "C0020625",
+    "tui": "T047",
+    "entity_type": "Mechanism"
+  },
+  "tụt huyết áp": {
+    "en": "Hypotension",
+    "cui": "C0020649",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "ho khan": {
+    "en": "Dry cough",
+    "cui": "C0850149",
+    "tui": "T184",
+    "entity_type": "Complication"
+  },
+  "phù mạch": {
+    "en": "Angioedema",
+    "cui": "C0002994",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "rối loạn chức năng thận": {
+    "en": "Renal dysfunction",
+    "cui": "C3279454",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "bệnh thận mạn giai đoạn 3": {
+    "en": "Chronic kidney disease stage 3",
+    "cui": "C2316787",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tổn thương thận cấp tính": {
+    "en": "Acute kidney injury",
+    "cui": "C0022660",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "giảm thể tích máu": {
+    "en": "Hypovolemia",
+    "cui": "C0546884",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "eplerenone": {
+    "en": "Eplerenone",
+    "cui": "C0961485",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "hệ thống renin-angiotensin": {
+    "en": "Renin-angiotensin system",
+    "cui": "C0035096",
+    "tui": "T022",
+    "entity_type": "Mechanism"
+  },
+  "suy thất trái": {
+    "en": "Left ventricular failure",
+    "cui": "C0023212",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "bệnh thận do đái tháo đường loại 1": {
+    "en": "Diabetic nephropathy in type 1 diabetes mellitus",
+    "cui": "C0836995",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thời kỳ mang thai": {
+    "en": "Pregnancy",
+    "cui": "C0549206",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "dihydropyridin": {
+    "en": "Dihydropyridines",
+    "cui": "C0012315",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tăng nhịp tim phản ứng": {
+    "en": "Reflex tachycardia",
+    "cui": "C1328539",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "diltiazem": {
+    "en": "Diltiazem",
+    "cui": "C0012373",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "nhồi máu cơ tim cấp tính": {
+    "en": "Acute myocardial infarction",
+    "cui": "C0155626",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "co thắt động mạch vành": {
+    "en": "Coronary artery spasm",
+    "cui": "C0010073",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "hội chứng raynaud": {
+    "en": "Raynaud disease",
+    "cui": "C0034734",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "aliskiren": {
+    "en": "Aliskiren",
+    "cui": "C1120110",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "chất ức chế renin trực tiếp": {
+    "en": "Direct renin inhibitor",
+    "cui": "C1950687",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "tăng kali máu": {
+    "en": "Hyperkalemia",
+    "cui": "C5979967",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thai kỳ": {
+    "en": "Pregnancy",
+    "cui": "C0549206",
+    "tui": "T033",
+    "entity_type": "PatientGroup"
+  },
+  "làm chậm nhịp tim": {
+    "en": "Bradycardia",
+    "cui": "C0428977",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "thuốc chẹn beta chọn lọc tim": {
+    "en": "Cardioselective beta blockers",
+    "cui": "C0569629",
+    "tui": "T046",
+    "entity_type": "DrugClass"
+  },
+  "acebutolol": {
+    "en": "Acebutolol",
+    "cui": "C0000946",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "pindolol": {
+    "en": "Pindolol",
+    "cui": "C0031937",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "nhịp tim chậm nghiêm trọng": {
+    "en": "Severe bradycardia",
+    "cui": "C0264890",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "bệnh trầm cảm": {
+    "en": "Major depressive disorder",
+    "cui": "C1269683",
+    "tui": "T048",
+    "entity_type": "Disease"
+  },
+  "nadolol": {
+    "en": "Nadolol",
+    "cui": "C0027302",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "rối loạn chức năng nút xoang": {
+    "en": "Sick sinus syndrome",
+    "cui": "C0037052",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "thuốc cường adrenergic": {
+    "en": "Adrenergic agonists",
+    "cui": "C0001648",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chủ vận alpha-2 trung ương": {
+    "en": "Central alpha-2 adrenergic agonist",
+    "cui": "C2267005",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chủ vận alpha-2": {
+    "en": "Alpha-2 adrenergic agonist",
+    "cui": "C2267005",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "methyldopa": {
+    "en": "Methyldopa",
+    "cui": "C0025741",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "clonidine": {
+    "en": "Clonidine",
+    "cui": "C0009014",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "guanfacine": {
+    "en": "Guanfacine",
+    "cui": "C0079466",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thụ thể alpha-2-adrenergic": {
+    "en": "alpha-2 adrenergic receptor",
+    "cui": "C0001639",
+    "tui": "T116",
+    "entity_type": "Mechanism"
+  },
+  "tăng huyết áp hồi ứng": {
+    "en": "Rebound hypertension",
+    "cui": "C0520540",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "prazosin": {
+    "en": "Prazosin",
+    "cui": "C0032912",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "terazosin": {
+    "en": "Terazosin",
+    "cui": "C0076107",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "doxazosin": {
+    "en": "Doxazosin",
+    "cui": "C0114873",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "phì đại tuyến tiền liệt": {
+    "en": "Benign prostatic hyperplasia",
+    "cui": "C1704272",
+    "tui": "T046",
+    "entity_type": "Disease"
+  },
+  "minoxidil": {
+    "en": "Minoxidil",
+    "cui": "C0026196",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "hydralazine": {
+    "en": "Hydralazine",
+    "cui": "C0020223",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "lupus ban đỏ do thuốc": {
+    "en": "Drug-induced lupus erythematosus",
+    "cui": "C0263591",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "đo điện giải": {
+    "en": "Electrolyte measurement",
+    "cui": "C0201992",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "xét nghiệm creatinine huyết thanh": {
+    "en": "Serum creatinine test",
+    "cui": "C3694999",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "thuốc hạ áp": {
+    "en": "Antihypertensive agents",
+    "cui": "C0003364",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "phù não": {
+    "en": "Cerebral edema",
+    "cui": "C0006114",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "phù gai thị": {
+    "en": "Papilledema",
+    "cui": "C0030353",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "lo lắng": {
+    "en": "Anxiety",
+    "cui": "C0003467",
+    "tui": "T048",
+    "entity_type": "Cause"
+  },
+  "tư vấn tâm lý": {
+    "en": "Psychological counseling",
+    "cui": "C0474178",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc giảm lo âu": {
+    "en": "Anxiolytic agents",
+    "cui": "C0040616",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tổn thương thận": {
+    "en": "Kidney injury",
+    "cui": "C2609414",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "hôn mê": {
+    "en": "Coma",
+    "cui": "C0009421",
+    "tui": "T047",
+    "entity_type": "Symptom"
+  },
+  "giảm tri giác": {
+    "en": "Decreased level of consciousness",
+    "cui": "C1821572",
+    "tui": "T033",
+    "entity_type": "Symptom"
+  },
+  "bệnh não": {
+    "en": "Brain diseases",
+    "cui": "C0006111",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "bệnh não do tăng huyết áp": {
+    "en": "Hypertensive encephalopathy",
+    "cui": "C0151620",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "phù phổi": {
+    "en": "Pulmonary edema",
+    "cui": "C0034063",
+    "tui": "T046",
+    "entity_type": "Disease"
+  },
+  "điện giải huyết thanh": {
+    "en": "Serum electrolytes",
+    "cui": "C0587355",
+    "tui": "T059",
+    "entity_type": "Test"
+  },
+  "chụp ct sọ": {
+    "en": "Computed tomography of head",
+    "cui": "C0202691",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "thiếu máu cục bộ cấp tính": {
+    "en": "Acute ischemia",
+    "cui": "C0746731",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "labetalol": {
+    "en": "Labetalol",
+    "cui": "C0022860",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "clevidipine": {
+    "en": "Clevidipine",
+    "cui": "C0766108",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "esmolol": {
+    "en": "Esmolol",
+    "cui": "C0116569",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "nitroprusside": {
+    "en": "Nitroprusside",
+    "cui": "C0028193",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "fenoldopam": {
+    "en": "Fenoldopam",
+    "cui": "C0060180",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "nicardipine": {
+    "en": "Nicardipine",
+    "cui": "C0028005",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "khoa cấp cứu": {
+    "en": "Emergency department",
+    "cui": "C0562508",
+    "tui": "T073",
+    "entity_type": "Treatment"
+  },
+  "khoa hồi sức tích cực (icu)": {
+    "en": "Intensive Care Unit",
+    "cui": "C0021708",
+    "tui": "T073",
+    "entity_type": "Treatment"
+  },
+  "nitroglycerin": {
+    "en": "Nitroglycerin",
+    "cui": "C0017887",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "cơ quan đích": {
+    "en": "Target organ",
+    "cui": "C0807185",
+    "tui": "T082",
+    "entity_type": "Organ"
+  },
+  "nifedipine đường uống": {
+    "en": "Oral nifedipine",
+    "cui": "C0360163",
+    "tui": "T200",
+    "entity_type": "Drug"
+  },
+  "thiếu máu cục bộ tim mạch": {
+    "en": "Myocardial ischemia",
+    "cui": "C0151744",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thiếu máu cục bộ mạch máu não": {
+    "en": "Cerebral ischemia",
+    "cui": "C0917798",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "tăng huyết áp chu phẫu": {
+    "en": "Perioperative hypertension",
+    "cui": "C3661921",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "suy tim cấp phân suất tống máu giảm": {
+    "en": "Acute heart failure with reduced ejection fraction",
+    "cui": "C4280933",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "phẫu thuật bắc cầu động mạch vành": {
+    "en": "Coronary artery bypass grafting",
+    "cui": "C0010055",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "nhồi máu cơ tim cấp": {
+    "en": "Acute myocardial infarction",
+    "cui": "C0155626",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "đau thắt ngực không ổn định": {
+    "en": "Unstable angina",
+    "cui": "C0002965",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "phù phổi cấp": {
+    "en": "Acute pulmonary edema",
+    "cui": "C0155919",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "nhức đầu": {
+    "en": "Headache",
+    "cui": "C0018681",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "nifedipine": {
+    "en": "Nifedipine",
+    "cui": "C0028066",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "tăng huyết áp sau phẫu thuật": {
+    "en": "Postoperative hypertension",
+    "cui": "C0919726",
+    "tui": "T033",
+    "entity_type": "DiseaseSubtype"
+  },
+  "tiền sản giật và sản giật": {
+    "en": "Preeclampsia and eclampsia",
+    "cui": "C5574918",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "suy thất trái cấp tính": {
+    "en": "Acute left ventricular failure",
+    "cui": "C1306063",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thiếu máu cơ tim": {
+    "en": "Myocardial ischemia",
+    "cui": "C0151744",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "ct sọ não": {
+    "en": "Head CT",
+    "cui": "C0202691",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "yếu tố nguy cơ bệnh tim mạch": {
+    "en": "Cardiovascular disease risk factor",
+    "cui": "C5239561",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "thuốc ức chế men chuyển (ace)": {
+    "en": "Angiotensin-converting enzyme inhibitors",
+    "cui": "C0003015",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chẹn thụ thể angiotensin (arb)": {
+    "en": "Angiotensin II receptor blockers",
+    "cui": "C0521942",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "bệnh thận giai đoạn 3": {
+    "en": "Stage 3 chronic kidney disease",
+    "cui": "C2316787",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "block nhĩ thất cấp 2": {
+    "en": "Second-degree atrioventricular block",
+    "cui": "C0264906",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "block nhĩ thất cấp 3": {
+    "en": "Third-degree atrioventricular block",
+    "cui": "C0151517",
+    "tui": "T047",
+    "entity_type": "DiseaseSubtype"
+  },
+  "nhịp tim": {
+    "en": "Heart rate",
+    "cui": "C0018810",
+    "tui": "T201",
+    "entity_type": "Mechanism"
+  },
+  "khả năng co bóp cơ tim": {
+    "en": "Myocardial contractility",
+    "cui": "C4054449",
+    "tui": "T060",
+    "entity_type": "Mechanism"
+  },
+  "atenolol": {
+    "en": "Atenolol",
+    "cui": "C0004147",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "betaxolol": {
+    "en": "Betaxolol",
+    "cui": "C0005320",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "bisoprolol": {
+    "en": "Bisoprolol",
+    "cui": "C0053799",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "metoprolol": {
+    "en": "Metoprolol",
+    "cui": "C0025859",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "bệnh động mạch ngoại vi": {
+    "en": "Peripheral artery disease",
+    "cui": "C1704436",
+    "tui": "T047",
+    "entity_type": "Disease"
   }
 }
