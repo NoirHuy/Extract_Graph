@@ -7454,5 +7454,653 @@
     "cui": "C4086655",
     "tui": "T170",
     "entity_type": "Symptom"
+  },
+  "ghép phổi": {
+    "en": "Lung transplantation",
+    "cui": "C0024128",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "đa chiến lược điều trị": {
+    "en": "Multimodal treatment",
+    "cui": "C0009429",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "liệu pháp thay thế nicotine": {
+    "en": "Nicotine replacement therapy",
+    "cui": "C1278444",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "kẹo cao su nicotine": {
+    "en": "Nicotine polacrilex",
+    "cui": "C0068722",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "miếng dán da nicotine": {
+    "en": "Nicotine transdermal patch",
+    "cui": "C0358855",
+    "tui": "T200",
+    "entity_type": "Drug"
+  },
+  "thuốc hít nicotine": {
+    "en": "Nicotine inhaler",
+    "cui": "C0814019",
+    "tui": "T074",
+    "entity_type": "Drug"
+  },
+  "thuốc viên nicotine": {
+    "en": "Nicotine lozenge",
+    "cui": "C1253423",
+    "tui": "T200",
+    "entity_type": "Drug"
+  },
+  "thuốc xịt mũi nicotine": {
+    "en": "Nicotine nasal spray",
+    "cui": "C3192374",
+    "tui": "T200",
+    "entity_type": "Drug"
+  },
+  "bupropion": {
+    "en": "Bupropion",
+    "cui": "C0085208",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "varenicline": {
+    "en": "Varenicline",
+    "cui": "C1569608",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thể tích thở ra gắng sức trong giây đầu tiên (fev1)": {
+    "en": "Forced expiratory volume in 1 second",
+    "cui": "C0849974",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "ống hít định liều (mdi)": {
+    "en": "Metered dose inhaler",
+    "cui": "C0993596",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "ống hít bột khô (dpi)": {
+    "en": "Dry powder inhaler",
+    "cui": "C3853847",
+    "tui": "T122",
+    "entity_type": "Treatment"
+  },
+  "máy khí dung": {
+    "en": "Nebulizer",
+    "cui": "C0027524",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "bình hít bột khô": {
+    "en": "Dry powder inhaler",
+    "cui": "C3853847",
+    "tui": "T122",
+    "entity_type": "Treatment"
+  },
+  "bình đệm": {
+    "en": "Spacer",
+    "cui": "C0221874",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "ống thuốc hít dạng bột khô": {
+    "en": "Dry powder inhaler",
+    "cui": "C3853847",
+    "tui": "T122",
+    "entity_type": "Treatment"
+  },
+  "thuốc ức chế pde4": {
+    "en": "Phosphodiesterase 4 inhibitors",
+    "cui": "C2936609",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "indacaterol": {
+    "en": "Indacaterol",
+    "cui": "C1722260",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "olodaterol": {
+    "en": "Olodaterol",
+    "cui": "C2934193",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "rối loạn nhịp tim": {
+    "en": "Cardiac arrhythmia",
+    "cui": "C0003811",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "nhịp tim nhanh": {
+    "en": "Tachycardia",
+    "cui": "C3827868",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "giảm kali máu": {
+    "en": "Hypokalemia",
+    "cui": "C0020621",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "giãn đồng tử": {
+    "en": "Mydriasis",
+    "cui": "C0026961",
+    "tui": "T184",
+    "entity_type": "Complication"
+  },
+  "tăng nhãn áp góc đóng cấp": {
+    "en": "Acute angle-closure glaucoma",
+    "cui": "C0154946",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "bí đái": {
+    "en": "Urinary retention",
+    "cui": "C0080274",
+    "tui": "T169",
+    "entity_type": "Complication"
+  },
+  "khô miệng": {
+    "en": "Xerostomia",
+    "cui": "C0043352",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "aclidinium": {
+    "en": "Aclidinium",
+    "cui": "C2699757",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "umeclidinium": {
+    "en": "Umeclidinium",
+    "cui": "C3661274",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "vilanterol": {
+    "en": "Vilanterol",
+    "cui": "C2935023",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "glycopyrrolate": {
+    "en": "Glycopyrrolate",
+    "cui": "C0017970",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "revefenacin": {
+    "en": "Revefenacin",
+    "cui": "C4519232",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "đục thủy tinh thể": {
+    "en": "Cataract",
+    "cui": "C0086543",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "đo mật độ xương": {
+    "en": "Bone mineral density test",
+    "cui": "C0177804",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "bisphosphonate": {
+    "en": "Bisphosphonates",
+    "cui": "C0012544",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "kiểm tra nhãn khoa": {
+    "en": "Ophthalmological examination",
+    "cui": "C0200157",
+    "tui": "T060",
+    "entity_type": "Test"
+  },
+  "gãy xương": {
+    "en": "Fracture",
+    "cui": "C0016658",
+    "tui": "T037",
+    "entity_type": "Complication"
+  },
+  "vitamin d": {
+    "en": "Vitamin D",
+    "cui": "C0042866",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "corticosteroid đường uống hoặc hệ thống": {
+    "en": "Systemic corticosteroids",
+    "cui": "C4053960",
+    "tui": "T061",
+    "entity_type": "DrugClass"
+  },
+  "co thắt cơ": {
+    "en": "Muscle spasm",
+    "cui": "C0037763",
+    "tui": "T184",
+    "entity_type": "Mechanism"
+  },
+  "chủ vận beta-2": {
+    "en": "Beta-2 adrenergic agonist",
+    "cui": "C2936789",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "kháng cholinergic": {
+    "en": "Anticholinergic agents",
+    "cui": "C0242896",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "mất ngủ": {
+    "en": "Insomnia",
+    "cui": "C0917801",
+    "tui": "T184",
+    "entity_type": "Complication"
+  },
+  "cảm giác nôn nao": {
+    "en": "Nausea",
+    "cui": "C6024570",
+    "tui": "T201",
+    "entity_type": "Complication"
+  },
+  "loạn nhịp trên thất": {
+    "en": "Supraventricular arrhythmia",
+    "cui": "C0428974",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "loạn nhịp thất": {
+    "en": "Ventricular arrhythmia",
+    "cui": "C0085612",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "rối loạn chức năng gan": {
+    "en": "Liver dysfunction",
+    "cui": "C0086565",
+    "tui": "T033",
+    "entity_type": "Disease"
+  },
+  "kháng sinh macrolide": {
+    "en": "Macrolides",
+    "cui": "C0003240",
+    "tui": "T109",
+    "entity_type": "DrugClass"
+  },
+  "fluoroquinolone": {
+    "en": "Fluoroquinolones",
+    "cui": "C0949665",
+    "tui": "T109",
+    "entity_type": "DrugClass"
+  },
+  "thuốc chẹn histamine 2": {
+    "en": "Histamine H2 antagonist",
+    "cui": "C0019593",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "chất ức chế phosphodiesterase-4": {
+    "en": "Phosphodiesterase 4 inhibitors",
+    "cui": "C2936609",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "erythromycin": {
+    "en": "Erythromycin",
+    "cui": "C0014806",
+    "tui": "T109",
+    "entity_type": "Drug"
+  },
+  "liệu pháp oxy dài hạn": {
+    "en": "Long-term oxygen therapy",
+    "cui": "C0418996",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "không hút thuốc": {
+    "en": "Non-smoker",
+    "cui": "C0337672",
+    "tui": "T033",
+    "entity_type": "RiskFactor"
+  },
+  "cải thiện giấc ngủ": {
+    "en": "Sleep improvement",
+    "cui": "C4763973",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "độ bão hòa oxy": {
+    "en": "Oxygen saturation",
+    "cui": "C0483415",
+    "tui": "T201",
+    "entity_type": "Test"
+  },
+  "tăng khí carbonic": {
+    "en": "Hypercapnia",
+    "cui": "C0020440",
+    "tui": "T033",
+    "entity_type": "Mechanism"
+  },
+  "rối loạn mạch máu não": {
+    "en": "Cerebrovascular disease",
+    "cui": "C0007820",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "liệu pháp oxy bổ sung": {
+    "en": "Supplemental oxygen therapy",
+    "cui": "C5962720",
+    "tui": "T170",
+    "entity_type": "Treatment"
+  },
+  "máy tạo oxy di động": {
+    "en": "Portable oxygen concentrator",
+    "cui": "C1618343",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "bình khí nén": {
+    "en": "Compressed air",
+    "cui": "C0337081",
+    "tui": "T167",
+    "entity_type": "Treatment"
+  },
+  "tiêm phòng cúm": {
+    "en": "Influenza vaccination",
+    "cui": "C0042200",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "thuốc ức chế neuraminidase": {
+    "en": "Neuraminidase inhibitors",
+    "cui": "C3541969",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "oseltamivir": {
+    "en": "Oseltamivir",
+    "cui": "C0874161",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "zanamivir": {
+    "en": "Zanamivir",
+    "cui": "C0216660",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "thuốc ức chế endonuclease": {
+    "en": "Endonuclease inhibitor",
+    "cui": "C3181806",
+    "tui": "T116",
+    "entity_type": "DrugClass"
+  },
+  "baloxavir marboxil": {
+    "en": "Baloxavir marboxil",
+    "cui": "C4688747",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "vắc-xin phế cầu khuẩn": {
+    "en": "Pneumococcal vaccine",
+    "cui": "C0358314",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "viêm phổi mắc phải tại cộng đồng": {
+    "en": "Community-acquired pneumonia",
+    "cui": "C0694549",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "vắc-xin rsv": {
+    "en": "Respiratory syncytial virus vaccine",
+    "cui": "C0887894",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "vắc-xin covid-19": {
+    "en": "COVID-19 vaccine",
+    "cui": "C5400806",
+    "tui": "T121",
+    "entity_type": "Treatment"
+  },
+  "suy dinh dưỡng": {
+    "en": "Malnutrition",
+    "cui": "C0162429",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "teo cơ": {
+    "en": "Muscle atrophy",
+    "cui": "C0026846",
+    "tui": "T046",
+    "entity_type": "Complication"
+  },
+  "chế độ ăn uống cân bằng": {
+    "en": "Balanced diet",
+    "cui": "C0452410",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "chia nhỏ bữa ăn": {
+    "en": "Small frequent meals",
+    "cui": "C0515109",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "steroid đồng hóa": {
+    "en": "Anabolic steroids",
+    "cui": "C0002845",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "hormon tăng trưởng": {
+    "en": "Growth hormone",
+    "cui": "C0037663",
+    "tui": "T121",
+    "entity_type": "Drug"
+  },
+  "chất đối kháng tnf": {
+    "en": "TNF antagonist",
+    "cui": "C3537192",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "phục hồi chức năng phổi": {
+    "en": "Pulmonary rehabilitation",
+    "cui": "C0199529",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "suy yếu cơ xương": {
+    "en": "Musculoskeletal impairment",
+    "cui": "C5979876",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "tập thể dục nhịp điệu": {
+    "en": "Aerobic exercise",
+    "cui": "C0001701",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "oxy bổ sung": {
+    "en": "Supplemental oxygen",
+    "cui": "C4534306",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "phục hồi chức năng ảo": {
+    "en": "Virtual rehabilitation",
+    "cui": "C4042802",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "cơ hoành": {
+    "en": "Diaphragm",
+    "cui": "C0011980",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "phẫu thuật cắt bỏ kén khí": {
+    "en": "Bullectomy",
+    "cui": "C6009625",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "van nội phế quản": {
+    "en": "Endobronchial valve",
+    "cui": "C3880733",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "nội soi phế quản": {
+    "en": "Bronchoscopy",
+    "cui": "C0006290",
+    "tui": "T058",
+    "entity_type": "Test"
+  },
+  "phế thũng": {
+    "en": "Pulmonary emphysema",
+    "cui": "C0034067",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "thủ thuật nội soi phế quản": {
+    "en": "Bronchoscopy",
+    "cui": "C0006290",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "phẫu thuật ghép phổi": {
+    "en": "Lung transplantation",
+    "cui": "C0024128",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "ức chế miễn dịch": {
+    "en": "Immunosuppression",
+    "cui": "C0021079",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "nhiễm trùng cơ hội": {
+    "en": "Opportunistic infection",
+    "cui": "C0029118",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "thay đổi hành vi": {
+    "en": "Behavior modification",
+    "cui": "C0004933",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "dinh dưỡng": {
+    "en": "Nutritional support",
+    "cui": "C0242739",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "liệu pháp thay thế nicotin": {
+    "en": "Nicotine replacement therapy",
+    "cui": "C1278444",
+    "tui": "T061",
+    "entity_type": "Treatment"
+  },
+  "buồng đệm": {
+    "en": "Spacer",
+    "cui": "C0221874",
+    "tui": "T074",
+    "entity_type": "Treatment"
+  },
+  "suy nhược": {
+    "en": "Asthenia",
+    "cui": "C0004093",
+    "tui": "T184",
+    "entity_type": "Symptom"
+  },
+  "tâm thất phải": {
+    "en": "Right ventricle",
+    "cui": "C0225883",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "mạch máu phổi": {
+    "en": "Pulmonary blood vessel",
+    "cui": "C4517314",
+    "tui": "T023",
+    "entity_type": "Organ"
+  },
+  "thuốc chủ vận beta-2": {
+    "en": "Beta-2 adrenergic agonist",
+    "cui": "C2936789",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "thuốc ức chế phosphodiesterase-4": {
+    "en": "Phosphodiesterase 4 inhibitors",
+    "cui": "C2936609",
+    "tui": "T121",
+    "entity_type": "DrugClass"
+  },
+  "liệu pháp oxy về đêm": {
+    "en": "Nocturnal oxygen therapy",
+    "cui": "C4039961",
+    "tui": "T033",
+    "entity_type": "Treatment"
+  },
+  "nhiễm trùng phế cầu khuẩn xâm lấn": {
+    "en": "Invasive pneumococcal disease",
+    "cui": "C1845073",
+    "tui": "T047",
+    "entity_type": "Disease"
+  },
+  "sụt cân": {
+    "en": "Weight loss",
+    "cui": "C1262477",
+    "tui": "T033",
+    "entity_type": "Complication"
+  },
+  "thiếu hụt dinh dưỡng": {
+    "en": "Nutritional deficiency",
+    "cui": "C4761312",
+    "tui": "T047",
+    "entity_type": "Complication"
+  },
+  "bổ sung dinh dưỡng": {
+    "en": "Dietary supplement",
+    "cui": "C0242295",
+    "tui": "T168",
+    "entity_type": "Treatment"
+  },
+  "telehealth": {
+    "en": "Telemedicine",
+    "cui": "C0162648",
+    "tui": "T058",
+    "entity_type": "Treatment"
+  },
+  "nhóm hỗ trợ": {
+    "en": "Support group",
+    "cui": "C0036606",
+    "tui": "T095",
+    "entity_type": "Treatment"
   }
 }

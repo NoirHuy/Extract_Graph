@@ -1,0 +1,226 @@
+﻿id,name,normalized_name,entity_type,umls_cui,umls_sty,formatted_attributes,attributes,source_document,created_at
+Complication:biến chứng hô hấp do cúm,biến chứng hô hấp do cúm,Biến chứng hô hấp do cúm,Complication,,,,{},02_dieutri.txt,2026-08-21T16:40:38.476Z
+CUI:C0080274,bí đái,Bí đái,Complication,C0080274,Functional Concept,,{},02_dieutri.txt,2026-08-21T16:40:32.718Z
+CUI:C0036572,co giật,Co giật,Complication,C0036572,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T16:40:34.964Z
+CUI:C6024570,cảm giác nôn nao,Cảm giác nôn nao,Complication,C6024570,Clinical Attribute,,{},02_dieutri.txt,2026-08-21T16:40:34.78Z
+CUI:C0026961,giãn đồng tử,Giãn đồng tử,Complication,C0026961,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T16:40:32.596Z
+CUI:C0020621,giảm kali máu,Giảm kali máu,Complication,C0020621,Finding,,{},02_dieutri.txt,2026-08-21T14:26:50.612Z
+CUI:C0016658,gãy xương,Gãy xương,Complication,C0016658,Injury or Poisoning,,{},02_dieutri.txt,2026-08-21T16:40:33.987Z
+CUI:C0043352,khô miệng,Khô miệng,Complication,C0043352,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:32.788Z
+CUI:C0029456,loãng xương,Loãng xương,Complication,C0029456,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T03:24:23.678Z
+CUI:C0085612,loạn nhịp thất,Loạn nhịp thất,Complication,C0085612,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:34.904Z
+CUI:C0428974,loạn nhịp trên thất,Loạn nhịp trên thất,Complication,C0428974,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:34.838Z
+CUI:C0917801,mất ngủ,Mất ngủ,Complication,C0917801,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T16:40:34.719Z
+CUI:C0029118,nhiễm trùng cơ hội,Nhiễm trùng cơ hội,Complication,C0029118,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:42.236Z
+CUI:C3827868,nhịp tim nhanh,Nhịp tim nhanh,Complication,C3827868,Finding,,{},02_dieutri.txt,2026-08-21T16:40:32.455Z
+CUI:C0003811,rối loạn nhịp tim,Rối loạn nhịp tim,Complication,C0003811,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:00:36.971Z
+CUI:C0162429,suy dinh dưỡng,Suy dinh dưỡng,Complication,C0162429,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:39.269Z
+CUI:C5979876,suy yếu cơ xương,Suy yếu cơ xương,Complication,C5979876,Finding,,{},02_dieutri.txt,2026-08-21T16:40:39.958Z
+CUI:C1262477,sụt cân,Sụt cân,Complication,C1262477,Finding,,{},02_dieutri.txt,2026-08-21T16:40:43.948Z
+CUI:C0026846,teo cơ,Teo cơ,Complication,C0026846,Pathologic Function,,{},02_dieutri.txt,2026-08-21T16:40:39.329Z
+CUI:C4761312,thiếu hụt dinh dưỡng,Thiếu hụt dinh dưỡng,Complication,C4761312,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:44.037Z
+CUI:C0154946,tăng nhãn áp góc đóng cấp,Tăng nhãn áp góc đóng cấp,Complication,C0154946,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:32.657Z
+CUI:C0086543,đục thủy tinh thể,Đục thủy tinh thể,Complication,C0086543,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:33.6Z
+CUI:C0024117,COPD,Bệnh phổi tắc nghẽn mãn tính (COPD),Disease,C0024117,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T03:24:18.047Z
+Disease:copd ổn định mạn tính,COPD ổn định mạn tính,COPD ổn định mạn tính,Disease,,,,{},02_dieutri.txt,2026-08-21T16:40:34.426Z
+CUI:C0007222,bệnh tim mạch,Bệnh tim mạch,Disease,C0007222,Disease or Syndrome,,{},02_dieutri.txt,2026-08-20T14:17:13.153Z
+CUI:C1956346,bệnh động mạch vành,Bệnh động mạch vành,Disease,C1956346,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T06:17:27.626Z
+CUI:C0004096,hen,Hen phế quản,Disease,C0004096,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T03:24:19.276Z
+CUI:C1845073,nhiễm trùng phế cầu khuẩn xâm lấn,Nhiễm trùng phế cầu khuẩn xâm lấn,Disease,C1845073,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:43.881Z
+CUI:C0034067,phế thũng,Phế thũng,Disease,C0034067,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:40.671Z
+CUI:C0086565,rối loạn chức năng gan,Rối loạn chức năng gan,Disease,C0086565,Finding,,{},02_dieutri.txt,2026-08-21T16:40:35.242Z
+CUI:C0007820,rối loạn mạch máu não,Rối loạn mạch máu não,Disease,C0007820,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:37.38Z
+CUI:C1145670,suy hô hấp,Suy hô hấp,Disease,C1145670,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:40.037Z
+CUI:C0700292,thiếu oxy máu,Thiếu oxy máu,Disease,C0700292,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:00:37.298Z
+CUI:C0032285,viêm phổi,Viêm phổi,Disease,C0032285,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T07:13:21.092Z
+CUI:C0694549,viêm phổi mắc phải tại cộng đồng,Viêm phổi mắc phải tại cộng đồng,Disease,C0694549,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:38.932Z
+DiseaseSubtype:copd rất nặng,Bệnh nhân COPD rất nặng,COPD rất nặng,DiseaseSubtype,,,,{},02_dieutri.txt,2026-08-21T16:40:40.422Z
+DiseaseSubtype:copd giai đoạn ổn định,COPD mạn tính ổn định,COPD giai đoạn ổn định,DiseaseSubtype,,,,{},02_dieutri.txt,2026-08-21T16:00:35.907Z
+DiseaseSubtype:giảm oxy máu do gắng sức,giảm oxy máu do gắng sức,Giảm oxy máu do gắng sức,DiseaseSubtype,,,,{},02_dieutri.txt,2026-08-21T16:40:38.336Z
+DiseaseSubtype:khí thũng nặng,khí thũng nặng,Khí thũng nặng,DiseaseSubtype,,,,{},02_dieutri.txt,2026-08-21T16:40:40.731Z
+CUI:C0241982,kén khí,Kén khí,DiseaseSubtype,C0241982,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T03:24:22.925Z
+CUI:C2973725,tăng áp động mạch phổi,Tăng áp động mạch phổi,DiseaseSubtype,C2973725,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T03:24:23.314Z
+DiseaseSubtype:tăng áp động mạch phổi nặng,tăng áp động mạch phổi nặng,Tăng áp động mạch phổi nặng,DiseaseSubtype,,,,{},02_dieutri.txt,2026-08-21T16:40:42.112Z
+CUI:C0008677,viêm phế quản mạn tính,Viêm phế quản mạn tính,DiseaseSubtype,C0008677,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T16:40:31.755Z
+CUI:C0340044,đợt cấp,Đợt cấp COPD,DiseaseSubtype,C0340044,Disease or Syndrome,,{},02_dieutri.txt,2026-08-21T03:24:23.533Z
+CUI:C2699757,Aclidinium,Aclidinium,Drug,C2699757,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:32.973Z
+CUI:C0001927,Albuterol,Albuterol,Drug,C0001927,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.547Z
+CUI:C0014806,Erythromycin,Erythromycin,Drug,C0014806,Organic Chemical,,{},02_dieutri.txt,2026-08-21T16:40:36.038Z
+CUI:C0017970,Glycopyrrolate,Glycopyrrolate,Drug,C0017970,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:33.233Z
+CUI:C0027235,Ipratropium,Ipratropium,Drug,C0027235,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.626Z
+CUI:C4519232,Revefenacin,Revefenacin,Drug,C4519232,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:33.358Z
+CUI:C0039771,Theophylline,Theophylline,Drug,C0039771,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.691Z
+CUI:C0213771,Tiotropium,Tiotropium,Drug,C0213771,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.947Z
+CUI:C3661274,Umeclidinium,Umeclidinium,Drug,C3661274,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:33.032Z
+CUI:C0052796,azithromycin,Azithromycin,Drug,C0052796,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.073Z
+Drug:azithromycin 250 mg/ngày,azithromycin 250 mg uống một lần/ngày,Azithromycin 250 mg/ngày,Drug,,,dosage: 250 mg; frequency: một lần/ngày,"{""dosage"": ""250 mg"", ""frequency"": ""một lần/ngày""}",02_dieutri.txt,2026-08-21T16:40:35.929Z
+CUI:C4688747,balaxovir marboxil,Baloxavir marboxil,Drug,C4688747,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:38.808Z
+CUI:C0012544,bisphosphonate,Bisphosphonate,Drug,C0012544,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:38.405Z
+CUI:C0085208,bupropion,Bupropion,Drug,C0085208,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:29.472Z
+CUI:C0006675,canxi,Canxi,Drug,C0006675,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:34.048Z
+CUI:C0060657,formoterol,Formoterol,Drug,C0060657,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.883Z
+CUI:C0037663,hormon tăng trưởng,Hormon tăng trưởng,Drug,C0037663,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:39.659Z
+CUI:C1722260,indacaterol,Indacaterol,Drug,C1722260,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:32.248Z
+CUI:C0068722,kẹo cao su,Kẹo cao su nicotine,Drug,C0068722,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:29.125Z
+CUI:C0358855,miếng dán da,Miếng dán da nicotine,Drug,C0358855,Clinical Drug,,{},02_dieutri.txt,2026-08-21T16:40:29.204Z
+CUI:C2934193,olodaterol,Olodaterol,Drug,C2934193,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:32.309Z
+CUI:C0874161,oseltamivir,Oseltamivir,Drug,C0874161,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:38.61Z
+CUI:C0965618,roflumilast,Roflumilast,Drug,C0965618,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:26.99Z
+CUI:C0073992,salmeterol,Salmeterol,Drug,C0073992,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:27.821Z
+CUI:C0002845,steroid đồng hoá,Steroid đồng hóa,Drug,C0002845,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:39.596Z
+CUI:C0814019,thuốc hít,Thuốc hít nicotine,Drug,C0814019,Medical Device,,{},02_dieutri.txt,2026-08-21T16:40:29.285Z
+CUI:C1253423,thuốc viên,Thuốc viên nicotine,Drug,C1253423,Clinical Drug,,{},02_dieutri.txt,2026-08-21T16:40:29.347Z
+CUI:C1569608,varenicline,Varenicline,Drug,C1569608,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:29.552Z
+CUI:C2935023,vilanterol,Vilanterol,Drug,C2935023,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:33.091Z
+CUI:C0042866,vitamin D,Vitamin D,Drug,C0042866,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:34.107Z
+CUI:C3192374,xịt mũi,Thuốc xịt mũi nicotine,Drug,C3192374,Clinical Drug,,{},02_dieutri.txt,2026-08-21T16:40:29.409Z
+CUI:C0216660,zanamivir,Zanamivir,Drug,C0216660,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:38.673Z
+CUI:C4053960,Corticosteroid đường uống hoặc hệ thống,Corticosteroid đường uống hoặc hệ thống,DrugClass,C4053960,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T03:24:30.005Z
+CUI:C2936609,Phosphodiesterase-4,Thuốc ức chế Phosphodiesterase-4,DrugClass,C2936609,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:31.425Z
+CUI:C0578554,Thuốc giãn phế quản dạng hít,Thuốc giãn phế quản dạng hít,DrugClass,C0578554,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:35.25Z
+DrugClass:thuốc giãn phế quản tác dụng ngắn,Thuốc giãn phế quản tác dụng ngắn,Thuốc giãn phế quản tác dụng ngắn,DrugClass,,,,{},02_dieutri.txt,2026-08-21T07:13:32.381Z
+CUI:C2936789,chủ vận beta-2,Thuốc chủ vận beta-2,DrugClass,C2936789,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:16.797Z
+CUI:C4020618,corticosteroid dạng hít,Corticosteroid dạng hít,DrugClass,C4020618,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T03:24:29.037Z
+CUI:C3537192,các chất đối kháng TNF,Chất đối kháng TNF,DrugClass,C3537192,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:39.72Z
+CUI:C0949665,fluoroquinolone,Fluoroquinolone,DrugClass,C0949665,Organic Chemical,,{},02_dieutri.txt,2026-08-21T16:00:41.188Z
+CUI:C0242896,kháng cholinergic,Kháng cholinergic,DrugClass,C0242896,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:33.153Z
+CUI:C0003240,kháng sinh macrolide,Kháng sinh macrolide,DrugClass,C0003240,Organic Chemical,,{},02_dieutri.txt,2026-08-21T16:00:41.692Z
+CUI:C0019593,thuốc chẹn histamine 2,Thuốc chẹn histamine 2,DrugClass,C0019593,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:35.482Z
+CUI:C0001644,thuốc chủ vận beta,Thuốc chủ vận beta,DrugClass,C0001644,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T07:13:33.089Z
+DrugClass:thuốc chủ vận beta tác dụng kéo dài (laba),thuốc chủ vận beta tác dụng kéo dài,Thuốc chủ vận beta tác dụng kéo dài (LABA),DrugClass,,,,{},02_dieutri.txt,2026-08-21T16:40:30.118Z
+CUI:C4538237,thuốc chủ vận beta tác dụng kéo dài,LABA,DrugClass,C4538237,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:33.151Z
+DrugClass:thuốc chủ vận beta tác dụng ngắn (saba),thuốc chủ vận beta tác dụng ngắn,Thuốc chủ vận beta tác dụng ngắn (SABA),DrugClass,,,,{},02_dieutri.txt,2026-08-21T16:00:43.818Z
+DrugClass:thuốc cường beta-adrenergic tác dụng kéo dài,thuốc cường beta-adrenergic tác dụng kéo dài,Thuốc cường beta-adrenergic tác dụng kéo dài,DrugClass,,,,{},02_dieutri.txt,2026-08-21T16:40:42.368Z
+DrugClass:thuốc cường beta-adrenergic tác dụng ngắn,thuốc cường beta-adrenergic tác dụng ngắn,Thuốc cường beta-adrenergic tác dụng ngắn,DrugClass,,,,{},02_dieutri.txt,2026-08-21T16:40:42.299Z
+CUI:C0006280,thuốc giãn phế quản,Thuốc giãn phế quản,DrugClass,C0006280,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T03:24:18.742Z
+DrugClass:thuốc kháng cholinergic tác dụng kéo dài,thuốc kháng cholinergic có tác dụng kéo dài,Thuốc kháng cholinergic tác dụng kéo dài,DrugClass,,,,{},02_dieutri.txt,2026-08-21T16:40:42.451Z
+CUI:C0003385,thuốc kháng cholinergic tác dụng kéo dài,LAMA,DrugClass,C0003385,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:34.17Z
+CUI:C3181806,thuốc ức chế endnuclease,Thuốc ức chế endonuclease,DrugClass,C3181806,"Amino Acid, Peptide, or Protein",,{},02_dieutri.txt,2026-08-21T16:40:38.748Z
+CUI:C3541969,thuốc ức chế neuraminidase,Thuốc ức chế neuraminidase,DrugClass,C3541969,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:38.55Z
+Guideline:gold,GOLD,GOLD,Guideline,,Intellectual Product,,{},02_dieutri.txt,2026-08-21T16:40:31.907Z
+Guideline:lung health study,Scanlon PD et al,Lung Health Study,Guideline,,,,{},02_dieutri.txt,2026-08-21T16:40:42.903Z
+Guideline:lung health study (2000),"Scanlon PD et al: Smoking cessation and lung function in mild-to-moderate chronic obstructive pulmonary disease; the Lung Health Study. American Journal of Respiratory and Critical Care Medicine 161:381-390, 2000.",Lung Health Study (2000),Guideline,,,,{},02_dieutri.txt,2026-08-21T16:40:29.692Z
+Guideline:điều trị copd bằng thuốc,Điều trị COPD bằng thuốc,Điều trị COPD bằng thuốc,Guideline,,,,{},02_dieutri.txt,2026-08-21T16:40:29.775Z
+Measurement:tốc độ đi bộ tập luyện: 1.6 - 3.2 km/giờ,"1 đến 2 mph (1,6 đến 3,2 km/giờ)",Tốc độ đi bộ tập luyện: 1.6 - 3.2 km/giờ,Measurement,,,Thông số: Tốc độ đi bộ; min_value: 1.6; max_value: 3.2,"{""parameter"": ""Tốc độ đi bộ"", ""min_value"": 1.6, ""max_value"": 3.2, ""unit"": ""km/giờ""}",02_dieutri.txt,2026-08-21T16:40:44.229Z
+Measurement:số liều lót cần thiết: 2 - 3 liều,2 đến 3 liều lót,Số liều lót cần thiết: 2 - 3 liều,Measurement,,,Thông số: Số liều lót; min_value: 2; max_value: 3,"{""parameter"": ""Số liều lót"", ""min_value"": 2, ""max_value"": 3, ""unit"": ""liều""}",02_dieutri.txt,2026-08-21T16:40:30.971Z
+Measurement:tần suất tập thể dục: 3 - 4 lần/tuần,3 đến 4 lần/tuần,Tần suất tập thể dục: 3 - 4 lần/tuần,Measurement,,,Thông số: Tần suất tập thể dục; min_value: 3; max_value: 4,"{""parameter"": ""Tần suất tập thể dục"", ""min_value"": 3, ""max_value"": 4, ""unit"": ""lần/tuần""}",02_dieutri.txt,2026-08-21T16:40:44.501Z
+Measurement:fev1 dự đoán: 20% - 40%,FEV1 (thể tích không khí thở ra mạnh trong giây đầu tiên sau khi hít hết hơi) 20% đến 40% so với dự đoán,FEV1 dự đoán: 20% - 40%,Measurement,,,Thông số: FEV1 so với dự đoán; min_value: 20; max_value: 40,"{""parameter"": ""FEV1 so với dự đoán"", ""min_value"": 20, ""max_value"": 40, ""unit"": ""%""}",02_dieutri.txt,2026-08-21T16:40:40.892Z
+Measurement:fev1: 20% - 40% dự đoán,FEV1 (thể tích không khí thở ra mạnh trong giây đầu tiên sau khi hít hết hơi) 20% đến 40% so với dự đoán,FEV1: 20% - 40% dự đoán,Measurement,,,Thông số: FEV1; min_value: 20; max_value: 40,"{""parameter"": ""FEV1"", ""min_value"": 20, ""max_value"": 40, ""unit"": ""% dự đoán""}",02_dieutri.txt,2026-08-21T16:40:41.104Z
+Measurement:fev1 < 50%,FEV1 < 50%,FEV1 < 50%,Measurement,,,Thông số: FEV1; Giá trị: <50 %,"{""parameter"": ""FEV1"", ""value"": 50, ""unit"": ""%"", ""operator"": ""<""}",02_dieutri.txt,2026-08-21T16:40:31.676Z
+Measurement:fev1 < 25% dự đoán,FEV1 <25% dự đoán,FEV1 < 25% dự đoán,Measurement,,,Thông số: FEV1; Giá trị: <25 %,"{""parameter"": ""FEV1"", ""operator"": ""<"", ""value"": 25, ""unit"": ""%""}",02_dieutri.txt,2026-08-21T16:40:41.975Z
+Measurement:dlco < 40% dự đoán,Giảm đáng kể DLCO (< 40% dự đoán),DLCO < 40% dự đoán,Measurement,,,Thông số: DLCO; Giá trị: <40 % dự đoán,"{""parameter"": ""DLCO"", ""operator"": ""<"", ""value"": 40, ""unit"": ""% dự đoán""}",02_dieutri.txt,2026-08-21T16:40:41.521Z
+Measurement:hemtocrit < 30%,Hemtocrit < 30,Hemtocrit < 30%,Measurement,,,Thông số: Hemtocrit; Giá trị: <30 %,"{""parameter"": ""Hemtocrit"", ""value"": 30, ""unit"": ""%"", ""operator"": ""<""}",02_dieutri.txt,2026-08-21T16:40:36.994Z
+Measurement:chỉ số hematocrit < 30,Hemtocrit < 30,Chỉ số Hematocrit < 30,Measurement,,,Thông số: Hematocrit; Giá trị: <30 %,"{""parameter"": ""Hematocrit"", ""value"": 30, ""operator"": ""<"", ""unit"": ""%""}",02_dieutri.txt,2026-08-21T16:40:37.253Z
+Measurement:hematocrit < 30%,Hemtocrit < 30,Hematocrit < 30%,Measurement,,,Thông số: Hematocrit; Giá trị: <30 %,"{""parameter"": ""Hematocrit"", ""value"": 30, ""unit"": ""%"", ""operator"": ""<""}",02_dieutri.txt,2026-08-21T16:40:43.808Z
+Measurement:pao2 <= 55 mm hg,PaO2 <= 55 mm Hg,PaO2 <= 55 mm Hg,Measurement,,,Thông số: PaO2; Giá trị: <=55 mm Hg,"{""parameter"": ""PaO2"", ""value"": 55, ""unit"": ""mm Hg"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:37.565Z
+Measurement:pao2 mực nước biển <= 68 mmhg,PaO2 <= 68 mmHg,PaO2 mực nước biển <= 68 mmHg,Measurement,,,Thông số: PaO2 mực nước biển; Giá trị: <=68 mmHg,"{""parameter"": ""PaO2 mực nước biển"", ""value"": 68, ""unit"": ""mmHg"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:36.92Z
+Measurement:pao2 ở mực nước biển <= 68 mmhg,PaO2 <= 68 mmHg,PaO2 ở mực nước biển <= 68 mmHg,Measurement,,,Thông số: PaO2 ở mực nước biển; Giá trị: <=68 mmHg,"{""parameter"": ""PaO2 ở mực nước biển"", ""value"": 68, ""unit"": ""mmHg"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:37.117Z
+Measurement:pao2 tại mực nước biển <= 68 mmhg,PaO2 <= 68 mmHg,PaO2 tại mực nước biển <= 68 mmHg,Measurement,,,Thông số: PaO2 tại mực nước biển; Giá trị: <=68 mmHg,"{""parameter"": ""PaO2 tại mực nước biển"", ""value"": 68, ""unit"": ""mmHg"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:43.745Z
+Measurement:pao2 từ 55 đến 59 mm hg,PaO2 = 55 đến 59 mm Hg,PaO2 từ 55 đến 59 mm Hg,Measurement,,,Thông số: PaO2; min_value: 55; max_value: 59,"{""parameter"": ""PaO2"", ""min_value"": 55, ""max_value"": 59, ""unit"": ""mm Hg""}",02_dieutri.txt,2026-08-21T16:40:37.694Z
+Measurement:pao2 > 60 mm hg,PaO2 > 60 mm Hg,PaO2 > 60 mm Hg,Measurement,,,Thông số: PaO2; Giá trị: >60 mm Hg,"{""parameter"": ""PaO2"", ""value"": 60, ""unit"": ""mm Hg"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:37.883Z
+Measurement:pao2 mực nước biển > 68 mmhg,PaO2 > 68 mm Hg,PaO2 mực nước biển > 68 mmHg,Measurement,,,Thông số: PaO2 mực nước biển; Giá trị: >68 mmHg,"{""parameter"": ""PaO2 mực nước biển"", ""value"": 68, ""unit"": ""mmHg"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:36.859Z
+Measurement:pao2 ở mực nước biển > 68 mmhg,PaO2 > 68 mm Hg,PaO2 ở mực nước biển > 68 mmHg,Measurement,,,Thông số: PaO2 ở mực nước biển; Giá trị: >68 mmHg,"{""parameter"": ""PaO2 ở mực nước biển"", ""value"": 68, ""unit"": ""mmHg"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:37.057Z
+Measurement:pao2 tại mực nước biển > 68 mmhg,PaO2 > 68 mm Hg,PaO2 tại mực nước biển > 68 mmHg,Measurement,,,Thông số: PaO2 tại mực nước biển; Giá trị: >68 mmHg,"{""parameter"": ""PaO2 tại mực nước biển"", ""value"": 68, ""unit"": ""mmHg"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:43.684Z
+Measurement:sao2 <= 88%,SaO2 <= 88%,SaO2 <= 88%,Measurement,,,Thông số: SaO2; Giá trị: <=88 %,"{""parameter"": ""SaO2"", ""value"": 88, ""unit"": ""%"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:37.624Z
+Measurement:sao2 <= 89%,SaO2 <= 89%,SaO2 <= 89%,Measurement,,,Thông số: SaO2; Giá trị: <=89 %,"{""parameter"": ""SaO2"", ""value"": 89, ""unit"": ""%"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:37.763Z
+Measurement:thời gian tập luyện tăng dần: 4 - 6 tuần,Thời gian và khối lượng tập thể dục tăng dần từ 4 đến 6 tuần,Thời gian tập luyện tăng dần: 4 - 6 tuần,Measurement,,,Thông số: Thời gian tập luyện tăng dần; min_value: 4; max_value: 6,"{""parameter"": ""Thời gian tập luyện tăng dần"", ""min_value"": 4, ""max_value"": 6, ""unit"": ""tuần""}",02_dieutri.txt,2026-08-21T16:40:40.361Z
+Measurement:thời gian và khối lượng tập thể dục tăng dần: 4 - 6 tuần,Thời gian và khối lượng tập thể dục tăng dần từ 4 đến 6 tuần,Thời gian và khối lượng tập thể dục tăng dần: 4 - 6 tuần,Measurement,,,Thông số: Thời gian và khối lượng tập thể dục tăng dần; min_value: 4; max_value: 6,"{""parameter"": ""Thời gian và khối lượng tập thể dục tăng dần"", ""min_value"": 4, ""max_value"": 6, ""unit"": ""tuần""}",02_dieutri.txt,2026-08-21T16:40:44.292Z
+Measurement:liều azithromycin 250 mg/ngày,azithromycin 250 mg uống một lần/ngày,Liều azithromycin 250 mg/ngày,Measurement,,,Thông số: Liều azithromycin; Giá trị: 250 mg/ngày,"{""parameter"": ""Liều azithromycin"", ""value"": 250, ""unit"": ""mg/ngày""}",02_dieutri.txt,2026-08-21T16:40:43.562Z
+Measurement:độ bão hòa oxy ban đêm <= 88%,bão hòa oxy <= 88%,Độ bão hòa oxy ban đêm <= 88%,Measurement,,,Thông số: Độ bão hòa oxy ban đêm; Giá trị: <=88 %,"{""parameter"": ""Độ bão hòa oxy ban đêm"", ""value"": 88, ""unit"": ""%"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:36.654Z
+Measurement:độ tuổi bệnh nhân: < 65 tuổi,bệnh nhân < 65 tuổi,Độ tuổi bệnh nhân: < 65 tuổi,Measurement,,,Thông số: Độ tuổi bệnh nhân; Giá trị: <65 tuổi,"{""parameter"": ""Độ tuổi bệnh nhân"", ""operator"": ""<"", ""value"": 65, ""unit"": ""tuổi""}",02_dieutri.txt,2026-08-21T16:40:41.915Z
+Measurement:thời gian không sử dụng gần đây: 3 - 14 ngày,dao động từ 3 đến 14 ngày,Thời gian không sử dụng gần đây: 3 - 14 ngày,Measurement,,,Thông số: Thời gian không sử dụng gần đây; min_value: 3; max_value: 14,"{""parameter"": ""Thời gian không sử dụng gần đây"", ""min_value"": 3, ""max_value"": 14, ""unit"": ""ngày""}",02_dieutri.txt,2026-08-21T16:40:31.034Z
+Measurement:dlco dự đoán: > 20%,khả năng khuếch tán carbon monoxide (DLCO) > 20% so với dự đoán,DLCO dự đoán: > 20%,Measurement,,,Thông số: DLCO so với dự đoán; Giá trị: >20 %; min_value: 20,"{""parameter"": ""DLCO so với dự đoán"", ""min_value"": 20, ""operator"": "">"", ""unit"": ""%"", ""value"": 20}",02_dieutri.txt,2026-08-21T16:40:40.98Z
+Measurement:dlco > 20% dự đoán,khả năng khuếch tán carbon monoxide (DLCO) > 20% so với dự đoán,DLCO > 20% dự đoán,Measurement,,,Thông số: DLCO; Giá trị: >20 % dự đoán,"{""parameter"": ""DLCO"", ""operator"": "">"", ""value"": 20, ""unit"": ""% dự đoán""}",02_dieutri.txt,2026-08-21T16:40:41.164Z
+Measurement:độ tuổi: > 60 tuổi,người lớn trên 60 tuổi,Độ tuổi: > 60 tuổi,Measurement,,,Thông số: Độ tuổi; Giá trị: >60 tuổi,"{""parameter"": ""Độ tuổi"", ""operator"": "">"", ""value"": 60, ""unit"": ""tuổi""}",02_dieutri.txt,2026-08-21T16:40:39.057Z
+Measurement:thời gian nín thở: 3 - 4 giây,nín thở từ 3 đến 4 giây,Thời gian nín thở: 3 - 4 giây,Measurement,,,Thông số: Thời gian nín thở; min_value: 3; max_value: 4,"{""parameter"": ""Thời gian nín thở"", ""min_value"": 3, ""max_value"": 4, ""unit"": ""giây""}",02_dieutri.txt,2026-08-21T16:40:30.833Z
+Measurement:nồng độ theophylline trong máu > 20 mg/l,nồng độ trong máu > 20 mg/L (111 micromol/L),Nồng độ Theophylline trong máu > 20 mg/L,Measurement,,,Thông số: Nồng độ Theophylline trong máu; Giá trị: >20 mg/L,"{""parameter"": ""Nồng độ Theophylline trong máu"", ""value"": 20, ""unit"": ""mg/L"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:35.028Z
+Measurement:nồng độ thuốc trong máu > 20 mg/l,nồng độ trong máu > 20 mg/L (111 micromol/L),Nồng độ thuốc trong máu > 20 mg/L,Measurement,,,Thông số: Nồng độ thuốc trong máu; Giá trị: >20 mg/L,"{""parameter"": ""Nồng độ thuốc trong máu"", ""value"": 20, ""unit"": ""mg/L"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:35.088Z
+Measurement:số lượng bạch cầu ái toan >= 150/mcl,"tăng bạch cầu ái toan >= 150/mcL (>= 0,15 × 109/L)",Số lượng bạch cầu ái toan >= 150/mcL,Measurement,,,Thông số: Số lượng bạch cầu ái toan; Giá trị: >=150 mcL,"{""parameter"": ""Số lượng bạch cầu ái toan"", ""value"": 150, ""unit"": ""mcL"", ""operator"": "">=""}",02_dieutri.txt,2026-08-21T16:40:31.224Z
+Measurement:số lượng bạch cầu ái toan >= 300 mcl,"tăng bạch cầu ái toan >= 300 mcL (>= 0,30 × 109/L)",Số lượng bạch cầu ái toan >= 300 mcL,Measurement,,,Thông số: Số lượng bạch cầu ái toan; Giá trị: >=300 mcL,"{""parameter"": ""Số lượng bạch cầu ái toan"", ""value"": 300, ""unit"": ""mcL"", ""operator"": "">=""}",02_dieutri.txt,2026-08-21T16:40:31.365Z
+Measurement:thời gian tăng dần khối lượng tập: 4 - 6 tuần,tăng dần từ 4 đến 6 tuần,Thời gian tăng dần khối lượng tập: 4 - 6 tuần,Measurement,,,Thông số: Thời gian tăng dần khối lượng tập; min_value: 4; max_value: 6,"{""parameter"": ""Thời gian tăng dần khối lượng tập"", ""min_value"": 4, ""max_value"": 6, ""unit"": ""tuần""}",02_dieutri.txt,2026-08-21T16:40:40.164Z
+Measurement:hematocrit > 55%,tăng hồng cầu thứ phát (> 55%),Hematocrit > 55%,Measurement,,,Thông số: Hematocrit; Giá trị: >55 %,"{""parameter"": ""Hematocrit"", ""value"": 55, ""unit"": ""%"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:37.824Z
+Measurement:thời gian tập thể dục mục tiêu: 20 - 30 phút,tập thể dục trong khoảng từ 20 đến 30 phút,Thời gian tập thể dục mục tiêu: 20 - 30 phút,Measurement,,,Thông số: Thời gian tập thể dục; min_value: 20; max_value: 30,"{""parameter"": ""Thời gian tập thể dục"", ""min_value"": 20, ""max_value"": 30, ""unit"": ""phút""}",02_dieutri.txt,2026-08-21T16:40:40.234Z
+Measurement:thời gian tập thể dục không nghỉ: 20 - 30 phút,tập thể dục trong khoảng từ 20 đến 30 phút,Thời gian tập thể dục không nghỉ: 20 - 30 phút,Measurement,,,Thông số: Thời gian tập thể dục không nghỉ; min_value: 20; max_value: 30,"{""parameter"": ""Thời gian tập thể dục không nghỉ"", ""min_value"": 20, ""max_value"": 30, ""unit"": ""phút""}",02_dieutri.txt,2026-08-21T16:40:44.369Z
+Measurement:tốc độ dòng oxy khi nghỉ ngơi <= 3 l/phút,tốc độ dòng <= 3 L/phút,Tốc độ dòng oxy khi nghỉ ngơi <= 3 L/phút,Measurement,,,Thông số: Tốc độ dòng oxy khi nghỉ ngơi; Giá trị: <=3 L/phút,"{""parameter"": ""Tốc độ dòng oxy khi nghỉ ngơi"", ""value"": 3, ""unit"": ""L/phút"", ""operator"": ""<=""}",02_dieutri.txt,2026-08-21T16:40:38.019Z
+Measurement:thời gian tập phục hồi tối thiểu: 3 tháng,tối thiểu là 3 tháng tập phục hồi,Thời gian tập phục hồi tối thiểu: 3 tháng,Measurement,,,Thông số: Thời gian tập phục hồi; min_value: 3,"{""parameter"": ""Thời gian tập phục hồi"", ""min_value"": 3, ""unit"": ""tháng""}",02_dieutri.txt,2026-08-21T16:40:39.898Z
+Measurement:paco2 < 50 mm hg,áp suất riêng phần của carbon dioxide động mạch (PaCO2) < 50 mm Hg,PaCO2 < 50 mm Hg,Measurement,,,Thông số: PaCO2; Giá trị: <50 mm Hg; max_value: 50,"{""parameter"": ""PaCO2"", ""max_value"": 50, ""operator"": ""<"", ""unit"": ""mm Hg"", ""value"": 50}",02_dieutri.txt,2026-08-21T16:40:41.04Z
+Measurement:pao2 < 55 mmhg,áp suất riêng phần oxy động mạch (PaO2) thường xuyên < 55 mm Hg,PaO2 < 55 mmHg,Measurement,,,Thông số: PaO2; Giá trị: <55 mmHg,"{""parameter"": ""PaO2"", ""value"": 55, ""unit"": ""mmHg"", ""operator"": ""<""}",02_dieutri.txt,2026-08-21T16:40:36.173Z
+Measurement:tốc độ đi bộ mục tiêu: 1.6 - 3.2 km/giờ,"đi bộ trong 30 phút ở tốc độ 1 đến 2 mph (1,6 đến 3,2 km/giờ)",Tốc độ đi bộ mục tiêu: 1.6 - 3.2 km/giờ,Measurement,,,Thông số: Tốc độ đi bộ; min_value: 1.6; max_value: 3.2,"{""parameter"": ""Tốc độ đi bộ"", ""min_value"": 1.6, ""max_value"": 3.2, ""unit"": ""km/giờ""}",02_dieutri.txt,2026-08-21T16:40:40.295Z
+"Measurement:chế độ đi bộ: 30 phút, tốc độ 1.6 - 3.2 km/giờ","đi bộ trong 30 phút ở tốc độ 1 đến 2 mph (1,6 đến 3,2 km/giờ)","Chế độ đi bộ: 30 phút, tốc độ 1.6 - 3.2 km/giờ",Measurement,,,Thông số: Chế độ đi bộ; duration: 30; unit_duration: phút; min_value: 1.6; max_value: 3.2; unit_speed: km/giờ,"{""parameter"": ""Chế độ đi bộ"", ""duration"": 30, ""unit_duration"": ""phút"", ""min_value"": 1.6, ""max_value"": 3.2, ""unit_speed"": ""km/giờ""}",02_dieutri.txt,2026-08-21T16:40:44.438Z
+Measurement:độ bão hòa oxy > 90%,độ bão hòa oxy > 90%,Độ bão hòa oxy > 90%,Measurement,,,Thông số: Độ bão hòa oxy; Giá trị: >90 %,"{""parameter"": ""Độ bão hòa oxy"", ""value"": 90, ""unit"": ""%"", ""operator"": "">""}",02_dieutri.txt,2026-08-21T16:40:37.948Z
+CUI:C0037763,co thắt cơ,Co thắt cơ,Mechanism,C0037763,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T16:40:34.502Z
+Mechanism:giãn cơ trơn phế quản,giãn cơ trơn phế quản,Giãn cơ trơn phế quản,Mechanism,,,,{},02_dieutri.txt,2026-08-21T16:40:32.046Z
+CUI:C0020440,tăng Khí carbonic,Tăng khí carbonic,Mechanism,C0020440,Finding,,{},02_dieutri.txt,2026-08-21T03:24:23.17Z
+CUI:C1456820,yếu tố hoại tử khối u (TNF)-alpha,TNF-alpha,Mechanism,C1456820,Pathologic Function / Physiologic Function,,{},02_dieutri.txt,2026-08-21T03:24:23.599Z
+CUI:C0024119,chức năng sinh lý phổi,Chức năng phổi,Organ,C0024119,"Body Part, Organ, or Organ Component",,{},02_dieutri.txt,2026-08-21T16:40:28.435Z
+CUI:C0011980,cơ hoành,Cơ hoành,Organ,C0011980,"Body Part, Organ, or Organ Component",,{},02_dieutri.txt,2026-08-21T16:40:40.808Z
+CUI:C4517314,mạch máu phổi,Mạch máu phổi,Organ,C4517314,"Body Part, Organ, or Organ Component",,{},02_dieutri.txt,2026-08-21T16:40:43.362Z
+CUI:C0024109,phổi,Phổi,Organ,C0024109,"Body Part, Organ, or Organ Component",,{},02_dieutri.txt,2026-08-20T15:58:28.587Z
+CUI:C0225883,tâm thất phải,Tâm thất phải,Organ,C0225883,"Body Part, Organ, or Organ Component",,{},02_dieutri.txt,2026-08-21T16:40:43.278Z
+CUI:C0017398,di truyền,Di truyền,RiskFactor,C0017398,Biomedical Occupation or Discipline,,{},02_dieutri.txt,2026-08-20T14:17:01.406Z
+CUI:C0453996,hút thuốc,Hút thuốc lá,RiskFactor,C0453996,Individual Behavior,,{},02_dieutri.txt,2026-08-20T15:58:31.328Z
+CUI:C0337672,không hút thuốc,Không hút thuốc,RiskFactor,C0337672,Finding,,{},02_dieutri.txt,2026-08-21T16:40:36.233Z
+CUI:C0543414,thuốc lá,Thuốc lá,RiskFactor,C0543414,Finding / Individual Behavior,,{},02_dieutri.txt,2026-08-21T16:40:42.714Z
+RiskFactor:yếu tố tâm thần kinh,yếu tố tâm thần kinh,Yếu tố tâm thần kinh,RiskFactor,,,,{},02_dieutri.txt,2026-08-21T16:40:36.31Z
+CUI:C0014457,tăng bạch cầu ái toan,Tăng bạch cầu ái toan,Sign,C0014457,Finding,,{},02_dieutri.txt,2026-08-21T16:40:33.416Z
+CUI:C0027497,buồn nôn,Buồn nôn,Symptom,C0027497,Sign or Symptom,,{},02_dieutri.txt,2026-08-20T15:59:11.12Z
+CUI:C5203233,giảm cân,Giảm cân,Symptom,C5203233,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T16:40:35.748Z
+CUI:C0018681,nhức đầu,Nhức đầu,Symptom,C0018681,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T14:27:03.706Z
+CUI:C0004093,suy nhược,Suy nhược,Symptom,C0004093,Sign or Symptom,,{},02_dieutri.txt,2026-08-21T16:40:43.206Z
+Symptom:thay đổi thị lực ban đêm,thay đổi thị lực ban đêm,Thay đổi thị lực ban đêm,Symptom,,,,{},02_dieutri.txt,2026-08-21T16:40:33.911Z
+CUI:C0849974,FEV1,Thể tích thở ra gắng sức trong giây đầu tiên (FEV1),Test,C0849974,Diagnostic Procedure,,{},02_dieutri.txt,2026-08-21T03:24:26.11Z
+CUI:C0039985,Phim chụp X-quang ngực,X-quang ngực,Test,C0039985,Diagnostic Procedure / Laboratory Procedure,,{},02_dieutri.txt,2026-08-21T03:24:25.906Z
+Test:x-quang ngực và ct,Phim chụp X-quang ngực và chụp CT,X-quang ngực và CT,Test,,,,{},02_dieutri.txt,2026-08-21T16:40:44.791Z
+CUI:C0040405,chụp CT,Chụp CT,Test,C0040405,Diagnostic Procedure / Laboratory Procedure,,{},02_dieutri.txt,2026-08-21T06:17:30.464Z
+CUI:C0200157,kiểm tra nhãn khoa,Kiểm tra nhãn khoa,Test,C0200157,Diagnostic Procedure,,{},02_dieutri.txt,2026-08-21T16:40:33.826Z
+CUI:C0162701,nghiên cứu về giấc ngủ,Nghiên cứu giấc ngủ,Test,C0162701,Diagnostic Procedure,,{},02_dieutri.txt,2026-08-21T06:17:30.111Z
+Test:test giãn phế quản,test giãn phế quản,Test giãn phế quản,Test,,,,{},02_dieutri.txt,2026-08-21T16:40:42.035Z
+CUI:C0483415,Độ bão hòa oxy,Độ bão hòa oxy,Test,C0483415,Clinical Attribute,,{},02_dieutri.txt,2026-08-21T16:40:36.472Z
+CUI:C0177804,đo mật độ xương,Đo mật độ xương,Test,C0177804,Diagnostic Procedure,,{},02_dieutri.txt,2026-08-21T16:40:33.676Z
+CUI:C0006290,ống soi phế quản,Nội soi phế quản,Test,C0006290,Health Care Activity,,{},02_dieutri.txt,2026-08-21T16:40:41.666Z
+CUI:C0221874,Bình đệm,Buồng đệm,Treatment,C0221874,Medical Device,,{},02_dieutri.txt,2026-08-21T16:40:30.91Z
+CUI:C0242295,Bổ sung dinh dưỡng,Bổ sung dinh dưỡng,Treatment,C0242295,Food,,{},02_dieutri.txt,2026-08-21T16:40:44.099Z
+CUI:C0085134,Cai thuốc lá,Cai thuốc lá,Treatment,C0085134,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T03:24:31.412Z
+CUI:C0515109,Chia nhỏ bữa ăn,Chia nhỏ bữa ăn,Treatment,C0515109,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:39.533Z
+Treatment:liệu pháp azithromycin kéo dài,Liệu pháp azithromycin kéo dài,Liệu pháp azithromycin kéo dài,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:35.865Z
+CUI:C0418996,Liệu pháp oxy dài hạn,Liệu pháp oxy dài hạn,Treatment,C0418996,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:36.098Z
+Treatment:máy chiết suất oxy điện tử,Máy chiết suất oxy điện tử,Máy chiết suất oxy điện tử,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:38.08Z
+CUI:C0543467,Phẫu thuật,Phẫu thuật,Treatment,C0543467,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T15:23:36.798Z
+CUI:C4039961,Thở oxy về đêm,Liệu pháp oxy về đêm,Treatment,C4039961,Finding,,{},02_dieutri.txt,2026-08-21T16:40:43.624Z
+Treatment:tập luyện kháng lực chi trên,Tập luyện với kháng lực chi trên,Tập luyện kháng lực chi trên,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:40.551Z
+Treatment:tập luyện với kháng lực chi trên,Tập luyện với kháng lực chi trên,Tập luyện với kháng lực chi trên,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:44.562Z
+CUI:C3880733,Van nội phế quản,Van nội phế quản,Treatment,C3880733,Medical Device,,{},02_dieutri.txt,2026-08-21T16:40:41.595Z
+CUI:C0887894,Vắc xin vi rút hợp bào hô hấp (RSV),Vắc-xin RSV,Treatment,C0887894,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:38.995Z
+CUI:C0993596,bình xịt định liều,Bình xịt định liều,Treatment,C0993596,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T07:13:35.188Z
+CUI:C0452410,chế độ ăn uống cân bằng,Chế độ ăn uống cân bằng,Treatment,C0452410,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:39.39Z
+CUI:C0337081,các bình khí nén,Bình khí nén,Treatment,C0337081,Substance,,{},02_dieutri.txt,2026-08-21T16:40:38.201Z
+Treatment:hệ thống oxy lỏng,các hệ thống oxy lỏng,Hệ thống oxy lỏng,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:38.139Z
+CUI:C0242739,dinh dưỡng,Dinh dưỡng,Treatment,C0242739,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:42.579Z
+CUI:C0027524,máy khí dung,Máy khí dung,Treatment,C0027524,Medical Device,,{},02_dieutri.txt,2026-08-21T16:40:30.467Z
+CUI:C1618343,máy tạo oxy di động,Máy tạo oxy di động,Treatment,C1618343,Medical Device,,{},02_dieutri.txt,2026-08-21T16:40:37.505Z
+CUI:C0162648,mô hình telehealth,Telehealth,Treatment,C0162648,Health Care Activity,,{},02_dieutri.txt,2026-08-21T16:40:44.626Z
+CUI:C0009429,nhiều chiến lược,Đa chiến lược điều trị,Treatment,C0009429,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:28.978Z
+Treatment:nhiều chiến lược điều trị,nhiều chiến lược,Nhiều chiến lược điều trị,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:42.781Z
+CUI:C0036606,nhóm hỗ trợ,Nhóm hỗ trợ,Treatment,C0036606,Self-help or Relief Organization,,{},02_dieutri.txt,2026-08-21T16:40:44.852Z
+Treatment:kỹ thuật hít vào sâu nhanh chóng,nỗ lực hít vào sâu nhanh chóng,Kỹ thuật hít vào sâu nhanh chóng,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:43.058Z
+CUI:C5962720,oxy bổ sung,Liệu pháp oxy bổ sung,Treatment,C5962720,Intellectual Product,,{},02_dieutri.txt,2026-08-21T16:40:37.446Z
+CUI:C4534306,oxy bổ sung,Oxy bổ sung,Treatment,C4534306,Finding,,{},02_dieutri.txt,2026-08-21T16:40:40.49Z
+CUI:C0024128,phẫu thuật,Phẫu thuật ghép phổi,Treatment,C0024128,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:28.779Z
+CUI:C6009625,phẫu thuật cắt bỏ các kén khí,Phẫu thuật cắt bỏ kén khí,Treatment,C6009625,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:41.301Z
+CUI:C0199529,phục hồi chức năng hô hấp,Phục hồi chức năng hô hấp,Treatment,C0199529,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T03:24:31.747Z
+CUI:C4042802,phục hồi chức năng ảo,Phục hồi chức năng ảo,Treatment,C4042802,Health Care Activity,,{},02_dieutri.txt,2026-08-21T16:40:40.611Z
+CUI:C1278444,thay thế nicotin,Liệu pháp thay thế nicotin,Treatment,C1278444,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:29.064Z
+CUI:C0004933,thay đổi hành vi,Thay đổi hành vi,Treatment,C0004933,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:42.519Z
+CUI:C3665674,thở oxy,Liệu pháp oxy,Treatment,C3665674,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T03:24:31.823Z
+Treatment:thở ra hết dung tích cặn chức năng,thở ra hết dung tích cặn chức năng,Thở ra hết dung tích cặn chức năng,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:30.748Z
+CUI:C0524689,thủ thuật làm giảm thể tích phổi,Phẫu thuật giảm thể tích phổi,Treatment,C0524689,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T03:24:18.832Z
+CUI:C0006290,thủ thuật nội soi phế quản,Thủ thuật nội soi phế quản,Treatment,C0006290,Health Care Activity,,{},02_dieutri.txt,2026-08-21T16:40:41.787Z
+CUI:C0042200,tiêm phòng cúm,Tiêm phòng cúm,Treatment,C0042200,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:38.413Z
+CUI:C4763973,tạo điều kiện cho giấc ngủ,Cải thiện giấc ngủ,Treatment,C4763973,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:36.394Z
+CUI:C0015259,tập thể dục,Tập thể dục,Treatment,C0015259,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-20T14:17:09.879Z
+CUI:C0001701,tập thể dục nhịp điệu,Tập thể dục nhịp điệu,Treatment,C0001701,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-20T15:59:04.906Z
+Treatment:tự tập thể dục,tự tập thể dục,Tự tập thể dục,Treatment,,,,{},02_dieutri.txt,2026-08-21T16:40:42.656Z
+CUI:C5400806,vắc xin phòng COVID-19,Vắc-xin COVID-19,Treatment,C5400806,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-21T16:40:39.117Z
+CUI:C0358314,vắc-xin phế cầu khuẩn,Vắc-xin phế cầu khuẩn,Treatment,C0358314,Pharmacologic Substance,,{},02_dieutri.txt,2026-08-20T15:59:20.31Z
+CUI:C3853847,Ống thuốc hít dạng bột khô,Ống thuốc hít dạng bột khô,Treatment,C3853847,Biomedical or Dental Material,,{},02_dieutri.txt,2026-08-21T16:40:30.407Z
+CUI:C0021079,Ức chế miễn dịch,Ức chế miễn dịch,Treatment,C0021079,Therapeutic or Preventive Procedure,,{},02_dieutri.txt,2026-08-21T16:40:42.174Z
